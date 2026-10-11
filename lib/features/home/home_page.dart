@@ -183,6 +183,7 @@ class _ReflectionBlock extends StatefulWidget {
 class _ReflectionBlockState extends State<_ReflectionBlock> {
   final ContentRepository _repo = LocalContentRepository();
   late Future<List<ContentItem>> _future;
+  // ignore: prefer_final_fields
   int _page = 0;
 
   @override
