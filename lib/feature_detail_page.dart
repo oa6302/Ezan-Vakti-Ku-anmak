@@ -1,7 +1,7 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'main.dart';
+import 'app/theme.dart';
 
 class FeatureDetailPage extends StatefulWidget {
   final String title;
