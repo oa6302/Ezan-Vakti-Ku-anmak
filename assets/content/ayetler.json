@@ -25,5 +25,14 @@
     "kaynak": "Bakara Suresi, 152. Ayet",
     "tefekkur": "Zikir, Allah ile kurulan canlı bir bağdır.",
     "etiketler": ["zikir", "şükür"]
+  },
+  {
+    "id": "ayet_004",
+    "kategori": "tevekkul",
+    "baslik": "Tevekkül Edenlere Yeter",
+    "metin": "Kim Allah'a tevekkül ederse, O ona kâfidir.",
+    "kaynak": "Talâk Suresi, 3. Ayet",
+    "tefekkur": "Tevekkül, sebeplere sarıldıktan sonra sonucu Allah'a bırakmaktır.",
+    "etiketler": ["tevekkül", "güven"]
   }
 ]

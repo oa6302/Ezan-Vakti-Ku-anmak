@@ -2,8 +2,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:speech_to_text/speech_to_text.dart' as stt;
-import 'core/widgets/content_card.dart';
+import 'core/widgets/content_list_view.dart';
+import 'features/home/voice_guide_card.dart';
 import 'app/theme.dart';
 
 void main() => runApp(const NurPusulasiApp());
@@ -123,43 +123,28 @@ class HomePage extends StatelessWidget {
                 title: 'Günün manevi pusulası',
                 subtitle: 'Bir ayet, bir hikmet, bir adım'),
             const SizedBox(height: 12),
-            const ContentCard(
+            ContentListView(
+              category: 'ayetler',
+              accent: navy,
               icon: Icons.menu_book_rounded,
-              tag: 'GÜNÜN AYETİ',
-              title: 'Şüphesiz güçlükle beraber bir kolaylık vardır.',
-              description:
-                  'İnşirah Suresi, 94:5–6. Ayetler',
-              source:
-                  'Kur’an-ı Kerim, İnşirah Suresi, 94:5–6. Ayetler. Meal için Diyanet Kur’an portalına başvurulabilir.',
-              reflection:
-                  'İnsan sıkıntı içindeyken imkânları göremeyebilir. Sabır, gayret ve Allah’a tevekkül, zorluğa yalnızca geçici bir durum olarak bakmaya yardımcı olabilir. Bu bölüm ayetin yerine geçen bir tefsir değil, özgün bir düşünme notudur.',
-              accent: navy,
+              tagPrefix: 'GÜNÜN AYETİ',
+              maxItems: 1,
             ),
             const SizedBox(height: 12),
-            const ContentCard(
-              icon: Icons.link_rounded,
-              tag: 'GÜNÜN HADİSİ',
-              title: 'Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.',
-              description:
-                  'İnsanlarla iletişimde kolaylık, anlayış ve güzel üslup',
-              source:
-                  'Sahih al-Buhârî, Hadis 69. Türkçe ifade çeviridir; yayımdan önce tercih edilen hadis neşriyle karşılaştırılmalıdır.',
-              reflection:
-                  'Güzel iletişim yalnızca söylenen sözle değil, sözün karşı tarafta nasıl bir etki bıraktığıyla da ilgilidir. Kolaylaştırmak, hakikatten vazgeçmek değil; onu hikmetli ve anlaşılır bir dille sunmaya çalışmaktır.',
+            ContentListView(
+              category: 'hadisler',
               accent: red,
+              icon: Icons.link_rounded,
+              tagPrefix: 'GÜNÜN HADİSİ',
+              maxItems: 1,
             ),
             const SizedBox(height: 12),
-            const ContentCard(
-              icon: Icons.auto_awesome_rounded,
-              tag: 'RİSALE-İ NUR’DAN TEFEKKÜR',
-              title: 'Sabır ve musibet karşısında dayanma',
-              description:
-                  'Lem’alar, İkinci Lem’a: Hz. Eyyûb kıssası etrafındaki bahis',
-              source:
-                  'Bediüzzaman Said Nursî, Lem’alar, İkinci Lem’a. Burada doğrudan eser alıntısı değil, ilgili bahisle bağlantılı özgün bir düşünme notu sunulmaktadır.',
-              reflection:
-                  'Sabır, acıyı yok saymak değildir. İnsanın elinden geleni yaparken ümidini koruması, sıkıntıyı bütün hayatın anlamı hâline getirmemesi ve dayanma gücünü beslemesi üzerinde düşünülebilir.',
+            ContentListView(
+              category: 'vecizeler',
               accent: navy,
+              icon: Icons.auto_awesome_rounded,
+              tagPrefix: 'GÜNÜN TEFEKKÜRÜ',
+              maxItems: 1,
             ),
             const SizedBox(height: 20),
 
@@ -188,146 +173,6 @@ class HomePage extends StatelessWidget {
   }
 }
 
-class VoiceGuideCard extends StatefulWidget {
-  const VoiceGuideCard({super.key});
-  @override
-  State<VoiceGuideCard> createState() => _VoiceGuideCardState();
-}
-
-class _VoiceGuideCardState extends State<VoiceGuideCard> {
-  final stt.SpeechToText _speech = stt.SpeechToText();
-  final TextEditingController _controller = TextEditingController();
-  bool _listening = false;
-  String _answer =
-      'Sesli veya yazılı sorunu sor. Kaynak temelli cevap altyapısı sonraki fazda bağlanacak.';
-
-  Future<void> _listen() async {
-    if (_listening) {
-      await _speech.stop();
-      if (mounted) setState(() => _listening = false);
-      return;
-    }
-    final available = await _speech.initialize(
-      onStatus: (status) {
-        if (status == 'notListening' && mounted) {
-          setState(() => _listening = false);
-        }
-      },
-      onError: (_) {
-        if (mounted) setState(() => _listening = false);
-      },
-    );
-    if (!available) {
-      if (mounted) {
-        setState(() => _answer =
-            'Bu cihazda konuşma tanıma kullanılamıyor. Mikrofon iznini ve Türkçe dil desteğini kontrol et.');
-      }
-      return;
-    }
-    setState(() => _listening = true);
-    await _speech.listen(
-      listenOptions: stt.SpeechListenOptions(
-        localeId: 'tr_TR',
-      ),
-      onResult: (result) {
-        if (mounted) {
-          setState(() {
-            _controller.text = result.recognizedWords;
-          });
-        }
-      },
-    );
-  }
-
-  void _ask() {
-    final q = _controller.text.trim();
-    setState(() {
-      _answer = q.isEmpty
-          ? 'Önce bir soru yaz veya mikrofonla söyle.'
-          : 'Sorun alındı: “$q”\\n\\nBu başlangıç paketinde cevap motoru henüz bağlı değil. Gerçek sürümde doğrulanmış kaynak kütüphanesi ve güvenli yapay zekâ servisi bağlanmalıdır.';
-    });
-  }
-
-  @override
-  void dispose() {
-    _speech.stop();
-    _controller.dispose();
-    super.dispose();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Card(
-      clipBehavior: Clip.antiAlias,
-      child: Container(
-        decoration: const BoxDecoration(
-            gradient: LinearGradient(
-          colors: [navy, navyDeep],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        )),
-        padding: const EdgeInsets.all(18),
-        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          const Row(children: [
-            CircleAvatar(
-                backgroundColor: Colors.white24,
-                child: Icon(Icons.graphic_eq_rounded, color: Colors.white)),
-            SizedBox(width: 10),
-            Expanded(
-                child: Text('Pusulaya sor',
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.w900,
-                        fontSize: 20))),
-            Icon(Icons.auto_awesome_rounded, color: Color(0xFFFFD8DE)),
-          ]),
-          const SizedBox(height: 8),
-          const Text(
-              'Sesli sor, yazılı sor; güvenilir kaynaklara dayalı rehberlik al.',
-              style: TextStyle(color: Colors.white70, height: 1.4)),
-          const SizedBox(height: 14),
-          TextField(
-            controller: _controller,
-            style: const TextStyle(color: navy),
-            decoration: InputDecoration(
-              hintText: 'Örn. Sabır hakkında ayet ve hadis göster…',
-              filled: true,
-              fillColor: Colors.white,
-              prefixIcon:
-                  const Icon(Icons.chat_bubble_outline_rounded, color: navy),
-              suffixIcon: IconButton(
-                tooltip: _listening ? 'Dinlemeyi durdur' : 'Sesli soru sor',
-                onPressed: _listen,
-                icon: Icon(
-                    _listening ? Icons.stop_circle_rounded : Icons.mic_rounded,
-                    color: red),
-              ),
-              border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(16),
-                  borderSide: BorderSide.none),
-            ),
-            onSubmitted: (_) => _ask(),
-          ),
-          const SizedBox(height: 10),
-          SizedBox(
-              width: double.infinity,
-              child: FilledButton.icon(
-                style: FilledButton.styleFrom(
-                    backgroundColor: red,
-                    foregroundColor: Colors.white,
-                    padding: const EdgeInsets.symmetric(vertical: 13)),
-                onPressed: _ask,
-                icon: const Icon(Icons.send_rounded),
-                label: const Text('Soruyu gönder'),
-              )),
-          const SizedBox(height: 12),
-          Text(_answer,
-              style: const TextStyle(color: Colors.white, height: 1.5)),
-        ]),
-      ),
-    );
-  }
-}
 
 class NextPrayerCard extends StatelessWidget {
   const NextPrayerCard({super.key});
