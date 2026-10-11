@@ -3,6 +3,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'core/widgets/content_list_view.dart';
+import 'core/widgets/section_heading.dart';
+import 'features/home/next_prayer_card.dart';
 import 'features/home/voice_guide_card.dart';
 import 'app/theme.dart';
 
@@ -173,82 +175,6 @@ class HomePage extends StatelessWidget {
   }
 }
 
-
-class NextPrayerCard extends StatelessWidget {
-  const NextPrayerCard({super.key});
-  @override
-  Widget build(BuildContext context) => Card(
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Row(children: [
-            Container(
-                padding: const EdgeInsets.all(13),
-                decoration: BoxDecoration(
-                    color: red.withValues(alpha: .1),
-                    borderRadius: BorderRadius.circular(16)),
-                child: const Icon(Icons.access_time_filled_rounded,
-                    color: red, size: 28)),
-            const SizedBox(width: 13),
-            const Expanded(
-                child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                  Text('NAMAZ VAKİTLERİ',
-                      style: TextStyle(
-                          fontSize: 11,
-                          color: Colors.black54,
-                          fontWeight: FontWeight.bold,
-                          letterSpacing: 1)),
-                  SizedBox(height: 4),
-                  Text('Şehrini seçerek vakitleri ayarla',
-                      style: TextStyle(
-                          fontSize: 16,
-                          color: navy,
-                          fontWeight: FontWeight.w800)),
-                  Text('Canlı vakit hesabı henüz bağlanmadı',
-                      style: TextStyle(fontSize: 12, color: Colors.black54)),
-                ])),
-            const Icon(Icons.chevron_right_rounded, color: navy),
-          ]),
-        ),
-      );
-}
-
-class SectionHeading extends StatelessWidget {
-  final IconData icon;
-  final String title;
-  final String subtitle;
-  const SectionHeading(
-      {super.key,
-      required this.icon,
-      required this.title,
-      required this.subtitle});
-  @override
-  Widget build(BuildContext context) => Row(children: [
-        Container(
-            padding: const EdgeInsets.all(10),
-            decoration: BoxDecoration(
-                color: navy,
-                borderRadius: BorderRadius.circular(13),
-                boxShadow: [
-                  BoxShadow(
-                      color: navy.withValues(alpha: .18),
-                      blurRadius: 10,
-                      offset: const Offset(0, 4))
-                ]),
-            child: Icon(icon, color: Colors.white, size: 22)),
-        const SizedBox(width: 11),
-        Expanded(
-            child:
-                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Text(title,
-              style: const TextStyle(
-                  fontSize: 18, fontWeight: FontWeight.w900, color: navy)),
-          Text(subtitle,
-              style: const TextStyle(fontSize: 12, color: Colors.black54)),
-        ])),
-      ]);
-}
 
 class QuickChip extends StatelessWidget {
   final IconData icon;
