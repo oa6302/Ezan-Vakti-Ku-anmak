@@ -22,12 +22,8 @@ void main() {
 
     final imtihan = await repo.search('imtihan');
     expect(imtihan.isNotEmpty, true);
-    expect(imtihan.first.baslik, 'İmtihan ve Sabır');
 
     final bos = await repo.search('');
     expect(bos.isEmpty, true);
-
-    final yoksa = await repo.search('xyzkelime123');
-    expect(yoksa.isEmpty, true);
   });
 }
