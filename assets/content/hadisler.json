@@ -1,92 +1,244 @@
 [
-  {
-    "id": "hadis_001",
-    "kategori": "niyet",
-    "baslik": "Ameller Niyetlere Göredir",
-    "metin": "Ameller ancak niyetlere göredir. Herkese ancak niyet ettiği şey vardır.",
-    "kaynak": "Buhârî, Bed'ü'l-Vahy, 1; Müslim, İmâre, 155",
-    "tefekkur": "Bir işin değeri, niyetinin saflığıyla ölçülür.",
-    "etiketler": ["niyet", "ihlas"]
-  },
-  {
-    "id": "hadis_002",
-    "kategori": "davet",
-    "baslik": "Kolaylaştırın, Zorlaştırmayın",
-    "metin": "Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.",
-    "kaynak": "Buhârî, İlim, 11; Müslim, Cihâd, 6",
-    "tefekkur": "Güzel iletişim, hakikatten vazgeçmek değil; onu hikmetle sunmaktır.",
-    "etiketler": ["davet", "kolaylık", "müjde"]
-  },
-  {
-    "id": "hadis_003",
-    "kategori": "ahlak",
-    "baslik": "En Güzel Ahlak",
-    "metin": "Ben, güzel ahlakı tamamlamak için gönderildim.",
-    "kaynak": "Muvatta, Hüsnü'l-Hulk, 8",
-    "tefekkur": "Ahlak, dinin özüdür; ibadetler ahlakı güzelleştirmek içindir.",
-    "etiketler": ["ahlak", "sünnet"]
-  },
-  {
-    "id": "hadis_004",
-    "kategori": "komsuluk",
-    "baslik": "Komşu Hakkı",
-    "metin": "Cebrail bana komşu hakkını o kadar çok tavsiye etti ki, komşunun komşuya mirasçı olacağını zannettim.",
-    "kaynak": "Buhârî, Edeb, 28",
-    "tefekkur": "Komşuluk, İslam toplumunun en küçük yapı taşıdır.",
-    "etiketler": ["komşu", "hak", "toplum"]
-  },
-  {
-    "id": "hadis_005",
-    "kategori": "aile",
-    "baslik": "Anne Babaya İyilik",
-    "metin": "Anne babasına iyilik eden, Allah'ın rızasını kazanır. Onların rızası, Rabbin rızasıdır.",
-    "kaynak": "Tirmizî, Birr, 3",
-    "tefekkur": "Cennet, anne babanın ayağı altındadır.",
-    "etiketler": ["aile", "anne baba", "rıza"]
-  },
-  {
-    "id": "hadis_006",
-    "kategori": "ilim",
-    "baslik": "İlim Yolunda",
-    "metin": "Kim ilim tahsil etmek için bir yola girerse, Allah ona cennete giden yolu kolaylaştırır.",
-    "kaynak": "Müslim, Zikir, 38; Tirmizî, İlim, 2",
-    "tefekkur": "İlim talebi, cennete giden yolda yürümektir.",
-    "etiketler": ["ilim", "cennet", "talep"]
-  },
-  {
-    "id": "hadis_007",
-    "kategori": "sadaka",
-    "baslik": "Sadaka Belayı Def Eder",
-    "metin": "Sadaka, belayı def eder ve ömrü uzatır.",
-    "kaynak": "Tirmizî, Zekât, 5",
-    "tefekkur": "Vermek, korunmanın bir yoludur.",
-    "etiketler": ["sadaka", "infak", "koruma"]
-  },
-  {
-    "id": "hadis_008",
-    "kategori": "selam",
-    "baslik": "Selamı Yaygınlaştırın",
-    "metin": "İman etmedikçe cennete giremezsiniz. Birbirinizi sevmedikçe de (kâmil manada) iman etmiş olmazsınız. Selamı aranızda yaygınlaştırın.",
-    "kaynak": "Müslim, Îmân, 93",
-    "tefekkur": "Selam, sevginin ve imanın ilk adımıdır.",
-    "etiketler": ["selam", "iman", "sevgi"]
-  },
-  {
-    "id": "hadis_009",
-    "kategori": "temizlik",
-    "baslik": "Temizlik İmandandır",
-    "metin": "Temizlik imandandır.",
-    "kaynak": "Müslim, Tahâret, 1",
-    "tefekkur": "Maddi temizlik, manevi temizliğin bir yansımasıdır.",
-    "etiketler": ["temizlik", "iman"]
-  },
-  {
-    "id": "hadis_010",
-    "kategori": "dogruluk",
-    "baslik": "Yalan ve Doğruluk",
-    "metin": "Doğruluk iyiliğe, iyilik de cennete götürür. Yalan ise kötülüğe, kötülük de cehenneme götürür.",
-    "kaynak": "Buhârî, Edeb, 69; Müslim, Birr, 105",
-    "tefekkur": "Doğruluk, kurtuluşun yoludur.",
-    "etiketler": ["doğruluk", "yalan", "ahlak"]
-  }
+    {
+        "id":  "hadis_001",
+        "kategori":  "niyet",
+        "baslik":  "Ameller Niyetlere Göredir",
+        "metin":  "Ameller ancak niyetlere göredir. Herkese ancak niyet ettiği şey vardır.",
+        "kaynak":  "Buhârî, Bed\u0027ü\u0027l-Vahy, 1; Müslim, İmâre, 155",
+        "tefekkur":  "Bir işin değeri, niyetinin saflığıyla ölçülür.",
+        "etiketler":  [
+                          "niyet",
+                          "ihlas"
+                      ]
+    },
+    {
+        "id":  "hadis_002",
+        "kategori":  "davet",
+        "baslik":  "Kolaylaştırın, Zorlaştırmayın",
+        "metin":  "Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.",
+        "kaynak":  "Buhârî, İlim, 11; Müslim, Cihâd, 6",
+        "tefekkur":  "Güzel iletişim, hakikatten vazgeçmek değil; onu hikmetle sunmaktır.",
+        "etiketler":  [
+                          "davet",
+                          "kolaylık",
+                          "müjde"
+                      ]
+    },
+    {
+        "id":  "hadis_003",
+        "kategori":  "ahlak",
+        "baslik":  "En Güzel Ahlak",
+        "metin":  "Ben, güzel ahlakı tamamlamak için gönderildim.",
+        "kaynak":  "Muvatta, Hüsnü\u0027l-Hulk, 8",
+        "tefekkur":  "Ahlak, dinin özüdür; ibadetler ahlakı güzelleştirmek içindir.",
+        "etiketler":  [
+                          "ahlak",
+                          "sünnet"
+                      ]
+    },
+    {
+        "id":  "hadis_004",
+        "kategori":  "komsuluk",
+        "baslik":  "Komşu Hakkı",
+        "metin":  "Cebrail bana komşu hakkını o kadar çok tavsiye etti ki, komşunun komşuya mirasçı olacağını zannettim.",
+        "kaynak":  "Buhârî, Edeb, 28",
+        "tefekkur":  "Komşuluk, İslam toplumunun en küçük yapı taşıdır.",
+        "etiketler":  [
+                          "komşu",
+                          "hak",
+                          "toplum"
+                      ]
+    },
+    {
+        "id":  "hadis_005",
+        "kategori":  "aile",
+        "baslik":  "Anne Babaya İyilik",
+        "metin":  "Anne babasına iyilik eden, Allah\u0027ın rızasını kazanır. Onların rızası, Rabbin rızasıdır.",
+        "kaynak":  "Tirmizî, Birr, 3",
+        "tefekkur":  "Cennet, anne babanın ayağı altındadır.",
+        "etiketler":  [
+                          "aile",
+                          "anne baba",
+                          "rıza"
+                      ]
+    },
+    {
+        "id":  "hadis_006",
+        "kategori":  "ilim",
+        "baslik":  "İlim Yolunda",
+        "metin":  "Kim ilim tahsil etmek için bir yola girerse, Allah ona cennete giden yolu kolaylaştırır.",
+        "kaynak":  "Müslim, Zikir, 38; Tirmizî, İlim, 2",
+        "tefekkur":  "İlim talebi, cennete giden yolda yürümektir.",
+        "etiketler":  [
+                          "ilim",
+                          "cennet",
+                          "talep"
+                      ]
+    },
+    {
+        "id":  "hadis_007",
+        "kategori":  "sadaka",
+        "baslik":  "Sadaka Belayı Def Eder",
+        "metin":  "Sadaka, belayı def eder ve ömrü uzatır.",
+        "kaynak":  "Tirmizî, Zekât, 5",
+        "tefekkur":  "Vermek, korunmanın bir yoludur.",
+        "etiketler":  [
+                          "sadaka",
+                          "infak",
+                          "koruma"
+                      ]
+    },
+    {
+        "id":  "hadis_008",
+        "kategori":  "selam",
+        "baslik":  "Selamı Yaygınlaştırın",
+        "metin":  "İman etmedikçe cennete giremezsiniz. Birbirinizi sevmedikçe de (kâmil manada) iman etmiş olmazsınız. Selamı aranızda yaygınlaştırın.",
+        "kaynak":  "Müslim, Îmân, 93",
+        "tefekkur":  "Selam, sevginin ve imanın ilk adımıdır.",
+        "etiketler":  [
+                          "selam",
+                          "iman",
+                          "sevgi"
+                      ]
+    },
+    {
+        "id":  "hadis_009",
+        "kategori":  "temizlik",
+        "baslik":  "Temizlik İmandandır",
+        "metin":  "Temizlik imandandır.",
+        "kaynak":  "Müslim, Tahâret, 1",
+        "tefekkur":  "Maddi temizlik, manevi temizliğin bir yansımasıdır.",
+        "etiketler":  [
+                          "temizlik",
+                          "iman"
+                      ]
+    },
+    {
+        "id":  "hadis_010",
+        "kategori":  "dogruluk",
+        "baslik":  "Yalan ve Doğruluk",
+        "metin":  "Doğruluk iyiliğe, iyilik de cennete götürür. Yalan ise kötülüğe, kötülük de cehenneme götürür.",
+        "kaynak":  "Buhârî, Edeb, 69; Müslim, Birr, 105",
+        "tefekkur":  "Doğruluk, kurtuluşun yoludur.",
+        "etiketler":  [
+                          "doğruluk",
+                          "yalan",
+                          "ahlak"
+                      ]
+    },
+    {
+        "id":  "hadis_002",
+        "kategori":  "davet",
+        "baslik":  "Kolaylaştırın, Zorlaştırmayın",
+        "metin":  "Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.",
+        "kaynak":  "Buhârî, İlim, 11; Müslim, Cihâd, 6",
+        "tefekkur":  "Güzel iletişim, hakikatten vazgeçmek değil; onu hikmetle sunmaktır.",
+        "etiketler":  [
+                          "davet",
+                          "kolaylık",
+                          "müjde"
+                      ]
+    },
+    {
+        "id":  "hadis_003",
+        "kategori":  "ahlak",
+        "baslik":  "En Güzel Ahlak",
+        "metin":  "Ben, güzel ahlakı tamamlamak için gönderildim.",
+        "kaynak":  "Muvatta, Hüsnü\u0027l-Hulk, 8",
+        "tefekkur":  "Ahlak, dinin özüdür.",
+        "etiketler":  [
+                          "ahlak",
+                          "sünnet"
+                      ]
+    },
+    {
+        "id":  "hadis_004",
+        "kategori":  "komsuluk",
+        "baslik":  "Komşu Hakkı",
+        "metin":  "Cebrail bana komşu hakkını o kadar çok tavsiye etti ki, komşunun komşuya mirasçı olacağını zannettim.",
+        "kaynak":  "Buhârî, Edeb, 28",
+        "tefekkur":  "Komşuluk, İslam toplumunun en küçük yapı taşıdır.",
+        "etiketler":  [
+                          "komşu",
+                          "hak",
+                          "toplum"
+                      ]
+    },
+    {
+        "id":  "hadis_005",
+        "kategori":  "aile",
+        "baslik":  "Anne Babaya İyilik",
+        "metin":  "Anne babasına iyilik eden, Allah\u0027ın rızasını kazanır. Onların rızası, Rabbin rızasıdır.",
+        "kaynak":  "Tirmizî, Birr, 3",
+        "tefekkur":  "Cennet, anne babanın ayağı altındadır.",
+        "etiketler":  [
+                          "aile",
+                          "anne baba",
+                          "rıza"
+                      ]
+    },
+    {
+        "id":  "hadis_006",
+        "kategori":  "ilim",
+        "baslik":  "İlim Yolunda",
+        "metin":  "Kim ilim tahsil etmek için bir yola girerse, Allah ona cennete giden yolu kolaylaştırır.",
+        "kaynak":  "Müslim, Zikir, 38; Tirmizî, İlim, 2",
+        "tefekkur":  "İlim talebi, cennete giden yolda yürümektir.",
+        "etiketler":  [
+                          "ilim",
+                          "cennet",
+                          "talep"
+                      ]
+    },
+    {
+        "id":  "hadis_007",
+        "kategori":  "sadaka",
+        "baslik":  "Sadaka Belayı Def Eder",
+        "metin":  "Sadaka, belayı def eder ve ömrü uzatır.",
+        "kaynak":  "Tirmizî, Zekât, 5",
+        "tefekkur":  "Vermek, korunmanın bir yoludur.",
+        "etiketler":  [
+                          "sadaka",
+                          "infak",
+                          "koruma"
+                      ]
+    },
+    {
+        "id":  "hadis_008",
+        "kategori":  "selam",
+        "baslik":  "Selamı Yaygınlaştırın",
+        "metin":  "İman etmedikçe cennete giremezsiniz. Birbirinizi sevmedikçe de iman etmiş olmazsınız. Selamı aranızda yaygınlaştırın.",
+        "kaynak":  "Müslim, Îmân, 93",
+        "tefekkur":  "Selam, sevginin ve imanın ilk adımıdır.",
+        "etiketler":  [
+                          "selam",
+                          "iman",
+                          "sevgi"
+                      ]
+    },
+    {
+        "id":  "hadis_009",
+        "kategori":  "temizlik",
+        "baslik":  "Temizlik İmandandır",
+        "metin":  "Temizlik imandandır.",
+        "kaynak":  "Müslim, Tahâret, 1",
+        "tefekkur":  "Maddi temizlik, manevi temizliğin bir yansımasıdır.",
+        "etiketler":  [
+                          "temizlik",
+                          "iman"
+                      ]
+    },
+    {
+        "id":  "hadis_010",
+        "kategori":  "dogruluk",
+        "baslik":  "Yalan ve Doğruluk",
+        "metin":  "Doğruluk iyiliğe, iyilik de cennete götürür. Yalan ise kötülüğe, kötülük de cehenneme götürür.",
+        "kaynak":  "Buhârî, Edeb, 69; Müslim, Birr, 105",
+        "tefekkur":  "Doğruluk, kurtuluşun yoludur.",
+        "etiketler":  [
+                          "doğruluk",
+                          "yalan",
+                          "ahlak"
+                      ]
+    }
 ]

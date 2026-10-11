@@ -1,137 +1,324 @@
 [
-  {
-    "id": "ayet_001",
-    "kategori": "sabir",
-    "baslik": "Sabır ve Namaz",
-    "metin": "Ey iman edenler! Sabrederek ve namaz kılarak Allah'tan yardım dileyin. Şüphe yok ki Allah sabredenlerle beraberdir.",
-    "kaynak": "Bakara Suresi, 153. Ayet",
-    "tefekkur": "Zorluk anında iki sığınağımız var: sabır ve namaz.",
-    "etiketler": ["sabır", "namaz", "dua"]
-  },
-  {
-    "id": "ayet_002",
-    "kategori": "sukur",
-    "baslik": "Şükredersen Artırırım",
-    "metin": "Andolsun, eğer şükrederseniz elbette size nimetimi artırırım.",
-    "kaynak": "İbrahim Suresi, 7. Ayet",
-    "tefekkur": "Şükür, nimetin devamı ve artışının anahtarıdır.",
-    "etiketler": ["şükür", "nimet"]
-  },
-  {
-    "id": "ayet_003",
-    "kategori": "zikir",
-    "baslik": "Beni Anın",
-    "metin": "Öyleyse siz beni anın ki ben de sizi anayım. Bana şükredin, sakın nankörlük etmeyin.",
-    "kaynak": "Bakara Suresi, 152. Ayet",
-    "tefekkur": "Zikir, Allah ile kurulan canlı bir bağdır.",
-    "etiketler": ["zikir", "şükür"]
-  },
-  {
-    "id": "ayet_004",
-    "kategori": "tevekkul",
-    "baslik": "Tevekkül Edenlere Yeter",
-    "metin": "Kim Allah'a tevekkül ederse, O ona kâfidir.",
-    "kaynak": "Talâk Suresi, 3. Ayet",
-    "tefekkur": "Tevekkül, sebeplere sarıldıktan sonra sonucu Allah'a bırakmaktır.",
-    "etiketler": ["tevekkül", "güven"]
-  },
-  {
-    "id": "ayet_005",
-    "kategori": "imtihan",
-    "baslik": "İmtihan ve Sabır",
-    "metin": "Andolsun sizi biraz korku ve açlıkla, biraz da mallardan, canlardan ve ürünlerden eksiltmekle imtihan edeceğiz. Sabredenleri müjdele!",
-    "kaynak": "Bakara Suresi, 155. Ayet",
-    "tefekkur": "İmtihan, imanın olgunlaşmasıdır.",
-    "etiketler": ["imtihan", "sabır", "müjde"]
-  },
-  {
-    "id": "ayet_006",
-    "kategori": "ferahlik",
-    "baslik": "Her Zorlukla Beraber Kolaylık",
-    "metin": "Şüphesiz güçlükle beraber bir kolaylık vardır. Gerçekten, güçlükle beraber bir kolaylık vardır.",
-    "kaynak": "İnşirah Suresi, 5-6. Ayetler",
-    "tefekkur": "Zorluk geçici, kolaylık ise vaad edilmiş bir müjdedir.",
-    "etiketler": ["kolaylık", "sabır", "ümit"]
-  },
-  {
-    "id": "ayet_007",
-    "kategori": "aile",
-    "baslik": "Anne Babaya İyilik",
-    "metin": "Rabbin, sadece kendisine kulluk etmenizi ve anne babanıza iyi davranmanızı kesin bir şekilde emretti. Onlardan biri veya her ikisi senin yanında yaşlanırsa, kendilerine 'öf!' bile deme; onları azarlama; ikisine de güzel söz söyle.",
-    "kaynak": "İsrâ Suresi, 23. Ayet",
-    "tefekkur": "Anne babaya hizmet, Allah'a kulluğun hemen ardından gelen bir emirdir.",
-    "etiketler": ["aile", "anne baba", "ihsan"]
-  },
-  {
-    "id": "ayet_008",
-    "kategori": "adalet",
-    "baslik": "Adaleti Ayakta Tutun",
-    "metin": "Şüphesiz Allah, size emanetleri ehline vermenizi ve insanlar arasında hükmettiğiniz zaman adaletle hükmetmenizi emrediyor.",
-    "kaynak": "Nisâ Suresi, 58. Ayet",
-    "tefekkur": "Adalet, toplumun temelidir; emanet ise güvenin.",
-    "etiketler": ["adalet", "emanet", "hüküm"]
-  },
-  {
-    "id": "ayet_009",
-    "kategori": "dogruluk",
-    "baslik": "Doğru Söz",
-    "metin": "Ey iman edenler! Allah'a karşı gelmekten sakının ve doğru söz söyleyin.",
-    "kaynak": "Ahzâb Suresi, 70. Ayet",
-    "tefekkur": "Doğru söz, takvanın bir tezahürüdür.",
-    "etiketler": ["doğruluk", "takva", "söz"]
-  },
-  {
-    "id": "ayet_010",
-    "kategori": "tovbe",
-    "baslik": "Tövbe Kapısı Açık",
-    "metin": "De ki: Ey kendilerinin aleyhine aşırı giden kullarım! Allah'ın rahmetinden ümidinizi kesmeyin. Şüphesiz Allah, bütün günahları affeder.",
-    "kaynak": "Zümer Suresi, 53. Ayet",
-    "tefekkur": "Ümitsizlik, şeytanın en büyük tuzağıdır. Tövbe kapısı her zaman açıktır.",
-    "etiketler": ["tövbe", "rahmet", "af"]
-  },
-  {
-    "id": "ayet_011",
-    "kategori": "dua",
-    "baslik": "Dua Edin, Cevap Vereyim",
-    "metin": "Kullarım sana beni sorduğunda (söyle onlara): Ben çok yakınım. Bana dua ettiği vakit dua edenin talebine cevap veririm.",
-    "kaynak": "Bakara Suresi, 186. Ayet",
-    "tefekkur": "Dua, kul ile Allah arasındaki en yakın köprüdür.",
-    "etiketler": ["dua", "yakınlık", "icabet"]
-  },
-  {
-    "id": "ayet_012",
-    "kategori": "infak",
-    "baslik": "İnfakın Bereketi",
-    "metin": "Mallarını Allah yolunda harcayanların durumu, yedi başak bitiren ve her başakta yüz tane bulunan bir tek tohumun durumu gibidir.",
-    "kaynak": "Bakara Suresi, 261. Ayet",
-    "tefekkur": "Vermek, eksiltmez; aksine yedi kat artırır.",
-    "etiketler": ["infak", "sadaka", "bereket"]
-  },
-  {
-    "id": "ayet_013",
-    "kategori": "nefis",
-    "baslik": "Nefsini Arındıran Kurtuldu",
-    "metin": "Nefsini arındıran kurtuluşa ermiştir. Onu kirletip örten ise ziyana uğramıştır.",
-    "kaynak": "Şems Suresi, 9-10. Ayetler",
-    "tefekkur": "Kurtuluş, nefsin terbiyesinden geçer.",
-    "etiketler": ["nefis", "arınma", "kurtuluş"]
-  },
-  {
-    "id": "ayet_014",
-    "kategori": "ilim",
-    "baslik": "Rabbim İlmimi Artır",
-    "metin": "De ki: Rabbim! İlmimi artır.",
-    "kaynak": "Tâhâ Suresi, 114. Ayet",
-    "tefekkur": "İlim talebi, bir ömür boyu süren duadır.",
-    "etiketler": ["ilim", "dua", "talep"]
-  },
-  {
-    "id": "ayet_015",
-    "kategori": "kadir",
-    "baslik": "Bin Aydan Hayırlı Gece",
-    "metin": "Şüphesiz, biz onu (Kur'an'ı) Kadir gecesinde indirdik. Kadir gecesi bin aydan daha hayırlıdır.",
-    "kaynak": "Kadir Suresi, 1-3. Ayetler",
-    "tefekkur": "Kadir gecesi, bir ömre bedel bir fırsattır.",
-    "etiketler": ["kadir", "kuran", "bereket"]
-  }
+    {
+        "id":  "ayet_001",
+        "kategori":  "sabir",
+        "baslik":  "Sabır ve Namaz",
+        "metin":  "Ey iman edenler! Sabrederek ve namaz kılarak Allah\u0027tan yardım dileyin. Şüphe yok ki Allah sabredenlerle beraberdir.",
+        "kaynak":  "Bakara Suresi, 153. Ayet",
+        "tefekkur":  "Zorluk anında iki sığınağımız var: sabır ve namaz.",
+        "etiketler":  [
+                          "sabır",
+                          "namaz",
+                          "dua"
+                      ]
+    },
+    {
+        "id":  "ayet_002",
+        "kategori":  "sukur",
+        "baslik":  "Şükredersen Artırırım",
+        "metin":  "Andolsun, eğer şükrederseniz elbette size nimetimi artırırım.",
+        "kaynak":  "İbrahim Suresi, 7. Ayet",
+        "tefekkur":  "Şükür, nimetin devamı ve artışının anahtarıdır.",
+        "etiketler":  [
+                          "şükür",
+                          "nimet"
+                      ]
+    },
+    {
+        "id":  "ayet_003",
+        "kategori":  "zikir",
+        "baslik":  "Beni Anın",
+        "metin":  "Öyleyse siz beni anın ki ben de sizi anayım. Bana şükredin, sakın nankörlük etmeyin.",
+        "kaynak":  "Bakara Suresi, 152. Ayet",
+        "tefekkur":  "Zikir, Allah ile kurulan canlı bir bağdır.",
+        "etiketler":  [
+                          "zikir",
+                          "şükür"
+                      ]
+    },
+    {
+        "id":  "ayet_004",
+        "kategori":  "tevekkul",
+        "baslik":  "Tevekkül Edenlere Yeter",
+        "metin":  "Kim Allah\u0027a tevekkül ederse, O ona kâfidir.",
+        "kaynak":  "Talâk Suresi, 3. Ayet",
+        "tefekkur":  "Tevekkül, sebeplere sarıldıktan sonra sonucu Allah\u0027a bırakmaktır.",
+        "etiketler":  [
+                          "tevekkül",
+                          "güven"
+                      ]
+    },
+    {
+        "id":  "ayet_005",
+        "kategori":  "imtihan",
+        "baslik":  "İmtihan ve Sabır",
+        "metin":  "Andolsun sizi biraz korku ve açlıkla, biraz da mallardan, canlardan ve ürünlerden eksiltmekle imtihan edeceğiz. Sabredenleri müjdele!",
+        "kaynak":  "Bakara Suresi, 155. Ayet",
+        "tefekkur":  "İmtihan, imanın olgunlaşmasıdır.",
+        "etiketler":  [
+                          "imtihan",
+                          "sabır",
+                          "müjde"
+                      ]
+    },
+    {
+        "id":  "ayet_006",
+        "kategori":  "ferahlik",
+        "baslik":  "Her Zorlukla Beraber Kolaylık",
+        "metin":  "Şüphesiz güçlükle beraber bir kolaylık vardır. Gerçekten, güçlükle beraber bir kolaylık vardır.",
+        "kaynak":  "İnşirah Suresi, 5-6. Ayetler",
+        "tefekkur":  "Zorluk geçici, kolaylık ise vaad edilmiş bir müjdedir.",
+        "etiketler":  [
+                          "kolaylık",
+                          "sabır",
+                          "ümit"
+                      ]
+    },
+    {
+        "id":  "ayet_007",
+        "kategori":  "aile",
+        "baslik":  "Anne Babaya İyilik",
+        "metin":  "Rabbin, sadece kendisine kulluk etmenizi ve anne babanıza iyi davranmanızı kesin bir şekilde emretti. Onlardan biri veya her ikisi senin yanında yaşlanırsa, kendilerine \u0027öf!\u0027 bile deme; onları azarlama; ikisine de güzel söz söyle.",
+        "kaynak":  "İsrâ Suresi, 23. Ayet",
+        "tefekkur":  "Anne babaya hizmet, Allah\u0027a kulluğun hemen ardından gelen bir emirdir.",
+        "etiketler":  [
+                          "aile",
+                          "anne baba",
+                          "ihsan"
+                      ]
+    },
+    {
+        "id":  "ayet_008",
+        "kategori":  "adalet",
+        "baslik":  "Adaleti Ayakta Tutun",
+        "metin":  "Şüphesiz Allah, size emanetleri ehline vermenizi ve insanlar arasında hükmettiğiniz zaman adaletle hükmetmenizi emrediyor.",
+        "kaynak":  "Nisâ Suresi, 58. Ayet",
+        "tefekkur":  "Adalet, toplumun temelidir; emanet ise güvenin.",
+        "etiketler":  [
+                          "adalet",
+                          "emanet",
+                          "hüküm"
+                      ]
+    },
+    {
+        "id":  "ayet_009",
+        "kategori":  "dogruluk",
+        "baslik":  "Doğru Söz",
+        "metin":  "Ey iman edenler! Allah\u0027a karşı gelmekten sakının ve doğru söz söyleyin.",
+        "kaynak":  "Ahzâb Suresi, 70. Ayet",
+        "tefekkur":  "Doğru söz, takvanın bir tezahürüdür.",
+        "etiketler":  [
+                          "doğruluk",
+                          "takva",
+                          "söz"
+                      ]
+    },
+    {
+        "id":  "ayet_010",
+        "kategori":  "tovbe",
+        "baslik":  "Tövbe Kapısı Açık",
+        "metin":  "De ki: Ey kendilerinin aleyhine aşırı giden kullarım! Allah\u0027ın rahmetinden ümidinizi kesmeyin. Şüphesiz Allah, bütün günahları affeder.",
+        "kaynak":  "Zümer Suresi, 53. Ayet",
+        "tefekkur":  "Ümitsizlik, şeytanın en büyük tuzağıdır. Tövbe kapısı her zaman açıktır.",
+        "etiketler":  [
+                          "tövbe",
+                          "rahmet",
+                          "af"
+                      ]
+    },
+    {
+        "id":  "ayet_011",
+        "kategori":  "dua",
+        "baslik":  "Dua Edin, Cevap Vereyim",
+        "metin":  "Kullarım sana beni sorduğunda (söyle onlara): Ben çok yakınım. Bana dua ettiği vakit dua edenin talebine cevap veririm.",
+        "kaynak":  "Bakara Suresi, 186. Ayet",
+        "tefekkur":  "Dua, kul ile Allah arasındaki en yakın köprüdür.",
+        "etiketler":  [
+                          "dua",
+                          "yakınlık",
+                          "icabet"
+                      ]
+    },
+    {
+        "id":  "ayet_012",
+        "kategori":  "infak",
+        "baslik":  "İnfakın Bereketi",
+        "metin":  "Mallarını Allah yolunda harcayanların durumu, yedi başak bitiren ve her başakta yüz tane bulunan bir tek tohumun durumu gibidir.",
+        "kaynak":  "Bakara Suresi, 261. Ayet",
+        "tefekkur":  "Vermek, eksiltmez; aksine yedi kat artırır.",
+        "etiketler":  [
+                          "infak",
+                          "sadaka",
+                          "bereket"
+                      ]
+    },
+    {
+        "id":  "ayet_013",
+        "kategori":  "nefis",
+        "baslik":  "Nefsini Arındıran Kurtuldu",
+        "metin":  "Nefsini arındıran kurtuluşa ermiştir. Onu kirletip örten ise ziyana uğramıştır.",
+        "kaynak":  "Şems Suresi, 9-10. Ayetler",
+        "tefekkur":  "Kurtuluş, nefsin terbiyesinden geçer.",
+        "etiketler":  [
+                          "nefis",
+                          "arınma",
+                          "kurtuluş"
+                      ]
+    },
+    {
+        "id":  "ayet_014",
+        "kategori":  "ilim",
+        "baslik":  "Rabbim İlmimi Artır",
+        "metin":  "De ki: Rabbim! İlmimi artır.",
+        "kaynak":  "Tâhâ Suresi, 114. Ayet",
+        "tefekkur":  "İlim talebi, bir ömür boyu süren duadır.",
+        "etiketler":  [
+                          "ilim",
+                          "dua",
+                          "talep"
+                      ]
+    },
+    {
+        "id":  "ayet_015",
+        "kategori":  "kadir",
+        "baslik":  "Bin Aydan Hayırlı Gece",
+        "metin":  "Şüphesiz, biz onu (Kur\u0027an\u0027ı) Kadir gecesinde indirdik. Kadir gecesi bin aydan daha hayırlıdır.",
+        "kaynak":  "Kadir Suresi, 1-3. Ayetler",
+        "tefekkur":  "Kadir gecesi, bir ömre bedel bir fırsattır.",
+        "etiketler":  [
+                          "kadir",
+                          "kuran",
+                          "bereket"
+                      ]
+    },
+    {
+        "id":  "ayet_006",
+        "kategori":  "ferahlik",
+        "baslik":  "Her Zorlukla Beraber Kolaylık",
+        "metin":  "Şüphesiz güçlükle beraber bir kolaylık vardır. Gerçekten, güçlükle beraber bir kolaylık vardır.",
+        "kaynak":  "İnşirah Suresi, 5-6. Ayetler",
+        "tefekkur":  "Zorluk geçici, kolaylık ise vaad edilmiş bir müjdedir.",
+        "etiketler":  [
+                          "kolaylık",
+                          "sabır",
+                          "ümit"
+                      ]
+    },
+    {
+        "id":  "ayet_007",
+        "kategori":  "aile",
+        "baslik":  "Anne Babaya İyilik",
+        "metin":  "Rabbin, sadece kendisine kulluk etmenizi ve anne babanıza iyi davranmanızı kesin bir şekilde emretti. Onlardan biri veya her ikisi senin yanında yaşlanırsa, kendilerine \u0027öf!\u0027 bile deme; onları azarlama; ikisine de güzel söz söyle.",
+        "kaynak":  "İsrâ Suresi, 23. Ayet",
+        "tefekkur":  "Anne babaya hizmet, Allah\u0027a kulluğun hemen ardından gelen bir emirdir.",
+        "etiketler":  [
+                          "aile",
+                          "anne baba",
+                          "ihsan"
+                      ]
+    },
+    {
+        "id":  "ayet_008",
+        "kategori":  "adalet",
+        "baslik":  "Adaleti Ayakta Tutun",
+        "metin":  "Şüphesiz Allah, size emanetleri ehline vermenizi ve insanlar arasında hükmettiğiniz zaman adaletle hükmetmenizi emrediyor.",
+        "kaynak":  "Nisâ Suresi, 58. Ayet",
+        "tefekkur":  "Adalet, toplumun temelidir; emanet ise güvenin.",
+        "etiketler":  [
+                          "adalet",
+                          "emanet",
+                          "hüküm"
+                      ]
+    },
+    {
+        "id":  "ayet_009",
+        "kategori":  "dogruluk",
+        "baslik":  "Doğru Söz",
+        "metin":  "Ey iman edenler! Allah\u0027a karşı gelmekten sakının ve doğru söz söyleyin.",
+        "kaynak":  "Ahzâb Suresi, 70. Ayet",
+        "tefekkur":  "Doğru söz, takvanın bir tezahürüdür.",
+        "etiketler":  [
+                          "doğruluk",
+                          "takva",
+                          "söz"
+                      ]
+    },
+    {
+        "id":  "ayet_010",
+        "kategori":  "tovbe",
+        "baslik":  "Tövbe Kapısı Açık",
+        "metin":  "De ki: Ey kendilerinin aleyhine aşırı giden kullarım! Allah\u0027ın rahmetinden ümidinizi kesmeyin. Şüphesiz Allah, bütün günahları affeder.",
+        "kaynak":  "Zümer Suresi, 53. Ayet",
+        "tefekkur":  "Ümitsizlik, şeytanın en büyük tuzağıdır. Tövbe kapısı her zaman açıktır.",
+        "etiketler":  [
+                          "tövbe",
+                          "rahmet",
+                          "af"
+                      ]
+    },
+    {
+        "id":  "ayet_011",
+        "kategori":  "dua",
+        "baslik":  "Dua Edin, Cevap Vereyim",
+        "metin":  "Kullarım sana beni sorduğunda (söyle onlara): Ben çok yakınım. Bana dua ettiği vakit dua edenin talebine cevap veririm.",
+        "kaynak":  "Bakara Suresi, 186. Ayet",
+        "tefekkur":  "Dua, kul ile Allah arasındaki en yakın köprüdür.",
+        "etiketler":  [
+                          "dua",
+                          "yakınlık",
+                          "icabet"
+                      ]
+    },
+    {
+        "id":  "ayet_012",
+        "kategori":  "infak",
+        "baslik":  "İnfakın Bereketi",
+        "metin":  "Mallarını Allah yolunda harcayanların durumu, yedi başak bitiren ve her başakta yüz tane bulunan bir tek tohumun durumu gibidir.",
+        "kaynak":  "Bakara Suresi, 261. Ayet",
+        "tefekkur":  "Vermek, eksiltmez; aksine yedi kat artırır.",
+        "etiketler":  [
+                          "infak",
+                          "sadaka",
+                          "bereket"
+                      ]
+    },
+    {
+        "id":  "ayet_013",
+        "kategori":  "nefis",
+        "baslik":  "Nefsini Arındıran Kurtuldu",
+        "metin":  "Nefsini arındıran kurtuluşa ermiştir. Onu kirletip örten ise ziyana uğramıştır.",
+        "kaynak":  "Şems Suresi, 9-10. Ayetler",
+        "tefekkur":  "Kurtuluş, nefsin terbiyesinden geçer.",
+        "etiketler":  [
+                          "nefis",
+                          "arınma",
+                          "kurtuluş"
+                      ]
+    },
+    {
+        "id":  "ayet_014",
+        "kategori":  "ilim",
+        "baslik":  "Rabbim İlmimi Artır",
+        "metin":  "De ki: Rabbim! İlmimi artır.",
+        "kaynak":  "Tâhâ Suresi, 114. Ayet",
+        "tefekkur":  "İlim talebi, bir ömür boyu süren duadır.",
+        "etiketler":  [
+                          "ilim",
+                          "dua",
+                          "talep"
+                      ]
+    },
+    {
+        "id":  "ayet_015",
+        "kategori":  "kadir",
+        "baslik":  "Bin Aydan Hayırlı Gece",
+        "metin":  "Şüphesiz, biz onu (Kur\u0027an\u0027ı) Kadir gecesinde indirdik. Kadir gecesi bin aydan daha hayırlıdır.",
+        "kaynak":  "Kadir Suresi, 1-3. Ayetler",
+        "tefekkur":  "Kadir gecesi, bir ömre bedel bir fırsattır.",
+        "etiketler":  [
+                          "kadir",
+                          "kuran",
+                          "bereket"
+                      ]
+    }
 ]
