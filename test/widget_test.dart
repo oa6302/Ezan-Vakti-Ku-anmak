@@ -1,12 +1,23 @@
-﻿import 'package:flutter_test/flutter_test.dart';
-import 'package:nur_pusulasi/main.dart';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:nur_pusulasi/data/content_repository.dart';
 
 void main() {
-  testWidgets('Nur Pusulasi ana arayuzu aciliyor', (WidgetTester tester) async {
-    await tester.pumpWidget(const NurPusulasiApp());
-    await tester.pump();
+  TestWidgetsFlutterBinding.ensureInitialized();
 
-    expect(find.text('Ana Sayfa'), findsOneWidget);
-    expect(find.text('Profil'), findsOneWidget);
+  test('JSON icerikleri okunabiliyor mu?', () async {
+    final repo = LocalContentRepository();
+
+    final ayetler = await repo.byCategory('ayetler');
+    expect(ayetler.length, 3);
+    expect(ayetler.first.baslik, 'Sabır ve Namaz');
+
+    final dualar = await repo.byCategory('dualar');
+    expect(dualar.length, 2);
+
+    final all = await repo.all();
+    expect(all.length >= 6, true);
+
+    final sonuc = await repo.search('sabır');
+    expect(sonuc.isNotEmpty, true);
   });
 }

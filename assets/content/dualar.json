@@ -1,0 +1,20 @@
+[
+  {
+    "id": "dua_001",
+    "kategori": "sabah",
+    "baslik": "Sabah Duası",
+    "metin": "Allahümme bika asbahnâ ve bika emseynâ ve bika nahyâ ve bika nemûtü ve ileyke'n-nüşûr.",
+    "kaynak": "Tirmizî, Deavât, 13",
+    "tefekkur": "Günün her anı Allah'ın kudretiyle kuşatılmıştır.",
+    "etiketler": ["sabah", "günlük"]
+  },
+  {
+    "id": "dua_002",
+    "kategori": "aksam",
+    "baslik": "Akşam Duası",
+    "metin": "Allahümme bike emseynâ ve bike asbahnâ ve bike nahyâ ve bika nemûtü ve ileykel masîr.",
+    "kaynak": "Tirmizî, Deavât, 13",
+    "tefekkur": "Akşam, günün muhasebesi ve şükrü için bir fırsattır.",
+    "etiketler": ["akşam", "günlük"]
+  }
+]

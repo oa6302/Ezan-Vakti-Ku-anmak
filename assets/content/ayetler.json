@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ayet_001",
+    "kategori": "sabir",
+    "baslik": "Sabır ve Namaz",
+    "metin": "Ey iman edenler! Sabrederek ve namaz kılarak Allah'tan yardım dileyin. Şüphe yok ki Allah sabredenlerle beraberdir.",
+    "kaynak": "Bakara Suresi, 153. Ayet",
+    "tefekkur": "Zorluk anında iki sığınağımız var: sabır ve namaz. İkisi birlikte kalbi dinginleştirir.",
+    "etiketler": ["sabır", "namaz", "dua"]
+  },
+  {
+    "id": "ayet_002",
+    "kategori": "sukur",
+    "baslik": "Şükredersen Artırırım",
+    "metin": "Andolsun, eğer şükrederseniz elbette size nimetimi artırırım.",
+    "kaynak": "İbrahim Suresi, 7. Ayet",
+    "tefekkur": "Şükür, nimetin devamı ve artışının anahtarıdır.",
+    "etiketler": ["şükür", "nimet"]
+  },
+  {
+    "id": "ayet_003",
+    "kategori": "zikir",
+    "baslik": "Beni Anın",
+    "metin": "Öyleyse siz beni anın ki ben de sizi anayım. Bana şükredin, sakın nankörlük etmeyin.",
+    "kaynak": "Bakara Suresi, 152. Ayet",
+    "tefekkur": "Zikir, Allah ile kurulan canlı bir bağdır.",
+    "etiketler": ["zikir", "şükür"]
+  }
+]
