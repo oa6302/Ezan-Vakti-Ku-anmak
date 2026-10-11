@@ -27,7 +27,7 @@ class QuickAccessGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(18),
+      padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(20),
@@ -44,19 +44,19 @@ class QuickAccessGrid extends StatelessWidget {
         children: [
           Row(
             children: [
-              const Icon(Icons.bolt_rounded, color: navy, size: 22),
-              const SizedBox(width: 8),
+              const Icon(Icons.bolt_rounded, color: navy, size: 20),
+              const SizedBox(width: 6),
               const Text('Hızlı Erişim',
                   style: TextStyle(
                       color: navy,
-                      fontSize: 16,
+                      fontSize: 15,
                       fontWeight: FontWeight.w900)),
               const Spacer(),
               TextButton(
                 onPressed: onSeeAll,
                 style: TextButton.styleFrom(
                   padding: EdgeInsets.zero,
-                  minimumSize: const Size(0, 30),
+                  minimumSize: const Size(0, 28),
                 ),
                 child: const Row(
                   children: [
@@ -72,15 +72,15 @@ class QuickAccessGrid extends StatelessWidget {
               ),
             ],
           ),
-          const SizedBox(height: 12),
+          const SizedBox(height: 8),
           GridView.builder(
             shrinkWrap: true,
             physics: const NeverScrollableScrollPhysics(),
             gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 4,
-              mainAxisSpacing: 12,
-              crossAxisSpacing: 10,
-              childAspectRatio: 0.85,
+              crossAxisCount: 5,
+              mainAxisSpacing: 10,
+              crossAxisSpacing: 8,
+              childAspectRatio: 0.78,
             ),
             itemCount: items.length,
             itemBuilder: (context, i) => _GridItem(
@@ -105,32 +105,32 @@ class _GridItem extends StatelessWidget {
       color: Colors.transparent,
       child: InkWell(
         onTap: onTap,
-        borderRadius: BorderRadius.circular(14),
+        borderRadius: BorderRadius.circular(12),
         child: Container(
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(14),
+            borderRadius: BorderRadius.circular(12),
             border: Border.all(color: const Color(0xFFEDF1F7)),
           ),
-          padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 4),
+          padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 2),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                width: 44,
-                height: 44,
+                width: 38,
+                height: 38,
                 decoration: BoxDecoration(
                   color: item.color.withValues(alpha: 0.14),
                   shape: BoxShape.circle,
                 ),
-                child: Icon(item.icon, color: item.color, size: 22),
+                child: Icon(item.icon, color: item.color, size: 18),
               ),
-              const SizedBox(height: 6),
+              const SizedBox(height: 5),
               Text(
                 item.label,
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                     color: navy,
-                    fontSize: 10.5,
+                    fontSize: 9,
                     fontWeight: FontWeight.w700,
                     height: 1.15),
                 maxLines: 2,
