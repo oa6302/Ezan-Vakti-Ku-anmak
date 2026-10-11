@@ -93,3 +93,85 @@ $("deleteRecord").addEventListener("click", () => {
   showPage("overview");
 });
 render();
+
+
+/* ============================================================
+ * JSON DIŞA AKTARMA — Nur Pusulası uygulaması için
+ * Admin panelindeki kayıtları assets/content/*.json formatına çevirir.
+ * ============================================================ */
+
+function recordToContentItem(record) {
+  return {
+    id: record.id,
+    kategori: record.category,
+    baslik: record.title || '',
+    metin: record.modern || '',
+    kaynak: [record.source, record.reference].filter(Boolean).join(', '),
+    tefekkur: record.reflection || '',
+    etiketler: [],
+    ...(record.ottoman ? { osmanlica: record.ottoman } : {}),
+    ...(record.sourceUrl ? { kaynakUrl: record.sourceUrl } : {}),
+    durum: record.status || 'draft',
+  };
+}
+
+function downloadJson(filename, data) {
+  const blob = new Blob(
+    [JSON.stringify(data, null, 2)],
+    { type: 'application/json;charset=utf-8' }
+  );
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function exportAll() {
+  if (!records || records.length === 0) {
+    alert('Disa aktarilacak kayit yok. Once icerik ekleyin.');
+    return;
+  }
+
+  const published = records.filter(r => r.status === 'published');
+  const source = published.length > 0 ? published : records;
+
+  const grouped = { ayetler: [], hadisler: [], risale: [] };
+  source.forEach(r => {
+    const item = recordToContentItem(r);
+    if (r.category === 'ayet') grouped.ayetler.push(item);
+    else if (r.category === 'hadis') grouped.hadisler.push(item);
+    else if (r.category === 'risale') grouped.risale.push(item);
+  });
+
+  const total = grouped.ayetler.length + grouped.hadisler.length + grouped.risale.length;
+  if (total === 0) {
+    alert('Hicbir kayit bilinen kategoriye uymuyor (ayet/hadis/risale).');
+    return;
+  }
+
+  if (grouped.ayetler.length) downloadJson('ayetler.json', grouped.ayetler);
+  setTimeout(() => { if (grouped.hadisler.length) downloadJson('hadisler.json', grouped.hadisler); }, 300);
+  setTimeout(() => { if (grouped.risale.length) downloadJson('risale.json', grouped.risale); }, 600);
+
+  setTimeout(() => {
+    alert(
+      'Disa aktarildi:\n' +
+      '- ayetler.json: ' + grouped.ayetler.length + '\n' +
+      '- hadisler.json: ' + grouped.hadisler.length + '\n' +
+      '- risale.json: ' + grouped.risale.length + '\n\n' +
+      'Indirilen dosyalari Nur_Pusulasi/assets/content/ klasorune kopyalayin ' +
+      've uygulamayi yeniden baslatin (flutter run).'
+    );
+  }, 900);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('exportAll');
+  if (btn) {
+    btn.addEventListener('click', exportAll);
+  }
+});
