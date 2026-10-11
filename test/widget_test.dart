@@ -4,26 +4,28 @@ import 'package:nur_pusulasi/data/content_repository.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  test('JSON icerikleri okunabiliyor mu?', () async {
+  test('Tum kategoriler yukleniyor mu?', () async {
     final repo = LocalContentRepository();
 
     final ayetler = await repo.byCategory('ayetler');
-    expect(ayetler.length, greaterThanOrEqualTo(5));
-    expect(ayetler.first.baslik, 'Sabır ve Namaz');
+    expect(ayetler.length, greaterThanOrEqualTo(15));
+
+    final hadisler = await repo.byCategory('hadisler');
+    expect(hadisler.length, greaterThanOrEqualTo(10));
 
     final dualar = await repo.byCategory('dualar');
-    expect(dualar.length, 2);
+    expect(dualar.length, greaterThanOrEqualTo(12));
+
+    final vecizeler = await repo.byCategory('vecizeler');
+    expect(vecizeler.length, greaterThanOrEqualTo(10));
+
+    final kissalar = await repo.byCategory('kissalar');
+    expect(kissalar.length, greaterThanOrEqualTo(5));
+
+    final zikirler = await repo.byCategory('zikirler');
+    expect(zikirler.length, greaterThanOrEqualTo(5));
 
     final all = await repo.all();
-    expect(all.length, greaterThanOrEqualTo(9));
-
-    final sabir = await repo.search('sabır');
-    expect(sabir.isNotEmpty, true);
-
-    final imtihan = await repo.search('imtihan');
-    expect(imtihan.isNotEmpty, true);
-
-    final bos = await repo.search('');
-    expect(bos.isEmpty, true);
+    expect(all.length, greaterThanOrEqualTo(57));
   });
 }

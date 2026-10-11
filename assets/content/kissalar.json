@@ -1,0 +1,47 @@
+[
+  {
+    "id": "kissa_001",
+    "kategori": "sabır",
+    "baslik": "Hz. Eyyûb'un Sabrı",
+    "metin": "Hz. Eyyûb, malını, evladını ve sağlığını kaybettiği uzun bir imtihan döneminden geçti. Yıllarca sabretti, Rabbine sığındı. Sonunda Allah ona şifa ve eski nimetlerinden daha fazlasını verdi.",
+    "kaynak": "Enbiyâ, 83-84; Sâd, 41-44",
+    "tefekkur": "Sabır, acıyı yok saymak değil; Allah'a güvenerek dayanmaktır.",
+    "etiketler": ["sabır", "imtihan", "şifa"]
+  },
+  {
+    "id": "kissa_002",
+    "kategori": "tevekkül",
+    "baslik": "Hz. İbrahim ve Ateş",
+    "metin": "Hz. İbrahim, putperest kavmine tevhid çağrısı yaptı. Onu ateşe atmak istediler. Ateşe atılırken 'Allah bana kâfidir' dedi. Allah ateşi serin ve selametli kıldı.",
+    "kaynak": "Enbiyâ, 51-70",
+    "tefekkur": "Tevekkül, ateşi gül bahçesine çeviren sırdır.",
+    "etiketler": ["tevekkül", "tevhid", "mucize"]
+  },
+  {
+    "id": "kissa_003",
+    "kategori": "teslimiyet",
+    "baslik": "Hz. İsmail'in Teslimiyeti",
+    "metin": "Hz. İbrahim, rüyasında oğlu Hz. İsmail'i kurban etmesi emredildiğini gördü. Oğluna durumu anlattığında Hz. İsmail, 'Babacığım, emrolunduğun şeyi yap; inşallah beni sabredenlerden bulacaksın' dedi.",
+    "kaynak": "Sâffât, 102-107",
+    "tefekkur": "Teslimiyet, imanın zirvesidir.",
+    "etiketler": ["teslimiyet", "kurban", "iman"]
+  },
+  {
+    "id": "kissa_004",
+    "kategori": "ilim",
+    "baslik": "Hz. Yûsuf'un İffeti",
+    "metin": "Hz. Yûsuf, gençliğinde iffetini korudu, zindana atılmayı tercih etti. Yıllar sonra Mısır'ın hazinedarı oldu ve kardeşlerini affetti.",
+    "kaynak": "Yûsuf, 23-101",
+    "tefekkur": "İffet, zorluk karşısında bile dik durmaktır.",
+    "etiketler": ["iffet", "sabır", "af"]
+  },
+  {
+    "id": "kissa_005",
+    "kategori": "dua",
+    "baslik": "Hz. Yûnus'un Duası",
+    "metin": "Hz. Yûnus, balığın karnında karanlıklar içinde kaldı. 'Lâ ilâhe illâ ente sübhâneke innî küntü minez zâlimîn' diye dua etti. Allah onu kurtardı.",
+    "kaynak": "Enbiyâ, 87-88",
+    "tefekkur": "Dua, en karanlık yerden bile kapıyı açan anahtardır.",
+    "etiketler": ["dua", "tövbe", "kurtuluş"]
+  }
+]

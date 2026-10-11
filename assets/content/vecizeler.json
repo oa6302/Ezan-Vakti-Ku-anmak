@@ -7,5 +7,86 @@
     "kaynak": "Ra'd Suresi, 28. Ayet",
     "tefekkur": "Huzurun kaynağı dışarıda değil, zikirde.",
     "etiketler": ["huzur", "zikir"]
+  },
+  {
+    "id": "vecize_002",
+    "kategori": "sabır",
+    "baslik": "Sabır ve İman",
+    "metin": "Sabır, imanın en güzel meyvesidir.",
+    "kaynak": "Genel hikmet",
+    "tefekkur": "Hayatın her alanında sabır, sadece bekleyiş değil, olgunlaşma sürecidir.",
+    "etiketler": ["sabır", "iman"]
+  },
+  {
+    "id": "vecize_003",
+    "kategori": "ilim",
+    "baslik": "İlim ve Amel",
+    "metin": "İlim, amel ile birlikte olursa değer kazanır.",
+    "kaynak": "Genel hikmet",
+    "tefekkur": "Bilmek yetmez, uygulamak gerekir.",
+    "etiketler": ["ilim", "amel"]
+  },
+  {
+    "id": "vecize_004",
+    "kategori": "ahlak",
+    "baslik": "Güzel Ahlak",
+    "metin": "Güzel ahlak, en büyük zenginliktir.",
+    "kaynak": "Genel hikmet",
+    "tefekkur": "Mal tükenir, ahlak kalır; insanı insan yapan ahlaktır.",
+    "etiketler": ["ahlak", "zenginlik"]
+  },
+  {
+    "id": "vecize_005",
+    "kategori": "şükür",
+    "baslik": "Şükreden Azalmaz",
+    "metin": "Şükreden, artar; nankörlük eden, kaybeder.",
+    "kaynak": "İbrahim Suresi, 7. Ayetin tefsirinden",
+    "tefekkur": "Şükür, elde olanı görmektir; nimetin çoğalma yoludur.",
+    "etiketler": ["şükür", "nimet"]
+  },
+  {
+    "id": "vecize_006",
+    "kategori": "tevekkül",
+    "baslik": "Tevekkül ve Gayret",
+    "metin": "Deveyi bağla, sonra tevekkül et.",
+    "kaynak": "Tirmizî, Kıyâmet, 60 (Hadisin özü)",
+    "tefekkur": "Tevekkül, tembellik değil; sebeplere sarıldıktan sonra Allah'a güvenmektir.",
+    "etiketler": ["tevekkül", "gayret", "sebep"]
+  },
+  {
+    "id": "vecize_007",
+    "kategori": "zaman",
+    "baslik": "Zamanı Değerlendir",
+    "metin": "Beş şeyi beş şeyden önce değerlendir: gençliğini yaşlılığından, sağlığını hastalığından, zenginliğini yoksulluğundan, boş vaktini meşguliyetinden, hayatını ölümünden.",
+    "kaynak": "Buhârî, Rikak, 3 (Hadis meali)",
+    "tefekkur": "Zaman, tükenmeyen sanılır; oysa her an azalıyor.",
+    "etiketler": ["zaman", "gençlik", "sağlık"]
+  },
+  {
+    "id": "vecize_008",
+    "kategori": "sevgi",
+    "baslik": "Sevgi ve Bağlılık",
+    "metin": "Kişi sevdiğiyle beraberdir.",
+    "kaynak": "Buhârî, Edeb, 96; Müslim, Birr, 165",
+    "tefekkur": "Kimleri sevdiğin, kim olduğunu belirler.",
+    "etiketler": ["sevgi", "beraberlik"]
+  },
+  {
+    "id": "vecize_009",
+    "kategori": "sükunet",
+    "baslik": "Susmanın Fazileti",
+    "metin": "Ya hayır söyle, ya sus.",
+    "kaynak": "Buhârî, Edeb, 31; Müslim, Îmân, 74",
+    "tefekkur": "Söz, bazen kılıçtan keskin; bazen susmak, en güzel cevaptır.",
+    "etiketler": ["söz", "susma", "ahlak"]
+  },
+  {
+    "id": "vecize_010",
+    "kategori": "niyet",
+    "baslik": "Niyetin Gücü",
+    "metin": "Niyet, amelin ruhudur.",
+    "kaynak": "Genel hikmet",
+    "tefekkur": "Küçük bir amel, büyük bir niyetle büyük olur.",
+    "etiketler": ["niyet", "amel", "ihlas"]
   }
 ]

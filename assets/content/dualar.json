@@ -16,5 +16,95 @@
     "kaynak": "Tirmizî, Deavât, 13",
     "tefekkur": "Akşam, günün muhasebesi ve şükrü için bir fırsattır.",
     "etiketler": ["akşam", "günlük"]
+  },
+  {
+    "id": "dua_003",
+    "kategori": "sıkıntı",
+    "baslik": "Sıkıntı Anında Dua",
+    "metin": "Lâ ilâhe illallahül azîmül halîm. Lâ ilâhe illallahü rabbül arşil azîm. Lâ ilâhe illallahü rabbüs semâvâti ve rabbül ardı ve rabbül arşil kerîm.",
+    "kaynak": "Buhârî, Deavât, 27; Müslim, Zikir, 83",
+    "tefekkur": "Sıkıntı anında tevhid ile Allah'a sığınmak kalbi sakinleştirir.",
+    "etiketler": ["sıkıntı", "tevhid", "hüzün"]
+  },
+  {
+    "id": "dua_004",
+    "kategori": "şifa",
+    "baslik": "Şifa Duası",
+    "metin": "Es'elüllâhel azîme rabbel arşil azîmi en yeşfiyek. (Yedi kere okunur.)",
+    "kaynak": "Tirmizî, Tıb, 32; Ebû Dâvûd, Tıb, 19",
+    "tefekkur": "Şifa Allah'tandır; dua, kulun teslimiyetidir.",
+    "etiketler": ["şifa", "hastalık", "sağlık"]
+  },
+  {
+    "id": "dua_005",
+    "kategori": "ilim",
+    "baslik": "İlim ve Anlayış Duası",
+    "metin": "Rabbi zidnî ilmâ. Rabbişrah lî sadrî ve yessir lî emrî.",
+    "kaynak": "Tâhâ, 114; Tâhâ, 25-26",
+    "tefekkur": "İlim, kalbin genişlemesi ve işlerin kolaylaşması duasıdır.",
+    "etiketler": ["ilim", "kolaylık", "kalp"]
+  },
+  {
+    "id": "dua_006",
+    "kategori": "huzur",
+    "baslik": "Huzur ve Sekinet Duası",
+    "metin": "Allahümme enzil alâ kalbî sekineten min indike ve ezi'b hammî ve ğammî.",
+    "kaynak": "Genel dua",
+    "tefekkur": "Sekinet, Allah'tan gelen kalp huzurudur.",
+    "etiketler": ["huzur", "kalp", "sükunet"]
+  },
+  {
+    "id": "dua_007",
+    "kategori": "yolculuk",
+    "baslik": "Yolculuk Duası",
+    "metin": "Sübhânellezî sahhara lenâ hâzâ ve mâ künnâ lehû mukrinîn. Ve innâ ilâ rabbinâ le münkalibûn.",
+    "kaynak": "Müslim, Hac, 425; Zuhruf, 13-14",
+    "tefekkur": "Yolculuk, teslimiyetin ve tevekkülün bir sembolüdür.",
+    "etiketler": ["yolculuk", "tevekkül"]
+  },
+  {
+    "id": "dua_008",
+    "kategori": "aile",
+    "baslik": "Aile ve Nesil Duası",
+    "metin": "Rabbenâ heb lenâ min ezvâcinâ ve zürriyyâtinâ kurrate a'yünin vec'alnâ lil müttekîne imâmâ.",
+    "kaynak": "Furkân, 74",
+    "tefekkur": "Salih eş ve evlat, dünyanın en büyük nimetidir.",
+    "etiketler": ["aile", "evlat", "nesil"]
+  },
+  {
+    "id": "dua_009",
+    "kategori": "af",
+    "baslik": "Af ve Mağfiret Duası",
+    "metin": "Rabbenâ zalemnâ enfüsenâ ve in lem tağfir lenâ ve terhamnâ le nekûnenne minel hâsirîn.",
+    "kaynak": "A'râf, 23",
+    "tefekkur": "Af dilemek, kulun Rabbine yönelmesidir.",
+    "etiketler": ["af", "tövbe", "mağfiret"]
+  },
+  {
+    "id": "dua_010",
+    "kategori": "kalp",
+    "baslik": "Kalbin Sebatı Duası",
+    "metin": "Yâ mukallibel kulûb, sebbit kalbî alâ dînik.",
+    "kaynak": "Tirmizî, Kader, 7",
+    "tefekkur": "Kalpler Allah'ın elindedir; sebat için dua edilir.",
+    "etiketler": ["kalp", "sebat", "istikamet"]
+  },
+  {
+    "id": "dua_011",
+    "kategori": "hayır",
+    "baslik": "Hayırlısını İsteme (İstihare) Duası",
+    "metin": "Allahümme innî estağîruke bi ilmike ve estakdiruke bi kudretike ve es'eluke min fadlikel azîm.",
+    "kaynak": "Buhârî, Teheccüd, 25",
+    "tefekkur": "Hayırlısını istemek, Allah'a güvenmektir.",
+    "etiketler": ["istihare", "karar", "tevekkül"]
+  },
+  {
+    "id": "dua_012",
+    "kategori": "kapanış",
+    "baslik": "Yatmadan Önce Dua",
+    "metin": "Bismikellâhümme emûtü ve ahyâ.",
+    "kaynak": "Buhârî, Deavât, 7",
+    "tefekkur": "Uyku, küçük bir ölümdür; uyanmak yeni bir hayattır.",
+    "etiketler": ["gece", "uyku", "günlük"]
   }
 ]

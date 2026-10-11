@@ -1,0 +1,47 @@
+[
+  {
+    "id": "zikir_001",
+    "kategori": "gunluk",
+    "baslik": "Sübhânallah",
+    "metin": "Sübhânallah (Allah'ı tüm eksikliklerden tenzih ederim).",
+    "kaynak": "Genel zikir",
+    "tefekkur": "Günde 33 kere çekilmesi sünnettir; namaz sonrası tavsiye edilir.",
+    "etiketler": ["tesbih", "günlük"]
+  },
+  {
+    "id": "zikir_002",
+    "kategori": "gunluk",
+    "baslik": "Elhamdülillah",
+    "metin": "Elhamdülillah (Hamd Allah'a mahsustur).",
+    "kaynak": "Genel zikir",
+    "tefekkur": "Günde 33 kere; şükrün dildeki ifadesi.",
+    "etiketler": ["hamd", "şükür", "günlük"]
+  },
+  {
+    "id": "zikir_003",
+    "kategori": "gunluk",
+    "baslik": "Allahu Ekber",
+    "metin": "Allahu Ekber (Allah en büyüktür).",
+    "kaynak": "Genel zikir",
+    "tefekkur": "Günde 33 kere; her şeyin üstünde Allah'ın büyüklüğünü tanımak.",
+    "etiketler": ["tekbir", "günlük"]
+  },
+  {
+    "id": "zikir_004",
+    "kategori": "sabah",
+    "baslik": "Lâ havle velâ kuvvete illâ billâh",
+    "metin": "Lâ havle velâ kuvvete illâ billâh (Güç ve kuvvet ancak Allah'tandır).",
+    "kaynak": "Buhârî, Deavât, 50",
+    "tefekkur": "Kendi gücüne güvenmek yerine Allah'a dayanmak.",
+    "etiketler": ["havle", "güç", "tevekkül"]
+  },
+  {
+    "id": "zikir_005",
+    "kategori": "istiğfar",
+    "baslik": "Estağfirullah",
+    "metin": "Estağfirullah (Allah'tan bağışlanma dilerim).",
+    "kaynak": "Genel zikir",
+    "tefekkur": "Günde 100 kere çekmek sünnettir; kalbi temizler.",
+    "etiketler": ["istiğfar", "tövbe", "af"]
+  }
+]
