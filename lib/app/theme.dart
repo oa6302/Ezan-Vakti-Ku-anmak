@@ -4,6 +4,9 @@ const navy = Color(0xFF10264B);
 const navyDeep = Color(0xFF09172F);
 const red = Color(0xFFD91E36);
 const pale = Color(0xFFF3F6FA);
+const cream = Color(0xFFFDF8F3);
+const gold = Color(0xFFC9A961);
+const surfaceWhite = Color(0xFFFFFFFF);
 
 ThemeData buildAppTheme() {
   return ThemeData(
