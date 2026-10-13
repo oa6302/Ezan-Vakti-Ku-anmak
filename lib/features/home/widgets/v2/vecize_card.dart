@@ -1,4 +1,5 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import '../../../../app/shadows.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _gold = Color(0xFFC9A961);
@@ -18,13 +19,7 @@ class VecizeCard extends StatelessWidget {
         ),
         borderRadius: BorderRadius.circular(20),
         border: Border.all(color: _gold.withValues(alpha: 0.3), width: 1),
-        boxShadow: [
-          BoxShadow(
-            color: _gold.withValues(alpha: 0.1),
-            blurRadius: 12,
-            offset: const Offset(0, 4),
-          ),
-        ],
+        boxShadow: AppShadows.colored(_gold, alpha: 0.2),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 import '../../app/theme.dart';
-import '../../data/content_repository.dart';
+import '../../data/hybrid_content_repository.dart';
 import '../../data/models/content_item.dart';
 
 class VoiceGuideCard extends StatefulWidget {
@@ -12,7 +12,7 @@ class VoiceGuideCard extends StatefulWidget {
 
 class _VoiceGuideCardState extends State<VoiceGuideCard> {
   final stt.SpeechToText _speech = stt.SpeechToText();
-  final ContentRepository _repo = LocalContentRepository();
+  final HybridContentRepository _repo = HybridContentRepository();
   final TextEditingController _controller = TextEditingController();
   bool _listening = false;
   bool _searching = false;

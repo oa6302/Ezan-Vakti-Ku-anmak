@@ -1,6 +1,6 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import '../../../../app/shadows.dart';
 
-const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
 
 class RisaleCard extends StatelessWidget {
@@ -17,13 +17,7 @@ class RisaleCard extends StatelessWidget {
           end: Alignment.bottomRight,
         ),
         borderRadius: BorderRadius.circular(20),
-        boxShadow: [
-          BoxShadow(
-            color: _navy.withValues(alpha: 0.3),
-            blurRadius: 16,
-            offset: const Offset(0, 6),
-          ),
-        ],
+        boxShadow: AppShadows.deep(),
       ),
       child: Stack(
         children: [

@@ -1,5 +1,6 @@
-﻿import 'dart:async';
+import 'dart:async';
 import 'package:flutter/material.dart';
+import '../../../../app/shadows.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../../prayer/data/prayer_service.dart';
 
@@ -66,7 +67,7 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown> {
           begin: Alignment.centerLeft, end: Alignment.centerRight,
         ),
         borderRadius: BorderRadius.circular(20),
-        boxShadow: [BoxShadow(color: _navy.withValues(alpha: 0.3), blurRadius: 16, offset: const Offset(0, 6))],
+        boxShadow: AppShadows.deep(),
       ),
       child: Row(
         children: [

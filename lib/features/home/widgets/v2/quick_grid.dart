@@ -1,4 +1,5 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import '../../../../app/shadows.dart';
 
 const _navy = Color(0xFF0A1F44);
 
@@ -23,13 +24,7 @@ class QuickGridV2 extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(20),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withValues(alpha: 0.04),
-            blurRadius: 12,
-            offset: const Offset(0, 4),
-          ),
-        ],
+        boxShadow: AppShadows.medium(),
       ),
       child: GridView.builder(
         shrinkWrap: true,

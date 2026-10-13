@@ -187,3 +187,64 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+
+
+/* ============================================================
+ * SUNUCUYA KAYDET — Local HTTP sunucu (admin/server.py)
+ * ============================================================ */
+const SERVER_URL = 'http://localhost:8080';
+
+async function saveToServer() {
+  if (!records || records.length === 0) {
+    alert('Kaydedilecek kayit yok. Once icerik ekleyin.');
+    return;
+  }
+
+  const published = records.filter(r => r.status === 'published');
+  const source = published.length > 0 ? published : records;
+
+  const grouped = { ayetler: [], hadisler: [], risale: [], vecizeler: [], dualar: [], kissalar: [], zikirler: [] };
+  source.forEach(r => {
+    const item = recordToContentItem(r);
+    const cat = r.category;
+    if (cat === 'ayet') grouped.ayetler.push(item);
+    else if (cat === 'hadis') grouped.hadisler.push(item);
+    else if (cat === 'risale') grouped.risale.push(item);
+    else if (cat === 'vecize') grouped.vecizeler.push(item);
+    else if (cat === 'dua') grouped.dualar.push(item);
+    else if (cat === 'kissa') grouped.kissalar.push(item);
+    else if (cat === 'zikir') grouped.zikirler.push(item);
+  });
+
+  const results = [];
+  for (const [file, items] of Object.entries(grouped)) {
+    if (items.length === 0) continue;
+    try {
+      const res = await fetch(SERVER_URL + '/save/' + file + '.json', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json; charset=utf-8' },
+        body: JSON.stringify(items, null, 2),
+      });
+      if (res.ok) {
+        results.push('OK ' + file + ' (' + items.length + ')');
+      } else {
+        results.push('HATA ' + file + ' — ' + res.status);
+      }
+    } catch (e) {
+      results.push('BAGLANTI YOK ' + file + ' — ' + e.message);
+    }
+  }
+
+  alert(
+    'Sunucuya kaydetme sonucu:\n\n' +
+    results.join('\n') +
+    '\n\nNot: Sunucu calismiyorsa "python admin/server.py" komutu ile baslatin.'
+  );
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('saveToServer');
+  if (btn) {
+    btn.addEventListener('click', saveToServer);
+  }
+});

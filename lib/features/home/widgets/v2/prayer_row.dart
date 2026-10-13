@@ -1,4 +1,5 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import '../../../../app/shadows.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../../prayer/data/prayer_service.dart';
 
@@ -43,7 +44,7 @@ class _PrayerRowV2State extends State<PrayerRowV2> {
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(20),
-        boxShadow: [BoxShadow(color: Colors.black.withValues(alpha: 0.04), blurRadius: 12, offset: const Offset(0, 4))],
+        boxShadow: AppShadows.medium(),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

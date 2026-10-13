@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../app/theme.dart';
-import '../../data/content_repository.dart';
+import '../../data/hybrid_content_repository.dart';
 import '../../data/models/content_item.dart';
 import 'content_card.dart';
 
@@ -27,7 +27,7 @@ class ContentListView extends StatefulWidget {
 }
 
 class _ContentListViewState extends State<ContentListView> {
-  final ContentRepository _repo = LocalContentRepository();
+  final HybridContentRepository _repo = HybridContentRepository();
   late Future<List<ContentItem>> _future;
 
   @override

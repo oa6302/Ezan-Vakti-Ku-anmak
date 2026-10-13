@@ -1,4 +1,5 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import '../../../../app/shadows.dart';
 
 class ContentPair extends StatelessWidget {
   const ContentPair({super.key});
@@ -60,13 +61,7 @@ class _ModernPairCard extends StatelessWidget {
           end: Alignment.bottomRight,
         ),
         borderRadius: BorderRadius.circular(18),
-        boxShadow: [
-          BoxShadow(
-            color: gradient[0].withValues(alpha: 0.4),
-            blurRadius: 12,
-            offset: const Offset(0, 4),
-          ),
-        ],
+        boxShadow: AppShadows.colored(gradient[0]),
       ),
       child: Stack(
         children: [
