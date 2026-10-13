@@ -1,0 +1,141 @@
+{
+  "baslik": "Namaz Öğrenme",
+  "bolumler": [
+    {
+      "id": "abdest",
+      "baslik": "Abdest",
+      "altbaslik": "Namazın ön şartı",
+      "adimlar": [
+        {"sira": 1, "baslik": "Niyet ve Besmele", "metin": "Kalben abdest almaya niyet edilir. 'Bismillah' denir. Niyet kalpte olur, dille söylenmesi şart değildir.", "kaynak": "Buhârî, Vudû, 1"},
+        {"sira": 2, "baslik": "Elleri Yıkama", "metin": "Eller bileklere kadar üç kere yıkanır. Parmak araları hilallemek sünnettir.", "kaynak": "Müslim, Tahâret, 3"},
+        {"sira": 3, "baslik": "Ağza Su Verme", "metin": "Ağıza üç kere su alınır, çalkalanır. Oruçlu değilse gargara yapılır.", "kaynak": "Ebû Dâvûd, Tahâret, 51"},
+        {"sira": 4, "baslik": "Burnu Yıkama", "metin": "Burnun ucu üç kere su ile temizlenir. Suyu genize çekmek sünnettir. Oruçlu iken dikkat edilir.", "kaynak": "Buhârî, Vudû, 25"},
+        {"sira": 5, "baslik": "Yüzü Yıkama", "metin": "Alın saç bitiminden çene altına, bir kulak yumuşağından diğerine kadar olan bölge üç kere yıkanır.", "kaynak": "Mâide, 6"},
+        {"sira": 6, "baslik": "Kolları Yıkama", "metin": "Sağ kol dirsekten parmak uçlarına kadar üç kere yıkanır. Sonra sol kol aynı şekilde.", "kaynak": "Mâide, 6"},
+        {"sira": 7, "baslik": "Başı Meshetme", "metin": "Islak el, başın tamamına sürülür. Sünnet üzere öne-arkaya bir kere meshedilir.", "kaynak": "Müslim, Tahâret, 16"},
+        {"sira": 8, "baslik": "Kulakları Meshetme", "metin": "Şehadet parmakları kulak içine, baş parmaklar kulak arkasına sürülür.", "kaynak": "Ebû Dâvûd, Tahâret, 50"},
+        {"sira": 9, "baslik": "Boynu Meshetme", "metin": "Elin arkasıyla boynun arka kısmı meshedilir. Bu Hanefî mezhebinde sünnettir.", "kaynak": "Tirmizî, Tahâret, 36"},
+        {"sira": 10, "baslik": "Ayakları Yıkama", "metin": "Sağ ayak topukla birlikte parmak uçlarına kadar üç kere yıkanır. Sol ayak aynı şekilde. Parmak araları hilallenir.", "kaynak": "Mâide, 6"},
+        {"sira": 11, "baslik": "Kelime-i Şehâdet", "metin": "Abdest sonunda 'Eşhedü en lâ ilâhe illallah ve eşhedü enne Muhammeden abdühû ve rasûlüh' denir.", "kaynak": "Müslim, Tahâret, 17"}
+      ]
+    },
+    {
+      "id": "gusul",
+      "baslik": "Gusül Abdesti",
+      "altbaslik": "Boy abdesti",
+      "adimlar": [
+        {"sira": 1, "baslik": "Niyet", "metin": "Kalben gusül abdesti almaya niyet edilir. Cünüplükten veya hayız/nifas sonrası temizlenmek için niyet şarttır.", "kaynak": "Mâide, 6"},
+        {"sira": 2, "baslik": "Besmele ve Elleri Yıkama", "metin": "Bismillah denir, eller bileklere kadar yıkanır.", "kaynak": "Buhârî, Gusl, 1"},
+        {"sira": 3, "baslik": "Avret Mahallini Yıkama", "metin": "Edep yerleri iyice yıkanır, bedenden necaset temizlenir.", "kaynak": "Buhârî, Gusl, 5"},
+        {"sira": 4, "baslik": "Namaz Abdesti Alma", "metin": "Tam bir abdest alınır (ayaklar hariç tutulabilir veya en sona bırakılır).", "kaynak": "Buhârî, Gusl, 1"},
+        {"sira": 5, "baslik": "Başa Su Dökme", "metin": "Üç kere başa su dökülür, saç dipleri ıslatılır. Kadınlar için örgü çözülmesi şart değildir (Hanefî).", "kaynak": "Müslim, Hayz, 61"},
+        {"sira": 6, "baslik": "Sağ Tarafa Su Dökme", "metin": "Sağ omuz ve sağ tarafa üç kere su dökülür, vücuda yayılır.", "kaynak": "Buhârî, Gusl, 1"},
+        {"sira": 7, "baslik": "Sol Tarafa Su Dökme", "metin": "Sol omuz ve sol tarafa üç kere su dökülür.", "kaynak": "Buhârî, Gusl, 1"},
+        {"sira": 8, "baslik": "Vücudun Tamamı", "metin": "Vücudun tamamı, kuru yer kalmayacak şekilde ıslatılır. Göbek çukuru, koltuk altı gibi girintilere dikkat edilir.", "kaynak": "Müslim, Hayz, 61"}
+      ]
+    },
+    {
+      "id": "namazin_sartlari",
+      "baslik": "Namazın Şartları",
+      "altbaslik": "Namazdan önce ve namaz içinde gerekli şartlar",
+      "adimlar": [
+        {"sira": 1, "baslik": "Hadesten Tahâret", "metin": "Abdesti olmayan kişinin abdest alması, cünüp olanın gusül etmesi gerekir.", "kaynak": "Mâide, 6"},
+        {"sira": 2, "baslik": "Necasetten Tahâret", "metin": "Beden, elbise ve namaz kılınacak yerin necasetten temiz olması gerekir.", "kaynak": "Müddessir, 4"},
+        {"sira": 3, "baslik": "Setr-i Avret", "metin": "Erkeğin göbek ile diz kapağı arası, kadının yüz, el ve ayaklar dışındaki tüm vücudu örtülür.", "kaynak": "A'râf, 26"},
+        {"sira": 4, "baslik": "İstikbâl-i Kıble", "metin": "Kâbe'ye yönelmek şarttır. Kıble yönünü bilmeyen, araştırıp en kuvvetli ihtimalle yönelir.", "kaynak": "Bakara, 144"},
+        {"sira": 5, "baslik": "Vakit", "metin": "Namaz, kendi vakti içinde kılınır. Vakitten önce kılınmaz, vakti geçince kaza olur.", "kaynak": "Nisâ, 103"},
+        {"sira": 6, "baslik": "Niyet", "metin": "Hangi namaz kılınacaksa kalben niyet edilir. Dille söylemek sünnettir.", "kaynak": "Buhârî, Bed'ü'l-Vahy, 1"},
+        {"sira": 7, "baslik": "İftitah Tekbiri", "metin": "'Allahu Ekber' denilerek namaza başlanır. Bu tekbir namazın girişidir.", "kaynak": "Müslim, Salât, 11"}
+      ]
+    },
+    {
+      "id": "namazin_kilinisi",
+      "baslik": "Namazın Kılınışı",
+      "altbaslik": "Adım adım kılınış",
+      "adimlar": [
+        {"sira": 1, "baslik": "İftitah Tekbiri", "metin": "Ayakta, kıbleye dönük, eller kulak hizasına kaldırılır ve 'Allahu Ekber' denilir. Eller göbek altında bağlanır.", "kaynak": "Müslim, Salât, 11"},
+        {"sira": 2, "baslik": "Sübhâneke Duası", "metin": "'Sübhânekellâhümme ve bihamdike ve tebârakesmüke ve teâlâ ceddüke ve lâ ilâhe gayruk' okunur.", "kaynak": "Ebû Dâvûd, Salât, 121"},
+        {"sira": 3, "baslik": "Fâtiha", "metin": "Bismillah ile başlanır, Fâtiha suresi okunur. Sonunda 'Âmîn' denilir.", "kaynak": "Fâtiha, 1-7"},
+        {"sira": 4, "baslik": "Zamm-ı Sûre", "metin": "Fâtiha'dan sonra kısa bir sûre veya en az üç âyet okunur. İlk iki rekâtta okunur.", "kaynak": "Müslim, Salât, 34"},
+        {"sira": 5, "baslik": "Rükû", "metin": "'Allahu Ekber' denilerek eğilinir. Sırt düz, eller dizler üzerinde. Üç kere 'Sübhâne Rabbiye'l-azîm' denir.", "kaynak": "Müslim, Salât, 42"},
+        {"sira": 6, "baslik": "Secde", "metin": "'Semiallâhü limen hamideh' denilerek doğrulur. Sonra 'Allahu Ekber' ile secdeye inilir. Alın, burun, iki el, iki diz, iki ayak parmakları yere değer. Üç kere 'Sübhâne Rabbiye'l-a'lâ' denir.", "kaynak": "Müslim, Salât, 42"},
+        {"sira": 7, "baslik": "İki Secde Arası Oturuş", "metin": "'Allahu Ekber' ile doğrulup kısa süre oturulur. 'Rabbî ğfirlî' denir.", "kaynak": "Ebû Dâvûd, Salât, 121"},
+        {"sira": 8, "baslik": "İkinci Rekât", "metin": "'Allahu Ekber' ile ayağa kalkılır, Besmele ve Fâtiha ile başlanır. Yine bir zamm-ı sûre okunur.", "kaynak": "Müslim, Salât, 34"},
+        {"sira": 9, "baslik": "Tahiyyat (Ka'de)", "metin": "İki rekâttan sonra oturulur. 'Ettehiyyâtü lillâhi ve's-salavâtü ve't-tayyibâtü...' okunur.", "kaynak": "Buhârî, Ezân, 150"},
+        {"sira": 10, "baslik": "Salli-Bârik ve Selâm", "metin": "Son oturuşta Tahiyyat, Salli, Bârik ve Rabbenâ âtinâ duaları okunur. Sonra iki tarafa selam verilir: 'Es-selâmü aleyküm ve rahmetullah'.", "kaynak": "Buhârî, Ezân, 150"}
+      ]
+    },
+    {
+      "id": "rekatlar",
+      "baslik": "Beş Vaktin Rekâtları",
+      "altbaslik": "Sünnet ve farz dağılımı",
+      "adimlar": [
+        {"sira": 1, "baslik": "Sabah", "metin": "2 rekât sünnet + 2 rekât farz = 4 rekât. Sünneti kuvvetle vurgulanmıştır.", "kaynak": "Buhârî, Mevâkît, 27"},
+        {"sira": 2, "baslik": "Öğle", "metin": "4 rekât ilk sünnet + 4 rekât farz + 2 rekât son sünnet = 10 rekât.", "kaynak": "Tirmizî, Salât, 198"},
+        {"sira": 3, "baslik": "İkindi", "metin": "4 rekât sünnet + 4 rekât farz = 8 rekât. Sünneti gayr-i müekkede olup terk edilebilir.", "kaynak": "Buhârî, Mevâkît, 27"},
+        {"sira": 4, "baslik": "Akşam", "metin": "3 rekât farz + 2 rekât sünnet = 5 rekât.", "kaynak": "Tirmizî, Salât, 199"},
+        {"sira": 5, "baslik": "Yatsı", "metin": "4 rekât ilk sünnet + 4 rekât farz + 2 rekât son sünnet + 3 rekât vitir = 13 rekât. Vitir vaciptir (Hanefî).", "kaynak": "Ebû Dâvûd, Salât, 291"}
+      ]
+    },
+    {
+      "id": "namaz_dualar",
+      "baslik": "Namazda Okunan Dualar",
+      "altbaslik": "Arapça metin, okunuş ve anlam",
+      "adimlar": [
+        {"sira": 1, "baslik": "Sübhâneke", "metin": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلَا إِلَهَ غَيْرُكَ — 'Sübhânekellâhümme ve bihamdike ve tebârakesmüke ve teâlâ ceddüke ve lâ ilâhe gayruk.' Anlamı: 'Allah'ım! Senden başka ilah yoktur. Seni tenzih ederim, hamd sana mahsustur. İsmin mübarektir, şanın yücedir.'", "kaynak": "Ebû Dâvûd, Salât, 121"},
+        {"sira": 2, "baslik": "Fâtiha", "metin": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ۝ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ... — Fâtiha Suresi, 7 âyet. Namazın her rekâtında okunur.", "kaynak": "Fâtiha, 1-7"},
+        {"sira": 3, "baslik": "Rükû Tesbihi", "metin": "سُبْحَانَ رَبِّيَ الْعَظِيمِ — 'Sübhâne Rabbiye'l-azîm' (3 kere). Anlamı: 'Yüce Rabbimi tenzih ederim.'", "kaynak": "Müslim, Salât, 42"},
+        {"sira": 4, "baslik": "Secde Tesbihi", "metin": "سُبْحَانَ رَبِّيَ الْأَعْلَى — 'Sübhâne Rabbiye'l-a'lâ' (3 kere). Anlamı: 'En yüce Rabbimi tenzih ederim.'", "kaynak": "Müslim, Salât, 42"},
+        {"sira": 5, "baslik": "Tahiyyat", "metin": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ... — 'Ettehiyyâtü lillâhi ve's-salavâtü ve't-tayyibâtü...' Anlamı: 'Bütün tahiyyeler, salavâtlar ve güzel şeyler Allah'a mahsustur.'", "kaynak": "Buhârî, Ezân, 150"},
+        {"sira": 6, "baslik": "Salli-Bârik", "metin": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ... — 'Allahümme salli alâ Muhammedin ve alâ âli Muhammed...' Peygamberimize salât ve selâm duası.", "kaynak": "Buhârî, Ehâdîsü'l-Enbiyâ, 10"},
+        {"sira": 7, "baslik": "Rabbenâ Âtinâ", "metin": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ — 'Rabbenâ âtinâ fi'd-dünyâ haseneten ve fi'l-âhirati haseneten ve kınâ azâbe'n-nâr.' Anlamı: 'Rabbimiz! Bize dünyada da iyilik ver, âhirette de iyilik ver ve bizi cehennem azabından koru.'", "kaynak": "Bakara, 201"}
+      ]
+    },
+    {
+      "id": "bozan_durumlar",
+      "baslik": "Namazı Bozan Durumlar",
+      "altbaslik": "Dikkat edilmesi gerekenler",
+      "adimlar": [
+        {"sira": 1, "baslik": "Konuşmak", "metin": "Namaz içinde kasten konuşmak namazı bozar. Yanılarak az kelime konuşulursa Hanefî'de sehiv secdesi gerekir.", "kaynak": "Müslim, Salât, 29"},
+        {"sira": 2, "baslik": "Yemek-İçmek", "metin": "Namazda bir şey yemek veya içmek namazı bozar.", "kaynak": "Buhârî, Ezân, 105"},
+        {"sira": 3, "baslik": "Amel-i Kesîr", "metin": "Namaz dışı bir işi namazda uzun süre yapmak (birkaç adım yürümek gibi) namazı bozar.", "kaynak": "Buhârî, Salât, 5"},
+        {"sira": 4, "baslik": "Kıbleden Dönmek", "metin": "Göğüs kıbleden çevrilecek şekilde dönmek namazı bozar.", "kaynak": "Bakara, 144"},
+        {"sira": 5, "baslik": "Abdestin Bozulması", "metin": "Namaz içinde abdesti bozan bir şey olursa namaz bozulur.", "kaynak": "Buhârî, Vudû, 34"},
+        {"sira": 6, "baslik": "Kahkaha ile Gülemek", "metin": "Sesli kahkaha namazı bozar ve abdesti de bozar (Hanefî).", "kaynak": "Buhârî, Ezân, 105"}
+      ]
+    },
+    {
+      "id": "cemaat",
+      "baslik": "Cemaatle Namaz",
+      "altbaslik": "Fazilet ve uygulama",
+      "adimlar": [
+        {"sira": 1, "baslik": "Cemaatin Fazileti", "metin": "Cemaatle kılınan namaz, tek başına kılınan namazdan 27 derece üstündür.", "kaynak": "Buhârî, Ezân, 30"},
+        {"sira": 2, "baslik": "İmamın Şartları", "metin": "İmamın Müslüman, akıllı, ergin, namazı bilen ve erkek olması (erkek cemaat için) gerekir. Kadın, kadınlara imam olabilir.", "kaynak": "Müslim, Mesâcid, 290"},
+        {"sira": 3, "baslik": "İmama Uyma", "metin": "Cemaat imama uyar. İmam tekbir alırken uyulur, rükû-secdede imamdan sonra hareket edilir, önce imam kalkar.", "kaynak": "Buhârî, Ezân, 74"},
+        {"sira": 4, "baslik": "Saf Düzeni", "metin": "Saflar düzgün tutulur, öndeki boşluk doldurulur. Erkekler önde, kadınlar arkada saf tutar.", "kaynak": "Müslim, Salât, 122"}
+      ]
+    },
+    {
+      "id": "seferlik",
+      "baslik": "Seferîlik ve Namaz",
+      "altbaslik": "Yolculuk hükümleri",
+      "adimlar": [
+        {"sira": 1, "baslik": "Seferî Kimdir", "metin": "Hanefî mezhebine göre en az üç günlük (yaklaşık 90 km) yolculuğa çıkan ve on beş günden az kalmak üzere giden kişi seferîdir.", "kaynak": "Müslim, Müsâfirîn, 1"},
+        {"sira": 2, "baslik": "Kısaltma (Kasr)", "metin": "Seferî kişi, 4 rekâtlı farzları 2 rekât olarak kılar. Sabah (2), Akşam (3) ve Vitir kısaltılmaz.", "kaynak": "Nisâ, 101"},
+        {"sira": 3, "baslik": "Sünnetler", "metin": "Seferîlikte sünnet namazları terk edilebilir. Sabah'ın sünneti ve diğer müekked sünnetler kılınabilir.", "kaynak": "Buhârî, Taksîru's-Salât, 1"}
+      ]
+    },
+    {
+      "id": "kaza",
+      "baslik": "Kaza Namazı",
+      "altbaslik": "Kaynaklı açıklamalar",
+      "adimlar": [
+        {"sira": 1, "baslik": "Kaza Nedir", "metin": "Vakti içinde kılınamayan farz namazın, vakti geçtikten sonra kılınmasıdır. Kaza, sadece farzlar için söz konusudur.", "kaynak": "İsrâ, 78"},
+        {"sira": 2, "baslik": "Kaza Borcu", "metin": "Bilerek veya unutarak kaçırılan namazlar kaza edilir. Kaza borcu olan kişi, nafile yerine önce kazalarını kılması tavsiye edilir.", "kaynak": "Müslim, Mesâcid, 314"},
+        {"sira": 3, "baslik": "Kaçırılan Sünnetler", "metin": "Sünnetler kaza edilmez (Hanefî'ye göre). Ancak sabah namazının sünneti, farzla birlikte kaza edilirse kılınır.", "kaynak": "İbn Mâce, İkâme, 75"},
+        {"sira": 4, "baslik": "Vaktinde Kılınmayan Vakit", "metin": "Bir vakit kaçırıldığında, o vakti hatırlayınca kaza edilir. Kaza namazı için özel bir vakit yoktur, kerâhet vakitleri hariç her zaman kılınabilir.", "kaynak": "Müslim, Mesâcid, 314"},
+        {"sira": 5, "baslik": "Mezhep Farkı", "metin": "Şâfiî mezhebinde sünnetler de kaza edilir. Bu konuda mezhep görüşleri farklıdır; kendi mezhebinize veya güvendiğiniz bir âlime danışmanız tavsiye edilir.", "kaynak": "Genel fıkıh kaynakları"}
+      ]
+    }
+  ]
+}
