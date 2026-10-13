@@ -1,13 +1,20 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'app/theme.dart';
 import 'features/home/home_page.dart';
 import 'features/prayer/namazim_page.dart';
+import 'features/notifications/data/notification_service.dart';
+import 'features/notifications/notification_settings_page.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
 const _gold = Color(0xFFC9A961);
 
-void main() => runApp(const NurPusulasiApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await NotificationService().init();
+  runApp(const NurPusulasiApp());
+}
 
 class NurPusulasiApp extends StatelessWidget {
   const NurPusulasiApp({super.key});
@@ -28,8 +35,37 @@ class MainShell extends StatefulWidget {
   State<MainShell> createState() => _MainShellState();
 }
 
-class _MainShellState extends State<MainShell> {
+class _MainShellState extends State<MainShell> with WidgetsBindingObserver {
   int _index = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+    _refreshNotifications();
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      _refreshNotifications();
+    }
+  }
+
+  Future<void> _refreshNotifications() async {
+    final prefs = await SharedPreferences.getInstance();
+    final city = prefs.getString('prayer_city_v2') ?? 'İstanbul';
+    final enabled = prefs.getBool('notif_enabled') ?? true;
+    if (enabled) {
+      await NotificationService().scheduleAll(city: city);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -42,7 +78,7 @@ class _MainShellState extends State<MainShell> {
           _PlaceholderTab(label: 'Vakitler', icon: Icons.access_time_rounded),
           NamazimPage(),
           _PlaceholderTab(label: 'Kütüphane', icon: Icons.menu_book_rounded),
-          _PlaceholderTab(label: 'Daha Fazla', icon: Icons.more_horiz_rounded),
+          NotificationSettingsPage(),
         ],
       ),
       bottomNavigationBar: _BottomNav(
@@ -73,7 +109,7 @@ class _PlaceholderTab extends StatelessWidget {
           children: [
             Icon(icon, size: 64, color: _navy.withValues(alpha: 0.3)),
             const SizedBox(height: 12),
-            Text(' yakında',
+            Text('$label yakında',
                 style: const TextStyle(
                     color: _navy, fontSize: 16, fontWeight: FontWeight.w700)),
           ],
