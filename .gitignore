@@ -49,3 +49,8 @@ app.*.map.json
 
 # Yerel yedekler (commit edilmesin)
 lib/*.bak
+
+# Android signing (secret)
+android/key.properties
+*.jks
+*.keystore

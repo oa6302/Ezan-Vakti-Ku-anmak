@@ -11,6 +11,7 @@ import 'package:nur_pusulasi/features/qibla/qibla_page.dart';
 import 'package:nur_pusulasi/features/tesbih/tesbih_page.dart';
 import 'package:nur_pusulasi/features/learn/pages/learn_page.dart';
 import 'package:nur_pusulasi/features/quran/pages/quran_page.dart';
+import 'package:nur_pusulasi/features/journey/pages/journey_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -29,6 +30,9 @@ class HomePage extends StatelessWidget {
         break;
       case 'Kütüphane':
         page = const QuranPage();
+        break;
+      case 'Yolculuk':
+        page = const JourneyPage();
         break;
     }
     if (page != null) {

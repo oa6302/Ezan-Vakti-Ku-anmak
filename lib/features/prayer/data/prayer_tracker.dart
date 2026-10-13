@@ -117,6 +117,134 @@ class PrayerTracker {
     }
     return summary;
   }
+  /// Son N günün tamamlanan vakit sayısı.
+  /// Index 0 = N-1 gün önce, index N-1 = bugün.
+  Future<List<int>> getLastNDays(int n) async {
+    final all = await _loadAll();
+    final result = <int>[];
+    final today = DateTime.now();
+    for (var i = n - 1; i >= 0; i--) {
+      final d = today.subtract(Duration(days: i));
+      final key = _dateKey(d);
+      var count = 0;
+      for (final v in vakitler) {
+        final r = all['${key}_$v'];
+        if (r != null &&
+            (r.status == PrayerStatus.kilindi ||
+                r.status == PrayerStatus.cemaatle)) {
+          count++;
+        }
+      }
+      result.add(count);
+    }
+    return result;
+  }
+
+  /// Toplam tamamlanan vakit sayısı (tüm geçmiş).
+  Future<int> getTotalCompleted() async {
+    final all = await _loadAll();
+    var count = 0;
+    for (final r in all.values) {
+      if (r.status == PrayerStatus.kilindi || r.status == PrayerStatus.cemaatle) {
+        count++;
+      }
+    }
+    return count;
+  }
+
+  /// Toplam kayıtlı gün sayısı.
+  Future<int> getTotalActiveDays() async {
+    final all = await _loadAll();
+    final days = <String>{};
+    for (final r in all.values) {
+      if (r.status == PrayerStatus.kilindi || r.status == PrayerStatus.cemaatle) {
+        days.add(r.date);
+      }
+    }
+    return days.length;
+  }
+
+  /// Şu anki kesintisiz seri (gün). Bugün dahil.
+  Future<int> getCurrentStreak() async {
+    final all = await _loadAll();
+    var streak = 0;
+    final today = DateTime.now();
+    for (var i = 0; i < 365; i++) {
+      final d = today.subtract(Duration(days: i));
+      final key = _dateKey(d);
+      var hasAny = false;
+      for (final v in vakitler) {
+        final r = all['${key}_$v'];
+        if (r != null &&
+            (r.status == PrayerStatus.kilindi ||
+                r.status == PrayerStatus.cemaatle)) {
+          hasAny = true;
+          break;
+        }
+      }
+      if (hasAny) {
+        streak++;
+      } else {
+        if (i == 0) continue; // Bugün henüz kayıt yoksa seriyi kesme
+        break;
+      }
+    }
+    return streak;
+  }
+
+  /// En uzun kesintisiz seri (tüm geçmiş).
+  Future<int> getLongestStreak() async {
+    final all = await _loadAll();
+    final activeDays = <DateTime>{};
+    for (final r in all.values) {
+      if (r.status == PrayerStatus.kilindi || r.status == PrayerStatus.cemaatle) {
+        final parts = r.date.split('-');
+        if (parts.length == 3) {
+          activeDays.add(DateTime(
+            int.parse(parts[0]),
+            int.parse(parts[1]),
+            int.parse(parts[2]),
+          ));
+        }
+      }
+    }
+    if (activeDays.isEmpty) return 0;
+    final sorted = activeDays.toList()..sort();
+    var longest = 1;
+    var current = 1;
+    for (var i = 1; i < sorted.length; i++) {
+      final diff = sorted[i].difference(sorted[i - 1]).inDays;
+      if (diff == 1) {
+        current++;
+        if (current > longest) longest = current;
+      } else {
+        current = 1;
+      }
+    }
+    return longest;
+  }
+
+  /// Ayın günlerine göre tamamlanan sayılar (1..31).
+  Future<Map<int, int>> getMonthHeatmap(DateTime month) async {
+    final all = await _loadAll();
+    final prefix = month.year.toString() +
+        '-' +
+        month.month.toString().padLeft(2, '0') +
+        '-';
+    final result = <int, int>{};
+    for (final r in all.values) {
+      if (r.date.startsWith(prefix)) {
+        if (r.status == PrayerStatus.kilindi ||
+            r.status == PrayerStatus.cemaatle) {
+          final day = int.tryParse(r.date.substring(8)) ?? 0;
+          result[day] = (result[day] ?? 0) + 1;
+        }
+      }
+    }
+    return result;
+  }
+
+
 
   Future<void> clearAll() async {
     final prefs = await SharedPreferences.getInstance();
