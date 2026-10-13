@@ -12,6 +12,7 @@ import 'package:nur_pusulasi/features/tesbih/tesbih_page.dart';
 import 'package:nur_pusulasi/features/learn/pages/learn_page.dart';
 import 'package:nur_pusulasi/features/quran/pages/quran_page.dart';
 import 'package:nur_pusulasi/features/journey/pages/journey_page.dart';
+import 'package:nur_pusulasi/features/mood/pages/mood_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -33,6 +34,9 @@ class HomePage extends StatelessWidget {
         break;
       case 'Yolculuk':
         page = const JourneyPage();
+        break;
+      case 'Ruh Halin':
+        page = const MoodPage();
         break;
     }
     if (page != null) {
