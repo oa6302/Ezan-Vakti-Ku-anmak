@@ -15,6 +15,7 @@ import 'package:nur_pusulasi/features/journey/pages/journey_page.dart';
 import 'package:nur_pusulasi/features/mood/pages/mood_page.dart';
 import 'package:nur_pusulasi/features/reflection/pages/reflection_page.dart';
 import 'package:nur_pusulasi/features/combo/pages/combo_page.dart';
+import 'package:nur_pusulasi/features/khushu/pages/khushu_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -45,6 +46,9 @@ class HomePage extends StatelessWidget {
         break;
       case 'Zikir Zinciri':
         page = const ComboPage();
+        break;
+      case 'Huşu Takibi':
+        page = const KhushuPage();
         break;
     }
     if (page != null) {
