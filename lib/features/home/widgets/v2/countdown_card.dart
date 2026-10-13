@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import '../../../../app/shadows.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../../../prayer/data/prayer_service.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -90,7 +91,7 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown> {
                     color: _gold.withValues(alpha: 0.15),
                     borderRadius: BorderRadius.circular(6),
                   ),
-                  child: const Text('Sonraki Namaz', style: TextStyle(color: _gold, fontSize: 10, fontWeight: FontWeight.w700)),
+                  child: Text(AppLocalizations.of(context).nextPrayer, style: TextStyle(color: _gold, fontSize: 10, fontWeight: FontWeight.w700)),
                 ),
                 const SizedBox(height: 6),
                 Text('$namazAdi Namazı', style: const TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w900)),
@@ -110,7 +111,7 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown> {
           Column(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
-              const Text('Kalan Süre', style: TextStyle(color: Colors.white70, fontSize: 11)),
+              Text(AppLocalizations.of(context).remainingTime, style: TextStyle(color: Colors.white70, fontSize: 11)),
               const SizedBox(height: 6),
               Row(
                 children: [

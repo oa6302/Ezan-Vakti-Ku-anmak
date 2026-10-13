@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../../app/settings_service.dart';
+import '../../app/app_settings.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _gold = Color(0xFFC9A961);
@@ -23,12 +24,11 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
   }
 
   Future<void> _load() async {
-    final loc = await SettingsService.loadLocale();
-    final font = await SettingsService.loadFontStyle();
+    await SettingsService.loadAll();
     if (mounted) {
       setState(() {
-        _currentLocale = loc?.languageCode ?? 'tr';
-        _currentFont = font;
+        _currentLocale = AppSettings.instance.locale.value.languageCode;
+        _currentFont = AppSettings.instance.fontStyle.value;
       });
     }
   }

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:nur_pusulasi/app/arabic_text.dart';
+import 'package:nur_pusulasi/app/app_settings.dart';
 import '../data/quran_models.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -230,16 +232,14 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
             ],
           ),
           const SizedBox(height: 14),
-          Directionality(
-            textDirection: TextDirection.rtl,
-            child: Text(
+          ValueListenableBuilder<String>(
+            valueListenable: AppSettings.instance.fontStyle,
+            builder: (context, fontStyle, _) => ArabicText(
               s.arapca,
-              style: TextStyle(
-                fontSize: _fontSize + 4,
-                color: _navy,
-                height: 2.2,
-                fontWeight: FontWeight.w500,
-              ),
+              rika: fontStyle == 'rika',
+              fontSize: _fontSize + 4,
+              color: _navy,
+              height: 2.2,
             ),
           ),
         ],

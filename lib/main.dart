@@ -4,6 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'app/theme.dart';
 import 'app/settings_service.dart';
+import 'app/app_settings.dart';
 import 'l10n/app_localizations.dart';
 import 'features/home/home_page.dart';
 import 'features/prayer/namazim_page.dart';
@@ -29,38 +30,44 @@ class NurPusulasiApp extends StatefulWidget {
 }
 
 class _NurPusulasiAppState extends State<NurPusulasiApp> {
-  Locale? _locale;
-
   @override
   void initState() {
     super.initState();
-    _loadLocale();
-  }
-
-  Future<void> _loadLocale() async {
-    final loc = await SettingsService.loadLocale();
-    if (mounted) setState(() => _locale = loc);
+    SettingsService.loadAll();
   }
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: '5 Vakit Namaz',
-      debugShowCheckedModeBanner: false,
-      theme: buildAppTheme(),
-      localizationsDelegates: const [
-        AppLocalizations.delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-      ],
-      supportedLocales: const [
-        Locale('tr'),
-        Locale('en'),
-        Locale('ar'),
-      ],
-      locale: _locale,
-      home: const MainShell(),
+    return ValueListenableBuilder<Locale>(
+      valueListenable: AppSettings.instance.locale,
+      builder: (context, locale, _) {
+        return MaterialApp(
+          title: '5 Vakit Namaz',
+          debugShowCheckedModeBanner: false,
+          theme: buildAppTheme(),
+          localizationsDelegates: const [
+            AppLocalizations.delegate,
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+          ],
+          supportedLocales: const [
+            Locale('tr'),
+            Locale('en'),
+            Locale('ar'),
+          ],
+          locale: locale,
+
+          builder: (context, child) {
+            // Layout her zaman LTR; Arapca metinler ArabicText ile RTL
+            return Directionality(
+              textDirection: TextDirection.ltr,
+              child: child ?? const SizedBox.shrink(),
+            );
+          },
+          home: const MainShell(),
+        );
+      },
     );
   }
 }

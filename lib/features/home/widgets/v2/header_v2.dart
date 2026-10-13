@@ -1,4 +1,5 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _navyDeep = Color(0xFF05132B);
@@ -53,14 +54,14 @@ class HomeHeaderV2 extends StatelessWidget {
                         child: const Icon(Icons.mosque_rounded, color: _gold, size: 24),
                       ),
                       const SizedBox(width: 12),
-                      const Expanded(
+                      Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('5 Vakit Namaz',
+                            Text(AppLocalizations.of(context).appTitle,
                               style: TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.w900, letterSpacing: 0.3)),
                             SizedBox(height: 2),
-                            Text('İbadetle huzura, doğruya ve hayra...',
+                            Text(AppLocalizations.of(context).appSubtitle,
                               style: TextStyle(color: Colors.white70, fontSize: 11)),
                           ],
                         ),
@@ -84,10 +85,10 @@ class HomeHeaderV2 extends StatelessWidget {
                   ),
                   const SizedBox(height: 16),
                   Row(
-                    children: const [
+                    children: [
                       Icon(Icons.location_on_outlined, color: Colors.white70, size: 15),
                       SizedBox(width: 6),
-                      Text('İstanbul, Türkiye',
+                      Text('${AppLocalizations.of(context).city}, Türkiye',
                         style: TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w600)),
                       SizedBox(width: 4),
                       Icon(Icons.keyboard_arrow_down_rounded, color: Colors.white70, size: 16),
