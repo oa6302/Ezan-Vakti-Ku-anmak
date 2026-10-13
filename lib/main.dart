@@ -1,10 +1,14 @@
-import 'package:flutter/material.dart';
+﻿import 'package:flutter/material.dart';
 
 import 'app/theme.dart';
 import 'features/home/home_page.dart';
-import 'features/prayer/prayer_page.dart';
-import 'features/profile/profile_page.dart';
+import 'features/library/library_page.dart';
 import 'features/profile/saved_items_page.dart';
+import 'features/profile/profile_page.dart';
+import 'features/prayer/prayer_page.dart';
+import 'features/growth/growth_page.dart';
+import 'features/growth/daily_goals_page.dart';
+import 'features/admin/content_archive_page.dart';
 
 void main() => runApp(const NurPusulasiApp());
 
@@ -14,240 +18,202 @@ class NurPusulasiApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Nur Pusulası',
+      title: '5 Vakit Namaz',
       debugShowCheckedModeBanner: false,
       theme: buildAppTheme(),
-      home: const MainShell(),
+      home: const MainNavigationShell(),
     );
   }
 }
 
-class MainShell extends StatefulWidget {
-  const MainShell({super.key});
+class MainNavigationShell extends StatefulWidget {
+  const MainNavigationShell({super.key});
+
   @override
-  State<MainShell> createState() => _MainShellState();
+  State<MainNavigationShell> createState() => _MainNavigationShellState();
 }
 
-class _MainShellState extends State<MainShell> {
-  int _index = 0;
+class _MainNavigationShellState extends State<MainNavigationShell> {
+  int _selectedIndex = 0;
 
-  final pages = const [
+  static const Color _navy = Color(0xFF10264B);
+  static const Color _red = Color(0xFFD91E36);
+
+  static const List<Widget> _pages = [
     HomePage(),
-    PrayerPage(),
+    LibraryPage(),
     SavedItemsPage(),
     ProfilePage(),
   ];
 
+  void _selectTab(int index) {
+    setState(() => _selectedIndex = index);
+  }
+
+  Future<void> _showQuickActions() async {
+    final choice = await showModalBottomSheet<String>(
+      context: context,
+      backgroundColor: Colors.white,
+      showDragHandle: true,
+      isScrollControlled: false,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
+      builder: (sheetContext) => SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(20, 4, 20, 24),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text(
+                'Hızlı İşlemler',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w900,
+                  color: _navy,
+                ),
+              ),
+              const SizedBox(height: 12),
+              _ActionTile(
+                icon: Icons.flag_rounded,
+                title: 'Günlük Hedefler',
+                subtitle: 'Günlük manevi hedeflerini takip et',
+                onTap: () => Navigator.pop(sheetContext, 'goals'),
+              ),
+              _ActionTile(
+                icon: Icons.access_time_rounded,
+                title: 'Namaz Vakitleri',
+                subtitle: 'Namaz ve ibadet bölümünü aç',
+                onTap: () => Navigator.pop(sheetContext, 'prayer'),
+              ),
+              _ActionTile(
+                icon: Icons.trending_up_rounded,
+                title: 'Kişisel Gelişim',
+                subtitle: 'Gelişim ve ilerleme içerikleri',
+                onTap: () => Navigator.pop(sheetContext, 'growth'),
+              ),
+              _ActionTile(
+                icon: Icons.menu_book_rounded,
+                title: 'İçerik Arşivi',
+                subtitle: 'Uygulamadaki içeriklere göz at',
+                onTap: () => Navigator.pop(sheetContext, 'archive'),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+
+    if (!mounted || choice == null) return;
+
+    final Widget? page = switch (choice) {
+      'goals' => const DailyGoalsPage(),
+      'prayer' => const PrayerPage(),
+      'growth' => const GrowthPage(),
+      'archive' => const ContentArchivePage(),
+      _ => null,
+    };
+
+    if (page != null) {
+      await Navigator.of(context).push(
+        MaterialPageRoute<void>(builder: (_) => page),
+      );
+    }
+  }
+
+  Widget _navItem({
+    required int index,
+    required IconData icon,
+    required String label,
+  }) {
+    final selected = _selectedIndex == index;
+
+    return Expanded(
+      child: InkWell(
+        onTap: () => _selectTab(index),
+        borderRadius: BorderRadius.circular(14),
+        child: SizedBox(
+          height: 62,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                icon,
+                size: 23,
+                color: selected ? _red : const Color(0xFF8993A5),
+              ),
+              const SizedBox(height: 3),
+              Text(
+                label,
+                maxLines: 1,
+                style: TextStyle(
+                  fontSize: 10,
+                  fontWeight: selected ? FontWeight.w800 : FontWeight.w600,
+                  color: selected ? _navy : const Color(0xFF8993A5),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF7F9FC),
-      body: IndexedStack(index: _index, children: pages),
-      bottomNavigationBar: _CustomNavBar(
-        currentIndex: _index,
-        onTap: (i) => setState(() => _index = i),
-        onAddTap: () => _showQuickAdd(context),
+      backgroundColor: const Color(0xFFF3F6FA),
+      body: IndexedStack(
+        index: _selectedIndex,
+        children: _pages,
       ),
-    );
-  }
-
-  void _showQuickAdd(BuildContext context) {
-    showModalBottomSheet<void>(
-      context: context,
-      backgroundColor: Colors.transparent,
-      builder: (_) => Container(
-        margin: const EdgeInsets.all(16),
-        padding: const EdgeInsets.all(20),
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(24),
-        ),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const Text('Hızlı Ekle',
-                style: TextStyle(
-                    color: navy, fontSize: 18, fontWeight: FontWeight.w900)),
-            const SizedBox(height: 16),
-            _AddTile(
-                icon: Icons.edit_note_rounded,
-                color: navy,
-                label: 'Şükür notu ekle',
-                onTap: () => Navigator.pop(context)),
-            _AddTile(
-                icon: Icons.bookmark_add_rounded,
-                color: red,
-                label: 'İçerik kaydet',
-                onTap: () => Navigator.pop(context)),
-            _AddTile(
-                icon: Icons.track_changes_rounded,
-                color: const Color(0xFF2FAE7F),
-                label: 'Hedef oluştur',
-                onTap: () => Navigator.pop(context)),
-            _AddTile(
-                icon: Icons.timer_rounded,
-                color: const Color(0xFFC9A961),
-                label: 'Zikir sayacı başlat',
-                onTap: () => Navigator.pop(context)),
-            const SizedBox(height: 8),
-          ],
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: SizedBox(
+        width: 58,
+        height: 58,
+        child: FloatingActionButton(
+          heroTag: 'main_navigation_plus',
+          onPressed: _showQuickActions,
+          backgroundColor: _red,
+          foregroundColor: Colors.white,
+          elevation: 6,
+          shape: const CircleBorder(),
+          child: const Icon(Icons.add_rounded, size: 34),
         ),
       ),
-    );
-  }
-}
-
-class _AddTile extends StatelessWidget {
-  final IconData icon;
-  final Color color;
-  final String label;
-  final VoidCallback onTap;
-
-  const _AddTile({
-    required this.icon,
-    required this.color,
-    required this.label,
-    required this.onTap,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        onTap: onTap,
-        borderRadius: BorderRadius.circular(14),
-        child: Padding(
-          padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 8),
+      bottomNavigationBar: BottomAppBar(
+        color: Colors.white,
+        elevation: 16,
+        shadowColor: _navy.withValues(alpha: 0.12),
+        surfaceTintColor: Colors.white,
+        shape: const CircularNotchedRectangle(),
+        notchMargin: 7,
+        padding: const EdgeInsets.symmetric(horizontal: 5),
+        child: SizedBox(
+          height: 64,
           child: Row(
             children: [
-              Container(
-                padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: color.withValues(alpha: 0.12),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Icon(icon, color: color, size: 20),
+              _navItem(
+                index: 0,
+                icon: Icons.home_rounded,
+                label: 'Ana Sayfa',
               ),
-              const SizedBox(width: 14),
-              Text(label,
-                  style: const TextStyle(
-                      color: navy,
-                      fontSize: 14,
-                      fontWeight: FontWeight.w700)),
-              const Spacer(),
-              const Icon(Icons.chevron_right_rounded,
-                  color: Colors.black38, size: 20),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _CustomNavBar extends StatelessWidget {
-  final int currentIndex;
-  final void Function(int) onTap;
-  final VoidCallback onAddTap;
-
-  const _CustomNavBar({
-    required this.currentIndex,
-    required this.onTap,
-    required this.onAddTap,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        color: navy,
-        boxShadow: [
-          BoxShadow(
-            color: navy.withValues(alpha: 0.25),
-            blurRadius: 20,
-            offset: const Offset(0, -6),
-          ),
-        ],
-      ),
-      child: SafeArea(
-        top: false,
-        child: SizedBox(
-          height: 68,
-          child: Stack(
-            clipBehavior: Clip.none,
-            children: [
-              Positioned.fill(
-                child: Row(
-                  children: [
-                    Expanded(
-                      child: _NavItem(
-                        icon: Icons.home_rounded,
-                        label: 'Ana Sayfa',
-                        active: currentIndex == 0,
-                        onTap: () => onTap(0),
-                      ),
-                    ),
-                    Expanded(
-                      child: _NavItem(
-                        icon: Icons.explore_outlined,
-                        label: 'Keşfet',
-                        active: currentIndex == 1,
-                        onTap: () => onTap(1),
-                      ),
-                    ),
-                    const SizedBox(width: 72),
-                    Expanded(
-                      child: _NavItem(
-                        icon: Icons.bookmark_rounded,
-                        label: 'Kaydedilenler',
-                        active: currentIndex == 2,
-                        onTap: () => onTap(2),
-                      ),
-                    ),
-                    Expanded(
-                      child: _NavItem(
-                        icon: Icons.person_rounded,
-                        label: 'Profil',
-                        active: currentIndex == 3,
-                        onTap: () => onTap(3),
-                      ),
-                    ),
-                  ],
-                ),
+              _navItem(
+                index: 1,
+                icon: Icons.explore_rounded,
+                label: 'Keşfet',
               ),
-              Positioned(
-                top: -22,
-                left: 0,
-                right: 0,
-                child: Center(
-                  child: Material(
-                    color: Colors.transparent,
-                    child: InkWell(
-                      onTap: onAddTap,
-                      customBorder: const CircleBorder(),
-                      child: Container(
-                        width: 58,
-                        height: 58,
-                        decoration: BoxDecoration(
-                          color: red,
-                          shape: BoxShape.circle,
-                          border: Border.all(color: Colors.white, width: 4),
-                          boxShadow: [
-                            BoxShadow(
-                              color: red.withValues(alpha: 0.4),
-                              blurRadius: 16,
-                              offset: const Offset(0, 6),
-                            ),
-                          ],
-                        ),
-                        child: const Icon(Icons.add_rounded,
-                            color: Colors.white, size: 30),
-                      ),
-                    ),
-                  ),
-                ),
+              const SizedBox(width: 66),
+              _navItem(
+                index: 2,
+                icon: Icons.bookmark_rounded,
+                label: 'Kaydedilenler',
+              ),
+              _navItem(
+                index: 3,
+                icon: Icons.person_rounded,
+                label: 'Profil',
               ),
             ],
           ),
@@ -257,42 +223,43 @@ class _CustomNavBar extends StatelessWidget {
   }
 }
 
-class _NavItem extends StatelessWidget {
+class _ActionTile extends StatelessWidget {
   final IconData icon;
-  final String label;
-  final bool active;
+  final String title;
+  final String subtitle;
   final VoidCallback onTap;
 
-  const _NavItem({
+  const _ActionTile({
     required this.icon,
-    required this.label,
-    required this.active,
+    required this.title,
+    required this.subtitle,
     required this.onTap,
   });
 
   @override
   Widget build(BuildContext context) {
-    final color = active ? Colors.white : Colors.white60;
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        onTap: onTap,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(icon, color: color, size: 24),
-            const SizedBox(height: 3),
-            Text(
-              label,
-              style: TextStyle(
-                color: color,
-                fontSize: 10,
-                fontWeight: active ? FontWeight.w800 : FontWeight.w500,
-              ),
-            ),
-          ],
+    return ListTile(
+      contentPadding: const EdgeInsets.symmetric(vertical: 3),
+      leading: Container(
+        width: 44,
+        height: 44,
+        decoration: BoxDecoration(
+          color: const Color(0xFFF0F3F9),
+          borderRadius: BorderRadius.circular(14),
+        ),
+        child: Icon(icon, color: const Color(0xFF10264B)),
+      ),
+      title: Text(
+        title,
+        style: const TextStyle(
+          color: Color(0xFF10264B),
+          fontWeight: FontWeight.w800,
         ),
       ),
+      subtitle: Text(subtitle),
+      trailing: const Icon(Icons.chevron_right_rounded),
+      onTap: onTap,
     );
   }
 }
+

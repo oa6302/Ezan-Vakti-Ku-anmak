@@ -1,6 +1,6 @@
-{
-    "name": "nur_pusulasi",
-    "short_name": "nur_pusulasi",
+﻿{
+    "name": "5 Vakit Namaz",
+    "short_name": "5 Vakit",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
@@ -33,3 +33,4 @@
         }
     ]
 }
+

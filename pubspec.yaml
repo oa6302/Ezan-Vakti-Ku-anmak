@@ -1,7 +1,7 @@
-name: nur_pusulasi
-description: Nur Pusulasi - kişisel İslami yaşam, ibadet ve öğrenme rehberi.
+﻿name: nur_pusulasi
+description: 5 Vakit Namaz - namaz merkezli ibadet rehberi ve vakit takip uygulamasi.
 publish_to: 'none'
-version: 0.1.0+1
+version: 0.2.0+1
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
