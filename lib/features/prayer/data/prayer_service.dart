@@ -1,66 +1,114 @@
-import 'dart:convert';
-import 'package:http/http.dart' as http;
+﻿import 'package:adhan_dart/adhan_dart.dart';
+import 'turkish_cities.dart';
 
-class PrayerTimes {
-  final String city;
+/// Namaz vakti sonucu
+class PrayerTimeResult {
+  final String cityName;
   final DateTime date;
-  final Map<String, String> times; // imsak, gunes, ogle, ikindi, aksam, yatsi
+  final Map<String, DateTime> times; // imsak, gunes, ogle, ikindi, aksam, yatsi
+  final String calculationMethod;
+  final String madhab;
 
-  PrayerTimes({
-    required this.city,
+  PrayerTimeResult({
+    required this.cityName,
     required this.date,
     required this.times,
+    this.calculationMethod = 'Diyanet (yaklaşım)',
+    this.madhab = 'Hanefi',
   });
 
+  /// Sıradaki namazın adı
   String? get nextPrayerName {
     final now = DateTime.now();
-    final entries = times.entries.toList();
-    for (final e in entries) {
-      final parts = e.value.split(':');
-      if (parts.length != 2) continue;
-      final h = int.tryParse(parts[0]) ?? 0;
-      final m = int.tryParse(parts[1]) ?? 0;
-      final t = DateTime(now.year, now.month, now.day, h, m);
-      if (t.isAfter(now)) return e.key;
+    final sorted = times.entries.toList()
+      ..sort((a, b) => a.value.compareTo(b.value));
+    for (final e in sorted) {
+      if (e.key == 'Güneş') continue; // Güneş vakit değil
+      if (e.value.isAfter(now)) return e.key;
     }
-    return entries.isEmpty ? null : entries.first.key;
+    return null;
   }
 
-  String? get nextPrayerTime => nextPrayerName == null ? null : times[nextPrayerName!];
+  /// Sıradaki namazın saati
+  DateTime? get nextPrayerTime {
+    final name = nextPrayerName;
+    return name == null ? null : times[name];
+  }
+
+  /// Sıradaki namaza kalan süre (dakika)
+  int? get minutesToNext {
+    final next = nextPrayerTime;
+    if (next == null) return null;
+    return next.difference(DateTime.now()).inMinutes;
+  }
+
+  /// Kalan süre metni
+  String get remainingText {
+    final mins = minutesToNext;
+    if (mins == null) return '';
+    if (mins < 0) return 'Vakit girdi';
+    if (mins < 60) return '$mins dk';
+    final h = mins ~/ 60;
+    final m = mins % 60;
+    return '${h}s ${m}dk';
+  }
 }
 
+/// 100% offline namaz vakti hesaplama servisi.
+/// adhan_dart (astronomik hesaplama) kullanır.
 class PrayerService {
-  static const _base = 'https://api.aladhan.com/v1/timingsByCity';
+  /// Şehir adına göre vakit hesaplar.
+  Future<PrayerTimeResult?> calculateForCity(String cityName,
+      {DateTime? date}) async {
+    final city = findCity(cityName);
+    if (city == null) return null;
+    return _calculate(city.lat, city.lng, city.name, date);
+  }
 
-  Future<PrayerTimes?> fetch({
-    required String city,
-    String country = 'Turkey',
-    int method = 13, // Diyanet
-  }) async {
-    try {
-      final now = DateTime.now();
-      final url = Uri.parse(
-        '$_base?city=$city&country=$country&method=$method'
-        '&date=${now.day}-${now.month}-${now.year}',
-      );
-      final res = await http.get(url).timeout(const Duration(seconds: 8));
-      if (res.statusCode != 200) return null;
-      final data = jsonDecode(res.body);
-      final timings = data['data']['timings'] as Map<String, dynamic>;
-      return PrayerTimes(
-        city: city,
-        date: now,
-        times: {
-          'İmsak': (timings['Fajr'] ?? '').toString().substring(0, 5),
-          'Güneş': (timings['Sunrise'] ?? '').toString().substring(0, 5),
-          'Öğle': (timings['Dhuhr'] ?? '').toString().substring(0, 5),
-          'İkindi': (timings['Asr'] ?? '').toString().substring(0, 5),
-          'Akşam': (timings['Maghrib'] ?? '').toString().substring(0, 5),
-          'Yatsı': (timings['Isha'] ?? '').toString().substring(0, 5),
-        },
-      );
-    } catch (_) {
-      return null;
+  /// Koordinata göre vakit hesaplar (konum izni verildiğinde).
+  Future<PrayerTimeResult?> calculateForCoordinates(
+      double lat, double lng, String label,
+      {DateTime? date}) async {
+    return _calculate(lat, lng, label, date);
+  }
+
+  PrayerTimeResult _calculate(
+      double lat, double lng, String label, DateTime? date) {
+    final targetDate = date ?? DateTime.now();
+    final coordinates = Coordinates(lat, lng);
+
+    // Diyanet yöntemi (adhan_dart'ın Türkiye yaklaşımı)
+    final params = CalculationMethodParameters.turkiye();
+    params.madhab = Madhab.hanafi;
+
+    final prayerTimes = PrayerTimes(
+      coordinates: coordinates,
+      date: targetDate,
+      calculationParameters: params,
+      precision: true,
+    );
+
+    // Yerel saat dilimine göre DateTime üret
+    DateTime local(DateTime utc) {
+      final offset = targetDate.timeZoneOffset;
+      return utc.add(offset);
     }
+
+    final times = <String, DateTime>{
+      'İmsak': local(prayerTimes.fajr),
+      'Güneş': local(prayerTimes.sunrise),
+      'Öğle': local(prayerTimes.dhuhr),
+      'İkindi': local(prayerTimes.asr),
+      'Akşam': local(prayerTimes.maghrib),
+      'Yatsı': local(prayerTimes.isha),
+    };
+
+    return PrayerTimeResult(
+      cityName: label,
+      date: targetDate,
+      times: times,
+      calculationMethod: 'Diyanet (yaklaşım)',
+      madhab: 'Hanefi',
+    );
   }
 }

@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="tr">
 <head>
   <meta charset="utf-8">
@@ -18,6 +18,10 @@
     <button class="nav" data-page="risale">✦ <span>Risale-i Nur</span></button>
     <button class="nav" data-page="ayet">☼ <span>Ayetler</span></button>
     <button class="nav" data-page="hadis">◈ <span>Hadisler</span></button>
+    <button class="nav" data-page="vecize">❝ <span>Vecizeler</span></button>
+    <button class="nav" data-page="dua">☾ <span>Dualar</span></button>
+    <button class="nav" data-page="kissa">◈ <span>Kıssalar</span></button>
+    <button class="nav" data-page="zikir">◉ <span>Zikirler</span></button>
     <button class="nav" data-page="home">⌂ <span>Ana Sayfa</span></button>
     <button class="nav" data-page="notifications">♧ <span>Bildirimler</span></button>
     <button class="nav" data-page="settings">⚙ <span>Ayarlar</span></button>
@@ -61,6 +65,9 @@
         <article class="stat-card"><span class="stat-icon red">☼</span><span class="stat-label">Ayetler</span><strong id="ayetCount">0</strong><small>İçerik kaydı</small></article>
         <article class="stat-card"><span class="stat-icon gold">◈</span><span class="stat-label">Hadisler</span><strong id="hadisCount">0</strong><small>İçerik kaydı</small></article>
         <article class="stat-card"><span class="stat-icon green">✓</span><span class="stat-label">Yayına hazır</span><strong id="publishedCount">0</strong><small>Yayın durumu seçilmiş kayıtlar</small></article>
+        <article class="stat-card"><span class="stat-icon blue">❝</span><span class="stat-label">Vecizeler</span><strong id="vecizeCount">0</strong><small>İçerik kaydı</small></article>
+        <article class="stat-card"><span class="stat-icon gold">☾</span><span class="stat-label">Dualar</span><strong id="duaCount">0</strong><small>İçerik kaydı</small></article>
+        <article class="stat-card"><span class="stat-icon red">◉</span><span class="stat-label">Zikirler</span><strong id="zikirCount">0</strong><small>İçerik kaydı</small></article>
       </div>
 
       <div class="section-heading">
@@ -76,6 +83,10 @@
             <option value="risale">Risale-i Nur</option>
             <option value="ayet">Ayet</option>
             <option value="hadis">Hadis</option>
+            <option value="vecize">Vecize</option>
+            <option value="dua">Dua</option>
+            <option value="kissa">Kıssa</option>
+            <option value="zikir">Zikir</option>
           </select>
           <select id="statusFilter">
             <option value="all">Tüm durumlar</option>
@@ -112,9 +123,13 @@
               <option value="risale">Risale-i Nur</option>
               <option value="ayet">Ayet</option>
               <option value="hadis">Hadis</option>
+              <option value="vecize">Vecize</option>
+              <option value="dua">Dua</option>
+              <option value="kissa">Kıssa</option>
+              <option value="zikir">Zikir</option>
             </select>
           </label>
-          <div id="ottomanGroup">
+          <div id="ottomanGroup" style="display:block">
             <label>Osmanlıca asıl metin
               <textarea id="ottoman" rows="5" dir="rtl" lang="ota" placeholder="Kaynağı doğrulanmış asıl metni buraya girin."></textarea>
               <small class="field-hint">Metni doğrulanmış kaynaktan aktarın; modern yazımı asıl metin olarak göstermeyin.</small>
@@ -156,3 +171,4 @@
   <script src="app.js"></script>
 </body>
 </html>
+

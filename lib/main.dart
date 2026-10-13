@@ -1,219 +1,152 @@
 ﻿import 'package:flutter/material.dart';
-
 import 'app/theme.dart';
 import 'features/home/home_page.dart';
-import 'features/library/library_page.dart';
-import 'features/profile/saved_items_page.dart';
-import 'features/profile/profile_page.dart';
-import 'features/prayer/prayer_page.dart';
-import 'features/growth/growth_page.dart';
-import 'features/growth/daily_goals_page.dart';
-import 'features/admin/content_archive_page.dart';
+
+const _navy = Color(0xFF0A1F44);
+const _red = Color(0xFFB71C1C);
+const _gold = Color(0xFFC9A961);
 
 void main() => runApp(const NurPusulasiApp());
 
 class NurPusulasiApp extends StatelessWidget {
   const NurPusulasiApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: '5 Vakit Namaz',
       debugShowCheckedModeBanner: false,
       theme: buildAppTheme(),
-      home: const MainNavigationShell(),
+      home: const MainShell(),
     );
   }
 }
 
-class MainNavigationShell extends StatefulWidget {
-  const MainNavigationShell({super.key});
-
+class MainShell extends StatefulWidget {
+  const MainShell({super.key});
   @override
-  State<MainNavigationShell> createState() => _MainNavigationShellState();
+  State<MainShell> createState() => _MainShellState();
 }
 
-class _MainNavigationShellState extends State<MainNavigationShell> {
-  int _selectedIndex = 0;
-
-  static const Color _navy = Color(0xFF10264B);
-  static const Color _red = Color(0xFFD91E36);
-
-  static const List<Widget> _pages = [
-    HomePage(),
-    LibraryPage(),
-    SavedItemsPage(),
-    ProfilePage(),
-  ];
-
-  void _selectTab(int index) {
-    setState(() => _selectedIndex = index);
-  }
-
-  Future<void> _showQuickActions() async {
-    final choice = await showModalBottomSheet<String>(
-      context: context,
-      backgroundColor: Colors.white,
-      showDragHandle: true,
-      isScrollControlled: false,
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
-      ),
-      builder: (sheetContext) => SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.fromLTRB(20, 4, 20, 24),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const Text(
-                'Hızlı İşlemler',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.w900,
-                  color: _navy,
-                ),
-              ),
-              const SizedBox(height: 12),
-              _ActionTile(
-                icon: Icons.flag_rounded,
-                title: 'Günlük Hedefler',
-                subtitle: 'Günlük manevi hedeflerini takip et',
-                onTap: () => Navigator.pop(sheetContext, 'goals'),
-              ),
-              _ActionTile(
-                icon: Icons.access_time_rounded,
-                title: 'Namaz Vakitleri',
-                subtitle: 'Namaz ve ibadet bölümünü aç',
-                onTap: () => Navigator.pop(sheetContext, 'prayer'),
-              ),
-              _ActionTile(
-                icon: Icons.trending_up_rounded,
-                title: 'Kişisel Gelişim',
-                subtitle: 'Gelişim ve ilerleme içerikleri',
-                onTap: () => Navigator.pop(sheetContext, 'growth'),
-              ),
-              _ActionTile(
-                icon: Icons.menu_book_rounded,
-                title: 'İçerik Arşivi',
-                subtitle: 'Uygulamadaki içeriklere göz at',
-                onTap: () => Navigator.pop(sheetContext, 'archive'),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-
-    if (!mounted || choice == null) return;
-
-    final Widget? page = switch (choice) {
-      'goals' => const DailyGoalsPage(),
-      'prayer' => const PrayerPage(),
-      'growth' => const GrowthPage(),
-      'archive' => const ContentArchivePage(),
-      _ => null,
-    };
-
-    if (page != null) {
-      await Navigator.of(context).push(
-        MaterialPageRoute<void>(builder: (_) => page),
-      );
-    }
-  }
-
-  Widget _navItem({
-    required int index,
-    required IconData icon,
-    required String label,
-  }) {
-    final selected = _selectedIndex == index;
-
-    return Expanded(
-      child: InkWell(
-        onTap: () => _selectTab(index),
-        borderRadius: BorderRadius.circular(14),
-        child: SizedBox(
-          height: 62,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Icon(
-                icon,
-                size: 23,
-                color: selected ? _red : const Color(0xFF8993A5),
-              ),
-              const SizedBox(height: 3),
-              Text(
-                label,
-                maxLines: 1,
-                style: TextStyle(
-                  fontSize: 10,
-                  fontWeight: selected ? FontWeight.w800 : FontWeight.w600,
-                  color: selected ? _navy : const Color(0xFF8993A5),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
+class _MainShellState extends State<MainShell> {
+  int _index = 0;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       body: IndexedStack(
-        index: _selectedIndex,
-        children: _pages,
+        index: _index,
+        children: const [
+          HomePage(),
+          _PlaceholderTab(label: 'Vakitler', icon: Icons.access_time_rounded),
+          _PlaceholderTab(label: 'Namazım', icon: Icons.mosque_rounded),
+          _PlaceholderTab(label: 'Kütüphane', icon: Icons.menu_book_rounded),
+          _PlaceholderTab(label: 'Daha Fazla', icon: Icons.more_horiz_rounded),
+        ],
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      floatingActionButton: SizedBox(
-        width: 58,
-        height: 58,
-        child: FloatingActionButton(
-          heroTag: 'main_navigation_plus',
-          onPressed: _showQuickActions,
-          backgroundColor: _red,
-          foregroundColor: Colors.white,
-          elevation: 6,
-          shape: const CircleBorder(),
-          child: const Icon(Icons.add_rounded, size: 34),
+      bottomNavigationBar: _BottomNav(
+        current: _index,
+        onTap: (i) => setState(() => _index = i),
+      ),
+    );
+  }
+}
+
+class _PlaceholderTab extends StatelessWidget {
+  final String label;
+  final IconData icon;
+  const _PlaceholderTab({required this.label, required this.icon});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFFF3F6FA),
+      appBar: AppBar(
+        title: Text(label,
+            style: const TextStyle(
+                color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(icon, size: 64, color: _navy.withValues(alpha: 0.3)),
+            const SizedBox(height: 12),
+            Text(' yakında',
+                style: const TextStyle(
+                    color: _navy, fontSize: 16, fontWeight: FontWeight.w700)),
+          ],
         ),
       ),
-      bottomNavigationBar: BottomAppBar(
+    );
+  }
+}
+
+class _BottomNav extends StatelessWidget {
+  final int current;
+  final void Function(int) onTap;
+  const _BottomNav({required this.current, required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
         color: Colors.white,
-        elevation: 16,
-        shadowColor: _navy.withValues(alpha: 0.12),
-        surfaceTintColor: Colors.white,
-        shape: const CircularNotchedRectangle(),
-        notchMargin: 7,
-        padding: const EdgeInsets.symmetric(horizontal: 5),
+        boxShadow: [
+          BoxShadow(
+            color: _navy.withValues(alpha: 0.08),
+            blurRadius: 20,
+            offset: const Offset(0, -4),
+          ),
+        ],
+      ),
+      child: SafeArea(
+        top: false,
         child: SizedBox(
-          height: 64,
-          child: Row(
+          height: 68,
+          child: Stack(
+            clipBehavior: Clip.none,
+            alignment: Alignment.center,
             children: [
-              _navItem(
-                index: 0,
-                icon: Icons.home_rounded,
-                label: 'Ana Sayfa',
+              Row(
+                children: [
+                  _navItem(0, Icons.home_rounded, 'Ana Sayfa'),
+                  _navItem(1, Icons.access_time_rounded, 'Vakitler'),
+                  const SizedBox(width: 70),
+                  _navItem(3, Icons.menu_book_rounded, 'Kütüphane'),
+                  _navItem(4, Icons.more_horiz_rounded, 'Daha Fazla'),
+                ],
               ),
-              _navItem(
-                index: 1,
-                icon: Icons.explore_rounded,
-                label: 'Keşfet',
-              ),
-              const SizedBox(width: 66),
-              _navItem(
-                index: 2,
-                icon: Icons.bookmark_rounded,
-                label: 'Kaydedilenler',
-              ),
-              _navItem(
-                index: 3,
-                icon: Icons.person_rounded,
-                label: 'Profil',
+              Positioned(
+                top: -28,
+                child: Material(
+                  color: Colors.transparent,
+                  child: InkWell(
+                    onTap: () => onTap(2),
+                    customBorder: const CircleBorder(),
+                    child: Container(
+                      width: 64, height: 64,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        gradient: const LinearGradient(
+                          colors: [_navy, Color(0xFF05132B)],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                        ),
+                        border: Border.all(color: _gold, width: 3),
+                        boxShadow: [
+                          BoxShadow(
+                            color: _navy.withValues(alpha: 0.4),
+                            blurRadius: 16,
+                            offset: const Offset(0, 6),
+                          ),
+                        ],
+                      ),
+                      child: const Icon(Icons.mosque_rounded,
+                          color: _gold, size: 32),
+                    ),
+                  ),
+                ),
               ),
             ],
           ),
@@ -221,45 +154,30 @@ class _MainNavigationShellState extends State<MainNavigationShell> {
       ),
     );
   }
-}
 
-class _ActionTile extends StatelessWidget {
-  final IconData icon;
-  final String title;
-  final String subtitle;
-  final VoidCallback onTap;
-
-  const _ActionTile({
-    required this.icon,
-    required this.title,
-    required this.subtitle,
-    required this.onTap,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return ListTile(
-      contentPadding: const EdgeInsets.symmetric(vertical: 3),
-      leading: Container(
-        width: 44,
-        height: 44,
-        decoration: BoxDecoration(
-          color: const Color(0xFFF0F3F9),
-          borderRadius: BorderRadius.circular(14),
-        ),
-        child: Icon(icon, color: const Color(0xFF10264B)),
-      ),
-      title: Text(
-        title,
-        style: const TextStyle(
-          color: Color(0xFF10264B),
-          fontWeight: FontWeight.w800,
+  Widget _navItem(int i, IconData icon, String label) {
+    final active = current == i;
+    return Expanded(
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          onTap: () => onTap(i),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(icon,
+                  size: 22,
+                  color: active ? _red : Colors.grey[400]),
+              const SizedBox(height: 3),
+              Text(label,
+                  style: TextStyle(
+                      fontSize: 9.5,
+                      color: active ? _red : Colors.grey[500],
+                      fontWeight: active ? FontWeight.w800 : FontWeight.w500)),
+            ],
+          ),
         ),
       ),
-      subtitle: Text(subtitle),
-      trailing: const Icon(Icons.chevron_right_rounded),
-      onTap: onTap,
     );
   }
 }
-

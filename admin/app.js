@@ -1,5 +1,5 @@
 ﻿const $ = id => document.getElementById(id);
-const categoryNames = { risale: "Risale-i Nur", ayet: "Ayet", hadis: "Hadis" };
+const categoryNames = { risale: 'Risale-i Nur', ayet: 'Ayet', hadis: 'Hadis', vecize: 'Vecize', dua: 'Dua', kissa: 'Kıssa', zikir: 'Zikir' };
 let records = [];
 let currentPage = "overview";
 
@@ -9,10 +9,10 @@ function showPage(page) {
   $("overviewPage").classList.toggle("hidden", page !== "overview");
   $("editorPage").classList.add("hidden");
   $("placeholderPage").classList.toggle("hidden", !["home","notifications","settings"].includes(page));
-  const titles = {overview:"Genel Bakış",risale:"Risale-i Nur",ayet:"Ayetler",hadis:"Hadisler",home:"Ana Sayfa Yönetimi",notifications:"Bildirimler",settings:"Ayarlar"};
+  const titles = { overview:'Genel Bakış', risale:'Risale-i Nur', ayet:'Ayetler', hadis:'Hadisler', vecize:'Vecizeler', dua:'Dualar', kissa:'Kıssalar', zikir:'Zikirler', home:'Ana Sayfa Yönetimi', notifications:'Bildirimler', settings:'Ayarlar' };
   $("pageTitle").textContent = titles[page] || "Yönetim";
   $("placeholderTitle").textContent = titles[page] || "Bölüm";
-  if (["risale","ayet","hadis"].includes(page)) {
+  if (["risale","ayet","hadis","vecize","dua","kissa","zikir"].includes(page)) {
     $("categoryFilter").value = page;
     render();
   } else if (page === "overview") {
@@ -67,7 +67,8 @@ function openEditor(id = "") {
   $("pageTitle").textContent = r ? "İçerik düzenleme" : "Yeni içerik";
 }
 function updateOttoman() {
-  $("ottomanGroup").classList.toggle("hidden", $("category").value !== "risale");
+  // Osmanlıca alanı tüm kategorilerde açık (isteğe bağlı)
+  $("ottomanGroup").classList.remove("hidden");
 }
 $("category").addEventListener("change", updateOttoman);
 $("newContent").addEventListener("click", () => openEditor());
@@ -139,21 +140,31 @@ function exportAll() {
   const published = records.filter(r => r.status === 'published');
   const source = published.length > 0 ? published : records;
 
-  const grouped = { ayetler: [], hadisler: [], risale: [] };
+  const grouped = { ayetler: [], hadisler: [], risale: [], vecizeler: [], dualar: [], kissalar: [], zikirler: [] };
   source.forEach(r => {
     const item = recordToContentItem(r);
     if (r.category === 'ayet') grouped.ayetler.push(item);
+    else if (r.category === 'vecize') grouped.vecizeler.push(item);
+    else if (r.category === 'dua') grouped.dualar.push(item);
+    else if (r.category === 'kissa') grouped.kissalar.push(item);
+    else if (r.category === 'zikir') grouped.zikirler.push(item);
     else if (r.category === 'hadis') grouped.hadisler.push(item);
     else if (r.category === 'risale') grouped.risale.push(item);
   });
 
-  const total = grouped.ayetler.length + grouped.hadisler.length + grouped.risale.length;
+  const total = Object.values(grouped).reduce((a, b) => a + b.length, 0);
   if (total === 0) {
     alert('Hicbir kayit bilinen kategoriye uymuyor (ayet/hadis/risale).');
     return;
   }
 
   if (grouped.ayetler.length) downloadJson('ayetler.json', grouped.ayetler);
+  setTimeout(() => { if (grouped.hadisler.length) downloadJson('hadisler.json', grouped.hadisler); }, 200);
+  setTimeout(() => { if (grouped.risale.length) downloadJson('risale.json', grouped.risale); }, 400);
+  setTimeout(() => { if (grouped.vecizeler.length) downloadJson('vecizeler.json', grouped.vecizeler); }, 600);
+  setTimeout(() => { if (grouped.dualar.length) downloadJson('dualar.json', grouped.dualar); }, 800);
+  setTimeout(() => { if (grouped.kissalar.length) downloadJson('kissalar.json', grouped.kissalar); }, 1000);
+  setTimeout(() => { if (grouped.zikirler.length) downloadJson('zikirler.json', grouped.zikirler); }, 1200);
   setTimeout(() => { if (grouped.hadisler.length) downloadJson('hadisler.json', grouped.hadisler); }, 300);
   setTimeout(() => { if (grouped.risale.length) downloadJson('risale.json', grouped.risale); }, 600);
 
@@ -175,3 +186,4 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', exportAll);
   }
 });
+
