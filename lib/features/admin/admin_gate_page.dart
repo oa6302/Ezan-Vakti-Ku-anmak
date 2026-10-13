@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'admin_panel_page.dart';
 import 'package:nur_pusulasi/app/theme.dart';
-import 'package:nur_pusulasi/features/admin/admin_content_page.dart';
 
 class AdminGatePage extends StatefulWidget {
   const AdminGatePage({super.key});
@@ -32,7 +32,7 @@ class _AdminGatePageState extends State<AdminGatePage> {
     if (!mounted) return;
     Navigator.of(context).pushReplacement(
       MaterialPageRoute<void>(
-        builder: (_) => const AdminContentPage(),
+        builder: (_) => const AdminPanelPage(),
       ),
     );
   }

@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
 import 'app/theme.dart';
+import 'app/settings_service.dart';
+import 'l10n/app_localizations.dart';
 import 'features/home/home_page.dart';
 import 'features/prayer/namazim_page.dart';
+import 'features/quran/pages/quran_page.dart';
 import 'features/notifications/data/notification_service.dart';
 import 'features/notifications/notification_settings_page.dart';
-import 'features/quran/pages/quran_page.dart';
+import 'features/settings/language_settings_page.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
@@ -17,14 +22,44 @@ void main() async {
   runApp(const NurPusulasiApp());
 }
 
-class NurPusulasiApp extends StatelessWidget {
+class NurPusulasiApp extends StatefulWidget {
   const NurPusulasiApp({super.key});
+  @override
+  State<NurPusulasiApp> createState() => _NurPusulasiAppState();
+}
+
+class _NurPusulasiAppState extends State<NurPusulasiApp> {
+  Locale? _locale;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadLocale();
+  }
+
+  Future<void> _loadLocale() async {
+    final loc = await SettingsService.loadLocale();
+    if (mounted) setState(() => _locale = loc);
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: '5 Vakit Namaz',
       debugShowCheckedModeBanner: false,
       theme: buildAppTheme(),
+      localizationsDelegates: const [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: const [
+        Locale('tr'),
+        Locale('en'),
+        Locale('ar'),
+      ],
+      locale: _locale,
       home: const MainShell(),
     );
   }
@@ -79,7 +114,7 @@ class _MainShellState extends State<MainShell> with WidgetsBindingObserver {
           _PlaceholderTab(label: 'Vakitler', icon: Icons.access_time_rounded),
           NamazimPage(),
           QuranPage(),
-          NotificationSettingsPage(),
+          _SettingsHub(),
         ],
       ),
       bottomNavigationBar: _BottomNav(
@@ -114,6 +149,100 @@ class _PlaceholderTab extends StatelessWidget {
                 style: const TextStyle(
                     color: _navy, fontSize: 16, fontWeight: FontWeight.w700)),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+class _SettingsHub extends StatelessWidget {
+  const _SettingsHub();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFFF3F6FA),
+      appBar: AppBar(
+        title: const Text('Daha Fazla',
+            style: TextStyle(
+                color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
+      ),
+      body: ListView(
+        padding: const EdgeInsets.all(14),
+        children: [
+          _tile(context, Icons.language_rounded, 'Dil ve Yazı Stili',
+              'Türkçe · English · العربية',
+              () => Navigator.push(context,
+                  MaterialPageRoute<void>(builder: (_) => const LanguageSettingsPage()))),
+          _tile(context, Icons.notifications_active_rounded, 'Bildirim Ayarları',
+              'Vakit hatırlatmaları',
+              () => Navigator.push(context,
+                  MaterialPageRoute<void>(builder: (_) => const NotificationSettingsPage()))),
+          _tile(context, Icons.info_outline_rounded, 'Uygulama Hakkında',
+              'Sürüm 1.0.0 · 5 Vakit Namaz',
+              () => showAboutDialog(
+                    context: context,
+                    applicationName: '5 Vakit Namaz',
+                    applicationVersion: '1.0.0',
+                    applicationIcon: const Icon(Icons.mosque_rounded,
+                        color: _gold, size: 48),
+                    children: const [
+                      Text(
+                          'Namaz merkezli ibadet rehberi. Tüm veriler cihazınızda saklanır.'),
+                    ],
+                  )),
+        ],
+      ),
+    );
+  }
+
+  Widget _tile(BuildContext context, IconData icon, String title,
+      String subtitle, VoidCallback onTap) {
+    return Container(
+      margin: const EdgeInsets.only(bottom: 10),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(16),
+      ),
+      child: Material(
+        color: Colors.transparent,
+        child: InkWell(
+          borderRadius: BorderRadius.circular(16),
+          onTap: onTap,
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Row(
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                    color: _navy.withValues(alpha: 0.08),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Icon(icon, color: _navy, size: 22),
+                ),
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(title,
+                          style: const TextStyle(
+                              color: _navy,
+                              fontSize: 14,
+                              fontWeight: FontWeight.w800)),
+                      const SizedBox(height: 3),
+                      Text(subtitle,
+                          style: const TextStyle(
+                              color: Colors.black54, fontSize: 11)),
+                    ],
+                  ),
+                ),
+                const Icon(Icons.chevron_right_rounded,
+                    color: Colors.black26, size: 22),
+              ],
+            ),
+          ),
         ),
       ),
     );
@@ -219,4 +348,3 @@ class _BottomNav extends StatelessWidget {
     );
   }
 }
-

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'data/notification_service.dart';
+import '../admin/admin_gate_page.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
@@ -115,6 +116,8 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
                 _vakitCard(),
                 const SizedBox(height: 14),
                 _infoCard(),
+                const SizedBox(height: 14),
+                _adminAccessCard(),
               ],
             ),
     );
@@ -269,6 +272,59 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
             style: TextStyle(color: Colors.black87, fontSize: 11, height: 1.6),
           ),
         ],
+      ),
+    );
+  }
+
+  Widget _adminAccessCard() {
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(16),
+        onTap: () => Navigator.push(
+          context,
+          MaterialPageRoute<void>(builder: (_) => const AdminGatePage()),
+        ),
+        child: Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(color: _red.withValues(alpha: 0.2)),
+          ),
+          child: Row(
+            children: [
+              Container(
+                padding: const EdgeInsets.all(10),
+                decoration: BoxDecoration(
+                  color: _red.withValues(alpha: 0.1),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: const Icon(Icons.admin_panel_settings_rounded,
+                    color: _red, size: 22),
+              ),
+              const SizedBox(width: 14),
+              const Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('Admin Girişi',
+                        style: TextStyle(
+                            color: _navy,
+                            fontSize: 14,
+                            fontWeight: FontWeight.w900)),
+                    SizedBox(height: 3),
+                    Text('İçerik ekle, düzenle, sil',
+                        style: TextStyle(
+                            color: Colors.black54, fontSize: 11)),
+                  ],
+                ),
+              ),
+              const Icon(Icons.chevron_right_rounded,
+                  color: Colors.black26, size: 22),
+            ],
+          ),
+        ),
       ),
     );
   }

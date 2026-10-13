@@ -287,11 +287,11 @@ class _NamazimPageState extends State<NamazimPage> {
     }
     return Container(
       margin: const EdgeInsets.only(bottom: 10),
-      decoration: BoxDecoration(
+      child: Material(
         color: Colors.white,
         borderRadius: BorderRadius.circular(14),
-      ),
-      child: ListTile(
+        clipBehavior: Clip.antiAlias,
+        child: ListTile(
         contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
         leading: Container(
           padding: const EdgeInsets.all(10),
@@ -307,7 +307,8 @@ class _NamazimPageState extends State<NamazimPage> {
         subtitle: Text(label,
             style: TextStyle(color: color, fontSize: 12, fontWeight: FontWeight.w600)),
         trailing: const Icon(Icons.chevron_right_rounded, color: Colors.black26),
-        onTap: () => _showStatusPicker(vakit),
+          onTap: () => _showStatusPicker(vakit),
+        ),
       ),
     );
   }
