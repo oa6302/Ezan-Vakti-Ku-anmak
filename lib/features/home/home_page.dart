@@ -10,6 +10,7 @@ import 'package:nur_pusulasi/features/home/widgets/v2/dua_card.dart';
 import 'package:nur_pusulasi/features/qibla/qibla_page.dart';
 import 'package:nur_pusulasi/features/tesbih/tesbih_page.dart';
 import 'package:nur_pusulasi/features/learn/pages/learn_page.dart';
+import 'package:nur_pusulasi/features/quran/pages/quran_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -25,6 +26,9 @@ class HomePage extends StatelessWidget {
         break;
       case 'Namaz Öğren':
         page = const LearnPage();
+        break;
+      case 'Kütüphane':
+        page = const QuranPage();
         break;
     }
     if (page != null) {

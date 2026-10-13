@@ -5,7 +5,7 @@ import 'features/home/home_page.dart';
 import 'features/prayer/namazim_page.dart';
 import 'features/notifications/data/notification_service.dart';
 import 'features/notifications/notification_settings_page.dart';
-import 'features/learn/pages/learn_page.dart';
+import 'features/quran/pages/quran_page.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
@@ -78,7 +78,7 @@ class _MainShellState extends State<MainShell> with WidgetsBindingObserver {
           HomePage(),
           _PlaceholderTab(label: 'Vakitler', icon: Icons.access_time_rounded),
           NamazimPage(),
-          LearnPage(),
+          QuranPage(),
           NotificationSettingsPage(),
         ],
       ),
