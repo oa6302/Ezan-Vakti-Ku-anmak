@@ -1,6 +1,7 @@
 ﻿import 'package:flutter/material.dart';
 import 'app/theme.dart';
 import 'features/home/home_page.dart';
+import 'features/prayer/namazim_page.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
@@ -39,7 +40,7 @@ class _MainShellState extends State<MainShell> {
         children: const [
           HomePage(),
           _PlaceholderTab(label: 'Vakitler', icon: Icons.access_time_rounded),
-          _PlaceholderTab(label: 'Namazım', icon: Icons.mosque_rounded),
+          NamazimPage(),
           _PlaceholderTab(label: 'Kütüphane', icon: Icons.menu_book_rounded),
           _PlaceholderTab(label: 'Daha Fazla', icon: Icons.more_horiz_rounded),
         ],
@@ -181,3 +182,4 @@ class _BottomNav extends StatelessWidget {
     );
   }
 }
+
