@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/header_v2.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/countdown_card.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/prayer_row.dart';
@@ -7,9 +7,30 @@ import 'package:nur_pusulasi/features/home/widgets/v2/quick_grid.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/vecize_card.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/risale_card.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/dua_card.dart';
+import 'package:nur_pusulasi/features/qibla/qibla_page.dart';
+import 'package:nur_pusulasi/features/tesbih/tesbih_page.dart';
+import 'package:nur_pusulasi/features/learn/pages/learn_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
+
+  void _openQuick(BuildContext context, String label) {
+    Widget? page;
+    switch (label) {
+      case 'Kıble':
+        page = const QiblaPage();
+        break;
+      case 'Tesbih':
+        page = const TesbihPage();
+        break;
+      case 'Namaz Öğren':
+        page = const LearnPage();
+        break;
+    }
+    if (page != null) {
+      Navigator.push(context, MaterialPageRoute<void>(builder: (_) => page!));
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -21,21 +42,23 @@ class HomePage extends StatelessWidget {
           Expanded(
             child: ListView(
               padding: const EdgeInsets.only(top: 14, bottom: 100),
-              children: const [
-                NextPrayerCountdown(),
-                SizedBox(height: 14),
-                PrayerRowV2(),
-                SizedBox(height: 14),
-                ContentPair(),
-                SizedBox(height: 14),
-                QuickGridV2(),
-                SizedBox(height: 14),
-                VecizeCard(),
-                SizedBox(height: 14),
-                RisaleCard(),
-                SizedBox(height: 14),
-                DuaCard(),
-                SizedBox(height: 20),
+              children: [
+                const NextPrayerCountdown(),
+                const SizedBox(height: 14),
+                const PrayerRowV2(),
+                const SizedBox(height: 14),
+                const ContentPair(),
+                const SizedBox(height: 14),
+                QuickGridV2(
+                  onTap: (label) => _openQuick(context, label),
+                ),
+                const SizedBox(height: 14),
+                const VecizeCard(),
+                const SizedBox(height: 14),
+                const RisaleCard(),
+                const SizedBox(height: 14),
+                const DuaCard(),
+                const SizedBox(height: 20),
               ],
             ),
           ),

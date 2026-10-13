@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_timezone/flutter_timezone.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -40,6 +41,7 @@ class NotificationService {
   }
 
   Future<bool> requestPermission() async {
+    if (kIsWeb) return false;
     if (Platform.isAndroid) {
       final android = _plugin.resolvePlatformSpecificImplementation<
           AndroidFlutterLocalNotificationsPlugin>();
@@ -61,6 +63,8 @@ class NotificationService {
   }
 
   Future<void> scheduleAll({required String city}) async {
+    // Web'de bildirim planlama desteklenmiyor
+    if (kIsWeb) return;
     await init();
     await _plugin.cancelAll();
 
@@ -129,6 +133,7 @@ class NotificationService {
   }
 
   Future<int> pendingCount() async {
+    if (kIsWeb) return 0;
     final list = await _plugin.pendingNotificationRequests();
     return list.length;
   }
