@@ -14,6 +14,7 @@ import 'package:nur_pusulasi/features/quran/pages/quran_page.dart';
 import 'package:nur_pusulasi/features/journey/pages/journey_page.dart';
 import 'package:nur_pusulasi/features/mood/pages/mood_page.dart';
 import 'package:nur_pusulasi/features/reflection/pages/reflection_page.dart';
+import 'package:nur_pusulasi/features/combo/pages/combo_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -41,6 +42,9 @@ class HomePage extends StatelessWidget {
         break;
       case 'Tefekkür':
         page = const ReflectionPage();
+        break;
+      case 'Zikir Zinciri':
+        page = const ComboPage();
         break;
     }
     if (page != null) {

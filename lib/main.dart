@@ -15,6 +15,7 @@ import 'features/settings/language_settings_page.dart';
 import 'features/journey/pages/journey_page.dart';
 import 'features/mood/pages/mood_page.dart';
 import 'features/reflection/pages/reflection_page.dart';
+import 'features/combo/pages/combo_page.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
@@ -180,6 +181,10 @@ class _SettingsHub extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(14),
         children: [
+          _tile(context, Icons.auto_awesome_rounded, 'Zikir Zinciri',
+              '33+33+33+1 otomatik akış',
+              () => Navigator.push(context,
+                  MaterialPageRoute<void>(builder: (_) => const ComboPage()))),
           _tile(context, Icons.psychology_alt_rounded, 'Namaz Sonrası Tefekkür',
               '30 saniyelik kalp muhasebesi',
               () => Navigator.push(context,
