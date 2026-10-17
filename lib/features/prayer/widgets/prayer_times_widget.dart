@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:provider/provider.dart';
+import 'package:nur_pusulasi/app/state/app_state.dart';
 import '../../../app/theme.dart';
 import '../data/prayer_service.dart';
 import '../data/turkish_cities.dart';
@@ -24,8 +25,6 @@ class _PrayerTimesWidgetState extends State<PrayerTimesWidget> {
   }
 
   Future<void> _load() async {
-    final prefs = await SharedPreferences.getInstance();
-    _city = prefs.getString('prayer_city_v2') ?? 'İstanbul';
     setState(() => _loading = true);
 
     final result = await _service.calculateForCity(_city);
@@ -36,7 +35,18 @@ class _PrayerTimesWidgetState extends State<PrayerTimesWidget> {
     });
   }
 
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final city = context.watch<AppState>().city;
+    if (city != _city) {
+      _city = city;
+      _load();
+    }
+  }
+
   Future<void> _selectCity() async {
+    final appState = context.read<AppState>();
     final selected = await showModalBottomSheet<String>(
       context: context,
       backgroundColor: Colors.white,
@@ -48,10 +58,7 @@ class _PrayerTimesWidgetState extends State<PrayerTimesWidget> {
       builder: (_) => _CityPicker(current: _city),
     );
     if (selected == null) return;
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setString('prayer_city_v2', selected);
-    _city = selected;
-    await _load();
+    await appState.setCity(selected);
   }
 
   @override

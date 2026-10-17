@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'data/notification_service.dart';
-import '../admin/admin_gate_page.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
@@ -11,21 +10,23 @@ const _gold = Color(0xFFC9A961);
 class NotificationSettingsPage extends StatefulWidget {
   const NotificationSettingsPage({super.key});
   @override
-  State<NotificationSettingsPage> createState() => _NotificationSettingsPageState();
+  State<NotificationSettingsPage> createState() =>
+      _NotificationSettingsPageState();
 }
 
 class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
   final _service = NotificationService();
   bool _masterEnabled = true;
-  String _city = 'İstanbul';
+  String _city = 'Istanbul';
   Map<String, bool> _vakit = {
     'Sabah': true,
-    'Öğle': true,
-    'İkindi': true,
-    'Akşam': true,
-    'Yatsı': true,
+    'Ogle': true,
+    'Ikindi': true,
+    'Aksam': true,
+    'Yatsi': true,
   };
   int _pending = 0;
+  String _lastScheduled = '';
   bool _loading = true;
 
   @override
@@ -38,15 +39,40 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
       _masterEnabled = prefs.getBool('notif_enabled') ?? true;
-      _city = prefs.getString('prayer_city_v2') ?? 'İstanbul';
+      _city = prefs.getString('prayer_city_v2') ?? 'Istanbul';
       _vakit = {
         for (final v in _vakit.keys)
           v: prefs.getBool('notif_${v.toLowerCase()}') ?? true,
       };
+      _lastScheduled = prefs.getString('notif_last_scheduled') ?? '';
     });
     await _service.init();
     _pending = await _service.pendingCount();
     if (mounted) setState(() => _loading = false);
+  }
+
+  Future<void> _sendTest() async {
+    final granted = await _service.requestPermission();
+    if (!granted) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('Once bildirim iznini verin'),
+            backgroundColor: _red,
+          ),
+        );
+      }
+      return;
+    }
+    await _service.showTest();
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Test bildirimi gonderildi'),
+          backgroundColor: _green,
+        ),
+      );
+    }
   }
 
   Future<void> _toggleMaster(bool v) async {
@@ -60,7 +86,7 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(
-              content: Text('Bildirim izni verilmedi. Ayarlardan açabilirsin.'),
+              content: Text('Bildirim izni verilmedi'),
               backgroundColor: _red,
             ),
           );
@@ -69,11 +95,13 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
       }
       await _service.scheduleAll(city: _city);
       _pending = await _service.pendingCount();
+      final prefs2 = await SharedPreferences.getInstance();
+      _lastScheduled = prefs2.getString('notif_last_scheduled') ?? '';
       if (mounted) setState(() {});
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('$_pending bildirim planlandı'),
+            content: Text('$_pending bildirim planlandi'),
             backgroundColor: _green,
           ),
         );
@@ -91,7 +119,23 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
     if (_masterEnabled) {
       await _service.scheduleAll(city: _city);
       _pending = await _service.pendingCount();
+      final prefs2 = await SharedPreferences.getInstance();
+      _lastScheduled = prefs2.getString('notif_last_scheduled') ?? '';
       if (mounted) setState(() {});
+    }
+  }
+
+  String _formatLast(String iso) {
+    if (iso.isEmpty) return '';
+    try {
+      final dt = DateTime.parse(iso);
+      final diff = DateTime.now().difference(dt);
+      if (diff.inMinutes < 1) return 'az once';
+      if (diff.inMinutes < 60) return '${diff.inMinutes} dk once';
+      if (diff.inHours < 24) return '${diff.inHours} saat once';
+      return '${diff.inDays} gun once';
+    } catch (_) {
+      return '';
     }
   }
 
@@ -100,7 +144,7 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Bildirim Ayarları',
+        title: const Text('Bildirim Ayarlari',
             style: TextStyle(
                 color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
@@ -113,11 +157,11 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
                 const SizedBox(height: 14),
                 _masterCard(),
                 const SizedBox(height: 14),
+                _testCard(),
+                const SizedBox(height: 14),
                 _vakitCard(),
                 const SizedBox(height: 14),
                 _infoCard(),
-                const SizedBox(height: 14),
-                _adminAccessCard(),
               ],
             ),
     );
@@ -159,11 +203,26 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
                 const SizedBox(height: 4),
                 Text(
                   _masterEnabled
-                      ? '$_pending vakit için planlandı · $_city'
-                      : 'Bildirimler kapalı',
+                      ? '$_pending vakit planlandi - $_city'
+                      : 'Bildirimler kapali',
                   style: const TextStyle(
                       color: Colors.white70, fontSize: 12),
                 ),
+                if (_masterEnabled && _lastScheduled.isNotEmpty) ...[
+                  const SizedBox(height: 3),
+                  Row(
+                    children: [
+                      const Icon(Icons.schedule_rounded,
+                          color: Colors.white54, size: 11),
+                      const SizedBox(width: 4),
+                      Text(
+                        'Son guncelleme: ${_formatLast(_lastScheduled)}',
+                        style: const TextStyle(
+                            color: Colors.white54, fontSize: 10),
+                      ),
+                    ],
+                  ),
+                ],
               ],
             ),
           ),
@@ -175,8 +234,7 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
   Widget _masterCard() {
     return Container(
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(16),
+                borderRadius: BorderRadius.circular(16),
       ),
       child: SwitchListTile(
         value: _masterEnabled,
@@ -187,8 +245,8 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
                 color: _navy, fontSize: 15, fontWeight: FontWeight.w800)),
         subtitle: Text(
           _masterEnabled
-              ? 'Vakit girdiğinde bildirim gönderilir'
-              : 'Bildirimler devre dışı',
+              ? 'Vakit girdiginde bildirim gonderilir'
+              : 'Bildirimler devre disi',
           style: const TextStyle(color: Colors.black54, fontSize: 12),
         ),
         secondary: Container(
@@ -204,12 +262,68 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
     );
   }
 
+  Widget _testCard() {
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: _gold.withValues(alpha: 0.3)),
+      ),
+      child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              color: _gold.withValues(alpha: 0.15),
+              borderRadius: BorderRadius.circular(12),
+            ),
+            child: const Icon(Icons.science_rounded,
+                color: _gold, size: 22),
+          ),
+          const SizedBox(width: 14),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: const [
+                Text('Test Bildirimi',
+                    style: TextStyle(
+                        color: _navy,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w900)),
+                SizedBox(height: 2),
+                Text('Bildirimlerin calistigini dogrula',
+                    style: TextStyle(color: Colors.black54, fontSize: 11)),
+              ],
+            ),
+          ),
+          const SizedBox(width: 8),
+          FilledButton.icon(
+            style: FilledButton.styleFrom(
+              backgroundColor: _navy,
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10)),
+            ),
+            onPressed: _sendTest,
+            icon: const Icon(Icons.send_rounded,
+                color: Colors.white, size: 14),
+            label: const Text('Gonder',
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 12,
+                    fontWeight: FontWeight.w800)),
+          ),
+        ],
+      ),
+    );
+  }
+
   Widget _vakitCard() {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(16),
+                borderRadius: BorderRadius.circular(16),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -218,7 +332,7 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
               style: TextStyle(
                   color: _navy, fontSize: 15, fontWeight: FontWeight.w900)),
           const SizedBox(height: 4),
-          const Text('Kapatmak istediğin vakitleri seç',
+          const Text('Kapatmak istedigin vakitleri sec',
               style: TextStyle(color: Colors.black54, fontSize: 11)),
           const SizedBox(height: 8),
           for (final v in _vakit.keys)
@@ -251,24 +365,24 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
+        children: const [
           Row(
-            children: const [
+            children: [
               Icon(Icons.info_outline_rounded, color: _gold, size: 18),
               SizedBox(width: 8),
-              Text('Önemli Notlar',
+              Text('Onemli Notlar',
                   style: TextStyle(
                       color: _navy,
                       fontSize: 13,
                       fontWeight: FontWeight.w900)),
             ],
           ),
-          const SizedBox(height: 10),
-          const Text(
-            '• Bildirimler tamamen cihazda planlanır, internet gerekmez.\n'
-            '• Bazı telefonlarda pil optimizasyonu bildirimleri geciktirebilir.\n'
-            '• Uygulamayı açtığında bildirimler otomatik yenilenir.\n'
-            '• Sessiz saatler (22:00–06:00) için sistem ayarlarını kullan.',
+          SizedBox(height: 10),
+          Text(
+            'Bildirimler tamamen cihazda planlanir, internet gerekmez.\n'
+            'Bazi telefonlarda pil optimizasyonu bildirimleri geciktirebilir.\n'
+            'Uygulamayi actiginda bildirimler otomatik yenilenir.\n'
+            'Sessiz saatler icin sistem ayarlarini kullan.',
             style: TextStyle(color: Colors.black87, fontSize: 11, height: 1.6),
           ),
         ],
@@ -276,56 +390,4 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
     );
   }
 
-  Widget _adminAccessCard() {
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        borderRadius: BorderRadius.circular(16),
-        onTap: () => Navigator.push(
-          context,
-          MaterialPageRoute<void>(builder: (_) => const AdminGatePage()),
-        ),
-        child: Container(
-          padding: const EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: _red.withValues(alpha: 0.2)),
-          ),
-          child: Row(
-            children: [
-              Container(
-                padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: _red.withValues(alpha: 0.1),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: const Icon(Icons.admin_panel_settings_rounded,
-                    color: _red, size: 22),
-              ),
-              const SizedBox(width: 14),
-              const Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text('Admin Girişi',
-                        style: TextStyle(
-                            color: _navy,
-                            fontSize: 14,
-                            fontWeight: FontWeight.w900)),
-                    SizedBox(height: 3),
-                    Text('İçerik ekle, düzenle, sil',
-                        style: TextStyle(
-                            color: Colors.black54, fontSize: 11)),
-                  ],
-                ),
-              ),
-              const Icon(Icons.chevron_right_rounded,
-                  color: Colors.black26, size: 22),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
 }

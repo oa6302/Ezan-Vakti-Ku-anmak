@@ -3,7 +3,8 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter_compass/flutter_compass.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:provider/provider.dart';
+import 'package:nur_pusulasi/app/state/app_state.dart';
 import '../prayer/data/turkish_cities.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -46,8 +47,7 @@ class _QiblaPageState extends State<QiblaPage> {
 
   Future<void> _init() async {
     // Sehir kayitli ise onu kullan
-    final prefs = await SharedPreferences.getInstance();
-    final cityName = prefs.getString('prayer_city_v2') ?? 'İstanbul';
+    final cityName = context.read<AppState>().city;
     _cityName = cityName;
     final city = findCity(cityName);
     if (city != null) {
@@ -127,6 +127,7 @@ class _QiblaPageState extends State<QiblaPage> {
   }
 
   Future<void> _pickCity() async {
+    final appState = context.read<AppState>();
     final selected = await showModalBottomSheet<String>(
       context: context,
       backgroundColor: Colors.white,
@@ -140,8 +141,8 @@ class _QiblaPageState extends State<QiblaPage> {
     if (selected == null) return;
     final city = findCity(selected);
     if (city == null) return;
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setString('prayer_city_v2', selected);
+    await appState.setCity(selected, lat: city.lat, lng: city.lng);
+    if (!mounted) return;
     setState(() {
       _cityName = selected;
       _lat = city.lat;
@@ -189,8 +190,7 @@ class _QiblaPageState extends State<QiblaPage> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(14),
+                borderRadius: BorderRadius.circular(14),
       ),
       child: Row(
         children: [
@@ -354,8 +354,7 @@ class _QiblaPageState extends State<QiblaPage> {
     return Container(
       padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(18),
+                borderRadius: BorderRadius.circular(18),
       ),
       child: Column(
         children: [
@@ -438,8 +437,7 @@ class _QiblaPageState extends State<QiblaPage> {
     return Container(
       padding: const EdgeInsets.all(24),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(18),
+                borderRadius: BorderRadius.circular(18),
       ),
       child: Column(
         children: const [

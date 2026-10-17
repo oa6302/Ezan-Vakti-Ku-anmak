@@ -227,10 +227,8 @@ class PrayerTracker {
   /// Ayın günlerine göre tamamlanan sayılar (1..31).
   Future<Map<int, int>> getMonthHeatmap(DateTime month) async {
     final all = await _loadAll();
-    final prefix = month.year.toString() +
-        '-' +
-        month.month.toString().padLeft(2, '0') +
-        '-';
+    final prefix =
+        '${month.year}-${month.month.toString().padLeft(2, '0')}-';
     final result = <int, int>{};
     for (final r in all.values) {
       if (r.date.startsWith(prefix)) {

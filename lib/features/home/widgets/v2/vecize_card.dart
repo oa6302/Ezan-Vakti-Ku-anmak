@@ -1,117 +1,168 @@
 import 'package:flutter/material.dart';
-import '../../../../app/shadows.dart';
+import 'package:nur_pusulasi/app/content_service.dart';
+import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _gold = Color(0xFFC9A961);
+const _orange = Color(0xFFF5A623);
+const _cream = Color(0xFFFFFBF3);
+
+const _textShadow = [
+  Shadow(color: Color(0x45000000), offset: Offset(0, 2), blurRadius: 6),
+  Shadow(color: Color(0x30000000), offset: Offset(0, 4), blurRadius: 14),
+];
+
+const _arabicShadow = [
+  Shadow(color: Color(0x38000000), offset: Offset(0, 1), blurRadius: 5),
+  Shadow(color: Color(0x20000000), offset: Offset(0, 3), blurRadius: 10),
+];
 
 class VecizeCard extends StatelessWidget {
   const VecizeCard({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 14),
-      decoration: BoxDecoration(
-        gradient: const LinearGradient(
-          colors: [Color(0xFFFDF8F3), Color(0xFFF5EDE0)],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: _gold.withValues(alpha: 0.3), width: 1),
-        boxShadow: AppShadows.colored(_gold, alpha: 0.2),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          // Üst kısım: başlık
-          Padding(
-            padding: const EdgeInsets.fromLTRB(16, 14, 16, 10),
-            child: Row(
-              children: [
-                Container(
-                  width: 36, height: 36,
-                  decoration: BoxDecoration(
+    final now = DateTime.now();
+    final dayOfYear = now.difference(DateTime(now.year, 1, 1)).inDays;
+
+    return ListenableBuilder(
+      listenable: ContentService.instance,
+      builder: (context, _) {
+        final vecize = ContentService.instance
+                .getForDay(ContentType.vecize, dayOfYear) ??
+            ContentService.instance.fallback(ContentType.vecize);
+
+        return Stack(
+          children: [
+            Container(
+              margin: const EdgeInsets.symmetric(horizontal: 14),
+              decoration: BoxDecoration(
+                color: _cream,
+                borderRadius: BorderRadius.circular(24),
+                border: Border.all(color: _gold.withValues(alpha: 0.25)),
+                boxShadow: [
+                  BoxShadow(
+                    color: _navy.withValues(alpha: 0.1),
+                    blurRadius: 30,
+                    offset: const Offset(0, 14),
+                  ),
+                  BoxShadow(
                     color: _gold.withValues(alpha: 0.15),
-                    borderRadius: BorderRadius.circular(10),
+                    blurRadius: 12,
+                    offset: const Offset(0, 2),
                   ),
-                  child: const Icon(Icons.format_quote_rounded, color: _gold, size: 20),
+                ],
+              ),
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(20, 22, 20, 22),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Center(
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 20, vertical: 8),
+                        decoration: BoxDecoration(
+                          color: _orange,
+                          borderRadius: BorderRadius.circular(24),
+                          boxShadow: [
+                            BoxShadow(
+                              color: _orange.withValues(alpha: 0.45),
+                              blurRadius: 16,
+                              offset: const Offset(0, 6),
+                            ),
+                          ],
+                        ),
+                        child: const Text(
+                          'GUNUN VECIZESI',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 11,
+                            fontWeight: FontWeight.w900,
+                            letterSpacing: 2,
+                            shadows: _textShadow,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 24),
+                    Directionality(
+                      textDirection: TextDirection.rtl,
+                      child: Text(
+                        (vecize.altIcerik ?? vecize.icerik),
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(
+                          fontSize: 22,
+                          height: 2.1,
+                          fontFamily: 'Matbu',
+                          color: _navy,
+                          fontWeight: FontWeight.w500,
+                          shadows: _arabicShadow,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 20),
+                    Container(
+                      height: 1,
+                      color: _gold.withValues(alpha: 0.3),
+                    ),
+                    const SizedBox(height: 20),
+                    Text(
+                      vecize.icerik,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(
+                        color: _navy,
+                        fontSize: 13,
+                        height: 1.7,
+                        fontWeight: FontWeight.w700,
+                        fontStyle: FontStyle.italic,
+                        shadows: _textShadow,
+                      ),
+                    ),
+                    const SizedBox(height: 18),
+                    Center(
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Container(
+                            width: 24,
+                            height: 1,
+                            color: _gold.withValues(alpha: 0.6),
+                          ),
+                          const SizedBox(width: 10),
+                          Text(
+                            (vecize.kaynak ?? 'BEDIUZZAMAN SAID NURSI'),
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              color: Colors.black54,
+                              fontSize: 10,
+                              fontWeight: FontWeight.w700,
+                              letterSpacing: 2.5,
+                              shadows: _textShadow,
+                            ),
+                          ),
+                          const SizedBox(width: 10),
+                          Container(
+                            width: 24,
+                            height: 1,
+                            color: _gold.withValues(alpha: 0.6),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
-                const SizedBox(width: 10),
-                const Text('VECİZE',
-                    style: TextStyle(
-                        color: _gold,
-                        fontSize: 11,
-                        fontWeight: FontWeight.w900,
-                        letterSpacing: 1.5)),
-                const Spacer(),
-                Container(
-                  padding: const EdgeInsets.all(5),
-                  decoration: BoxDecoration(
-                    color: _gold.withValues(alpha: 0.12),
-                    shape: BoxShape.circle,
-                  ),
-                  child: const Icon(Icons.bookmark_border_rounded,
-                      color: _gold, size: 14),
-                ),
-              ],
-            ),
-          ),
-          // Osmanlıca metin (üstte)
-          Container(
-            width: double.infinity,
-            margin: const EdgeInsets.symmetric(horizontal: 16),
-            padding: const EdgeInsets.all(14),
-            decoration: BoxDecoration(
-              color: _navy.withValues(alpha: 0.03),
-              borderRadius: BorderRadius.circular(12),
-              border: Border(
-                right: BorderSide(color: _gold.withValues(alpha: 0.4), width: 3),
               ),
             ),
-            child: const Text(
-              'بِلسِنِزْ كِى قَلْبْلَرْ اَنَجَقْ اَللهِى اَنْمَقْلَهْ حُضُورْ بُولُورْ',
-              textDirection: TextDirection.rtl,
-              style: TextStyle(
-                fontSize: 16,
-                color: _navy,
-                fontWeight: FontWeight.w600,
-                height: 1.9,
-                letterSpacing: 0.5,
-              ),
+            Positioned(
+              top: 8,
+              right: 8,
+              child: AdminEditOverlay(item: vecize),
             ),
-          ),
-          const SizedBox(height: 10),
-          // Türkçe meal (altta)
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Text(
-              '"Bilesiniz ki kalpler ancak Allah\'ı anmakla huzur bulur."',
-              style: const TextStyle(
-                  color: _navy,
-                  fontSize: 13,
-                  fontWeight: FontWeight.w700,
-                  height: 1.5,
-                  fontStyle: FontStyle.italic),
-            ),
-          ),
-          const SizedBox(height: 10),
-          // Kaynak
-          Padding(
-            padding: const EdgeInsets.fromLTRB(16, 0, 16, 14),
-            child: Row(
-              children: [
-                Container(width: 20, height: 1, color: _gold),
-                const SizedBox(width: 8),
-                const Text('Ra\'d Suresi, 28. Ayet',
-                    style: TextStyle(
-                        color: _navy, fontSize: 11, fontWeight: FontWeight.w600)),
-              ],
-            ),
-          ),
-        ],
-      ),
+          ],
+        );
+      },
     );
   }
 }
-

@@ -54,3 +54,31 @@ lib/*.bak
 android/key.properties
 *.jks
 *.keystore
+
+# Yedekler
+.yedek/
+*.bak
+*.bak_*
+*.bak2
+*.bak3
+*.bak4
+*.bak5
+*.bak6
+*.bak7
+*.bozuk
+*.bozuk2
+*_deleted_*/
+run_log.txt
+
+# Gecici dosyalar
+_*.txt
+_*.json
+ayetler_50.json
+
+# Kuran yedekleri
+assets/content/*.bak_*
+assets/content/*.bozuk*
+
+# Flutter
+build/
+.dart_tool/

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../../app/settings_service.dart';
 import '../../app/app_settings.dart';
+import 'package:provider/provider.dart';
+import '../../app/state/app_state.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _gold = Color(0xFFC9A961);
@@ -51,6 +53,58 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
     setState(() => _currentFont = style);
   }
 
+  List<Widget> _themeTiles(BuildContext context) {
+    final current = context.watch<AppState>().themeMode;
+    return [
+      _themeTile(context, ThemeMode.light, 'Aydinlik',
+          Icons.wb_sunny_rounded, current),
+      _themeTile(context, ThemeMode.dark, 'Karanlik',
+          Icons.nightlight_round, current),
+      _themeTile(context, ThemeMode.system, 'Sistem',
+          Icons.settings_brightness_rounded, current),
+    ];
+  }
+
+  Widget _themeTile(BuildContext context, ThemeMode mode, String label,
+      IconData icon, ThemeMode current) {
+    final secili = current == mode;
+    return Container(
+      margin: const EdgeInsets.only(bottom: 8),
+      decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(14),
+        border: Border.all(
+          color: secili ? _gold : Colors.black.withValues(alpha: 0.06),
+          width: secili ? 1.6 : 1,
+        ),
+      ),
+      child: ListTile(
+        contentPadding:
+            const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+        leading: Container(
+          padding: const EdgeInsets.all(9),
+          decoration: BoxDecoration(
+            color: _navy.withValues(alpha: 0.08),
+            borderRadius: BorderRadius.circular(10),
+          ),
+          child: Icon(icon, color: _navy, size: 20),
+        ),
+        title: Text(label,
+            style: const TextStyle(
+                color: _navy,
+                fontSize: 14,
+                fontWeight: FontWeight.w800)),
+        trailing: secili
+            ? const Icon(Icons.check_circle_rounded,
+                color: _green, size: 22)
+            : const Icon(Icons.circle_outlined,
+                color: Colors.black26, size: 22),
+        onTap: () async {
+          await context.read<AppState>().setThemeMode(mode);
+        },
+      ),
+    );
+  }
+
   String _localeLabel(String code) {
     switch (code) {
       case 'tr': return 'Türkçe';
@@ -73,6 +127,10 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
       body: ListView(
         padding: const EdgeInsets.all(14),
         children: [
+          _sectionHeader('Tema', Icons.dark_mode_rounded),
+          const SizedBox(height: 10),
+          ..._themeTiles(context),
+          const SizedBox(height: 22),
           _sectionHeader(t.language, Icons.language_rounded),
           const SizedBox(height: 10),
           _localeTile('tr', 'Türkçe', 'Türkiye', '🇹🇷'),
@@ -136,8 +194,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
     return Container(
       margin: const EdgeInsets.only(bottom: 8),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(14),
+                borderRadius: BorderRadius.circular(14),
         border: active
             ? Border.all(color: _navy, width: 2)
             : Border.all(color: Colors.transparent, width: 2),
@@ -191,8 +248,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
     return Container(
       margin: const EdgeInsets.only(bottom: 8),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(14),
+                borderRadius: BorderRadius.circular(14),
         border: active
             ? Border.all(color: _gold, width: 2)
             : Border.all(color: Colors.transparent, width: 2),

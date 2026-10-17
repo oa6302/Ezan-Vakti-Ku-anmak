@@ -175,8 +175,7 @@ class _NamazimPageState extends State<NamazimPage> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(16),
+                borderRadius: BorderRadius.circular(16),
       ),
       child: Row(
         children: [
@@ -318,8 +317,7 @@ class _NamazimPageState extends State<NamazimPage> {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(18),
+                borderRadius: BorderRadius.circular(18),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

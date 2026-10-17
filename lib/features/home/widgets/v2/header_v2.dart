@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
+import 'package:nur_pusulasi/widgets/city_picker_sheet.dart';
+import 'package:provider/provider.dart';
+import 'package:nur_pusulasi/app/state/app_state.dart';
+import 'package:nur_pusulasi/features/admin/admin_gate_page.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _navyDeep = Color(0xFF05132B);
@@ -31,10 +35,22 @@ class HomeHeaderV2 extends StatelessWidget {
         child: Stack(
           children: [
             Positioned(
-              right: -20, top: 30,
+              right: -30, top: 20,
               child: Opacity(
-                opacity: 0.08,
-                child: Icon(Icons.mosque_rounded, size: 200, color: Colors.white),
+                opacity: 0.10,
+                child: Icon(Icons.mosque_rounded, size: 220, color: Colors.white),
+              ),
+            ),
+            Positioned(
+              left: -20, bottom: 0,
+              child: Opacity(
+                opacity: 0.06,
+                child: Icon(Icons.mosque_rounded, size: 140, color: Colors.white),
+              ),
+            ),
+            Positioned.fill(
+              child: IgnorePointer(
+                child: CustomPaint(painter: _PatternPainter()),
               ),
             ),
             Padding(
@@ -80,19 +96,42 @@ class HomeHeaderV2 extends StatelessWidget {
                         ],
                       ),
                       const SizedBox(width: 8),
-                      const _IconCircle(icon: Icons.settings_outlined),
+                      _IconCircle(
+                        icon: Icons.settings_outlined,
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute<void>(
+                              builder: (_) => const AdminGatePage(),
+                            ),
+                          );
+                        },
+                      ),
                     ],
                   ),
                   const SizedBox(height: 16),
-                  Row(
-                    children: [
-                      Icon(Icons.location_on_outlined, color: Colors.white70, size: 15),
-                      SizedBox(width: 6),
-                      Text('${AppLocalizations.of(context).city}, Türkiye',
-                        style: TextStyle(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w600)),
-                      SizedBox(width: 4),
-                      Icon(Icons.keyboard_arrow_down_rounded, color: Colors.white70, size: 16),
-                    ],
+                  InkWell(
+                    onTap: () => showCityPicker(context),
+                    borderRadius: BorderRadius.circular(8),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 2),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          const Icon(Icons.location_on_outlined,
+                              color: Colors.white70, size: 15),
+                          const SizedBox(width: 6),
+                          Text('${context.watch<AppState>().city}, Türkiye',
+                              style: const TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w600)),
+                          const SizedBox(width: 4),
+                          const Icon(Icons.keyboard_arrow_down_rounded,
+                              color: Colors.white70, size: 16),
+                        ],
+                      ),
+                    ),
                   ),
                   const SizedBox(height: 8),
                   Row(
@@ -138,14 +177,49 @@ class HomeHeaderV2 extends StatelessWidget {
 
 class _IconCircle extends StatelessWidget {
   final IconData icon;
-  const _IconCircle({required this.icon});
+  final VoidCallback? onTap;
+  const _IconCircle({
+    required this.icon,
+    this.onTap,
+  });
   @override
-  Widget build(BuildContext context) => Container(
-    padding: const EdgeInsets.all(9),
-    decoration: BoxDecoration(
-      color: Colors.white.withValues(alpha: 0.1),
-      shape: BoxShape.circle,
+  Widget build(BuildContext context) => GestureDetector(
+    onTap: onTap,
+    behavior: HitTestBehavior.opaque,
+    child: Container(
+      padding: const EdgeInsets.all(9),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.1),
+        shape: BoxShape.circle,
+      ),
+      child: Icon(icon, color: Colors.white, size: 18),
     ),
-    child: Icon(icon, color: Colors.white, size: 18),
   );
+}
+
+
+class _PatternPainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size size) {
+    final paint = Paint()
+      ..color = Colors.white.withValues(alpha: 0.035)
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 0.8;
+
+    const step = 34.0;
+    for (double x = 0; x < size.width; x += step) {
+      for (double y = 0; y < size.height; y += step) {
+        final path = Path()
+          ..moveTo(x, y + step / 2)
+          ..lineTo(x + step / 2, y)
+          ..lineTo(x + step, y + step / 2)
+          ..lineTo(x + step / 2, y + step)
+          ..close();
+        canvas.drawPath(path, paint);
+      }
+    }
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }

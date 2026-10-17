@@ -23,6 +23,11 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.20.3
+  provider: ^6.1.5+1
+  font_awesome_flutter: ^11.0.0
+  url_launcher: ^6.3.3
+  flutter_native_splash: ^2.4.8
+  google_fonts: ^9.0.0
 
 dev_dependencies:
   flutter_test:
@@ -48,3 +53,18 @@ flutter:
           weight: 700
         - asset: assets/fonts/Amiri-Italic.ttf
           style: italic
+
+
+# ═══════════════════════════════════════════════════════════
+# SPLASH SCREEN KONFIGURASYONU
+# ═══════════════════════════════════════════════════════════
+flutter_native_splash:
+  color: "#0A1F44"
+  color_dark: "#05132B"
+  android: true
+  ios: true
+  web: false
+  fullscreen: true
+  android_12:
+    color: "#0A1F44"
+    color_dark: "#05132B"

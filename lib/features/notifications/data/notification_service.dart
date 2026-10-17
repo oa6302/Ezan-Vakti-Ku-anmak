@@ -77,7 +77,13 @@ class NotificationService {
 
     final now = DateTime.now();
     final targets = <String, DateTime>{};
+    // Yalnizca sonraki 24 saat icindeki vakitleri zamanla
+    final prefs2 = await SharedPreferences.getInstance();
     for (final entry in result.times.entries) {
+      // Per-vakit toggle kontrolu
+      final vakitKey = 'notif_${entry.key.toLowerCase()}';
+      final vakitEnabled = prefs2.getBool(vakitKey) ?? true;
+      if (!vakitEnabled) continue;
       if (entry.key == 'Güneş') continue;
       var t = entry.value;
       if (t.isBefore(now)) t = t.add(const Duration(days: 1));
@@ -130,6 +136,27 @@ class NotificationService {
   Future<void> cancelAll() async {
     await init();
     await _plugin.cancelAll();
+  }
+
+  /// Anlik test bildirimi gonderir (kullanici dogrulamasi icin)
+  Future<void> showTest() async {
+    if (kIsWeb) return;
+    await init();
+    await _plugin.show(
+      id: 9999,
+      title: 'Nur Pusulasi - Test',
+      body: 'Bildirimler calisiyor. Vakit girdiginde sizi haberdar edecegiz.',
+      notificationDetails: const NotificationDetails(
+        android: AndroidNotificationDetails(
+          _channelId,
+          _channelName,
+          channelDescription: _channelDesc,
+          importance: Importance.high,
+          priority: Priority.high,
+        ),
+        iOS: DarwinNotificationDetails(),
+      ),
+    );
   }
 
   Future<int> pendingCount() async {

@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 import 'app/theme.dart';
 import 'app/settings_service.dart';
 import 'app/app_settings.dart';
+import 'app/state/app_state.dart';
+import 'app/content_service.dart';
+import 'app/admin_session.dart';
+import 'package:provider/provider.dart';
 import 'l10n/app_localizations.dart';
 import 'features/home/home_page.dart';
 import 'features/prayer/namazim_page.dart';
@@ -17,6 +20,14 @@ import 'features/mood/pages/mood_page.dart';
 import 'features/reflection/pages/reflection_page.dart';
 import 'features/combo/pages/combo_page.dart';
 import 'features/khushu/pages/khushu_page.dart';
+import 'features/hifz/pages/hifz_page.dart';
+import 'features/hijri/pages/hijri_page.dart';
+import 'features/prayer/pages/vakitler_page.dart';
+import 'features/growth/gratitude_journal_page.dart';
+import 'features/kandil/pages/kandil_page.dart';
+import 'features/family/pages/family_page.dart';
+import 'features/assistant/pages/assistant_page.dart';
+import 'features/admin/admin_gate_page.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
@@ -25,7 +36,20 @@ const _gold = Color(0xFFC9A961);
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await NotificationService().init();
-  runApp(const NurPusulasiApp());
+
+  final appState = AppState();
+  await appState.load();
+
+  // Icerik servisini yukle (kissa, dua, vecize havuzlari)
+  await ContentService.instance.load();
+  await AdminSession.instance.load();
+
+  runApp(
+    ChangeNotifierProvider<AppState>.value(
+      value: appState,
+      child: const NurPusulasiApp(),
+    ),
+  );
 }
 
 class NurPusulasiApp extends StatefulWidget {
@@ -50,6 +74,8 @@ class _NurPusulasiAppState extends State<NurPusulasiApp> {
           title: '5 Vakit Namaz',
           debugShowCheckedModeBanner: false,
           theme: buildAppTheme(),
+          darkTheme: buildDarkTheme(),
+          themeMode: context.watch<AppState>().themeMode,
           localizationsDelegates: const [
             AppLocalizations.delegate,
             GlobalMaterialLocalizations.delegate,
@@ -84,13 +110,13 @@ class MainShell extends StatefulWidget {
 }
 
 class _MainShellState extends State<MainShell> with WidgetsBindingObserver {
-  int _index = 0;
-
+  String _lastCity = '';
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
-    _refreshNotifications();
+    WidgetsBinding.instance
+        .addPostFrameCallback((_) => _refreshNotifications());
   }
 
   @override
@@ -106,62 +132,52 @@ class _MainShellState extends State<MainShell> with WidgetsBindingObserver {
     }
   }
 
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (!mounted) return;
+    final city = context.watch<AppState>().city;
+    if (city.isNotEmpty && city != _lastCity) {
+      final isFirst = _lastCity.isEmpty;
+      _lastCity = city;
+      // Ilk yukleme degil, gercek sehir degisimi
+      if (!isFirst) {
+        _refreshNotifications();
+      }
+    }
+  }
+
   Future<void> _refreshNotifications() async {
-    final prefs = await SharedPreferences.getInstance();
-    final city = prefs.getString('prayer_city_v2') ?? 'İstanbul';
-    final enabled = prefs.getBool('notif_enabled') ?? true;
-    if (enabled) {
-      await NotificationService().scheduleAll(city: city);
+    if (!mounted) return;
+    final appState = context.read<AppState>();
+    if (appState.notifEnabled) {
+      await NotificationService().scheduleAll(city: appState.city);
     }
   }
 
   @override
   Widget build(BuildContext context) {
+    final appState = context.watch<AppState>();
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
-      body: IndexedStack(
-        index: _index,
-        children: const [
+      body: Center(
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: 520),
+          child: IndexedStack(
+            index: appState.lastTab,
+            children: const [
           HomePage(),
-          _PlaceholderTab(label: 'Vakitler', icon: Icons.access_time_rounded),
+          VakitlerPage(),
           NamazimPage(),
           QuranPage(),
           _SettingsHub(),
-        ],
+            ],
+          ),
+        ),
       ),
       bottomNavigationBar: _BottomNav(
-        current: _index,
-        onTap: (i) => setState(() => _index = i),
-      ),
-    );
-  }
-}
-
-class _PlaceholderTab extends StatelessWidget {
-  final String label;
-  final IconData icon;
-  const _PlaceholderTab({required this.label, required this.icon});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: const Color(0xFFF3F6FA),
-      appBar: AppBar(
-        title: Text(label,
-            style: const TextStyle(
-                color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(icon, size: 64, color: _navy.withValues(alpha: 0.3)),
-            const SizedBox(height: 12),
-            Text('$label yakında',
-                style: const TextStyle(
-                    color: _navy, fontSize: 16, fontWeight: FontWeight.w700)),
-          ],
-        ),
+        current: appState.lastTab,
+        onTap: (i) => context.read<AppState>().setLastTab(i),
       ),
     );
   }
@@ -202,6 +218,10 @@ class _SettingsHub extends StatelessWidget {
               'Isı haritası · Seri · Seviye',
               () => Navigator.push(context,
                   MaterialPageRoute<void>(builder: (_) => const JourneyPage()))),
+          _tile(context, Icons.volunteer_activism_rounded, 'Sukur Defteri',
+              'Nimeti fark et, kalbi besle',
+              () => Navigator.push(context,
+                  MaterialPageRoute<void>(builder: (_) => const GratitudeJournalPage()))),
           _tile(context, Icons.language_rounded, 'Dil ve Yazı Stili',
               'Türkçe · English · العربية',
               () => Navigator.push(context,
@@ -210,6 +230,30 @@ class _SettingsHub extends StatelessWidget {
               'Vakit hatırlatmaları',
               () => Navigator.push(context,
                   MaterialPageRoute<void>(builder: (_) => const NotificationSettingsPage()))),
+          _tile(context, Icons.psychology_rounded, 'Akıllı Asistan',
+              'Kaynaklı soru-cevap',
+              () => Navigator.push(context,
+                  MaterialPageRoute<void>(builder: (_) => const AssistantPage()))),
+          _tile(context, Icons.family_restroom_rounded, 'Aile Modu',
+              'Çocuklarla namaz öğren',
+              () => Navigator.push(context,
+                  MaterialPageRoute<void>(builder: (_) => const FamilyPage()))),
+          _tile(context, Icons.star_rounded, 'Kandil & Özel Günler',
+              'Yaklaşan mübarek geceler',
+              () => Navigator.push(context,
+                  MaterialPageRoute<void>(builder: (_) => const KandilPage()))),
+          _tile(context, Icons.calendar_month_rounded, 'Hicri Yaşam Çizgisi',
+              'Kaç Ramazan yaşadın?',
+              () => Navigator.push(context,
+                  MaterialPageRoute<void>(builder: (_) => const HijriPage()))),
+          _tile(context, Icons.mic_rounded, 'Sesli Ezber Kontrolü',
+              'Ezberini sesli test et',
+              () => Navigator.push(context,
+                  MaterialPageRoute<void>(builder: (_) => const HifzPage()))),
+          _tile(context, Icons.admin_panel_settings_rounded, 'Admin Paneli',
+              'Icerik havuzlarini yonet (PIN: 2580)',
+              () => Navigator.push(context,
+                  MaterialPageRoute<void>(builder: (_) => const AdminGatePage()))),
           _tile(context, Icons.info_outline_rounded, 'Uygulama Hakkında',
               'Sürüm 1.0.0 · 5 Vakit Namaz',
               () => showAboutDialog(

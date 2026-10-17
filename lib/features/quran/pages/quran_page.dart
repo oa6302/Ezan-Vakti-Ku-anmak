@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../data/quran_models.dart';
 import '../data/quran_service.dart';
 import 'quran_detail_page.dart';
+import 'quran_full_page.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
@@ -49,10 +50,94 @@ class _QuranPageState extends State<QuranPage> {
                   children: [
                     _hero(),
                     const SizedBox(height: 16),
+                    _tamKuranBanner(context),
+                    const SizedBox(height: 16),
                     ..._kategoriler.map((k) => _kategoriSection(k)),
                     const SizedBox(height: 20),
                   ],
                 ),
+    );
+  }
+
+  Widget _tamKuranBanner(BuildContext context) {
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(20),
+        onTap: () => Navigator.push(
+          context,
+          MaterialPageRoute<void>(builder: (_) => const QuranFullPage()),
+        ),
+        child: Container(
+          padding: const EdgeInsets.all(18),
+          decoration: BoxDecoration(
+            gradient: const LinearGradient(
+              colors: [Color(0xFF1B5E20), Color(0xFF0D3D12)],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+            borderRadius: BorderRadius.circular(20),
+            boxShadow: [
+              BoxShadow(
+                color: const Color(0xFF1B5E20).withValues(alpha: 0.35),
+                blurRadius: 20,
+                offset: const Offset(0, 10),
+              ),
+            ],
+          ),
+          child: Row(
+            children: [
+              Container(
+                width: 56, height: 56,
+                decoration: BoxDecoration(
+                  color: Colors.white.withValues(alpha: 0.15),
+                  shape: BoxShape.circle,
+                  border: Border.all(color: _gold, width: 1.5),
+                ),
+                child: const Icon(Icons.auto_stories_rounded,
+                    color: _gold, size: 28),
+              ),
+              const SizedBox(width: 14),
+              const Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('Tam Kur\'an-i Kerim',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 17,
+                            fontWeight: FontWeight.w900)),
+                    SizedBox(height: 4),
+                    Text('114 sure - Arapca + Diyanet Meali',
+                        style: TextStyle(
+                            color: Colors.white70, fontSize: 11)),
+                  ],
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                decoration: BoxDecoration(
+                  color: _gold,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: const Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text('114',
+                        style: TextStyle(
+                            color: Colors.black87,
+                            fontSize: 13,
+                            fontWeight: FontWeight.w900)),
+                    SizedBox(width: 4),
+                    Icon(Icons.arrow_forward_rounded,
+                        color: Colors.black87, size: 14),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 

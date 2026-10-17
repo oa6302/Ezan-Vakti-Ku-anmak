@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'admin_panel_page.dart';
+import 'content_manager_page.dart';
+import 'package:nur_pusulasi/app/admin_session.dart';
 import 'package:nur_pusulasi/app/theme.dart';
 
 class AdminGatePage extends StatefulWidget {
@@ -25,14 +26,15 @@ class _AdminGatePageState extends State<AdminGatePage> {
     final savedPin = prefs.getString('nur_pusulasi_admin_pin_v1') ?? '2580';
 
     if (_pin.text.trim() != savedPin) {
-      setState(() => _error = 'PIN yanlış. Tekrar deneyin.');
+      setState(() => _error = 'PIN yanlis. Tekrar deneyin.');
       return;
     }
 
+    await AdminSession.instance.login();
     if (!mounted) return;
     Navigator.of(context).pushReplacement(
       MaterialPageRoute<void>(
-        builder: (_) => const AdminPanelPage(),
+        builder: (_) => const ContentManagerPage(),
       ),
     );
   }
@@ -40,20 +42,22 @@ class _AdminGatePageState extends State<AdminGatePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Yönetici girişi')),
+      appBar: AppBar(title: const Text('Yonetici Girisi')),
       body: ListView(
         padding: const EdgeInsets.all(22),
         children: [
-          const Icon(Icons.admin_panel_settings_rounded, size: 64, color: navy),
+          const Icon(Icons.admin_panel_settings_rounded,
+              size: 64, color: navy),
           const SizedBox(height: 16),
           const Text(
-            'İçerik yönetimi',
+            'Icerik Yonetimi',
             textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 23, fontWeight: FontWeight.w900, color: navy),
+            style: TextStyle(
+                fontSize: 23, fontWeight: FontWeight.w900, color: navy),
           ),
           const SizedBox(height: 8),
           const Text(
-            'İlk kullanım PIN’i: 2580. Bu PIN cihaz içi basit bir engeldir; güvenli kimlik doğrulama yerine geçmez.',
+            'Varsayilan PIN: 2580. Bu PIN cihaz ici basit bir engeldir; guvenli kimlik dogrulama yerine gecmez.',
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 22),
@@ -63,16 +67,17 @@ class _AdminGatePageState extends State<AdminGatePage> {
             keyboardType: TextInputType.number,
             maxLength: 12,
             decoration: InputDecoration(
-              labelText: 'Yönetici PIN’i',
+              labelText: 'Yonetici PIN',
               errorText: _error,
-              border: OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
+              border:
+                  OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
             ),
             onSubmitted: (_) => _openAdmin(),
           ),
           const SizedBox(height: 12),
           FilledButton(
             onPressed: _openAdmin,
-            child: const Text('Yönetim panelini aç'),
+            child: const Text('Yonetim panelini ac'),
           ),
         ],
       ),
