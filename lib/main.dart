@@ -6,6 +6,7 @@ import 'app/settings_service.dart';
 import 'app/app_settings.dart';
 import 'app/state/app_state.dart';
 import 'app/content_service.dart';
+import 'app/favorites_service.dart';
 import 'app/admin_session.dart';
 import 'package:provider/provider.dart';
 import 'l10n/app_localizations.dart';
@@ -28,6 +29,7 @@ import 'features/kandil/pages/kandil_page.dart';
 import 'features/family/pages/family_page.dart';
 import 'features/assistant/pages/assistant_page.dart';
 import 'features/admin/admin_gate_page.dart';
+import 'features/profile/saved_items_page.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
@@ -42,6 +44,7 @@ void main() async {
 
   // Icerik servisini yukle (kissa, dua, vecize havuzlari)
   await ContentService.instance.load();
+      await FavoritesService.instance.load();
   await AdminSession.instance.load();
 
   runApp(
@@ -250,6 +253,10 @@ class _SettingsHub extends StatelessWidget {
               'Ezberini sesli test et',
               () => Navigator.push(context,
                   MaterialPageRoute<void>(builder: (_) => const HifzPage()))),
+          _tile(context, Icons.bookmark_rounded, 'Favorilerim',
+              'Kaydettigin icerikler',
+              () => Navigator.push(context,
+                  MaterialPageRoute<void>(builder: (_) => const SavedItemsPage()))),
           _tile(context, Icons.admin_panel_settings_rounded, 'Admin Paneli',
               'Icerik havuzlarini yonet (PIN: 2580)',
               () => Navigator.push(context,
