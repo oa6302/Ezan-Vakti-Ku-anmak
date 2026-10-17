@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/app/shadows.dart';
+import 'package:nur_pusulasi/app/content_service.dart';
 import '../data/family_data.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -34,14 +35,16 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
     });
   }
 
-  Future<void> _toggle(ChildLesson l) async {
-    final current = _progress[l.id] ?? false;
-    await _tracker.setCompleted(widget.child.id, l.id, !current);
+  Future<void> _toggle(ContentItem lesson) async {
+    final current = _progress[lesson.id] ?? false;
+    await _tracker.setCompleted(widget.child.id, lesson.id, !current);
     await _load();
     if (mounted && !current) {
+      final emoji = (lesson.extra?['emoji'] as String?) ?? '';
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('${l.emoji} ${widget.child.name} "${l.baslik}" adımını tamamladı!'),
+          content: Text(
+              '$emoji ${widget.child.name} "${lesson.baslik}" adimini tamamladi!'),
           backgroundColor: _green,
         ),
       );
@@ -50,10 +53,6 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
 
   @override
   Widget build(BuildContext context) {
-    final done = _progress.values.where((v) => v).length;
-    final total = childLessons.length;
-    final pct = total == 0 ? 0 : (done * 100 / total).round();
-
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
@@ -71,14 +70,41 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
       ),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
-          : ListView(
-              padding: const EdgeInsets.all(14),
-              children: [
-                _progressCard(done, total, pct),
-                const SizedBox(height: 14),
-                ...childLessons.map((l) => _lessonTile(l)),
-                const SizedBox(height: 20),
-              ],
+          : ListenableBuilder(
+              listenable: ContentService.instance,
+              builder: (context, _) {
+                final lessons =
+                    ContentService.instance.getPool(ContentType.cocukDersi);
+                final done = lessons
+                    .where((l) => _progress[l.id] == true)
+                    .length;
+                final total = lessons.length;
+                final pct = total == 0 ? 0 : (done * 100 / total).round();
+
+                return ListView(
+                  padding: const EdgeInsets.all(14),
+                  children: [
+                    _progressCard(done, total, pct),
+                    const SizedBox(height: 14),
+                    if (lessons.isEmpty)
+                      Container(
+                        padding: const EdgeInsets.all(20),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(16),
+                          boxShadow: AppShadows.medium(),
+                        ),
+                        child: const Center(
+                          child: Text('Henuz ders eklenmemis.',
+                              style: TextStyle(color: Colors.black54)),
+                        ),
+                      )
+                    else
+                      ...lessons.map((l) => _lessonTile(l)),
+                    const SizedBox(height: 20),
+                  ],
+                );
+              },
             ),
     );
   }
@@ -132,11 +158,11 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
                         fontSize: 18,
                         fontWeight: FontWeight.w900)),
                 const SizedBox(height: 4),
-                Text('$done / $total adım tamamlandı',
+                Text('$done / $total adim tamamlandi',
                     style: const TextStyle(
                         color: Colors.white70, fontSize: 12)),
                 const SizedBox(height: 4),
-                const Text('Her tamamlanan adım bir kutlama',
+                const Text('Her tamamlanan adim bir kutlama',
                     style: TextStyle(
                         color: Colors.white54, fontSize: 10)),
               ],
@@ -147,8 +173,9 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
     );
   }
 
-  Widget _lessonTile(ChildLesson l) {
+  Widget _lessonTile(ContentItem l) {
     final done = _progress[l.id] ?? false;
+    final emoji = (l.extra?['emoji'] as String?) ?? '';
     return Container(
       margin: const EdgeInsets.only(bottom: 10),
       decoration: BoxDecoration(
@@ -180,8 +207,11 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
                     child: done
                         ? const Icon(Icons.check_circle_rounded,
                             color: _green, size: 28)
-                        : Text(l.emoji,
-                            style: const TextStyle(fontSize: 26)),
+                        : (emoji.isNotEmpty
+                            ? Text(emoji,
+                                style: const TextStyle(fontSize: 26))
+                            : Icon(Icons.school_rounded,
+                                color: _gold, size: 26)),
                   ),
                 ),
                 const SizedBox(width: 14),
@@ -198,7 +228,7 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
                                   ? TextDecoration.lineThrough
                                   : null)),
                       const SizedBox(height: 3),
-                      Text(l.aciklama,
+                      Text(l.icerik,
                           style: const TextStyle(
                               color: Colors.black54, fontSize: 11)),
                     ],

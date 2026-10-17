@@ -191,12 +191,13 @@ class FamilyTracker {
         _progressKey, jsonEncode(list.map((e) => e.toJson()).toList()));
   }
 
+  /// Cocugun tum ilerlemesini ham map olarak dondurur.
+  /// UI, ContentService'teki ders listesine gore filtreler.
   Future<Map<String, bool>> childProgress(String childId) async {
     final all = await _allProgress();
     final map = <String, bool>{};
-    for (final l in childLessons) {
-      final p = all.where((e) => e.childId == childId && e.dersId == l.id);
-      map[l.id] = p.isNotEmpty && p.first.completed;
+    for (final p in all) {
+      if (p.childId == childId) map[p.dersId] = p.completed;
     }
     return map;
   }
@@ -213,8 +214,9 @@ class FamilyTracker {
     await _saveProgress(all);
   }
 
-  Future<int> completedCount(String childId) async {
+  /// Sadece verilen ders id'lerinden tamamlanmis olanlari sayar.
+  Future<int> completedCount(String childId, List<String> lessonIds) async {
     final map = await childProgress(childId);
-    return map.values.where((v) => v).length;
+    return lessonIds.where((id) => map[id] == true).length;
   }
 }

@@ -19,6 +19,7 @@ import 'package:nur_pusulasi/data/daily_content.dart';
 import 'package:nur_pusulasi/data/daily_content_ek.dart';
 import 'package:nur_pusulasi/features/kandil/data/kandil_data.dart';
 import 'package:nur_pusulasi/features/mood/data/mood_data.dart';
+import 'package:nur_pusulasi/features/family/data/family_data.dart';
 
 /// Icerik yayin durumu
 enum ContentStatus { taslak, incelemede, yayinlandi, arsivlendi }
@@ -69,7 +70,7 @@ extension KaynakTuruX on KaynakTuru {
 }
 
 /// Tum kartlar icin ortak icerik tipi
-enum ContentType { kissa, dua, vecize, hadis, tefekkur, ayet, gunluk, risale, kandil, mood }
+enum ContentType { kissa, dua, vecize, hadis, tefekkur, ayet, gunluk, risale, kandil, mood, cocukDersi }
 
 extension ContentTypeKey on ContentType {
   String get key {
@@ -84,6 +85,7 @@ extension ContentTypeKey on ContentType {
       case ContentType.risale: return 'risale';
       case ContentType.kandil: return 'kandil';
       case ContentType.mood: return 'mood';
+      case ContentType.cocukDersi: return 'cocukDersi';
     }
   }
   String get label {
@@ -98,6 +100,7 @@ extension ContentTypeKey on ContentType {
       case ContentType.risale: return 'Risale';
       case ContentType.kandil: return 'Kandil';
       case ContentType.mood: return 'Ruh Hali';
+      case ContentType.cocukDersi: return 'Cocuk Dersi';
     }
   }
 }
@@ -473,6 +476,19 @@ class ContentService extends ChangeNotifier {
         ),
     ];
 
+    // COCUK DERSI havuzu (mevcut ilerleme id'leri korunur)
+    _pools[ContentType.cocukDersi] = [
+      for (final l in childLessons)
+        ContentItem(
+          id: l.id,
+          type: ContentType.cocukDersi,
+          baslik: l.baslik,
+          icerik: l.aciklama,
+          durum: ContentStatus.yayinlandi,
+          extra: {'emoji': l.emoji},
+        ),
+    ];
+
     _pools[ContentType.hadis] = [];
     _pools[ContentType.tefekkur] = [];  }
 
@@ -624,7 +640,8 @@ class ContentService extends ChangeNotifier {
     ContentType.gunluk: Icons.calendar_today_rounded,
     ContentType.risale: Icons.auto_stories_rounded,
     ContentType.kandil: Icons.star_rounded,
-    ContentType.mood: Icons.self_improvement_rounded,  };
+    ContentType.mood: Icons.self_improvement_rounded,
+    ContentType.cocukDersi: Icons.child_care_rounded,  };
 
   static const _typeDefaultColor = <ContentType, Color>{
     ContentType.kissa: Color(0xFF0A1F44),
@@ -635,7 +652,8 @@ class ContentService extends ChangeNotifier {
     ContentType.gunluk: Color(0xFFC9A961),
     ContentType.risale: Color(0xFFB71C1C),
     ContentType.kandil: Color(0xFFC9A961),
-    ContentType.mood: Color(0xFF4A6B8A),  };
+    ContentType.mood: Color(0xFF4A6B8A),
+    ContentType.cocukDersi: Color(0xFF2FAE7F),  };
 
   IconData iconFor(ContentItem item) {
     final kat = item.kategori;

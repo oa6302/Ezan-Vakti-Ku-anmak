@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/app/shadows.dart';
 import '../data/family_data.dart';
+import 'package:nur_pusulasi/app/content_service.dart';
 import 'child_detail_page.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -30,9 +31,11 @@ class _FamilyPageState extends State<FamilyPage> {
   Future<void> _load() async {
     setState(() => _loading = true);
     final list = await _tracker.children();
+    final lessons = ContentService.instance.getPool(ContentType.cocukDersi);
+    final ids = lessons.map((e) => e.id).toList();
     final completed = <String, int>{};
     for (final c in list) {
-      completed[c.id] = await _tracker.completedCount(c.id);
+      completed[c.id] = await _tracker.completedCount(c.id, ids);
     }
     if (!mounted) return;
     setState(() {
@@ -292,7 +295,7 @@ class _FamilyPageState extends State<FamilyPage> {
 
   Widget _childCard(Child c) {
     final done = _completed[c.id] ?? 0;
-    final total = childLessons.length;
+    final total = ContentService.instance.getPool(ContentType.cocukDersi).length;
     final progress = total == 0 ? 0.0 : done / total;
     return Container(
       margin: const EdgeInsets.only(bottom: 10),

@@ -34,16 +34,37 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
   late final TextEditingController _kategori;
   late final TextEditingController _kaynakURL;
 
+  // Extra fields
+  late final TextEditingController _emoji;
+  late final TextEditingController _colorValue;
+  late final TextEditingController _hijriMonth;
+  late final TextEditingController _hijriDay;
+  late final TextEditingController _ayet;
+  late final TextEditingController _ayetKaynak;
+  late final TextEditingController _hadis;
+  late final TextEditingController _hadisKaynak;
+  late final TextEditingController _vecize;
+  late final TextEditingController _vecizeModern;
+  late final TextEditingController _vecizeKaynak;
+  late final TextEditingController _risaleHakikat;
+  late final TextEditingController _anahtarKelimeler;
+
+  // Mood suggestions (3 slots, each with 4 fields)
+  final List<Map<String, TextEditingController>> _suggestions = [];
+
   bool get _isNew => widget.initial == null;
 
   @override
   void initState() {
     super.initState();
     final i = widget.initial;
+    final ex = i?.extra ?? const <String, dynamic>{};
+
     _type = i?.type ?? widget.defaultType;
     _durum = i?.durum ?? ContentStatus.yayinlandi;
     _kaynakTuru = i?.kaynakTuru ?? KaynakTuru.elle;
     _dogrulandi = i?.dogrulandi ?? false;
+
     _baslik = TextEditingController(text: i?.baslik ?? '');
     _icerik = TextEditingController(text: i?.icerik ?? '');
     _altIcerik = TextEditingController(text: i?.altIcerik ?? '');
@@ -51,6 +72,72 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
     _kaynak = TextEditingController(text: i?.kaynak ?? '');
     _kategori = TextEditingController(text: i?.kategori ?? '');
     _kaynakURL = TextEditingController(text: i?.kaynakURL ?? '');
+
+    _emoji = TextEditingController(text: (ex['emoji'] ?? '').toString());
+    _colorValue = TextEditingController(
+        text: (ex['colorValue'] ?? '').toString());
+    _hijriMonth =
+        TextEditingController(text: (ex['hijriMonth'] ?? '').toString());
+    _hijriDay =
+        TextEditingController(text: (ex['hijriDay'] ?? '').toString());
+
+    _ayet = TextEditingController(text: (ex['ayet'] ?? '').toString());
+    _ayetKaynak =
+        TextEditingController(text: (ex['ayetKaynak'] ?? '').toString());
+    _hadis = TextEditingController(text: (ex['hadis'] ?? '').toString());
+    _hadisKaynak =
+        TextEditingController(text: (ex['hadisKaynak'] ?? '').toString());
+    _vecize = TextEditingController(text: (ex['vecize'] ?? '').toString());
+    _vecizeModern =
+        TextEditingController(text: (ex['vecizeModern'] ?? '').toString());
+    _vecizeKaynak =
+        TextEditingController(text: (ex['vecizeKaynak'] ?? '').toString());
+    _risaleHakikat =
+        TextEditingController(text: (ex['risaleHakikat'] ?? '').toString());
+
+    final ak = ex['anahtarKelimeler'];
+    _anahtarKelimeler = TextEditingController(
+        text: ak is List ? ak.map((e) => '$e').join(', ') : '');
+
+    // Mood suggestions
+    final sg = ex['suggestions'];
+    if (sg is List) {
+      for (final s in sg) {
+        if (s is Map) {
+          _suggestions.add({
+            'tip': TextEditingController(text: (s['tip'] ?? '').toString()),
+            'title': TextEditingController(text: (s['title'] ?? '').toString()),
+            'text': TextEditingController(text: (s['text'] ?? '').toString()),
+            'source':
+                TextEditingController(text: (s['source'] ?? '').toString()),
+          });
+        }
+      }
+    }
+    // Mood icin en az 1 slot goster
+    if (_type == ContentType.mood && _suggestions.isEmpty) {
+      _addSuggestion();
+    }
+  }
+
+  void _addSuggestion() {
+    setState(() {
+      _suggestions.add({
+        'tip': TextEditingController(),
+        'title': TextEditingController(),
+        'text': TextEditingController(),
+        'source': TextEditingController(),
+      });
+    });
+  }
+
+  void _removeSuggestion(int idx) {
+    setState(() {
+      final s = _suggestions.removeAt(idx);
+      for (final c in s.values) {
+        c.dispose();
+      }
+    });
   }
 
   @override
@@ -62,7 +149,97 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
     _kaynak.dispose();
     _kategori.dispose();
     _kaynakURL.dispose();
+    _emoji.dispose();
+    _colorValue.dispose();
+    _hijriMonth.dispose();
+    _hijriDay.dispose();
+    _ayet.dispose();
+    _ayetKaynak.dispose();
+    _hadis.dispose();
+    _hadisKaynak.dispose();
+    _vecize.dispose();
+    _vecizeModern.dispose();
+    _vecizeKaynak.dispose();
+    _risaleHakikat.dispose();
+    _anahtarKelimeler.dispose();
+    for (final s in _suggestions) {
+      for (final c in s.values) {
+        c.dispose();
+      }
+    }
     super.dispose();
+  }
+
+  /// Tip'e gore extra map olustur
+  Map<String, dynamic>? _buildExtra() {
+    switch (_type) {
+      case ContentType.mood:
+        final m = <String, dynamic>{};
+        if (_emoji.text.trim().isNotEmpty) m['emoji'] = _emoji.text.trim();
+        final cv = int.tryParse(_colorValue.text.trim());
+        if (cv != null) m['colorValue'] = cv;
+        final list = <Map<String, dynamic>>[];
+        for (final s in _suggestions) {
+          final tip = s['tip']!.text.trim();
+          final title = s['title']!.text.trim();
+          final text = s['text']!.text.trim();
+          final src = s['source']!.text.trim();
+          if (tip.isEmpty && title.isEmpty && text.isEmpty && src.isEmpty) {
+            continue;
+          }
+          list.add({
+            'tip': tip,
+            'title': title,
+            'text': text,
+            'source': src,
+          });
+        }
+        if (list.isNotEmpty) m['suggestions'] = list;
+        return m.isEmpty ? null : m;
+
+      case ContentType.kandil:
+        final m = <String, dynamic>{};
+        if (_emoji.text.trim().isNotEmpty) m['emoji'] = _emoji.text.trim();
+        final hm = int.tryParse(_hijriMonth.text.trim());
+        final hd = int.tryParse(_hijriDay.text.trim());
+        if (hm != null) m['hijriMonth'] = hm;
+        if (hd != null) m['hijriDay'] = hd;
+        return m.isEmpty ? null : m;
+
+      case ContentType.gunluk:
+        final m = <String, dynamic>{};
+        if (_ayet.text.trim().isNotEmpty) m['ayet'] = _ayet.text.trim();
+        if (_ayetKaynak.text.trim().isNotEmpty) {
+          m['ayetKaynak'] = _ayetKaynak.text.trim();
+        }
+        if (_hadis.text.trim().isNotEmpty) m['hadis'] = _hadis.text.trim();
+        if (_hadisKaynak.text.trim().isNotEmpty) {
+          m['hadisKaynak'] = _hadisKaynak.text.trim();
+        }
+        if (_vecize.text.trim().isNotEmpty) {
+          m['vecize'] = _vecize.text.trim();
+        }
+        if (_vecizeModern.text.trim().isNotEmpty) {
+          m['vecizeModern'] = _vecizeModern.text.trim();
+        }
+        if (_vecizeKaynak.text.trim().isNotEmpty) {
+          m['vecizeKaynak'] = _vecizeKaynak.text.trim();
+        }
+        if (_risaleHakikat.text.trim().isNotEmpty) {
+          m['risaleHakikat'] = _risaleHakikat.text.trim();
+        }
+        final ak = _anahtarKelimeler.text
+            .split(',')
+            .map((e) => e.trim())
+            .where((e) => e.isNotEmpty)
+            .toList();
+        if (ak.isNotEmpty) m['anahtarKelimeler'] = ak;
+        return m.isEmpty ? null : m;
+
+      default:
+        // risale, kissa, dua, vecize, ayet, hadis, tefekkur: mevcut extra'yi koru
+        return widget.initial?.extra;
+    }
   }
 
   Future<void> _save() async {
@@ -78,12 +255,11 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
       return;
     }
 
-    // Kaynak dogrulama kontrolu
     if (_durum == ContentStatus.yayinlandi && !_dogrulandi) {
       final ok = await showDialog<bool>(
         context: context,
         builder: (_) => AlertDialog(
-          title: const Text('Dogrualmadan yayinla?'),
+          title: const Text('Dogrulamadan yayinla?'),
           content: const Text(
               'Bu icerik "dogrulandi" olarak isaretlenmemis. Yine de yayinlansin mi?'),
           actions: [
@@ -118,6 +294,7 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
       kaynakURL: _kaynakURL.text.trim().isEmpty ? null : _kaynakURL.text.trim(),
       kaynakTuru: _kaynakTuru,
       guncellenme: DateTime.now(),
+      extra: _buildExtra(),
     );
 
     await ContentService.instance.upsert(item);
@@ -189,7 +366,12 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
               items: ContentType.values
                   .map((t) => DropdownMenuItem(value: t, child: Text(t.label)))
                   .toList(),
-              onChanged: (v) => setState(() => _type = v ?? _type),
+              onChanged: (v) => setState(() {
+                _type = v ?? _type;
+                if (_type == ContentType.mood && _suggestions.isEmpty) {
+                  _addSuggestion();
+                }
+              }),
             )
           else
             Chip(
@@ -266,8 +448,8 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
                 activeThumbColor: _green,
                 onChanged: (v) => setState(() => _dogrulandi = v),
               ),
-          ),
             ),
+          ),
           const SizedBox(height: 14),
 
           _field(_baslik, 'Baslik *', maxLines: 1),
@@ -282,10 +464,15 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
           const SizedBox(height: 12),
           _field(_kategori, 'Kategori (Sabah, Namaz, vb.)', maxLines: 1),
           const SizedBox(height: 12),
-          _field(_kaynakURL, 'Kaynak URL (diyanet.gov.tr, kuran.diyanet.gov.tr)',
-              maxLines: 1),
-          const SizedBox(height: 24),
+          _field(_kaynakURL, 'Kaynak URL (diyanet.gov.tr, ...)', maxLines: 1),
+          const SizedBox(height: 20),
 
+          // ═══════════════════════════════════════════════════
+          // TIPE OZEL ALANLAR
+          // ═══════════════════════════════════════════════════
+          ..._buildTypeSpecificFields(),
+
+          const SizedBox(height: 24),
           FilledButton.icon(
             style: FilledButton.styleFrom(
               backgroundColor: _navy,
@@ -300,6 +487,170 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
         ],
       ),
     );
+  }
+
+  List<Widget> _buildTypeSpecificFields() {
+    switch (_type) {
+      case ContentType.mood:
+        return _moodFields();
+      case ContentType.gunluk:
+        return _gunlukFields();
+      case ContentType.kandil:
+        return _kandilFields();
+      default:
+        return const [];
+    }
+  }
+
+  Widget _sectionHeader(String title, IconData icon) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 12),
+      child: Row(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(8),
+            decoration: BoxDecoration(
+              color: _gold.withValues(alpha: 0.15),
+              borderRadius: BorderRadius.circular(10),
+            ),
+            child: Icon(icon, color: _gold, size: 18),
+          ),
+          const SizedBox(width: 10),
+          Text(title,
+              style: const TextStyle(
+                  color: _navy, fontSize: 14, fontWeight: FontWeight.w900,
+                  letterSpacing: 0.5)),
+        ],
+      ),
+    );
+  }
+
+  // ═══ MOOD ═══
+  List<Widget> _moodFields() {
+    return [
+      _sectionHeader('RUH HALI OZEL ALANLARI', Icons.emoji_emotions_rounded),
+      Row(
+        children: [
+          Expanded(
+            flex: 1,
+            child: _field(_emoji, 'Emoji (👶)', maxLines: 1),
+          ),
+          const SizedBox(width: 10),
+          Expanded(
+            flex: 2,
+            child: _field(_colorValue, 'Renk (0xFF4A6B8A)', maxLines: 1),
+          ),
+        ],
+      ),
+      const SizedBox(height: 14),
+      Row(
+        children: [
+          const Text('Oneriler',
+              style: TextStyle(
+                  color: _navy, fontWeight: FontWeight.w900, fontSize: 13)),
+          const Spacer(),
+          TextButton.icon(
+            onPressed: _addSuggestion,
+            icon: const Icon(Icons.add_rounded, size: 18),
+            label: const Text('EKLE'),
+          ),
+        ],
+      ),
+      ..._suggestions.asMap().entries.map((entry) {
+        final idx = entry.key;
+        final s = entry.value;
+        return Container(
+          margin: const EdgeInsets.only(bottom: 12),
+          padding: const EdgeInsets.all(12),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: const Color(0xFFE9EEF5)),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Text('Oneri #${idx + 1}',
+                      style: const TextStyle(
+                          color: _navy,
+                          fontWeight: FontWeight.w800,
+                          fontSize: 12)),
+                  const Spacer(),
+                  if (_suggestions.length > 1)
+                    IconButton(
+                      icon: const Icon(Icons.delete_outline_rounded,
+                          color: _red, size: 18),
+                      onPressed: () => _removeSuggestion(idx),
+                    ),
+                ],
+              ),
+              const SizedBox(height: 8),
+              Row(
+                children: [
+                  Expanded(child: _field(s['tip']!, 'Tip (AYET/DUA)', maxLines: 1)),
+                  const SizedBox(width: 8),
+                  Expanded(
+                      flex: 2,
+                      child: _field(s['source']!, 'Kaynak', maxLines: 1)),
+                ],
+              ),
+              const SizedBox(height: 8),
+              _field(s['title']!, 'Baslik', maxLines: 1),
+              const SizedBox(height: 8),
+              _field(s['text']!, 'Metin', maxLines: 3),
+            ],
+          ),
+        );
+      }),
+      const SizedBox(height: 14),
+    ];
+  }
+
+  // ═══ GUNLUK ═══
+  List<Widget> _gunlukFields() {
+    return [
+      _sectionHeader('GUNLUK ICERIK OZEL ALANLARI', Icons.calendar_today_rounded),
+      _field(_ayet, 'Ayet', maxLines: 3),
+      const SizedBox(height: 10),
+      _field(_ayetKaynak, 'Ayet Kaynak (Inşirah, 5-6)', maxLines: 1),
+      const SizedBox(height: 10),
+      _field(_hadis, 'Hadis', maxLines: 3),
+      const SizedBox(height: 10),
+      _field(_hadisKaynak, 'Hadis Kaynak', maxLines: 1),
+      const SizedBox(height: 10),
+      _field(_vecize, 'Vecize (Osmanlica)', maxLines: 3),
+      const SizedBox(height: 10),
+      _field(_vecizeModern, 'Vecize (Modern Latin)', maxLines: 3),
+      const SizedBox(height: 10),
+      _field(_vecizeKaynak, 'Vecize Kaynak', maxLines: 1),
+      const SizedBox(height: 10),
+      _field(_risaleHakikat, 'Risale-i Nur Hakikati', maxLines: 4),
+      const SizedBox(height: 10),
+      _field(_anahtarKelimeler, 'Anahtar Kelimeler (virgülle ayir)',
+          maxLines: 2),
+      const SizedBox(height: 14),
+    ];
+  }
+
+  // ═══ KANDIL ═══
+  List<Widget> _kandilFields() {
+    return [
+      _sectionHeader('KANDIL OZEL ALANLARI', Icons.star_rounded),
+      Row(
+        children: [
+          Expanded(child: _field(_emoji, 'Emoji (🌙)', maxLines: 1)),
+          const SizedBox(width: 10),
+          Expanded(
+              child: _field(_hijriMonth, 'Hicri Ay (1-12)', maxLines: 1)),
+          const SizedBox(width: 10),
+          Expanded(
+              child: _field(_hijriDay, 'Hicri Gun (1-30)', maxLines: 1)),
+        ],
+      ),
+      const SizedBox(height: 14),
+    ];
   }
 
   Widget _field(TextEditingController ctrl, String label,
