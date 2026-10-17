@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
+import 'package:nur_pusulasi/widgets/favorite_button.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _gold = Color(0xFFC9A961);
@@ -13,6 +14,7 @@ class DuaDetayPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
+        actions: [FavoriteButton(item: dua, size: 22)],
         title: Text(dua.baslik,
             style: const TextStyle(
                 color: _navy, fontSize: 16, fontWeight: FontWeight.w900)),

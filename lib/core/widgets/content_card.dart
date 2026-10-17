@@ -1,7 +1,7 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import '../../app/theme.dart';
+import '../../app/content_service.dart';
+import '../../app/favorites_service.dart';
 class ContentCard extends StatelessWidget {
   final IconData icon;
   final String tag;
@@ -23,52 +23,27 @@ class ContentCard extends StatelessWidget {
   });
 
   Future<void> _saveFavorite(BuildContext context) async {
-    const storageKey = 'nur_pusulasi_saved_items_v1';
-
-    try {
-      final prefs = await SharedPreferences.getInstance();
-      if (!context.mounted) return;
-      final raw = prefs.getString(storageKey);
-      final List<dynamic> items =
-          raw == null ? <dynamic>[] : jsonDecode(raw) as List<dynamic>;
-
-      final alreadySaved = items.any((entry) {
-        if (entry is! Map) return false;
-        return entry['title'] == title &&
-            entry['text'] == '$description\n\nKaynak: $source';
-      });
-
-      if (alreadySaved) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text('Bu içerik zaten kaydedilmiş.')),
-        );
-        return;
-      }
-
-      final now = DateTime.now();
-      final date =
-          '${now.day.toString().padLeft(2, '0')}.'
-          '${now.month.toString().padLeft(2, '0')}.'
-          '${now.year}';
-
-      items.insert(0, <String, String>{
-        'title': title,
-        'text': '$description\n\nKaynak: $source\n\nTefekkür: $reflection',
-        'date': date,
-      });
-
-      await prefs.setString(storageKey, jsonEncode(items));
-
-      if (!context.mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('İçerik Kaydedilenler bölümüne eklendi.')),
-      );
-    } catch (_) {
-      if (!context.mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Kaydetme başarısız oldu. Tekrar deneyin.')),
-      );
-    }
+    final item = ContentItem(
+      id: 'content_card_${title.hashCode}_${tag.hashCode}',
+      type: ContentType.vecize,
+      baslik: title,
+      icerik: description,
+      altIcerik: reflection.isEmpty ? null : reflection,
+      kaynak: source,
+      kategori: tag,
+      durum: ContentStatus.yayinlandi,
+    );
+    final added = await FavoritesService.instance.toggle(item);
+    if (!context.mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(added
+            ? 'Favorilere eklendi'
+            : 'Favorilerden cikarildi'),
+        duration: const Duration(milliseconds: 1500),
+        behavior: SnackBarBehavior.floating,
+      ),
+    );
   }
 
   @override

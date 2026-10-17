@@ -3,6 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:nur_pusulasi/app/shadows.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
+import 'package:nur_pusulasi/widgets/favorite_button.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _navyDeep = Color(0xFF05132B);
@@ -220,7 +221,7 @@ class _MoodPageState extends State<MoodPage> {
         Positioned(
           top: 4,
           right: 4,
-          child: AdminEditOverlay(item: m),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [FavoriteButton(item: m), AdminEditOverlay(item: m)]),
         ),
       ],
     );

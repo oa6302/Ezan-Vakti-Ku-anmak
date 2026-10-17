@@ -3,6 +3,7 @@ import 'package:nur_pusulasi/features/home/widgets/v2/header_v2.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/countdown_card.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/prayer_row.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/quick_grid.dart';
+import 'package:nur_pusulasi/features/home/widgets/v2/favorites_mini_card.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/content_pair.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/dua_card.dart';
 import 'package:nur_pusulasi/features/qibla/qibla_page.dart';
@@ -79,6 +80,9 @@ class HomePage extends StatelessWidget {
               padding: const EdgeInsets.only(top: 14, bottom: 100),
               children: [
                 const AdminModeBanner(),
+                const SizedBox(height: 8),
+                const FavoritesMiniCard(),
+                const SizedBox(height: 6),
                 // 1) NAMAZ BOLUMU (en ustte)
                 const NextPrayerCountdown(),
                 const SizedBox(height: 14),
