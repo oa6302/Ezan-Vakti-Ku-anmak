@@ -18,6 +18,7 @@ import 'package:nur_pusulasi/data/dua_havuzu_6.dart';
 import 'package:nur_pusulasi/data/vecize_havuzu.dart';
 import 'package:nur_pusulasi/data/ayet_havuzu.dart';
 import 'package:nur_pusulasi/data/ayet_havuzu_2.dart';
+import 'package:nur_pusulasi/data/risale_havuzu.dart';
 import 'package:nur_pusulasi/data/hadis_havuzu.dart';
 import 'package:nur_pusulasi/data/tefekkur_havuzu.dart';
 import 'package:nur_pusulasi/data/daily_content.dart';
@@ -406,60 +407,18 @@ class ContentService extends ChangeNotifier {
     ];
 
     // RISALE havuzu
-    _pools[ContentType.risale] = [
-      ContentItem(
-        id: 'risale_sabir',
-        type: ContentType.risale,
-        baslik: 'Sabir ve Musibet Karsisinda Dayanma',
-        icerik: 'Ey sabirsiz ruh! Bil ki, musibetler, buyuk makamlara ulasmak icin birer merdivendir. Hz. Eyyub (a.s.) gibi sabredenler, sonunda hem dunyada hem ahirette kazancli cikmislardir. Sabir, ibadetin yarisidir; bela ise sabrin muellimidir.',
-        altIcerik: 'Lemalar, Ikinci Lema',
-        kaynak: 'Bediuzzaman Said Nursi',
-        durum: ContentStatus.yayinlandi,
-        custom: false,
-      ),
-      ContentItem(
-        id: 'risale_ihlas',
-        type: ContentType.risale,
-        baslik: 'Ihlas ve Amelin Ozunde Samimiyet',
-        icerik: 'Ihlas, bir isi yalniz Allah rizasi icin yapmaktir. Amelin coklugu degil, hâlisligi makbuldur. Kim riyakârliktan uzak durursa, az ameli bile cok kazanir. Ihlasi kaybeden, butun amellerini kaybeder.',
-        altIcerik: 'Lemalar, Yirminci Lema',
-        kaynak: 'Bediuzzaman Said Nursi',
-        durum: ContentStatus.yayinlandi,
-        custom: false,
-      ),
-      ContentItem(
-        id: 'risale_hastalik',
-        type: ContentType.risale,
-        baslik: 'Hastaliklar ve Sifa Hakikati',
-        icerik: 'Hastalik, zahiren bir musibet; hakikatte ise bir sifadir. Kul, hastaliginda acizligini anlar, Rabbine sigilir. Hastalik, bedeni yikar gibi gorunse de ruhu arindirir, kalbi yumusatir. Sabreden hastaya, sehit ecri gibi mukafat verilir.',
-        altIcerik: 'Lemalar, Yirmi Besinci Lema',
-        kaynak: 'Bediuzzaman Said Nursi',
-        durum: ContentStatus.yayinlandi,
-        custom: false,
-      ),
-      ContentItem(
-        id: 'risale_iktisat',
-        type: ContentType.risale,
-        baslik: 'Iktisat ve Kanaat Hazinesi',
-        icerik: 'Kanaat, tukenmez bir hazinedir. Iktisat eden, yokluktan korkmaz. Israf ise bereketi kacirir. Kul, iktisat ile hem dunya hem ahiret saadetini kazanir. Kanaat eden, her halukarda zengindir; tamah eden ise her halde fakirdir.',
-        altIcerik: 'Lemalar, On Dokuzuncu Lema',
-        kaynak: 'Bediuzzaman Said Nursi',
-        durum: ContentStatus.yayinlandi,
-        custom: false,
-      ),
-      ContentItem(
-        id: 'risale_genclik',
-        type: ContentType.risale,
-        baslik: 'Gencligin Kiymetini Bilmek',
-        icerik: 'Genclik, hem en buyuk nimet hem de en buyuk tehlike donemidir. Genclik sehvet ve gaflet girdabinda heba edilirse, ahiretin ebedî hayati kaybedilir. Genclik, ibadet ve tesekkurle gecirilirse, hem dunyada hem ahirette ebedî nimetler kazanilir.',
-        altIcerik: 'Genclik Rehberi',
-        kaynak: 'Bediuzzaman Said Nursi',
-        durum: ContentStatus.yayinlandi,
-        custom: false,
-      ),
-    ];
+    _pools[ContentType.risale] = risaleHavuzu.map((r) => ContentItem(
+          id: 'risale_${r.baslik.hashCode}',
+          type: ContentType.risale,
+          baslik: r.baslik,
+          icerik: r.metin,
+          kaynak: r.kaynak,
+          kategori: r.kategori,
+          durum: ContentStatus.yayinlandi,
+          extra: {'emoji': r.emoji},
+        )).toList();
 
-    // KANDIL havuzu
+
     _pools[ContentType.kandil] = [
       for (var i = 0; i < kandilEvents.length; i++)
         ContentItem(
