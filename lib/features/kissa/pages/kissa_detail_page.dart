@@ -4,6 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
+import 'package:nur_pusulasi/widgets/favorite_button.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _gold = Color(0xFFC9A961);
@@ -79,6 +80,7 @@ class KissaDetailPage extends StatelessWidget {
                 color: _navy, fontSize: 16, fontWeight: FontWeight.w900),
             overflow: TextOverflow.ellipsis),
         actions: [
+          FavoriteButton(item: kissa, size: 22),
           Padding(
             padding: const EdgeInsets.only(right: 6),
             child: AdminEditOverlay(item: kissa),

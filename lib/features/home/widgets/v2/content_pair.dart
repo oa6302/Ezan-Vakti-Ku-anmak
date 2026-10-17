@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../../../app/content_service.dart';
 import '../../../../widgets/admin_edit_overlay.dart';
+import '../../../../widgets/favorite_button.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _gold = Color(0xFFC9A961);
@@ -117,7 +118,7 @@ class _LightCard extends StatelessWidget {
         Positioned(
           top: 4,
           right: 4,
-          child: AdminEditOverlay(item: item),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [FavoriteButton(item: item), AdminEditOverlay(item: item)]),
         ),
       ],
     );
@@ -218,7 +219,7 @@ class _DarkCard extends StatelessWidget {
         Positioned(
           top: 4,
           right: 4,
-          child: AdminEditOverlay(item: item),
+          child: Row(mainAxisSize: MainAxisSize.min, children: [FavoriteButton(item: item, light: true), AdminEditOverlay(item: item)]),
         ),
       ],
     );

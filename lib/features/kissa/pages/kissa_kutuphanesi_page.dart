@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
+import 'package:nur_pusulasi/widgets/favorite_button.dart';
 import 'package:nur_pusulasi/features/kissa/pages/kissa_detail_page.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -254,7 +255,8 @@ class _KissaTile extends StatelessWidget {
             ),
           ),
         ),
-        Positioned(
+        Positioned(top: 6, left: 6, child: FavoriteBadge(item: k, size: 16)),
+          Positioned(
           top: 6,
           right: 6,
           child: AdminEditOverlay(item: k, onChanged: onChanged),
