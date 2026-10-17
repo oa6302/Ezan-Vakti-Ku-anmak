@@ -14,6 +14,7 @@ import 'package:nur_pusulasi/data/dua_havuzu_2.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_3.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_4.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_5.dart';
+import 'package:nur_pusulasi/data/dua_havuzu_6.dart';
 import 'package:nur_pusulasi/data/vecize_havuzu.dart';
 import 'package:nur_pusulasi/data/ayet_havuzu.dart';
 import 'package:nur_pusulasi/data/ayet_havuzu_2.dart';
@@ -327,6 +328,15 @@ class ContentService extends ChangeNotifier {
           )),
       ...duaHavuzu5.map((d) => ContentItem(
             id: 'dua5_${d.baslik.hashCode}',
+            type: ContentType.dua,
+            baslik: d.baslik,
+            icerik: d.okunusu,
+            altIcerik: d.anlami,
+            arapca: d.arapca,
+            kaynak: d.kaynak,
+            kategori: d.kategori,
+          )),      ...duaHavuzu6.map((d) => ContentItem(
+            id: 'dua6_${d.baslik.hashCode}',
             type: ContentType.dua,
             baslik: d.baslik,
             icerik: d.okunusu,
