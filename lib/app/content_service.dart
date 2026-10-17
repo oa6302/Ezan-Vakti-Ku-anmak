@@ -8,6 +8,7 @@ import 'package:nur_pusulasi/data/islami_kissalar_kadin.dart';
 import 'package:nur_pusulasi/data/islami_kissalar_genc.dart';
 import 'package:nur_pusulasi/data/islami_kissalar_6.dart';
 import 'package:nur_pusulasi/data/islami_kissalar_7.dart';
+import 'package:nur_pusulasi/data/islami_kissalar_8.dart';
 import 'package:nur_pusulasi/data/dua_havuzu.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_2.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_3.dart';
@@ -266,6 +267,13 @@ class ContentService extends ChangeNotifier {
           )),
       ...kissalar7.map((k) => ContentItem(
             id: 'k7_${k.baslik.hashCode}',
+            type: ContentType.kissa,
+            baslik: k.baslik,
+            icerik: k.metin,
+            altIcerik: k.hisse,
+            kaynak: k.kaynak,
+          )),      ...kissalar8.map((k) => ContentItem(
+            id: 'k8_${k.baslik.hashCode}',
             type: ContentType.kissa,
             baslik: k.baslik,
             icerik: k.metin,
