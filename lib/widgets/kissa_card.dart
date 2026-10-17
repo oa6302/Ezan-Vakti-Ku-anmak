@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
+import 'package:nur_pusulasi/widgets/favorite_button.dart';
 import 'package:nur_pusulasi/features/kissa/pages/kissa_kutuphanesi_page.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -41,7 +42,7 @@ class KissaCard extends StatelessWidget {
                 Positioned(
                   top: 0,
                   right: 0,
-                  child: AdminEditOverlay(item: k),
+                  child: Row(mainAxisSize: MainAxisSize.min, children: [FavoriteButton(item: k), AdminEditOverlay(item: k)]),
                 ),
               ],
             ),

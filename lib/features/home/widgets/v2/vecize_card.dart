@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
+import 'package:nur_pusulasi/widgets/favorite_button.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _gold = Color(0xFFC9A961);
@@ -159,7 +160,7 @@ class VecizeCard extends StatelessWidget {
             Positioned(
               top: 8,
               right: 8,
-              child: AdminEditOverlay(item: vecize),
+              child: Row(mainAxisSize: MainAxisSize.min, children: [FavoriteButton(item: vecize), AdminEditOverlay(item: vecize)]),
             ),
           ],
         );

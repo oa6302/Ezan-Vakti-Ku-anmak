@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../../../../app/shadows.dart';
 import '../../../../app/content_service.dart';
 import '../../../../widgets/admin_edit_overlay.dart';
+import '../../../../widgets/favorite_button.dart';
 import 'dua_detay_page.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -163,7 +164,7 @@ class DuaCard extends StatelessWidget {
             Positioned(
               top: 8,
               right: 8,
-              child: AdminEditOverlay(item: dua),
+              child: Row(mainAxisSize: MainAxisSize.min, children: [FavoriteButton(item: dua), AdminEditOverlay(item: dua)]),
             ),
           ],
         );

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
+import 'package:nur_pusulasi/widgets/favorite_button.dart';
 
 const _red = Color(0xFFB71C1C);
 
@@ -142,7 +143,7 @@ class RisaleCard extends StatelessWidget {
             Positioned(
               top: 8,
               right: 8,
-              child: AdminEditOverlay(item: r),
+              child: Row(mainAxisSize: MainAxisSize.min, children: [FavoriteButton(item: r, light: true), AdminEditOverlay(item: r)]),
             ),
           ],
         );
