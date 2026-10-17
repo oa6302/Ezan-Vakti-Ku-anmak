@@ -349,7 +349,10 @@ class ContentService extends ChangeNotifier {
     ];
 
     // VECIZE havuzu
-    _pools[ContentType.vecize] = vecizeHavuzu.asMap().entries.map((e) {
+    // VECIZE havuzu - sadece Osmanlicasi dolu olanlar gunluk rotasyona girer
+    _pools[ContentType.vecize] = vecizeHavuzu.asMap().entries
+        .where((e) => e.value.osmanlica.trim().isNotEmpty)
+        .map((e) {
       final i = e.key;
       final v = e.value;
       return ContentItem(
@@ -357,7 +360,7 @@ class ContentService extends ChangeNotifier {
         type: ContentType.vecize,
         baslik: 'Gunun Vecizesi',
         icerik: v.latin,
-        altIcerik: v.osmanlica.trim().isEmpty ? null : v.osmanlica,
+        altIcerik: v.osmanlica,
         kaynak: v.kaynak,
         kategori: v.kategori,
       );
