@@ -87,21 +87,22 @@ class VecizeCard extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 24),
-                    Directionality(
-                      textDirection: TextDirection.rtl,
-                      child: Text(
-                        (vecize.altIcerik ?? vecize.icerik),
-                        textAlign: TextAlign.center,
-                        style: const TextStyle(
-                          fontSize: 22,
-                          height: 2.1,
-                          fontFamily: 'Matbu',
-                          color: _navy,
-                          fontWeight: FontWeight.w500,
-                          shadows: _arabicShadow,
+                    if ((vecize.altIcerik ?? '').trim().isNotEmpty)
+                      Directionality(
+                        textDirection: TextDirection.rtl,
+                        child: Text(
+                          vecize.altIcerik!,
+                          textAlign: TextAlign.center,
+                          style: const TextStyle(
+                            fontSize: 22,
+                            height: 2.1,
+                            fontFamily: 'Matbu',
+                            color: _navy,
+                            fontWeight: FontWeight.w500,
+                            shadows: _arabicShadow,
+                          ),
                         ),
                       ),
-                    ),
                     const SizedBox(height: 20),
                     Container(
                       height: 1,

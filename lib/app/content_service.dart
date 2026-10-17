@@ -329,14 +329,19 @@ class ContentService extends ChangeNotifier {
     ];
 
     // VECIZE havuzu
-    _pools[ContentType.vecize] = vecizeHavuzu.map((v) => ContentItem(
-          id: 'vecize_${v.osmanlica.hashCode}',
-          type: ContentType.vecize,
-          baslik: 'Gunun Vecizesi',
-          icerik: v.latin,
-          altIcerik: v.osmanlica,
-          kaynak: v.kaynak,
-        )).toList();
+    _pools[ContentType.vecize] = vecizeHavuzu.asMap().entries.map((e) {
+      final i = e.key;
+      final v = e.value;
+      return ContentItem(
+        id: 'vecize_${i}_${v.latin.hashCode}',
+        type: ContentType.vecize,
+        baslik: 'Gunun Vecizesi',
+        icerik: v.latin,
+        altIcerik: v.osmanlica.trim().isEmpty ? null : v.osmanlica,
+        kaynak: v.kaynak,
+        kategori: v.kategori,
+      );
+    }).toList();
 
     // Digerleri bos baslar (admin ekleyebilir)
     // AYET havuzu (Diyanet meali + Arapca)

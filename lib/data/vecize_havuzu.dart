@@ -3,10 +3,12 @@ class Vecize {
   final String osmanlica;
   final String latin;
   final String kaynak;
+  final String kategori;
   const Vecize({
     required this.osmanlica,
     required this.latin,
     required this.kaynak,
+    this.kategori = 'Genel',
   });
 }
 
@@ -110,5 +112,227 @@ const List<Vecize> vecizeHavuzu = [
     osmanlica: 'قرآن، هر عصرده انسانیتڭ معلمیدر.',
     latin: '"Kur\'an, her asırda insanlığın muallimidir."',
     kaynak: 'BEDİÜZZAMAN SAİD NURSİ',
+  ),
+
+  // ═══ TEVHID ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Vahdet, kesretin aynasidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Tevhid',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Her sey, Vahid-i Ehadin muhrunu tasir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Tevhid',
+  ),
+
+  // ═══ IMAN ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Iman, insani insan eden nurdur.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Iman',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Imansiz kalp, karanlik bir kuyudur.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Iman',
+  ),
+
+  // ═══ IBADET ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Ibadet, kalbin miracidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Ibadet',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Namaz, muminin miracidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Ibadet',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Secde, kulun Rabbine en yakin oldugu andir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Ibadet',
+  ),
+
+  // ═══ AHLAK ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Guzel ahlak, imanin meyvesidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Ahlak',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Sidk, muminin kalesidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Ahlak',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Husn-u zan, muminin siaridir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Ahlak',
+  ),
+
+  // ═══ AHIRET ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Kabir, ya cennet bahcesi ya cehennem cukurudur.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Ahiret',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Olum, ebedi hayatin kapisidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Ahiret',
+  ),
+
+  // ═══ SABIR ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Sabir, zaferin anahtaridir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Sabir',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Sabir, musibetin ilacidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Sabir',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Sabreden dervis, muradina ermis.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Sabir',
+  ),
+
+  // ═══ SUKUR ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Sukur, nimetin ziyadelesmesine vesiledir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Sukur',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Sukreden, nimetin kadrini bilir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Sukur',
+  ),
+
+  // ═══ IHLAS ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Ihlas, riyadan kurtulustur.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Ihlas',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Ihlassiz amel, ruhsuz bedendir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Ihlas',
+  ),
+
+  // ═══ DUA ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Dua, muminin silahidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Dua',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Dua, kullugun ozudur.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Dua',
+  ),
+
+  // ═══ KURAN ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Kuran, ebedi bir mucizedir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Kuran',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Kuran, sifa ve rahmettir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Kuran',
+  ),
+
+  // ═══ SUNNET ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Sunnet, Islamin temelidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Sunnet',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Sunneti terk eden, dine yabancilasir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Sunnet',
+  ),
+
+  // ═══ KADER ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Kader, ilminin yazdigidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Kader',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Kadere iman, tevekkulu dogurur.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Kader',
+  ),
+
+  // ═══ ILIM ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Ilim, kalbin kandilidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Ilim',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Ilim, imanin nurudur.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Ilim',
+  ),
+
+  // ═══ MUHABBET ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Muhabbet, kalbin hayatidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Muhabbet',
+  ),
+
+  // ═══ DUNYA ═══
+  Vecize(
+    osmanlica: '',
+    latin: 'Dunya, bir handir; yolcu ise insandir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Dunya',
+  ),
+  Vecize(
+    osmanlica: '',
+    latin: 'Dunya sevgisi, butun hatalarin basidir.',
+    kaynak: 'BEDIUZZAMAN SAID NURSI',
+    kategori: 'Dunya',
   ),
 ];
