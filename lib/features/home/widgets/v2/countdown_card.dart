@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../../app/shadows.dart';
@@ -15,16 +16,22 @@ class NextPrayerCountdown extends StatefulWidget {
   State<NextPrayerCountdown> createState() => _NextPrayerCountdownState();
 }
 
-class _NextPrayerCountdownState extends State<NextPrayerCountdown> {
+class _NextPrayerCountdownState extends State<NextPrayerCountdown>
+    with SingleTickerProviderStateMixin {
   final _service = PrayerService();
   PrayerTimeResult? _result;
   Timer? _timer;
+  late final AnimationController _breath;
   String _city = '';
   bool _loading = false;
 
   @override
   void initState() {
     super.initState();
+    _breath = AnimationController(
+      vsync: this,
+      duration: const Duration(seconds: 2),
+    )..repeat(reverse: true);
     _timer = Timer.periodic(const Duration(seconds: 1), (_) {
       if (mounted) setState(() {});
     });
@@ -33,6 +40,7 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown> {
   @override
   void dispose() {
     _timer?.cancel();
+    _breath.dispose();
     super.dispose();
   }
 
@@ -69,10 +77,63 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown> {
     }
   }
 
-  String _fmt(Duration d) {
+  /// Saniye destekli format: "02:15:34"
+  String _fmtFull(Duration d) {
+    if (d.isNegative) d = Duration.zero;
     final h = d.inHours.toString().padLeft(2, '0');
     final m = (d.inMinutes % 60).toString().padLeft(2, '0');
-    return '$h:$m';
+    final s = (d.inSeconds % 60).toString().padLeft(2, '0');
+    return '$h:$m:$s';
+  }
+
+  /// Vakite gore renk paleti
+  Color _vakitRengi(String name) {
+    switch (name) {
+      case 'Imsak':
+        return const Color(0xFF1F4E79); // gece lacivert
+      case 'Ogle':
+        return const Color(0xFFF59E0B); // ogle turuncu
+      case 'Ikindi':
+        return const Color(0xFFEA580C); // ikindi kizil-turuncu
+      case 'Aksam':
+        return const Color(0xFFB71C1C); // aksam kizil
+      case 'Yatsi':
+        return const Color(0xFF1A2E4A); // yatsi koyu lacivert
+      default:
+        return _gold;
+    }
+  }
+
+  /// Onceki vakit -> simdiki ilerleme yuzdesi (0..1)
+  double _progress(PrayerTimeResult r) {
+    final now = DateTime.now();
+    final entries = r.times.entries
+        .where((e) => e.key != 'Gunes')
+        .toList()
+      ..sort((a, b) => a.value.compareTo(b.value));
+    if (entries.isEmpty) return 0;
+
+    // Simdiki vakit hangisi?
+    DateTime? prevTime;
+    DateTime? nextTime;
+    for (var i = 0; i < entries.length; i++) {
+      final t = entries[i].value;
+      if (t.isAfter(now)) {
+        nextTime = t;
+        prevTime = i == 0 ? null : entries[i - 1].value;
+        break;
+      }
+    }
+    // Bugun hepsi gectiyse yarin Imsak
+    if (nextTime == null) {
+      nextTime = entries.first.value.add(const Duration(days: 1));
+      prevTime = entries.last.value;
+    }
+    if (prevTime == null) return 0;
+    final total = nextTime.difference(prevTime).inSeconds;
+    final elapsed = now.difference(prevTime).inSeconds;
+    if (total <= 0) return 0;
+    return (elapsed / total).clamp(0.0, 1.0);
   }
 
   @override
@@ -109,18 +170,34 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown> {
     final timeStr =
         '${time.hour.toString().padLeft(2, '0')}:${time.minute.toString().padLeft(2, '0')}';
     final namazAdi = name == 'Imsak' ? 'Sabah' : name;
+    final renk = _vakitRengi(name);
+    final progress = _progress(r);
 
-    return Container(
+    return AnimatedContainer(
+      duration: const Duration(milliseconds: 600),
+      curve: Curves.easeInOut,
       margin: const EdgeInsets.symmetric(horizontal: 14),
       padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(
-        gradient: const LinearGradient(
-          colors: [_navy, _navyDeep],
+        gradient: LinearGradient(
+          colors: [_navy, _navyDeep, renk.withValues(alpha: 0.85)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
+          stops: const [0.0, 0.5, 1.0],
         ),
         borderRadius: BorderRadius.circular(22),
-        boxShadow: AppShadows.deep(),
+        boxShadow: [
+          BoxShadow(
+            color: renk.withValues(alpha: 0.25),
+            blurRadius: 20,
+            offset: const Offset(0, 8),
+          ),
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.15),
+            blurRadius: 12,
+            offset: const Offset(0, 4),
+          ),
+        ],
       ),
       child: Row(
         children: [
@@ -131,21 +208,49 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown> {
               children: [
                 Row(
                   children: [
-                    Container(
-                      width: 58, height: 58,
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        border: Border.all(color: _gold, width: 2),
-                        boxShadow: [
-                          BoxShadow(
-                            color: _gold.withValues(alpha: 0.3),
-                            blurRadius: 12,
-                            spreadRadius: 1,
+                    // Nefes alan ikon + progress ring
+                    AnimatedBuilder(
+                      animation: _breath,
+                      builder: (context, _) {
+                        final scale = 1.0 + (_breath.value * 0.06);
+                        return SizedBox(
+                          width: 68, height: 68,
+                          child: Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              // Progress ring
+                              CustomPaint(
+                                size: const Size(68, 68),
+                                painter: _RingPainter(
+                                  progress: progress,
+                                  color: renk,
+                                  bgColor: Colors.white.withValues(alpha: 0.12),
+                                ),
+                              ),
+                              // Nefes alan cami ikonu
+                              Transform.scale(
+                                scale: scale,
+                                child: Container(
+                                  width: 52, height: 52,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    color: renk.withValues(alpha: 0.18),
+                                    boxShadow: [
+                                      BoxShadow(
+                                        color: renk.withValues(alpha: 0.4),
+                                        blurRadius: 14,
+                                        spreadRadius: 1,
+                                      ),
+                                    ],
+                                  ),
+                                  child: const Icon(Icons.mosque_rounded,
+                                      color: _gold, size: 28),
+                                ),
+                              ),
+                            ],
                           ),
-                        ],
-                      ),
-                      child: const Icon(Icons.mosque_rounded,
-                          color: _gold, size: 30),
+                        );
+                      },
                     ),
                     const SizedBox(width: 12),
                     Expanded(
@@ -166,11 +271,28 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown> {
                                     fontWeight: FontWeight.w800)),
                           ),
                           const SizedBox(height: 6),
-                          Text('$namazAdi Namazi',
+                          AnimatedSwitcher(
+                            duration: const Duration(milliseconds: 400),
+                            transitionBuilder: (child, anim) =>
+                                FadeTransition(
+                              opacity: anim,
+                              child: SlideTransition(
+                                position: Tween<Offset>(
+                                  begin: const Offset(0, 0.3),
+                                  end: Offset.zero,
+                                ).animate(anim),
+                                child: child,
+                              ),
+                            ),
+                            child: Text(
+                              '$namazAdi Namazi',
+                              key: ValueKey(namazAdi),
                               style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
-                                  fontWeight: FontWeight.w900)),
+                                  fontWeight: FontWeight.w900),
+                            ),
+                          ),
                         ],
                       ),
                     ),
@@ -188,18 +310,39 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown> {
                             fontSize: 15,
                             fontWeight: FontWeight.w700)),
                     const SizedBox(width: 10),
+                    // Canli saniye gostergesi
                     Container(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 8, vertical: 3),
+                          horizontal: 8, vertical: 4),
                       decoration: BoxDecoration(
-                        color: _gold.withValues(alpha: 0.18),
-                        borderRadius: BorderRadius.circular(6),
+                        color: renk.withValues(alpha: 0.25),
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(
+                          color: renk.withValues(alpha: 0.5),
+                          width: 1,
+                        ),
                       ),
-                      child: Text('${_fmt(remain)} kaldi',
-                          style: const TextStyle(
-                              color: _gold,
-                              fontSize: 11,
-                              fontWeight: FontWeight.w800)),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Container(
+                            width: 5, height: 5,
+                            decoration: BoxDecoration(
+                              color: renk,
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                          const SizedBox(width: 5),
+                          Text('${_fmtFull(remain)} kaldi',
+                              style: const TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 11,
+                                  fontWeight: FontWeight.w800,
+                                  fontFeatures: [
+                                    FontFeature.tabularFigures(),
+                                  ])),
+                        ],
+                      ),
                     ),
                   ],
                 ),
@@ -237,4 +380,48 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown> {
       ),
     );
   }
+}
+
+/// Vakit ilerlemesini gosteren ring (custom painter)
+class _RingPainter extends CustomPainter {
+  final double progress; // 0..1
+  final Color color;
+  final Color bgColor;
+  const _RingPainter({
+    required this.progress,
+    required this.color,
+    required this.bgColor,
+  });
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final center = Offset(size.width / 2, size.height / 2);
+    final radius = (size.width - 6) / 2;
+    const strokeW = 3.0;
+
+    // Arka plan
+    final bgPaint = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = strokeW
+      ..color = bgColor;
+    canvas.drawCircle(center, radius, bgPaint);
+
+    // Progress arc
+    final fgPaint = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = strokeW
+      ..strokeCap = StrokeCap.round
+      ..color = color;
+    canvas.drawArc(
+      Rect.fromCircle(center: center, radius: radius),
+      -math.pi / 2, // 12 yonunden basla
+      2 * math.pi * progress,
+      false,
+      fgPaint,
+    );
+  }
+
+  @override
+  bool shouldRepaint(_RingPainter old) =>
+      old.progress != progress || old.color != color;
 }
