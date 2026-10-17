@@ -16,6 +16,7 @@ import 'package:nur_pusulasi/data/dua_havuzu_4.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_5.dart';
 import 'package:nur_pusulasi/data/vecize_havuzu.dart';
 import 'package:nur_pusulasi/data/ayet_havuzu.dart';
+import 'package:nur_pusulasi/data/ayet_havuzu_2.dart';
 import 'package:nur_pusulasi/data/hadis_havuzu.dart';
 import 'package:nur_pusulasi/data/tefekkur_havuzu.dart';
 import 'package:nur_pusulasi/data/daily_content.dart';
@@ -353,7 +354,7 @@ class ContentService extends ChangeNotifier {
 
     // Digerleri bos baslar (admin ekleyebilir)
     // AYET havuzu (Diyanet meali + Arapca)
-    _pools[ContentType.ayet] = ayetHavuzu.map((a) => ContentItem(
+    _pools[ContentType.ayet] = [...ayetHavuzu, ...ayetHavuzu2].map((a) => ContentItem(
           id: 'ayet_${a.id}',
           type: ContentType.ayet,
           baslik: a.kaynak,
