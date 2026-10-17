@@ -15,6 +15,8 @@ import 'package:nur_pusulasi/data/dua_havuzu_4.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_5.dart';
 import 'package:nur_pusulasi/data/vecize_havuzu.dart';
 import 'package:nur_pusulasi/data/ayet_havuzu.dart';
+import 'package:nur_pusulasi/data/hadis_havuzu.dart';
+import 'package:nur_pusulasi/data/tefekkur_havuzu.dart';
 import 'package:nur_pusulasi/data/daily_content.dart';
 import 'package:nur_pusulasi/data/daily_content_ek.dart';
 import 'package:nur_pusulasi/features/kandil/data/kandil_data.dart';
@@ -489,8 +491,24 @@ class ContentService extends ChangeNotifier {
         ),
     ];
 
-    _pools[ContentType.hadis] = [];
-    _pools[ContentType.tefekkur] = [];  }
+        _pools[ContentType.hadis] = hadisHavuzu.map((h) => ContentItem(
+          id: 'hadis_${h.baslik.hashCode}',
+          type: ContentType.hadis,
+          baslik: h.baslik,
+          icerik: h.metin,
+          altIcerik: h.kaynakRef,
+          kaynak: h.kitap,
+          kategori: h.kategori,
+          durum: ContentStatus.yayinlandi,
+        )).toList();
+        _pools[ContentType.tefekkur] = tefekkurHavuzu.map((t) => ContentItem(
+          id: 'tefekkur_${t.baslik.hashCode}',
+          type: ContentType.tefekkur,
+          baslik: t.baslik,
+          icerik: t.metin,
+          kategori: t.kategori,
+          durum: ContentStatus.yayinlandi,
+        )).toList();  }
 
   /// SharedPreferences'taki override'lari yukle
   Future<void> _overlayFromPrefs() async {
