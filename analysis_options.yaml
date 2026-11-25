@@ -11,10 +11,12 @@ include: package:flutter_lints/flutter.yaml
 
 analyzer:
   exclude:
+
     - build/**
     - android/**
     - ios/**
     - web/**
+    - windows/**
 
 linter:
   # The lint rules applied to this project can be customized in the
@@ -33,3 +35,4 @@ linter:
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
+

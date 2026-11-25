@@ -1,5 +1,5 @@
 name: nur_pusulasi
-description: 5 Vakit Namaz - namaz merkezli ibadet rehberi ve vakit takip uygulamasi.
+description: Ezan Vakti Kuşanmak - namaz merkezli ibadet rehberi ve vakit takip uygulamasi.
 publish_to: 'none'
 version: 0.2.0+1
 
@@ -28,7 +28,13 @@ dependencies:
   url_launcher: ^6.3.3
   flutter_native_splash: ^2.4.8
   google_fonts: ^9.0.0
-
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  image_picker: ^1.2.4
+  path_provider: ^2.1.6
+  share_plus: ^13.3.1
+  gal: ^2.3.3
+  screenshot: ^3.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
