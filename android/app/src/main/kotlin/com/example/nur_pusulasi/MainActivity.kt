@@ -1,4 +1,4 @@
-﻿package com.example.nur_pusulasi
+package com.example.nur_pusulasi
 
 import android.content.Context
 import io.flutter.embedding.android.FlutterActivity
