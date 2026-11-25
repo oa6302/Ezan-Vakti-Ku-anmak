@@ -27,4 +27,4 @@ Hook çıktısındaki kod → bu kart. Sadece değişen dosyalar kontrol edilir.
 - **T4** Test kırılırsa sebebi düzelt, testi kapatma.
 
 ## Komutlar
-`sh android/hooks/kur.sh` (bir kez) · `sh android/hooks/proje_kontrol.sh [tam]`
+`sh android/hooks/kur.sh` (bir kez) · `sh android/hooks/proje_kontrol.sh [tam]` · `sh android/hooks/calistir.sh web|emu|apk` · Fazlar: `FAZLAR.md`
