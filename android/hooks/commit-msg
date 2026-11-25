@@ -1,0 +1,8 @@
+#!/bin/sh
+# G4: tip(kapsam): aciklama
+M="$(head -n1 "$1" | tr -d '\r')"
+case "$M" in Merge*|Revert*|fixup!*|squash!*) exit 0 ;; esac
+printf '%s' "$M" | grep -qE '^(feat|fix|refactor|perf|style|docs|test|chore|build|ci|revert)(\([a-z0-9_./-]+\))?!?: .{3,}' && exit 0
+echo "[HATA] G4 commit mesaji: '$M'"
+echo "Beklenen: tip(kapsam): aciklama  ornek: fix(vecize): Rotasyon duzeltildi"
+exit 1

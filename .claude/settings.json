@@ -1,0 +1,29 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node android/hooks/claude/dosya_kontrol.js",
+            "timeout": 90,
+            "statusMessage": "Kural karti kontrolu..."
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node android/hooks/claude/tur_sonu.js",
+            "timeout": 150,
+            "statusMessage": "Degisen dosyalar kontrol ediliyor..."
+          }
+        ]
+      }
+    ]
+  }
+}

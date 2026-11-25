@@ -1,0 +1,7 @@
+#!/bin/sh
+# Commit sonrasi: sadece bu commit'in dosyalari, bilgi amacli (engellemez).
+. "$(git rev-parse --show-toplevel)/android/hooks/_ortak.sh"
+KONTROL_DOSYALAR="$(git diff-tree --no-commit-id --name-only -r HEAD)" \
+  sh "$HOOK_DIZIN/proje_kontrol.sh" hizli >"$RAPOR_DOSYA" 2>&1
+echo "post-commit: $(tail -1 "$RAPOR_DOSYA")"
+exit 0

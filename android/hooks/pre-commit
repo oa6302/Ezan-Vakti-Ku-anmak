@@ -1,0 +1,4 @@
+#!/bin/sh
+# Commit oncesi: sadece stage edilen dosyalar.
+. "$(git rev-parse --show-toplevel)/android/hooks/_ortak.sh"
+sh "$HOOK_DIZIN/proje_kontrol.sh" staged || { echo "Commit engellendi."; exit 1; }

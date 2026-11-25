@@ -1,0 +1,34 @@
+#!/bin/sh
+# Push oncesi: SADECE push edilecek commit'lerdeki dosyalar + dal kurallari. (KURALLAR.md)
+. "$(git rev-parse --show-toplevel)/android/hooks/_ortak.sh"
+Z="0000000000000000000000000000000000000000"
+KORUNAN="main master"
+ENGEL=0; TUM=""
+
+while read -r YREF YSHA UREF USHA; do
+  [ -z "$YREF" ] && continue
+  DAL="${UREF#refs/heads/}"
+  if [ "$YSHA" = "$Z" ]; then
+    for k in $KORUNAN; do [ "$DAL" = "$k" ] && { echo "[HATA] G2 '$DAL' silinemez"; ENGEL=1; }; done
+    continue
+  fi
+  if [ "$USHA" != "$Z" ] && git cat-file -e "$USHA" 2>/dev/null; then
+    git merge-base --is-ancestor "$USHA" "$YSHA" 2>/dev/null || for k in $KORUNAN; do
+      [ "$DAL" = "$k" ] && { echo "[HATA] G2 '$DAL' force-push yasak"; ENGEL=1; }; done
+    ARALIK="$USHA..$YSHA"
+  else
+    ARALIK="$YSHA --not --remotes"
+  fi
+  # shellcheck disable=SC2086
+  TUM="$TUM $(git log --name-only --pretty=format: $ARALIK | sort -u)"
+done
+
+# G1: gecmisteki (silinmis olsa bile) gizli dosyalar
+G="$(printf '%s\n' $TUM | sort -u | grep -E "$GIZLI_DOSYA_REGEX" | grep -v example || true)"
+[ -n "$G" ] && { echo "[HATA] G1 push gecmisinde gizli dosya: $(echo $G)"; ENGEL=1; }
+[ -n "$(git status --porcelain --untracked-files=no)" ] && echo "[UYARI] G3 commit edilmemis degisiklik var"
+
+KONTROL_DOSYALAR="$(printf '%s\n' $TUM | sort -u)" sh "$HOOK_DIZIN/proje_kontrol.sh" tam | tee "$RAPOR_DOSYA"
+tail -1 "$RAPOR_DOSYA" | grep -q 'SONUC: gecti' || ENGEL=1
+[ "$ENGEL" -ne 0 ] && { echo "Push engellendi."; exit 1; }
+exit 0

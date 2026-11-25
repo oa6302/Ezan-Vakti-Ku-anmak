@@ -1,0 +1,12 @@
+#!/bin/sh
+# Pull/merge sonrasi: U7 bagimlilik + sadece gelen dosyalarda kontrol (engellemez).
+. "$(git rev-parse --show-toplevel)/android/hooks/_ortak.sh"
+cd "$PROJE_KOK" || exit 0
+DEGISEN="$(git diff --name-only ORIG_HEAD HEAD 2>/dev/null)"
+flutter_bul && {
+  printf '%s\n' "$DEGISEN" | grep -qE '^pubspec\.(yaml|lock)$' && "$FLUTTER" pub get
+  printf '%s\n' "$DEGISEN" | grep -qE '^lib/l10n/.*\.arb$' && "$FLUTTER" gen-l10n
+}
+KONTROL_DOSYALAR="$DEGISEN" sh "$HOOK_DIZIN/proje_kontrol.sh" hizli >"$RAPOR_DOSYA" 2>&1
+echo "post-merge: $(tail -1 "$RAPOR_DOSYA")"
+exit 0
