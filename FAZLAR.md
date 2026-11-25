@@ -8,9 +8,9 @@ Her faz ayrı dal + PR: `faz/N-ad`. Faz bitti sayılması için **Bitti Kriteri*
 4. `proje_kontrol.sh tam` temiz; duman testi (sayfa açılış testi) geçiyor.
 5. Web + APK'da elle kontrol edildi (`sh android/hooks/calistir.sh web|apk`).
 
-## F0 — Temizlik ✅/⬜
-- [ ] Bekleyen ~178 değişikliği konu konu commit et (silinenler, data, features).
-- [ ] BOM temizliği (MainActivity.kt, kuran.json), `.gitattributes` (U9).
+## F0 — Temizlik ✅
+- [x] Bekleyen ~178 değişiklik konu konu commit edildi (11 commit, dal `faz/0-temizlik`).
+- [x] BOM temizliği (MainActivity.kt, kuran.json), `.gitattributes` (U9).
 
 ## F1 — Altyapı ve senkronizasyon
 - [ ] AppState / settings / favorites / content repository tek kaynak; sayfalar arası akış haritası.
