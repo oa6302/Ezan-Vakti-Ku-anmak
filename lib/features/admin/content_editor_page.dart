@@ -47,7 +47,21 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
   late final TextEditingController _vecizeModern;
   late final TextEditingController _vecizeKaynak;
   late final TextEditingController _risaleHakikat;
+  late final TextEditingController _ayetArapca;
+  late final TextEditingController _ayetTefsir;
+  late final TextEditingController _risaleAlinti;
+  late final TextEditingController _risaleEser;
+  late final TextEditingController _risaleBolum;
   late final TextEditingController _anahtarKelimeler;
+  late final TextEditingController _gunKonu;
+  late final TextEditingController _duaBaslik;
+  late final TextEditingController _duaArapca;
+  late final TextEditingController _duaOkunus;
+  late final TextEditingController _duaAnlam;
+  late final TextEditingController _duaKaynak;
+  late final TextEditingController _duaKategori;
+  late final TextEditingController _kissa;
+  late final TextEditingController _kissaKaynak;
 
   // Mood suggestions (3 slots, each with 4 fields)
   final List<Map<String, TextEditingController>> _suggestions = [];
@@ -74,12 +88,11 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
     _kaynakURL = TextEditingController(text: i?.kaynakURL ?? '');
 
     _emoji = TextEditingController(text: (ex['emoji'] ?? '').toString());
-    _colorValue = TextEditingController(
-        text: (ex['colorValue'] ?? '').toString());
+    _colorValue =
+        TextEditingController(text: (ex['colorValue'] ?? '').toString());
     _hijriMonth =
         TextEditingController(text: (ex['hijriMonth'] ?? '').toString());
-    _hijriDay =
-        TextEditingController(text: (ex['hijriDay'] ?? '').toString());
+    _hijriDay = TextEditingController(text: (ex['hijriDay'] ?? '').toString());
 
     _ayet = TextEditingController(text: (ex['ayet'] ?? '').toString());
     _ayetKaynak =
@@ -94,10 +107,25 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
         TextEditingController(text: (ex['vecizeKaynak'] ?? '').toString());
     _risaleHakikat =
         TextEditingController(text: (ex['risaleHakikat'] ?? '').toString());
+    _ayetArapca = TextEditingController(text: (ex['ayetArapca'] ?? '').toString());
+    _ayetTefsir = TextEditingController(text: (ex['ayetTefsir'] ?? '').toString());
+    _risaleAlinti = TextEditingController(text: (ex['risaleAlinti'] ?? '').toString());
+    _risaleEser = TextEditingController(text: (ex['risaleEser'] ?? '').toString());
+    _risaleBolum = TextEditingController(text: (ex['risaleBolum'] ?? '').toString());
 
     final ak = ex['anahtarKelimeler'];
     _anahtarKelimeler = TextEditingController(
         text: ak is List ? ak.map((e) => '$e').join(', ') : '');
+
+    _gunKonu = TextEditingController(text: (ex['gunKonu'] ?? '').toString());
+    _duaBaslik = TextEditingController(text: (ex['duaBaslik'] ?? '').toString());
+    _duaArapca = TextEditingController(text: (ex['duaArapca'] ?? '').toString());
+    _duaOkunus = TextEditingController(text: (ex['duaOkunus'] ?? '').toString());
+    _duaAnlam = TextEditingController(text: (ex['duaAnlam'] ?? '').toString());
+    _duaKaynak = TextEditingController(text: (ex['duaKaynak'] ?? '').toString());
+    _duaKategori = TextEditingController(text: (ex['duaKategori'] ?? '').toString());
+    _kissa = TextEditingController(text: (ex['kissa'] ?? '').toString());
+    _kissaKaynak = TextEditingController(text: (ex['kissaKaynak'] ?? '').toString());
 
     // Mood suggestions
     final sg = ex['suggestions'];
@@ -161,7 +189,21 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
     _vecizeModern.dispose();
     _vecizeKaynak.dispose();
     _risaleHakikat.dispose();
+    _ayetArapca.dispose();
+    _ayetTefsir.dispose();
+    _risaleAlinti.dispose();
+    _risaleEser.dispose();
+    _risaleBolum.dispose();
     _anahtarKelimeler.dispose();
+    _gunKonu.dispose();
+    _duaBaslik.dispose();
+    _duaArapca.dispose();
+    _duaOkunus.dispose();
+    _duaAnlam.dispose();
+    _duaKaynak.dispose();
+    _duaKategori.dispose();
+    _kissa.dispose();
+    _kissaKaynak.dispose();
     for (final s in _suggestions) {
       for (final c in s.values) {
         c.dispose();
@@ -207,48 +249,70 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
         return m.isEmpty ? null : m;
 
       case ContentType.gunluk:
-        final m = <String, dynamic>{};
-        if (_ayet.text.trim().isNotEmpty) m['ayet'] = _ayet.text.trim();
-        if (_ayetKaynak.text.trim().isNotEmpty) {
-          m['ayetKaynak'] = _ayetKaynak.text.trim();
-        }
-        if (_hadis.text.trim().isNotEmpty) m['hadis'] = _hadis.text.trim();
-        if (_hadisKaynak.text.trim().isNotEmpty) {
-          m['hadisKaynak'] = _hadisKaynak.text.trim();
-        }
-        if (_vecize.text.trim().isNotEmpty) {
-          m['vecize'] = _vecize.text.trim();
-        }
-        if (_vecizeModern.text.trim().isNotEmpty) {
-          m['vecizeModern'] = _vecizeModern.text.trim();
-        }
-        if (_vecizeKaynak.text.trim().isNotEmpty) {
-          m['vecizeKaynak'] = _vecizeKaynak.text.trim();
-        }
-        if (_risaleHakikat.text.trim().isNotEmpty) {
-          m['risaleHakikat'] = _risaleHakikat.text.trim();
-        }
-        final ak = _anahtarKelimeler.text
+        final m = Map<String, dynamic>.from(
+          widget.initial?.extra ?? const <String, dynamic>{},
+        );
+        m['gunKonu'] = _gunKonu.text.trim();
+        m['kissa'] = _kissa.text.trim();
+        m['kissaKaynak'] = _kissaKaynak.text.trim();
+        m['ayet'] = _ayet.text.trim();
+        m['ayetKaynak'] = _ayetKaynak.text.trim();
+        m['hadis'] = _hadis.text.trim();
+        m['hadisKaynak'] = _hadisKaynak.text.trim();
+        m['vecize'] = _vecize.text.trim();
+        m['vecizeModern'] = _vecizeModern.text.trim();
+        m['vecizeKaynak'] = _vecizeKaynak.text.trim();
+        m['risaleHakikat'] = _risaleHakikat.text.trim();
+        m['ayetArapca'] = _ayetArapca.text.trim();
+        m['ayetTefsir'] = _ayetTefsir.text.trim();
+        m['risaleAlinti'] = _risaleAlinti.text.trim();
+        m['risaleEser'] = _risaleEser.text.trim();
+        m['risaleBolum'] = _risaleBolum.text.trim();
+        m['duaBaslik'] = _duaBaslik.text.trim();
+        m['duaArapca'] = _duaArapca.text.trim();
+        m['duaOkunus'] = _duaOkunus.text.trim();
+        m['duaAnlam'] = _duaAnlam.text.trim();
+        m['duaKaynak'] = _duaKaynak.text.trim();
+        m['duaKategori'] = _duaKategori.text.trim();
+        m['anahtarKelimeler'] = _anahtarKelimeler.text
             .split(',')
             .map((e) => e.trim())
             .where((e) => e.isNotEmpty)
             .toList();
-        if (ak.isNotEmpty) m['anahtarKelimeler'] = ak;
-        return m.isEmpty ? null : m;
+        return m;
 
       default:
-        // risale, kissa, dua, vecize, ayet, hadis, tefekkur: mevcut extra'yi koru
+        // risale, kissa, dua, vecize, ayet, hadis, TefekkÃ¼r: mevcut extra'yi koru
         return widget.initial?.extra;
     }
   }
 
   Future<void> _save() async {
-    final baslik = _baslik.text.trim();
-    final icerik = _icerik.text.trim();
-    if (baslik.isEmpty || icerik.isEmpty) {
+    final baslik = _type == ContentType.gunluk && _gunKonu.text.trim().isNotEmpty
+        ? _gunKonu.text.trim()
+        : _baslik.text.trim();
+    final icerik = _type == ContentType.gunluk && _icerik.text.trim().isEmpty
+        ? _ayet.text.trim()
+        : _icerik.text.trim();
+    final gunlukIcerikVar = [
+      _ayet,
+      _hadis,
+      _duaAnlam,
+      _duaArapca,
+      _risaleHakikat,
+      _risaleAlinti,
+      _ayetTefsir,
+    ].any((controller) => controller.text.trim().isNotEmpty);
+
+    final kaydedilebilir = baslik.isNotEmpty &&
+        (_type == ContentType.gunluk
+            ? gunlukIcerikVar || icerik.isNotEmpty
+            : icerik.isNotEmpty);
+
+    if (!kaydedilebilir) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text('Baslik ve Ana Metin zorunludur.'),
+          content: Text('Baslik ve en az bir icerik alani doldurulmalidir.'),
           backgroundColor: _red,
         ),
       );
@@ -284,9 +348,9 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
       type: _type,
       baslik: baslik,
       icerik: icerik,
-      altIcerik: _altIcerik.text.trim().isEmpty ? null : _altIcerik.text.trim(),
+      altIcerik: _type == ContentType.gunluk && _altIcerik.text.trim().isEmpty && _hadis.text.trim().isNotEmpty ? _hadis.text.trim() : (_altIcerik.text.trim().isEmpty ? null : _altIcerik.text.trim()),
       arapca: _arapca.text.trim().isEmpty ? null : _arapca.text.trim(),
-      kaynak: _kaynak.text.trim().isEmpty ? null : _kaynak.text.trim(),
+      kaynak: _type == ContentType.gunluk && _kaynak.text.trim().isEmpty && _ayetKaynak.text.trim().isNotEmpty ? _ayetKaynak.text.trim() : (_kaynak.text.trim().isEmpty ? null : _kaynak.text.trim()),
       kategori: _kategori.text.trim().isEmpty ? null : _kategori.text.trim(),
       custom: true,
       durum: _durum,
@@ -422,9 +486,7 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
           // DOGRULANDI
           Container(
             decoration: BoxDecoration(
-              color: _dogrulandi
-                  ? _green.withValues(alpha: 0.1)
-                  : Colors.white,
+              color: _dogrulandi ? _green.withValues(alpha: 0.1) : Colors.white,
               borderRadius: BorderRadius.circular(10),
               border: Border.all(
                 color: _dogrulandi ? _green : const Color(0xFFE9EEF5),
@@ -467,9 +529,9 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
           _field(_kaynakURL, 'Kaynak URL (diyanet.gov.tr, ...)', maxLines: 1),
           const SizedBox(height: 20),
 
-          // ═══════════════════════════════════════════════════
+          // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
           // TIPE OZEL ALANLAR
-          // ═══════════════════════════════════════════════════
+          // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
           ..._buildTypeSpecificFields(),
 
           const SizedBox(height: 24),
@@ -518,14 +580,16 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
           const SizedBox(width: 10),
           Text(title,
               style: const TextStyle(
-                  color: _navy, fontSize: 14, fontWeight: FontWeight.w900,
+                  color: _navy,
+                  fontSize: 14,
+                  fontWeight: FontWeight.w900,
                   letterSpacing: 0.5)),
         ],
       ),
     );
   }
 
-  // ═══ MOOD ═══
+  // â•â•â• MOOD â•â•â•
   List<Widget> _moodFields() {
     return [
       _sectionHeader('RUH HALI OZEL ALANLARI', Icons.emoji_emotions_rounded),
@@ -533,7 +597,7 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
         children: [
           Expanded(
             flex: 1,
-            child: _field(_emoji, 'Emoji (👶)', maxLines: 1),
+            child: _field(_emoji, 'Emoji (ğŸ‘¶)', maxLines: 1),
           ),
           const SizedBox(width: 10),
           Expanded(
@@ -589,7 +653,8 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
               const SizedBox(height: 8),
               Row(
                 children: [
-                  Expanded(child: _field(s['tip']!, 'Tip (AYET/DUA)', maxLines: 1)),
+                  Expanded(
+                      child: _field(s['tip']!, 'Tip (AYET/DUA)', maxLines: 1)),
                   const SizedBox(width: 8),
                   Expanded(
                       flex: 2,
@@ -608,53 +673,82 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
     ];
   }
 
-  // ═══ GUNLUK ═══
+  // â•â•â• GUNLUK â•â•â•
   List<Widget> _gunlukFields() {
     return [
-      _sectionHeader('GUNLUK ICERIK OZEL ALANLARI', Icons.calendar_today_rounded),
-      _field(_ayet, 'Ayet', maxLines: 3),
+      _sectionHeader('GÜNLÜK İÇERİKLER', Icons.calendar_today_rounded),
+      _field(_gunKonu, 'Günün Konusu', maxLines: 1),
+      const SizedBox(height: 14),
+      _sectionHeader('KISSA', Icons.auto_stories_rounded),
+      _field(_kissa, 'Günün Kıssası', maxLines: 5),
       const SizedBox(height: 10),
-      _field(_ayetKaynak, 'Ayet Kaynak (Inşirah, 5-6)', maxLines: 1),
+      _field(_kissaKaynak, 'Kıssa Kaynağı', maxLines: 1),
+      const SizedBox(height: 14),
+      _sectionHeader('AYET', Icons.menu_book_rounded),
+      _field(_ayet, 'Ayet Meali', maxLines: 3),
       const SizedBox(height: 10),
-      _field(_hadis, 'Hadis', maxLines: 3),
+      _field(_ayetArapca, 'Ayet Arapçası', maxLines: 3),
       const SizedBox(height: 10),
-      _field(_hadisKaynak, 'Hadis Kaynak', maxLines: 1),
+      _field(_ayetKaynak, 'Ayet Kaynağı', maxLines: 1),
       const SizedBox(height: 10),
-      _field(_vecize, 'Vecize (Osmanlica)', maxLines: 3),
+      _field(_ayetTefsir, 'Ayet Tefsiri', maxLines: 4),
+      const SizedBox(height: 14),
+      _sectionHeader('HADİS', Icons.format_quote_rounded),
+      _field(_hadis, 'Hadis Metni', maxLines: 3),
       const SizedBox(height: 10),
-      _field(_vecizeModern, 'Vecize (Modern Latin)', maxLines: 3),
+      _field(_hadisKaynak, 'Hadis Kaynağı', maxLines: 1),
+      const SizedBox(height: 14),
+      _sectionHeader('DUA', Icons.volunteer_activism_rounded),
+      _field(_duaBaslik, 'Dua Başlığı', maxLines: 1),
       const SizedBox(height: 10),
-      _field(_vecizeKaynak, 'Vecize Kaynak', maxLines: 1),
+      _field(_duaArapca, 'Arapça Dua', maxLines: 3),
       const SizedBox(height: 10),
-      _field(_risaleHakikat, 'Risale-i Nur Hakikati', maxLines: 4),
+      _field(_duaOkunus, 'Dua Okunuşu', maxLines: 3),
       const SizedBox(height: 10),
-      _field(_anahtarKelimeler, 'Anahtar Kelimeler (virgülle ayir)',
-          maxLines: 2),
+      _field(_duaAnlam, 'Dua Anlamı', maxLines: 3),
+      const SizedBox(height: 10),
+      _field(_duaKaynak, 'Dua Kaynağı', maxLines: 1),
+      const SizedBox(height: 10),
+      _field(_duaKategori, 'Dua Kategorisi', maxLines: 1),
+      const SizedBox(height: 14),
+      _sectionHeader('VECİZE', Icons.lightbulb_outline_rounded),
+      _field(_vecize, 'Vecize', maxLines: 3),
+      const SizedBox(height: 10),
+      _field(_vecizeModern, 'Vecizenin Açıklaması', maxLines: 3),
+      const SizedBox(height: 10),
+      _field(_vecizeKaynak, 'Vecize Kaynağı', maxLines: 1),
+      const SizedBox(height: 14),
+      _sectionHeader('RİSALE-İ NUR', Icons.auto_awesome_rounded),
+      _field(_risaleHakikat, 'Risale Hakikati / Ana Açıklama', maxLines: 4),
+      const SizedBox(height: 10),
+      _field(_risaleAlinti, 'Risale-i Nur Kısa Alıntı', maxLines: 3),
+      const SizedBox(height: 10),
+      _field(_risaleEser, 'Risale Eser Adı', maxLines: 1),
+      const SizedBox(height: 10),
+      _field(_risaleBolum, 'Risale Bölüm / Sayfa', maxLines: 1),
+      const SizedBox(height: 14),
+      _field(_anahtarKelimeler, 'Anahtar Kelimeler (virgülle ayır)', maxLines: 2),
       const SizedBox(height: 14),
     ];
   }
-
-  // ═══ KANDIL ═══
+  // â•â•â• KANDIL â•â•â•
   List<Widget> _kandilFields() {
     return [
       _sectionHeader('KANDIL OZEL ALANLARI', Icons.star_rounded),
       Row(
         children: [
-          Expanded(child: _field(_emoji, 'Emoji (🌙)', maxLines: 1)),
+          Expanded(child: _field(_emoji, 'Emoji (ğŸŒ™)', maxLines: 1)),
           const SizedBox(width: 10),
-          Expanded(
-              child: _field(_hijriMonth, 'Hicri Ay (1-12)', maxLines: 1)),
+          Expanded(child: _field(_hijriMonth, 'Hicri Ay (1-12)', maxLines: 1)),
           const SizedBox(width: 10),
-          Expanded(
-              child: _field(_hijriDay, 'Hicri Gun (1-30)', maxLines: 1)),
+          Expanded(child: _field(_hijriDay, 'Hicri Gun (1-30)', maxLines: 1)),
         ],
       ),
       const SizedBox(height: 14),
     ];
   }
 
-  Widget _field(TextEditingController ctrl, String label,
-      {int maxLines = 1}) {
+  Widget _field(TextEditingController ctrl, String label, {int maxLines = 1}) {
     return TextField(
       controller: ctrl,
       maxLines: maxLines,
@@ -667,3 +761,4 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
     );
   }
 }
+

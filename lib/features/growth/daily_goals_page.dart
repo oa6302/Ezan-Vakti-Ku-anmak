@@ -1,7 +1,8 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'dart:convert';
-import 'package:nur_pusulasi/app/theme.dart';
+import '../../app/theme.dart';
+import '../../app/shadows.dart';
 
 class DailyGoalsPage extends StatefulWidget {
   const DailyGoalsPage({super.key});
@@ -10,62 +11,26 @@ class DailyGoalsPage extends StatefulWidget {
   State<DailyGoalsPage> createState() => _DailyGoalsPageState();
 }
 
+class _Goal {
+  final String id;
+  final String title;
+  bool isCompleted;
+
+  _Goal({required this.id, required this.title, this.isCompleted = false});
+
+  Map<String, dynamic> toJson() =>
+      {'id': id, 'title': title, 'isCompleted': isCompleted};
+  factory _Goal.fromJson(Map<String, dynamic> json) => _Goal(
+        id: json['id'],
+        title: json['title'],
+        isCompleted: json['isCompleted'] ?? false,
+      );
+}
+
 class _DailyGoalsPageState extends State<DailyGoalsPage> {
-  static const String _storageKey = 'nur_pusulasi_daily_goals_v1';
-
-  final TextEditingController _controller = TextEditingController();
-  List<Map<String, dynamic>> _goals = [];
-  bool _loading = true;
-
-  int get _completed =>
-      _goals.where((goal) => goal['done'] == true).length;
-
-  Future<void> _loadGoals() async {
-    try {
-      final prefs = await SharedPreferences.getInstance();
-      final saved = prefs.getString(_storageKey);
-
-      if (saved != null) {
-        final decoded = jsonDecode(saved) as List<dynamic>;
-        _goals = decoded
-            .map((item) => Map<String, dynamic>.from(item as Map))
-            .toList();
-      }
-    } catch (_) {
-      _goals = [];
-    }
-
-    if (mounted) {
-      setState(() => _loading = false);
-    }
-  }
-
-  Future<void> _saveGoals() async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setString(_storageKey, jsonEncode(_goals));
-  }
-
-  Future<void> _addGoal() async {
-    final text = _controller.text.trim();
-    if (text.isEmpty) return;
-
-    setState(() {
-      _goals.add({'title': text, 'done': false});
-      _controller.clear();
-    });
-
-    await _saveGoals();
-  }
-
-  Future<void> _toggleGoal(int index, bool value) async {
-    setState(() => _goals[index]['done'] = value);
-    await _saveGoals();
-  }
-
-  Future<void> _deleteGoal(int index) async {
-    setState(() => _goals.removeAt(index));
-    await _saveGoals();
-  }
+  List<_Goal> _goals = [];
+  bool _isLoading = true;
+  String _todayDate = '';
 
   @override
   void initState() {
@@ -73,187 +38,271 @@ class _DailyGoalsPageState extends State<DailyGoalsPage> {
     _loadGoals();
   }
 
-  @override
-  void dispose() {
-    _controller.dispose();
-    super.dispose();
+  // Verileri yükle ve gün kontrolü yap
+  Future<void> _loadGoals() async {
+    final prefs = await SharedPreferences.getInstance();
+    final now = DateTime.now();
+    _todayDate = "${now.year}-${now.month}-${now.day}";
+
+    final savedDate = prefs.getString('goals_date');
+    final savedGoalsStr = prefs.getString('daily_goals');
+
+    setState(() {
+      if (savedDate == _todayDate && savedGoalsStr != null) {
+        // Bugünün verisi varsa yükle
+        final List decoded = jsonDecode(savedGoalsStr);
+        _goals = decoded.map((e) => _Goal.fromJson(e)).toList();
+      } else {
+        // Yeni gün: Başlangıç hedeflerini yükle
+        _goals = [
+          _Goal(id: '1', title: 'Sabah namazını kıl'),
+          _Goal(id: '2', title: 'Öğle namazını kıl'),
+          _Goal(id: '3', title: 'İkindi namazını kıl'),
+          _Goal(id: '4', title: 'Akşam namazını kıl'),
+          _Goal(id: '5', title: 'Yatsı namazını kıl'),
+          _Goal(id: '6', title: 'Günlük Kur\'an okuması yap'),
+          _Goal(id: '7', title: 'Günlük zikir/istiğfar et'),
+        ];
+        _saveGoals(prefs); // Yeni günü kaydet
+      }
+      _isLoading = false;
+    });
+  }
+
+  // Verileri kaydet
+  Future<void> _saveGoals([SharedPreferences? prefs]) async {
+    final p = prefs ?? await SharedPreferences.getInstance();
+    final str = jsonEncode(_goals.map((e) => e.toJson()).toList());
+    await p.setString('daily_goals', str);
+    await p.setString('goals_date', _todayDate);
+  }
+
+  // Durum değiştir
+  void _toggleGoal(int index) {
+    setState(() {
+      _goals[index].isCompleted = !_goals[index].isCompleted;
+    });
+    _saveGoals();
+  }
+
+  // Yeni hedef ekle
+  void _addGoal() {
+    final TextEditingController controller = TextEditingController();
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: kKartYuzeyi,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: const Text('Yeni Hedef Ekle',
+            style: TextStyle(color: kAnaLacivert, fontWeight: FontWeight.bold)),
+        content: TextField(
+          controller: controller,
+          decoration: InputDecoration(
+            hintText: 'Örn: 10 sayfa kitap oku',
+            border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+            focusedBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(12),
+              borderSide: const BorderSide(color: kAnaTurkuaz, width: 2),
+            ),
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('İptal', style: TextStyle(color: kIkincilMetin)),
+          ),
+          ElevatedButton(
+            style: ElevatedButton.styleFrom(
+              backgroundColor: kAnaTurkuaz,
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12)),
+            ),
+            onPressed: () {
+              if (controller.text.trim().isNotEmpty) {
+                setState(() {
+                  _goals.add(_Goal(
+                      id: DateTime.now().millisecondsSinceEpoch.toString(),
+                      title: controller.text.trim()));
+                });
+                _saveGoals();
+                Navigator.pop(context);
+              }
+            },
+            child: const Text('Ekle', style: TextStyle(color: Colors.white)),
+          ),
+        ],
+      ),
+    );
   }
 
   @override
   Widget build(BuildContext context) {
-    final progress = _goals.isEmpty ? 0.0 : _completed / _goals.length;
+    if (_isLoading) {
+      return const Scaffold(
+        backgroundColor: kArkaPlan,
+        body: Center(child: CircularProgressIndicator(color: kAnaTurkuaz)),
+      );
+    }
+
+    int completedCount = _goals.where((g) => g.isCompleted).length;
+    double progress = _goals.isEmpty ? 0 : completedCount / _goals.length;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Günlük hedefler')),
-      body: _loading
-          ? const Center(child: CircularProgressIndicator())
-          : ListView(
-              padding: const EdgeInsets.all(18),
-              children: [
-                Container(
-                  padding: const EdgeInsets.all(22),
-                  decoration: BoxDecoration(
-                    gradient: const LinearGradient(
-                      colors: [navy, navyDeep],
-                    ),
-                    borderRadius: BorderRadius.circular(24),
-                    boxShadow: [
-                      BoxShadow(
-                        color: navy.withValues(alpha: 0.18),
-                        blurRadius: 18,
-                        offset: const Offset(0, 8),
-                      ),
-                    ],
+      backgroundColor: kArkaPlan,
+      appBar: AppBar(
+        title: const Text('Günlük Hedefler',
+            style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: kKartYuzeyi,
+        foregroundColor: kAnaLacivert,
+        elevation: 0,
+      ),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // İlerleme Kartı
+            Container(
+              padding: const EdgeInsets.all(20),
+              decoration: BoxDecoration(
+                color: kAnaLacivert,
+                borderRadius: BorderRadius.circular(24),
+                boxShadow: AppShadows.medium(),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Text(
+                    'Bugünkü manevî yolculuğun',
+                    style: TextStyle(color: Colors.white70, fontSize: 14),
                   ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+                  const SizedBox(height: 8),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      const Icon(
-                        Icons.track_changes_rounded,
-                        color: Colors.white,
-                        size: 34,
-                      ),
-                      const SizedBox(height: 12),
-                      const Text(
-                        'Küçük adımlar, kalıcı gelişim.',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 21,
-                          fontWeight: FontWeight.w900,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
                       Text(
-                        '$_completed / ${_goals.length} hedef tamamlandı',
-                        style: const TextStyle(color: Colors.white70),
+                        '$completedCount / ${_goals.length} Tamamlandı',
+                        style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold),
                       ),
-                      const SizedBox(height: 14),
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(10),
-                        child: LinearProgressIndicator(
-                          value: progress,
-                          minHeight: 9,
-                          backgroundColor: Colors.white24,
-                          color: red,
-                        ),
+                      Text(
+                        '%${(progress * 100).round()}',
+                        style: const TextStyle(
+                            color: kAnaTurkuaz,
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold),
                       ),
                     ],
                   ),
-                ),
-                const SizedBox(height: 22),
-                const Text(
-                  'Yeni hedef belirle',
-                  style: TextStyle(
-                    color: navy,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w900,
-                  ),
-                ),
-                const SizedBox(height: 10),
-                TextField(
-                  controller: _controller,
-                  textInputAction: TextInputAction.done,
-                  onSubmitted: (_) => _addGoal(),
-                  decoration: InputDecoration(
-                    hintText: 'Örn. 10 dakika kitap okumak',
-                    filled: true,
-                    fillColor: Colors.white,
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(16),
-                    ),
-                    enabledBorder: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(16),
-                      borderSide: const BorderSide(color: pale),
-                    ),
-                    suffixIcon: IconButton(
-                      onPressed: _addGoal,
-                      tooltip: 'Hedef ekle',
-                      icon: const Icon(
-                        Icons.add_circle_rounded,
-                        color: red,
-                        size: 30,
-                      ),
+                  const SizedBox(height: 16),
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(10),
+                    child: LinearProgressIndicator(
+                      value: progress,
+                      backgroundColor: Colors.white.withValues(alpha: 0.2),
+                      valueColor:
+                          const AlwaysStoppedAnimation<Color>(kAnaTurkuaz),
+                      minHeight: 10,
                     ),
                   ),
-                ),
-                const SizedBox(height: 22),
-                const Text(
-                  'Bugünkü hedeflerin',
-                  style: TextStyle(
-                    color: navy,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w900,
+                ],
+              ),
+            ),
+            const SizedBox(height: 24),
+            const Text(
+              'Bugünün Hedefleri',
+              style: TextStyle(
+                  fontSize: 18, fontWeight: FontWeight.bold, color: kAnaMetin),
+            ),
+            const SizedBox(height: 12),
+
+            // Hedef Listesi
+            ..._goals.asMap().entries.map((entry) {
+              int index = entry.key;
+              _Goal goal = entry.value;
+              return Container(
+                margin: const EdgeInsets.only(bottom: 12),
+                decoration: BoxDecoration(
+                  color: kKartYuzeyi,
+                  borderRadius: BorderRadius.circular(16),
+                  boxShadow: AppShadows.soft(),
+                  border: Border.all(
+                    color: goal.isCompleted
+                        ? kAnaTurkuaz.withValues(alpha: 0.5)
+                        : kKenarlik,
+                    width: 1,
                   ),
                 ),
-                const SizedBox(height: 10),
-                if (_goals.isEmpty)
-                  const Card(
+                child: Material(
+                  color: Colors.transparent,
+                  child: InkWell(
+                    onTap: () => _toggleGoal(index),
+                    borderRadius: BorderRadius.circular(16),
                     child: Padding(
-                      padding: EdgeInsets.all(22),
-                      child: Column(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 16, vertical: 12),
+                      child: Row(
                         children: [
                           Icon(
-                            Icons.flag_rounded,
-                            color: red,
-                            size: 38,
+                            goal.isCompleted
+                                ? Icons.check_circle_rounded
+                                : Icons.radio_button_unchecked_rounded,
+                            color:
+                                goal.isCompleted ? kAnaTurkuaz : kYardimciMetin,
+                            size: 28,
                           ),
-                          SizedBox(height: 10),
-                          Text(
-                            'Henüz hedef eklemedin.',
-                            style: TextStyle(
-                              color: navy,
-                              fontWeight: FontWeight.w800,
+                          const SizedBox(width: 16),
+                          Expanded(
+                            child: Text(
+                              goal.title,
+                              style: TextStyle(
+                                fontSize: 15,
+                                fontWeight: goal.isCompleted
+                                    ? FontWeight.normal
+                                    : FontWeight.w500,
+                                color: goal.isCompleted
+                                    ? kIkincilMetin
+                                    : kAnaMetin,
+                                decoration: goal.isCompleted
+                                    ? TextDecoration.lineThrough
+                                    : null,
+                              ),
                             ),
-                          ),
-                          SizedBox(height: 5),
-                          Text(
-                            'İlk hedefini yaz ve gelişim yolculuğuna başla.',
-                            textAlign: TextAlign.center,
                           ),
                         ],
                       ),
                     ),
-                  )
-                else
-                  ...List.generate(_goals.length, (index) {
-                    final goal = _goals[index];
-                    final done = goal['done'] == true;
-
-                    return Card(
-                      margin: const EdgeInsets.only(bottom: 9),
-                      child: CheckboxListTile(
-                        value: done,
-                        activeColor: red,
-                        controlAffinity: ListTileControlAffinity.leading,
-                        title: Text(
-                          goal['title']?.toString() ?? '',
-                          style: TextStyle(
-                            color: navy,
-                            fontWeight: FontWeight.w700,
-                            decoration:
-                                done ? TextDecoration.lineThrough : null,
-                          ),
-                        ),
-                        secondary: IconButton(
-                          tooltip: 'Hedefi sil',
-                          onPressed: () => _deleteGoal(index),
-                          icon: const Icon(
-                            Icons.delete_outline_rounded,
-                            color: red,
-                          ),
-                        ),
-                        onChanged: (value) =>
-                            _toggleGoal(index, value ?? false),
-                      ),
-                    );
-                  }),
-                const SizedBox(height: 12),
-                const Text(
-                  'Hedeflerin bu cihazda saklanır. Uygulama yeniden açıldığında kayıtların yüklenir.',
-                  style: TextStyle(color: Colors.black54, fontSize: 12),
+                  ),
                 ),
-              ],
+              );
+            }),
+
+            const SizedBox(height: 20),
+
+            // Yeni Hedef Ekle Butonu
+            SizedBox(
+              width: double.infinity,
+              child: OutlinedButton.icon(
+                onPressed: _addGoal,
+                icon: const Icon(Icons.add_rounded),
+                label: const Text('Yeni Hedef Ekle'),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: kAnaLacivert,
+                  side: const BorderSide(color: kAnaLacivert, width: 1.5),
+                  padding: const EdgeInsets.symmetric(vertical: 16),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(16)),
+                  textStyle: const TextStyle(
+                      fontSize: 16, fontWeight: FontWeight.bold),
+                ),
+              ),
             ),
+            const SizedBox(height: 20),
+          ],
+        ),
+      ),
     );
   }
 }

@@ -97,7 +97,8 @@ class _JourneyPageState extends State<JourneyPage> {
           Row(
             children: [
               Container(
-                width: 48, height: 48,
+                width: 48,
+                height: 48,
                 decoration: BoxDecoration(
                   color: Colors.white.withValues(alpha: 0.12),
                   shape: BoxShape.circle,
@@ -112,8 +113,7 @@ class _JourneyPageState extends State<JourneyPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Text('Yolculuk Seviyesi',
-                        style: TextStyle(
-                            color: Colors.white70, fontSize: 11)),
+                        style: TextStyle(color: Colors.white70, fontSize: 11)),
                     const SizedBox(height: 2),
                     Text(level,
                         style: const TextStyle(
@@ -124,8 +124,8 @@ class _JourneyPageState extends State<JourneyPage> {
                 ),
               ),
               Container(
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 12, vertical: 6),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                 decoration: BoxDecoration(
                   color: _gold.withValues(alpha: 0.15),
                   borderRadius: BorderRadius.circular(10),
@@ -165,8 +165,8 @@ class _JourneyPageState extends State<JourneyPage> {
         ),
         const SizedBox(width: 10),
         Expanded(
-          child: _statBox('En Uzun', '$_longest', 'gün',
-              Icons.emoji_events_rounded, _gold),
+          child: _statBox(
+              'En Uzun', '$_longest', 'gün', Icons.emoji_events_rounded, _gold),
         ),
         const SizedBox(width: 10),
         Expanded(
@@ -177,8 +177,8 @@ class _JourneyPageState extends State<JourneyPage> {
     );
   }
 
-  Widget _statBox(String label, String value, String unit,
-      IconData icon, Color color) {
+  Widget _statBox(
+      String label, String value, String unit, IconData icon, Color color) {
     return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
@@ -199,17 +199,13 @@ class _JourneyPageState extends State<JourneyPage> {
           const SizedBox(height: 8),
           Text(value,
               style: TextStyle(
-                  color: color,
-                  fontSize: 20,
-                  fontWeight: FontWeight.w900)),
+                  color: color, fontSize: 20, fontWeight: FontWeight.w900)),
           Text(unit,
               style: const TextStyle(color: Colors.black54, fontSize: 10)),
           const SizedBox(height: 4),
           Text(label,
               style: const TextStyle(
-                  color: _navy,
-                  fontSize: 11,
-                  fontWeight: FontWeight.w700)),
+                  color: _navy, fontSize: 11, fontWeight: FontWeight.w700)),
         ],
       ),
     );
@@ -217,9 +213,8 @@ class _JourneyPageState extends State<JourneyPage> {
 
   Widget _monthCard() {
     // Son 30 günün ortalaması
-    final last30 = _daily.length >= 30
-        ? _daily.sublist(_daily.length - 30)
-        : _daily;
+    final last30 =
+        _daily.length >= 30 ? _daily.sublist(_daily.length - 30) : _daily;
     final totalLast30 = last30.fold(0, (a, b) => a + b);
     final avg = last30.isEmpty ? 0.0 : totalLast30 / last30.length;
 
@@ -247,22 +242,19 @@ class _JourneyPageState extends State<JourneyPage> {
               const SizedBox(width: 10),
               const Text('Son 30 Gün',
                   style: TextStyle(
-                      color: _navy,
-                      fontSize: 14,
-                      fontWeight: FontWeight.w900)),
+                      color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
             ],
           ),
           const SizedBox(height: 14),
           Row(
             children: [
               Expanded(
-                child: _miniStat('Ortalama',
-                    avg.toStringAsFixed(1), 'vakit/gün', _green),
+                child: _miniStat(
+                    'Ortalama', avg.toStringAsFixed(1), 'vakit/gün', _green),
               ),
               const SizedBox(width: 10),
               Expanded(
-                child: _miniStat('Toplam', '$totalLast30',
-                    'vakit', _navy),
+                child: _miniStat('Toplam', '$totalLast30', 'vakit', _navy),
               ),
             ],
           ),
@@ -289,15 +281,13 @@ class _JourneyPageState extends State<JourneyPage> {
             children: [
               Text(value,
                   style: TextStyle(
-                      color: color,
-                      fontSize: 20,
-                      fontWeight: FontWeight.w900)),
+                      color: color, fontSize: 20, fontWeight: FontWeight.w900)),
               const SizedBox(width: 4),
               Padding(
                 padding: const EdgeInsets.only(bottom: 3),
                 child: Text(unit,
-                    style: const TextStyle(
-                        color: Colors.black54, fontSize: 10)),
+                    style:
+                        const TextStyle(color: Colors.black54, fontSize: 10)),
               ),
             ],
           ),
@@ -329,21 +319,16 @@ class _JourneyPageState extends State<JourneyPage> {
                   color: _gold.withValues(alpha: 0.12),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: const Icon(Icons.flag_rounded,
-                    color: _gold, size: 16),
+                child: const Icon(Icons.flag_rounded, color: _gold, size: 16),
               ),
               const SizedBox(width: 10),
               const Text('Sonraki Hedef',
                   style: TextStyle(
-                      color: _navy,
-                      fontSize: 14,
-                      fontWeight: FontWeight.w900)),
+                      color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
               const Spacer(),
               Text('$_total / $next',
                   style: const TextStyle(
-                      color: _navy,
-                      fontSize: 12,
-                      fontWeight: FontWeight.w800)),
+                      color: _navy, fontSize: 12, fontWeight: FontWeight.w800)),
             ],
           ),
           const SizedBox(height: 12),

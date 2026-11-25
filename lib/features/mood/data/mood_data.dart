@@ -40,19 +40,22 @@ const List<Mood> moods = [
       MoodSuggestion(
         tip: 'AYET',
         title: 'Her Zorlukla Beraber Kolaylık',
-        text: 'Şüphesiz güçlükle beraber bir kolaylık vardır. Gerçekten, güçlükle beraber bir kolaylık vardır.',
+        text:
+            'Şüphesiz güçlükle beraber bir kolaylık vardır. Gerçekten, güçlükle beraber bir kolaylık vardır.',
         source: 'İnşirah Suresi, 5-6. Ayetler',
       ),
       MoodSuggestion(
         tip: 'DUA',
         title: 'Hüzün Anında Dua',
-        text: 'Lâ ilâhe illallahül azîmül halîm. Lâ ilâhe illallahü rabbül arşil azîm.',
+        text:
+            'Lâ ilâhe illallahül azîmül halîm. Lâ ilâhe illallahü rabbül arşil azîm.',
         source: 'Buhârî, Deavât, 27',
       ),
       MoodSuggestion(
         tip: 'HADİS',
         title: 'Allah Kederi Giderir',
-        text: 'Kim üzüntülü olduğunda "Lâ havle velâ kuvvete illâ billâh" derse, Allah onun kederini giderir.',
+        text:
+            'Kim üzüntülü olduğunda "Lâ havle velâ kuvvete illâ billâh" derse, Allah onun kederini giderir.',
         source: 'Genel rivayet',
       ),
     ],
@@ -79,7 +82,8 @@ const List<Mood> moods = [
       MoodSuggestion(
         tip: 'DUA',
         title: 'Sekinet Duası',
-        text: 'Allahümme enzil alâ kalbî sekineten min indike ve ezi\'b hammî ve ğammî.',
+        text:
+            'Allahümme enzil alâ kalbî sekineten min indike ve ezi\'b hammî ve ğammî.',
         source: 'Genel dua',
       ),
     ],
@@ -94,19 +98,22 @@ const List<Mood> moods = [
       MoodSuggestion(
         tip: 'HADİS',
         title: 'Öfke Anında Susmak',
-        text: 'Bir kimse öfkelendiğinde ayakta ise otursun, oturuyorsa uzansın.',
+        text:
+            'Bir kimse öfkelendiğinde ayakta ise otursun, oturuyorsa uzansın.',
         source: 'Ebû Dâvûd, Edeb, 4',
       ),
       MoodSuggestion(
         tip: 'AYET',
         title: 'Öfkeyi Yutanlar',
-        text: 'Onlar bollukta ve darlıkta Allah yolunda harcayanlar, öfkelerini yenenler ve insanları affedenlerdir.',
+        text:
+            'Onlar bollukta ve darlıkta Allah yolunda harcayanlar, öfkelerini yenenler ve insanları affedenlerdir.',
         source: 'Âl-i İmrân, 134. Ayet',
       ),
       MoodSuggestion(
         tip: 'TEFEKKÜR',
         title: 'Öfke Bir Andır',
-        text: 'Öfke bir an, pişmanlık bir ömür. Bir bardak su iç, abdest al, kıbleye dön.',
+        text:
+            'Öfke bir an, pişmanlık bir ömür. Bir bardak su iç, abdest al, kıbleye dön.',
         source: 'Kişisel tefekkür',
       ),
     ],
@@ -133,7 +140,8 @@ const List<Mood> moods = [
       MoodSuggestion(
         tip: 'TEFEKKÜR',
         title: 'Sahip Oldukların',
-        text: 'Sahip olduğun 3 nimeti yaz. Küçük şeyler bile büyük anlam taşır.',
+        text:
+            'Sahip olduğun 3 nimeti yaz. Küçük şeyler bile büyük anlam taşır.',
         source: 'Şükür pratiği',
       ),
     ],

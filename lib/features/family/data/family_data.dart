@@ -18,20 +18,20 @@ class Child {
   });
 
   Map<String, dynamic> toJson() => {
-    'id': id,
-    'name': name,
-    'age': age,
-    'emoji': emoji,
-    'createdAt': createdAt.toIso8601String(),
-  };
+        'id': id,
+        'name': name,
+        'age': age,
+        'emoji': emoji,
+        'createdAt': createdAt.toIso8601String(),
+      };
 
   factory Child.fromJson(Map<String, dynamic> json) => Child(
-    id: json['id'] as String,
-    name: json['name'] as String,
-    age: json['age'] as int,
-    emoji: json['emoji'] as String,
-    createdAt: DateTime.parse(json['createdAt'] as String),
-  );
+        id: json['id'] as String,
+        name: json['name'] as String,
+        age: json['age'] as int,
+        emoji: json['emoji'] as String,
+        createdAt: DateTime.parse(json['createdAt'] as String),
+      );
 }
 
 /// Cocugun ogrenme adimi kaydi.
@@ -48,20 +48,20 @@ class ChildProgress {
   });
 
   Map<String, dynamic> toJson() => {
-    'childId': childId,
-    'dersId': dersId,
-    'completed': completed,
-    'completedAt': completedAt?.toIso8601String(),
-  };
+        'childId': childId,
+        'dersId': dersId,
+        'completed': completed,
+        'completedAt': completedAt?.toIso8601String(),
+      };
 
   factory ChildProgress.fromJson(Map<String, dynamic> json) => ChildProgress(
-    childId: json['childId'] as String,
-    dersId: json['dersId'] as String,
-    completed: json['completed'] as bool? ?? false,
-    completedAt: json['completedAt'] != null
-        ? DateTime.parse(json['completedAt'] as String)
-        : null,
-  );
+        childId: json['childId'] as String,
+        dersId: json['dersId'] as String,
+        completed: json['completed'] as bool? ?? false,
+        completedAt: json['completedAt'] != null
+            ? DateTime.parse(json['completedAt'] as String)
+            : null,
+      );
 }
 
 /// Cocuklar icin basitlestirilmis ogrenme adimlari.
@@ -145,7 +145,9 @@ class FamilyTracker {
     if (raw == null) return [];
     try {
       final list = jsonDecode(raw) as List<dynamic>;
-      return list.map((e) => Child.fromJson(e as Map<String, dynamic>)).toList();
+      return list
+          .map((e) => Child.fromJson(e as Map<String, dynamic>))
+          .toList();
     } catch (_) {
       return [];
     }

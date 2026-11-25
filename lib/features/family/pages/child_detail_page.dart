@@ -62,9 +62,7 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
             const SizedBox(width: 8),
             Text(widget.child.name,
                 style: const TextStyle(
-                    color: _navy,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w900)),
+                    color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
           ],
         ),
       ),
@@ -75,9 +73,8 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
               builder: (context, _) {
                 final lessons =
                     ContentService.instance.getPool(ContentType.cocukDersi);
-                final done = lessons
-                    .where((l) => _progress[l.id] == true)
-                    .length;
+                final done =
+                    lessons.where((l) => _progress[l.id] == true).length;
                 final total = lessons.length;
                 final pct = total == 0 ? 0 : (done * 100 / total).round();
 
@@ -124,18 +121,19 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
       child: Row(
         children: [
           SizedBox(
-            width: 80, height: 80,
+            width: 80,
+            height: 80,
             child: Stack(
               alignment: Alignment.center,
               children: [
                 SizedBox(
-                  width: 80, height: 80,
+                  width: 80,
+                  height: 80,
                   child: CircularProgressIndicator(
                     value: pct / 100,
                     strokeWidth: 7,
                     backgroundColor: Colors.white24,
-                    valueColor:
-                        const AlwaysStoppedAnimation<Color>(_gold),
+                    valueColor: const AlwaysStoppedAnimation<Color>(_gold),
                     strokeCap: StrokeCap.round,
                   ),
                 ),
@@ -159,12 +157,11 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
                         fontWeight: FontWeight.w900)),
                 const SizedBox(height: 4),
                 Text('$done / $total adim tamamlandi',
-                    style: const TextStyle(
-                        color: Colors.white70, fontSize: 12)),
+                    style:
+                        const TextStyle(color: Colors.white70, fontSize: 12)),
                 const SizedBox(height: 4),
                 const Text('Her tamamlanan adim bir kutlama',
-                    style: TextStyle(
-                        color: Colors.white54, fontSize: 10)),
+                    style: TextStyle(color: Colors.white54, fontSize: 10)),
               ],
             ),
           ),
@@ -196,7 +193,8 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
             child: Row(
               children: [
                 Container(
-                  width: 52, height: 52,
+                  width: 52,
+                  height: 52,
                   decoration: BoxDecoration(
                     color: done
                         ? _green.withValues(alpha: 0.15)
@@ -208,8 +206,7 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
                         ? const Icon(Icons.check_circle_rounded,
                             color: _green, size: 28)
                         : (emoji.isNotEmpty
-                            ? Text(emoji,
-                                style: const TextStyle(fontSize: 26))
+                            ? Text(emoji, style: const TextStyle(fontSize: 26))
                             : Icon(Icons.school_rounded,
                                 color: _gold, size: 26)),
                   ),
@@ -224,9 +221,8 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
                               color: _navy,
                               fontSize: 14,
                               fontWeight: FontWeight.w900,
-                              decoration: done
-                                  ? TextDecoration.lineThrough
-                                  : null)),
+                              decoration:
+                                  done ? TextDecoration.lineThrough : null)),
                       const SizedBox(height: 3),
                       Text(l.icerik,
                           style: const TextStyle(
@@ -235,7 +231,8 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
                   ),
                 ),
                 Container(
-                  width: 24, height: 24,
+                  width: 24,
+                  height: 24,
                   decoration: BoxDecoration(
                     color: done ? _green : Colors.transparent,
                     shape: BoxShape.circle,

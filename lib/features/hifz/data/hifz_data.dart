@@ -17,38 +17,125 @@ const List<HifzSure> hifzSureler = [
   HifzSure(
     id: 'ihlas',
     ad: 'İhlâs',
-    kelimeler: ['kul', 'huvallahu', 'ehad', 'allahus', 'samed',
-      'lem', 'yelid', 've', 'lem', 'yuled', 've', 'lem', 'yekun',
-      'lehu', 'kufuven', 'ehad'],
+    kelimeler: [
+      'kul',
+      'huvallahu',
+      'ehad',
+      'allahus',
+      'samed',
+      'lem',
+      'yelid',
+      've',
+      'lem',
+      'yuled',
+      've',
+      'lem',
+      'yekun',
+      'lehu',
+      'kufuven',
+      'ehad'
+    ],
   ),
   HifzSure(
     id: 'felak',
     ad: 'Felak',
-    kelimeler: ['kul', 'euzu', 'birabbil', 'felak', 'min', 'serri', 'ma',
-      'halak', 've', 'min', 'serri', 'gasikin', 'iza', 'vekab',
-      've', 'min', 'serrin', 'neffasati', 'fil', 'ukad',
-      've', 'min', 'serri', 'hasidin', 'iza', 'hased'],
+    kelimeler: [
+      'kul',
+      'euzu',
+      'birabbil',
+      'felak',
+      'min',
+      'serri',
+      'ma',
+      'halak',
+      've',
+      'min',
+      'serri',
+      'gasikin',
+      'iza',
+      'vekab',
+      've',
+      'min',
+      'serrin',
+      'neffasati',
+      'fil',
+      'ukad',
+      've',
+      'min',
+      'serri',
+      'hasidin',
+      'iza',
+      'hased'
+    ],
   ),
   HifzSure(
     id: 'nas',
     ad: 'Nâs',
-    kelimeler: ['kul', 'euzu', 'birabbin', 'nas', 'melikin', 'nas',
-      'ilahin', 'nas', 'min', 'serril', 'vesvasil', 'hannas',
-      'ellezi', 'yuvesvisu', 'fi', 'sudurin', 'nas',
-      'minel', 'cinneti', 'ven', 'nas'],
+    kelimeler: [
+      'kul',
+      'euzu',
+      'birabbin',
+      'nas',
+      'melikin',
+      'nas',
+      'ilahin',
+      'nas',
+      'min',
+      'serril',
+      'vesvasil',
+      'hannas',
+      'ellezi',
+      'yuvesvisu',
+      'fi',
+      'sudurin',
+      'nas',
+      'minel',
+      'cinneti',
+      'ven',
+      'nas'
+    ],
   ),
   HifzSure(
     id: 'kevser',
     ad: 'Kevser',
-    kelimeler: ['inna', 'atayna', 'kel', 'kevser', 'fesalli', 'lirabbike',
-      'venhar', 'inne', 'sanieke', 'huvel', 'ebter'],
+    kelimeler: [
+      'inna',
+      'atayna',
+      'kel',
+      'kevser',
+      'fesalli',
+      'lirabbike',
+      'venhar',
+      'inne',
+      'sanieke',
+      'huvel',
+      'ebter'
+    ],
   ),
   HifzSure(
     id: 'asr',
     ad: 'Asr',
-    kelimeler: ['vel', 'asr', 'innel', 'insane', 'lefi', 'husr',
-      'illellezine', 'amenu', 've', 'amilus', 'salihati',
-      've', 'tevasav', 'bil', 'hakki', 've', 'tevasav', 'bis', 'sabr'],
+    kelimeler: [
+      'vel',
+      'asr',
+      'innel',
+      'insane',
+      'lefi',
+      'husr',
+      'illellezine',
+      'amenu',
+      've',
+      'amilus',
+      'salihati',
+      've',
+      'tevasav',
+      'bil',
+      'hakki',
+      've',
+      'tevasav',
+      'bis',
+      'sabr'
+    ],
   ),
 ];
 
@@ -74,7 +161,10 @@ double compareWords(String recognized, List<String> target) {
         .trim();
   }
 
-  final heard = norm(recognized).split(RegExp(r'\s+')).where((w) => w.isNotEmpty).toList();
+  final heard = norm(recognized)
+      .split(RegExp(r'\s+'))
+      .where((w) => w.isNotEmpty)
+      .toList();
   final targetNorm = target.map(norm).toList();
 
   // Levenshtein benzeri kaba eslesme: her hedef kelime icin

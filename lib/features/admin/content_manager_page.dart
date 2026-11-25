@@ -19,6 +19,7 @@ class ContentManagerPage extends StatefulWidget {
 
 class _ContentManagerPageState extends State<ContentManagerPage>
     with SingleTickerProviderStateMixin {
+  static final List<ContentType> _yonetimTipleri = ContentType.values.where((t) => t != ContentType.tefekkur).toList();
   late TabController _tabCtrl;
   final _searchCtrl = TextEditingController();
   String _query = '';
@@ -30,10 +31,10 @@ class _ContentManagerPageState extends State<ContentManagerPage>
   void initState() {
     super.initState();
     final startIdx = widget.initialType != null
-        ? ContentType.values.indexOf(widget.initialType!)
+        ? _yonetimTipleri.indexOf(widget.initialType!)
         : 0;
     _tabCtrl = TabController(
-      length: ContentType.values.length,
+      length: _yonetimTipleri.length,
       vsync: this,
       initialIndex: startIdx < 0 ? 0 : startIdx,
     );
@@ -47,7 +48,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     super.dispose();
   }
 
-  ContentType get _aktifTip => ContentType.values[_tabCtrl.index];
+  ContentType get _aktifTip => _yonetimTipleri[_tabCtrl.index];
 
   List<ContentItem> _filtrele(List<ContentItem> all) {
     final result = all.where((i) {
@@ -93,16 +94,20 @@ class _ContentManagerPageState extends State<ContentManagerPage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF3F6FA),
+      backgroundColor: const Color(0xFFF5F7FB),
       appBar: AppBar(
+        backgroundColor: Colors.white,
+        surfaceTintColor: Colors.white,
+        elevation: 0,
+        scrolledUnderElevation: 1,
         title: const Text(
-          'Icerik Havuzlari',
+          'İçerik Yönetimi',
           style: TextStyle(
               color: _navy, fontSize: 17, fontWeight: FontWeight.w900),
         ),
         actions: [
           PopupMenuButton<String>(
-            tooltip: 'Toplu islemler',
+            tooltip: 'Toplu işlemler',
             icon: const Icon(Icons.more_vert_rounded, color: _navy),
             onSelected: (v) {
               if (v == 'publish') _publishAll();
@@ -116,7 +121,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
                   dense: true,
                   contentPadding: EdgeInsets.zero,
                   leading: Icon(Icons.publish_rounded, color: _green),
-                  title: Text('Aktif sekmedeki tumunu yayinla'),
+                  title: Text('Aktif sekmedeki tümünü yayınla'),
                 ),
               ),
               PopupMenuItem(
@@ -125,7 +130,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
                   dense: true,
                   contentPadding: EdgeInsets.zero,
                   leading: Icon(Icons.filter_alt_rounded, color: _green),
-                  title: Text('Filtrelenmisleri yayinla'),
+                  title: Text('Filtrelenmişleri yayınla'),
                 ),
               ),
               PopupMenuItem(
@@ -134,7 +139,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
                   dense: true,
                   contentPadding: EdgeInsets.zero,
                   leading: Icon(Icons.delete_sweep_rounded, color: _red),
-                  title: Text('Filtrelenmisleri sil'),
+                  title: Text('Filtrelenmişleri sil'),
                 ),
               ),
             ],
@@ -150,7 +155,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
             onPressed: _exportAll,
           ),
           IconButton(
-            tooltip: 'Yedekten yukle (JSON)',
+            tooltip: 'Yedekten yükle (JSON)',
             icon: const Icon(Icons.file_download_rounded, color: _navy),
             onPressed: _importPrompt,
           ),
@@ -162,8 +167,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
           unselectedLabelColor: Colors.black45,
           indicatorColor: _gold,
           indicatorWeight: 3,
-          tabs:
-              ContentType.values.map((t) => Tab(text: t.label)).toList(),
+          tabs: _yonetimTipleri.map((t) => Tab(text: t.label)).toList(),
         ),
       ),
       body: Column(
@@ -174,7 +178,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
           Expanded(
             child: TabBarView(
               controller: _tabCtrl,
-              children: ContentType.values.map(_buildList).toList(),
+              children: _yonetimTipleri.map(_buildList).toList(),
             ),
           ),
         ],
@@ -184,7 +188,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
         foregroundColor: Colors.white,
         onPressed: () => _openEditor(null, _aktifTip),
         icon: const Icon(Icons.add_rounded),
-        label: const Text('YENI EKLE',
+        label: const Text('YENİ EKLE',
             style: TextStyle(fontWeight: FontWeight.w900)),
       ),
     );
@@ -202,10 +206,9 @@ class _ContentManagerPageState extends State<ContentManagerPage>
           Expanded(
             child: TextField(
               controller: _searchCtrl,
-              onChanged: (v) =>
-                  setState(() => _query = v.trim().toLowerCase()),
+              onChanged: (v) => setState(() => _query = v.trim().toLowerCase()),
               decoration: InputDecoration(
-                hintText: 'Ara (baslik, icerik, kaynak, kategori)...',
+                hintText: 'Başlık, içerik, kaynak veya kategori ara...',
                 prefixIcon: const Icon(Icons.search_rounded),
                 suffixIcon: _query.isEmpty
                     ? null
@@ -222,8 +225,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
                   borderRadius: BorderRadius.circular(14),
                   borderSide: BorderSide.none,
                 ),
-                contentPadding:
-                    const EdgeInsets.symmetric(horizontal: 12),
+                contentPadding: const EdgeInsets.symmetric(horizontal: 12),
               ),
             ),
           ),
@@ -269,15 +271,13 @@ class _ContentManagerPageState extends State<ContentManagerPage>
           children: [
             const Padding(
               padding: EdgeInsets.all(16),
-              child: Text('Siralama',
+              child: Text('Sıralama',
                   style: TextStyle(
-                      color: _navy,
-                      fontWeight: FontWeight.w900,
-                      fontSize: 15)),
+                      color: _navy, fontWeight: FontWeight.w900, fontSize: 15)),
             ),
             _sortItem('yeni', 'En yeni', Icons.history_rounded),
             _sortItem('eski', 'En eski', Icons.schedule_rounded),
-            _sortItem('baslik', 'Baslik (A-Z)', Icons.sort_by_alpha_rounded),
+            _sortItem('baslik', 'Başlık (A-Z)', Icons.sort_by_alpha_rounded),
             _sortItem('durum', 'Durum', Icons.flag_rounded),
             const SizedBox(height: 12),
           ],
@@ -294,9 +294,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
           style: TextStyle(
               color: _navy,
               fontWeight: secili ? FontWeight.w900 : FontWeight.w600)),
-      trailing: secili
-          ? const Icon(Icons.check_rounded, color: _green)
-          : null,
+      trailing: secili ? const Icon(Icons.check_rounded, color: _green) : null,
       onTap: () {
         setState(() => _siralama = key);
         Navigator.pop(context);
@@ -312,7 +310,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
         padding: const EdgeInsets.symmetric(horizontal: 14),
         children: [
           _filterChip(
-            label: 'Tumu',
+            label: 'Tümü',
             secili: _durumFiltre == null && _kaynakFiltre == null,
             onTap: () => setState(() {
               _durumFiltre = null;
@@ -403,10 +401,13 @@ class _ContentManagerPageState extends State<ContentManagerPage>
         borderRadius: BorderRadius.circular(12),
         border: Border.all(color: const Color(0xFFE9EEF5)),
       ),
-      child: Row(
+      child: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: Row(
         children: [
-          Icon(ContentService.instance.iconFor(
-              ContentItem(id: '', type: tip, baslik: '', icerik: '')),
+          Icon(
+              ContentService.instance.iconFor(
+                  ContentItem(id: '', type: tip, baslik: '', icerik: '')),
               color: _navy.withValues(alpha: 0.6),
               size: 16),
           const SizedBox(width: 8),
@@ -416,14 +417,15 @@ class _ContentManagerPageState extends State<ContentManagerPage>
           const SizedBox(width: 8),
           _statKutu('Toplam', stats['toplam'] ?? 0, _navy),
           const SizedBox(width: 6),
-          _statKutu('Yayin', stats['yayinlandi'] ?? 0, _green),
+          _statKutu('Yayın', stats['yayinlandi'] ?? 0, _green),
           const SizedBox(width: 6),
           _statKutu('Taslak', stats['taslak'] ?? 0, Colors.grey),
           const SizedBox(width: 6),
-          _statKutu('Inceleme', stats['incelemede'] ?? 0, _orange),
+          _statKutu('İnceleme', stats['incelemede'] ?? 0, _orange),
           const SizedBox(width: 6),
-          _statKutu('Arsiv', stats['arsivlendi'] ?? 0, _red),
+          _statKutu('Arşiv', stats['arsivlendi'] ?? 0, _red),
         ],
+        ),
       ),
     );
   }
@@ -456,13 +458,13 @@ class _ContentManagerPageState extends State<ContentManagerPage>
   Future<void> _publishAll() async {
     final tip = _aktifTip;
     final pool = ContentService.instance.getPool(tip);
-    await _publishList(pool, 'tumunu');
+    await _publishList(pool, 'tümünü');
   }
 
   Future<void> _publishFiltered() async {
     final pool = ContentService.instance.getPool(_aktifTip);
     final filtered = _filtrele(pool);
-    await _publishList(filtered, 'filtrelenmis');
+    await _publishList(filtered, 'filtrelenmiş');
   }
 
   Future<void> _publishList(List<ContentItem> list, String etiket) async {
@@ -471,7 +473,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     if (taslaklar.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('Yayinlanacak icerik yok ($etiket).'),
+          content: Text('Yayınlanacak içerik yok ($etiket).'),
           backgroundColor: _orange,
         ),
       );
@@ -480,18 +482,18 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     final ok = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
-        title: Text('$etiket yayinla?'),
+        title: Text('$etiket yayınla?'),
         content: Text(
-            '${taslaklar.length} icerik yayinlanacak ve ana sayfada gorunecek.'),
+            '${taslaklar.length} içerik yayınlanacak ve ana sayfada gorunecek.'),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('Iptal'),
+            child: const Text('İptal'),
           ),
           FilledButton(
             style: FilledButton.styleFrom(backgroundColor: _green),
             onPressed: () => Navigator.pop(context, true),
-            child: const Text('Yayinla'),
+            child: const Text('Yayınla'),
           ),
         ],
       ),
@@ -521,19 +523,25 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('${taslaklar.length} icerik yayinlandi'),
+        content: Text('${taslaklar.length} içerik yayınlandı'),
         backgroundColor: _green,
       ),
     );
   }
 
   Future<void> _deleteFiltered() async {
+    if (_aktifTip == ContentType.gunluk) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('365 günlük kayıtlar korunuyor; silme işlemi engellendi.')),
+      );
+      return;
+    }
     final pool = ContentService.instance.getPool(_aktifTip);
     final filtered = _filtrele(pool);
     if (filtered.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text('Silinecek icerik yok.'),
+          content: Text('Silinecek içerik yok.'),
           backgroundColor: _orange,
         ),
       );
@@ -542,13 +550,13 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     final ok = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('Filtrelenmisleri sil?'),
+        title: const Text('Filtrelenmişleri sil?'),
         content: Text(
-            '${filtered.length} icerik kalici olarak silinecek. Geri alinamaz!'),
+            '${filtered.length} içerik kalıcı olarak silinecek. Geri alınamaz!'),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('Iptal'),
+            child: const Text('İptal'),
           ),
           FilledButton(
             style: FilledButton.styleFrom(backgroundColor: _red),
@@ -567,7 +575,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('${filtered.length} icerik silindi'),
+        content: Text('${filtered.length} içerik silindi'),
         backgroundColor: _green,
       ),
     );
@@ -581,7 +589,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(
-              'Yedek panoya kopyalandi (${(json.length / 1024).toStringAsFixed(1)} KB).'),
+              'Yedek panoya kopyalandı (${(json.length / 1024).toStringAsFixed(1)} KB).'),
           backgroundColor: _green,
           duration: const Duration(seconds: 4),
         ),
@@ -599,7 +607,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     final mode = await showDialog<String>(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('Yedekten yukle'),
+        title: const Text('Yedekten yükle'),
         content: SizedBox(
           width: 500,
           child: Column(
@@ -607,7 +615,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                'JSON yedegini asagiya yapistirin. "Birlestir" varsa gunceller, yoksa ekler. "Uzerine yaz" mevcut havuzu siler.',
+                'JSON yedeğini aşağıya yapıştırın. "Birleştir" varsa günceller, yoksa ekler. "Üzerine yaz" mevcut havuzu siler.',
                 style: TextStyle(fontSize: 12, color: Colors.black54),
               ),
               const SizedBox(height: 12),
@@ -625,20 +633,19 @@ class _ContentManagerPageState extends State<ContentManagerPage>
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('Iptal'),
+            child: const Text('İptal'),
           ),
           FilledButton.tonal(
-            style: FilledButton.styleFrom(
-                backgroundColor: Colors.grey.shade300),
+            style:
+                FilledButton.styleFrom(backgroundColor: Colors.grey.shade300),
             onPressed: () => Navigator.pop(context, 'replace'),
-            child: const Text('Uzerine Yaz',
-                style: TextStyle(
-                    color: _navy, fontWeight: FontWeight.w800)),
+            child: const Text('Üzerine Yaz',
+                style: TextStyle(color: _navy, fontWeight: FontWeight.w800)),
           ),
           FilledButton(
             style: FilledButton.styleFrom(backgroundColor: _navy),
             onPressed: () => Navigator.pop(context, 'merge'),
-            child: const Text('Birlestir',
+            child: const Text('Birleştir',
                 style: TextStyle(fontWeight: FontWeight.w900)),
           ),
         ],
@@ -661,8 +668,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-            content: Text('Gecersiz JSON: $e'), backgroundColor: _red),
+        SnackBar(content: Text('Gecersiz JSON: $e'), backgroundColor: _red),
       );
     }
   }
@@ -677,6 +683,13 @@ class _ContentManagerPageState extends State<ContentManagerPage>
       builder: (context, _) {
         final all = ContentService.instance.getPool(type);
         final filtered = _filtrele(all);
+        if (type == ContentType.gunluk) {
+          filtered.sort((a, b) {
+            final ai = int.tryParse(a.id.replaceFirst('gunluk_', '')) ?? 999;
+            final bi = int.tryParse(b.id.replaceFirst('gunluk_', '')) ?? 999;
+            return ai.compareTo(bi);
+          });
+        }
         if (filtered.isEmpty) {
           return Center(
             child: Padding(
@@ -689,8 +702,8 @@ class _ContentManagerPageState extends State<ContentManagerPage>
                   const SizedBox(height: 12),
                   Text(
                     all.isEmpty
-                        ? 'Bu kategoride icerik yok. + ile ekleyin.'
-                        : 'Filtreye uyan sonuc yok.',
+                        ? 'Bu kategoride içerik yok. + ile ekleyin.'
+                        : 'Filtreye uyan sonuç yok.',
                     textAlign: TextAlign.center,
                     style: const TextStyle(color: Colors.black54),
                   ),
@@ -721,14 +734,20 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     );
   }
 
+  String _gorunenBaslik(ContentItem item) {
+    if (item.type != ContentType.gunluk) return item.baslik;
+    final sira = int.tryParse(item.id.replaceFirst('gunluk_', ''));
+    return sira == null ? item.baslik : 'Gün ${sira + 1}';
+  }
+
   Widget _itemTile(ContentItem item) {
     final durumRenk = _durumRengi(item);
     return Container(
-      margin: const EdgeInsets.only(bottom: 8),
+      margin: const EdgeInsets.only(bottom: 10),
       decoration: BoxDecoration(
         color: Colors.white,
-        borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: const Color(0xFFE9EEF5)),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: const Color(0xFFE7ECF4)),
       ),
       child: Material(
         color: Colors.transparent,
@@ -756,13 +775,11 @@ class _ContentManagerPageState extends State<ContentManagerPage>
             children: [
               Expanded(
                 child: Text(
-                  item.baslik,
+                  _gorunenBaslik(item),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
-                      color: _navy,
-                      fontSize: 14,
-                      fontWeight: FontWeight.w800),
+                      color: _navy, fontSize: 14, fontWeight: FontWeight.w800),
                 ),
               ),
               _badge(durumRenk, item.durum.label),
@@ -787,11 +804,12 @@ class _ContentManagerPageState extends State<ContentManagerPage>
                 icon: const Icon(Icons.edit_rounded, color: _navy, size: 20),
                 onPressed: () => _openEditor(item, item.type),
               ),
-              IconButton(
-                icon: const Icon(Icons.delete_outline_rounded,
-                    color: _red, size: 20),
-                onPressed: () => _confirmDelete(item),
-              ),
+              if (item.type != ContentType.gunluk)
+                IconButton(
+                  icon: const Icon(Icons.delete_outline_rounded,
+                      color: _red, size: 20),
+                  onPressed: () => _confirmDelete(item),
+                ),
             ],
           ),
           onTap: () => _openEditor(item, item.type),
@@ -825,8 +843,8 @@ class _ContentManagerPageState extends State<ContentManagerPage>
       ),
       child: Text(
         text,
-        style: TextStyle(
-            color: color, fontSize: 9, fontWeight: FontWeight.w700),
+        style:
+            TextStyle(color: color, fontSize: 9, fontWeight: FontWeight.w700),
       ),
     );
   }
@@ -844,6 +862,12 @@ class _ContentManagerPageState extends State<ContentManagerPage>
   }
 
   Future<void> _confirmDelete(ContentItem item) async {
+    if (item.type == ContentType.gunluk) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Günlük kayıtlar silinemez; düzenlemeye devam edebilirsiniz.')),
+      );
+      return;
+    }
     final ok = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
@@ -852,7 +876,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('Iptal'),
+            child: const Text('İptal'),
           ),
           FilledButton(
             style: FilledButton.styleFrom(backgroundColor: _red),

@@ -1,7 +1,8 @@
+﻿import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'dart:convert';
-import 'package:nur_pusulasi/app/theme.dart';
+import '../../app/theme.dart';
+import '../../app/shadows.dart';
 
 class WeeklyProgressPage extends StatefulWidget {
   const WeeklyProgressPage({super.key});
@@ -11,197 +12,224 @@ class WeeklyProgressPage extends StatefulWidget {
 }
 
 class _WeeklyProgressPageState extends State<WeeklyProgressPage> {
-  Map<String, dynamic> _summary = {};
-  bool _loading = true;
+  bool _isLoading = true;
+  int _completedGoals = 0;
+  int _totalGoals = 0;
+  int _gratitudeCount = 0;
+  int _readPages = 0;
 
   @override
   void initState() {
     super.initState();
-    _load();
+    _loadData();
   }
 
-  Future<void> _load() async {
+  Future<void> _loadData() async {
     final prefs = await SharedPreferences.getInstance();
-    int goalCount = 0;
-    int goalsDone = 0;
-    int bookCount = 0;
-    int pagesRead = 0;
-    int pagesTotal = 0;
 
-    try {
-      final raw = prefs.getString('nur_pusulasi_daily_goals_v1');
-      if (raw != null) {
-        final goals = (jsonDecode(raw) as List<dynamic>);
-        goalCount = goals.length;
-        goalsDone = goals.where((g) => g['done'] == true).length;
-      }
-    } catch (_) {}
+    // 1. Günlük Hedefleri Oku
+    final goalsStr = prefs.getString('daily_goals');
+    if (goalsStr != null) {
+      final List decoded = jsonDecode(goalsStr);
+      _totalGoals = decoded.length;
+      _completedGoals = decoded.where((g) => g['isCompleted'] == true).length;
+    }
 
-    try {
-      final raw = prefs.getString('nur_pusulasi_reading_plan_v1');
-      if (raw != null) {
-        final books = jsonDecode(raw) as List<dynamic>;
-        bookCount = books.length;
-        for (final item in books) {
-          final book = Map<String, dynamic>.from(item as Map);
-          pagesRead += (book['read'] as num?)?.toInt() ?? 0;
-          pagesTotal += (book['total'] as num?)?.toInt() ?? 0;
-        }
-      }
-    } catch (_) {}
+    // 2. Şükür Notlarını Oku
+    final gratitudeStr = prefs.getString('gratitude_entries');
+    if (gratitudeStr != null) {
+      final List decoded = jsonDecode(gratitudeStr);
+      _gratitudeCount = decoded.length;
+    }
 
-    if (!mounted) return;
-    setState(() {
-      _summary = {
-        'goalCount': goalCount,
-        'goalsDone': goalsDone,
-        'bookCount': bookCount,
-        'pagesRead': pagesRead,
-        'pagesTotal': pagesTotal,
-      };
-      _loading = false;
-    });
+    // 3. Okunan Sayfa Sayısını Oku
+    final booksStr = prefs.getString('reading_books');
+    if (booksStr != null) {
+      final List decoded = jsonDecode(booksStr);
+      _readPages = decoded.fold<int>(
+          0, (sum, item) => sum + ((item['readPages'] as num? ?? 0).toInt()));
+    }
+
+    setState(() => _isLoading = false);
   }
 
   @override
   Widget build(BuildContext context) {
-    final goalCount = _summary['goalCount'] as int? ?? 0;
-    final goalsDone = _summary['goalsDone'] as int? ?? 0;
-    final pagesRead = _summary['pagesRead'] as int? ?? 0;
-    final pagesTotal = _summary['pagesTotal'] as int? ?? 0;
-    final goalProgress = goalCount == 0 ? 0.0 : goalsDone / goalCount;
-    final readingProgress =
-        pagesTotal == 0 ? 0.0 : (pagesRead / pagesTotal).clamp(0.0, 1.0);
+    if (_isLoading) {
+      return const Scaffold(
+          backgroundColor: kArkaPlan,
+          body: Center(child: CircularProgressIndicator()));
+    }
 
     return Scaffold(
+      backgroundColor: kArkaPlan,
       appBar: AppBar(
-        title: const Text('Haftalık ilerleme'),
-        actions: [
-          IconButton(
-            tooltip: 'Yenile',
-            onPressed: () {
-              setState(() => _loading = true);
-              _load();
-            },
-            icon: const Icon(Icons.refresh_rounded),
-          ),
-        ],
+        title: const Text('Haftalık İlerleme',
+            style: TextStyle(fontWeight: FontWeight.bold)),
+        backgroundColor: kKartYuzeyi,
+        foregroundColor: kAnaLacivert,
       ),
-      body: _loading
-          ? const Center(child: CircularProgressIndicator())
-          : ListView(
-              padding: const EdgeInsets.all(18),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // Karşılama Alanı
+            Container(
+              width: double.infinity,
+              padding: const EdgeInsets.all(24),
+              decoration: BoxDecoration(
+                gradient: const LinearGradient(
+                  colors: [kAnaLacivert, Color(0xFF1E3A6E)],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                ),
+                borderRadius: BorderRadius.circular(24),
+                boxShadow: AppShadows.medium(),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  const Icon(Icons.insights_rounded,
+                      color: Colors.white70, size: 32),
+                  const SizedBox(height: 16),
+                  const Text(
+                    'Manevi Yolculuk Özetin',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 22,
+                        fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 8),
+                  const Text(
+                    'Küçük adımlar, düzenli bir gelişim.',
+                    style: TextStyle(color: Colors.white70, fontSize: 14),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 24),
+            const Text(
+              'Bu Haftanın Verileri',
+              style: TextStyle(
+                  fontSize: 18, fontWeight: FontWeight.bold, color: kAnaMetin),
+            ),
+            const SizedBox(height: 16),
+
+            // İstatistik Kartları
+            Row(
               children: [
-                Container(
-                  padding: const EdgeInsets.all(22),
-                  decoration: BoxDecoration(
-                    gradient: const LinearGradient(colors: [navy, navyDeep]),
-                    borderRadius: BorderRadius.circular(24),
-                  ),
-                  child: const Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Icon(Icons.insights_rounded,
-                          color: Colors.white, size: 36),
-                      SizedBox(height: 12),
-                      Text(
-                        'Gelişim, istikrarlı adımlarla büyür.',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 21,
-                          fontWeight: FontWeight.w900,
-                        ),
-                      ),
-                      SizedBox(height: 6),
-                      Text(
-                        'Hedeflerini ve okuma planını gözden geçir.',
-                        style: TextStyle(color: Colors.white70),
-                      ),
-                    ],
+                Expanded(
+                  child: _buildStatCard(
+                    'Tamamlanan Hedef',
+                    '$_completedGoals / $_totalGoals',
+                    Icons.track_changes_rounded,
+                    kAnaTurkuaz,
                   ),
                 ),
-                const SizedBox(height: 18),
-                _ProgressSummaryCard(
-                  icon: Icons.track_changes_rounded,
-                  title: 'Günlük hedefler',
-                  detail: '$goalsDone / $goalCount hedef tamamlandı',
-                  progress: goalProgress,
-                ),
-                _ProgressSummaryCard(
-                  icon: Icons.menu_book_rounded,
-                  title: 'Okuma planı',
-                  detail: '$pagesRead / $pagesTotal sayfa okundu',
-                  progress: readingProgress,
-                ),
-                Card(
-                  child: ListTile(
-                    leading: const Icon(Icons.auto_stories_rounded, color: red),
-                    title: const Text('Okuma listen'),
-                    subtitle: Text('${_summary['bookCount'] ?? 0} eser kayıtlı'),
+                const SizedBox(width: 16),
+                Expanded(
+                  child: _buildStatCard(
+                    'Şükür Notu',
+                    '$_gratitudeCount',
+                    Icons.edit_note_rounded,
+                    kBasariYesili,
                   ),
-                ),
-                const SizedBox(height: 10),
-                const Text(
-                  'Not: Bu ekran mevcut kayıtların özetini gösterir. Geçmiş günlere ait haftalık istatistik için ayrıca günlük etkinlik geçmişi tutulmalıdır.',
-                  style: TextStyle(color: Colors.black54, fontSize: 12),
                 ),
               ],
             ),
-    );
-  }
-}
-
-class _ProgressSummaryCard extends StatelessWidget {
-  final IconData icon;
-  final String title;
-  final String detail;
-  final double progress;
-
-  const _ProgressSummaryCard({
-    required this.icon,
-    required this.title,
-    required this.detail,
-    required this.progress,
-  });
-
-  @override
-  Widget build(BuildContext context) => Card(
-        margin: const EdgeInsets.only(bottom: 12),
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  Icon(icon, color: red),
-                  const SizedBox(width: 10),
-                  Expanded(
-                    child: Text(
-                      title,
-                      style: const TextStyle(
-                        color: navy,
-                        fontWeight: FontWeight.w900,
-                      ),
+            const SizedBox(height: 16),
+            Row(
+              children: [
+                Expanded(
+                  child: _buildStatCard(
+                    'Okunan Sayfa',
+                    '$_readPages',
+                    Icons.menu_book_rounded,
+                    kZarifBordo,
+                  ),
+                ),
+                const SizedBox(width: 16),
+                Expanded(
+                  child: Container(
+                    padding: const EdgeInsets.all(20),
+                    decoration: BoxDecoration(
+                      color: kKartYuzeyi,
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(color: kKenarlik),
+                    ),
+                    child: const Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Icon(Icons.auto_awesome_rounded,
+                            color: kYardimciMetin, size: 28),
+                        SizedBox(height: 12),
+                        Text('Devam Et!',
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16,
+                                color: kAnaMetin)),
+                        SizedBox(height: 4),
+                        Text('Harika gidiyorsun',
+                            style:
+                                TextStyle(fontSize: 12, color: kIkincilMetin)),
+                      ],
                     ),
                   ),
-                  Text('${(progress * 100).round()}%'),
+                ),
+              ],
+            ),
+            const SizedBox(height: 32),
+            // Yönlendirme Notu
+            Container(
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: kAnaTurkuaz.withValues(alpha: 0.1),
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: const Row(
+                children: [
+                  Icon(Icons.info_outline_rounded, color: kAnaTurkuaz),
+                  SizedBox(width: 12),
+                  Expanded(
+                    child: Text(
+                      'Verileriniz diğer modüllerdeki (Hedefler, Şükür, Okuma) gerçek kayıtlarınızdan anlık olarak hesaplanmaktadır.',
+                      style: TextStyle(
+                          fontSize: 12, color: kAnaLacivert, height: 1.4),
+                    ),
+                  ),
                 ],
               ),
-              const SizedBox(height: 10),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(8),
-                child: LinearProgressIndicator(
-                  value: progress,
-                  minHeight: 8,
-                  backgroundColor: pale,
-                  color: red,
-                ),
-              ),
-              const SizedBox(height: 8),
-              Text(detail),
-            ],
-          ),
+            ),
+          ],
         ),
-      );
+      ),
+    );
+  }
+
+  Widget _buildStatCard(
+      String title, String value, IconData icon, Color color) {
+    return Container(
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: kKartYuzeyi,
+        borderRadius: BorderRadius.circular(20),
+        boxShadow: AppShadows.soft(),
+        border: Border.all(color: kKenarlik),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(icon, color: color, size: 28),
+          const SizedBox(height: 16),
+          Text(value,
+              style: const TextStyle(
+                  fontSize: 24, fontWeight: FontWeight.bold, color: kAnaMetin)),
+          const SizedBox(height: 4),
+          Text(title,
+              style: const TextStyle(fontSize: 13, color: kIkincilMetin)),
+        ],
+      ),
+    );
+  }
 }

@@ -79,7 +79,8 @@ class _AssistantPageState extends State<AssistantPage> {
           const SizedBox(height: 14),
           if (_loading)
             const Center(child: CircularProgressIndicator())
-          else if (_searched) _resultsView(),
+          else if (_searched)
+            _resultsView(),
           const SizedBox(height: 20),
         ],
       ),
@@ -101,14 +102,14 @@ class _AssistantPageState extends State<AssistantPage> {
       child: Row(
         children: [
           Container(
-            width: 56, height: 56,
+            width: 56,
+            height: 56,
             decoration: BoxDecoration(
               color: Colors.white.withValues(alpha: 0.12),
               shape: BoxShape.circle,
               border: Border.all(color: _gold, width: 2),
             ),
-            child: const Icon(Icons.psychology_rounded,
-                color: _gold, size: 28),
+            child: const Icon(Icons.psychology_rounded, color: _gold, size: 28),
           ),
           const SizedBox(width: 14),
           const Expanded(
@@ -176,9 +177,7 @@ class _AssistantPageState extends State<AssistantPage> {
         children: [
           const Text('Örnek Sorular',
               style: TextStyle(
-                  color: _navy,
-                  fontSize: 13,
-                  fontWeight: FontWeight.w900)),
+                  color: _navy, fontSize: 13, fontWeight: FontWeight.w900)),
           const SizedBox(height: 10),
           Wrap(
             spacing: 8,
@@ -194,8 +193,8 @@ class _AssistantPageState extends State<AssistantPage> {
                           padding: const EdgeInsets.symmetric(
                               horizontal: 12, vertical: 8),
                           child: Text(s,
-                              style: const TextStyle(
-                                  color: _navy, fontSize: 12)),
+                              style:
+                                  const TextStyle(color: _navy, fontSize: 12)),
                         ),
                       ),
                     ))
@@ -266,9 +265,7 @@ class _AssistantPageState extends State<AssistantPage> {
             padding: const EdgeInsets.symmetric(horizontal: 4),
             child: Text('${_results.length} sonuç bulundu',
                 style: const TextStyle(
-                    color: _navy,
-                    fontSize: 13,
-                    fontWeight: FontWeight.w900)),
+                    color: _navy, fontSize: 13, fontWeight: FontWeight.w900)),
           ),
           const SizedBox(height: 10),
           ..._results.map((r) => _resultCard(r)),
@@ -293,8 +290,7 @@ class _AssistantPageState extends State<AssistantPage> {
           Row(
             children: [
               Container(
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 8, vertical: 3),
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
                 decoration: BoxDecoration(
                   color: _gold.withValues(alpha: 0.12),
                   borderRadius: BorderRadius.circular(6),
@@ -308,8 +304,7 @@ class _AssistantPageState extends State<AssistantPage> {
               ),
               const Spacer(),
               Container(
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 8, vertical: 3),
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
                 decoration: BoxDecoration(
                   color: _green.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(6),
@@ -325,9 +320,7 @@ class _AssistantPageState extends State<AssistantPage> {
           const SizedBox(height: 10),
           Text(item.baslik,
               style: const TextStyle(
-                  color: _navy,
-                  fontSize: 14,
-                  fontWeight: FontWeight.w900)),
+                  color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
           const SizedBox(height: 6),
           Text(item.metin,
               style: const TextStyle(
@@ -336,18 +329,15 @@ class _AssistantPageState extends State<AssistantPage> {
               overflow: TextOverflow.ellipsis),
           const SizedBox(height: 10),
           Container(
-            padding: const EdgeInsets.symmetric(
-                horizontal: 10, vertical: 6),
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
             decoration: BoxDecoration(
               color: _gold.withValues(alpha: 0.06),
               borderRadius: BorderRadius.circular(8),
-              border: Border(
-                  left: BorderSide(color: _gold, width: 3)),
+              border: Border(left: BorderSide(color: _gold, width: 3)),
             ),
             child: Row(
               children: [
-                const Icon(Icons.book_outlined,
-                    color: _gold, size: 12),
+                const Icon(Icons.book_outlined, color: _gold, size: 12),
                 const SizedBox(width: 6),
                 Expanded(
                   child: Text(item.kaynak,

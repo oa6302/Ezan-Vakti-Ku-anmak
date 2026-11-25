@@ -65,15 +65,13 @@ class YearHeatmap extends StatelessWidget {
                   color: _navy.withValues(alpha: 0.08),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: const Icon(Icons.grid_view_rounded,
-                    color: _navy, size: 16),
+                child:
+                    const Icon(Icons.grid_view_rounded, color: _navy, size: 16),
               ),
               const SizedBox(width: 10),
               const Text('Yıllık Isı Haritası',
                   style: TextStyle(
-                      color: _navy,
-                      fontSize: 14,
-                      fontWeight: FontWeight.w900)),
+                      color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
               const Spacer(),
               _legend(),
             ],
@@ -104,8 +102,7 @@ class YearHeatmap extends StatelessWidget {
                 child: Text(
                   'Her kare bir günü gösterir. Koyu kare = o gün daha çok vakit kaydedildi.',
                   style: TextStyle(
-                      color: Colors.black.withValues(alpha: 0.5),
-                      fontSize: 10),
+                      color: Colors.black.withValues(alpha: 0.5), fontSize: 10),
                 ),
               ),
             ],
@@ -166,16 +163,15 @@ class YearHeatmap extends StatelessWidget {
     }
 
     return GestureDetector(
-      onTap: count != null && onDayTap != null ? () => onDayTap!(daysAgo) : null,
+      onTap:
+          count != null && onDayTap != null ? () => onDayTap!(daysAgo) : null,
       child: Container(
         width: 12,
         height: 12,
         decoration: BoxDecoration(
           color: color,
           borderRadius: BorderRadius.circular(3),
-          border: count == 5
-              ? Border.all(color: _gold, width: 1)
-              : null,
+          border: count == 5 ? Border.all(color: _gold, width: 1) : null,
         ),
       ),
     );
@@ -185,8 +181,7 @@ class YearHeatmap extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        const Text('Az',
-            style: TextStyle(fontSize: 9, color: Colors.black45)),
+        const Text('Az', style: TextStyle(fontSize: 9, color: Colors.black45)),
         const SizedBox(width: 4),
         for (final a in [0.0, 0.25, 0.45, 0.65, 1.0]) ...[
           Container(
@@ -202,8 +197,7 @@ class YearHeatmap extends StatelessWidget {
           const SizedBox(width: 2),
         ],
         const SizedBox(width: 2),
-        const Text('Çok',
-            style: TextStyle(fontSize: 9, color: Colors.black45)),
+        const Text('Çok', style: TextStyle(fontSize: 9, color: Colors.black45)),
       ],
     );
   }

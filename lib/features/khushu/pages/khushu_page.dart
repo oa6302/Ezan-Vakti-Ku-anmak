@@ -48,7 +48,8 @@ class _KhushuPageState extends State<KhushuPage> {
   Future<void> _save() async {
     if (_selected == 0) return;
     final now = DateTime.now();
-    final dateStr = '${now.year}-${now.month.toString().padLeft(2, '0')}-${now.day.toString().padLeft(2, '0')}';
+    final dateStr =
+        '${now.year}-${now.month.toString().padLeft(2, '0')}-${now.day.toString().padLeft(2, '0')}';
     await _tracker.add(KhushuEntry(
       date: dateStr,
       vakit: widget.vakit,
@@ -112,7 +113,8 @@ class _KhushuPageState extends State<KhushuPage> {
       child: Row(
         children: [
           Container(
-            width: 56, height: 56,
+            width: 56,
+            height: 56,
             decoration: BoxDecoration(
               color: Colors.white.withValues(alpha: 0.12),
               shape: BoxShape.circle,
@@ -252,8 +254,8 @@ class _KhushuPageState extends State<KhushuPage> {
     );
   }
 
-  Widget _statBox(String label, String value, String unit, IconData icon,
-      Color color) {
+  Widget _statBox(
+      String label, String value, String unit, IconData icon, Color color) {
     return Container(
       padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
@@ -277,8 +279,8 @@ class _KhushuPageState extends State<KhushuPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(label,
-                    style: const TextStyle(
-                        color: Colors.black54, fontSize: 10)),
+                    style:
+                        const TextStyle(color: Colors.black54, fontSize: 10)),
                 const SizedBox(height: 2),
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.end,
@@ -306,7 +308,7 @@ class _KhushuPageState extends State<KhushuPage> {
   }
 
   Widget _weeklyCard() {
-    const days = ['Pt','Sa','Ça','Pe','Cu','Ct','Pz'];
+    const days = ['Pt', 'Sa', 'Ça', 'Pe', 'Cu', 'Ct', 'Pz'];
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
@@ -406,8 +408,7 @@ class _KhushuPageState extends State<KhushuPage> {
                     SizedBox(
                       width: 60,
                       child: Text(labels[i],
-                          style: const TextStyle(
-                              color: _navy, fontSize: 11)),
+                          style: const TextStyle(color: _navy, fontSize: 11)),
                     ),
                     Expanded(
                       child: ClipRRect(

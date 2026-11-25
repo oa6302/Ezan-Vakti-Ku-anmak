@@ -46,8 +46,7 @@ class _AdminGatePageState extends State<AdminGatePage> {
       body: ListView(
         padding: const EdgeInsets.all(22),
         children: [
-          const Icon(Icons.admin_panel_settings_rounded,
-              size: 64, color: navy),
+          const Icon(Icons.admin_panel_settings_rounded, size: 64, color: navy),
           const SizedBox(height: 16),
           const Text(
             'Icerik Yonetimi',

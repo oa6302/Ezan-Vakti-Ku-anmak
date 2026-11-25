@@ -1,4 +1,9 @@
+﻿import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../../app/settings_service.dart';
 import '../../app/app_settings.dart';
@@ -18,11 +23,13 @@ class LanguageSettingsPage extends StatefulWidget {
 class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
   String _currentLocale = 'tr';
   String _currentFont = 'matbu';
+  String? _widgetBackgroundPath;
 
   @override
   void initState() {
     super.initState();
     _load();
+    _loadWidgetBackground();
   }
 
   Future<void> _load() async {
@@ -41,7 +48,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text("${_localeLabel(code)} seçildi"),
+          content: Text("${_localeLabel(code)} seÃ§ildi"),
           backgroundColor: _green,
         ),
       );
@@ -53,13 +60,167 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
     setState(() => _currentFont = style);
   }
 
+  Future<void> _loadWidgetBackground() async {
+    final prefs = await SharedPreferences.getInstance();
+    final path = prefs.getString('widget_background_path');
+    if (mounted) {
+      setState(() => _widgetBackgroundPath =
+          path != null && File(path).existsSync() ? path : null);
+    }
+  }
+
+  Future<void> _pickWidgetBackground() async {
+    try {
+      final picker = ImagePicker();
+      final picked = await picker.pickImage(
+        source: ImageSource.gallery,
+        imageQuality: 85,
+        maxWidth: 1600,
+        maxHeight: 1600,
+      );
+
+      if (picked == null) return;
+
+      final directory = await getApplicationSupportDirectory();
+      final extension = picked.path.contains('.')
+          ? picked.path.split('.').last.toLowerCase()
+          : 'jpg';
+
+      final destination =
+          '${directory.path}/widget_background.$extension';
+
+      final savedFile = await File(picked.path).copy(destination);
+
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setString('widget_background_path', savedFile.path);
+
+      await const MethodChannel('nur_pusulasi/widgets').invokeMethod<void>(
+        'setBackground',
+        <String, String>{'path': savedFile.path},
+      );
+
+      if (!mounted) return;
+      setState(() => _widgetBackgroundPath = savedFile.path);
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Widget fotoğrafı güncellendi.')),
+      );
+    } catch (error) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Fotoğraf seçilemedi: $error')),
+      );
+    }
+  }
+
+  Future<void> _resetWidgetBackground() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.remove('widget_background_path');
+
+      await const MethodChannel('nur_pusulasi/widgets').invokeMethod<void>(
+        'setBackground',
+        <String, String>{'path': ''},
+      );
+
+      if (!mounted) return;
+      setState(() => _widgetBackgroundPath = null);
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Varsayılan arka plana dönüldü.')),
+      );
+    } catch (error) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('İşlem başarısız: $error')),
+      );
+    }
+  }
+
+  Widget _widgetBackgroundSection() {
+    final path = _widgetBackgroundPath;
+    final hasImage = path != null && File(path).existsSync();
+
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: _gold.withValues(alpha: 0.35)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          ClipRRect(
+            borderRadius: BorderRadius.circular(12),
+            child: SizedBox(
+              height: 135,
+              width: double.infinity,
+              child: hasImage
+                  ? Image.file(
+                      File(path),
+                      fit: BoxFit.cover,
+                      errorBuilder: (_, __, ___) => const Center(
+                        child: Text('Fotoğraf önizlemesi açılamadı'),
+                      ),
+                    )
+                  : Container(
+                      color: _navy,
+                      child: const Center(
+                        child: Icon(
+                          Icons.mosque_rounded,
+                          color: _gold,
+                          size: 48,
+                        ),
+                      ),
+                    ),
+            ),
+          ),
+          const SizedBox(height: 12),
+          Text(
+            hasImage
+                ? 'Kişisel fotoğrafın seçili'
+                : 'Henüz kişisel fotoğraf seçilmedi',
+            style: const TextStyle(
+              color: _navy,
+              fontWeight: FontWeight.w800,
+              fontSize: 13,
+            ),
+          ),
+          const SizedBox(height: 8),
+          SizedBox(
+            width: double.infinity,
+            child: FilledButton.icon(
+              onPressed: _pickWidgetBackground,
+              icon: const Icon(Icons.photo_library_rounded),
+              label: const Text('Galeriden fotoğraf seç'),
+              style: FilledButton.styleFrom(
+                backgroundColor: _navy,
+                foregroundColor: Colors.white,
+              ),
+            ),
+          ),
+          if (hasImage)
+            Align(
+              alignment: Alignment.centerRight,
+              child: TextButton.icon(
+                onPressed: _resetWidgetBackground,
+                icon: const Icon(Icons.restart_alt_rounded),
+                label: const Text('Varsayılan arka plana dön'),
+                style: TextButton.styleFrom(foregroundColor: _navy),
+              ),
+            ),
+        ],
+      ),
+    );
+  }
   List<Widget> _themeTiles(BuildContext context) {
     final current = context.watch<AppState>().themeMode;
     return [
-      _themeTile(context, ThemeMode.light, 'Aydinlik',
-          Icons.wb_sunny_rounded, current),
-      _themeTile(context, ThemeMode.dark, 'Karanlik',
-          Icons.nightlight_round, current),
+      _themeTile(context, ThemeMode.light, 'Aydinlik', Icons.wb_sunny_rounded,
+          current),
+      _themeTile(
+          context, ThemeMode.dark, 'Karanlik', Icons.nightlight_round, current),
       _themeTile(context, ThemeMode.system, 'Sistem',
           Icons.settings_brightness_rounded, current),
     ];
@@ -71,15 +232,14 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
     return Container(
       margin: const EdgeInsets.only(bottom: 8),
       decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(14),
+        borderRadius: BorderRadius.circular(14),
         border: Border.all(
           color: secili ? _gold : Colors.black.withValues(alpha: 0.06),
           width: secili ? 1.6 : 1,
         ),
       ),
       child: ListTile(
-        contentPadding:
-            const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 4),
         leading: Container(
           padding: const EdgeInsets.all(9),
           decoration: BoxDecoration(
@@ -90,12 +250,9 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
         ),
         title: Text(label,
             style: const TextStyle(
-                color: _navy,
-                fontSize: 14,
-                fontWeight: FontWeight.w800)),
+                color: _navy, fontSize: 14, fontWeight: FontWeight.w800)),
         trailing: secili
-            ? const Icon(Icons.check_circle_rounded,
-                color: _green, size: 22)
+            ? const Icon(Icons.check_circle_rounded, color: _green, size: 22)
             : const Icon(Icons.circle_outlined,
                 color: Colors.black26, size: 22),
         onTap: () async {
@@ -107,10 +264,14 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
 
   String _localeLabel(String code) {
     switch (code) {
-      case 'tr': return 'Türkçe';
-      case 'en': return 'English';
-      case 'ar': return 'العربية';
-      default: return code;
+      case 'tr':
+        return 'TÃ¼rkÃ§e';
+      case 'en':
+        return 'English';
+      case 'ar':
+        return 'Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©';
+      default:
+        return code;
     }
   }
 
@@ -131,11 +292,15 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
           const SizedBox(height: 10),
           ..._themeTiles(context),
           const SizedBox(height: 22),
+          _sectionHeader('Widget arka planı', Icons.wallpaper_rounded),
+          const SizedBox(height: 10),
+          _widgetBackgroundSection(),
+          const SizedBox(height: 22),
           _sectionHeader(t.language, Icons.language_rounded),
           const SizedBox(height: 10),
-          _localeTile('tr', 'Türkçe', 'Türkiye', '🇹🇷'),
-          _localeTile('en', 'English', 'English', '🇬🇧'),
-          _localeTile('ar', 'العربية', 'العربية', '🇸🇦'),
+          _localeTile('tr', 'TÃ¼rkÃ§e', 'TÃ¼rkiye', 'ğŸ‡¹ğŸ‡·'),
+          _localeTile('en', 'English', 'English', 'ğŸ‡¬ğŸ‡§'),
+          _localeTile('ar', 'Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©', 'Ø§Ù„Ø¹Ø±Ø¨ÙŠØ©', 'ğŸ‡¸ğŸ‡¦'),
           const SizedBox(height: 24),
           _sectionHeader(t.fontStyle, Icons.text_fields_rounded),
           const SizedBox(height: 6),
@@ -152,7 +317,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
                 SizedBox(width: 8),
                 Expanded(
                   child: Text(
-                    'Arapça ve Osmanlıca metinler için yazı stili',
+                    'ArapÃ§a ve OsmanlÄ±ca metinler iÃ§in yazÄ± stili',
                     style: TextStyle(color: _navy, fontSize: 11),
                   ),
                 ),
@@ -160,8 +325,9 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
             ),
           ),
           const SizedBox(height: 10),
-          _fontTile('rika', 'Rika (El yazısı)', 'الرقعة — El yazması hat'),
-          _fontTile('matbu', 'Matbu (Basılı)', 'المطبوع — Kitap ve matbaa hattı'),
+          _fontTile('rika', 'Rika (El yazÄ±sÄ±)', 'Ø§Ù„Ø±Ù‚Ø¹Ø© â€” El yazmasÄ± hat'),
+          _fontTile(
+              'matbu', 'Matbu (BasÄ±lÄ±)', 'Ø§Ù„Ù…Ø·Ø¨ÙˆØ¹ â€” Kitap ve matbaa hattÄ±'),
           const SizedBox(height: 24),
           _previewCard(),
           const SizedBox(height: 20),
@@ -194,7 +360,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
     return Container(
       margin: const EdgeInsets.only(bottom: 8),
       decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(14),
+        borderRadius: BorderRadius.circular(14),
         border: active
             ? Border.all(color: _navy, width: 2)
             : Border.all(color: Colors.transparent, width: 2),
@@ -248,7 +414,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
     return Container(
       margin: const EdgeInsets.only(bottom: 8),
       decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(14),
+        borderRadius: BorderRadius.circular(14),
         border: active
             ? Border.all(color: _gold, width: 2)
             : Border.all(color: Colors.transparent, width: 2),
@@ -263,7 +429,8 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
             child: Row(
               children: [
                 Container(
-                  width: 50, height: 50,
+                  width: 50,
+                  height: 50,
                   decoration: BoxDecoration(
                     gradient: const LinearGradient(
                       colors: [_navy, Color(0xFF05132B)],
@@ -274,7 +441,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
                   ),
                   child: Center(
                     child: Text(
-                      'بسم',
+                      'Ø¨Ø³Ù…',
                       style: TextStyle(
                         fontFamily: id == 'rika' ? 'Rika' : 'Matbu',
                         color: _gold,
@@ -337,7 +504,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
             children: const [
               Icon(Icons.visibility_rounded, color: _gold, size: 18),
               SizedBox(width: 8),
-              Text('ÖNİZLEME',
+              Text('Ã–NÄ°ZLEME',
                   style: TextStyle(
                       color: _gold,
                       fontSize: 11,
@@ -349,7 +516,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
           Directionality(
             textDirection: TextDirection.rtl,
             child: Text(
-              'بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ',
+              'Ø¨ÙØ³Ù’Ù…Ù Ø§Ù„Ù„ÙÙ‘Ù‡Ù Ø§Ù„Ø±ÙÙ‘Ø­Ù’Ù…ÙÙ†Ù Ø§Ù„Ø±ÙÙ‘Ø­ÙÙŠÙ…Ù',
               style: TextStyle(
                 fontFamily: fontFamily,
                 fontSize: 26,
@@ -360,7 +527,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
           ),
           const SizedBox(height: 12),
           Text(
-            'Rahmân ve Rahîm olan Allah\'ın adıyla',
+            'RahmÃ¢n ve RahÃ®m olan Allah\'Ä±n adÄ±yla',
             style: TextStyle(
               color: Colors.white.withValues(alpha: 0.7),
               fontSize: 13,
@@ -372,3 +539,4 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
     );
   }
 }
+

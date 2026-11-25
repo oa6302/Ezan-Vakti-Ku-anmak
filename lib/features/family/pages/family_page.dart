@@ -54,8 +54,8 @@ class _FamilyPageState extends State<FamilyPage> {
       context: context,
       builder: (ctx) => StatefulBuilder(
         builder: (ctx, setSt) => AlertDialog(
-          shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20)),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
           title: const Text('Çocuk Ekle'),
           content: SingleChildScrollView(
             child: Column(
@@ -74,14 +74,13 @@ class _FamilyPageState extends State<FamilyPage> {
                                     : Colors.transparent,
                                 borderRadius: BorderRadius.circular(10),
                                 border: Border.all(
-                                  color: emoji == e
-                                      ? _gold
-                                      : Colors.transparent,
+                                  color:
+                                      emoji == e ? _gold : Colors.transparent,
                                   width: 2,
                                 ),
                               ),
-                              child: Text(e,
-                                  style: const TextStyle(fontSize: 26)),
+                              child:
+                                  Text(e, style: const TextStyle(fontSize: 26)),
                             ),
                           ))
                       .toList(),
@@ -145,8 +144,7 @@ class _FamilyPageState extends State<FamilyPage> {
     final ok = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
-        shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(18)),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
         title: Text('${c.name} silinsin mi?'),
         content: const Text('Bu çocuğun tüm ilerleme kayıtları silinecek.'),
         actions: [
@@ -226,7 +224,8 @@ class _FamilyPageState extends State<FamilyPage> {
       child: Row(
         children: [
           Container(
-            width: 56, height: 56,
+            width: 56,
+            height: 56,
             decoration: BoxDecoration(
               color: Colors.white.withValues(alpha: 0.12),
               shape: BoxShape.circle,
@@ -272,21 +271,17 @@ class _FamilyPageState extends State<FamilyPage> {
               color: _gold.withValues(alpha: 0.12),
               shape: BoxShape.circle,
             ),
-            child: const Icon(Icons.child_care_rounded,
-                color: _gold, size: 42),
+            child: const Icon(Icons.child_care_rounded, color: _gold, size: 42),
           ),
           const SizedBox(height: 16),
           const Text('Henüz çocuk eklenmedi',
               style: TextStyle(
-                  color: _navy,
-                  fontSize: 15,
-                  fontWeight: FontWeight.w900)),
+                  color: _navy, fontSize: 15, fontWeight: FontWeight.w900)),
           const SizedBox(height: 8),
           const Text(
             'Çocuğunu ekle, adım adım namaz öğrenmesini takip et. 9 basit adım.',
             textAlign: TextAlign.center,
-            style: TextStyle(
-                color: Colors.black54, fontSize: 12, height: 1.5),
+            style: TextStyle(color: Colors.black54, fontSize: 12, height: 1.5),
           ),
         ],
       ),
@@ -295,7 +290,8 @@ class _FamilyPageState extends State<FamilyPage> {
 
   Widget _childCard(Child c) {
     final done = _completed[c.id] ?? 0;
-    final total = ContentService.instance.getPool(ContentType.cocukDersi).length;
+    final total =
+        ContentService.instance.getPool(ContentType.cocukDersi).length;
     final progress = total == 0 ? 0.0 : done / total;
     return Container(
       margin: const EdgeInsets.only(bottom: 10),
@@ -324,14 +320,15 @@ class _FamilyPageState extends State<FamilyPage> {
                 Row(
                   children: [
                     Container(
-                      width: 52, height: 52,
+                      width: 52,
+                      height: 52,
                       decoration: BoxDecoration(
                         color: _gold.withValues(alpha: 0.12),
                         borderRadius: BorderRadius.circular(14),
                       ),
                       child: Center(
-                        child: Text(c.emoji,
-                            style: const TextStyle(fontSize: 28)),
+                        child:
+                            Text(c.emoji, style: const TextStyle(fontSize: 28)),
                       ),
                     ),
                     const SizedBox(width: 14),
@@ -368,7 +365,8 @@ class _FamilyPageState extends State<FamilyPage> {
                           value: progress,
                           minHeight: 8,
                           backgroundColor: const Color(0xFFE9EEF5),
-                          valueColor: const AlwaysStoppedAnimation<Color>(_green),
+                          valueColor:
+                              const AlwaysStoppedAnimation<Color>(_green),
                         ),
                       ),
                     ),

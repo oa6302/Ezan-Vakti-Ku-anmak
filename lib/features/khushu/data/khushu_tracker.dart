@@ -14,18 +14,18 @@ class KhushuEntry {
   });
 
   Map<String, dynamic> toJson() => {
-    'date': date,
-    'vakit': vakit,
-    'level': level,
-    'timestamp': timestamp.toIso8601String(),
-  };
+        'date': date,
+        'vakit': vakit,
+        'level': level,
+        'timestamp': timestamp.toIso8601String(),
+      };
 
   factory KhushuEntry.fromJson(Map<String, dynamic> json) => KhushuEntry(
-    date: json['date'] as String,
-    vakit: json['vakit'] as String,
-    level: json['level'] as int,
-    timestamp: DateTime.parse(json['timestamp'] as String),
-  );
+        date: json['date'] as String,
+        vakit: json['vakit'] as String,
+        level: json['level'] as int,
+        timestamp: DateTime.parse(json['timestamp'] as String),
+      );
 }
 
 class KhushuTracker {
@@ -77,7 +77,8 @@ class KhushuTracker {
     final today = DateTime.now();
     for (var i = days - 1; i >= 0; i--) {
       final d = today.subtract(Duration(days: i));
-      final key = '${d.year}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
+      final key =
+          '${d.year}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
       final dayEntries = list.where((e) => e.date == key).toList();
       if (dayEntries.isEmpty) {
         result.add(0);

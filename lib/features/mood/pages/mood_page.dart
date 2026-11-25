@@ -58,9 +58,7 @@ class _MoodPageState extends State<MoodPage> {
       body: ListenableBuilder(
         listenable: ContentService.instance,
         builder: (context, _) {
-          return _selected == null
-              ? _picker()
-              : _suggestions(_selected!);
+          return _selected == null ? _picker() : _suggestions(_selected!);
         },
       ),
     );
@@ -128,7 +126,8 @@ class _MoodPageState extends State<MoodPage> {
       child: Row(
         children: [
           Container(
-            width: 56, height: 56,
+            width: 56,
+            height: 56,
             decoration: BoxDecoration(
               color: Colors.white.withValues(alpha: 0.12),
               shape: BoxShape.circle,
@@ -148,7 +147,7 @@ class _MoodPageState extends State<MoodPage> {
                         fontSize: 18,
                         fontWeight: FontWeight.w900)),
                 SizedBox(height: 4),
-                Text('Kalbin ne soyluyorsa, ona uygun rehberlik.',
+                Text('Kalbin ne söylüyorsa, ona uygun rehberlik.',
                     style: TextStyle(color: Colors.white70, fontSize: 12)),
               ],
             ),
@@ -180,7 +179,8 @@ class _MoodPageState extends State<MoodPage> {
                 child: Row(
                   children: [
                     Container(
-                      width: 52, height: 52,
+                      width: 52,
+                      height: 52,
                       decoration: BoxDecoration(
                         color: color.withValues(alpha: 0.12),
                         borderRadius: BorderRadius.circular(14),
@@ -221,7 +221,9 @@ class _MoodPageState extends State<MoodPage> {
         Positioned(
           top: 4,
           right: 4,
-          child: Row(mainAxisSize: MainAxisSize.min, children: [FavoriteButton(item: m), AdminEditOverlay(item: m)]),
+          child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [FavoriteButton(item: m), AdminEditOverlay(item: m)]),
         ),
       ],
     );
@@ -270,7 +272,8 @@ class _MoodPageState extends State<MoodPage> {
       child: Row(
         children: [
           Container(
-            width: 56, height: 56,
+            width: 56,
+            height: 56,
             decoration: BoxDecoration(
               color: Colors.white.withValues(alpha: 0.15),
               shape: BoxShape.circle,
@@ -294,8 +297,8 @@ class _MoodPageState extends State<MoodPage> {
                         fontWeight: FontWeight.w900)),
                 const SizedBox(height: 4),
                 Text('$count oneri',
-                    style: const TextStyle(
-                        color: Colors.white70, fontSize: 12)),
+                    style:
+                        const TextStyle(color: Colors.white70, fontSize: 12)),
               ],
             ),
           ),
@@ -333,8 +336,8 @@ class _MoodPageState extends State<MoodPage> {
               Row(
                 children: [
                   Container(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 10, vertical: 4),
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                     decoration: BoxDecoration(
                       color: color.withValues(alpha: 0.12),
                       borderRadius: BorderRadius.circular(8),

@@ -8,29 +8,59 @@ class AssistantMatch {
 
 class AssistantEngine {
   static String normalize(String s) {
-    return s.toLowerCase()
-        .replaceAll('â', 'a').replaceAll('î', 'i').replaceAll('û', 'u')
-        .replaceAll('ç', 'c').replaceAll('ğ', 'g').replaceAll('ı', 'i')
-        .replaceAll('ö', 'o').replaceAll('ş', 's').replaceAll('ü', 'u')
+    return s
+        .toLowerCase()
+        .replaceAll('â', 'a')
+        .replaceAll('î', 'i')
+        .replaceAll('û', 'u')
+        .replaceAll('ç', 'c')
+        .replaceAll('ğ', 'g')
+        .replaceAll('ı', 'i')
+        .replaceAll('ö', 'o')
+        .replaceAll('ş', 's')
+        .replaceAll('ü', 'u')
         .replaceAll(RegExp(r'[^\w\s]'), ' ')
         .replaceAll(RegExp(r'\s+'), ' ')
         .trim();
   }
 
   static const _stop = {
-    've', 'ile', 'bir', 'bu', 'su', 'o', 'ne', 'nasil', 'nedir',
-    'icin', 'da', 'de', 'ki', 'mi', 'mu', 'mı', 'mü', 'ise',
-    'the', 'a', 'an', 'and', 'or', 'to', 'of', 'in', 'is', 'it',
+    've',
+    'ile',
+    'bir',
+    'bu',
+    'su',
+    'o',
+    'ne',
+    'nasil',
+    'nedir',
+    'icin',
+    'da',
+    'de',
+    'ki',
+    'mi',
+    'mu',
+    'mı',
+    'mü',
+    'ise',
+    'the',
+    'a',
+    'an',
+    'and',
+    'or',
+    'to',
+    'of',
+    'in',
+    'is',
+    'it',
   };
 
   static List<AssistantMatch> search(String query, List<ContentItem> items) {
     final q = normalize(query);
     if (q.isEmpty) return [];
 
-    final words = q
-        .split(' ')
-        .where((w) => w.length > 2 && !_stop.contains(w))
-        .toList();
+    final words =
+        q.split(' ').where((w) => w.length > 2 && !_stop.contains(w)).toList();
     if (words.isEmpty) return [];
 
     final results = <AssistantMatch>[];
@@ -68,11 +98,13 @@ class AssistantEngine {
   }
 
   static const Map<String, String> _hazir = {
-    'namaz': 'Namaz hakkında detaylı bilgiye "Namaz Öğren" bölümünden ulaşabilirsin.',
-    'abdest': 'Abdest alınışı "Namaz Öğren → Abdest" bölümünde adım adım anlatılmıştır.',
+    'namaz':
+        'Namaz hakkında detaylı bilgiye "Namaz Öğren" bölümünden ulaşabilirsin.',
+    'abdest':
+        'Abdest alınışı "Namaz Öğren → Abdest" bölümünde adım adım anlatılmıştır.',
     'kuran': 'Kur\'an okumak için "Kütüphane → Kısa Sureler" bölümünü kullan.',
     'vakit': 'Namaz vakitleri ana sayfadaki vakit çizelgesinde gösterilir.',
-    'kible': 'Kıble yönü için ana sayfa → Hızlı Erişim → Kıble.',
+    'Kıble': 'Kıble yönü için ana sayfa → Hızlı Erişim → Kıble.',
   };
 
   static String? hazirCevap(String query) {
