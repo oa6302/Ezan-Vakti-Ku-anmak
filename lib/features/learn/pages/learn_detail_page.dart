@@ -83,7 +83,8 @@ class LearnDetailPage extends StatelessWidget {
           Row(
             children: [
               Container(
-                width: 34, height: 34,
+                width: 34,
+                height: 34,
                 decoration: BoxDecoration(
                   gradient: const LinearGradient(
                     colors: [_navy, Color(0xFF1A3A5C)],
@@ -113,9 +114,7 @@ class LearnDetailPage extends StatelessWidget {
           const SizedBox(height: 12),
           Text(s.metin,
               style: const TextStyle(
-                  color: Colors.black87,
-                  fontSize: 13.5,
-                  height: 1.7)),
+                  color: Colors.black87, fontSize: 13.5, height: 1.7)),
           if (s.kaynak.isNotEmpty) ...[
             const SizedBox(height: 12),
             Container(

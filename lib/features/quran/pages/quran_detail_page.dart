@@ -66,7 +66,9 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
         actions: [
           IconButton(
             icon: Icon(
-              _isFavorite ? Icons.bookmark_rounded : Icons.bookmark_border_rounded,
+              _isFavorite
+                  ? Icons.bookmark_rounded
+                  : Icons.bookmark_border_rounded,
               color: _isFavorite ? _red : _navy,
             ),
             onPressed: _toggleFav,
@@ -121,7 +123,9 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
                 ),
                 child: Text('${s.numarasi}',
                     style: const TextStyle(
-                        color: _gold, fontSize: 16, fontWeight: FontWeight.w900)),
+                        color: _gold,
+                        fontSize: 16,
+                        fontWeight: FontWeight.w900)),
               ),
               const SizedBox(width: 12),
               Expanded(
@@ -135,7 +139,8 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
                             fontWeight: FontWeight.w900)),
                     const SizedBox(height: 2),
                     Text(s.anlami,
-                        style: const TextStyle(color: Colors.white70, fontSize: 12)),
+                        style: const TextStyle(
+                            color: Colors.white70, fontSize: 12)),
                   ],
                 ),
               ),
@@ -166,8 +171,7 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
         children: [
           Icon(icon, color: Colors.white70, size: 13),
           const SizedBox(width: 5),
-          Text(text,
-              style: const TextStyle(color: Colors.white, fontSize: 11)),
+          Text(text, style: const TextStyle(color: Colors.white, fontSize: 11)),
         ],
       ),
     );
@@ -185,7 +189,8 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
           const Icon(Icons.text_fields_rounded, color: _navy, size: 18),
           const SizedBox(width: 10),
           const Text('Yazı boyutu',
-              style: TextStyle(color: _navy, fontSize: 13, fontWeight: FontWeight.w700)),
+              style: TextStyle(
+                  color: _navy, fontSize: 13, fontWeight: FontWeight.w700)),
           const Spacer(),
           IconButton(
             icon: const Icon(Icons.remove_rounded, color: _navy),
@@ -314,9 +319,7 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
           const SizedBox(height: 12),
           Text(s.meal,
               style: TextStyle(
-                  fontSize: _fontSize - 1,
-                  color: Colors.black87,
-                  height: 1.8)),
+                  fontSize: _fontSize - 1, color: Colors.black87, height: 1.8)),
         ],
       ),
     );
@@ -337,8 +340,8 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
           const SizedBox(width: 10),
           Expanded(
             child: Text(s.fazilet,
-                style: const TextStyle(
-                    color: _navy, fontSize: 12, height: 1.5)),
+                style:
+                    const TextStyle(color: _navy, fontSize: 12, height: 1.5)),
           ),
         ],
       ),

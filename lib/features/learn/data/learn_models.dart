@@ -10,11 +10,11 @@ class LearnStep {
     required this.kaynak,
   });
   factory LearnStep.fromJson(Map<String, dynamic> j) => LearnStep(
-    sira: j['sira'] as int? ?? 0,
-    baslik: j['baslik'] as String? ?? '',
-    metin: j['metin'] as String? ?? '',
-    kaynak: j['kaynak'] as String? ?? '',
-  );
+        sira: j['sira'] as int? ?? 0,
+        baslik: j['baslik'] as String? ?? '',
+        metin: j['metin'] as String? ?? '',
+        kaynak: j['kaynak'] as String? ?? '',
+      );
 }
 
 class LearnSection {
@@ -29,11 +29,11 @@ class LearnSection {
     required this.adimlar,
   });
   factory LearnSection.fromJson(Map<String, dynamic> j) => LearnSection(
-    id: j['id'] as String? ?? '',
-    baslik: j['baslik'] as String? ?? '',
-    altbaslik: j['altbaslik'] as String? ?? '',
-    adimlar: (j['adimlar'] as List<dynamic>? ?? [])
-        .map((e) => LearnStep.fromJson(e as Map<String, dynamic>))
-        .toList(),
-  );
+        id: j['id'] as String? ?? '',
+        baslik: j['baslik'] as String? ?? '',
+        altbaslik: j['altbaslik'] as String? ?? '',
+        adimlar: (j['adimlar'] as List<dynamic>? ?? [])
+            .map((e) => LearnStep.fromJson(e as Map<String, dynamic>))
+            .toList(),
+      );
 }

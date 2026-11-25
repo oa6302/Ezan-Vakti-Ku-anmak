@@ -33,9 +33,8 @@ class _QuranFullPageState extends State<QuranFullPage> {
     setState(() {
       _chapters = list;
       _loading = false;
-      _error = list.isEmpty
-          ? 'Baglanti kurulamadi. Interneti kontrol edin.'
-          : null;
+      _error =
+          list.isEmpty ? 'Baglanti kurulamadi. Interneti kontrol edin.' : null;
     });
   }
 
@@ -113,7 +112,8 @@ class _QuranFullPageState extends State<QuranFullPage> {
           child: Row(
             children: [
               Container(
-                width: 44, height: 44,
+                width: 44,
+                height: 44,
                 decoration: BoxDecoration(
                   gradient: const LinearGradient(
                     colors: [_navy, Color(0xFF05132B)],

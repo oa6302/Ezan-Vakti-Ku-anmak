@@ -154,8 +154,7 @@ class _QuranFullDetailPageState extends State<QuranFullDetailPage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 8, vertical: 3),
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
                 decoration: BoxDecoration(
                   color: _gold.withValues(alpha: 0.15),
                   borderRadius: BorderRadius.circular(6),

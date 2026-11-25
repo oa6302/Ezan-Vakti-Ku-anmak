@@ -38,7 +38,8 @@ class _LearnPageState extends State<LearnPage> {
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
         title: const Text('Namaz Öğren',
-            style: TextStyle(color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
+            style: TextStyle(
+                color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
@@ -70,7 +71,8 @@ class _LearnPageState extends State<LearnPage> {
       child: Row(
         children: [
           Container(
-            width: 52, height: 52,
+            width: 52,
+            height: 52,
             decoration: BoxDecoration(
               color: Colors.white.withValues(alpha: 0.1),
               shape: BoxShape.circle,
@@ -126,7 +128,8 @@ class _LearnPageState extends State<LearnPage> {
                     color: _navy.withValues(alpha: 0.08),
                     borderRadius: BorderRadius.circular(12),
                   ),
-                  child: const Icon(Icons.article_outlined, color: _navy, size: 22),
+                  child: const Icon(Icons.article_outlined,
+                      color: _navy, size: 22),
                 ),
                 const SizedBox(width: 14),
                 Expanded(

@@ -12,7 +12,8 @@ class LearnService {
   Future<List<LearnSection>> load() async {
     if (_cache != null) return _cache!;
     try {
-      final raw = await rootBundle.loadString('assets/content/namaz_ogrenme.json');
+      final raw =
+          await rootBundle.loadString('assets/content/namaz_ogrenme.json');
       final map = jsonDecode(raw) as Map<String, dynamic>;
       final list = (map['bolumler'] as List<dynamic>)
           .map((e) => LearnSection.fromJson(e as Map<String, dynamic>))

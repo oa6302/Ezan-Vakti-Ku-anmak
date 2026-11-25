@@ -39,7 +39,8 @@ class _QuranPageState extends State<QuranPage> {
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
         title: const Text('Kur\'an Kütüphanesi',
-            style: TextStyle(color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
+            style: TextStyle(
+                color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
@@ -88,7 +89,8 @@ class _QuranPageState extends State<QuranPage> {
           child: Row(
             children: [
               Container(
-                width: 56, height: 56,
+                width: 56,
+                height: 56,
                 decoration: BoxDecoration(
                   color: Colors.white.withValues(alpha: 0.15),
                   shape: BoxShape.circle,
@@ -109,13 +111,13 @@ class _QuranPageState extends State<QuranPage> {
                             fontWeight: FontWeight.w900)),
                     SizedBox(height: 4),
                     Text('114 sure - Arapca + Diyanet Meali',
-                        style: TextStyle(
-                            color: Colors.white70, fontSize: 11)),
+                        style: TextStyle(color: Colors.white70, fontSize: 11)),
                   ],
                 ),
               ),
               Container(
-                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
                 decoration: BoxDecoration(
                   color: _gold,
                   borderRadius: BorderRadius.circular(20),
@@ -155,7 +157,8 @@ class _QuranPageState extends State<QuranPage> {
       child: Row(
         children: [
           Container(
-            width: 52, height: 52,
+            width: 52,
+            height: 52,
             decoration: BoxDecoration(
               color: Colors.white.withValues(alpha: 0.1),
               shape: BoxShape.circle,
@@ -198,7 +201,8 @@ class _QuranPageState extends State<QuranPage> {
                   color: _navy.withValues(alpha: 0.08),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: const Icon(Icons.auto_stories_rounded, color: _navy, size: 18),
+                child: const Icon(Icons.auto_stories_rounded,
+                    color: _navy, size: 18),
               ),
               const SizedBox(width: 10),
               Expanded(
@@ -207,21 +211,27 @@ class _QuranPageState extends State<QuranPage> {
                   children: [
                     Text(k.baslik,
                         style: const TextStyle(
-                            color: _navy, fontSize: 15, fontWeight: FontWeight.w900)),
+                            color: _navy,
+                            fontSize: 15,
+                            fontWeight: FontWeight.w900)),
                     Text(k.altbaslik,
-                        style: const TextStyle(color: Colors.black54, fontSize: 11)),
+                        style: const TextStyle(
+                            color: Colors.black54, fontSize: 11)),
                   ],
                 ),
               ),
               Container(
-                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                 decoration: BoxDecoration(
                   color: _red.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Text('${k.sureler.length} sure',
                     style: const TextStyle(
-                        color: _red, fontSize: 11, fontWeight: FontWeight.w800)),
+                        color: _red,
+                        fontSize: 11,
+                        fontWeight: FontWeight.w800)),
               ),
             ],
           ),
@@ -251,7 +261,8 @@ class _QuranPageState extends State<QuranPage> {
             child: Row(
               children: [
                 Container(
-                  width: 46, height: 46,
+                  width: 46,
+                  height: 46,
                   decoration: BoxDecoration(
                     gradient: const LinearGradient(
                       colors: [_navy, Color(0xFF1A3A5C)],
@@ -281,13 +292,15 @@ class _QuranPageState extends State<QuranPage> {
                       const SizedBox(height: 3),
                       Row(
                         children: [
-                          Icon(Icons.circle, size: 4, color: _red.withValues(alpha: 0.7)),
+                          Icon(Icons.circle,
+                              size: 4, color: _red.withValues(alpha: 0.7)),
                           const SizedBox(width: 6),
                           Text('${s.ayetSayisi} âyet · ${s.inisYeri}',
                               style: const TextStyle(
                                   color: Colors.black54, fontSize: 11)),
                           const SizedBox(width: 6),
-                          Icon(Icons.circle, size: 4, color: _red.withValues(alpha: 0.7)),
+                          Icon(Icons.circle,
+                              size: 4, color: _red.withValues(alpha: 0.7)),
                           const SizedBox(width: 6),
                           Flexible(
                             child: Text(s.anlami,

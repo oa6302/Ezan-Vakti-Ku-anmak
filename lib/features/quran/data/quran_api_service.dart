@@ -27,7 +27,8 @@ class QuranApiService {
     try {
       final res = await http.get(Uri.parse('$_base/chapters?language=tr'));
       if (res.statusCode != 200) return [];
-      final data = jsonDecode(utf8.decode(res.bodyBytes)) as Map<String, dynamic>;
+      final data =
+          jsonDecode(utf8.decode(res.bodyBytes)) as Map<String, dynamic>;
       final list = (data['chapters'] as List)
           .map((e) => ApiChapter.fromJson(Map<String, dynamic>.from(e)))
           .toList();
@@ -42,7 +43,8 @@ class QuranApiService {
     }
   }
 
-  Future<List<ApiVerse>> fetchVerses(int chapter, {bool forceRefresh = false}) async {
+  Future<List<ApiVerse>> fetchVerses(int chapter,
+      {bool forceRefresh = false}) async {
     final prefs = await SharedPreferences.getInstance();
     final key = '$_versesPrefix$chapter';
     if (!forceRefresh) {
@@ -63,12 +65,15 @@ class QuranApiService {
         '$_base/quran/verses/uthmani?chapter_number=$chapter',
         '$_base/quran/translations/$_translationId?chapter_number=$chapter',
       ];
-      final results = await Future.wait(urls.map((u) => http.get(Uri.parse(u))));
+      final results =
+          await Future.wait(urls.map((u) => http.get(Uri.parse(u))));
       if (results[0].statusCode != 200 || results[1].statusCode != 200) {
         return [];
       }
-      final arData = jsonDecode(utf8.decode(results[0].bodyBytes)) as Map<String, dynamic>;
-      final trData = jsonDecode(utf8.decode(results[1].bodyBytes)) as Map<String, dynamic>;
+      final arData =
+          jsonDecode(utf8.decode(results[0].bodyBytes)) as Map<String, dynamic>;
+      final trData =
+          jsonDecode(utf8.decode(results[1].bodyBytes)) as Map<String, dynamic>;
       final arList = arData['verses'] as List;
       final trList = trData['translations'] as List;
       final n = arList.length < trList.length ? arList.length : trList.length;
@@ -81,7 +86,8 @@ class QuranApiService {
           verseNumber: i + 1,
         ));
       }
-      await prefs.setString(key, jsonEncode(verses.map((e) => e.toJson()).toList()));
+      await prefs.setString(
+          key, jsonEncode(verses.map((e) => e.toJson()).toList()));
       return verses;
     } catch (e) {
       debugPrint('fetchVerses: $e');

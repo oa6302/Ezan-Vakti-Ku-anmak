@@ -1,267 +1,329 @@
 import 'package:flutter/material.dart';
-import 'package:nur_pusulasi/app/content_service.dart';
-import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
-import 'package:nur_pusulasi/widgets/favorite_button.dart';
-import 'package:nur_pusulasi/features/kissa/pages/kissa_detail_page.dart';
-
-const _navy = Color(0xFF0A1F44);
-const _gold = Color(0xFFC9A961);
-const _borderSoft = Color(0xFFE9EEF5);
+import 'package:nur_pusulasi/features/kissa/widgets/kissa_paylasim_butonlari.dart';
+import 'package:nur_pusulasi/data/islami_kissalar.dart';
 
 class KissaKutuphanesiPage extends StatefulWidget {
   const KissaKutuphanesiPage({super.key});
+
   @override
   State<KissaKutuphanesiPage> createState() => _KissaKutuphanesiPageState();
 }
 
 class _KissaKutuphanesiPageState extends State<KissaKutuphanesiPage> {
-  final _search = TextEditingController();
+  final TextEditingController _searchController = TextEditingController();
   String _query = '';
-  int _kategori = 0;
-
-  static const _kategoriler = [
-    'Tumu',
-    'Peygamberler',
-    'Siyer',
-    'Kadin Sahabiler',
-    'Genc Sahabiler',
-    'Sahabe',
-  ];
-
-  List<ContentItem> _liste() {
-    final all = ContentService.instance.getPool(ContentType.kissa);
-    switch (_kategori) {
-      case 1:
-        return all.where((k) => k.id.startsWith('peyg_')).toList();
-      case 2:
-        return all.where((k) => k.id.startsWith('siyer_')).toList();
-      case 3:
-        return all.where((k) => k.id.startsWith('kadin_')).toList();
-      case 4:
-        return all.where((k) => k.id.startsWith('genc_')).toList();
-      case 5:
-        return all
-            .where((k) =>
-                k.id.startsWith('kissa_') ||
-                k.id.startsWith('k6_') ||
-                k.id.startsWith('k7_'))
-            .toList();
-      default:
-        return all;
-    }
-  }
-
-  List<ContentItem> _filtreli() {
-    final q = _query.toLowerCase().trim();
-    if (q.isEmpty) return _liste();
-    return _liste().where((k) {
-      return k.baslik.toLowerCase().contains(q) ||
-          k.icerik.toLowerCase().contains(q) ||
-          (k.kaynak ?? '').toLowerCase().contains(q);
-    }).toList();
-  }
 
   @override
   void dispose() {
-    _search.dispose();
+    _searchController.dispose();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    return ListenableBuilder(
-      listenable: ContentService.instance,
-      builder: (context, _) {
-        final liste = _filtreli();
-        return Scaffold(
-          backgroundColor: const Color(0xFFF3F6FA),
-          appBar: AppBar(
-            title: const Text('Kissa Kutuphanesi',
-                style: TextStyle(
-                    color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
+    final q = _query.toLowerCase().trim();
+    final items = islamiKissalar.where((kissa) {
+      if (q.isEmpty) return true;
+      return kissa.baslik.toLowerCase().contains(q) ||
+          kissa.kaynak.toLowerCase().contains(q) ||
+          kissa.metin.toLowerCase().contains(q) ||
+          kissa.hisse.toLowerCase().contains(q) ||
+          kissa.anahtarKelimeler.any(
+            (word) => word.toLowerCase().contains(q),
+          );
+    }).toList();
+
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Kıssa Kütüphanesi'),
+        centerTitle: true,
+      ),
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 12, 16, 8),
+            child: TextField(
+              controller: _searchController,
+              onChanged: (value) => setState(() => _query = value),
+              decoration: InputDecoration(
+                hintText: 'Kıssa, konu veya kaynak ara...',
+                prefixIcon: const Icon(Icons.search_rounded),
+                suffixIcon: _query.isEmpty
+                    ? null
+                    : IconButton(
+                        icon: const Icon(Icons.close_rounded),
+                        onPressed: () {
+                          _searchController.clear();
+                          setState(() => _query = '');
+                        },
+                      ),
+                filled: true,
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(16),
+                  borderSide: BorderSide.none,
+                ),
+              ),
+            ),
           ),
-          body: Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.fromLTRB(14, 12, 14, 8),
-                child: TextField(
-                  controller: _search,
-                  onChanged: (v) => setState(() => _query = v),
-                  decoration: InputDecoration(
-                    hintText: 'Kissa ara...',
-                    prefixIcon: const Icon(Icons.search_rounded, color: _navy),
-                    suffixIcon: _query.isEmpty
-                        ? null
-                        : IconButton(
-                            icon: const Icon(Icons.close_rounded),
-                            onPressed: () {
-                              _search.clear();
-                              setState(() => _query = '');
-                            },
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 5),
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: Text(
+                '${items.length} kıssa bulundu',
+                style: Theme.of(context).textTheme.bodySmall,
+              ),
+            ),
+          ),
+          Expanded(
+            child: items.isEmpty
+                ? const Center(
+                    child: Text('Aramanızla eşleşen kıssa bulunamadı.'),
+                  )
+                : ListView.separated(
+                    padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
+                    itemCount: items.length,
+                    separatorBuilder: (_, __) => const SizedBox(height: 10),
+                    itemBuilder: (context, index) {
+                      final kissa = items[index];
+                      return Card(
+                        elevation: 1,
+                        clipBehavior: Clip.antiAlias,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(18),
+                        ),
+                        child: ListTile(
+                          contentPadding: const EdgeInsets.symmetric(
+                            horizontal: 16,
+                            vertical: 10,
                           ),
-                    filled: true,
-                    fillColor: Colors.white,
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(14),
-                      borderSide: BorderSide.none,
-                    ),
+                          leading: CircleAvatar(
+                            radius: 25,
+                            backgroundColor: kissa.renk.withValues(alpha: 0.12),
+                            child: Icon(kissa.ikon, color: kissa.renk),
+                          ),
+                          title: Text(
+                            kissa.baslik,
+                            style: const TextStyle(
+                              fontWeight: FontWeight.w800,
+                            ),
+                          ),
+                          subtitle: Padding(
+                            padding: const EdgeInsets.only(top: 6),
+                            child: Text(
+                              kissa.ozet.isNotEmpty ? kissa.ozet : kissa.kaynak,
+                              maxLines: 2,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                          trailing: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              KissaPaylasimButonlari(kissa: kissa),
+                              const Icon(Icons.chevron_right_rounded),
+                            ],
+                          ),
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => KissaDetayPage(kissa: kissa),
+                              ),
+                            );
+                          },
+                        ),
+                      );
+                    },
                   ),
-                ),
-              ),
-              SizedBox(
-                height: 42,
-                child: ListView.separated(
-                  scrollDirection: Axis.horizontal,
-                  padding: const EdgeInsets.symmetric(horizontal: 14),
-                  itemCount: _kategoriler.length,
-                  separatorBuilder: (_, __) => const SizedBox(width: 8),
-                  itemBuilder: (_, i) {
-                    final secili = _kategori == i;
-                    return ChoiceChip(
-                      label: Text(_kategoriler[i]),
-                      selected: secili,
-                      onSelected: (_) => setState(() => _kategori = i),
-                      selectedColor: _navy,
-                      labelStyle: TextStyle(
-                        color: secili ? Colors.white : _navy,
-                        fontWeight: FontWeight.w700,
-                        fontSize: 12,
-                      ),
-                      backgroundColor: Colors.white,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20),
-                        side: BorderSide(
-                          color: secili ? _navy : _borderSoft,
-                        ),
-                      ),
-                      showCheckmark: false,
-                    );
-                  },
-                ),
-              ),
-              const SizedBox(height: 8),
-              Expanded(
-                child: liste.isEmpty
-                    ? const Center(
-                        child: Text('Kissa bulunamadi',
-                            style: TextStyle(color: Colors.black54)),
-                      )
-                    : ListView.separated(
-                        padding: const EdgeInsets.fromLTRB(14, 4, 14, 24),
-                        itemCount: liste.length,
-                        separatorBuilder: (_, __) => const SizedBox(height: 10),
-                        itemBuilder: (_, i) => _KissaTile(
-                          k: liste[i],
-                          onChanged: () => setState(() {}),
-                        ),
-                      ),
-              ),
-            ],
           ),
-        );
-      },
+        ],
+      ),
     );
   }
 }
 
-class _KissaTile extends StatelessWidget {
-  final ContentItem k;
-  final VoidCallback? onChanged;
-  const _KissaTile({required this.k, this.onChanged});
+class KissaDetayPage extends StatelessWidget {
+  final Kissa kissa;
+
+  const KissaDetayPage({super.key, required this.kissa});
+
+  Widget _bolum({
+    required BuildContext context,
+    required String baslik,
+    required String metin,
+    required IconData ikon,
+    required Color renk,
+  }) {
+    if (metin.trim().isEmpty) return const SizedBox.shrink();
+
+    return Container(
+      margin: const EdgeInsets.only(top: 12),
+      padding: const EdgeInsets.all(17),
+      decoration: BoxDecoration(
+        color: renk.withValues(alpha: 0.07),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: renk.withValues(alpha: 0.13)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Icon(ikon, color: renk, size: 21),
+              const SizedBox(width: 9),
+              Text(
+                baslik,
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      color: renk,
+                      fontWeight: FontWeight.w800,
+                    ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 10),
+          SelectableText(
+            metin,
+            style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                  height: 1.75,
+                ),
+          ),
+        ],
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
-    final renk = ContentService.instance.colorFor(k);
-    final ikon = ContentService.instance.iconFor(k);
-    return Stack(
-      children: [
-        Material(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(16),
-          child: InkWell(
-            borderRadius: BorderRadius.circular(16),
-            onTap: () => Navigator.push(
-              context,
-              MaterialPageRoute<void>(
-                  builder: (_) => KissaDetailPage(kissa: k)),
+    final theme = Theme.of(context);
+
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Kıssa ve Hikmet'),
+        actions: [KissaPaylasimButonlari(kissa: kissa)],
+      ),
+      body: ListView(
+        padding: const EdgeInsets.fromLTRB(18, 12, 18, 32),
+        children: [
+          Container(
+            padding: const EdgeInsets.all(22),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(24),
+              gradient: LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: [
+                  kissa.renk,
+                  Color.lerp(kissa.renk, Colors.black, 0.24)!,
+                ],
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: kissa.renk.withValues(alpha: 0.18),
+                  blurRadius: 18,
+                  offset: const Offset(0, 8),
+                ),
+              ],
             ),
-            child: Container(
-              padding: const EdgeInsets.all(14),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(16),
-                border: Border.all(color: _borderSoft),
-                boxShadow: [
-                  BoxShadow(
-                    color: _navy.withValues(alpha: 0.05),
-                    blurRadius: 12,
-                    offset: const Offset(0, 4),
+            child: Column(
+              children: [
+                Icon(kissa.ikon, color: const Color(0xFFE8C77A), size: 38),
+                const SizedBox(height: 14),
+                Text(
+                  kissa.baslik,
+                  textAlign: TextAlign.center,
+                  style: theme.textTheme.headlineSmall?.copyWith(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w900,
+                    height: 1.3,
                   ),
-                ],
-              ),
-              child: Row(
-                children: [
-                  Container(
-                    width: 48, height: 48,
-                    decoration: BoxDecoration(
-                      gradient: LinearGradient(
-                        colors: [
-                          renk.withValues(alpha: 0.18),
-                          renk.withValues(alpha: 0.05),
-                        ],
-                      ),
-                      shape: BoxShape.circle,
-                      border: Border.all(
-                          color: renk.withValues(alpha: 0.35), width: 1.5),
-                    ),
-                    child: Icon(ikon, color: renk, size: 22),
+                ),
+                const SizedBox(height: 10),
+                Text(
+                  kissa.kaynak,
+                  textAlign: TextAlign.center,
+                  style: theme.textTheme.bodySmall?.copyWith(
+                    color: Colors.white70,
                   ),
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(k.baslik,
-                            style: const TextStyle(
-                                color: _navy,
-                                fontSize: 14,
-                                fontWeight: FontWeight.w900),
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis),
-                        const SizedBox(height: 4),
-                        Row(
-                          children: [
-                            Icon(Icons.bookmark_outline_rounded,
-                                color: _gold.withValues(alpha: 0.8), size: 11),
-                            const SizedBox(width: 3),
-                            Expanded(
-                              child: Text(k.kaynak ?? '',
-                                  style: const TextStyle(
-                                      color: _gold,
-                                      fontSize: 10,
-                                      fontWeight: FontWeight.w700),
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ),
-                  const Icon(Icons.chevron_right_rounded,
-                      color: Colors.black26, size: 22),
-                ],
-              ),
+                ),
+              ],
             ),
           ),
-        ),
-        Positioned(top: 6, left: 6, child: FavoriteBadge(item: k, size: 16)),
-          Positioned(
-          top: 6,
-          right: 6,
-          child: AdminEditOverlay(item: k, onChanged: onChanged),
-        ),
-      ],
+          if (kissa.ozet.isNotEmpty) ...[
+            const SizedBox(height: 18),
+            _bolum(
+              context: context,
+              baslik: 'Kıssanın Özeti',
+              metin: kissa.ozet,
+              ikon: Icons.short_text_rounded,
+              renk: const Color(0xFF547A9D),
+            ),
+          ],
+          const SizedBox(height: 22),
+          Text(
+            'Hikâyenin akışı',
+            style: theme.textTheme.titleLarge?.copyWith(
+              fontWeight: FontWeight.w900,
+            ),
+          ),
+          const SizedBox(height: 10),
+          SelectableText(
+            kissa.metin,
+            style: theme.textTheme.bodyLarge?.copyWith(height: 1.9),
+          ),
+          _bolum(
+            context: context,
+            baslik: 'Hakikat',
+            metin: kissa.hakikat,
+            ikon: Icons.lightbulb_outline_rounded,
+            renk: const Color(0xFFB38A3E),
+          ),
+          _bolum(
+            context: context,
+            baslik: 'Fıtrat',
+            metin: kissa.fitrat,
+            ikon: Icons.spa_outlined,
+            renk: const Color(0xFF39866A),
+          ),
+          _bolum(
+            context: context,
+            baslik: 'İman',
+            metin: kissa.iman,
+            ikon: Icons.auto_awesome_rounded,
+            renk: const Color(0xFF526FA2),
+          ),
+          _bolum(
+            context: context,
+            baslik: 'Hayata yansıması',
+            metin: kissa.hayat,
+            ikon: Icons.volunteer_activism_outlined,
+            renk: const Color(0xFFAD7051),
+          ),
+          _bolum(
+            context: context,
+            baslik: 'Kıssadan hisse',
+            metin: kissa.hisse,
+            ikon: Icons.favorite_outline_rounded,
+            renk: kissa.renk,
+          ),
+          if (kissa.anahtarKelimeler.isNotEmpty) ...[
+            const SizedBox(height: 22),
+            Text(
+              'Konular',
+              style: theme.textTheme.titleMedium?.copyWith(
+                fontWeight: FontWeight.w800,
+              ),
+            ),
+            const SizedBox(height: 10),
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: kissa.anahtarKelimeler
+                  .map((word) => Chip(label: Text(word)))
+                  .toList(),
+            ),
+          ],
+        ],
+      ),
     );
   }
 }

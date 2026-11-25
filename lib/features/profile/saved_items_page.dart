@@ -73,8 +73,7 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
                     : ListView.separated(
                         padding: const EdgeInsets.fromLTRB(14, 4, 14, 24),
                         itemCount: list.length,
-                        separatorBuilder: (_, __) =>
-                            const SizedBox(height: 8),
+                        separatorBuilder: (_, __) => const SizedBox(height: 8),
                         itemBuilder: (_, i) => _favTile(list[i]),
                       ),
               ),
@@ -104,15 +103,13 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
             const SizedBox(height: 20),
             const Text('Henuz favori eklenmedi',
                 style: TextStyle(
-                    color: _navy,
-                    fontSize: 17,
-                    fontWeight: FontWeight.w900)),
+                    color: _navy, fontSize: 17, fontWeight: FontWeight.w900)),
             const SizedBox(height: 8),
             const Text(
               'Kartlardaki  📌  ikonuna dokunarak\nicerikleri buraya kaydedebilirsin.',
               textAlign: TextAlign.center,
-              style: TextStyle(
-                  color: Colors.black54, fontSize: 12, height: 1.6),
+              style:
+                  TextStyle(color: Colors.black54, fontSize: 12, height: 1.6),
             ),
           ],
         ),
@@ -181,9 +178,8 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
 
   Widget _filtreRow() {
     final counts = FavoritesService.instance.countsByType();
-    final types = ContentType.values
-        .where((t) => (counts[t] ?? 0) > 0)
-        .toList();
+    final types =
+        ContentType.values.where((t) => (counts[t] ?? 0) > 0).toList();
     return SizedBox(
       height: 40,
       child: ListView(
@@ -284,7 +280,8 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
           child: Row(
             children: [
               Container(
-                width: 42, height: 42,
+                width: 42,
+                height: 42,
                 decoration: BoxDecoration(
                   color: color.withValues(alpha: 0.12),
                   borderRadius: BorderRadius.circular(10),
@@ -330,9 +327,7 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: const TextStyle(
-                            color: Colors.black54,
-                            fontSize: 11,
-                            height: 1.4)),
+                            color: Colors.black54, fontSize: 11, height: 1.4)),
                   ],
                 ),
               ),
@@ -375,8 +370,8 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
               Row(
                 children: [
                   Container(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 8, vertical: 4),
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                     decoration: BoxDecoration(
                       color: _typeColor(f.type).withValues(alpha: 0.15),
                       borderRadius: BorderRadius.circular(6),
@@ -394,8 +389,8 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
                             color: Colors.black45, fontSize: 11)),
                   const Spacer(),
                   Text(_fmtDate(f.savedAt),
-                      style: const TextStyle(
-                          color: Colors.black45, fontSize: 10)),
+                      style:
+                          const TextStyle(color: Colors.black45, fontSize: 10)),
                 ],
               ),
               const SizedBox(height: 14),
@@ -420,8 +415,8 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
                 const SizedBox(height: 12),
               ],
               Text(f.icerik,
-                  style: const TextStyle(
-                      color: _navy, fontSize: 14, height: 1.7)),
+                  style:
+                      const TextStyle(color: _navy, fontSize: 14, height: 1.7)),
               if (f.altIcerik != null && f.altIcerik!.trim().isNotEmpty) ...[
                 const SizedBox(height: 14),
                 Container(
@@ -429,8 +424,7 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
                   decoration: BoxDecoration(
                     color: _gold.withValues(alpha: 0.08),
                     borderRadius: BorderRadius.circular(12),
-                    border: Border.all(
-                        color: _gold.withValues(alpha: 0.3)),
+                    border: Border.all(color: _gold.withValues(alpha: 0.3)),
                   ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -444,9 +438,7 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
                       const SizedBox(height: 8),
                       Text(f.altIcerik!,
                           style: const TextStyle(
-                              color: _navy,
-                              fontSize: 13,
-                              height: 1.6)),
+                              color: _navy, fontSize: 13, height: 1.6)),
                     ],
                   ),
                 ),
