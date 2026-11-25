@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../../app/content_service.dart';
-import '../../../../widgets/admin_edit_overlay.dart';
-import '../../../../widgets/favorite_button.dart';
-
-const _navy = Color(0xFF0A1F44);
-const _gold = Color(0xFFC9A961);
+import '../../../../widgets/admin_card_wrapper.dart';
 
 class ContentPair extends StatelessWidget {
   const ContentPair({super.key});
@@ -12,32 +8,34 @@ class ContentPair extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final now = DateTime.now();
-    final dayOfYear = now.difference(DateTime(now.year, 1, 1)).inDays;
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 14),
       child: ListenableBuilder(
         listenable: ContentService.instance,
         builder: (context, _) {
-          final hadis = ContentService.instance
-                  .getForDay(ContentType.hadis, dayOfYear) ??
-              ContentService.instance.fallback(ContentType.hadis);
-          final tefekkur = ContentService.instance
-                  .getForDay(ContentType.tefekkur, dayOfYear) ??
-              ContentService.instance.fallback(ContentType.tefekkur);
+          final daily = ContentService.instance.getDailyRecordForDate(now);
+          final extra = daily?.extra ?? {};
+          final dailyHadis =
+              extra['hadis']?.toString() ?? daily?.altIcerik ?? '';
+          final hasDailyHadis = dailyHadis.trim().isNotEmpty;
+          final poolHadis =
+              ContentService.instance.getDailyPoolItem(ContentType.hadis, now);
 
-          return Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Expanded(
-                child: _LightCard(item: hadis),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: _DarkCard(item: tefekkur),
-              ),
-            ],
-          );
+          final ContentItem? hadis = hasDailyHadis
+              ? ContentItem(
+                  id: '${daily!.id}_hadis',
+                  type: ContentType.hadis,
+                  baslik: daily.baslik,
+                  icerik: dailyHadis,
+                  kaynak:
+                      extra['hadisKaynak']?.toString() ?? daily.kaynak ?? '',
+                  durum: ContentStatus.yayinlandi,
+                )
+              : poolHadis;
+
+          if (hadis == null) return const SizedBox.shrink();
+          return _LightCard(item: hadis);
         },
       ),
     );
@@ -50,178 +48,183 @@ class _LightCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        Container(
-          height: 180,
-          padding: const EdgeInsets.all(14),
-          decoration: BoxDecoration(
-            color: const Color(0xFFE8F1F8),
-            borderRadius: BorderRadius.circular(18),
-            boxShadow: const [
-              BoxShadow(
-                color: Color(0x14000000),
-                blurRadius: 10,
-                offset: Offset(0, 4),
+    final arabic = item.arapca ?? '';
+
+    return AdminCaptureCard(
+      item: item,
+      shareText: '"${item.icerik}"\n${item.kaynak ?? ""}',
+      child: Container(
+        width: double.infinity,
+        margin: const EdgeInsets.symmetric(vertical: 4),
+        padding: const EdgeInsets.fromLTRB(18, 18, 18, 54),
+        decoration: BoxDecoration(
+          gradient: const LinearGradient(
+              colors: [Color(0xFFFFF0E2), Color(0xFFFFE5C8)],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight),
+          borderRadius: BorderRadius.circular(22),
+          border: Border.all(color: const Color(0xFFE6B77E), width: 1.2),
+          boxShadow: const [
+            BoxShadow(
+              color: Color(0x26334A62),
+              blurRadius: 28,
+              offset: Offset(0, 12),
+            ),
+          ],
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  width: 38,
+                  height: 38,
+                  decoration: BoxDecoration(
+                    color: const Color(0xFFF5F7FB),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: const Icon(
+                    Icons.menu_book_rounded,
+                    color: Color(0xFF0A1F44),
+                    size: 21,
+                  ),
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Günün Hadisi',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Color(0xFF0A1F44),
+                          fontSize: 15,
+                          fontWeight: FontWeight.w900,
+                        ),
+                      ),
+                      SizedBox(height: 3),
+                      Text(
+                        'PEYGAMBERİMİZİN (S.A.V.) SÜNNETİ',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Color(0xFF0A1F44),
+                          fontSize: 8,
+                          fontWeight: FontWeight.w800,
+                          letterSpacing: 0.8,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 16),
+            if (arabic.trim().isNotEmpty) ...[
+              Container(
+                width: double.infinity,
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 14, vertical: 16),
+                decoration: BoxDecoration(
+                  color: const Color(0xFFFFFCF8),
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                child: Directionality(
+                  textDirection: TextDirection.rtl,
+                  child: Text(
+                    arabic,
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      shadows: const [
+                        Shadow(
+                            color: Color(0x99000000),
+                            blurRadius: 9,
+                            offset: Offset(0, 4)),
+                        Shadow(
+                            color: Color(0x55000000),
+                            blurRadius: 3,
+                            offset: Offset(0, 2)),
+                      ],
+                      color: Color(0xFF0A1F44),
+                      fontSize: 21,
+                      height: 1.9,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                ),
               ),
+              const SizedBox(height: 14),
             ],
-          ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
+            Text(
+              'HADİS-İ ŞERİF',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                color: Color(0xFF0A1F44),
+                fontSize: 9,
+                fontWeight: FontWeight.w900,
+                letterSpacing: 1,
+              ),
+            ),
+            const SizedBox(height: 7),
+            Text(
+              '"${item.icerik}"',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                shadows: const [
+                  Shadow(
+                      color: Color(0x99000000),
+                      blurRadius: 9,
+                      offset: Offset(0, 4)),
+                  Shadow(
+                      color: Color(0x55000000),
+                      blurRadius: 3,
+                      offset: Offset(0, 2)),
+                ],
+                color: Color(0xFF172B4D),
+                fontSize: 14,
+                height: 1.65,
+                fontWeight: FontWeight.w600,
+              ),
+            ),
+            if ((item.kaynak ?? '').trim().isNotEmpty) ...[
+              const SizedBox(height: 13),
               Row(
                 children: [
-                  Container(
-                    padding: const EdgeInsets.all(6),
-                    decoration: const BoxDecoration(
-                      color: Colors.white,
-                      shape: BoxShape.circle,
-                    ),
-                    child: const Icon(Icons.menu_book_rounded,
-                        color: _navy, size: 14),
+                  const Icon(
+                    Icons.menu_book_outlined,
+                    color: Color(0xFF0A1F44),
+                    size: 15,
                   ),
-                  const SizedBox(width: 8),
-                  const Expanded(
-                    child: Text('Gunun Hadisi',
-                        style: TextStyle(
-                            color: _navy,
-                            fontSize: 11,
-                            fontWeight: FontWeight.w900)),
+                  const SizedBox(width: 6),
+                  Expanded(
+                    child: Text(
+                      item.kaynak!,
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        shadows: const [
+                          Shadow(
+                              color: Color(0x99000000),
+                              blurRadius: 9,
+                              offset: Offset(0, 4)),
+                          Shadow(
+                              color: Color(0x55000000),
+                              blurRadius: 3,
+                              offset: Offset(0, 2)),
+                        ],
+                        color: Color(0xFF718096),
+                        fontSize: 11,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                   ),
                 ],
               ),
-              const SizedBox(height: 12),
-              Expanded(
-                child: Text(
-                  '"${item.icerik}"',
-                  style: const TextStyle(
-                      color: _navy,
-                      fontSize: 12.5,
-                      height: 1.5,
-                      fontWeight: FontWeight.w600),
-                  maxLines: 4,
-                  overflow: TextOverflow.ellipsis,
-                ),
-              ),
-              Text(
-                item.altIcerik ?? item.kaynak ?? '',
-                style: TextStyle(
-                    color: _navy.withValues(alpha: 0.55),
-                    fontSize: 10,
-                    fontStyle: FontStyle.italic),
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-              ),
             ],
-          ),
+          ],
         ),
-        Positioned(
-          top: 4,
-          right: 4,
-          child: Row(mainAxisSize: MainAxisSize.min, children: [FavoriteButton(item: item), AdminEditOverlay(item: item)]),
-        ),
-      ],
-    );
-  }
-}
-
-class _DarkCard extends StatelessWidget {
-  final ContentItem item;
-  const _DarkCard({required this.item});
-
-  @override
-  Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        Container(
-          height: 180,
-          decoration: BoxDecoration(
-            gradient: const LinearGradient(
-              colors: [Color(0xFF1A2E4A), Color(0xFF0A1F44)],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
-            borderRadius: BorderRadius.circular(18),
-            boxShadow: const [
-              BoxShadow(
-                color: Color(0x28000000),
-                blurRadius: 20,
-                offset: Offset(0, 8),
-              ),
-            ],
-          ),
-          child: Stack(
-            children: [
-              Positioned(
-                right: -20, bottom: -20,
-                child: Icon(Icons.auto_awesome_rounded,
-                    size: 120, color: Colors.white.withValues(alpha: 0.06)),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(14),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Container(
-                          padding: const EdgeInsets.all(6),
-                          decoration: BoxDecoration(
-                            color: Colors.white.withValues(alpha: 0.15),
-                            shape: BoxShape.circle,
-                            border: Border.all(
-                                color: _gold.withValues(alpha: 0.4), width: 1),
-                          ),
-                          child: const Icon(Icons.auto_awesome_rounded,
-                              color: _gold, size: 14),
-                        ),
-                        const SizedBox(width: 8),
-                        const Expanded(
-                          child: Text('Bugunun Tefekkuru',
-                              style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 11,
-                                  fontWeight: FontWeight.w900)),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 12),
-                    Expanded(
-                      child: Text(
-                        '"${item.icerik}"',
-                        style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 12.5,
-                            height: 1.5,
-                            fontWeight: FontWeight.w600),
-                        maxLines: 5,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ),
-                    Align(
-                      alignment: Alignment.centerRight,
-                      child: Container(
-                        padding: const EdgeInsets.all(4),
-                        decoration: BoxDecoration(
-                          color: Colors.white.withValues(alpha: 0.15),
-                          shape: BoxShape.circle,
-                        ),
-                        child: const Icon(Icons.chevron_right_rounded,
-                            color: Colors.white, size: 14),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-        Positioned(
-          top: 4,
-          right: 4,
-          child: Row(mainAxisSize: MainAxisSize.min, children: [FavoriteButton(item: item, light: true), AdminEditOverlay(item: item)]),
-        ),
-      ],
+      ),
     );
   }
 }

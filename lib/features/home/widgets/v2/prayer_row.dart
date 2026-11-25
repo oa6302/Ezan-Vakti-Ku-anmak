@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import '../../../../app/shadows.dart';
 import 'package:provider/provider.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
 import '../../../prayer/data/prayer_service.dart';
 
 const _navy = Color(0xFF0A1F44);
-const _red = Color(0xFFB71C1C);
+const _red = Color(0xFFD9853B);
 const _green = Color(0xFF2FAE7F);
 
 class PrayerRowV2 extends StatefulWidget {
@@ -18,39 +17,36 @@ class _PrayerRowV2State extends State<PrayerRowV2> {
   final _service = PrayerService();
   PrayerTimeResult? _result;
   String _city = '';
-  bool _loading = false;
+  int _loadGeneration = 0;
 
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    final c = context.read<AppState>().city;
+    final c = context.watch<AppState>().city;
     final safe = c.trim().isEmpty ? 'Istanbul' : c;
     if (safe != _city || _result == null) {
       _city = safe;
-      _load();
+      _load(safe);
     }
   }
 
-  Future<void> _load() async {
-    if (_loading) return;
-    _loading = true;
+  Future<void> _load(String city) async {
+    final generation = ++_loadGeneration;
     try {
-      debugPrint('PrayerRow: calculating for $_city');
+      debugPrint('PrayerRow: calculating for $city');
       final r = await _service
-          .calculateForCity(_city)
+          .calculateForCity(city)
           .timeout(const Duration(seconds: 8));
-      if (!mounted) return;
+      if (!mounted || generation != _loadGeneration) return;
       debugPrint('PrayerRow: OK -> ${r?.times.length} vakit');
       setState(() => _result = r);
     } catch (e, st) {
       debugPrint('PrayerRow error: $e');
       debugPrint('Stack: $st');
-      if (mounted) {
+      if (mounted && generation == _loadGeneration) {
         setState(() => _result = null);
       }
-    } finally {
-      _loading = false;
-    }
+    } finally {}
   }
 
   @override
@@ -61,14 +57,26 @@ class _PrayerRowV2State extends State<PrayerRowV2> {
         margin: const EdgeInsets.symmetric(horizontal: 14),
         padding: const EdgeInsets.all(20),
         decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(20),
-          boxShadow: AppShadows.medium(),
+          gradient: const LinearGradient(
+              colors: [Color(0xFFF9FBFE), Color(0xFFEAF1F8)],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight),
+          borderRadius: BorderRadius.circular(22),
+          border: Border.all(color: const Color(0xFFD2DFEC)),
+          boxShadow: const [
+            BoxShadow(
+                color: Color(0x26334B67),
+                blurRadius: 24,
+                offset: Offset(0, 10)),
+            BoxShadow(
+                color: Color(0xAAFFFFFF), blurRadius: 5, offset: Offset(0, -2))
+          ],
         ),
         child: const Row(
           children: [
             SizedBox(
-              width: 20, height: 20,
+              width: 20,
+              height: 20,
               child: CircularProgressIndicator(strokeWidth: 2),
             ),
             SizedBox(width: 12),
@@ -83,7 +91,11 @@ class _PrayerRowV2State extends State<PrayerRowV2> {
     }
     final now = DateTime.now();
     final next = r.nextPrayerName;
-    final items = r.times.entries.toList();
+    final vakitSirasi = ['Imsak', 'Ogle', 'Ikindi', 'Aksam', 'Yatsi'];
+    final items = vakitSirasi
+        .where((key) => r.times.containsKey(key))
+        .map((key) => MapEntry(key, r.times[key]!))
+        .toList();
     final gunesDog = r.times['Gunes'];
     final gunesStr = gunesDog != null ? _t(gunesDog) : '--:--';
 
@@ -91,25 +103,32 @@ class _PrayerRowV2State extends State<PrayerRowV2> {
       margin: const EdgeInsets.symmetric(horizontal: 14),
       padding: const EdgeInsets.fromLTRB(16, 16, 16, 16),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(20),
-        boxShadow: AppShadows.medium(),
+        gradient: const LinearGradient(
+            colors: [Color(0xFFF9FBFE), Color(0xFFEAF1F8)],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight),
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(color: const Color(0xFFD2DFEC)),
+        boxShadow: const [
+          BoxShadow(
+              color: Color(0x26334B67), blurRadius: 24, offset: Offset(0, 10)),
+          BoxShadow(
+              color: Color(0xAAFFFFFF), blurRadius: 5, offset: Offset(0, -2))
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
-              const Text('Bugunun Namaz Vakitleri',
+              const Text('Bugünün Namaz Vakitleri',
                   style: TextStyle(
-                      color: _navy,
-                      fontSize: 15,
-                      fontWeight: FontWeight.w900)),
+                      color: _navy, fontSize: 15, fontWeight: FontWeight.w900)),
               const Spacer(),
               const Icon(Icons.wb_sunny_rounded,
                   color: Color(0xFFF59E0B), size: 14),
               const SizedBox(width: 4),
-              Text('Gunes $gunesStr',
+              Text('Güneş $gunesStr',
                   style: const TextStyle(
                       color: Color(0xFFF59E0B),
                       fontSize: 11,
@@ -152,6 +171,23 @@ class _PrayerTile extends StatelessWidget {
     required this.isPast,
   });
 
+  String _displayName(String name) {
+    switch (name) {
+      case 'Imsak':
+        return 'İmsak';
+      case 'Ogle':
+        return 'Öğle';
+      case 'Ikindi':
+        return 'İkindi';
+      case 'Aksam':
+        return 'Akşam';
+      case 'Yatsi':
+        return 'Yatsı';
+      default:
+        return name;
+    }
+  }
+
   IconData _icon() {
     switch (name) {
       case 'Imsak':
@@ -188,7 +224,7 @@ class _PrayerTile extends StatelessWidget {
         children: [
           Icon(_icon(), color: activeColor, size: 22),
           const SizedBox(height: 8),
-          Text(name,
+          Text(_displayName(name),
               style: TextStyle(
                   color: activeColor,
                   fontSize: 10,
@@ -209,7 +245,8 @@ class _PrayerTile extends StatelessWidget {
   Widget _statusDot() {
     if (isNext) {
       return Container(
-        width: 20, height: 20,
+        width: 20,
+        height: 20,
         decoration: BoxDecoration(
           color: _red,
           shape: BoxShape.circle,
@@ -227,21 +264,22 @@ class _PrayerTile extends StatelessWidget {
     }
     if (isPast) {
       return Container(
-        width: 20, height: 20,
+        width: 20,
+        height: 20,
         decoration: const BoxDecoration(
           color: _green,
           shape: BoxShape.circle,
         ),
-        child: const Icon(Icons.check_rounded,
-            color: Colors.white, size: 14),
+        child: const Icon(Icons.check_rounded, color: Colors.white, size: 14),
       );
     }
     return Container(
-      width: 20, height: 20,
+      width: 20,
+      height: 20,
       decoration: BoxDecoration(
         shape: BoxShape.circle,
-        border: Border.all(
-            color: Colors.grey.withValues(alpha: 0.4), width: 1.5),
+        border:
+            Border.all(color: Colors.grey.withValues(alpha: 0.4), width: 1.5),
       ),
     );
   }

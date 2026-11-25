@@ -16,9 +16,31 @@ class HomeHeaderV2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final now = DateTime.now();
-    const months = ['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];
-    const days = ['Pazartesi','Salı','Çarşamba','Perşembe','Cuma','Cumartesi','Pazar'];
-    final dateStr = '${now.day} ${months[now.month - 1]} ${now.year}, ${days[now.weekday - 1]}';
+    const months = [
+      'Ocak',
+      'Şubat',
+      'Mart',
+      'Nisan',
+      'Mayıs',
+      'Haziran',
+      'Temmuz',
+      'Ağustos',
+      'Eylül',
+      'Ekim',
+      'Kasım',
+      'Aralık'
+    ];
+    const days = [
+      'Pazartesi',
+      'Salı',
+      'Çarşamba',
+      'Perşembe',
+      'Cuma',
+      'Cumartesi',
+      'Pazar'
+    ];
+    final dateStr =
+        '${now.day} ${months[now.month - 1]} ${now.year}, ${days[now.weekday - 1]}';
     final hicri = _approxHijri(now);
 
     return Container(
@@ -35,17 +57,21 @@ class HomeHeaderV2 extends StatelessWidget {
         child: Stack(
           children: [
             Positioned(
-              right: -30, top: 20,
+              right: -30,
+              top: 20,
               child: Opacity(
                 opacity: 0.10,
-                child: Icon(Icons.mosque_rounded, size: 220, color: Colors.white),
+                child:
+                    Icon(Icons.mosque_rounded, size: 220, color: Colors.white),
               ),
             ),
             Positioned(
-              left: -20, bottom: 0,
+              left: -20,
+              bottom: 0,
               child: Opacity(
                 opacity: 0.06,
-                child: Icon(Icons.mosque_rounded, size: 140, color: Colors.white),
+                child:
+                    Icon(Icons.mosque_rounded, size: 140, color: Colors.white),
               ),
             ),
             Positioned.fill(
@@ -61,13 +87,15 @@ class HomeHeaderV2 extends StatelessWidget {
                   Row(
                     children: [
                       Container(
-                        width: 46, height: 46,
+                        width: 46,
+                        height: 46,
                         decoration: BoxDecoration(
                           color: Colors.white.withValues(alpha: 0.1),
                           shape: BoxShape.circle,
                           border: Border.all(color: _gold, width: 1.5),
                         ),
-                        child: const Icon(Icons.mosque_rounded, color: _gold, size: 24),
+                        child: const Icon(Icons.mosque_rounded,
+                            color: _gold, size: 24),
                       ),
                       const SizedBox(width: 12),
                       Expanded(
@@ -75,22 +103,31 @@ class HomeHeaderV2 extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(AppLocalizations.of(context).appTitle,
-                              style: TextStyle(color: Colors.white, fontSize: 22, fontWeight: FontWeight.w900, letterSpacing: 0.3)),
+                                style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 22,
+                                    fontWeight: FontWeight.w900,
+                                    letterSpacing: 0.3)),
                             SizedBox(height: 2),
                             Text(AppLocalizations.of(context).appSubtitle,
-                              style: TextStyle(color: Colors.white70, fontSize: 11)),
+                                style: TextStyle(
+                                    color: Colors.white70, fontSize: 11)),
                           ],
                         ),
                       ),
                       Stack(
                         clipBehavior: Clip.none,
                         children: [
-                          const _IconCircle(icon: Icons.notifications_none_rounded),
+                          const _IconCircle(
+                              icon: Icons.notifications_none_rounded),
                           Positioned(
-                            right: 2, top: 2,
+                            right: 2,
+                            top: 2,
                             child: Container(
-                              width: 10, height: 10,
-                              decoration: const BoxDecoration(color: _red, shape: BoxShape.circle),
+                              width: 10,
+                              height: 10,
+                              decoration: const BoxDecoration(
+                                  color: _red, shape: BoxShape.circle),
                             ),
                           ),
                         ],
@@ -114,7 +151,8 @@ class HomeHeaderV2 extends StatelessWidget {
                     onTap: () => showCityPicker(context),
                     borderRadius: BorderRadius.circular(8),
                     child: Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 4, horizontal: 2),
+                      padding: const EdgeInsets.symmetric(
+                          vertical: 4, horizontal: 2),
                       child: Row(
                         mainAxisSize: MainAxisSize.min,
                         children: [
@@ -136,15 +174,21 @@ class HomeHeaderV2 extends StatelessWidget {
                   const SizedBox(height: 8),
                   Row(
                     children: [
-                      const Icon(Icons.calendar_today_outlined, color: Colors.white70, size: 13),
+                      const Icon(Icons.calendar_today_outlined,
+                          color: Colors.white70, size: 13),
                       const SizedBox(width: 5),
-                      Text(dateStr, style: const TextStyle(color: Colors.white70, fontSize: 11)),
+                      Text(dateStr,
+                          style: const TextStyle(
+                              color: Colors.white70, fontSize: 11)),
                       const SizedBox(width: 8),
                       Container(width: 1, height: 12, color: Colors.white24),
                       const SizedBox(width: 8),
-                      Text(hicri, style: const TextStyle(color: Colors.white70, fontSize: 11)),
+                      Text(hicri,
+                          style: const TextStyle(
+                              color: Colors.white70, fontSize: 11)),
                       const SizedBox(width: 4),
-                      const Icon(Icons.info_outline_rounded, color: Colors.white38, size: 12),
+                      const Icon(Icons.info_outline_rounded,
+                          color: Colors.white38, size: 12),
                     ],
                   ),
                 ],
@@ -162,16 +206,37 @@ class HomeHeaderV2 extends StatelessWidget {
     final hijriYear = ((hijriJD / 354.367) + 1).floor();
     final dayInYear = hijriJD - ((hijriYear - 1) * 354.367);
     final hijriMonth = ((dayInYear / 29.53).floor() + 1).clamp(1, 12);
-    final hijriDay = (dayInYear - (hijriMonth - 1) * 29.53).round().clamp(1, 30);
-    const m = ['Muharrem','Safer','Rebiülevvel','Rebiülahir','Cemaziyelevvel','Cemaziyelahir','Recep','Şaban','Ramazan','Şevval','Zilkade','Zilhicce'];
-    return '$hijriDay ${m[hijriMonth-1]} $hijriYear';
+    final hijriDay =
+        (dayInYear - (hijriMonth - 1) * 29.53).round().clamp(1, 30);
+    const m = [
+      'Muharrem',
+      'Safer',
+      'Rebiülevvel',
+      'Rebiülahir',
+      'Cemaziyelevvel',
+      'Cemaziyelahir',
+      'Recep',
+      'Şaban',
+      'Ramazan',
+      'Şevval',
+      'Zilkade',
+      'Zilhicce'
+    ];
+    return '$hijriDay ${m[hijriMonth - 1]} $hijriYear';
   }
 
   double _gregorianToJD(int y, int m, int d) {
-    if (m <= 2) { y -= 1; m += 12; }
+    if (m <= 2) {
+      y -= 1;
+      m += 12;
+    }
     final a = (y / 100).floor();
     final b = 2 - a + (a / 4).floor();
-    return (365.25 * (y + 4716)).floor() + (30.6001 * (m + 1)).floor() + d + b - 1524.5;
+    return (365.25 * (y + 4716)).floor() +
+        (30.6001 * (m + 1)).floor() +
+        d +
+        b -
+        1524.5;
   }
 }
 
@@ -184,19 +249,18 @@ class _IconCircle extends StatelessWidget {
   });
   @override
   Widget build(BuildContext context) => GestureDetector(
-    onTap: onTap,
-    behavior: HitTestBehavior.opaque,
-    child: Container(
-      padding: const EdgeInsets.all(9),
-      decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.1),
-        shape: BoxShape.circle,
-      ),
-      child: Icon(icon, color: Colors.white, size: 18),
-    ),
-  );
+        onTap: onTap,
+        behavior: HitTestBehavior.opaque,
+        child: Container(
+          padding: const EdgeInsets.all(9),
+          decoration: BoxDecoration(
+            color: Colors.white.withValues(alpha: 0.1),
+            shape: BoxShape.circle,
+          ),
+          child: Icon(icon, color: Colors.white, size: 18),
+        ),
+      );
 }
-
 
 class _PatternPainter extends CustomPainter {
   @override

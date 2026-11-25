@@ -23,7 +23,7 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
   Timer? _timer;
   late final AnimationController _breath;
   String _city = '';
-  bool _loading = false;
+  int _loadGeneration = 0;
 
   @override
   void initState() {
@@ -47,33 +47,31 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    final c = context.read<AppState>().city;
+    final c = context.watch<AppState>().city;
     final safe = c.trim().isEmpty ? 'Istanbul' : c;
     if (safe != _city || _result == null) {
       _city = safe;
-      _load();
+      _load(safe);
     }
   }
 
-  Future<void> _load() async {
-    if (_loading) return;
-    _loading = true;
+  Future<void> _load(String city) async {
+    final generation = ++_loadGeneration;
     try {
-      debugPrint('Countdown: calculating for $_city');
+      debugPrint('Countdown: calculating for $city');
       final r = await _service
-          .calculateForCity(_city)
+          .calculateForCity(city)
           .timeout(const Duration(seconds: 8));
-      if (!mounted) return;
+      if (!mounted || generation != _loadGeneration) return;
       debugPrint('Countdown: OK -> ${r?.nextPrayerName}');
       setState(() => _result = r);
     } catch (e, st) {
       debugPrint('Countdown error: $e');
       debugPrint('Stack: $st');
-      if (mounted) {
+      if (mounted && generation == _loadGeneration) {
         setState(() => _result = null);
       }
     } finally {
-      _loading = false;
     }
   }
 
@@ -107,9 +105,7 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
   /// Onceki vakit -> simdiki ilerleme yuzdesi (0..1)
   double _progress(PrayerTimeResult r) {
     final now = DateTime.now();
-    final entries = r.times.entries
-        .where((e) => e.key != 'Gunes')
-        .toList()
+    final entries = r.times.entries.where((e) => e.key != 'Gunes').toList()
       ..sort((a, b) => a.value.compareTo(b.value));
     if (entries.isEmpty) return 0;
 
@@ -151,7 +147,8 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
         child: Row(
           children: [
             const SizedBox(
-              width: 24, height: 24,
+              width: 24,
+              height: 24,
               child: CircularProgressIndicator(strokeWidth: 2),
             ),
             const SizedBox(width: 14),
@@ -199,11 +196,13 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
           ),
         ],
       ),
-      child: Row(
+      child: IntrinsicHeight(
+        child: Row(
         children: [
           Expanded(
             flex: 5,
             child: Column(
+              mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
@@ -214,7 +213,8 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
                       builder: (context, _) {
                         final scale = 1.0 + (_breath.value * 0.06);
                         return SizedBox(
-                          width: 68, height: 68,
+                          width: 68,
+                          height: 68,
                           child: Stack(
                             alignment: Alignment.center,
                             children: [
@@ -231,7 +231,8 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
                               Transform.scale(
                                 scale: scale,
                                 child: Container(
-                                  width: 52, height: 52,
+                                  width: 52,
+                                  height: 52,
                                   decoration: BoxDecoration(
                                     shape: BoxShape.circle,
                                     color: renk.withValues(alpha: 0.18),
@@ -273,8 +274,7 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
                           const SizedBox(height: 6),
                           AnimatedSwitcher(
                             duration: const Duration(milliseconds: 400),
-                            transitionBuilder: (child, anim) =>
-                                FadeTransition(
+                            transitionBuilder: (child, anim) => FadeTransition(
                               opacity: anim,
                               child: SlideTransition(
                                 position: Tween<Offset>(
@@ -287,6 +287,8 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
                             child: Text(
                               '$namazAdi Namazi',
                               key: ValueKey(namazAdi),
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
                               style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 20,
@@ -326,7 +328,8 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Container(
-                            width: 5, height: 5,
+                            width: 5,
+                            height: 5,
                             decoration: BoxDecoration(
                               color: renk,
                               shape: BoxShape.circle,
@@ -351,13 +354,14 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
           ),
           Container(
             width: 1,
-            height: 80,
             margin: const EdgeInsets.symmetric(horizontal: 12),
             color: Colors.white.withValues(alpha: 0.15),
           ),
           Expanded(
             flex: 4,
             child: Column(
+              mainAxisSize: MainAxisSize.min,
+              mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 const Text('"Namaz, muminin\n   miracidir."',
@@ -377,6 +381,7 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
             ),
           ),
         ],
+        ),
       ),
     );
   }

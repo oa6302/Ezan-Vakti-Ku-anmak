@@ -11,11 +11,19 @@ class DuaDetayPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final extra = dua.extra ?? {};
+    final duaBaslik = extra['duaBaslik']?.toString() ?? dua.baslik;
+    final duaArapca = extra['duaArapca']?.toString() ?? dua.arapca ?? '';
+    final duaOkunus = extra['duaOkunus']?.toString() ?? dua.icerik;
+    final duaAnlam = extra['duaAnlam']?.toString() ?? dua.altIcerik ?? '';
+    final duaKaynak = extra['duaKaynak']?.toString() ?? dua.kaynak ?? '';
+    final duaKategori =
+        extra['duaKategori']?.toString() ?? dua.kategori ?? 'Genel';
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
         actions: [FavoriteButton(item: dua, size: 22)],
-        title: Text(dua.baslik,
+        title: Text(duaBaslik,
             style: const TextStyle(
                 color: _navy, fontSize: 16, fontWeight: FontWeight.w900)),
       ),
@@ -25,17 +33,18 @@ class DuaDetayPage extends StatelessWidget {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
             decoration: BoxDecoration(
-              color: ContentService.instance.colorFor(dua).withValues(alpha: 0.12),
+              color:
+                  ContentService.instance.colorFor(dua).withValues(alpha: 0.12),
               borderRadius: BorderRadius.circular(8),
             ),
-            child: Text((dua.kategori ?? 'Genel'),
+            child: Text(duaKategori,
                 style: TextStyle(
                     color: ContentService.instance.colorFor(dua),
                     fontSize: 11,
                     fontWeight: FontWeight.w700)),
           ),
           const SizedBox(height: 14),
-          Text(dua.baslik,
+          Text(duaBaslik,
               style: const TextStyle(
                   color: _navy, fontSize: 20, fontWeight: FontWeight.w900)),
           const SizedBox(height: 20),
@@ -44,12 +53,18 @@ class DuaDetayPage extends StatelessWidget {
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(14),
-              border: Border.all(color: const Color(0xFFE9EEF5)),
+              border: Border.all(color: const Color(0xFFD7E2EF)),
+              boxShadow: const [
+                BoxShadow(
+                    color: Color(0x1F294B70),
+                    blurRadius: 16,
+                    offset: Offset(0, 6))
+              ],
             ),
             child: Directionality(
               textDirection: TextDirection.rtl,
-              child: Text((dua.arapca ?? ''),
-                  textAlign: TextAlign.right,
+              child: Text(duaArapca,
+                  textAlign: TextAlign.center,
                   style: const TextStyle(
                       fontSize: 20,
                       color: _navy,
@@ -59,9 +74,9 @@ class DuaDetayPage extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 14),
-          _bolum('Okunusu', dua.icerik),
+          _bolum('Okunusu', duaOkunus),
           const SizedBox(height: 14),
-          _bolum('Anlami', (dua.altIcerik ?? '')),
+          _bolum('Anlami', duaAnlam),
           const SizedBox(height: 14),
           Container(
             padding: const EdgeInsets.all(12),
@@ -74,7 +89,7 @@ class DuaDetayPage extends StatelessWidget {
                 const Icon(Icons.book_rounded, color: _navy, size: 16),
                 const SizedBox(width: 8),
                 Expanded(
-                  child: Text('Kaynak: ${(dua.kaynak ?? '')}',
+                  child: Text('Kaynak: $duaKaynak',
                       style: const TextStyle(
                           color: _navy,
                           fontSize: 12,
@@ -94,7 +109,11 @@ class DuaDetayPage extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: const Color(0xFFE9EEF5)),
+        border: Border.all(color: const Color(0xFFD7E2EF)),
+        boxShadow: const [
+          BoxShadow(
+              color: Color(0x1F294B70), blurRadius: 16, offset: Offset(0, 6))
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

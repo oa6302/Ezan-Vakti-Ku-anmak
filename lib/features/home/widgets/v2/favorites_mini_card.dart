@@ -31,30 +31,32 @@ class FavoritesMiniCard extends StatelessWidget {
             borderRadius: BorderRadius.circular(20),
             onTap: () => Navigator.push(
               context,
-              MaterialPageRoute<void>(
-                  builder: (_) => const SavedItemsPage()),
+              MaterialPageRoute<void>(builder: (_) => const SavedItemsPage()),
             ),
             child: Container(
               margin: const EdgeInsets.symmetric(horizontal: 14),
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [
-                    _gold.withValues(alpha: 0.12),
-                    _gold.withValues(alpha: 0.03),
-                  ],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                ),
+                gradient: const LinearGradient(
+                    colors: [Color(0xFFFFF8F8), Color(0xFFF4E9EC)],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight),
                 borderRadius: BorderRadius.circular(20),
-                border: Border.all(color: _gold.withValues(alpha: 0.35)),
+                border: Border.all(color: const Color(0xFFE3C8D0)),
+                boxShadow: const [
+                  BoxShadow(
+                      color: Color(0x55000000),
+                      blurRadius: 28,
+                      offset: Offset(0, 12))
+                ],
               ),
               child: Row(
                 children: [
                   Container(
-                    width: 48, height: 48,
+                    width: 48,
+                    height: 48,
                     decoration: BoxDecoration(
-                      color: _gold.withValues(alpha: 0.18),
+                      color: const Color(0xFFF7E9ED),
                       shape: BoxShape.circle,
                       border: Border.all(
                         color: _gold.withValues(alpha: 0.5),
@@ -71,8 +73,18 @@ class FavoritesMiniCard extends StatelessWidget {
                       children: [
                         Row(
                           children: [
-                            const Text('Favorilerim',
+                            Text('Favorilerim',
                                 style: TextStyle(
+                                    shadows: const [
+                                      Shadow(
+                                          color: Color(0x99000000),
+                                          blurRadius: 9,
+                                          offset: Offset(0, 4)),
+                                      Shadow(
+                                          color: Color(0x55000000),
+                                          blurRadius: 3,
+                                          offset: Offset(0, 2)),
+                                    ],
                                     color: _navy,
                                     fontSize: 15,
                                     fontWeight: FontWeight.w900)),
@@ -85,7 +97,17 @@ class FavoritesMiniCard extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(10),
                               ),
                               child: Text('$count',
-                                  style: const TextStyle(
+                                  style: TextStyle(
+                                      shadows: const [
+                                        Shadow(
+                                            color: Color(0x99000000),
+                                            blurRadius: 9,
+                                            offset: Offset(0, 4)),
+                                        Shadow(
+                                            color: Color(0x55000000),
+                                            blurRadius: 3,
+                                            offset: Offset(0, 2)),
+                                      ],
                                       color: Colors.white,
                                       fontSize: 11,
                                       fontWeight: FontWeight.w900)),
@@ -97,23 +119,39 @@ class FavoritesMiniCard extends StatelessWidget {
                           children: [
                             ...topTypes.asMap().entries.map((e) {
                               if (e.key > 0) {
-                                return const Padding(
+                                return Padding(
                                   padding: EdgeInsets.symmetric(horizontal: 4),
                                   child: Text('•',
-                                      style: TextStyle(
-                                          color: Colors.black38,
-                                          fontSize: 10)),
+                                      style: TextStyle(shadows: const [
+                                        Shadow(
+                                            color: Color(0x99000000),
+                                            blurRadius: 9,
+                                            offset: Offset(0, 4)),
+                                        Shadow(
+                                            color: Color(0x55000000),
+                                            blurRadius: 3,
+                                            offset: Offset(0, 2)),
+                                      ], color: _navy, fontSize: 10)),
                                 );
                               }
                               return const SizedBox.shrink();
                             }),
                             ...topTypes.map((e) => Padding(
-                                  padding:
-                                      const EdgeInsets.only(right: 6),
+                                  padding: const EdgeInsets.only(right: 6),
                                   child: Text(
                                     '${e.key.label} (${e.value})',
-                                    style: const TextStyle(
-                                        color: Colors.black54,
+                                    style: TextStyle(
+                                        shadows: const [
+                                          Shadow(
+                                              color: Color(0x99000000),
+                                              blurRadius: 9,
+                                              offset: Offset(0, 4)),
+                                          Shadow(
+                                              color: Color(0x55000000),
+                                              blurRadius: 3,
+                                              offset: Offset(0, 2)),
+                                        ],
+                                        color: _navy,
                                         fontSize: 11,
                                         fontWeight: FontWeight.w600),
                                   ),
