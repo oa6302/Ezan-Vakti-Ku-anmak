@@ -36,9 +36,12 @@ const List<Dua> duaHavuzu = [
   Dua(
     baslik: 'Dunya-Ahiret Duasi',
     kategori: 'Genel',
-    arapca: 'Rabbena atina fid-dunya haseneten ve fil-ahireti haseneten ve kina azaben-nar',
-    okunusu: 'Rabbena atina fid-dunya haseneten ve fil-ahireti haseneten ve kina azaben-nar',
-    anlami: 'Rabbimiz, bize dunyada da iyilik ver, ahirette de iyilik ver. Bizi ates azabindan koru.',
+    arapca:
+        'Rabbena atina fid-dunya haseneten ve fil-ahireti haseneten ve kina azaben-nar',
+    okunusu:
+        'Rabbena atina fid-dunya haseneten ve fil-ahireti haseneten ve kina azaben-nar',
+    anlami:
+        'Rabbimiz, bize dunyada da iyilik ver, ahirette de iyilik ver. Bizi ates azabindan koru.',
     kaynak: 'Bakara, 201',
     ikon: Icons.auto_awesome_rounded,
     renk: Color(0xFFC9A961),
@@ -66,9 +69,12 @@ const List<Dua> duaHavuzu = [
   Dua(
     baslik: 'Seytandan Siginma Duasi',
     kategori: 'Genel',
-    arapca: 'Rabbi euzu bike min hemezatis-seyatin ve euzu bike rabbi en yahdurun',
-    okunusu: 'Rabbi euzu bike min hemezatis-seyatin ve euzu bike rabbi en yahdurun',
-    anlami: 'Rabbim, seytanlarin kiskirtmasindan sana siginirim. Onlarin yanima gelmelerinden de sana siginirim.',
+    arapca:
+        'Rabbi euzu bike min hemezatis-seyatin ve euzu bike rabbi en yahdurun',
+    okunusu:
+        'Rabbi euzu bike min hemezatis-seyatin ve euzu bike rabbi en yahdurun',
+    anlami:
+        'Rabbim, seytanlarin kiskirtmasindan sana siginirim. Onlarin yanima gelmelerinden de sana siginirim.',
     kaynak: 'Muminun, 97-98',
     ikon: Icons.shield_rounded,
     renk: Color(0xFFB71C1C),
@@ -78,7 +84,8 @@ const List<Dua> duaHavuzu = [
     kategori: 'Sikinti',
     arapca: 'La ilahe illa ente subhaneke inni kuntu minez-zalimin',
     okunusu: 'La ilahe illa ente subhaneke inni kuntu minez-zalimin',
-    anlami: 'Senden baska ilah yoktur. Sen yucesin. Ben kendine yazik edenlerden oldum.',
+    anlami:
+        'Senden baska ilah yoktur. Sen yucesin. Ben kendine yazik edenlerden oldum.',
     kaynak: 'Enbiya, 87',
     ikon: Icons.brightness_2_rounded,
     renk: Color(0xFF0A1F44),
@@ -98,7 +105,8 @@ const List<Dua> duaHavuzu = [
     kategori: 'Sifa',
     arapca: 'Rabbi enni messeniyed-durru ve ente erhamur-rahimin',
     okunusu: 'Rabbi enni messeniyed-durru ve ente erhamur-rahimin',
-    anlami: 'Rabbim, bana gercekten zarar dokundu. Sen merhametlilerin en merhametlisisin.',
+    anlami:
+        'Rabbim, bana gercekten zarar dokundu. Sen merhametlilerin en merhametlisisin.',
     kaynak: 'Enbiya, 83',
     ikon: Icons.healing_rounded,
     renk: Color(0xFF2FAE7F),
@@ -108,7 +116,8 @@ const List<Dua> duaHavuzu = [
     kategori: 'Aile',
     arapca: 'Rabbigfir li ve li valideyye ve lil-muminine yevme yekumul-hisab',
     okunusu: 'Rabbigfir li ve li valideyye ve lil-muminine yevme yekumul-hisab',
-    anlami: 'Rabbim, hesabin gorulecegi gun beni, anne-babami ve butun muminleri bagisla.',
+    anlami:
+        'Rabbim, hesabin gorulecegi gun beni, anne-babami ve butun muminleri bagisla.',
     kaynak: 'Ibrahim, 41',
     ikon: Icons.family_restroom_rounded,
     renk: Color(0xFFC9A961),
@@ -116,9 +125,12 @@ const List<Dua> duaHavuzu = [
   Dua(
     baslik: 'Aile Duasi',
     kategori: 'Aile',
-    arapca: 'Rabbena heb lena min ezvacina ve zurriyyatina kurrate ayunin vecalna lil-muttakine imama',
-    okunusu: 'Rabbena heb lena min ezvacina ve zurriyyatina kurrate ayunin vecalna lil-muttakine imama',
-    anlami: 'Rabbimiz, eslerimizden ve cocuklarimizdan bize goz aydinligi ver. Bizi takva sahiplerine imam yap.',
+    arapca:
+        'Rabbena heb lena min ezvacina ve zurriyyatina kurrate ayunin vecalna lil-muttakine imama',
+    okunusu:
+        'Rabbena heb lena min ezvacina ve zurriyyatina kurrate ayunin vecalna lil-muttakine imama',
+    anlami:
+        'Rabbimiz, eslerimizden ve cocuklarimizdan bize goz aydinligi ver. Bizi takva sahiplerine imam yap.',
     kaynak: 'Furkan, 74',
     ikon: Icons.people_rounded,
     renk: Color(0xFF2FAE7F),
@@ -126,9 +138,11 @@ const List<Dua> duaHavuzu = [
   Dua(
     baslik: 'Sukur Duasi',
     kategori: 'Sukur',
-    arapca: 'Rabbi evzini en eskura nimetteke ve en amele salihan terdahu ve edhilni bi rahmetike fi ibadikes-salihin',
+    arapca:
+        'Rabbi evzini en eskura nimetteke ve en amele salihan terdahu ve edhilni bi rahmetike fi ibadikes-salihin',
     okunusu: 'Rabbi evzini en eskura nimetteke ve en amele salihan terdahu',
-    anlami: 'Rabbim, bana verdigin nimetlere sukretmeyi ve senin razi olacagin salih ameller islemeyi ilham et.',
+    anlami:
+        'Rabbim, bana verdigin nimetlere sukretmeyi ve senin razi olacagin salih ameller islemeyi ilham et.',
     kaynak: 'Neml, 19',
     ikon: Icons.volunteer_activism_rounded,
     renk: Color(0xFFC9A961),
@@ -136,9 +150,12 @@ const List<Dua> duaHavuzu = [
   Dua(
     baslik: 'Tevbe Duasi',
     kategori: 'Tevbe',
-    arapca: 'Rabbena zalemna enfusena ve in lem tagfir lena ve terhamna le nekunnenne minel-hasirin',
-    okunusu: 'Rabbena zalemna enfusena ve in lem tagfir lena ve terhamna le nekunnenne minel-hasirin',
-    anlami: 'Rabbimiz, biz kendimize zulmettik. Eger bizi bagislamaz ve bize merhamet etmezsen, mutlaka ziyana ugrayanlardan oluruz.',
+    arapca:
+        'Rabbena zalemna enfusena ve in lem tagfir lena ve terhamna le nekunnenne minel-hasirin',
+    okunusu:
+        'Rabbena zalemna enfusena ve in lem tagfir lena ve terhamna le nekunnenne minel-hasirin',
+    anlami:
+        'Rabbimiz, biz kendimize zulmettik. Eger bizi bagislamaz ve bize merhamet etmezsen, mutlaka ziyana ugrayanlardan oluruz.',
     kaynak: 'Araf, 23',
     ikon: Icons.autorenew_rounded,
     renk: Color(0xFF2FAE7F),
@@ -146,9 +163,12 @@ const List<Dua> duaHavuzu = [
   Dua(
     baslik: 'Sabah Duasi',
     kategori: 'Sabah',
-    arapca: 'Allahumme bike asbahna ve bike emseyna ve bike nahya ve bike nemutu ve ileyken-nusur',
-    okunusu: 'Allahumme bike asbahna ve bike emseyna ve bike nahya ve bike nemutu ve ileyken-nusur',
-    anlami: 'Allahim, senin sayende sabaha erdik, senin sayende aksama ereriz. Senin sayende yasar, senin sayende oluruz. Donus sanadir.',
+    arapca:
+        'Allahumme bike asbahna ve bike emseyna ve bike nahya ve bike nemutu ve ileyken-nusur',
+    okunusu:
+        'Allahumme bike asbahna ve bike emseyna ve bike nahya ve bike nemutu ve ileyken-nusur',
+    anlami:
+        'Allahim, senin sayende sabaha erdik, senin sayende aksama ereriz. Senin sayende yasar, senin sayende oluruz. Donus sanadir.',
     kaynak: 'Tirmizi, Deavat, 13',
     ikon: Icons.wb_sunny_rounded,
     renk: Color(0xFFC9A961),
@@ -156,9 +176,12 @@ const List<Dua> duaHavuzu = [
   Dua(
     baslik: 'Aksam Duasi',
     kategori: 'Aksam',
-    arapca: 'Allahumme bike emseyna ve bike asbahna ve bike nahya ve bike nemutu ve ileykel-masir',
-    okunusu: 'Allahumme bike emseyna ve bike asbahna ve bike nahya ve bike nemutu ve ileykel-masir',
-    anlami: 'Allahim, senin sayende aksama erdik, senin sayende sabaha ereriz. Senin sayende yasar, senin sayende oluruz. Donus sanadir.',
+    arapca:
+        'Allahumme bike emseyna ve bike asbahna ve bike nahya ve bike nemutu ve ileykel-masir',
+    okunusu:
+        'Allahumme bike emseyna ve bike asbahna ve bike nahya ve bike nemutu ve ileykel-masir',
+    anlami:
+        'Allahim, senin sayende aksama erdik, senin sayende sabaha ereriz. Senin sayende yasar, senin sayende oluruz. Donus sanadir.',
     kaynak: 'Tirmizi, Deavat, 13',
     ikon: Icons.nights_stay_rounded,
     renk: Color(0xFF0A1F44),
@@ -166,9 +189,12 @@ const List<Dua> duaHavuzu = [
   Dua(
     baslik: 'Sikinti Duasi',
     kategori: 'Sikinti',
-    arapca: 'La ilahe illallahul-azimul-halim, la ilahe illallahu rabbul-arsil-azim',
-    okunusu: 'La ilahe illallahul-azimul-halim, la ilahe illallahu rabbul-arsil-azim',
-    anlami: 'Azim ve Halim olan Allahtan baska ilah yoktur. Buyuk arsin Rabbi olan Allahtan baska ilah yoktur.',
+    arapca:
+        'La ilahe illallahul-azimul-halim, la ilahe illallahu rabbul-arsil-azim',
+    okunusu:
+        'La ilahe illallahul-azimul-halim, la ilahe illallahu rabbul-arsil-azim',
+    anlami:
+        'Azim ve Halim olan Allahtan baska ilah yoktur. Buyuk arsin Rabbi olan Allahtan baska ilah yoktur.',
     kaynak: 'Buhari, Deavat, 27',
     ikon: Icons.self_improvement_rounded,
     renk: Color(0xFFB71C1C),
@@ -178,7 +204,8 @@ const List<Dua> duaHavuzu = [
     kategori: 'Genel',
     arapca: 'Allahumme inni eselukel-huda vet-tuka vel-afafe vel-gina',
     okunusu: 'Allahumme inni eselukel-huda vet-tuka vel-afafe vel-gina',
-    anlami: 'Allahim, senden hidayet, takva, iffet ve gonul zenginligi istiyorum.',
+    anlami:
+        'Allahim, senden hidayet, takva, iffet ve gonul zenginligi istiyorum.',
     kaynak: 'Muslim, Zikir, 72',
     ikon: Icons.lightbulb_outline_rounded,
     renk: Color(0xFFC9A961),
@@ -186,9 +213,12 @@ const List<Dua> duaHavuzu = [
   Dua(
     baslik: 'Selam Duasi',
     kategori: 'Genel',
-    arapca: 'Allahumme entes-selamu ve minkes-selam, tebarekte ya zel-celali vel-ikram',
-    okunusu: 'Allahumme entes-selamu ve minkes-selam, tebarekte ya zel-celali vel-ikram',
-    anlami: 'Allahim, sen selamsin, selamet sendendir. Ey azamet ve ikram sahibi, sen ne yucesin.',
+    arapca:
+        'Allahumme entes-selamu ve minkes-selam, tebarekte ya zel-celali vel-ikram',
+    okunusu:
+        'Allahumme entes-selamu ve minkes-selam, tebarekte ya zel-celali vel-ikram',
+    anlami:
+        'Allahim, sen selamsin, selamet sendendir. Ey azamet ve ikram sahibi, sen ne yucesin.',
     kaynak: 'Muslim, Mesacid, 135',
     ikon: Icons.spa_rounded,
     renk: Color(0xFF2FAE7F),
@@ -208,7 +238,8 @@ const List<Dua> duaHavuzu = [
     kategori: 'Sifa',
     arapca: 'Ezhibil-bese rabben-nas, veşfi enteş-şafi, la şifae illa şifauk',
     okunusu: 'Ezhibil-bese rabben-nas, veşfi enteş-şafi, la şifae illa şifauk',
-    anlami: 'Ey insanlarin Rabbi, sikintiyi gider ve sifa ver. Sifa veren sensin. Senin sifandan baska sifa yoktur.',
+    anlami:
+        'Ey insanlarin Rabbi, sikintiyi gider ve sifa ver. Sifa veren sensin. Senin sifandan baska sifa yoktur.',
     kaynak: 'Buhari, Merda, 20',
     ikon: Icons.healing_rounded,
     renk: Color(0xFF2FAE7F),
@@ -216,9 +247,12 @@ const List<Dua> duaHavuzu = [
   Dua(
     baslik: 'Afiyet Duasi',
     kategori: 'Genel',
-    arapca: 'Allahumme afini fi bedeni, Allahumme afini fi semi, Allahumme afini fi basari',
-    okunusu: 'Allahumme afini fi bedeni, Allahumme afini fi semi, Allahumme afini fi basari',
-    anlami: 'Allahim, bedenime afiyet ver. Allahim, kulagima afiyet ver. Allahim, gozume afiyet ver.',
+    arapca:
+        'Allahumme afini fi bedeni, Allahumme afini fi semi, Allahumme afini fi basari',
+    okunusu:
+        'Allahumme afini fi bedeni, Allahumme afini fi semi, Allahumme afini fi basari',
+    anlami:
+        'Allahim, bedenime afiyet ver. Allahim, kulagima afiyet ver. Allahim, gozume afiyet ver.',
     kaynak: 'Ebu Davud, Edeb, 101',
     ikon: Icons.health_and_safety_rounded,
     renk: Color(0xFFC9A961),

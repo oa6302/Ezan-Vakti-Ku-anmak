@@ -58,7 +58,8 @@ const List<Ayet> ayetHavuzu2 = [
     ayetNo: 2,
     kaynak: "Ihlas, 2",
     arapca: "اللَّهُ الصَّمَدُ",
-    meal: "Allah Samed'dir. (Hicbir seye ihtiyaci yoktur, her sey O'na muhtactir.)",
+    meal:
+        "Allah Samed'dir. (Hicbir seye ihtiyaci yoktur, her sey O'na muhtactir.)",
   ),
   Ayet(
     id: "112_3",
@@ -193,8 +194,10 @@ const List<Ayet> ayetHavuzu2 = [
     sureNo: 110,
     ayetNo: 3,
     kaynak: "Nasr, 3",
-    arapca: "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا",
-    meal: "Rabbini hamd ile tesbih et ve O'ndan bagislanma dile. Cunku O, tovbeleri cok kabul edendir.",
+    arapca:
+        "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا",
+    meal:
+        "Rabbini hamd ile tesbih et ve O'ndan bagislanma dile. Cunku O, tovbeleri cok kabul edendir.",
   ),
 
   // ═══ ASR (103) ═══
@@ -222,8 +225,10 @@ const List<Ayet> ayetHavuzu2 = [
     sureNo: 103,
     ayetNo: 3,
     kaynak: "Asr, 3",
-    arapca: "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
-    meal: "Ancak iman edip salih amel isleyenler, birbirlerine hakki ve sabri tavsiye edenler baska.",
+    arapca:
+        "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+    meal:
+        "Ancak iman edip salih amel isleyenler, birbirlerine hakki ve sabri tavsiye edenler baska.",
   ),
 
   // ═══ DUHA (93) ═══
@@ -476,7 +481,8 @@ const List<Ayet> ayetHavuzu2 = [
     sureNo: 67,
     ayetNo: 1,
     kaynak: "Mulk, 1",
-    arapca: "تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+    arapca:
+        "تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
     meal: "Mulk elinde olan Allah yucedir; O'nun her seye gucu yeter.",
   ),
   Ayet(
@@ -485,8 +491,10 @@ const List<Ayet> ayetHavuzu2 = [
     sureNo: 67,
     ayetNo: 2,
     kaynak: "Mulk, 2",
-    arapca: "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا",
-    meal: "O, hanginizin daha guzel is yapacagini denemek icin olumu ve hayati yaratmistir.",
+    arapca:
+        "الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا",
+    meal:
+        "O, hanginizin daha guzel is yapacagini denemek icin olumu ve hayati yaratmistir.",
   ),
   Ayet(
     id: "67_3",
@@ -506,7 +514,8 @@ const List<Ayet> ayetHavuzu2 = [
     ayetNo: 152,
     kaynak: "Bakara, 152",
     arapca: "فَاذْكُرُونِي أَذْكُرْكُمْ وَاشْكُرُوا لِي وَلَا تَكْفُرُونِ",
-    meal: "O halde siz beni anin, ben de sizi anayim. Bana sukr edin, nankorluk etmeyin.",
+    meal:
+        "O halde siz beni anin, ben de sizi anayim. Bana sukr edin, nankorluk etmeyin.",
   ),
   Ayet(
     id: "2_153",
@@ -514,8 +523,10 @@ const List<Ayet> ayetHavuzu2 = [
     sureNo: 2,
     ayetNo: 153,
     kaynak: "Bakara, 153",
-    arapca: "يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
-    meal: "Ey iman edenler! Sabir ve namazla yardim isteyin. Suphesiz Allah sabredenlerle beraberdir.",
+    arapca:
+        "يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ ۚ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+    meal:
+        "Ey iman edenler! Sabir ve namazla yardim isteyin. Suphesiz Allah sabredenlerle beraberdir.",
   ),
   Ayet(
     id: "2_186",
@@ -523,8 +534,10 @@ const List<Ayet> ayetHavuzu2 = [
     sureNo: 2,
     ayetNo: 186,
     kaynak: "Bakara, 186",
-    arapca: "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ",
-    meal: "Kullarim sana beni sordugunda, suphesiz ben yakınim. Bana dua ettiginde dua edenin duasina cevap veririm.",
+    arapca:
+        "وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ",
+    meal:
+        "Kullarim sana beni sordugunda, suphesiz ben yakınim. Bana dua ettiginde dua edenin duasina cevap veririm.",
   ),
   Ayet(
     id: "2_286",
@@ -552,8 +565,10 @@ const List<Ayet> ayetHavuzu2 = [
     sureNo: 3,
     ayetNo: 159,
     kaynak: "Al-i Imran, 159",
-    arapca: "فَاعْفُ عَنْهُمْ وَاسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِي الْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ",
-    meal: "Onlari affet, onlar icin bagislanma dile, islerinde onlarla istisare et. Karar verdiginde ise Allah'a tevekkul et.",
+    arapca:
+        "فَاعْفُ عَنْهُمْ وَاسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِي الْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ",
+    meal:
+        "Onlari affet, onlar icin bagislanma dile, islerinde onlarla istisare et. Karar verdiginde ise Allah'a tevekkul et.",
   ),
 
   // ═══ NUR (24) ═══
@@ -594,8 +609,10 @@ const List<Ayet> ayetHavuzu2 = [
     sureNo: 59,
     ayetNo: 22,
     kaynak: "Hasr, 22",
-    arapca: "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ ۖ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ",
-    meal: "O, kendisinden baska hicbir ilah olmayan Allah'tir. Gorulmeyeni ve goruleni bilendir.",
+    arapca:
+        "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ ۖ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ",
+    meal:
+        "O, kendisinden baska hicbir ilah olmayan Allah'tir. Gorulmeyeni ve goruleni bilendir.",
   ),
   Ayet(
     id: "59_23",
@@ -603,8 +620,10 @@ const List<Ayet> ayetHavuzu2 = [
     sureNo: 59,
     ayetNo: 23,
     kaynak: "Hasr, 23",
-    arapca: "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ",
-    meal: "O, kendisinden baska hicbir ilah olmayan Melik'tir, Kuddus'tur, Selam'dir, Mumin'dir, Muheymin'dir, Aziz'dir, Cebbar'dir, Mutekebbir'dir.",
+    arapca:
+        "هُوَ اللَّهُ الَّذِي لَا إِلَٰهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ",
+    meal:
+        "O, kendisinden baska hicbir ilah olmayan Melik'tir, Kuddus'tur, Selam'dir, Mumin'dir, Muheymin'dir, Aziz'dir, Cebbar'dir, Mutekebbir'dir.",
   ),
 
   // ═══ TALAK (65) ═══
@@ -615,7 +634,8 @@ const List<Ayet> ayetHavuzu2 = [
     ayetNo: 2,
     kaynak: "Talak, 2",
     arapca: "وَمَنْ يَتَّقِ اللَّهَ يَجْعَلْ لَهُ مَخْرَجًا",
-    meal: "Kim Allah'a karsi sorumluluk bilinciyle yasarsa, Allah ona bir cikis yolu verir.",
+    meal:
+        "Kim Allah'a karsi sorumluluk bilinciyle yasarsa, Allah ona bir cikis yolu verir.",
   ),
   Ayet(
     id: "65_3",
@@ -623,8 +643,10 @@ const List<Ayet> ayetHavuzu2 = [
     sureNo: 65,
     ayetNo: 3,
     kaynak: "Talak, 3",
-    arapca: "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَنْ يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
-    meal: "O'nu ummadigi yerden riziklandirir. Kim Allah'a tevekkul ederse, O ona yeter.",
+    arapca:
+        "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَنْ يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
+    meal:
+        "O'nu ummadigi yerden riziklandirir. Kim Allah'a tevekkul ederse, O ona yeter.",
   ),
 
   // ═══ FUSSILET (41) ═══
@@ -634,7 +656,8 @@ const List<Ayet> ayetHavuzu2 = [
     sureNo: 41,
     ayetNo: 34,
     kaynak: "Fussilet, 34",
-    arapca: "وَلَا تَسْتَوِي الْحَسَنَةُ وَلَا السَّيِّئَةُ ۚ ادْفَعْ بِالَّتِي هِيَ أَحْسَنُ",
+    arapca:
+        "وَلَا تَسْتَوِي الْحَسَنَةُ وَلَا السَّيِّئَةُ ۚ ادْفَعْ بِالَّتِي هِيَ أَحْسَنُ",
     meal: "Iyilikle kotuluk bir olmaz. Sen en guzel olanla (kotulugu) sav.",
   ),
 ];

@@ -24,7 +24,7 @@ class ContentItem {
       baslik: json['baslik'] as String? ?? '',
       metin: json['metin'] as String? ?? '',
       kaynak: json['kaynak'] as String? ?? '',
-      tefekkur: json['tefekkur'] as String? ?? '',
+      tefekkur: json['Tefekkür'] as String? ?? '',
       etiketler: (json['etiketler'] as List<dynamic>?)
               ?.map((e) => e.toString())
               .toList() ??
@@ -38,15 +38,17 @@ class ContentItem {
         'baslik': baslik,
         'metin': metin,
         'kaynak': kaynak,
-        'tefekkur': tefekkur,
+        'Tefekkür': tefekkur,
         'etiketler': etiketler,
       };
 
   bool matches(String query) {
     final q = query.toLowerCase();
+
     return baslik.toLowerCase().contains(q) ||
         metin.toLowerCase().contains(q) ||
         kategori.toLowerCase().contains(q) ||
+        tefekkur.toLowerCase().contains(q) ||
         etiketler.any((e) => e.toLowerCase().contains(q));
   }
 }

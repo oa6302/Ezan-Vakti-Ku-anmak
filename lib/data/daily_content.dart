@@ -10,6 +10,17 @@ class DailyContent {
   final String vecizeModern;
   final String vecizeKaynak;
   final String risaleHakikat;
+  final String ayetArapca;
+  final String ayetTefsir;
+  final String risaleAlinti;
+  final String risaleEser;
+  final String risaleBolum;
+  final String duaBaslik;
+  final String duaArapca;
+  final String duaOkunus;
+  final String duaAnlam;
+  final String duaKaynak;
+  final String duaKategori;
   final List<String> anahtarKelimeler;
   final IconData ikon;
   final Color renk;
@@ -24,6 +35,17 @@ class DailyContent {
     required this.vecizeModern,
     required this.vecizeKaynak,
     required this.risaleHakikat,
+    this.ayetArapca = '',
+    this.ayetTefsir = '',
+    this.risaleAlinti = '',
+    this.risaleEser = '',
+    this.risaleBolum = '',
+    this.duaBaslik = '',
+    this.duaArapca = '',
+    this.duaOkunus = '',
+    this.duaAnlam = '',
+    this.duaKaynak = '',
+    this.duaKategori = '',
     required this.anahtarKelimeler,
     required this.ikon,
     required this.renk,
@@ -31,216 +53,6 @@ class DailyContent {
 }
 
 const List<DailyContent> gunlukIcerikler = [
-  DailyContent(
-    gunKonu: 'Sukur',
-    ayet: '"Andolsun, eger sukrederseniz elbette size nimetimi artiririm."',
-    ayetKaynak: 'Ibrahim, 7',
-    hadis: '"Sukreden azdir."',
-    hadisKaynak: 'Muslim, Iman, 55',
-    vecize: 'Nimet-i Ilahiyeyi itiraf, sukurdur.',
-    vecizeModern: 'Allah`in verdigi nimetleri dile getirmek, sukretmektir.',
-    vecizeKaynak: 'Sozler, 27. Soz',
-    risaleHakikat: 'Her nimet, vereni tanittirir. Sukur, nimeti degil, vereni gormektir. Nimeti goren nefistir; vereni goren kalptir.',
-    anahtarKelimeler: ['Sukur', 'Nimet', 'Itiraf'],
-    ikon: Icons.volunteer_activism_rounded,
-    renk: Color(0xFF2FAE7F),
-  ),
-  DailyContent(
-    gunKonu: 'Sabir',
-    ayet: '"Ey iman edenler! Sabrederek ve namaz kilerek Allahtan yardim dileyin."',
-    ayetKaynak: 'Bakara, 153',
-    hadis: '"Sabir, imanin yarisidir."',
-    hadisKaynak: 'Buhari, Iman, 22',
-    vecize: 'Sabir, aciyi yutmak degil; aciyi Allaha havale etmektir.',
-    vecizeModern: 'Sabir, sikintiya katlanmak degil; sikintiyi Allaha birakmaktir.',
-    vecizeKaynak: 'Lemalar, 8. Lema',
-    risaleHakikat: 'Sabir, musibetin agirligini kaldirmaz; onu tasiyacak omuzu kuvvetlendirir.',
-    anahtarKelimeler: ['Sabir', 'Iman', 'Musibet'],
-    ikon: Icons.self_improvement_rounded,
-    renk: Color(0xFF0A1F44),
-  ),
-  DailyContent(
-    gunKonu: 'Namaz',
-    ayet: '"Muhakkak ki namaz, hayasizliktan ve kotulukten alikoyar."',
-    ayetKaynak: 'Ankebut, 45',
-    hadis: '"Namaz, dinin diregidir."',
-    hadisKaynak: 'Tirmizi, Iman, 8',
-    vecize: 'Namaz, kulun Miracidir.',
-    vecizeModern: 'Namaz, kulun Rabbine yukselisidir.',
-    vecizeKaynak: 'Sozler, 29. Soz',
-    risaleHakikat: 'Namaz, gunun her diliminde Rabbine hesap vermektir. Bes vakit, bes kez yeniden dogrulmaktir.',
-    anahtarKelimeler: ['Namaz', 'Mirac', 'Direk'],
-    ikon: Icons.mosque_rounded,
-    renk: Color(0xFFC9A961),
-  ),
-  DailyContent(
-    gunKonu: 'Kuran',
-    ayet: '"Bu Kuran, insanlar icin bir aciklamadir."',
-    ayetKaynak: 'Al-i Imran, 138',
-    hadis: '"Sizin en hayirliniz, Kurani ogrenen ve ogretendir."',
-    hadisKaynak: 'Buhari, Fedail, 21',
-    vecize: 'Kuran, imanin en buyuk dersidir.',
-    vecizeModern: 'Kuran, imanin en buyuk egitimidir.',
-    vecizeKaynak: 'Isaratul Ijaz',
-    risaleHakikat: 'Kuran, her asra hitap eden ezeli bir hitabedir. Onu okuyan, Rabbinden kendine gelen mektubu okur.',
-    anahtarKelimeler: ['Kuran', 'Hitab', 'Ders'],
-    ikon: Icons.menu_book_rounded,
-    renk: Color(0xFF0A1F44),
-  ),
-  DailyContent(
-    gunKonu: 'Tevbe',
-    ayet: '"Muhakkak ki Allah, tevbe edenleri sever."',
-    ayetKaynak: 'Bakara, 222',
-    hadis: '"Tevbe eden, hic gunah islememis gibidir."',
-    hadisKaynak: 'Ibn Mace, Zuhd, 30',
-    vecize: 'Gunah, tevbe ile silinir; tevbe, kalbi nurlandirir.',
-    vecizeModern: 'Gunah, tevbe ile silinir; tevbe, kalbi aydinlatir.',
-    vecizeKaynak: 'Lemalar, 5. Lema',
-    risaleHakikat: 'Tevbe, gecmisi silmek degil; gelecegi temizlemektir. Rab, tevbe edeni kucaklar.',
-    anahtarKelimeler: ['Tevbe', 'Magfiret', 'Kapi'],
-    ikon: Icons.autorenew_rounded,
-    renk: Color(0xFF2FAE7F),
-  ),
-  DailyContent(
-    gunKonu: 'Tevvekul',
-    ayet: '"Kim Allaha tevekkul ederse, O, ona kafidir."',
-    ayetKaynak: 'Talak, 3',
-    hadis: '"Kalbin tevekkul ile sakinlesmesi, imanin lezzetidir."',
-    hadisKaynak: 'Tirmizi, Kiyamet, 60',
-    vecize: 'Tevvekul, sebeplere yapismak, sonucu Allaha birakmaktir.',
-    vecizeModern: 'Tevekkul, sebeplere sarilmak ve sonucu Allaha birakmaktir.',
-    vecizeKaynak: 'Sozler, 23. Soz',
-    risaleHakikat: 'Tevvekul, tembellik degil; elden geleni yapip kalbi Allaha baglamaktir. Kul yapar, Rabb yaratir.',
-    anahtarKelimeler: ['Tevvekul', 'Sebep', 'Kifayet'],
-    ikon: Icons.anchor_rounded,
-    renk: Color(0xFF0A1F44),
-  ),
-  DailyContent(
-    gunKonu: 'Zikir',
-    ayet: '"Beni anin, ben de sizi anayim."',
-    ayetKaynak: 'Bakara, 152',
-    hadis: '"Dilin zikri az olsa da, kalbin zikri daim olsun."',
-    hadisKaynak: 'Buhari, Deavat, 66',
-    vecize: 'Zikir, kalbin gidasidir.',
-    vecizeModern: 'Zikir, kalbin besinidir.',
-    vecizeKaynak: 'Mesnevi-i Nuriye',
-    risaleHakikat: 'Zikir, kulu Rabbine baglayan gizli bir zincirdir. Dil susar, kalp konusur.',
-    anahtarKelimeler: ['Zikir', 'Kalp', 'Huzur'],
-    ikon: Icons.spa_rounded,
-    renk: Color(0xFFC9A961),
-  ),
-  DailyContent(
-    gunKonu: 'Iman',
-    ayet: '"Allah, iman edenlerin velisidir."',
-    ayetKaynak: 'Bakara, 257',
-    hadis: '"Iman, yetmis kusur subedir."',
-    hadisKaynak: 'Buhari, Iman, 3',
-    vecize: 'Iman, hem nurdur, hem kuvvettir.',
-    vecizeModern: 'Iman, hem isiktir, hem guctur.',
-    vecizeKaynak: 'Sozler, 23. Soz',
-    risaleHakikat: 'Iman, insani kainatin agacina baglayan koktur. Kuvvetli iman, iman edeni kuvvetli yapar.',
-    anahtarKelimeler: ['Iman', 'Nur', 'Kuvvet'],
-    ikon: Icons.light_mode_rounded,
-    renk: Color(0xFFC9A961),
-  ),
-  DailyContent(
-    gunKonu: 'Kardeslik',
-    ayet: '"Muminler ancak kardestirler."',
-    ayetKaynak: 'Hucurat, 10',
-    hadis: '"Mumin, muminin aynasidir."',
-    hadisKaynak: 'Ebu Davud, Edeb, 49',
-    vecize: 'Kardes, kardesinin kusurunu orter.',
-    vecizeModern: 'Kardes, kardesinin eksigini orter.',
-    vecizeKaynak: 'Ihlas Risalesi',
-    risaleHakikat: 'Kardeslik, ortak fikir degil; ortak kalptir. Kini birakmak, kardesligi kurmak.',
-    anahtarKelimeler: ['Kardeslik', 'Dua', 'Af'],
-    ikon: Icons.people_rounded,
-    renk: Color(0xFF2FAE7F),
-  ),
-  DailyContent(
-    gunKonu: 'Anne-Baba',
-    ayet: '"Onlara of bile deme."',
-    ayetKaynak: 'Isra, 23',
-    hadis: '"Cennet, annelerin ayaklari altindadir."',
-    hadisKaynak: 'Nesai, Cihad, 6',
-    vecize: 'Anne-baba, dunyadaki en buyuk nimetlerdendir.',
-    vecizeModern: 'Anne-baba, dunyadaki en buyuk nimetlerdendir.',
-    vecizeKaynak: 'Lemalar',
-    risaleHakikat: 'Anne-baba, kulun Rabbine acilan penceresidir. Onlari seven, Rabbini sever.',
-    anahtarKelimeler: ['Anne', 'Baba', 'Hizmet'],
-    ikon: Icons.family_restroom_rounded,
-    renk: Color(0xFFC9A961),
-  ),
-  DailyContent(
-    gunKonu: 'Ahiret',
-    ayet: '"Ahiret yurdu, takva sahipleri icindir."',
-    ayetKaynak: 'Enam, 32',
-    hadis: '"Dunyada garip gibi ol."',
-    hadisKaynak: 'Buhari, Rikak, 3',
-    vecize: 'Kabir, ya cennet bahcesi ya cehennem cukurudur.',
-    vecizeModern: 'Kabir, ya cennet bahcesi ya cehennem cukurudur.',
-    vecizeKaynak: 'Sozler, 32. Soz',
-    risaleHakikat: 'Ahiret, dunyanin devami degil; dunyanin gercegidir. Olum, Rabbine kavusmaktir.',
-    anahtarKelimeler: ['Ahiret', 'Olum', 'Kabir'],
-    ikon: Icons.auto_awesome_rounded,
-    renk: Color(0xFF0A1F44),
-  ),
-  DailyContent(
-    gunKonu: 'Sifa',
-    ayet: '"Hastalik geldigi zaman bana sifa veren Odur."',
-    ayetKaynak: 'Suara, 80',
-    hadis: '"Her hastaligin bir devasi vardir."',
-    hadisKaynak: 'Ebu Davud, Tibb, 1',
-    vecize: 'Sifa, verenin adini bilmektir.',
-    vecizeModern: 'Sifa, verenin adini bilmektir.',
-    vecizeKaynak: 'Lemalar, 25. Lema',
-    risaleHakikat: 'Hastalik, sabri ogretir. Sifa, sabrin oduludur. Her sifa, bir rahmettir.',
-    anahtarKelimeler: ['Sifa', 'Hastalik', 'Sabir'],
-    ikon: Icons.health_and_safety_rounded,
-    renk: Color(0xFF2FAE7F),
-  ),
-  DailyContent(
-    gunKonu: 'Ilim',
-    ayet: '"Rabbim! Ilmimi artir."',
-    ayetKaynak: 'Taha, 114',
-    hadis: '"Ilim, muminin kaybettigi malidir; buldugu yerde alir."',
-    hadisKaynak: 'Tirmizi, Ilm, 19',
-    vecize: 'Ilim, imanin nurudur.',
-    vecizeModern: 'Ilim, imanin isigidir.',
-    vecizeKaynak: 'Sozler',
-    risaleHakikat: 'Ilim, kalbe nurdur. Her ilim, sahibini Rabbine yaklastirir. Ilmin en fazileti, amele donusmektir.',
-    anahtarKelimeler: ['Ilim', 'Nur', 'Amel'],
-    ikon: Icons.school_rounded,
-    renk: Color(0xFFC9A961),
-  ),
-  DailyContent(
-    gunKonu: 'Adalet',
-    ayet: '"Muhakkak ki Allah adaleti emreder."',
-    ayetKaynak: 'Nahl, 90',
-    hadis: '"Hak sahibine hakkini verin."',
-    hadisKaynak: 'Buhari, Hibe, 20',
-    vecize: 'Adalet, mizan-i ekberdir.',
-    vecizeModern: 'Adalet, en buyuk olcudur.',
-    vecizeKaynak: 'Isaratul Ijaz',
-    risaleHakikat: 'Adalet, zulmune engel olmaktir. Adalet, kulun kendiyle yuzlesmesidir.',
-    anahtarKelimeler: ['Adalet', 'Hak', 'Mizan'],
-    ikon: Icons.balance_rounded,
-    renk: Color(0xFF0A1F44),
-  ),
-  DailyContent(
-    gunKonu: 'Umit',
-    ayet: '"Allahin rahmetinden umidinizi kesmeyin."',
-    ayetKaynak: 'Zumer, 53',
-    hadis: '"Allahin rahmeti genistir."',
-    hadisKaynak: 'Muslim, Tevbe, 35',
-    vecize: 'Umit, kalbin nefesidir.',
-    vecizeModern: 'Umit, kalbin nefesidir.',
-    vecizeKaynak: 'Lemalar',
-    risaleHakikat: 'Umit, nefsi ayakta tutan gidadir. Umit kesmek, Rahmeti tanimamaktir. Her karanlikta bir sabah vardir.',
-    anahtarKelimeler: ['Umit', 'Rahmet', 'Sabah'],
-    ikon: Icons.wb_sunny_rounded,
-    renk: Color(0xFFC9A961),
-  ),
 ];
 
 DailyContent bugununIcerigi() {
@@ -250,9 +62,9 @@ DailyContent bugununIcerigi() {
   return all[dayOfYear % all.length];
 }
 
-// ═══════════════════════════════════════════════════════════
-// EK ICERIKLER (15 → 25 hedefi)
-// ═══════════════════════════════════════════════════════════
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+// EK ICERIKLER (15 â†’ 25 hedefi)
+// â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 const List<DailyContent> ekIcerikler = [
   DailyContent(
     gunKonu: 'Hidayet',
@@ -263,7 +75,8 @@ const List<DailyContent> ekIcerikler = [
     vecize: 'Hidayet, kalbe inen nurdur.',
     vecizeModern: 'Hidayet, kalbe dogan isiktir.',
     vecizeKaynak: 'Lemalar',
-    risaleHakikat: 'Hidayet, kulun secimiyle Rabbin lutfunun bulusmasidir. Kul adim atar, Rabb yol acar.',
+    risaleHakikat:
+        'Hidayet, kulun secimiyle Rabbin lutfunun bulusmasidir. Kul adim atar, Rabb yol acar.',
     anahtarKelimeler: ['Hidayet', 'Nur', 'Kalp'],
     ikon: Icons.light_mode_rounded,
     renk: Color(0xFFC9A961),
@@ -277,7 +90,8 @@ const List<DailyContent> ekIcerikler = [
     vecize: 'Ihlas, ameli Allah icin yapmaktir.',
     vecizeModern: 'Ihlas, isleri sadece Allah icin yapmaktir.',
     vecizeKaynak: 'Ihlas Risalesi',
-    risaleHakikat: 'Ihlas, kalbin tek sahibe yonelisidir. Riya, kalbi bulandirir; ihlas, kalbi berrak tutar.',
+    risaleHakikat:
+        'Ihlas, kalbin tek sahibe yonelisidir. Riya, kalbi bulandirir; ihlas, kalbi berrak tutar.',
     anahtarKelimeler: ['Ihlas', 'Niyet', 'Riza'],
     ikon: Icons.favorite_rounded,
     renk: Color(0xFFB71C1C),
@@ -291,7 +105,8 @@ const List<DailyContent> ekIcerikler = [
     vecize: 'Cennet, imanin neticesidir.',
     vecizeModern: 'Cennet, imanin oduludur.',
     vecizeKaynak: 'Sozler',
-    risaleHakikat: 'Cennet, Rabbin rahmetinin tezahurudur. Kul, Rabbine iman ederse, ahirette onu en guzel karsilik bekler.',
+    risaleHakikat:
+        'Cennet, Rabbin rahmetinin tezahurudur. Kul, Rabbine iman ederse, ahirette onu en guzel karsilik bekler.',
     anahtarKelimeler: ['Cennet', 'Nimet', 'Rahmet'],
     ikon: Icons.park_rounded,
     renk: Color(0xFF2FAE7F),
@@ -305,7 +120,8 @@ const List<DailyContent> ekIcerikler = [
     vecize: 'Hesap, dunyanin sonudur.',
     vecizeModern: 'Hesap, dunyanin bitisidir.',
     vecizeKaynak: 'Sozler, 32. Soz',
-    risaleHakikat: 'Hesap, kulun Rabbine verdigi hesaptir. Her ameli, her sozu, her niyeti kayda gecmistir.',
+    risaleHakikat:
+        'Hesap, kulun Rabbine verdigi hesaptir. Her ameli, her sozu, her niyeti kayda gecmistir.',
     anahtarKelimeler: ['Hesap', 'Amel', 'Kiyamet'],
     ikon: Icons.gavel_rounded,
     renk: Color(0xFF0A1F44),
@@ -319,7 +135,8 @@ const List<DailyContent> ekIcerikler = [
     vecize: 'Tevazu, haddini bilmektir.',
     vecizeModern: 'Tevazu, sinirini bilmektir.',
     vecizeKaynak: 'Lemalar',
-    risaleHakikat: 'Tevazu, kuculmek degil; gercek buyuklugu tanimaktir. Kibir, kulun kendiyle sarhoslugudur.',
+    risaleHakikat:
+        'Tevazu, kuculmek degil; gercek buyuklugu tanimaktir. Kibir, kulun kendiyle sarhoslugudur.',
     anahtarKelimeler: ['Tevazu', 'Kibir', 'Edep'],
     ikon: Icons.spa_rounded,
     renk: Color(0xFFC9A961),
@@ -333,7 +150,8 @@ const List<DailyContent> ekIcerikler = [
     vecize: 'Af, kalbin en buyuk zaferidir.',
     vecizeModern: 'Affetmek, kalbin en buyuk zaferidir.',
     vecizeKaynak: 'Lemalar',
-    risaleHakikat: 'Af, karsilikli alisverisin otesindedir. Kul affederse, Rabb affeder. Kin, kalbi karartir; af, kalbi nurlandirir.',
+    risaleHakikat:
+        'Af, karsilikli alisverisin otesindedir. Kul affederse, Rabb affeder. Kin, kalbi karartir; af, kalbi nurlandirir.',
     anahtarKelimeler: ['Af', 'Hosgoru', 'Kalp'],
     ikon: Icons.favorite_rounded,
     renk: Color(0xFF2FAE7F),
@@ -347,7 +165,8 @@ const List<DailyContent> ekIcerikler = [
     vecize: 'Dua, kulun Rabbine arzidir.',
     vecizeModern: 'Dua, kulun Rabbine yonelisidir.',
     vecizeKaynak: 'Sozler, 23. Soz',
-    risaleHakikat: 'Dua, Rab ile kul arasinda en samimi koprudur. Kul dilerse, Rabb verir. Dua, kaderi degistirir; Rabbin izniyle.',
+    risaleHakikat:
+        'Dua, Rab ile kul arasinda en samimi koprudur. Kul dilerse, Rabb verir. Dua, kaderi degistirir; Rabbin izniyle.',
     anahtarKelimeler: ['Dua', 'Ibadet', 'Rab'],
     ikon: Icons.volunteer_activism_rounded,
     renk: Color(0xFFC9A961),
@@ -361,7 +180,8 @@ const List<DailyContent> ekIcerikler = [
     vecize: 'Cihad, nefse karsi savastir.',
     vecizeModern: 'Cihad, insanin kendi nefsiyle savasmasidir.',
     vecizeKaynak: 'Lemalar',
-    risaleHakikat: 'Cihad, sadece kilicla degil; kalemle, ilimle, sabirla olur. Kul, nefsine karsi savasirsa, Rabb ona yardim eder.',
+    risaleHakikat:
+        'Cihad, sadece kilicla degil; kalemle, ilimle, sabirla olur. Kul, nefsine karsi savasirsa, Rabb ona yardim eder.',
     anahtarKelimeler: ['Cihad', 'Nefs', 'Sabir'],
     ikon: Icons.shield_rounded,
     renk: Color(0xFFB71C1C),
@@ -375,7 +195,8 @@ const List<DailyContent> ekIcerikler = [
     vecize: 'Adalet, kendiyle yuzlesmektir.',
     vecizeModern: 'Adalet, kendinle yuzlesmektir.',
     vecizeKaynak: 'Isaratul Ijaz',
-    risaleHakikat: 'Adalet, tarafli olmadiginda guven verir. Yonetici, kendi aleyhine karar verse bile adaletten sasmamalidir.',
+    risaleHakikat:
+        'Adalet, tarafli olmadiginda guven verir. Yonetici, kendi aleyhine karar verse bile adaletten sasmamalidir.',
     anahtarKelimeler: ['Adalet', 'Hak', 'Yonetici'],
     ikon: Icons.gavel_rounded,
     renk: Color(0xFF0A1F44),
@@ -389,9 +210,11 @@ const List<DailyContent> ekIcerikler = [
     vecize: 'Tesekkur, nimeti fark etmektir.',
     vecizeModern: 'Tesekkur, nimeti gormektir.',
     vecizeKaynak: 'Sozler, 27. Soz',
-    risaleHakikat: 'Tesekkur, kalbin sukrudur; sadece dilde kalmaz. Kul tesekkur ederse, Rabb nimetini artirir.',
+    risaleHakikat:
+        'Tesekkur, kalbin sukrudur; sadece dilde kalmaz. Kul tesekkur ederse, Rabb nimetini artirir.',
     anahtarKelimeler: ['Tesekkur', 'Nimet', 'Kul'],
     ikon: Icons.volunteer_activism_rounded,
     renk: Color(0xFF2FAE7F),
   ),
 ];
+

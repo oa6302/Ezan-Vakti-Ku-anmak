@@ -28,7 +28,8 @@ class RemoteJsonSource {
     }
   }
 
-  Future<bool> saveCategory(String category, List<Map<String, dynamic>> items) async {
+  Future<bool> saveCategory(
+      String category, List<Map<String, dynamic>> items) async {
     try {
       final url = Uri.parse('$baseUrl/save/$category.json');
       final res = await http
