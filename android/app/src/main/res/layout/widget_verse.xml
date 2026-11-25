@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modernize edilmekte olan Günlük Ayet Widget'ı -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_verse_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/widget_card_bg">
+
+    <!-- Modern Card Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Title Section with Glow Effect -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="GÜNÜN AYETİ"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_quran"
+                android:background="#FFEB3B"
+                android:tint="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Quran Icon -->
+        <ImageView
+            android:id="@+id/widget_verse_icon"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/ic_quran"
+            android:background="#8E24AA"
+            android:layout_marginTop="10dp" />
+
+        <!-- Arabic Text -->
+        <TextView
+            android:id="@+id/widget_verse_arabic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"
+            android:textColor="#1C2331"
+            android:textSize="21sp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:maxLines="3"
+            android:paddingTop="15dp"
+            android:includeFontPadding="true" />
+
+        <!-- Decorative Line -->
+        <View
+            android:id="@+id/widget_verse_divider"
+            android:layout_width="42dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#8E24AA" />
+
+        <!-- Translation/Source -->
+        <TextView
+            android:id="@+id/widget_verse_meal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Günün ayeti uygulama açıldığında yüklenecek."
+            android:textColor="#424242"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.15"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:paddingTop="10dp" />
+
+        <!-- Source Attribution -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_source"
+                android:background="#8E24AA" />
+
+            <TextView
+                android:id="@+id/widget_verse_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ezan Vakti Kuşanmak"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_heart"
+                android:background="#FF5722"
+                android:tint="#FFFFFF"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

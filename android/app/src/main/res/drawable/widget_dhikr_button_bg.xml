@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modernize edilmekte olan Dhikir Button Widget'ı için yeni Material3 Card arkaplan -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Arka düz katman - gradient tabanı -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#01875F"
+                android:centerColor="#009688"
+                android:endColor="#26A69A"
+                android:type="linear"
+                android:angle="90" />
+            <corners android:radius="14dp" />
+        </shape>
+    </item>
+    
+    <!-- Işıltma efekti katmanı -->
+    <item android:left="16dp">
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#B2EBF2"
+                android:endColor="#80DEEA"
+                android:type="radial" />
+            <size android:width="50dp" android:height="50dp" />
+        </shape>
+    </item>
+    
+    <!-- Yumuşak gölge -->
+    <item android:right="-6dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#263238"
+                android:endColor="#000000"
+                android:type="linear"
+                android:angle="135" />
+            <corners android:radius="14dp" />
+        </shape>
+    </item>
+</layer-list>

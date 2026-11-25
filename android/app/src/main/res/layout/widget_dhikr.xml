@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modernize edilmekte olan Zikir Sayacı Widget'ı -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_dhikr_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/widget_card_bg">
+
+    <!-- Modern Card Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:gravity="center_horizontal">
+
+        <!-- Title Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DHIKR SAYACI"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Dhikr Name -->
+        <TextView
+            android:id="@+id/widget_dhikr_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allah'ım, senden affeder..."
+            android:textColor="#F5F5F5"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+        <!-- Counter Display with Glow Effect -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Icon Circle -->
+            <View
+                android:id="@+id/widget_dhikr_counter_background"
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/countdown_bg" />
+
+            <!-- Counter Value -->
+            <LinearLayout
+                android:id="@+id/widget_dhikr_counter_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/ic_counter"
+                    android:background="#FFEB3B"
+                    android:tint="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/widget_dhikr_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#1C2331"
+                    android:textSize="36sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Target Counter -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_target"
+                android:background="#8E24AA" />
+
+            <TextView
+                android:id="@+id/widget_dhikr_target_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hedef 0"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:gravity="center_vertical" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_heart"
+                android:background="#FF5722"
+                android:tint="#FFFFFF"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/widget_dhikr_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dokunarak bir artır"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/widget_dhikr_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZİKİR SAY"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/widget_dhikr_button_bg" />
+    </LinearLayout>
+</FrameLayout>
