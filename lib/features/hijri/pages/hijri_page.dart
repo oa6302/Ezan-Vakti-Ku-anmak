@@ -4,10 +4,10 @@ import 'package:nur_pusulasi/app/shadows.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
 import '../data/hijri_data.dart';
 
-const _navy     = Color(0xFF0A1F44);
+const _navy = Color(0xFF0A1F44);
 const _navyDeep = Color(0xFF05132B);
-const _gold     = Color(0xFFC9A961);
-const _green    = Color(0xFF2FAE7F);
+const _gold = Color(0xFFC9A961);
+const _green = Color(0xFF2FAE7F);
 
 class HijriPage extends StatelessWidget {
   const HijriPage({super.key});
@@ -76,14 +76,15 @@ class HijriPage extends StatelessWidget {
       child: Row(
         children: [
           Container(
-            width: 56, height: 56,
+            width: 56,
+            height: 56,
             decoration: BoxDecoration(
               color: Colors.white.withValues(alpha: 0.12),
               shape: BoxShape.circle,
               border: Border.all(color: _gold, width: 2),
             ),
-            child: const Icon(Icons.auto_awesome_rounded,
-                color: _gold, size: 26),
+            child:
+                const Icon(Icons.auto_awesome_rounded, color: _gold, size: 26),
           ),
           const SizedBox(width: 14),
           const Expanded(
@@ -133,8 +134,7 @@ class HijriPage extends StatelessWidget {
           const Text(
             'Hicri takvimde kac gun, kac Ramazan, kac cuma yasadigini goreceksin.',
             textAlign: TextAlign.center,
-            style: TextStyle(
-                color: Colors.black54, fontSize: 12, height: 1.5),
+            style: TextStyle(color: Colors.black54, fontSize: 12, height: 1.5),
           ),
           const SizedBox(height: 18),
           SizedBox(
@@ -147,8 +147,8 @@ class HijriPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(14)),
               ),
               onPressed: () => _pickBirth(context),
-              icon: const Icon(Icons.edit_calendar_rounded,
-                  color: Colors.white),
+              icon:
+                  const Icon(Icons.edit_calendar_rounded, color: Colors.white),
               label: const Text('Tarih Sec',
                   style: TextStyle(
                       color: Colors.white,
@@ -184,8 +184,8 @@ class HijriPage extends StatelessWidget {
               color: _gold.withValues(alpha: 0.2),
               borderRadius: BorderRadius.circular(14),
             ),
-            child: const Icon(Icons.brightness_2_rounded,
-                color: _gold, size: 26),
+            child:
+                const Icon(Icons.brightness_2_rounded, color: _gold, size: 26),
           ),
           const SizedBox(width: 14),
           Expanded(
@@ -231,15 +231,13 @@ class HijriPage extends StatelessWidget {
                   color: _navy.withValues(alpha: 0.08),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: const Icon(Icons.timeline_rounded,
-                    color: _navy, size: 16),
+                child:
+                    const Icon(Icons.timeline_rounded, color: _navy, size: 16),
               ),
               const SizedBox(width: 10),
               const Text('Yasam Cizgin',
                   style: TextStyle(
-                      color: _navy,
-                      fontSize: 14,
-                      fontWeight: FontWeight.w900)),
+                      color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
               const Spacer(),
               TextButton(
                 onPressed: () => _pickBirth(context),
@@ -247,8 +245,7 @@ class HijriPage extends StatelessWidget {
                   padding: EdgeInsets.zero,
                   minimumSize: const Size(0, 28),
                 ),
-                child: const Text('Degistir',
-                    style: TextStyle(fontSize: 11)),
+                child: const Text('Degistir', style: TextStyle(fontSize: 11)),
               ),
             ],
           ),
@@ -262,8 +259,8 @@ class HijriPage extends StatelessWidget {
           _statRow(Icons.nightlight_round, 'Yasadigin Ramazan',
               '${j.totalRamazans}', _gold),
           const Divider(height: 20),
-          _statRow(Icons.mosque_rounded, 'Kildigin Cuma',
-              '~${j.totalCumas}', _navy),
+          _statRow(
+              Icons.mosque_rounded, 'Kildigin Cuma', '~${j.totalCumas}', _navy),
           const SizedBox(height: 14),
           Container(
             padding: const EdgeInsets.all(12),
@@ -334,15 +331,12 @@ class HijriPage extends StatelessWidget {
                   color: _gold.withValues(alpha: 0.12),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: const Icon(Icons.star_rounded,
-                    color: _gold, size: 16),
+                child: const Icon(Icons.star_rounded, color: _gold, size: 16),
               ),
               const SizedBox(width: 10),
               const Text('Onemli Hicri Gunler',
                   style: TextStyle(
-                      color: _navy,
-                      fontSize: 14,
-                      fontWeight: FontWeight.w900)),
+                      color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
             ],
           ),
           const SizedBox(height: 12),
@@ -360,7 +354,8 @@ class HijriPage extends StatelessWidget {
         children: [
           Container(
             margin: const EdgeInsets.only(top: 4),
-            width: 8, height: 8,
+            width: 8,
+            height: 8,
             decoration: const BoxDecoration(
               color: _gold,
               shape: BoxShape.circle,
@@ -396,8 +391,8 @@ class HijriPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 2),
                 Text(g.aciklama,
-                    style: const TextStyle(
-                        color: Colors.black54, fontSize: 11)),
+                    style:
+                        const TextStyle(color: Colors.black54, fontSize: 11)),
               ],
             ),
           ),

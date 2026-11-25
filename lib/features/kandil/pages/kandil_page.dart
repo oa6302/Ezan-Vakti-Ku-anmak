@@ -82,7 +82,8 @@ class KandilPage extends StatelessWidget {
       child: Row(
         children: [
           Container(
-            width: 56, height: 56,
+            width: 56,
+            height: 56,
             decoration: BoxDecoration(
               color: Colors.white.withValues(alpha: 0.12),
               shape: BoxShape.circle,
@@ -138,8 +139,8 @@ class KandilPage extends StatelessWidget {
               Row(
                 children: [
                   Container(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 10, vertical: 5),
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                     decoration: BoxDecoration(
                       color: _gold,
                       borderRadius: BorderRadius.circular(8),
@@ -241,9 +242,7 @@ class KandilPage extends StatelessWidget {
               const SizedBox(width: 10),
               const Text('Yaklasan Gunler',
                   style: TextStyle(
-                      color: _navy,
-                      fontSize: 14,
-                      fontWeight: FontWeight.w900)),
+                      color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
             ],
           ),
           const SizedBox(height: 12),
@@ -267,7 +266,8 @@ class KandilPage extends StatelessWidget {
           Row(
             children: [
               Container(
-                width: 46, height: 46,
+                width: 46,
+                height: 46,
                 decoration: BoxDecoration(
                   color: _gold.withValues(alpha: 0.12),
                   borderRadius: BorderRadius.circular(12),
@@ -275,8 +275,7 @@ class KandilPage extends StatelessWidget {
                 child: Center(
                   child: emoji.isNotEmpty
                       ? Text(emoji, style: const TextStyle(fontSize: 22))
-                      : const Icon(Icons.star_rounded,
-                          color: _gold, size: 22),
+                      : const Icon(Icons.star_rounded, color: _gold, size: 22),
                 ),
               ),
               const SizedBox(width: 12),
@@ -297,8 +296,8 @@ class KandilPage extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 10, vertical: 4),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
                 decoration: BoxDecoration(
                   color: diff < 7
                       ? _green.withValues(alpha: 0.12)

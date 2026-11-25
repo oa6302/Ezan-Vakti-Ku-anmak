@@ -21,6 +21,14 @@ class NotificationService {
 
   Future<void> init() async {
     if (_initialized) return;
+    if (kIsWeb) {
+      _initialized = true;
+      return;
+    }
+    if (Platform.isWindows) {
+      _initialized = true;
+      return;
+    }
 
     tz.initializeTimeZones();
     try {
@@ -62,48 +70,64 @@ class NotificationService {
     return true;
   }
 
-  Future<void> scheduleAll({required String city}) async {
-    // Web'de bildirim planlama desteklenmiyor
-    if (kIsWeb) return;
+  Future<void> scheduleAll({
+    required String city,
+    double? latitude,
+    double? longitude,
+    String? locationLabel,
+  }) async {
+    if (kIsWeb || Platform.isWindows) return;
+
     await init();
-    await _plugin.cancelAll();
+
+    for (var notificationId = 100; notificationId < 200; notificationId++) {
+      await _plugin.cancel(id: notificationId);
+    }
 
     final prefs = await SharedPreferences.getInstance();
     final enabled = prefs.getBool('notif_enabled') ?? true;
-    if (!enabled) return;
 
-    final result = await PrayerService().calculateForCity(city);
-    if (result == null) return;
+    if (!enabled) {
+      await _plugin.cancel(id: 201);
+      await _plugin.cancel(id: 202);
+      return;
+    }
 
+    final label = locationLabel ?? city;
     final now = DateTime.now();
-    final targets = <String, DateTime>{};
-    // Yalnizca sonraki 24 saat icindeki vakitleri zamanla
-    final prefs2 = await SharedPreferences.getInstance();
-    for (final entry in result.times.entries) {
-      // Per-vakit toggle kontrolu
-      final vakitKey = 'notif_${entry.key.toLowerCase()}';
-      final vakitEnabled = prefs2.getBool(vakitKey) ?? true;
-      if (!vakitEnabled) continue;
-      if (entry.key == 'Güneş') continue;
-      var t = entry.value;
-      if (t.isBefore(now)) t = t.add(const Duration(days: 1));
-      targets[entry.key] = t;
-    }
-
     var id = 100;
-    for (final entry in targets.entries) {
-      final vakit = entry.key;
-      final on = prefs.getBool('notif_${vakit.toLowerCase()}') ?? true;
-      if (!on) continue;
-      await _schedule(
-        id: id++,
-        title: 'Vakit girdi: $vakit',
-        body: '$city için $vakit vakti girdi.',
-        time: entry.value,
-      );
-    }
-  }
 
+    for (var offset = 0; offset < 7; offset++) {
+      final date = DateTime(now.year, now.month, now.day + offset);
+
+      final result = latitude != null && longitude != null
+          ? await PrayerService().calculateForCoordinates(
+              latitude, longitude, label, date: date)
+          : await PrayerService().calculateForCity(city, date: date);
+
+      if (result == null) continue;
+
+      for (final entry in result.times.entries) {
+        if (entry.key == 'Gunes') continue;
+
+        final key = 'notif_${entry.key.toLowerCase()}';
+        if (!(prefs.getBool(key) ?? true)) continue;
+
+        final time = entry.value;
+        if (!time.isAfter(now)) continue;
+        if (id >= 200) break;
+
+        await _schedule(
+          id: id++,
+          title: 'Vakit girdi: ${entry.key}',
+          body: '$label icin ${entry.key} vakti girdi.',
+          time: time,
+        );
+      }
+    }
+
+    await scheduleDailyReminders();
+  }
   Future<void> _schedule({
     required int id,
     required String title,
@@ -129,11 +153,12 @@ class NotificationService {
       scheduledDate: tz.TZDateTime.from(time, tz.local),
       notificationDetails: details,
       androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
-      matchDateTimeComponents: DateTimeComponents.time,
-    );
+      );
   }
 
   Future<void> cancelAll() async {
+    if (kIsWeb) return;
+    if (Platform.isWindows) return;
     await init();
     await _plugin.cancelAll();
   }
@@ -144,7 +169,7 @@ class NotificationService {
     await init();
     await _plugin.show(
       id: 9999,
-      title: 'Nur Pusulasi - Test',
+      title: 'Ezan Vakti Kuşanmak - Test',
       body: 'Bildirimler calisiyor. Vakit girdiginde sizi haberdar edecegiz.',
       notificationDetails: const NotificationDetails(
         android: AndroidNotificationDetails(
@@ -159,9 +184,93 @@ class NotificationService {
     );
   }
 
+  /// Dua ve zikir ile Kur'an okuma icin gunluk hatirlatmalar.
+  /// Tercihler: reminder_dua_enabled, reminder_kuran_enabled
+  /// Saatler: reminder_dua_time, reminder_kuran_time (HH:mm)
+  Future<void> scheduleDailyReminders() async {
+    if (kIsWeb || Platform.isWindows) return;
+    await init();
+
+    final prefs = await SharedPreferences.getInstance();
+    if (!(prefs.getBool('notif_enabled') ?? true)) {
+      await _plugin.cancel(id: 201);
+      await _plugin.cancel(id: 202);
+      return;
+    }
+
+    await _plugin.cancel(id: 201);
+    await _plugin.cancel(id: 202);
+
+    Future<void> scheduleOne({
+      required int id,
+      required String key,
+      required String title,
+      required String body,
+    }) async {
+      if (!(prefs.getBool('${key}_enabled') ?? false)) return;
+
+      final raw = prefs.getString('${key}_time') ?? (key == 'reminder_kuran' ? '20:00' : '09:00');
+      final parts = raw.split(':');
+      final hour = parts.length == 2 ? int.tryParse(parts[0]) : null;
+      final minute = parts.length == 2 ? int.tryParse(parts[1]) : null;
+
+      if (hour == null || minute == null ||
+          hour < 0 || hour > 23 || minute < 0 || minute > 59) {
+        return;
+      }
+
+      final now = DateTime.now();
+      var next = DateTime(now.year, now.month, now.day, hour, minute);
+      if (!next.isAfter(now)) {
+        next = next.add(const Duration(days: 1));
+      }
+
+      await _plugin.zonedSchedule(
+        id: id,
+        title: title,
+        body: body,
+        scheduledDate: tz.TZDateTime.from(next, tz.local),
+        notificationDetails: const NotificationDetails(
+          android: AndroidNotificationDetails(
+            'daily_reminders_v1',
+            'Gunluk Hatirlatmalar',
+            channelDescription: 'Dua, zikir ve Kur’an okuma hatirlatmalari',
+            importance: Importance.high,
+            priority: Priority.high,
+            playSound: true,
+            enableVibration: true,
+          ),
+          iOS: DarwinNotificationDetails(),
+        ),
+        androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
+        matchDateTimeComponents: DateTimeComponents.time,
+      );
+    }
+
+    await scheduleOne(
+      id: 201,
+      key: 'reminder_dua',
+      title: 'Dua ve zikir vakti',
+      body: 'Dua ve zikir icin kendinize bir an ayirin.',
+    );
+
+    await scheduleOne(
+      id: 202,
+      key: 'reminder_kuran',
+      title: 'Kur’an okuma vakti',
+      body: 'Kur’an okumaya ayirdiginiz vakti hatirlayin.',
+    );
+  }
   Future<int> pendingCount() async {
     if (kIsWeb) return 0;
     final list = await _plugin.pendingNotificationRequests();
     return list.length;
   }
 }
+
+
+
+
+
+
+

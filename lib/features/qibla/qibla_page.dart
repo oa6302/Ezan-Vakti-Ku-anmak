@@ -1,11 +1,16 @@
-import 'dart:async';
+﻿import 'dart:async';
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
+import 'dart:io' show Platform;
 import 'package:flutter_compass/flutter_compass.dart';
+import 'package:flutter_map/flutter_map.dart';
+import 'package:latlong2/latlong.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:provider/provider.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
 import '../prayer/data/turkish_cities.dart';
+import '../prayer/data/turkish_districts.dart';
+import '../../widgets/city_picker_sheet.dart';
 
 const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
@@ -31,53 +36,98 @@ class _QiblaPageState extends State<QiblaPage> {
   bool _sensorAvailable = true;
   bool _locationGranted = false;
   bool _loading = true;
+  bool _showMap = false;
   StreamSubscription<CompassEvent>? _sub;
+  late AppState _appState;
 
   @override
   void initState() {
     super.initState();
+    _appState = context.read<AppState>();
+    _appState.addListener(_onAppStateChanged);
     _init();
   }
 
   @override
   void dispose() {
+    _appState.removeListener(_onAppStateChanged);
     _sub?.cancel();
     super.dispose();
   }
 
+  void _onAppStateChanged() {
+    if (!mounted) return;
+
+    double? lat;
+    double? lng;
+
+    if (_appState.district.isNotEmpty) {
+      for (final d in turkishDistricts) {
+        if (d.cityName == _appState.city &&
+            d.name == _appState.district) {
+          lat = d.lat;
+          lng = d.lng;
+          break;
+        }
+      }
+    }
+
+    if (lat == null || lng == null) {
+      final city = findCity(_appState.city);
+      if (city != null) {
+        lat = city.lat;
+        lng = city.lng;
+      }
+    }
+
+    lat ??= _appState.lat;
+    lng ??= _appState.lng;
+
+    if (lat == null || lng == null) return;
+
+    setState(() {
+      _cityName = _appState.locationName;
+      _lat = lat!;
+      _lng = lng!;
+      _qiblaBearing = _calculateQibla(_lat, _lng);
+      _locationGranted = false;
+    });
+  }
+
   Future<void> _init() async {
-    // Sehir kayitli ise onu kullan
-    final cityName = context.read<AppState>().city;
-    _cityName = cityName;
-    final city = findCity(cityName);
-    if (city != null) {
-      _lat = city.lat;
-      _lng = city.lng;
+    final appState = context.read<AppState>();
+    _cityName = appState.locationName;
+
+    // Manuel il/ilçe seçiminde kayıtlı eski koordinatlar yerine
+    // seçilen yerin kendi koordinatlarını kullan.
+    if (appState.district.isNotEmpty) {
+      final district = turkishDistricts.where((d) =>
+          d.cityName == appState.city &&
+          d.name == appState.district).firstOrNull;
+
+      if (district != null) {
+        _lat = district.lat;
+        _lng = district.lng;
+      } else if (appState.lat != null && appState.lng != null) {
+        _lat = appState.lat!;
+        _lng = appState.lng!;
+      }
+    } else {
+      final city = findCity(appState.city);
+      if (city != null) {
+        _lat = city.lat;
+        _lng = city.lng;
+      } else if (appState.lat != null && appState.lng != null) {
+        _lat = appState.lat!;
+        _lng = appState.lng!;
+      }
     }
 
     _qiblaBearing = _calculateQibla(_lat, _lng);
 
-    // Konum izni dene (opsiyonel)
-    try {
-      final perm = await Geolocator.checkPermission();
-      if (perm == LocationPermission.always ||
-          perm == LocationPermission.whileInUse) {
-        _locationGranted = true;
-        final pos = await Geolocator.getCurrentPosition(
-          locationSettings: const LocationSettings(
-            accuracy: LocationAccuracy.low,
-            timeLimit: Duration(seconds: 5),
-          ),
-        );
-        _lat = pos.latitude;
-        _lng = pos.longitude;
-        _cityName = 'Konum';
-        _qiblaBearing = _calculateQibla(_lat, _lng);
-      }
-    } catch (_) {}
+    final compassStream =
+        (Platform.isAndroid || Platform.isIOS) ? FlutterCompass.events : null;
 
-    // Pusula stream
-    final compassStream = FlutterCompass.events;
     if (compassStream == null) {
       _sensorAvailable = false;
     } else {
@@ -92,7 +142,6 @@ class _QiblaPageState extends State<QiblaPage> {
 
     if (mounted) setState(() => _loading = false);
   }
-
   double _calculateQibla(double lat, double lng) {
     final phiK = _kabeLat * math.pi / 180.0;
     final lambdaK = _kabeLng * math.pi / 180.0;
@@ -100,7 +149,8 @@ class _QiblaPageState extends State<QiblaPage> {
     final lambda = lng * math.pi / 180.0;
     final dLambda = lambdaK - lambda;
     final y = math.sin(dLambda);
-    final x = math.cos(phi) * math.tan(phiK) - math.sin(phi) * math.cos(dLambda);
+    final x =
+        math.cos(phi) * math.tan(phiK) - math.sin(phi) * math.cos(dLambda);
     final bearing = math.atan2(y, x) * 180.0 / math.pi;
     return (bearing + 360.0) % 360.0;
   }
@@ -127,31 +177,46 @@ class _QiblaPageState extends State<QiblaPage> {
   }
 
   Future<void> _pickCity() async {
-    final appState = context.read<AppState>();
-    final selected = await showModalBottomSheet<String>(
-      context: context,
-      backgroundColor: Colors.white,
-      showDragHandle: true,
-      isScrollControlled: true,
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
-      ),
-      builder: (_) => _CityPicker(current: _cityName),
-    );
-    if (selected == null) return;
-    final city = findCity(selected);
-    if (city == null) return;
-    await appState.setCity(selected, lat: city.lat, lng: city.lng);
+    await showCityPicker(context);
+
     if (!mounted) return;
+
+    final appState = context.read<AppState>();
+    double? lat;
+    double? lng;
+
+    if (appState.district.isNotEmpty) {
+      for (final d in turkishDistricts) {
+        if (d.cityName == appState.city &&
+            d.name == appState.district) {
+          lat = d.lat;
+          lng = d.lng;
+          break;
+        }
+      }
+    }
+
+    if (lat == null || lng == null) {
+      final city = findCity(appState.city);
+      if (city != null) {
+        lat = city.lat;
+        lng = city.lng;
+      }
+    }
+
+    lat ??= appState.lat;
+    lng ??= appState.lng;
+
+    if (lat == null || lng == null) return;
+
     setState(() {
-      _cityName = selected;
-      _lat = city.lat;
-      _lng = city.lng;
+      _cityName = appState.locationName;
+      _lat = lat!;
+      _lng = lng!;
       _qiblaBearing = _calculateQibla(_lat, _lng);
       _locationGranted = false;
     });
   }
-
   @override
   Widget build(BuildContext context) {
     final heading = _heading ?? 0;
@@ -163,7 +228,8 @@ class _QiblaPageState extends State<QiblaPage> {
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
         title: const Text('Kıble Pusulası',
-            style: TextStyle(color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
+            style: TextStyle(
+                color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
@@ -171,18 +237,179 @@ class _QiblaPageState extends State<QiblaPage> {
               padding: const EdgeInsets.all(14),
               children: [
                 _locationBar(),
-                const SizedBox(height: 20),
-                if (!_sensorAvailable)
-                  _noSensor()
+                const SizedBox(height: 14),
+                Row(
+                  children: [
+                    Expanded(
+                      child: ElevatedButton.icon(
+                        onPressed: () => setState(() => _showMap = false),
+                        icon: const Icon(Icons.explore_rounded),
+                        label: const Text('Pusula'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: !_showMap ? _navy : Colors.white,
+                          foregroundColor: !_showMap ? Colors.white : _navy,
+                          elevation: 0,
+                          padding: const EdgeInsets.symmetric(vertical: 14),
+                          side: const BorderSide(color: _navy),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(14),
+                          ),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: ElevatedButton.icon(
+                        onPressed: () => setState(() => _showMap = true),
+                        icon: const Icon(Icons.map_rounded),
+                        label: const Text('Harita'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: _showMap ? _red : Colors.white,
+                          foregroundColor: _showMap ? Colors.white : _navy,
+                          elevation: 0,
+                          padding: const EdgeInsets.symmetric(vertical: 14),
+                          side: const BorderSide(color: _red),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(14),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 18),
+                if (_showMap)
+                  _mapView()
                 else ...[
-                  _compass(heading, qibla, aligned),
+                  if (!_sensorAvailable)
+                    _noSensor()
+                  else ...[
+                    _compass(heading, qibla, aligned),
+                    const SizedBox(height: 20),
+                    _statusCard(heading, qibla, delta, aligned),
+                  ],
                   const SizedBox(height: 20),
-                  _statusCard(heading, qibla, delta, aligned),
+                  _infoCard(),
                 ],
-                const SizedBox(height: 20),
-                _infoCard(),
               ],
             ),
+    );
+  }
+
+  Widget _mapView() {
+    final userPoint = LatLng(_lat, _lng);
+    final kaabaPoint = LatLng(_kabeLat, _kabeLng);
+
+    return Column(
+      children: [
+        Container(
+          height: 430,
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(20),
+            boxShadow: [
+              BoxShadow(
+                color: _navy.withValues(alpha: 0.08),
+                blurRadius: 18,
+                offset: const Offset(0, 5),
+              ),
+            ],
+          ),
+          clipBehavior: Clip.antiAlias,
+          child: FlutterMap(
+            options: MapOptions(
+              initialCenter: LatLng(
+                (_lat + _kabeLat) / 2,
+                (_lng + _kabeLng) / 2,
+              ),
+              initialZoom: 3.2,
+            ),
+            children: [
+              TileLayer(
+                urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+                userAgentPackageName: 'nur_pusulasi',
+              ),
+              PolylineLayer(
+                polylines: [
+                  Polyline(
+                    points: [userPoint, kaabaPoint],
+                    color: _red,
+                    strokeWidth: 4,
+                  ),
+                ],
+              ),
+              MarkerLayer(
+                markers: [
+                  Marker(
+                    point: userPoint,
+                    width: 48,
+                    height: 48,
+                    child: const Icon(
+                      Icons.location_on_rounded,
+                      color: _navy,
+                      size: 42,
+                    ),
+                  ),
+                  Marker(
+                    point: kaabaPoint,
+                    width: 48,
+                    height: 48,
+                    child: const Icon(
+                      Icons.mosque_rounded,
+                      color: _red,
+                      size: 38,
+                    ),
+                  ),
+                ],
+              ),
+              RichAttributionWidget(
+                attributions: [
+                  TextSourceAttribution('© OpenStreetMap contributors'),
+                ],
+              ),
+            ],
+          ),
+        ),
+        const SizedBox(height: 14),
+        Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(color: _navy.withValues(alpha: 0.08)),
+          ),
+          child: Row(
+            children: [
+              const Icon(Icons.location_on_rounded, color: _navy),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  _cityName,
+                  style: const TextStyle(
+                    color: _navy,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ),
+              const Icon(Icons.arrow_forward_rounded, color: _red),
+              const SizedBox(width: 8),
+              const Text(
+                'Kâbe',
+                style: TextStyle(
+                  color: _red,
+                  fontWeight: FontWeight.w900,
+                ),
+              ),
+            ],
+          ),
+        ),
+        const SizedBox(height: 10),
+        const Text(
+          'Kırmızı çizgi konumunuz ile Kâbe arasındaki yönü gösterir.',
+          textAlign: TextAlign.center,
+          style: TextStyle(color: Colors.black54, fontSize: 12),
+        ),
+      ],
     );
   }
 
@@ -190,7 +417,7 @@ class _QiblaPageState extends State<QiblaPage> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
       decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(14),
+        borderRadius: BorderRadius.circular(14),
       ),
       child: Row(
         children: [
@@ -202,10 +429,13 @@ class _QiblaPageState extends State<QiblaPage> {
               children: [
                 Text(_cityName,
                     style: const TextStyle(
-                        color: _navy, fontSize: 14, fontWeight: FontWeight.w800)),
+                        color: _navy,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w800)),
                 Text(
                     '${_lat.toStringAsFixed(2)}°N, ${_lng.toStringAsFixed(2)}°E',
-                    style: const TextStyle(color: Colors.black54, fontSize: 11)),
+                    style:
+                        const TextStyle(color: Colors.black54, fontSize: 11)),
               ],
             ),
           ),
@@ -217,7 +447,8 @@ class _QiblaPageState extends State<QiblaPage> {
             ),
           IconButton(
             onPressed: _pickCity,
-            icon: const Icon(Icons.location_city_rounded, color: _navy, size: 20),
+            icon:
+                const Icon(Icons.location_city_rounded, color: _navy, size: 20),
             tooltip: 'Şehir seç',
           ),
         ],
@@ -233,7 +464,8 @@ class _QiblaPageState extends State<QiblaPage> {
         children: [
           // Ana daire
           Container(
-            width: 300, height: 300,
+            width: 300,
+            height: 300,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               gradient: RadialGradient(
@@ -258,7 +490,8 @@ class _QiblaPageState extends State<QiblaPage> {
           Transform.rotate(
             angle: -heading * math.pi / 180,
             child: SizedBox(
-              width: 280, height: 280,
+              width: 280,
+              height: 280,
               child: Stack(
                 children: [
                   _directionLabel('K', 0),
@@ -269,11 +502,12 @@ class _QiblaPageState extends State<QiblaPage> {
               ),
             ),
           ),
-          // Kible oku (sabit, hedef yonde donuyor)
+          // Kıble oku (sabit, hedef yonde donuyor)
           Transform.rotate(
             angle: (qibla - heading) * math.pi / 180,
             child: SizedBox(
-              width: 260, height: 260,
+              width: 260,
+              height: 260,
               child: Column(
                 children: [
                   Container(
@@ -309,7 +543,8 @@ class _QiblaPageState extends State<QiblaPage> {
           ),
           // Merkez ok
           Container(
-            width: 16, height: 16,
+            width: 16,
+            height: 16,
             decoration: BoxDecoration(
               color: aligned ? _green : _navy,
               shape: BoxShape.circle,
@@ -354,7 +589,7 @@ class _QiblaPageState extends State<QiblaPage> {
     return Container(
       padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(18),
       ),
       child: Column(
         children: [
@@ -381,13 +616,17 @@ class _QiblaPageState extends State<QiblaPage> {
                   : _red.withValues(alpha: 0.08),
               borderRadius: BorderRadius.circular(14),
               border: Border.all(
-                color: aligned ? _green.withValues(alpha: 0.4) : _red.withValues(alpha: 0.3),
+                color: aligned
+                    ? _green.withValues(alpha: 0.4)
+                    : _red.withValues(alpha: 0.3),
               ),
             ),
             child: Row(
               children: [
                 Icon(
-                  aligned ? Icons.check_circle_rounded : Icons.rotate_right_rounded,
+                  aligned
+                      ? Icons.check_circle_rounded
+                      : Icons.rotate_right_rounded,
                   color: aligned ? _green : _red,
                   size: 22,
                 ),
@@ -437,7 +676,7 @@ class _QiblaPageState extends State<QiblaPage> {
     return Container(
       padding: const EdgeInsets.all(24),
       decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(18),
       ),
       child: Column(
         children: const [
@@ -534,7 +773,9 @@ class _CityPickerState extends State<_CityPicker> {
               children: [
                 const Text('Şehir Seç',
                     style: TextStyle(
-                        color: _navy, fontSize: 20, fontWeight: FontWeight.w900)),
+                        color: _navy,
+                        fontSize: 20,
+                        fontWeight: FontWeight.w900)),
                 const SizedBox(height: 12),
                 TextField(
                   controller: _c,
@@ -562,7 +803,9 @@ class _CityPickerState extends State<_CityPicker> {
                 final sel = c.name == widget.current;
                 return ListTile(
                   leading: Icon(
-                      sel ? Icons.check_circle_rounded : Icons.location_city_rounded,
+                      sel
+                          ? Icons.check_circle_rounded
+                          : Icons.location_city_rounded,
                       color: sel ? _red : _navy),
                   title: Text(c.name,
                       style: TextStyle(
@@ -578,3 +821,5 @@ class _CityPickerState extends State<_CityPicker> {
     );
   }
 }
+
+

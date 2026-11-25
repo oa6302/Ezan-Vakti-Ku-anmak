@@ -1,4 +1,4 @@
-﻿// Türkiye 81 il merkezi koordinatları (enlem, boylam)
+// Türkiye 81 il merkezi koordinatları (enlem, boylam)
 class TurkishCity {
   final String name;
   final double lat;

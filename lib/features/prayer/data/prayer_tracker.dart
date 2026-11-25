@@ -1,4 +1,4 @@
-import 'dart:convert';
+﻿import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 
 enum PrayerStatus { kilindi, cemaatle, kaza, bos }
@@ -16,21 +16,21 @@ class PrayerRecord {
   });
 
   Map<String, dynamic> toJson() => {
-    'date': date,
-    'vakit': vakit,
-    'status': status.name,
-    'note': note,
-  };
+        'date': date,
+        'vakit': vakit,
+        'status': status.name,
+        'note': note,
+      };
 
   factory PrayerRecord.fromJson(Map<String, dynamic> json) => PrayerRecord(
-    date: json['date'] as String,
-    vakit: json['vakit'] as String,
-    status: PrayerStatus.values.firstWhere(
-      (s) => s.name == json['status'],
-      orElse: () => PrayerStatus.bos,
-    ),
-    note: json['note'] as String?,
-  );
+        date: json['date'] as String,
+        vakit: json['vakit'] as String,
+        status: PrayerStatus.values.firstWhere(
+          (s) => s.name == json['status'],
+          orElse: () => PrayerStatus.bos,
+        ),
+        note: json['note'] as String?,
+      );
 }
 
 class PrayerTracker {
@@ -79,20 +79,24 @@ class PrayerTracker {
     return result;
   }
 
-  Future<void> setStatus(DateTime date, String vakit, PrayerStatus status, {String? note}) async {
+  Future<void> setStatus(DateTime date, String vakit, PrayerStatus status,
+      {String? note}) async {
     final all = await _loadAll();
     final key = '${_dateKey(date)}_$vakit';
     if (status == PrayerStatus.bos) {
       all.remove(key);
     } else {
-      all[key] = PrayerRecord(date: _dateKey(date), vakit: vakit, status: status, note: note);
+      all[key] = PrayerRecord(
+          date: _dateKey(date), vakit: vakit, status: status, note: note);
     }
     await _saveAll(all);
   }
 
   Future<int> countCompleted(DateTime date) async {
     final day = await getDayStatus(date);
-    return day.values.where((s) => s == PrayerStatus.kilindi || s == PrayerStatus.cemaatle).length;
+    return day.values
+        .where((s) => s == PrayerStatus.kilindi || s == PrayerStatus.cemaatle)
+        .length;
   }
 
   Future<List<int>> getWeeklyCounts(DateTime endDate) async {
@@ -110,13 +114,20 @@ class PrayerTracker {
     final prefix = '${month.year}-${month.month.toString().padLeft(2, '0')}-';
     for (final r in all.values) {
       if (r.date.startsWith(prefix)) {
-        if (r.status == PrayerStatus.kilindi) summary['kilindi'] = summary['kilindi']! + 1;
-        if (r.status == PrayerStatus.cemaatle) summary['cemaatle'] = summary['cemaatle']! + 1;
-        if (r.status == PrayerStatus.kaza) summary['kaza'] = summary['kaza']! + 1;
+        if (r.status == PrayerStatus.kilindi) {
+          summary['kilindi'] = summary['kilindi']! + 1;
+        }
+        if (r.status == PrayerStatus.cemaatle) {
+          summary['cemaatle'] = summary['cemaatle']! + 1;
+        }
+        if (r.status == PrayerStatus.kaza) {
+          summary['kaza'] = summary['kaza']! + 1;
+        }
       }
     }
     return summary;
   }
+
   /// Son N günün tamamlanan vakit sayısı.
   /// Index 0 = N-1 gün önce, index N-1 = bugün.
   Future<List<int>> getLastNDays(int n) async {
@@ -145,7 +156,8 @@ class PrayerTracker {
     final all = await _loadAll();
     var count = 0;
     for (final r in all.values) {
-      if (r.status == PrayerStatus.kilindi || r.status == PrayerStatus.cemaatle) {
+      if (r.status == PrayerStatus.kilindi ||
+          r.status == PrayerStatus.cemaatle) {
         count++;
       }
     }
@@ -157,7 +169,8 @@ class PrayerTracker {
     final all = await _loadAll();
     final days = <String>{};
     for (final r in all.values) {
-      if (r.status == PrayerStatus.kilindi || r.status == PrayerStatus.cemaatle) {
+      if (r.status == PrayerStatus.kilindi ||
+          r.status == PrayerStatus.cemaatle) {
         days.add(r.date);
       }
     }
@@ -197,7 +210,8 @@ class PrayerTracker {
     final all = await _loadAll();
     final activeDays = <DateTime>{};
     for (final r in all.values) {
-      if (r.status == PrayerStatus.kilindi || r.status == PrayerStatus.cemaatle) {
+      if (r.status == PrayerStatus.kilindi ||
+          r.status == PrayerStatus.cemaatle) {
         final parts = r.date.split('-');
         if (parts.length == 3) {
           activeDays.add(DateTime(
@@ -208,7 +222,7 @@ class PrayerTracker {
         }
       }
     }
-    if (activeDays.isEmpty) return 0;
+    if (activeDays.isEmpty) { return 0; }
     final sorted = activeDays.toList()..sort();
     var longest = 1;
     var current = 1;
@@ -216,7 +230,7 @@ class PrayerTracker {
       final diff = sorted[i].difference(sorted[i - 1]).inDays;
       if (diff == 1) {
         current++;
-        if (current > longest) longest = current;
+        if (current > longest) { longest = current; }
       } else {
         current = 1;
       }
@@ -227,8 +241,7 @@ class PrayerTracker {
   /// Ayın günlerine göre tamamlanan sayılar (1..31).
   Future<Map<int, int>> getMonthHeatmap(DateTime month) async {
     final all = await _loadAll();
-    final prefix =
-        '${month.year}-${month.month.toString().padLeft(2, '0')}-';
+    final prefix = '${month.year}-${month.month.toString().padLeft(2, '0')}-';
     final result = <int, int>{};
     for (final r in all.values) {
       if (r.date.startsWith(prefix)) {
@@ -242,10 +255,9 @@ class PrayerTracker {
     return result;
   }
 
-
-
   Future<void> clearAll() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.remove(_key);
   }
 }
+

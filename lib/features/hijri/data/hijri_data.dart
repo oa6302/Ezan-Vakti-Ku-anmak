@@ -6,9 +6,18 @@ class HijriDate {
   const HijriDate(this.year, this.month, this.day);
 
   static const aylar = [
-    'Muharrem', 'Safer', 'Rebiülevvel', 'Rebiülahir',
-    'Cemaziyelevvel', 'Cemaziyelahir', 'Recep', 'Şaban',
-    'Ramazan', 'Şevval', 'Zilkade', 'Zilhicce',
+    'Muharrem',
+    'Safer',
+    'Rebiülevvel',
+    'Rebiülahir',
+    'Cemaziyelevvel',
+    'Cemaziyelahir',
+    'Recep',
+    'Şaban',
+    'Ramazan',
+    'Şevval',
+    'Zilkade',
+    'Zilhicce',
   ];
 
   String get ayAdi => aylar[month - 1];
@@ -24,8 +33,10 @@ HijriDate gregorianToHijri(DateTime date) {
   var l2 = l - 10631 * n + 354;
   final j = ((10985 - l2) ~/ 5316) * ((50 * l2) ~/ 17719) +
       (l2 ~/ 5670) * ((43 * l2) ~/ 15238);
-  l2 = l2 - ((30 - j) ~/ 15) * ((17719 * j) ~/ 50) -
-      (j ~/ 16) * ((15238 * j) ~/ 43) + 29;
+  l2 = l2 -
+      ((30 - j) ~/ 15) * ((17719 * j) ~/ 50) -
+      (j ~/ 16) * ((15238 * j) ~/ 43) +
+      29;
   final month = ((24 * l2) ~/ 709);
   final day = l2 - ((709 * month) ~/ 24);
   final year = 30 * n + j - 30;
@@ -33,12 +44,17 @@ HijriDate gregorianToHijri(DateTime date) {
 }
 
 double _gregorianToJD(int y, int m, int d) {
-  if (m <= 2) { y -= 1; m += 12; }
+  if (m <= 2) {
+    y -= 1;
+    m += 12;
+  }
   final a = (y / 100).floor();
   final b = 2 - a + (a / 4).floor();
   return (365.25 * (y + 4716)).floor() +
       (30.6001 * (m + 1)).floor() +
-      d + b - 1524.5;
+      d +
+      b -
+      1524.5;
 }
 
 /// Kalan gun / ay / yil hesabi
