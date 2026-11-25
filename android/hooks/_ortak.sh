@@ -21,5 +21,6 @@ flutter_bul() {
 }
 
 GIZLI_DOSYA_REGEX='(^|/)(key\.properties|local\.properties|google-services\.json|GoogleService-Info\.plist|\.env(\..*)?|test_bilgileri\.json)$|\.(jks|keystore|p12|pem)$'
-GIZLI_ICERIK_REGEX='(storePassword|keyPassword)[[:space:]]*=|AIza[0-9A-Za-z_-]{35}|ghp_[0-9A-Za-z]{36}|github_pat_[0-9A-Za-z_]{50,}|sk-[A-Za-z0-9_-]{32,}|-----BEGIN [A-Z ]*PRIVATE KEY-----'
+# Sifre: sadece duz yazilmis deger ("..." veya properties satiri); keyProperties["..."] okumasi serbest
+GIZLI_ICERIK_REGEX='(storePassword|keyPassword)[[:space:]]*=[[:space:]]*"[^"]+"|^[+]?(storePassword|keyPassword)=[^[:space:]]+|AIza[0-9A-Za-z_-]{35}|ghp_[0-9A-Za-z]{36}|github_pat_[0-9A-Za-z_]{50,}|sk-[A-Za-z0-9_-]{32,}|-----BEGIN [A-Z ]*PRIVATE KEY-----'
 BUYUK_DOSYA_KB=5120

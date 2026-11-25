@@ -18,7 +18,7 @@ process.stdin.on('end', () => {
   const buf = fs.readFileSync(f);
   const metin = buf.toString('utf8');
   if (/(^|\/)(key\.properties|local\.properties|\.env(\..*)?|test_bilgileri\.json)$|\.(jks|keystore|pem)$/.test(rel)) return; // gizli dosyanin kendisi: icerik raporlanmaz
-  if (/(storePassword|keyPassword)\s*=|AIza[0-9A-Za-z_-]{35}|ghp_[0-9A-Za-z]{36}|-----BEGIN [A-Z ]*PRIVATE KEY-----/.test(metin)) sorun.push('G1 gizli bilgi');
+  if (/(storePassword|keyPassword)\s*=\s*"[^"]+"|^(storePassword|keyPassword)=\S+|AIza[0-9A-Za-z_-]{35}|ghp_[0-9A-Za-z]{36}|-----BEGIN [A-Z ]*PRIVATE KEY-----/m.test(metin)) sorun.push('G1 gizli bilgi');
   if (/^(<<<<<<<|>>>>>>>)( |$)|^=======$/m.test(metin)) sorun.push('G6 catisma isareti');
   if (buf[0] === 0xef && buf[1] === 0xbb && buf[2] === 0xbf) sorun.push('U5 BOM');
   if (/\.(json|arb)$/.test(rel)) { try { JSON.parse(metin.replace(/^﻿/, '')); } catch (e) { sorun.push('U2 bozuk JSON: ' + e.message); } }

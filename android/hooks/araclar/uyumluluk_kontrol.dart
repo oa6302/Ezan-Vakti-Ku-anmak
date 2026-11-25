@@ -1,4 +1,4 @@
-// U1-U5 uyumluluk. dart run uyumluluk_kontrol.dart <kok> [degisen dosyalar...]
+// U1-U5 uyumluluk. dart run uyumluluk_kontrol.dart <kok> [--liste <dosya> | degisen dosyalar...]
 // Dosya verilirse sadece ilgili bolum calisir. Cikis: 0 temiz, 1 hata, 2 uyari.
 import 'dart:convert';
 import 'dart:io';
@@ -22,7 +22,14 @@ bool bomVar(List<int> b) =>
 
 void main(List<String> args) {
   kok = args.isNotEmpty ? args.first : '.';
-  final d = args.skip(1).map((e) => e.replaceAll('\\', '/')).toList();
+  // Uzun listeler Windows komut satiri sinirini asar; --liste ile dosyadan okunur.
+  final ham = args.length > 2 && args[1] == '--liste'
+      ? File(args[2]).readAsLinesSync()
+      : args.skip(1);
+  final d = ham
+      .map((e) => e.trim().replaceAll('\\', '/'))
+      .where((e) => e.isNotEmpty)
+      .toList();
   bool ilgili(bool Function(String) f) => d.isEmpty || d.any(f);
 
   if (ilgili((f) => f == 'pubspec.yaml' || f.startsWith('assets/fonts/')))

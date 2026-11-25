@@ -57,8 +57,8 @@ Y="$(printf '%s\n' "$MEVCUT" | grep -E '\.(bak[0-9]*|bak_.*|bozuk[0-9]*|before_v
 # U1-U5 uyumluluk (sadece ilgili dosyalar degistiyse ilgili bolum calisir)
 flutter_bul || hata "flutter bulunamadi"
 if [ -n "$DART" ] && printf '%s\n' "$KONTROL" | grep -qE '^(pubspec\.yaml|assets/|lib/l10n/.*\.arb|android/)'; then
-  # shellcheck disable=SC2046
-  "$DART" run "$HOOK_DIZIN/araclar/uyumluluk_kontrol.dart" "$PROJE_KOK" $(printf '%s\n' "$KONTROL") >"$HOOK_DIZIN/.uyum.log" 2>&1
+  printf '%s\n' "$KONTROL" >"$HOOK_DIZIN/.degisen.lst"
+  "$DART" run "$HOOK_DIZIN/araclar/uyumluluk_kontrol.dart" "$PROJE_KOK" --liste "$HOOK_DIZIN/.degisen.lst" >"$HOOK_DIZIN/.uyum.log" 2>&1
   RC=$?
   sed 's/Running build hooks\.\.\.//g' "$HOOK_DIZIN/.uyum.log" | grep -E '\[(HATA|UYARI)\]'
   case $RC in 0) ;; 1) HATA_SAYISI=$((HATA_SAYISI+1));; 2) UYARI_SAYISI=$((UYARI_SAYISI+1));;
@@ -74,10 +74,12 @@ if [ "$MOD" = "staged" ] && [ -n "$DART_DOSYALAR" ] && [ -n "$DART" ]; then
 fi
 
 if [ "$MOD" = "tam" ] && [ -n "$FLUTTER" ]; then
-  # U8 analyze: sadece degisen .dart dosyalari
+  # U8 analyze: degisen .dart dosyalari (cok fazlaysa komut satiri siniri icin tum proje)
   if [ -n "$DART_DOSYALAR" ]; then
-    # shellcheck disable=SC2046
-    if ! "$FLUTTER" analyze --no-fatal-infos $(printf '%s\n' "$DART_DOSYALAR") >"$HOOK_DIZIN/.analyze.log" 2>&1; then
+    HEDEF="$(printf '%s\n' "$DART_DOSYALAR")"
+    [ "$(printf '%s\n' "$HEDEF" | wc -l)" -gt 60 ] && HEDEF=""
+    # shellcheck disable=SC2086
+    if ! "$FLUTTER" analyze --no-fatal-infos $HEDEF >"$HOOK_DIZIN/.analyze.log" 2>&1; then
       hata "U8 analyze:"; grep -E '^\s*(error|warning)' "$HOOK_DIZIN/.analyze.log" | head -10
     fi
   fi
