@@ -12,9 +12,8 @@ const adminPin = String.fromEnvironment('ADMIN_PIN');
 const kayitliPin = String.fromEnvironment('ADMIN_PIN_KAYITLI');
 
 void main() {
-  final atla = adminPin.isEmpty
-      ? 'test_bilgileri.json yok (ADMIN_PIN tanimsiz)'
-      : null;
+  final atla =
+      adminPin.isEmpty ? 'test_bilgileri.json yok (ADMIN_PIN tanimsiz)' : null;
 
   setUp(() async {
     // Cihazda ozel PIN kayitliymis gibi davran (bos ise varsayilan PIN gecerli)
