@@ -5,7 +5,7 @@ import 'content_service.dart';
 
 /// Favori icerik kaydi — ContentItem'in hafifletilmis kopyasi.
 class FavoriteItem {
-  final String id;          // ContentItem.id (tip prefixli: kissa_, dua_ vs.)
+  final String id; // ContentItem.id (tip prefixli: kissa_, dua_ vs.)
   final ContentType type;
   final String baslik;
   final String icerik;

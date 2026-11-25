@@ -41,9 +41,8 @@ class FavoriteButton extends StatelessWidget {
               if (!context.mounted) return;
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
-                  content: Text(added
-                      ? 'Favorilere eklendi'
-                      : 'Favorilerden cikarildi'),
+                  content: Text(
+                      added ? 'Favorilere eklendi' : 'Favorilerden cikarildi'),
                   backgroundColor: added ? _gold : _navy,
                   duration: const Duration(milliseconds: 1500),
                   behavior: SnackBarBehavior.floating,

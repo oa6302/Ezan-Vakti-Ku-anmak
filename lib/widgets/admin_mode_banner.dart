@@ -59,7 +59,8 @@ class AdminModeBanner extends StatelessWidget {
                             fontWeight: FontWeight.w900,
                             letterSpacing: 1.5)),
                     SizedBox(height: 1),
-                    Text('Kartlarin sag ustundeki kalem ikonundan duzenleyebilirsiniz',
+                    Text(
+                        'Kartlarin sag ustundeki kalem ikonundan duzenleyebilirsiniz',
                         style: TextStyle(color: Colors.white70, fontSize: 9)),
                   ],
                 ),
@@ -70,16 +71,14 @@ class AdminModeBanner extends StatelessWidget {
                     context: context,
                     builder: (_) => AlertDialog(
                       title: const Text('Admin modundan cik?'),
-                      content:
-                          const Text('Duzenleme butonlari gizlenecek.'),
+                      content: const Text('Duzenleme butonlari gizlenecek.'),
                       actions: [
                         TextButton(
                           onPressed: () => Navigator.pop(context, false),
                           child: const Text('Iptal'),
                         ),
                         FilledButton(
-                          style: FilledButton.styleFrom(
-                              backgroundColor: _red),
+                          style: FilledButton.styleFrom(backgroundColor: _red),
                           onPressed: () => Navigator.pop(context, true),
                           child: const Text('Cikis'),
                         ),
@@ -91,8 +90,8 @@ class AdminModeBanner extends StatelessWidget {
                   }
                 },
                 child: Container(
-                  padding: const EdgeInsets.symmetric(
-                      horizontal: 10, vertical: 5),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                   decoration: BoxDecoration(
                     color: _red.withValues(alpha: 0.15),
                     borderRadius: BorderRadius.circular(20),

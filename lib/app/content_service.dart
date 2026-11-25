@@ -1,28 +1,18 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:nur_pusulasi/data/islami_kissalar.dart';
-import 'package:nur_pusulasi/data/islami_kissalar_peygamberler.dart';
-import 'package:nur_pusulasi/data/islami_kissalar_siyer.dart';
-import 'package:nur_pusulasi/data/islami_kissalar_kadin.dart';
-import 'package:nur_pusulasi/data/islami_kissalar_genc.dart';
-import 'package:nur_pusulasi/data/islami_kissalar_6.dart';
-import 'package:nur_pusulasi/data/islami_kissalar_7.dart';
-import 'package:nur_pusulasi/data/islami_kissalar_8.dart';
 import 'package:nur_pusulasi/data/dua_havuzu.dart';
+import 'package:nur_pusulasi/data/vecize_havuzu.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_2.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_3.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_4.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_5.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_6.dart';
-import 'package:nur_pusulasi/data/vecize_havuzu.dart';
 import 'package:nur_pusulasi/data/ayet_havuzu.dart';
 import 'package:nur_pusulasi/data/ayet_havuzu_2.dart';
 import 'package:nur_pusulasi/data/risale_havuzu.dart';
 import 'package:nur_pusulasi/data/hadis_havuzu.dart';
-import 'package:nur_pusulasi/data/tefekkur_havuzu.dart';
-import 'package:nur_pusulasi/data/daily_content.dart';
-import 'package:nur_pusulasi/data/daily_content_ek.dart';
+import 'package:nur_pusulasi/data/daily_content_365.dart';
 import 'package:nur_pusulasi/features/kandil/data/kandil_data.dart';
 import 'package:nur_pusulasi/features/mood/data/mood_data.dart';
 import 'package:nur_pusulasi/features/family/data/family_data.dart';
@@ -33,18 +23,27 @@ enum ContentStatus { taslak, incelemede, yayinlandi, arsivlendi }
 extension ContentStatusX on ContentStatus {
   String get key {
     switch (this) {
-      case ContentStatus.taslak: return 'taslak';
-      case ContentStatus.incelemede: return 'incelemede';
-      case ContentStatus.yayinlandi: return 'yayinlandi';
-      case ContentStatus.arsivlendi: return 'arsivlendi';
+      case ContentStatus.taslak:
+        return 'taslak';
+      case ContentStatus.incelemede:
+        return 'incelemede';
+      case ContentStatus.yayinlandi:
+        return 'yayinlandi';
+      case ContentStatus.arsivlendi:
+        return 'arsivlendi';
     }
   }
+
   String get label {
     switch (this) {
-      case ContentStatus.taslak: return 'Taslak';
-      case ContentStatus.incelemede: return 'Incelemede';
-      case ContentStatus.yayinlandi: return 'Yayinlandi';
-      case ContentStatus.arsivlendi: return 'Arsivlendi';
+      case ContentStatus.taslak:
+        return 'Taslak';
+      case ContentStatus.incelemede:
+        return 'Incelemede';
+      case ContentStatus.yayinlandi:
+        return 'Yayinlandi';
+      case ContentStatus.arsivlendi:
+        return 'Arsivlendi';
     }
   }
 }
@@ -55,58 +54,106 @@ enum KaynakTuru { elle, diyanet, kuran, hadis, risale, aiDestekli }
 extension KaynakTuruX on KaynakTuru {
   String get key {
     switch (this) {
-      case KaynakTuru.elle: return 'elle';
-      case KaynakTuru.diyanet: return 'diyanet';
-      case KaynakTuru.kuran: return 'kuran';
-      case KaynakTuru.hadis: return 'hadis';
-      case KaynakTuru.risale: return 'risale';
-      case KaynakTuru.aiDestekli: return 'ai_destekli';
+      case KaynakTuru.elle:
+        return 'elle';
+      case KaynakTuru.diyanet:
+        return 'diyanet';
+      case KaynakTuru.kuran:
+        return 'kuran';
+      case KaynakTuru.hadis:
+        return 'hadis';
+      case KaynakTuru.risale:
+        return 'risale';
+      case KaynakTuru.aiDestekli:
+        return 'ai_destekli';
     }
   }
+
   String get label {
     switch (this) {
-      case KaynakTuru.elle: return 'Elle girildi';
-      case KaynakTuru.diyanet: return 'Diyanet';
-      case KaynakTuru.kuran: return 'Kuran';
-      case KaynakTuru.hadis: return 'Hadis';
-      case KaynakTuru.risale: return 'Risale-i Nur';
-      case KaynakTuru.aiDestekli: return 'AI destekli (dogrulama gerekli)';
+      case KaynakTuru.elle:
+        return 'Elle girildi';
+      case KaynakTuru.diyanet:
+        return 'Diyanet';
+      case KaynakTuru.kuran:
+        return 'Kuran';
+      case KaynakTuru.hadis:
+        return 'Hadis';
+      case KaynakTuru.risale:
+        return 'Risale-i Nur';
+      case KaynakTuru.aiDestekli:
+        return 'AI destekli (dogrulama gerekli)';
     }
   }
 }
 
 /// Tum kartlar icin ortak icerik tipi
-enum ContentType { kissa, dua, vecize, hadis, tefekkur, ayet, gunluk, risale, kandil, mood, cocukDersi }
+enum ContentType {
+  kissa,
+  dua,
+  vecize,
+  hadis,
+  tefekkur,
+  ayet,
+  gunluk,
+  risale,
+  kandil,
+  mood,
+  cocukDersi
+}
 
 extension ContentTypeKey on ContentType {
   String get key {
     switch (this) {
-      case ContentType.kissa: return 'kissa';
-      case ContentType.dua: return 'dua';
-      case ContentType.vecize: return 'vecize';
-      case ContentType.hadis: return 'hadis';
-      case ContentType.tefekkur: return 'tefekkur';
-      case ContentType.ayet: return 'ayet';
-      case ContentType.gunluk: return 'gunluk';
-      case ContentType.risale: return 'risale';
-      case ContentType.kandil: return 'kandil';
-      case ContentType.mood: return 'mood';
-      case ContentType.cocukDersi: return 'cocukDersi';
+      case ContentType.kissa:
+        return 'kissa';
+      case ContentType.dua:
+        return 'dua';
+      case ContentType.vecize:
+        return 'vecize';
+      case ContentType.hadis:
+        return 'hadis';
+      case ContentType.tefekkur:
+        return 'Tefekkür';
+      case ContentType.ayet:
+        return 'ayet';
+      case ContentType.gunluk:
+        return 'gunluk';
+      case ContentType.risale:
+        return 'risale';
+      case ContentType.kandil:
+        return 'kandil';
+      case ContentType.mood:
+        return 'mood';
+      case ContentType.cocukDersi:
+        return 'cocukDersi';
     }
   }
+
   String get label {
     switch (this) {
-      case ContentType.kissa: return 'Kissa';
-      case ContentType.dua: return 'Dua';
-      case ContentType.vecize: return 'Vecize';
-      case ContentType.hadis: return 'Hadis';
-      case ContentType.tefekkur: return 'Tefekkur';
-      case ContentType.ayet: return 'Ayet';
-      case ContentType.gunluk: return 'Gunluk';
-      case ContentType.risale: return 'Risale';
-      case ContentType.kandil: return 'Kandil';
-      case ContentType.mood: return 'Ruh Hali';
-      case ContentType.cocukDersi: return 'Cocuk Dersi';
+      case ContentType.kissa:
+        return 'Kissa';
+      case ContentType.dua:
+        return 'Dua';
+      case ContentType.vecize:
+        return 'Vecize';
+      case ContentType.hadis:
+        return 'Hadis';
+      case ContentType.tefekkur:
+        return 'Tefekkür';
+      case ContentType.ayet:
+        return 'Ayet';
+      case ContentType.gunluk:
+        return 'Gunluk';
+      case ContentType.risale:
+        return 'Risale';
+      case ContentType.kandil:
+        return 'Kandil';
+      case ContentType.mood:
+        return 'Ruh Hali';
+      case ContentType.cocukDersi:
+        return 'Cocuk Dersi';
     }
   }
 }
@@ -116,15 +163,15 @@ class ContentItem {
   final String id;
   final ContentType type;
   final String baslik;
-  final String icerik;        // ana metin
-  final String? altIcerik;    // meal, anlam vb.
-  final String? arapca;       // varsa
-  final String? kaynak;       // Buhari, Muslim...
+  final String icerik; // ana metin
+  final String? altIcerik; // meal, anlam vb.
+  final String? arapca; // varsa
+  final String? kaynak; // Buhari, Muslim...
   final String? kategori;
-  final bool custom;          // admin tarafindan mi eklendi
-  final ContentStatus durum;  // taslak / yayinlandi / ...
-  final bool dogrulandi;      // kaynak dogrulanmis mi
-  final String? kaynakURL;    // varsa kaynak linki
+  final bool custom; // admin tarafindan mi eklendi
+  final ContentStatus durum; // taslak / yayinlandi / ...
+  final bool dogrulandi; // kaynak dogrulanmis mi
+  final String? kaynakURL; // varsa kaynak linki
   final KaynakTuru kaynakTuru;
   final DateTime? guncellenme;
   final Map<String, dynamic>? extra;
@@ -219,71 +266,7 @@ class ContentService extends ChangeNotifier {
   /// Hardcoded havuzlardan default ContentItem listeleri olustur
   void _buildDefaults() {
     // KISSA havuzu
-    _pools[ContentType.kissa] = [
-      ...islamiKissalar.map((k) => ContentItem(
-            id: 'kissa_${k.baslik.hashCode}',
-            type: ContentType.kissa,
-            baslik: k.baslik,
-            icerik: k.metin,
-            altIcerik: k.hisse,
-            kaynak: k.kaynak,
-          )),
-      ...peygamberKissalari.map((k) => ContentItem(
-            id: 'peyg_${k.baslik.hashCode}',
-            type: ContentType.kissa,
-            baslik: k.baslik,
-            icerik: k.metin,
-            altIcerik: k.hisse,
-            kaynak: k.kaynak,
-          )),
-      ...siyerKissalari.map((k) => ContentItem(
-            id: 'siyer_${k.baslik.hashCode}',
-            type: ContentType.kissa,
-            baslik: k.baslik,
-            icerik: k.metin,
-            altIcerik: k.hisse,
-            kaynak: k.kaynak,
-          )),
-      ...kadinSahabilerKissalari.map((k) => ContentItem(
-            id: 'kadin_${k.baslik.hashCode}',
-            type: ContentType.kissa,
-            baslik: k.baslik,
-            icerik: k.metin,
-            altIcerik: k.hisse,
-            kaynak: k.kaynak,
-          )),
-      ...gencSahabilerKissalari.map((k) => ContentItem(
-            id: 'genc_${k.baslik.hashCode}',
-            type: ContentType.kissa,
-            baslik: k.baslik,
-            icerik: k.metin,
-            altIcerik: k.hisse,
-            kaynak: k.kaynak,
-          )),
-      ...kissalar6.map((k) => ContentItem(
-            id: 'k6_${k.baslik.hashCode}',
-            type: ContentType.kissa,
-            baslik: k.baslik,
-            icerik: k.metin,
-            altIcerik: k.hisse,
-            kaynak: k.kaynak,
-          )),
-      ...kissalar7.map((k) => ContentItem(
-            id: 'k7_${k.baslik.hashCode}',
-            type: ContentType.kissa,
-            baslik: k.baslik,
-            icerik: k.metin,
-            altIcerik: k.hisse,
-            kaynak: k.kaynak,
-          )),      ...kissalar8.map((k) => ContentItem(
-            id: 'k8_${k.baslik.hashCode}',
-            type: ContentType.kissa,
-            baslik: k.baslik,
-            icerik: k.metin,
-            altIcerik: k.hisse,
-            kaynak: k.kaynak,
-          )),
-    ];
+    _pools[ContentType.kissa] = <ContentItem>[];
 
     // DUA havuzu
     _pools[ContentType.dua] = [
@@ -336,7 +319,8 @@ class ContentService extends ChangeNotifier {
             arapca: d.arapca,
             kaynak: d.kaynak,
             kategori: d.kategori,
-          )),      ...duaHavuzu6.map((d) => ContentItem(
+          )),
+      ...duaHavuzu6.map((d) => ContentItem(
             id: 'dua6_${d.baslik.hashCode}',
             type: ContentType.dua,
             baslik: d.baslik,
@@ -348,79 +332,114 @@ class ContentService extends ChangeNotifier {
           )),
     ];
 
-    // VECIZE havuzu
-    // VECIZE havuzu - sadece Osmanlicasi dolu olanlar gunluk rotasyona girer
-    _pools[ContentType.vecize] = vecizeHavuzu.asMap().entries
-        .where((e) => e.value.osmanlica.trim().isNotEmpty)
-        .map((e) {
-      final i = e.key;
-      final v = e.value;
-      return ContentItem(
-        id: 'vecize_${i}_${v.latin.hashCode}',
-        type: ContentType.vecize,
-        baslik: 'Gunun Vecizesi',
-        icerik: v.latin,
-        altIcerik: v.osmanlica,
-        kaynak: v.kaynak,
-        kategori: v.kategori,
-      );
-    }).toList();
+    _pools[ContentType.vecize] = vecizeHavuzu.map((v) => ContentItem(id: 'vecize_${v.hashCode}', type: ContentType.vecize, baslik: v.kategori, icerik: v.latin, altIcerik: v.osmanlica, kaynak: 'BEDİÜZZAMAN SAİD NURSÎ', kategori: v.kategori, durum: ContentStatus.yayinlandi)).toList();
 
     // Digerleri bos baslar (admin ekleyebilir)
     // AYET havuzu (Diyanet meali + Arapca)
-    _pools[ContentType.ayet] = [...ayetHavuzu, ...ayetHavuzu2].map((a) => ContentItem(
-          id: 'ayet_${a.id}',
-          type: ContentType.ayet,
-          baslik: a.kaynak,
-          icerik: a.arapca,
-          altIcerik: a.meal,
-          kaynak: 'Diyanet Isleri Baskanligi Meali',
-          kategori: a.sure,
-          arapca: a.arapca,
-          dogrulandi: true,
-          durum: ContentStatus.yayinlandi,
-          kaynakTuru: KaynakTuru.diyanet,
-        )).toList();
+    _pools[ContentType.ayet] = [...ayetHavuzu, ...ayetHavuzu2]
+        .map((a) => ContentItem(
+              id: 'ayet_${a.id}',
+              type: ContentType.ayet,
+              baslik: a.kaynak,
+              icerik: a.arapca,
+              altIcerik: a.meal,
+              kaynak: 'Diyanet Isleri Baskanligi Meali',
+              kategori: a.sure,
+              arapca: a.arapca,
+              dogrulandi: true,
+              durum: ContentStatus.yayinlandi,
+              kaynakTuru: KaynakTuru.diyanet,
+            ))
+        .toList();
 
     // GUNLUK ICERIK havuzu
-    final gunlukAll = [...gunlukIcerikler, ...ekGunlukIcerikler];
-    _pools[ContentType.gunluk] = [
-      for (var i = 0; i < gunlukAll.length; i++)
-        ContentItem(
+        final gunlukAll = gunluk365Icerikler;
+    _pools[ContentType.gunluk] = List.generate(365, (i) {
+      if (i < gunlukAll.length) {
+        final g = gunlukAll[i];
+        return ContentItem(
           id: 'gunluk_$i',
           type: ContentType.gunluk,
-          baslik: gunlukAll[i].gunKonu,
-          icerik: gunlukAll[i].ayet,
-          altIcerik: gunlukAll[i].hadis,
-          kaynak: gunlukAll[i].ayetKaynak,
+          baslik: g.gunKonu,
+          icerik: g.ayet,
+          altIcerik: g.hadis,
+          kaynak: g.ayetKaynak,
           durum: ContentStatus.yayinlandi,
           extra: {
-            'gunKonu': gunlukAll[i].gunKonu,
-            'ayet': gunlukAll[i].ayet,
-            'ayetKaynak': gunlukAll[i].ayetKaynak,
-            'hadis': gunlukAll[i].hadis,
-            'hadisKaynak': gunlukAll[i].hadisKaynak,
-            'vecize': gunlukAll[i].vecize,
-            'vecizeModern': gunlukAll[i].vecizeModern,
-            'vecizeKaynak': gunlukAll[i].vecizeKaynak,
-            'risaleHakikat': gunlukAll[i].risaleHakikat,
-            'anahtarKelimeler': gunlukAll[i].anahtarKelimeler,
+            'gunKonu': g.gunKonu,
+            'kissa': '',
+            'kissaKaynak': '',
+            'ayet': g.ayet,
+            'ayetKaynak': g.ayetKaynak,
+            'hadis': g.hadis,
+            'hadisKaynak': g.hadisKaynak,
+            'vecize': g.vecize,
+            'vecizeModern': g.vecizeModern,
+            'vecizeKaynak': g.vecizeKaynak,
+            'risaleHakikat': g.risaleHakikat,
+            'ayetArapca': g.ayetArapca,
+            'ayetTefsir': g.ayetTefsir,
+            'risaleAlinti': g.risaleAlinti,
+            'risaleEser': g.risaleEser,
+            'risaleBolum': g.risaleBolum,
+            'duaBaslik': g.duaBaslik,
+            'duaArapca': g.duaArapca,
+            'duaOkunus': g.duaOkunus,
+            'duaAnlam': g.duaAnlam,
+            'duaKaynak': g.duaKaynak,
+            'duaKategori': g.duaKategori,
+            'anahtarKelimeler': g.anahtarKelimeler,
           },
-        ),
-    ];
+        );
+      }
+      final gun = 'Gün ${i + 1}';
+      return ContentItem(
+        id: 'gunluk_$i',
+        type: ContentType.gunluk,
+        baslik: gun,
+        icerik: '',
+        durum: ContentStatus.taslak,
+        extra: {
+          'gunKonu': gun,
+          'kissa': '',
+          'kissaKaynak': '',
+          'ayet': '',
+          'ayetKaynak': '',
+          'hadis': '',
+          'hadisKaynak': '',
+          'vecize': '',
+          'vecizeModern': '',
+          'vecizeKaynak': '',
+          'risaleHakikat': '',
+          'ayetArapca': '',
+          'ayetTefsir': '',
+          'risaleAlinti': '',
+          'risaleEser': '',
+          'risaleBolum': '',
+          'duaBaslik': '',
+          'duaArapca': '',
+          'duaOkunus': '',
+          'duaAnlam': '',
+          'duaKaynak': '',
+          'duaKategori': '',
+          'anahtarKelimeler': <String>[],
+        },
+      );
+    });
 
     // RISALE havuzu
-    _pools[ContentType.risale] = risaleHavuzu.map((r) => ContentItem(
-          id: 'risale_${r.baslik.hashCode}',
-          type: ContentType.risale,
-          baslik: r.baslik,
-          icerik: r.metin,
-          kaynak: r.kaynak,
-          kategori: r.kategori,
-          durum: ContentStatus.yayinlandi,
-          extra: {'emoji': r.emoji},
-        )).toList();
-
+    _pools[ContentType.risale] = risaleHavuzu
+        .map((r) => ContentItem(
+              id: 'risale_${r.baslik.hashCode}',
+              type: ContentType.risale,
+              baslik: r.baslik,
+              icerik: r.metin,
+              kaynak: r.kaynak,
+              kategori: r.kategori,
+              durum: ContentStatus.yayinlandi,
+              extra: {'emoji': r.emoji},
+            ))
+        .toList();
 
     _pools[ContentType.kandil] = [
       for (var i = 0; i < kandilEvents.length; i++)
@@ -477,24 +496,20 @@ class ContentService extends ChangeNotifier {
         ),
     ];
 
-        _pools[ContentType.hadis] = hadisHavuzu.map((h) => ContentItem(
-          id: 'hadis_${h.baslik.hashCode}',
-          type: ContentType.hadis,
-          baslik: h.baslik,
-          icerik: h.metin,
-          altIcerik: h.kaynakRef,
-          kaynak: h.kitap,
-          kategori: h.kategori,
-          durum: ContentStatus.yayinlandi,
-        )).toList();
-        _pools[ContentType.tefekkur] = tefekkurHavuzu.map((t) => ContentItem(
-          id: 'tefekkur_${t.baslik.hashCode}',
-          type: ContentType.tefekkur,
-          baslik: t.baslik,
-          icerik: t.metin,
-          kategori: t.kategori,
-          durum: ContentStatus.yayinlandi,
-        )).toList();  }
+    _pools[ContentType.hadis] = hadisHavuzu
+        .map((h) => ContentItem(
+              id: 'hadis_${h.baslik.hashCode}',
+              type: ContentType.hadis,
+              baslik: h.baslik,
+              icerik: h.metin,
+              arapca: h.arapca,
+              altIcerik: h.kaynakRef,
+              kaynak: h.kitap,
+              kategori: h.kategori,
+              durum: ContentStatus.yayinlandi,
+            ))
+        .toList();  }
+
 
   /// SharedPreferences'taki override'lari yukle
   Future<void> _overlayFromPrefs() async {
@@ -508,13 +523,24 @@ class ContentService extends ChangeNotifier {
           (t) => t.key == entry.key,
           orElse: () => ContentType.kissa,
         );
-        final list = (entry.value as List)
+        
+        if (type == ContentType.kissa) continue;
+final list = (entry.value as List)
             .map((j) => ContentItem.fromJson(Map<String, dynamic>.from(j)))
             .toList();
         // Sadece custom + silinmis ozel kayitlari degistir
         // (bu ornekte override mantigi: varsa direkt kullan)
         if (list.isNotEmpty) {
-          _pools[type] = list;
+          final merged = List<ContentItem>.from(_pools[type] ?? []);
+          for (final saved in list) {
+            final index = merged.indexWhere((item) => item.id == saved.id);
+            if (index >= 0) {
+              merged[index] = saved;
+            } else {
+              merged.add(saved);
+            }
+          }
+          _pools[type] = merged;
         }
       }
     } catch (e) {
@@ -530,6 +556,28 @@ class ContentService extends ChangeNotifier {
   }
 
   /// Tum havuz
+  /// Bes gunluk kart icin ayni gunluk kaydi getirir; eksik gunlerde tekrar yapmaz.
+  ContentItem? getDailyRecordForDate(DateTime date) {
+    final pool = _pools[ContentType.gunluk];
+    if (pool == null || pool.isEmpty) return null;
+    final dayOfYear = date.difference(DateTime(date.year, 1, 1)).inDays;
+    final index = dayOfYear % pool.length;
+    return pool[index];
+  }
+
+  /// Belirli bir içerik havuzundan tarihe göre dolu kayıt seçer.
+  ContentItem? getDailyPoolItem(ContentType type, DateTime date) {
+    final pool = _pools[type];
+    if (pool == null || pool.isEmpty) return null;
+    final doluKayitlar = pool.where((item) =>
+        item.icerik.trim().isNotEmpty ||
+        (item.altIcerik?.trim().isNotEmpty ?? false) ||
+        (item.arapca?.trim().isNotEmpty ?? false)).toList();
+    if (doluKayitlar.isEmpty) return null;
+    final gun = date.difference(DateTime(date.year, 1, 1)).inDays;
+    return doluKayitlar[gun % doluKayitlar.length];
+  }
+
   List<ContentItem> getPool(ContentType type) =>
       List.unmodifiable(_pools[type] ?? []);
 
@@ -576,9 +624,9 @@ class ContentService extends ChangeNotifier {
     await prefs.setString(_prefsKey, jsonEncode(map));
   }
 
-  // ═══════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // Icon / Color helpers - kartlar bunlari kullanir
-  // ═══════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   static const _kategoriIkon = <String, IconData>{
     'Sabah': Icons.wb_sunny_rounded,
     'Aksam': Icons.nights_stay_rounded,
@@ -640,24 +688,24 @@ class ContentService extends ChangeNotifier {
     ContentType.dua: Icons.pan_tool_alt_rounded,
     ContentType.vecize: Icons.format_quote_rounded,
     ContentType.hadis: Icons.link_rounded,
-    ContentType.tefekkur: Icons.self_improvement_rounded,
     ContentType.gunluk: Icons.calendar_today_rounded,
     ContentType.risale: Icons.auto_stories_rounded,
     ContentType.kandil: Icons.star_rounded,
     ContentType.mood: Icons.self_improvement_rounded,
-    ContentType.cocukDersi: Icons.child_care_rounded,  };
+    ContentType.cocukDersi: Icons.child_care_rounded,
+  };
 
   static const _typeDefaultColor = <ContentType, Color>{
     ContentType.kissa: Color(0xFF0A1F44),
     ContentType.dua: Color(0xFFC9A961),
     ContentType.vecize: Color(0xFF2FAE7F),
     ContentType.hadis: Color(0xFFB71C1C),
-    ContentType.tefekkur: Color(0xFF6B4A2A),
     ContentType.gunluk: Color(0xFFC9A961),
     ContentType.risale: Color(0xFFB71C1C),
     ContentType.kandil: Color(0xFFC9A961),
     ContentType.mood: Color(0xFF4A6B8A),
-    ContentType.cocukDersi: Color(0xFF2FAE7F),  };
+    ContentType.cocukDersi: Color(0xFF2FAE7F),
+  };
 
   IconData iconFor(ContentItem item) {
     final kat = item.kategori;
@@ -678,9 +726,9 @@ class ContentService extends ChangeNotifier {
     }
     return _typeDefaultColor[item.type] ?? const Color(0xFF0A1F44);
   }
-  // ═══════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
   // Export / Import (JSON yedekleme)
-  // ═══════════════════════════════════════════════════════
+  // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 
   /// Tum havuzlari JSON string olarak dondurur (yedek).
   String exportAllAsJson() {
@@ -708,11 +756,13 @@ class ContentService extends ChangeNotifier {
         (t) => t.key == entry.key,
         orElse: () => ContentType.kissa,
       );
-      final incoming = (entry.value as List)
+      
+        if (type == ContentType.kissa) continue;
+final incoming = (entry.value as List)
           .map((j) => ContentItem.fromJson(Map<String, dynamic>.from(j)))
           .toList();
 
-      if (mode == 'replace') {
+      if (mode == 'replace' && type != ContentType.gunluk) {
         _pools[type] = incoming;
         changed += incoming.length;
       } else {
@@ -722,10 +772,11 @@ class ContentService extends ChangeNotifier {
           final idx = pool.indexWhere((i) => i.id == item.id);
           if (idx >= 0) {
             pool[idx] = item;
-          } else {
+            changed++;
+          } else if (type != ContentType.gunluk) {
             pool.add(item);
+            changed++;
           }
-          changed++;
         }
         _pools[type] = pool;
       }
@@ -751,14 +802,18 @@ class ContentService extends ChangeNotifier {
     final pool = _pools[type] ?? [];
     return {
       'toplam': pool.length,
-      'yayinlandi': pool.where((i) => i.durum == ContentStatus.yayinlandi).length,
+      'yayinlandi':
+          pool.where((i) => i.durum == ContentStatus.yayinlandi).length,
       'taslak': pool.where((i) => i.durum == ContentStatus.taslak).length,
-      'incelemede': pool.where((i) => i.durum == ContentStatus.incelemede).length,
-      'arsivlendi': pool.where((i) => i.durum == ContentStatus.arsivlendi).length,
+      'incelemede':
+          pool.where((i) => i.durum == ContentStatus.incelemede).length,
+      'arsivlendi':
+          pool.where((i) => i.durum == ContentStatus.arsivlendi).length,
       'dogrulandi': pool.where((i) => i.dogrulandi).length,
       'dogrulanmadi': pool.where((i) => !i.dogrulandi).length,
     };
   }
+
   /// Gunluk icerik yoksa veya bos ise anlamli bir fallback
   ContentItem fallback(ContentType type) => ContentItem(
         id: 'fallback_${type.key}',
@@ -767,3 +822,12 @@ class ContentService extends ChangeNotifier {
         icerik: 'Icerik yakinda eklenecek.',
       );
 }
+
+
+
+
+
+
+
+
+
