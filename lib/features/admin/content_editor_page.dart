@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -323,8 +324,8 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
 
     if (!kaydedilebilir) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Baslik ve en az bir icerik alani doldurulmalidir.'),
+        SnackBar(
+          content: Text(AppLocalizations.of(context).uiBaslikVeEnAz),
           backgroundColor: _red,
         ),
       );
@@ -335,18 +336,18 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
       final ok = await showDialog<bool>(
         context: context,
         builder: (_) => AlertDialog(
-          title: const Text('Dogrulamadan yayinla?'),
-          content: const Text(
-              'Bu icerik "dogrulandi" olarak isaretlenmemis. Yine de yayinlansin mi?'),
+          title: Text(AppLocalizations.of(context).uiDogrulamadanYayinla),
+          content:
+              Text(AppLocalizations.of(context).uiBuIcerikDogrulandiOlarak),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context, false),
-              child: const Text('Iptal'),
+              child: Text(AppLocalizations.of(context).uiIptal),
             ),
             FilledButton(
               style: FilledButton.styleFrom(backgroundColor: _orange),
               onPressed: () => Navigator.pop(context, true),
-              child: const Text('Yayinla'),
+              child: Text(AppLocalizations.of(context).uiYayinla),
             ),
           ],
         ),
@@ -396,17 +397,18 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
     final ok = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('Silinsin mi?'),
-        content: Text('"${widget.initial!.baslik}" kalici olarak silinecek.'),
+        title: Text(AppLocalizations.of(context).uiSilinsinMi),
+        content: Text(AppLocalizations.of(context)
+            .uiFKaliciOlarakSilinecek(widget.initial!.baslik)),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('Iptal'),
+            child: Text(AppLocalizations.of(context).uiIptal),
           ),
           FilledButton(
             style: FilledButton.styleFrom(backgroundColor: _red),
             onPressed: () => Navigator.pop(context, true),
-            child: const Text('Sil'),
+            child: Text(AppLocalizations.of(context).adminDelete),
           ),
         ],
       ),
@@ -443,8 +445,8 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
           if (_isNew)
             DropdownButtonFormField<ContentType>(
               initialValue: _type,
-              decoration: const InputDecoration(
-                labelText: 'Icerik Turu',
+              decoration: InputDecoration(
+                labelText: AppLocalizations.of(context).uiIcerikTuru,
                 border: OutlineInputBorder(),
               ),
               items: ContentType.values
@@ -472,8 +474,8 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
               Expanded(
                 child: DropdownButtonFormField<ContentStatus>(
                   initialValue: _durum,
-                  decoration: const InputDecoration(
-                    labelText: 'Yayin Durumu',
+                  decoration: InputDecoration(
+                    labelText: AppLocalizations.of(context).uiYayinDurumu,
                     border: OutlineInputBorder(),
                   ),
                   items: ContentStatus.values
@@ -487,8 +489,8 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
               Expanded(
                 child: DropdownButtonFormField<KaynakTuru>(
                   initialValue: _kaynakTuru,
-                  decoration: const InputDecoration(
-                    labelText: 'Kaynak Turu',
+                  decoration: InputDecoration(
+                    labelText: AppLocalizations.of(context).uiKaynakTuru,
                     border: OutlineInputBorder(),
                   ),
                   items: KaynakTuru.values
@@ -522,8 +524,8 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
                   style: const TextStyle(
                       color: _navy, fontSize: 14, fontWeight: FontWeight.w700),
                 ),
-                subtitle: const Text(
-                  'Diyanet, Buhari, Muslim gibi guvenilir kaynaktan kontrol edildi',
+                subtitle: Text(
+                  AppLocalizations.of(context).uiDiyanetBuhariMuslimGibi,
                   style: TextStyle(fontSize: 11),
                 ),
                 value: _dogrulandi,
@@ -562,7 +564,7 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
             ),
             onPressed: _save,
             icon: const Icon(Icons.save_rounded),
-            label: const Text('KAYDET',
+            label: Text(AppLocalizations.of(context).uiKaydet,
                 style: TextStyle(fontWeight: FontWeight.w900)),
           ),
           const SizedBox(height: 40),
@@ -629,14 +631,14 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
       const SizedBox(height: 14),
       Row(
         children: [
-          const Text('Oneriler',
+          Text(AppLocalizations.of(context).uiOneriler,
               style: TextStyle(
                   color: _navy, fontWeight: FontWeight.w900, fontSize: 13)),
           const Spacer(),
           TextButton.icon(
             onPressed: _addSuggestion,
             icon: const Icon(Icons.add_rounded, size: 18),
-            label: const Text('EKLE'),
+            label: Text(AppLocalizations.of(context).uiEkle),
           ),
         ],
       ),
@@ -656,7 +658,7 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
             children: [
               Row(
                 children: [
-                  Text('Oneri #${idx + 1}',
+                  Text(AppLocalizations.of(context).uiFOneri(idx + 1),
                       style: const TextStyle(
                           color: _navy,
                           fontWeight: FontWeight.w800,

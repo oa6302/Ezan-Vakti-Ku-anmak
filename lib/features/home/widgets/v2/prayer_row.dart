@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
 import '../../../prayer/data/prayer_service.dart';
@@ -72,7 +73,7 @@ class _PrayerRowV2State extends State<PrayerRowV2> {
                 color: Color(0xAAFFFFFF), blurRadius: 5, offset: Offset(0, -2))
           ],
         ),
-        child: const Row(
+        child: Row(
           children: [
             SizedBox(
               width: 20,
@@ -80,7 +81,7 @@ class _PrayerRowV2State extends State<PrayerRowV2> {
               child: CircularProgressIndicator(strokeWidth: 2),
             ),
             SizedBox(width: 12),
-            Text('Namaz vakitleri yukleniyor...',
+            Text(AppLocalizations.of(context).uiNamazVakitleriYukleniyor,
                 style: TextStyle(
                     color: Color(0xFF0A1F44),
                     fontSize: 12,
@@ -121,14 +122,14 @@ class _PrayerRowV2State extends State<PrayerRowV2> {
         children: [
           Row(
             children: [
-              const Text('Bugünün Namaz Vakitleri',
+              Text(AppLocalizations.of(context).prayerTimesToday,
                   style: TextStyle(
                       color: _navy, fontSize: 15, fontWeight: FontWeight.w900)),
               const Spacer(),
               const Icon(Icons.wb_sunny_rounded,
                   color: Color(0xFFF59E0B), size: 14),
               const SizedBox(width: 4),
-              Text('Güneş $gunesStr',
+              Text(AppLocalizations.of(context).uiFGunes(gunesStr),
                   style: const TextStyle(
                       color: Color(0xFFF59E0B),
                       fontSize: 11,

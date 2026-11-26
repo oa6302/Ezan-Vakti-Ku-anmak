@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../../../../app/content_service.dart';
 import '../../../../widgets/admin_card_wrapper.dart';
 
@@ -97,7 +98,7 @@ class _LightCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Günün Hadisi',
+                        AppLocalizations.of(context).hadithOfDay,
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           color: Color(0xFF0A1F44),
@@ -107,7 +108,7 @@ class _LightCard extends StatelessWidget {
                       ),
                       SizedBox(height: 3),
                       Text(
-                        'PEYGAMBERİMİZİN (S.A.V.) SÜNNETİ',
+                        AppLocalizations.of(context).uiPeygamberimizinSAV,
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           color: Color(0xFF0A1F44),
@@ -158,7 +159,7 @@ class _LightCard extends StatelessWidget {
               const SizedBox(height: 14),
             ],
             Text(
-              'HADİS-İ ŞERİF',
+              AppLocalizations.of(context).uiHadisISerif,
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Color(0xFF0A1F44),

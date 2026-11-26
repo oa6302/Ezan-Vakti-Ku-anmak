@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/shadows.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import '../data/family_data.dart';
@@ -43,8 +44,8 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
       final emoji = (lesson.extra?['emoji'] as String?) ?? '';
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text(
-              '$emoji ${widget.child.name} "${lesson.baslik}" adimini tamamladi!'),
+          content: Text(AppLocalizations.of(context)
+              .uiFAdiminiTamamladi(emoji, widget.child.name, lesson.baslik)),
           backgroundColor: _green,
         ),
       );
@@ -91,8 +92,10 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
                           borderRadius: BorderRadius.circular(16),
                           boxShadow: AppShadows.medium(),
                         ),
-                        child: const Center(
-                          child: Text('Henuz ders eklenmemis.',
+                        child: Center(
+                          child: Text(
+                              AppLocalizations.of(context)
+                                  .uiHenuzDersEklenmemis,
                               style: TextStyle(color: Colors.black54)),
                         ),
                       )
@@ -156,11 +159,12 @@ class _ChildDetailPageState extends State<ChildDetailPage> {
                         fontSize: 18,
                         fontWeight: FontWeight.w900)),
                 const SizedBox(height: 4),
-                Text('$done / $total adim tamamlandi',
+                Text(
+                    AppLocalizations.of(context).uiFAdimTamamlandi(done, total),
                     style:
                         const TextStyle(color: Colors.white70, fontSize: 12)),
                 const SizedBox(height: 4),
-                const Text('Her tamamlanan adim bir kutlama',
+                Text(AppLocalizations.of(context).uiHerTamamlananAdimBir,
                     style: TextStyle(color: Colors.white54, fontSize: 10)),
               ],
             ),

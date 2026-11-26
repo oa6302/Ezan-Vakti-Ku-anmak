@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/admin_card_wrapper.dart';
 
@@ -115,8 +116,8 @@ class DailyVerseCard extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(width: 8),
-                        const Text(
-                          'Günün Ayeti',
+                        Text(
+                          AppLocalizations.of(context).verseOfDay,
                           style: TextStyle(
                             color: Color(0xFF0A1F44),
                             shadows: [
@@ -215,7 +216,7 @@ class DailyVerseCard extends StatelessWidget {
                     const SizedBox(height: 10),
                     if (ayetTefsir.trim().isNotEmpty) ...[
                       const SizedBox(height: 10),
-                      const Text('KISA TEFSİR',
+                      Text(AppLocalizations.of(context).uiKisaTefsir,
                           style: TextStyle(
                               color: Color(0xFF0A1F44),
                               shadows: [

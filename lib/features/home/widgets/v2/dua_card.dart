@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../../../../app/content_service.dart';
 import '../../../../widgets/admin_card_wrapper.dart';
 import 'dua_detay_page.dart';
@@ -139,7 +140,7 @@ class DuaCard extends StatelessWidget {
                           children: [
                             Row(
                               children: [
-                                const Text('Günün Duası',
+                                Text(AppLocalizations.of(context).duaOfDay,
                                     style: TextStyle(
                                         shadows: [
                                           Shadow(
@@ -259,7 +260,8 @@ class DuaCard extends StatelessWidget {
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text('İçerik havuzu',
+                                Text(
+                                    AppLocalizations.of(context).uiIcerikHavuzu,
                                     style: TextStyle(
                                         shadows: const [
                                           Shadow(

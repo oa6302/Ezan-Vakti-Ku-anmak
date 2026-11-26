@@ -106,12 +106,16 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
       setState(() => _widgetBackgroundPath = savedFile.path);
 
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Widget fotoğrafı güncellendi.')),
+        SnackBar(
+            content: Text(
+                AppLocalizations.of(context).uiWidgetFotografiGuncellendi)),
       );
     } catch (error) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Fotoğraf seçilemedi: $error')),
+        SnackBar(
+            content: Text(
+                AppLocalizations.of(context).uiFFotografSecilemedi(error))),
       );
     }
   }
@@ -130,12 +134,16 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
       setState(() => _widgetBackgroundPath = null);
 
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Varsayılan arka plana dönüldü.')),
+        SnackBar(
+            content: Text(
+                AppLocalizations.of(context).uiVarsayilanArkaPlanaDonuldu)),
       );
     } catch (error) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('İşlem başarısız: $error')),
+        SnackBar(
+            content:
+                Text(AppLocalizations.of(context).uiFIslemBasarisiz(error))),
       );
     }
   }
@@ -163,8 +171,9 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
                   ? Image.file(
                       File(path),
                       fit: BoxFit.cover,
-                      errorBuilder: (_, __, ___) => const Center(
-                        child: Text('Fotoğraf önizlemesi açılamadı'),
+                      errorBuilder: (_, __, ___) => Center(
+                        child: Text(AppLocalizations.of(context)
+                            .uiFotografOnizlemesiAcilamadi),
                       ),
                     )
                   : Container(
@@ -196,7 +205,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
             child: FilledButton.icon(
               onPressed: _pickWidgetBackground,
               icon: const Icon(Icons.photo_library_rounded),
-              label: const Text('Galeriden fotoğraf seç'),
+              label: Text(AppLocalizations.of(context).uiGaleridenFotografSec),
               style: FilledButton.styleFrom(
                 backgroundColor: _navy,
                 foregroundColor: Colors.white,
@@ -209,7 +218,8 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
               child: TextButton.icon(
                 onPressed: _resetWidgetBackground,
                 icon: const Icon(Icons.restart_alt_rounded),
-                label: const Text('Varsayılan arka plana dön'),
+                label:
+                    Text(AppLocalizations.of(context).uiVarsayilanArkaPlanaDon),
                 style: TextButton.styleFrom(foregroundColor: _navy),
               ),
             ),
@@ -316,13 +326,13 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
               borderRadius: BorderRadius.circular(12),
               border: Border.all(color: _gold.withValues(alpha: 0.3)),
             ),
-            child: const Row(
+            child: Row(
               children: [
                 Icon(Icons.info_outline_rounded, color: _gold, size: 18),
                 SizedBox(width: 8),
                 Expanded(
                   child: Text(
-                    'ArapÃ§a ve OsmanlÄ±ca metinler iÃ§in yazÄ± stili',
+                    AppLocalizations.of(context).uiArapAVeOsmanl,
                     style: TextStyle(color: _navy, fontSize: 11),
                   ),
                 ),
@@ -507,10 +517,10 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
-            children: const [
+            children: [
               Icon(Icons.visibility_rounded, color: _gold, size: 18),
               SizedBox(width: 8),
-              Text('Ã–NÄ°ZLEME',
+              Text(AppLocalizations.of(context).uiNZleme,
                   style: TextStyle(
                       color: _gold,
                       fontSize: 11,
@@ -533,7 +543,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
           ),
           const SizedBox(height: 12),
           Text(
-            'RahmÃ¢n ve RahÃ®m olan Allah\'Ä±n adÄ±yla',
+            AppLocalizations.of(context).uiRahmNVeRah,
             style: TextStyle(
               color: Colors.white.withValues(alpha: 0.7),
               fontSize: 13,

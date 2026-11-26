@@ -80,44 +80,47 @@ void main() {
     await AdminSession.instance.load();
   });
 
-  for (final e in sayfalar.entries) {
-    testWidgets('Sayfa aciliyor: ${e.key}', (tester) async {
-      tester.view.physicalSize = const Size(1080, 2340);
-      tester.view.devicePixelRatio = 3;
-      addTearDown(tester.view.reset);
-      // Hatanin kaynagi (dosya:satir) loga dussun
-      final onceki = FlutterError.onError;
-      FlutterError.onError = (d) {
-        final yer = d.toString().split('\n').where((s) => s.contains('lib/'));
-        debugPrint(
-            'KAYNAK ${e.key}: ${d.exceptionAsString().split('\n').first} @ ${yer.take(2).join(' ')}');
-        onceki?.call(d);
-      };
+  // Her sayfa uc dilde: ceviriler genelde Turkceden uzun, tasma yakalanir.
+  for (final dil in const ['tr', 'en', 'ar']) {
+    for (final e in sayfalar.entries) {
+      testWidgets('Sayfa aciliyor [$dil]: ${e.key}', (tester) async {
+        tester.view.physicalSize = const Size(1080, 2340);
+        tester.view.devicePixelRatio = 3;
+        addTearDown(tester.view.reset);
+        // Hatanin kaynagi (dosya:satir) loga dussun
+        final onceki = FlutterError.onError;
+        FlutterError.onError = (d) {
+          final yer = d.toString().split('\n').where((s) => s.contains('lib/'));
+          debugPrint(
+              'KAYNAK [$dil] ${e.key}: ${d.exceptionAsString().split('\n').first} @ ${yer.take(2).join(' ')}');
+          onceki?.call(d);
+        };
 
-      await tester.pumpWidget(ChangeNotifierProvider<AppState>.value(
-        value: appState,
-        child: MaterialApp(
-          theme: ThemeData(fontFamily: 'Roboto'),
-          locale: const Locale('tr'),
-          supportedLocales: const [Locale('tr'), Locale('en'), Locale('ar')],
-          localizationsDelegates: const [
-            AppLocalizations.delegate,
-            GlobalMaterialLocalizations.delegate,
-            GlobalWidgetsLocalizations.delegate,
-            GlobalCupertinoLocalizations.delegate,
-          ],
-          home: e.value(),
-        ),
-      ));
-      for (var i = 0; i < 6; i++) {
-        await tester.pump(const Duration(milliseconds: 300));
-      }
-      FlutterError.onError = onceki;
-      expect(tester.takeException(), isNull);
-      expect(find.byType(Scaffold), findsWidgets);
-      // Zamanlayici/animasyon sizmasin
-      await tester.pumpWidget(const SizedBox());
-      await tester.pump(const Duration(seconds: 2));
-    });
+        await tester.pumpWidget(ChangeNotifierProvider<AppState>.value(
+          value: appState,
+          child: MaterialApp(
+            theme: ThemeData(fontFamily: 'Roboto'),
+            locale: Locale(dil),
+            supportedLocales: const [Locale('tr'), Locale('en'), Locale('ar')],
+            localizationsDelegates: const [
+              AppLocalizations.delegate,
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            home: e.value(),
+          ),
+        ));
+        for (var i = 0; i < 6; i++) {
+          await tester.pump(const Duration(milliseconds: 300));
+        }
+        FlutterError.onError = onceki;
+        expect(tester.takeException(), isNull);
+        expect(find.byType(Scaffold), findsWidgets);
+        // Zamanlayici/animasyon sizmasin
+        await tester.pumpWidget(const SizedBox());
+        await tester.pump(const Duration(seconds: 2));
+      });
+    }
   }
 }

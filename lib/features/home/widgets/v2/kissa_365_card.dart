@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/data/islami_kissalar.dart';
 import 'package:nur_pusulasi/features/kissa/pages/kissa_tefekkur_page.dart';
 import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
@@ -70,12 +71,12 @@ class _Kissa365CardState extends State<Kissa365Card> {
                         ),
                       ),
                       const SizedBox(width: 12),
-                      const Expanded(
+                      Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'GÜNÜN KISSASI',
+                              AppLocalizations.of(context).uiGununKissasi,
                               style: TextStyle(
                                 color: Color(0xFFE8C77A),
                                 fontSize: 10,
@@ -85,7 +86,8 @@ class _Kissa365CardState extends State<Kissa365Card> {
                             ),
                             SizedBox(height: 4),
                             Text(
-                              'Her kıssada bir hikmet',
+                              AppLocalizations.of(context)
+                                  .uiHerKissadaBirHikmet,
                               style: TextStyle(
                                 color: Color(0xFF0A1F44),
                                 fontSize: 17,
@@ -175,8 +177,8 @@ class _Kissa365CardState extends State<Kissa365Card> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              const Text(
-                                'KISSADAN HİSSE',
+                              Text(
+                                AppLocalizations.of(context).uiKissadanHisse,
                                 style: TextStyle(
                                   color: Color(0xFFE8C77A),
                                   fontSize: 10,
@@ -304,11 +306,11 @@ class _Kissa365CardState extends State<Kissa365Card> {
           // ============================================
           // 4) FOOTER
           // ============================================
-          const Padding(
+          Padding(
             padding: EdgeInsets.fromLTRB(20, 11, 20, 20),
             child: Center(
               child: Text(
-                'Geçmişin hadisesinden bugünün imanî derslerine...',
+                AppLocalizations.of(context).uiGecmisinHadisesindenBugununIman,
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Color(0xFF526078),

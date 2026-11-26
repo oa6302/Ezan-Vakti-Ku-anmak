@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
 import 'package:nur_pusulasi/app/shadows.dart';
 import '../data/hifz_data.dart';
@@ -92,7 +93,7 @@ class _HifzPageState extends State<HifzPage> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Sesli Ezber Kontrolü',
+        title: Text(AppLocalizations.of(context).uiSesliEzberKontrolu,
             style: TextStyle(
                 color: _navy, fontSize: 17, fontWeight: FontWeight.w900)),
       ),
@@ -141,17 +142,17 @@ class _HifzPageState extends State<HifzPage> {
             child: const Icon(Icons.mic_rounded, color: _gold, size: 26),
           ),
           const SizedBox(width: 14),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Ezberini Test Et',
+                Text(AppLocalizations.of(context).uiEzberiniTestEt,
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 18,
                         fontWeight: FontWeight.w900)),
                 SizedBox(height: 4),
-                Text('Sureyi sesli oku, eşleşme oranını gör.',
+                Text(AppLocalizations.of(context).uiSureyiSesliOkuEslesme,
                     style: TextStyle(color: Colors.white70, fontSize: 12)),
               ],
             ),
@@ -227,11 +228,13 @@ class _HifzPageState extends State<HifzPage> {
                     const Icon(Icons.list_alt_rounded, color: _gold, size: 16),
               ),
               const SizedBox(width: 10),
-              Text('${_selected.ad} · Hedef Kelimeler',
+              Text(AppLocalizations.of(context).uiFHedefKelimeler(_selected.ad),
                   style: const TextStyle(
                       color: _navy, fontSize: 13, fontWeight: FontWeight.w900)),
               const Spacer(),
-              Text('${_selected.kelimeler.length} kelime',
+              Text(
+                  AppLocalizations.of(context)
+                      .uiFKelime(_selected.kelimeler.length),
                   style: const TextStyle(color: Colors.black54, fontSize: 10)),
             ],
           ),
@@ -314,7 +317,7 @@ class _HifzPageState extends State<HifzPage> {
               ),
               onPressed: _check,
               icon: const Icon(Icons.check_circle_rounded, color: Colors.white),
-              label: const Text('Karşılaştır',
+              label: Text(AppLocalizations.of(context).uiKarsilastir,
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 15,
@@ -356,7 +359,7 @@ class _HifzPageState extends State<HifzPage> {
         children: [
           Row(
             children: [
-              const Text('Duyulan Metin',
+              Text(AppLocalizations.of(context).uiDuyulanMetin,
                   style: TextStyle(
                       color: _navy, fontSize: 13, fontWeight: FontWeight.w900)),
               const Spacer(),
@@ -415,8 +418,8 @@ class _HifzPageState extends State<HifzPage> {
               ],
             ),
             const SizedBox(height: 6),
-            const Text(
-              'Bu karşılaştırma ses tanıma temellidir, kesin değildir. Kaynağından tekrar okuyarak doğrula.',
+            Text(
+              AppLocalizations.of(context).uiBuKarsilastirmaSesTanima,
               style:
                   TextStyle(color: Colors.black54, fontSize: 10, height: 1.5),
             ),
@@ -455,13 +458,13 @@ class _HifzPageState extends State<HifzPage> {
         borderRadius: BorderRadius.circular(14),
         border: Border.all(color: _gold.withValues(alpha: 0.3)),
       ),
-      child: const Row(
+      child: Row(
         children: [
           Icon(Icons.info_outline_rounded, color: _gold, size: 18),
           SizedBox(width: 10),
           Expanded(
             child: Text(
-              'Ezberini sağlamlaştırmak için günde 3-5 kez, yavaş ve tane tane oku.',
+              AppLocalizations.of(context).uiEzberiniSaglamlastirmakIcinGunde,
               style: TextStyle(color: _navy, fontSize: 11, height: 1.5),
             ),
           ),

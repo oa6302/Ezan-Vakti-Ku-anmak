@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/app/favorites_service.dart';
 
@@ -37,7 +38,7 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Favorilerim',
+        title: Text(AppLocalizations.of(context).uiFavorilerim,
             style: TextStyle(
                 color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
         actions: [
@@ -48,7 +49,7 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
                 return const SizedBox.shrink();
               }
               return IconButton(
-                tooltip: 'Tumunu sil',
+                tooltip: AppLocalizations.of(context).uiTumunuSil,
                 icon: const Icon(Icons.delete_sweep_rounded, color: _red),
                 onPressed: _clearAll,
               );
@@ -101,12 +102,13 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
                   color: _gold, size: 56),
             ),
             const SizedBox(height: 20),
-            const Text('Henuz favori eklenmedi',
+            Text(AppLocalizations.of(context).uiHenuzFavoriEklenmedi,
                 style: TextStyle(
                     color: _navy, fontSize: 17, fontWeight: FontWeight.w900)),
             const SizedBox(height: 8),
-            const Text(
-              'Kartlardaki  📌  ikonuna dokunarak\nicerikleri buraya kaydedebilirsin.',
+            Text(
+              AppLocalizations.of(context)
+                  .uiKartlardakiIkonunaDokunarakNicerikleri,
               textAlign: TextAlign.center,
               style:
                   TextStyle(color: Colors.black54, fontSize: 12, height: 1.6),
@@ -127,7 +129,7 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
             Icon(Icons.search_off_rounded,
                 size: 64, color: _navy.withValues(alpha: 0.3)),
             const SizedBox(height: 12),
-            const Text('Sonuc bulunamadi.',
+            Text(AppLocalizations.of(context).uiSonucBulunamadi,
                 style: TextStyle(color: Colors.black54)),
             const SizedBox(height: 12),
             TextButton.icon(
@@ -139,7 +141,7 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
                 });
               },
               icon: const Icon(Icons.filter_alt_off_rounded),
-              label: const Text('Filtreleri temizle'),
+              label: Text(AppLocalizations.of(context).uiFiltreleriTemizle),
             ),
           ],
         ),
@@ -154,7 +156,7 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
         controller: _search,
         onChanged: (v) => setState(() => _query = v.toLowerCase()),
         decoration: InputDecoration(
-          hintText: 'Favorilerde ara...',
+          hintText: AppLocalizations.of(context).uiFavorilerdeAra,
           prefixIcon: const Icon(Icons.search_rounded, color: _navy),
           suffixIcon: _query.isEmpty
               ? null
@@ -247,14 +249,16 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
         children: [
           const Icon(Icons.bookmark_rounded, color: _red, size: 16),
           const SizedBox(width: 8),
-          Text('${FavoritesService.instance.count} favori',
+          Text(
+              AppLocalizations.of(context)
+                  .uiFFavori(FavoritesService.instance.count),
               style: const TextStyle(
                   color: _navy, fontSize: 12, fontWeight: FontWeight.w900)),
           const Spacer(),
           const Icon(Icons.info_outline_rounded,
               color: Colors.black38, size: 12),
           const SizedBox(width: 4),
-          const Text('Kaydetmek icin 📌',
+          Text(AppLocalizations.of(context).uiKaydetmekIcin,
               style: TextStyle(color: Colors.black54, fontSize: 10)),
         ],
       ),
@@ -334,13 +338,14 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
               IconButton(
                 icon: const Icon(Icons.bookmark_remove_rounded,
                     color: _red, size: 20),
-                tooltip: 'Favoriden cikar',
+                tooltip: AppLocalizations.of(context).uiFavoridenCikar,
                 onPressed: () async {
                   await FavoritesService.instance.remove(f.id);
                   if (!mounted) return;
                   ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(
-                      content: Text('Favoriden cikarildi'),
+                    SnackBar(
+                      content: Text(
+                          AppLocalizations.of(context).uiFavoridenCikarildi),
                       duration: Duration(milliseconds: 1200),
                       behavior: SnackBarBehavior.floating,
                     ),
@@ -526,18 +531,18 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
     final ok = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('Tum favoriler silinsin mi?'),
-        content: Text(
-            '${FavoritesService.instance.count} favori kalici olarak silinecek.'),
+        title: Text(AppLocalizations.of(context).uiTumFavorilerSilinsinMi),
+        content: Text(AppLocalizations.of(context)
+            .uiFFavoriKaliciOlarakSilinecek(FavoritesService.instance.count)),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('Iptal'),
+            child: Text(AppLocalizations.of(context).uiIptal),
           ),
           FilledButton(
             style: FilledButton.styleFrom(backgroundColor: _red),
             onPressed: () => Navigator.pop(context, true),
-            child: const Text('Sil'),
+            child: Text(AppLocalizations.of(context).adminDelete),
           ),
         ],
       ),
@@ -546,8 +551,8 @@ class _SavedItemsPageState extends State<SavedItemsPage> {
     await FavoritesService.instance.clear();
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text('Tum favoriler silindi'),
+      SnackBar(
+        content: Text(AppLocalizations.of(context).uiTumFavorilerSilindi),
         backgroundColor: _green,
       ),
     );

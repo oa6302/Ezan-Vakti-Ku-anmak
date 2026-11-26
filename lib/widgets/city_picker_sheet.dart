@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
 import 'package:nur_pusulasi/features/prayer/data/turkish_cities.dart';
@@ -132,8 +133,8 @@ class _CityPickerSheetState extends State<_CityPickerSheet> {
               children: [
                 Row(
                   children: [
-                    const Text(
-                      'Konum Seç',
+                    Text(
+                      AppLocalizations.of(context).uiKonumSec,
                       style: TextStyle(
                         color: _navy,
                         fontSize: 20,
@@ -160,7 +161,7 @@ class _CityPickerSheetState extends State<_CityPickerSheet> {
                       }
                     },
                     icon: const Icon(Icons.my_location_rounded),
-                    label: const Text('GPS ile Konum Bul'),
+                    label: Text(AppLocalizations.of(context).uiGpsIleKonumBul),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: _red,
                       foregroundColor: Colors.white,
@@ -169,8 +170,8 @@ class _CityPickerSheetState extends State<_CityPickerSheet> {
                   ),
                 ),
                 const SizedBox(height: 12),
-                const Text(
-                  'Manuel Seç',
+                Text(
+                  AppLocalizations.of(context).uiManuelSec,
                   style: TextStyle(
                     color: _navy,
                     fontSize: 16,
@@ -182,7 +183,7 @@ class _CityPickerSheetState extends State<_CityPickerSheet> {
                   controller: _ctrl,
                   onChanged: _filter,
                   decoration: InputDecoration(
-                    hintText: 'İl ara...',
+                    hintText: AppLocalizations.of(context).uiIlAra,
                     prefixIcon: const Icon(
                       Icons.search_rounded,
                       color: _navy,
@@ -290,7 +291,7 @@ class _DistrictPickerSheetState extends State<_DistrictPickerSheet> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  '${widget.cityName} İlçeleri',
+                  AppLocalizations.of(context).uiFIlceleri(widget.cityName),
                   style: const TextStyle(
                     color: _navy,
                     fontSize: 20,
@@ -302,7 +303,7 @@ class _DistrictPickerSheetState extends State<_DistrictPickerSheet> {
                   controller: _ctrl,
                   onChanged: _filter,
                   decoration: InputDecoration(
-                    hintText: 'İlçe ara...',
+                    hintText: AppLocalizations.of(context).uiIlceAra,
                     prefixIcon: const Icon(
                       Icons.search_rounded,
                       color: _navy,

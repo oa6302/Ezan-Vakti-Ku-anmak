@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../data/quran_models.dart';
 import '../data/quran_service.dart';
 import 'quran_detail_page.dart';
@@ -38,14 +39,15 @@ class _QuranPageState extends State<QuranPage> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Kur\'an Kütüphanesi',
+        title: Text(AppLocalizations.of(context).uiKurAnKutuphanesi,
             style: TextStyle(
                 color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : _kategoriler.isEmpty
-              ? const Center(child: Text('İçerik yüklenemedi'))
+              ? Center(
+                  child: Text(AppLocalizations.of(context).uiIcerikYuklenemedi))
               : ListView(
                   padding: const EdgeInsets.all(14),
                   children: [
@@ -100,17 +102,17 @@ class _QuranPageState extends State<QuranPage> {
                     color: _gold, size: 28),
               ),
               const SizedBox(width: 14),
-              const Expanded(
+              Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Tam Kur\'an-i Kerim',
+                    Text(AppLocalizations.of(context).uiTamKurAnI,
                         style: TextStyle(
                             color: Colors.white,
                             fontSize: 17,
                             fontWeight: FontWeight.w900)),
                     SizedBox(height: 4),
-                    Text('114 sure - Arapca + Diyanet Meali',
+                    Text(AppLocalizations.of(context).ui114SureArapcaDiyanet,
                         style: TextStyle(color: Colors.white70, fontSize: 11)),
                   ],
                 ),
@@ -167,17 +169,17 @@ class _QuranPageState extends State<QuranPage> {
             child: const Icon(Icons.menu_book_rounded, color: _gold, size: 26),
           ),
           const SizedBox(width: 14),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Kur\'an-ı Kerim',
+                Text(AppLocalizations.of(context).uiKurAnIKerim,
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 17,
                         fontWeight: FontWeight.w900)),
                 SizedBox(height: 4),
-                Text('Kısa sureler · Arapça · Okunuş · Meal',
+                Text(AppLocalizations.of(context).uiKisaSurelerArapcaOkunus,
                     style: TextStyle(color: Colors.white70, fontSize: 12)),
               ],
             ),
@@ -227,7 +229,8 @@ class _QuranPageState extends State<QuranPage> {
                   color: _red.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: Text('${k.sureler.length} sure',
+                child: Text(
+                    AppLocalizations.of(context).uiFSure(k.sureler.length),
                     style: const TextStyle(
                         color: _red,
                         fontSize: 11,
@@ -295,7 +298,9 @@ class _QuranPageState extends State<QuranPage> {
                           Icon(Icons.circle,
                               size: 4, color: _red.withValues(alpha: 0.7)),
                           const SizedBox(width: 6),
-                          Text('${s.ayetSayisi} âyet · ${s.inisYeri}',
+                          Text(
+                              AppLocalizations.of(context)
+                                  .uiFYet(s.ayetSayisi, s.inisYeri),
                               style: const TextStyle(
                                   color: Colors.black54, fontSize: 11)),
                           const SizedBox(width: 6),

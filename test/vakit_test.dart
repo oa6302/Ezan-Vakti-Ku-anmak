@@ -18,16 +18,16 @@ void main() {
   });
 
   test('Ikindi asr-i evvel (Diyanet), asr-i sani degil', () async {
-    final t = (await s.calculateForLocation(city: 'İstanbul', date: tarih))!
-        .times;
+    final t =
+        (await s.calculateForLocation(city: 'İstanbul', date: tarih))!.times;
     final dk = t['Ikindi']!.difference(t['Ogle']!).inMinutes;
     // Istanbul, kasim sonu: asr-i evvel ~2s35dk, asr-i sani ~3s05dk sonra.
     expect(dk, inInclusiveRange(140, 165), reason: 'Ogle->Ikindi $dk dk');
   });
 
   test('Aksam gunes batimina temkinli, yatsi aksamdan sonra', () async {
-    final t = (await s.calculateForLocation(city: 'İstanbul', date: tarih))!
-        .times;
+    final t =
+        (await s.calculateForLocation(city: 'İstanbul', date: tarih))!.times;
     final gunduz = t['Aksam']!.difference(t['Gunes']!).inMinutes;
     // 41K enlemde kasim sonu gunduz ~9s25dk (+temkin)
     expect(gunduz, inInclusiveRange(550, 590));

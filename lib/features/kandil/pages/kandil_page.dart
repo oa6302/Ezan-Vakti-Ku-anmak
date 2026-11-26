@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/shadows.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
@@ -37,7 +38,7 @@ class KandilPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Kandil & Ozel Gunler',
+        title: Text(AppLocalizations.of(context).uiKandilOzelGunler,
             style: TextStyle(
                 color: _navy, fontSize: 17, fontWeight: FontWeight.w900)),
       ),
@@ -48,17 +49,17 @@ class KandilPage extends StatelessWidget {
           return ListView(
             padding: const EdgeInsets.all(14),
             children: [
-              _hero(),
+              _hero(context),
               const SizedBox(height: 14),
               if (events.isEmpty)
-                _empty()
+                _empty(context)
               else ...[
-                _nextEventCard(events.first),
+                _nextEventCard(context, events.first),
                 const SizedBox(height: 14),
                 _upcomingList(context, events.skip(1).toList()),
               ],
               const SizedBox(height: 14),
-              _infoBox(),
+              _infoBox(context),
               const SizedBox(height: 20),
             ],
           );
@@ -67,7 +68,7 @@ class KandilPage extends StatelessWidget {
     );
   }
 
-  Widget _hero() {
+  Widget _hero(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
@@ -92,17 +93,17 @@ class KandilPage extends StatelessWidget {
             child: const Icon(Icons.star_rounded, color: _gold, size: 28),
           ),
           const SizedBox(width: 14),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Mubarek Gunler',
+                Text(AppLocalizations.of(context).uiMubarekGunler,
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 18,
                         fontWeight: FontWeight.w900)),
                 SizedBox(height: 4),
-                Text('Kandil, bayram ve ozel geceler.',
+                Text(AppLocalizations.of(context).uiKandilBayramVeOzel,
                     style: TextStyle(color: Colors.white70, fontSize: 12)),
               ],
             ),
@@ -112,7 +113,7 @@ class KandilPage extends StatelessWidget {
     );
   }
 
-  Widget _nextEventCard((ContentItem, DateTime) item) {
+  Widget _nextEventCard(BuildContext context, (ContentItem, DateTime) item) {
     final e = item.$1;
     final date = item.$2;
     final now = DateTime.now();
@@ -145,7 +146,7 @@ class KandilPage extends StatelessWidget {
                       color: _gold,
                       borderRadius: BorderRadius.circular(8),
                     ),
-                    child: const Text('SIRADAKI',
+                    child: Text(AppLocalizations.of(context).uiSiradaki,
                         style: TextStyle(
                             color: Colors.white,
                             fontSize: 10,
@@ -240,19 +241,19 @@ class KandilPage extends StatelessWidget {
                     color: _navy, size: 16),
               ),
               const SizedBox(width: 10),
-              const Text('Yaklasan Gunler',
+              Text(AppLocalizations.of(context).uiYaklasanGunler,
                   style: TextStyle(
                       color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
             ],
           ),
           const SizedBox(height: 12),
-          ...items.map((item) => _eventTile(item)),
+          ...items.map((item) => _eventTile(context, item)),
         ],
       ),
     );
   }
 
-  Widget _eventTile((ContentItem, DateTime) item) {
+  Widget _eventTile(BuildContext context, (ContentItem, DateTime) item) {
     final e = item.$1;
     final date = item.$2;
     final now = DateTime.now();
@@ -304,7 +305,7 @@ class KandilPage extends StatelessWidget {
                       : const Color(0xFFF3F6FA),
                   borderRadius: BorderRadius.circular(8),
                 ),
-                child: Text('$diff gun',
+                child: Text(AppLocalizations.of(context).uiFGun(diff),
                     style: TextStyle(
                         color: diff < 7 ? _green : Colors.black54,
                         fontSize: 11,
@@ -322,7 +323,7 @@ class KandilPage extends StatelessWidget {
     );
   }
 
-  Widget _empty() {
+  Widget _empty(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
@@ -330,14 +331,14 @@ class KandilPage extends StatelessWidget {
         borderRadius: BorderRadius.circular(18),
         boxShadow: AppShadows.medium(),
       ),
-      child: const Center(
-        child: Text('Yaklasan ozel gun bulunamadi',
+      child: Center(
+        child: Text(AppLocalizations.of(context).uiYaklasanOzelGunBulunamadi,
             style: TextStyle(color: Colors.black54, fontSize: 13)),
       ),
     );
   }
 
-  Widget _infoBox() {
+  Widget _infoBox(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
@@ -345,13 +346,13 @@ class KandilPage extends StatelessWidget {
         borderRadius: BorderRadius.circular(14),
         border: Border.all(color: _gold.withValues(alpha: 0.3)),
       ),
-      child: const Row(
+      child: Row(
         children: [
           Icon(Icons.info_outline_rounded, color: _gold, size: 18),
           SizedBox(width: 10),
           Expanded(
             child: Text(
-              'Tarihler yaklasik hesaplanir. Kesin tarihler icin Diyanet Isleri Baskanligi takvimini esas aliniz.',
+              AppLocalizations.of(context).uiTarihlerYaklasikHesaplanirKesin,
               style: TextStyle(color: _navy, fontSize: 11, height: 1.5),
             ),
           ),

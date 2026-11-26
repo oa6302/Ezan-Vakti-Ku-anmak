@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/app/favorites_service.dart';
 import 'package:nur_pusulasi/features/profile/saved_items_page.dart';
@@ -73,7 +74,7 @@ class FavoritesMiniCard extends StatelessWidget {
                       children: [
                         Row(
                           children: [
-                            Text('Favorilerim',
+                            Text(AppLocalizations.of(context).uiFavorilerim,
                                 style: TextStyle(
                                     shadows: const [
                                       Shadow(

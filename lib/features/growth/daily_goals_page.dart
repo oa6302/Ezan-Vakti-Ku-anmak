@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../app/theme.dart';
@@ -55,12 +56,18 @@ class _DailyGoalsPageState extends State<DailyGoalsPage> {
       } else {
         // Yeni gün: Başlangıç hedeflerini yükle
         _goals = [
-          _Goal(id: '1', title: 'Sabah namazını kıl'),
-          _Goal(id: '2', title: 'Öğle namazını kıl'),
-          _Goal(id: '3', title: 'İkindi namazını kıl'),
-          _Goal(id: '4', title: 'Akşam namazını kıl'),
-          _Goal(id: '5', title: 'Yatsı namazını kıl'),
-          _Goal(id: '6', title: 'Günlük Kur\'an okuması yap'),
+          _Goal(
+              id: '1', title: AppLocalizations.of(context).uiSabahNamaziniKil),
+          _Goal(id: '2', title: AppLocalizations.of(context).uiOgleNamaziniKil),
+          _Goal(
+              id: '3', title: AppLocalizations.of(context).uiIkindiNamaziniKil),
+          _Goal(
+              id: '4', title: AppLocalizations.of(context).uiAksamNamaziniKil),
+          _Goal(
+              id: '5', title: AppLocalizations.of(context).uiYatsiNamaziniKil),
+          _Goal(
+              id: '6',
+              title: AppLocalizations.of(context).uiGunlukKurAnOkumasi),
           _Goal(id: '7', title: 'Günlük zikir/istiğfar et'),
         ];
         _saveGoals(prefs); // Yeni günü kaydet
@@ -93,12 +100,12 @@ class _DailyGoalsPageState extends State<DailyGoalsPage> {
       builder: (context) => AlertDialog(
         backgroundColor: kKartYuzeyi,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        title: const Text('Yeni Hedef Ekle',
+        title: Text(AppLocalizations.of(context).uiYeniHedefEkle,
             style: TextStyle(color: kAnaLacivert, fontWeight: FontWeight.bold)),
         content: TextField(
           controller: controller,
           decoration: InputDecoration(
-            hintText: 'Örn: 10 sayfa kitap oku',
+            hintText: AppLocalizations.of(context).uiOrn10SayfaKitap,
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
             focusedBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(12),
@@ -109,7 +116,8 @@ class _DailyGoalsPageState extends State<DailyGoalsPage> {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('İptal', style: TextStyle(color: kIkincilMetin)),
+            child: Text(AppLocalizations.of(context).uiIptal2,
+                style: TextStyle(color: kIkincilMetin)),
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
@@ -128,7 +136,8 @@ class _DailyGoalsPageState extends State<DailyGoalsPage> {
                 Navigator.pop(context);
               }
             },
-            child: const Text('Ekle', style: TextStyle(color: Colors.white)),
+            child: Text(AppLocalizations.of(context).uiEkle2,
+                style: TextStyle(color: Colors.white)),
           ),
         ],
       ),
@@ -150,7 +159,7 @@ class _DailyGoalsPageState extends State<DailyGoalsPage> {
     return Scaffold(
       backgroundColor: kArkaPlan,
       appBar: AppBar(
-        title: const Text('Günlük Hedefler',
+        title: Text(AppLocalizations.of(context).dailyGoals,
             style: TextStyle(fontWeight: FontWeight.bold)),
         backgroundColor: kKartYuzeyi,
         foregroundColor: kAnaLacivert,
@@ -172,8 +181,8 @@ class _DailyGoalsPageState extends State<DailyGoalsPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(
-                    'Bugünkü manevî yolculuğun',
+                  Text(
+                    AppLocalizations.of(context).uiBugunkuManevYolculugun,
                     style: TextStyle(color: Colors.white70, fontSize: 14),
                   ),
                   const SizedBox(height: 8),
@@ -181,7 +190,8 @@ class _DailyGoalsPageState extends State<DailyGoalsPage> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        '$completedCount / ${_goals.length} Tamamlandı',
+                        AppLocalizations.of(context)
+                            .uiFTamamlandi(completedCount, _goals.length),
                         style: const TextStyle(
                             color: Colors.white,
                             fontSize: 20,
@@ -211,8 +221,8 @@ class _DailyGoalsPageState extends State<DailyGoalsPage> {
               ),
             ),
             const SizedBox(height: 24),
-            const Text(
-              'Bugünün Hedefleri',
+            Text(
+              AppLocalizations.of(context).uiBugununHedefleri,
               style: TextStyle(
                   fontSize: 18, fontWeight: FontWeight.bold, color: kAnaMetin),
             ),
@@ -287,7 +297,7 @@ class _DailyGoalsPageState extends State<DailyGoalsPage> {
               child: OutlinedButton.icon(
                 onPressed: _addGoal,
                 icon: const Icon(Icons.add_rounded),
-                label: const Text('Yeni Hedef Ekle'),
+                label: Text(AppLocalizations.of(context).uiYeniHedefEkle),
                 style: OutlinedButton.styleFrom(
                   foregroundColor: kAnaLacivert,
                   side: const BorderSide(color: kAnaLacivert, width: 1.5),

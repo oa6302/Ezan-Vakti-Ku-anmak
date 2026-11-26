@@ -3,9 +3,11 @@
 //   flutter test --dart-define-from-file=android/hooks/test_bilgileri.json
 // Dosya yoksa bu testler atlanir. Kurallar: android/hooks/KURALLAR.md (T1-T4)
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:nur_pusulasi/app/admin_session.dart';
 import 'package:nur_pusulasi/features/admin/admin_gate_page.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 const adminPin = String.fromEnvironment('ADMIN_PIN');
@@ -24,9 +26,20 @@ void main() {
   });
 
   Future<void> pinGir(WidgetTester tester, String pin) async {
-    await tester.pumpWidget(const MaterialApp(home: AdminGatePage()));
+    await tester.pumpWidget(const MaterialApp(
+      locale: Locale('tr'),
+      supportedLocales: [Locale('tr'), Locale('en'), Locale('ar')],
+      localizationsDelegates: [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      home: AdminGatePage(),
+    ));
+    await tester.pump();
     await tester.enterText(find.byType(TextField), pin);
-    await tester.tap(find.text('Yonetim panelini ac'));
+    await tester.tap(find.byType(FilledButton));
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 100));
   }

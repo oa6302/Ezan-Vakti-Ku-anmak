@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:nur_pusulasi/app/shadows.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
@@ -51,7 +52,7 @@ class _MoodPageState extends State<MoodPage> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Ruh Halin',
+        title: Text(AppLocalizations.of(context).moodTitle,
             style: TextStyle(
                 color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
@@ -67,8 +68,8 @@ class _MoodPageState extends State<MoodPage> {
   Widget _picker() {
     final pool = ContentService.instance.getPool(ContentType.mood);
     if (pool.isEmpty) {
-      return const Center(
-        child: Text('Ruh hali icerigi eklenmemis.',
+      return Center(
+        child: Text(AppLocalizations.of(context).uiRuhHaliIcerigiEklenmemis,
             style: TextStyle(color: Colors.black54)),
       );
     }
@@ -98,11 +99,11 @@ class _MoodPageState extends State<MoodPage> {
           ),
           const SizedBox(height: 14),
         ],
-        const Text('Su an nasil hissediyorsun?',
+        Text(AppLocalizations.of(context).uiSuAnNasilHissediyorsun,
             style: TextStyle(
                 color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
         const SizedBox(height: 4),
-        const Text('Sana uygun ayet, hadis ve dua onerelim.',
+        Text(AppLocalizations.of(context).uiSanaUygunAyetHadis,
             style: TextStyle(color: Colors.black54, fontSize: 11)),
         const SizedBox(height: 14),
         ...pool.map((m) => _moodTile(m)),
@@ -137,17 +138,17 @@ class _MoodPageState extends State<MoodPage> {
                 color: _gold, size: 28),
           ),
           const SizedBox(width: 14),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Ruh Haline Gore',
+                Text(AppLocalizations.of(context).uiRuhHalineGore,
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 18,
                         fontWeight: FontWeight.w900)),
                 SizedBox(height: 4),
-                Text('Kalbin ne söylüyorsa, ona uygun rehberlik.',
+                Text(AppLocalizations.of(context).uiKalbinNeSoyluyorsaOna,
                     style: TextStyle(color: Colors.white70, fontSize: 12)),
               ],
             ),
@@ -296,7 +297,7 @@ class _MoodPageState extends State<MoodPage> {
                         fontSize: 20,
                         fontWeight: FontWeight.w900)),
                 const SizedBox(height: 4),
-                Text('$count oneri',
+                Text(AppLocalizations.of(context).uiFOneri2(count),
                     style:
                         const TextStyle(color: Colors.white70, fontSize: 12)),
               ],
@@ -306,7 +307,7 @@ class _MoodPageState extends State<MoodPage> {
             onPressed: () => setState(() => _selected = null),
             icon: const Icon(Icons.swap_horiz_rounded,
                 color: Colors.white, size: 24),
-            tooltip: 'Baska ruh hali',
+            tooltip: AppLocalizations.of(context).uiBaskaRuhHali,
           ),
         ],
       ),
@@ -410,13 +411,13 @@ class _MoodPageState extends State<MoodPage> {
         borderRadius: BorderRadius.circular(14),
         border: Border.all(color: _gold.withValues(alpha: 0.3)),
       ),
-      child: const Row(
+      child: Row(
         children: [
           Icon(Icons.info_outline_rounded, color: _gold, size: 18),
           SizedBox(width: 10),
           Expanded(
             child: Text(
-              'Bu oneriler kisisel rehberlik amaclidir. Dini hukum gerektiren konularda ehil bir alime danisiniz.',
+              AppLocalizations.of(context).uiBuOnerilerKisiselRehberlik,
               style: TextStyle(color: _navy, fontSize: 11, height: 1.5),
             ),
           ),

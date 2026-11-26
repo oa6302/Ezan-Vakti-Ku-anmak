@@ -307,4 +307,1122 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get aboutBody =>
       'A prayer-centered worship guide. All data is stored on your device.';
+
+  @override
+  String get uiYoneticiGirisi => 'Admin Login';
+
+  @override
+  String get uiIcerikYonetimi => 'Content Management';
+
+  @override
+  String get uiYoneticiPinKodunuGirin =>
+      'Enter the admin PIN. This PIN is a simple on-device barrier; it does not replace secure authentication.';
+
+  @override
+  String get uiYoneticiPin => 'Admin PIN';
+
+  @override
+  String get uiYonetimPaneliniAc => 'Open admin panel';
+
+  @override
+  String get uiBaslikVeEnAz =>
+      'Title and at least one content field must be filled in.';
+
+  @override
+  String get uiDogrulamadanYayinla => 'Publish without verification?';
+
+  @override
+  String get uiBuIcerikDogrulandiOlarak =>
+      'This content is not marked as \"verified\". Publish anyway?';
+
+  @override
+  String get uiIptal => 'Cancel';
+
+  @override
+  String get uiYayinla => 'Publish';
+
+  @override
+  String get uiSilinsinMi => 'Delete?';
+
+  @override
+  String get uiIcerikTuru => 'Content Type';
+
+  @override
+  String get uiYayinDurumu => 'Publish Status';
+
+  @override
+  String get uiKaynakTuru => 'Source Type';
+
+  @override
+  String get uiDiyanetBuhariMuslimGibi =>
+      'Checked against a reliable source such as Diyanet, Bukhari or Muslim';
+
+  @override
+  String get uiKaydet => 'SAVE';
+
+  @override
+  String get uiOneriler => 'Suggestions';
+
+  @override
+  String get uiEkle => 'ADD';
+
+  @override
+  String get uiIcerikYonetimi2 => 'Content Management';
+
+  @override
+  String get uiTopluIslemler => 'Bulk actions';
+
+  @override
+  String get uiAktifSekmedekiTumunuYayinla => 'Publish all in active tab';
+
+  @override
+  String get uiFiltrelenmisleriYayinla => 'Publish filtered';
+
+  @override
+  String get uiFiltrelenmisleriSil => 'Delete filtered';
+
+  @override
+  String get uiAnaSayfadaKontrolEt => 'Check on home page';
+
+  @override
+  String get uiYedekAlJson => 'Back up (JSON)';
+
+  @override
+  String get uiYedektenYukleJson => 'Restore from backup (JSON)';
+
+  @override
+  String get uiYeniEkle => 'ADD NEW';
+
+  @override
+  String get uiBaslikIcerikKaynakVeya =>
+      'Search title, content, source or category...';
+
+  @override
+  String get uiSiralama => 'Sorting';
+
+  @override
+  String get uiIptal2 => 'Cancel';
+
+  @override
+  String get uiYayinla2 => 'Publish';
+
+  @override
+  String get ui365GunlukKayitlarKorunuyor =>
+      'The 365-day records are protected; deletion was blocked.';
+
+  @override
+  String get uiSilinecekIcerikYok => 'Nothing to delete.';
+
+  @override
+  String get uiFiltrelenmisleriSil2 => 'Delete filtered items?';
+
+  @override
+  String get uiYedektenYukle => 'Restore from backup';
+
+  @override
+  String get uiJsonYedeginiAsagiyaYapistirin =>
+      'Paste the JSON backup below. \"Merge\" updates existing items and adds new ones. \"Overwrite\" deletes the current pool.';
+
+  @override
+  String get uiUzerineYaz => 'Overwrite';
+
+  @override
+  String get uiBirlestir => 'Merge';
+
+  @override
+  String get uiFiltreleriTemizle => 'Clear filters';
+
+  @override
+  String get uiGunlukKayitlarSilinemezDuzenlemeye =>
+      'Daily records cannot be deleted; you can keep editing them.';
+
+  @override
+  String get uiSilindi => 'Deleted';
+
+  @override
+  String get uiKaynakliRehber => 'Sourced Guide';
+
+  @override
+  String get uiSorunuIceriklerArasindaAra =>
+      'Search your question among the contents.';
+
+  @override
+  String get uiOrnSabirSukurAbdest => 'E.g. patience, gratitude, ablution...';
+
+  @override
+  String get uiOrnekSorular => 'Sample Questions';
+
+  @override
+  String get uiFarkliKelimelerleDeneVeya =>
+      'Try different words or browse the existing content.';
+
+  @override
+  String get uiZikirAdi => 'Dhikr Name';
+
+  @override
+  String get uiOrnSubhNallah => 'E.g. Subhanallah';
+
+  @override
+  String get uiHedefSayi => 'Target Count';
+
+  @override
+  String get uiSayaclariSifirla => 'Reset Counters';
+
+  @override
+  String get uiSifirla => 'Reset';
+
+  @override
+  String get uiZikriSil => 'Delete Dhikr';
+
+  @override
+  String get uiHenuzBirZikirEklenmemis => 'No dhikr added yet.';
+
+  @override
+  String get uiZikirEkle => 'Add Dhikr';
+
+  @override
+  String get uiZincirAdimi => 'Chain Step';
+
+  @override
+  String get uiToplamCekilen => 'Total Recited';
+
+  @override
+  String get uiTamamlananZincirTuru => 'Completed Chain Rounds';
+
+  @override
+  String get uiHedefIlerlemesi => 'Target Progress';
+
+  @override
+  String get uiDokun => 'TAP';
+
+  @override
+  String get uiZincirAdimlari => 'Chain Steps';
+
+  @override
+  String get uiYeniEkle2 => 'Add New';
+
+  @override
+  String get uiDuzenle => 'Edit';
+
+  @override
+  String get uiHenuzDersEklenmemis => 'No lessons added yet.';
+
+  @override
+  String get uiHerTamamlananAdimBir => 'Every completed step is a celebration';
+
+  @override
+  String get uiCocukEkle => 'Add Child';
+
+  @override
+  String get uiIsim => 'Name';
+
+  @override
+  String get uiYas => 'Age';
+
+  @override
+  String get uiEkle2 => 'Add';
+
+  @override
+  String get uiBuCocugunTumIlerleme =>
+      'All progress records of this child will be deleted.';
+
+  @override
+  String get uiAileModu => 'Family Mode';
+
+  @override
+  String get uiCocuklarim => 'My Children';
+
+  @override
+  String get uiAileceOgrenelim => 'Let\'s Learn as a Family';
+
+  @override
+  String get uiCocuklariniNamazlaTanistir =>
+      'Introduce your children to prayer.';
+
+  @override
+  String get uiHenuzCocukEklenmedi => 'No children added yet';
+
+  @override
+  String get uiCocugunuEkleAdimAdim =>
+      'Add your child and follow their prayer learning step by step. 9 simple steps.';
+
+  @override
+  String get uiSabahNamaziniKil => 'Pray Fajr';
+
+  @override
+  String get uiOgleNamaziniKil => 'Pray Dhuhr';
+
+  @override
+  String get uiIkindiNamaziniKil => 'Pray Asr';
+
+  @override
+  String get uiAksamNamaziniKil => 'Pray Maghrib';
+
+  @override
+  String get uiYatsiNamaziniKil => 'Pray Isha';
+
+  @override
+  String get uiGunlukKurAnOkumasi => 'Do your daily Quran reading';
+
+  @override
+  String get uiYeniHedefEkle => 'Add New Goal';
+
+  @override
+  String get uiOrn10SayfaKitap => 'E.g. read 10 pages of a book';
+
+  @override
+  String get uiBugunkuManevYolculugun => 'Your spiritual journey today';
+
+  @override
+  String get uiBugununHedefleri => 'Today\'s Goals';
+
+  @override
+  String get uiSukurNotunuzBasariylaKaydedildi =>
+      'Your gratitude note was saved.';
+
+  @override
+  String get ui365GunlukSukurRehberi => '365-Day Gratitude Guide';
+
+  @override
+  String get uiOneriVeyaKaynakAra => 'Search suggestion or source...';
+
+  @override
+  String get uiGununManeviOnerisi => 'Spiritual Suggestion of the Day';
+
+  @override
+  String get uiBunuYaz => 'Write This';
+
+  @override
+  String get uiBugunNeIcinSukrediyorsun => 'What are you grateful for today?';
+
+  @override
+  String get uiSectiginOneriyiBurayaDokebilir =>
+      'You can paste the chosen suggestion here or write in your own words...';
+
+  @override
+  String get uiSukruKaydet => 'Save Gratitude';
+
+  @override
+  String get uiGecmisSukurlerin => 'Your Past Gratitude';
+
+  @override
+  String get uiHenuzBirSukurNotu =>
+      'You haven\'t written a gratitude note yet.\nUse the field above to create your first one.';
+
+  @override
+  String get uiNotuSil => 'Delete Note';
+
+  @override
+  String get uiBuSukurNotunuSilmek =>
+      'Are you sure you want to delete this gratitude note?';
+
+  @override
+  String get uiKisiselManeviPusula => 'Personal Spiritual Compass';
+
+  @override
+  String get uiBirNimetIcinSukret => 'Give thanks for a blessing and save it';
+
+  @override
+  String get uiOkumaPlanim => 'My Reading Plan';
+
+  @override
+  String get uiKucukAdimlarDuzenliBir => 'Small steps, steady growth';
+
+  @override
+  String get uiHaftalikIlerleme => 'Weekly Progress';
+
+  @override
+  String get uiIlerlemeniGoruntule => 'View your progress';
+
+  @override
+  String get uiYeniOkumaPlaniEkle => 'Add New Reading Plan';
+
+  @override
+  String get uiToplamSayfaSayisi => 'Total Pages';
+
+  @override
+  String get uiKitapTuru => 'Book Type';
+
+  @override
+  String get uiKaldiginYerOnemliBir =>
+      'Where you left off, a key sentence or takeaway...';
+
+  @override
+  String get uiHenuzBirOkumaPlanin => 'You don\'t have a reading plan yet.';
+
+  @override
+  String get uiKucukAdimlarDuzenliBir2 => 'Small steps bring steady growth.';
+
+  @override
+  String get uiIlkKitabiniEkle => 'Add Your First Book';
+
+  @override
+  String get ui5Sayfa => '-5 Pages';
+
+  @override
+  String get ui10Sayfa => '+10 Pages';
+
+  @override
+  String get uiYeniKitap => 'New Book';
+
+  @override
+  String get uiManeviYolculukOzetin => 'Your Spiritual Journey Summary';
+
+  @override
+  String get uiKucukAdimlarDuzenliBir3 => 'Small steps, steady growth.';
+
+  @override
+  String get uiBuHaftaninVerileri => 'This Week\'s Data';
+
+  @override
+  String get uiDevamEt => 'Keep Going!';
+
+  @override
+  String get uiHarikaGidiyorsun => 'You\'re doing great';
+
+  @override
+  String get uiVerilerinizDigerModullerdekiHedefler =>
+      'Your data is calculated live from your actual records in the other modules (Goals, Gratitude, Reading).';
+
+  @override
+  String get uiSesliEzberKontrolu => 'Voice Memorization Check';
+
+  @override
+  String get uiEzberiniTestEt => 'Test Your Memorization';
+
+  @override
+  String get uiSureyiSesliOkuEslesme =>
+      'Recite the surah aloud and see the match rate.';
+
+  @override
+  String get uiKarsilastir => 'Compare';
+
+  @override
+  String get uiDuyulanMetin => 'Recognized Text';
+
+  @override
+  String get uiBuKarsilastirmaSesTanima =>
+      'This comparison is based on speech recognition and is not exact. Verify by reading again from the source.';
+
+  @override
+  String get uiEzberiniSaglamlastirmakIcinGunde =>
+      'To strengthen your memorization, recite 3-5 times a day, slowly and clearly.';
+
+  @override
+  String get uiHicriYasamCizgisi => 'Hijri Life Timeline';
+
+  @override
+  String get uiDogumTarihiniGir => 'Enter Your Birth Date';
+
+  @override
+  String get uiHicriTakvimdeKacGun =>
+      'You will see how many days, Ramadans and Fridays you have lived in the Hijri calendar.';
+
+  @override
+  String get uiTarihSec => 'Pick a Date';
+
+  @override
+  String get uiYasamCizgin => 'Your Life Timeline';
+
+  @override
+  String get uiDegistir => 'Change';
+
+  @override
+  String get uiPeygamberimizinSAV => 'SUNNAH OF OUR PROPHET (PBUH)';
+
+  @override
+  String get uiHadisISerif => 'HADITH';
+
+  @override
+  String get uiNamazMumininNMiracidir =>
+      '\"Prayer is the\n   ascension of the believer.\"';
+
+  @override
+  String get uiTirmiziSalat1 => '(Tirmidhi, Salat, 1)';
+
+  @override
+  String get uiKisaTefsir => 'SHORT TAFSIR';
+
+  @override
+  String get uiIcerikHavuzu => 'Content pool';
+
+  @override
+  String get uiFavorilerim => 'My Favorites';
+
+  @override
+  String get uiGununKissasi => 'STORY OF THE DAY';
+
+  @override
+  String get uiHerKissadaBirHikmet => 'A lesson in every story';
+
+  @override
+  String get uiKissadanHisse => 'MORAL OF THE STORY';
+
+  @override
+  String get uiGecmisinHadisesindenBugununIman =>
+      'From events of the past to lessons of faith for today...';
+
+  @override
+  String get uiNamazVakitleriYukleniyor => 'Loading prayer times...';
+
+  @override
+  String get uiRisaleINur => 'RISALE-I NUR';
+
+  @override
+  String get uiRisaleINurDan => 'Inspired by the Risale-i Nur';
+
+  @override
+  String get ui5DkOkuma => '5 min read';
+
+  @override
+  String get uiGununImanKufurMuv => 'FAITH-DISBELIEF BALANCE OF THE DAY';
+
+  @override
+  String get uiYolculukSeviyesi => 'Journey Level';
+
+  @override
+  String get uiSon30Gun => 'Last 30 Days';
+
+  @override
+  String get uiSonrakiHedef => 'Next Goal';
+
+  @override
+  String get uiYillikIsiHaritasi => 'Yearly Heatmap';
+
+  @override
+  String get uiHerKareBirGunu =>
+      'Each square is a day. Darker square = more prayers logged that day.';
+
+  @override
+  String get uiKandilOzelGunler => 'Holy Nights & Special Days';
+
+  @override
+  String get uiYaklasanGunler => 'Upcoming Days';
+
+  @override
+  String get uiHusuKaydiEklendi => 'Khushu entry added';
+
+  @override
+  String get uiKalpHuzuru => 'Peace of Heart';
+
+  @override
+  String get uiNamazdaKalbinNeredeydiYargilamadan =>
+      'Where was your heart during prayer? Notice without judging.';
+
+  @override
+  String get uiBuNamazdaHusuSeviyen => 'Your khushu level in this prayer?';
+
+  @override
+  String get ui1Daginik5Derin => '1 = distracted, 5 = deep';
+
+  @override
+  String get uiHaftalikHusu => 'Weekly Khushu';
+
+  @override
+  String get uiSon7GundeOrtalama => 'Your average khushu over the last 7 days';
+
+  @override
+  String get uiHusuDagilimi => 'Khushu Distribution';
+
+  @override
+  String get uiHenuzKayitYok => 'No records yet';
+
+  @override
+  String get uiHusuPuaniKisiselFarkindalik =>
+      'The khushu score is for personal awareness. Acceptance of prayer belongs to Allah; a low score is not a shame but a chance to grow.';
+
+  @override
+  String get uiKissaKutuphanesi => 'Story Library';
+
+  @override
+  String get uiKissaKonuVeyaKaynak => 'Search story, topic or source...';
+
+  @override
+  String get uiAramanizlaEslesenKissaBulunamadi =>
+      'No story matches your search.';
+
+  @override
+  String get uiKissaVeHikmet => 'Story and Wisdom';
+
+  @override
+  String get uiHikYeninAkisi => 'The story';
+
+  @override
+  String get uiKonular => 'Topics';
+
+  @override
+  String get uiZamanimizaBakanYonu => 'Its Relevance Today';
+
+  @override
+  String get uiKissaninZamanimizaBakanYonu => 'THE STORY\'S RELEVANCE TODAY';
+
+  @override
+  String get uiKendimizeSoralim => 'Let\'s ask ourselves';
+
+  @override
+  String get uiKissayiGorselOlarakPaylas => 'Share the story as images';
+
+  @override
+  String get uiGorselleriGaleriyeKaydet => 'Save images to gallery';
+
+  @override
+  String get uiIcerikYuklenemedi => 'Content could not be loaded';
+
+  @override
+  String get uiNamaziOgreniyorum => 'Learning to Pray';
+
+  @override
+  String get uiAdimAdimRehberKaynakli => 'Step-by-step guide, sourced content';
+
+  @override
+  String get uiRuhHaliIcerigiEklenmemis => 'No mood content added.';
+
+  @override
+  String get uiSuAnNasilHissediyorsun => 'How do you feel right now?';
+
+  @override
+  String get uiSanaUygunAyetHadis =>
+      'Let us suggest a fitting verse, hadith and dua.';
+
+  @override
+  String get uiRuhHalineGore => 'For Your Mood';
+
+  @override
+  String get uiKalbinNeSoyluyorsaOna =>
+      'Guidance for whatever your heart says.';
+
+  @override
+  String get uiBaskaRuhHali => 'Another mood';
+
+  @override
+  String get uiBuOnerilerKisiselRehberlik =>
+      'These suggestions are for personal guidance. For matters requiring a religious ruling, consult a qualified scholar.';
+
+  @override
+  String get uiBildirimVeHatirlatmaMerkezi =>
+      'Notification and reminder center';
+
+  @override
+  String get uiUygulamaBildirimleri => 'App notifications';
+
+  @override
+  String get uiTamEzan => 'Full adhan';
+
+  @override
+  String get uiTamEzanSesDosyasi =>
+      'Full adhan requires an audio file and Android audio playback setup.';
+
+  @override
+  String get uiKisaBildirimTonu => 'Short notification tone';
+
+  @override
+  String get uiCihazinBildirimSesiKullanilabilir =>
+      'The device notification sound can be used; actual sound behavior depends on the Android channel.';
+
+  @override
+  String get uiBuSecimSuAnda =>
+      'This choice is saved now. For the full adhan to actually play, an audio file and a separate Android sound channel must also be set up.';
+
+  @override
+  String get uiDuaVeZikir => 'Dua and dhikr';
+
+  @override
+  String get uiGunlukManeviHatirlatma => 'Daily spiritual reminder';
+
+  @override
+  String get uiKurAnOkuma => 'Quran reading';
+
+  @override
+  String get uiGunlukOkumaVakti => 'Daily reading time';
+
+  @override
+  String get uiHatirlatmalarinCalismasiIcinUstteki =>
+      'App notifications above must be on for reminders to work.';
+
+  @override
+  String get uiTestBildirimi => 'Test notification';
+
+  @override
+  String get uiBildirimIzniniVeTemel =>
+      'Check notification permission and a basic notification.';
+
+  @override
+  String get uiDene => 'Try';
+
+  @override
+  String get uiBilmenizGerekenler => 'Things to know';
+
+  @override
+  String get uiTumunuSil => 'Delete all';
+
+  @override
+  String get uiHenuzFavoriEklenmedi => 'No favorites yet';
+
+  @override
+  String get uiKartlardakiIkonunaDokunarakNicerikleri =>
+      'Tap the  📌  icon on cards\nto save content here.';
+
+  @override
+  String get uiSonucBulunamadi => 'No results found.';
+
+  @override
+  String get uiFavorilerdeAra => 'Search favorites...';
+
+  @override
+  String get uiKaydetmekIcin => 'Tap 📌 to save';
+
+  @override
+  String get uiFavoridenCikar => 'Remove from favorites';
+
+  @override
+  String get uiFavoridenCikarildi => 'Removed from favorites';
+
+  @override
+  String get uiTumFavorilerSilinsinMi => 'Delete all favorites?';
+
+  @override
+  String get uiTumFavorilerSilindi => 'All favorites deleted';
+
+  @override
+  String get uiKiblePusulasi => 'Qibla Compass';
+
+  @override
+  String get uiHarita => 'Map';
+
+  @override
+  String get uiKBe => 'Kaaba';
+
+  @override
+  String get uiKirmiziCizgiKonumunuzIle =>
+      'The red line shows the direction between your location and the Kaaba.';
+
+  @override
+  String get uiKonumum => 'My Location';
+
+  @override
+  String get uiSehirSec => 'Select city';
+
+  @override
+  String get uiPusulaSensoruBulunamadi => 'Compass sensor not found';
+
+  @override
+  String get uiYaziBoyutu => 'Text size';
+
+  @override
+  String get uiKucult => 'Smaller';
+
+  @override
+  String get uiBuyut => 'Larger';
+
+  @override
+  String get uiArapca => 'ARABIC';
+
+  @override
+  String get uiOkunus => 'TRANSLITERATION';
+
+  @override
+  String get uiMeal => 'TRANSLATION';
+
+  @override
+  String get uiTekrarDene => 'Try Again';
+
+  @override
+  String get uiKuraniKerim => 'The Holy Quran';
+
+  @override
+  String get uiKurAnKutuphanesi => 'Quran Library';
+
+  @override
+  String get uiTamKurAnI => 'Complete Holy Quran';
+
+  @override
+  String get ui114SureArapcaDiyanet =>
+      '114 surahs - Arabic + Diyanet translation';
+
+  @override
+  String get uiKurAnIKerim => 'The Holy Quran';
+
+  @override
+  String get uiKisaSurelerArapcaOkunus =>
+      'Short surahs · Arabic · Transliteration · Translation';
+
+  @override
+  String get uiWidgetFotografiGuncellendi => 'Widget photo updated.';
+
+  @override
+  String get uiVarsayilanArkaPlanaDonuldu => 'Reverted to default background.';
+
+  @override
+  String get uiFotografOnizlemesiAcilamadi =>
+      'Photo preview could not be opened';
+
+  @override
+  String get uiGaleridenFotografSec => 'Choose photo from gallery';
+
+  @override
+  String get uiVarsayilanArkaPlanaDon => 'Revert to default background';
+
+  @override
+  String get uiArapAVeOsmanl => 'Script style for Arabic and Ottoman texts';
+
+  @override
+  String get uiNZleme => 'PREVIEW';
+
+  @override
+  String get uiRahmNVeRah =>
+      'In the name of Allah, the Most Gracious, the Most Merciful';
+
+  @override
+  String get uiIndir => 'Download';
+
+  @override
+  String get ui365GunlukKayitlarSilinemez =>
+      'The 365-day records cannot be deleted; they can only be edited.';
+
+  @override
+  String get uiKartGoruntusuAlinamadi => 'Could not capture card image.';
+
+  @override
+  String get uiGaleriyeKaydedildi => '📥 Saved to gallery';
+
+  @override
+  String get uiAdminModuAktif => 'ADMIN MODE ACTIVE';
+
+  @override
+  String get uiKartlarinSagUstundekiKalem =>
+      'You can edit via the pencil icon at the top right of cards';
+
+  @override
+  String get uiAdminModundanCik => 'Exit admin mode?';
+
+  @override
+  String get uiDuzenlemeButonlariGizlenecek => 'Edit buttons will be hidden.';
+
+  @override
+  String get uiCikis => 'Exit';
+
+  @override
+  String get uiCikis2 => 'EXIT';
+
+  @override
+  String get uiKonumSec => 'Select Location';
+
+  @override
+  String get uiGpsIleKonumBul => 'Find Location via GPS';
+
+  @override
+  String get uiManuelSec => 'Select Manually';
+
+  @override
+  String get uiIlAra => 'Search province...';
+
+  @override
+  String get uiIlceAra => 'Search district...';
+
+  @override
+  String uiFKaliciOlarakSilinecek(Object a0) {
+    return '\"$a0\" will be permanently deleted.';
+  }
+
+  @override
+  String uiFOneri(Object a0) {
+    return 'Suggestion #$a0';
+  }
+
+  @override
+  String uiFYayinlanacakIcerikYok(Object a0) {
+    return 'Nothing to publish ($a0).';
+  }
+
+  @override
+  String uiFYayinla(Object a0) {
+    return 'Publish $a0?';
+  }
+
+  @override
+  String uiFIcerikYayinlanacakVeAna(Object a0) {
+    return '$a0 items will be published and shown on the home page.';
+  }
+
+  @override
+  String uiFIcerikYayinlandi(Object a0) {
+    return '$a0 items published';
+  }
+
+  @override
+  String uiFIcerikKaliciOlarakSilinecek(Object a0) {
+    return '$a0 items will be permanently deleted. This cannot be undone!';
+  }
+
+  @override
+  String uiFIcerikSilindi(Object a0) {
+    return '$a0 items deleted';
+  }
+
+  @override
+  String uiFYedekPanoyaKopyalandiKb(Object a0) {
+    return 'Backup copied to clipboard ($a0 KB).';
+  }
+
+  @override
+  String uiFHata(Object a0) {
+    return 'Error: $a0';
+  }
+
+  @override
+  String uiFOgeEdildi(Object a0, Object a1) {
+    return '$a0 items: $a1';
+  }
+
+  @override
+  String uiFGecersizJson(Object a0) {
+    return 'Invalid JSON: $a0';
+  }
+
+  @override
+  String uiFSilinecek(Object a0) {
+    return '\"$a0\" will be deleted.';
+  }
+
+  @override
+  String uiFIcinSonucBulunamadi(Object a0) {
+    return 'No results for \"$a0\"';
+  }
+
+  @override
+  String uiFSonucBulundu(Object a0) {
+    return '$a0 results found';
+  }
+
+  @override
+  String uiFPuan(Object a0) {
+    return '$a0 points';
+  }
+
+  @override
+  String uiFZikriniSilmekIstediginizeEmin(Object a0) {
+    return 'Are you sure you want to delete the dhikr \"$a0\"?';
+  }
+
+  @override
+  String uiFAdet(Object a0) {
+    return '$a0 times';
+  }
+
+  @override
+  String uiFAdiminiTamamladi(Object a0, Object a1, Object a2) {
+    return '$a0 $a1 completed the step \"$a2\"!';
+  }
+
+  @override
+  String uiFAdimTamamlandi(Object a0, Object a1) {
+    return '$a0 / $a1 steps completed';
+  }
+
+  @override
+  String uiFSilinsinMi(Object a0) {
+    return 'Delete $a0?';
+  }
+
+  @override
+  String uiFYas(Object a0) {
+    return '$a0 years old';
+  }
+
+  @override
+  String uiFTamamlandi(Object a0, Object a1) {
+    return '$a0 / $a1 Completed';
+  }
+
+  @override
+  String uiFNotlar(Object a0) {
+    return '$a0 - Notes';
+  }
+
+  @override
+  String uiFSayfa(Object a0, Object a1) {
+    return '$a0 / $a1 Pages';
+  }
+
+  @override
+  String uiFSonOkuma(Object a0, Object a1, Object a2) {
+    return 'Last read: $a0.$a1.$a2';
+  }
+
+  @override
+  String uiFHedefKelimeler(Object a0) {
+    return '$a0 · Target Words';
+  }
+
+  @override
+  String uiFKelime(Object a0) {
+    return '$a0 words';
+  }
+
+  @override
+  String uiFTahminiRamazanDahaYasayabilirsin(Object a0) {
+    return 'You may live about $a0 more Ramadans (assuming age 75).';
+  }
+
+  @override
+  String uiFVakitleriYukleniyor(Object a0) {
+    return 'Loading prayer times for $a0...';
+  }
+
+  @override
+  String uiFNamazi(Object a0) {
+    return '$a0 Prayer';
+  }
+
+  @override
+  String uiFKaldi(Object a0) {
+    return '$a0 left';
+  }
+
+  @override
+  String uiFKaynak(Object a0) {
+    return 'Source: $a0';
+  }
+
+  @override
+  String uiFGunes(Object a0) {
+    return 'Sunrise $a0';
+  }
+
+  @override
+  String uiFVakit(Object a0) {
+    return '$a0 prayers';
+  }
+
+  @override
+  String uiFSonrakiSeviyeye(Object a0) {
+    return '$a0% · To next level';
+  }
+
+  @override
+  String uiFGun(Object a0) {
+    return '$a0 days';
+  }
+
+  @override
+  String uiFKissaBulundu(Object a0) {
+    return '$a0 stories found';
+  }
+
+  @override
+  String uiFAdim(Object a0) {
+    return '$a0 steps';
+  }
+
+  @override
+  String uiFOneri2(Object a0) {
+    return '$a0 suggestions';
+  }
+
+  @override
+  String uiFSehir(Object a0) {
+    return 'City: $a0';
+  }
+
+  @override
+  String uiFSonPlanlama(Object a0) {
+    return 'Last scheduled: $a0';
+  }
+
+  @override
+  String uiFFavori(Object a0) {
+    return '$a0 favorites';
+  }
+
+  @override
+  String uiFFavoriKaliciOlarakSilinecek(Object a0) {
+    return '$a0 favorites will be permanently deleted.';
+  }
+
+  @override
+  String uiFAyet(Object a0, Object a1) {
+    return '$a0 - $a1 verses';
+  }
+
+  @override
+  String uiFAyet2(Object a0, Object a1) {
+    return '$a0 verses - $a1';
+  }
+
+  @override
+  String uiFSure(Object a0) {
+    return '$a0 surahs';
+  }
+
+  @override
+  String uiFYet(Object a0, Object a1) {
+    return '$a0 verses · $a1';
+  }
+
+  @override
+  String uiFFotografSecilemedi(Object a0) {
+    return 'Could not pick photo: $a0';
+  }
+
+  @override
+  String uiFIslemBasarisiz(Object a0) {
+    return 'Operation failed: $a0';
+  }
+
+  @override
+  String uiFKaliciOlarakSilinecek2(Object a0) {
+    return '\"$a0\" will be permanently deleted.';
+  }
+
+  @override
+  String uiFIlceleri(Object a0) {
+    return '$a0 Districts';
+  }
+
+  @override
+  String get uiHicriYolculuk => 'Hijri Journey';
+
+  @override
+  String get uiMiladiZamaniHicriBakisla =>
+      'See Gregorian time through a Hijri lens.';
+
+  @override
+  String get uiBugunHicri => 'TODAY (HIJRI)';
+
+  @override
+  String get uiOnemliHicriGunler => 'Important Hijri Days';
+
+  @override
+  String get uiHicriTarihlerYaklasikHesaplanir =>
+      'Hijri dates are approximate. For official holy nights and Eid dates, rely on the Diyanet calendar.';
+
+  @override
+  String get uiAz => 'Less';
+
+  @override
+  String get uiCok => 'More';
+
+  @override
+  String get uiMubarekGunler => 'Blessed Days';
+
+  @override
+  String get uiKandilBayramVeOzel => 'Holy nights, Eids and special nights.';
+
+  @override
+  String get uiSiradaki => 'NEXT';
+
+  @override
+  String get uiYaklasanOzelGunBulunamadi => 'No upcoming special day found';
+
+  @override
+  String get uiTarihlerYaklasikHesaplanirKesin =>
+      'Dates are approximate. For exact dates, rely on the Diyanet calendar.';
+
+  @override
+  String get uiMezhebeGoreFarklilikGosteren =>
+      'On matters that differ between schools, follow your own school\'s view or consult a scholar you trust.';
+
+  @override
+  String get uiKibleAcisiKBe =>
+      'The Qibla angle is found by a great-circle calculation between the Kaaba (21.42°N, 39.83°E) and your location.';
 }

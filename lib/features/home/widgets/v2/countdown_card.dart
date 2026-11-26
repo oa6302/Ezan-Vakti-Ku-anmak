@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -154,7 +155,9 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
             ),
             const SizedBox(width: 14),
             Expanded(
-              child: Text('$_konumAdi vakitleri yükleniyor...',
+              child: Text(
+                  AppLocalizations.of(context)
+                      .uiFVakitleriYukleniyor(_konumAdi),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
@@ -271,7 +274,8 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
                                 color: _gold.withValues(alpha: 0.15),
                                 borderRadius: BorderRadius.circular(6),
                               ),
-                              child: const Text('Sonraki Namaz',
+                              child: Text(
+                                  AppLocalizations.of(context).nextPrayer,
                                   style: TextStyle(
                                       color: _gold,
                                       fontSize: 9.5,
@@ -292,7 +296,8 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
                                 ),
                               ),
                               child: Text(
-                                '$namazAdi Namazi',
+                                AppLocalizations.of(context)
+                                    .uiFNamazi(namazAdi),
                                 key: ValueKey(namazAdi),
                                 maxLines: 1,
                                 overflow: TextOverflow.ellipsis,
@@ -345,7 +350,9 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
                               ),
                               const SizedBox(width: 5),
                               Flexible(
-                                child: Text('${_fmtFull(remain)} kaldi',
+                                child: Text(
+                                    AppLocalizations.of(context)
+                                        .uiFKaldi(_fmtFull(remain)),
                                     maxLines: 1,
                                     overflow: TextOverflow.ellipsis,
                                     style: const TextStyle(
@@ -377,7 +384,7 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                  const Text('"Namaz, muminin\n   miracidir."',
+                  Text(AppLocalizations.of(context).uiNamazMumininNMiracidir,
                       textAlign: TextAlign.right,
                       style: TextStyle(
                           color: Colors.white,
@@ -386,7 +393,7 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600)),
                   const SizedBox(height: 6),
-                  Text('(Tirmizi, Salat, 1)',
+                  Text(AppLocalizations.of(context).uiTirmiziSalat1,
                       style: TextStyle(
                           color: Colors.white.withValues(alpha: 0.6),
                           fontSize: 10)),

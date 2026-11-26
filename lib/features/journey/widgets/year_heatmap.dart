@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/shadows.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -69,11 +70,11 @@ class YearHeatmap extends StatelessWidget {
                     const Icon(Icons.grid_view_rounded, color: _navy, size: 16),
               ),
               const SizedBox(width: 10),
-              const Text('Yıllık Isı Haritası',
+              Text(AppLocalizations.of(context).uiYillikIsiHaritasi,
                   style: TextStyle(
                       color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
               const Spacer(),
-              _legend(),
+              _legend(context),
             ],
           ),
           const SizedBox(height: 14),
@@ -100,7 +101,7 @@ class YearHeatmap extends StatelessWidget {
               const SizedBox(width: 4),
               Expanded(
                 child: Text(
-                  'Her kare bir günü gösterir. Koyu kare = o gün daha çok vakit kaydedildi.',
+                  AppLocalizations.of(context).uiHerKareBirGunu,
                   style: TextStyle(
                       color: Colors.black.withValues(alpha: 0.5), fontSize: 10),
                 ),
@@ -177,11 +178,12 @@ class YearHeatmap extends StatelessWidget {
     );
   }
 
-  Widget _legend() {
+  Widget _legend(BuildContext context) {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        const Text('Az', style: TextStyle(fontSize: 9, color: Colors.black45)),
+        Text(AppLocalizations.of(context).uiAz,
+            style: TextStyle(fontSize: 9, color: Colors.black45)),
         const SizedBox(width: 4),
         for (final a in [0.0, 0.25, 0.45, 0.65, 1.0]) ...[
           Container(
@@ -197,7 +199,8 @@ class YearHeatmap extends StatelessWidget {
           const SizedBox(width: 2),
         ],
         const SizedBox(width: 2),
-        const Text('Çok', style: TextStyle(fontSize: 9, color: Colors.black45)),
+        Text(AppLocalizations.of(context).uiCok,
+            style: TextStyle(fontSize: 9, color: Colors.black45)),
       ],
     );
   }

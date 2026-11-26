@@ -1,4 +1,5 @@
 import 'dart:typed_data';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
@@ -109,7 +110,7 @@ class _KissaPaylasimButonlariState extends State<KissaPaylasimButonlari> {
       mainAxisSize: MainAxisSize.min,
       children: [
         IconButton(
-          tooltip: 'Kıssayı görsel olarak paylaş',
+          tooltip: AppLocalizations.of(context).uiKissayiGorselOlarakPaylas,
           onPressed: _yukleniyor ? null : () => _islem(paylas: true),
           icon: _yukleniyor
               ? const SizedBox(
@@ -120,7 +121,7 @@ class _KissaPaylasimButonlariState extends State<KissaPaylasimButonlari> {
               : Icon(Icons.share_rounded, color: renk),
         ),
         IconButton(
-          tooltip: 'Görselleri galeriye kaydet',
+          tooltip: AppLocalizations.of(context).uiGorselleriGaleriyeKaydet,
           onPressed: _yukleniyor ? null : () => _islem(paylas: false),
           icon: Icon(Icons.download_rounded, color: renk),
         ),

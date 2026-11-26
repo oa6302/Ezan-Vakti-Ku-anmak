@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/features/kissa/widgets/kissa_paylasim_butonlari.dart';
 import 'package:nur_pusulasi/data/islami_kissalar.dart';
 
@@ -35,7 +36,7 @@ class _KissaKutuphanesiPageState extends State<KissaKutuphanesiPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Kıssa Kütüphanesi'),
+        title: Text(AppLocalizations.of(context).uiKissaKutuphanesi),
         centerTitle: true,
       ),
       body: Column(
@@ -46,7 +47,7 @@ class _KissaKutuphanesiPageState extends State<KissaKutuphanesiPage> {
               controller: _searchController,
               onChanged: (value) => setState(() => _query = value),
               decoration: InputDecoration(
-                hintText: 'Kıssa, konu veya kaynak ara...',
+                hintText: AppLocalizations.of(context).uiKissaKonuVeyaKaynak,
                 prefixIcon: const Icon(Icons.search_rounded),
                 suffixIcon: _query.isEmpty
                     ? null
@@ -70,15 +71,16 @@ class _KissaKutuphanesiPageState extends State<KissaKutuphanesiPage> {
             child: Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                '${items.length} kıssa bulundu',
+                AppLocalizations.of(context).uiFKissaBulundu(items.length),
                 style: Theme.of(context).textTheme.bodySmall,
               ),
             ),
           ),
           Expanded(
             child: items.isEmpty
-                ? const Center(
-                    child: Text('Aramanızla eşleşen kıssa bulunamadı.'),
+                ? Center(
+                    child: Text(AppLocalizations.of(context)
+                        .uiAramanizlaEslesenKissaBulunamadi),
                   )
                 : ListView.separated(
                     padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
@@ -198,7 +200,7 @@ class KissaDetayPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Kıssa ve Hikmet'),
+        title: Text(AppLocalizations.of(context).uiKissaVeHikmet),
         actions: [KissaPaylasimButonlari(kissa: kissa)],
       ),
       body: ListView(
@@ -260,7 +262,7 @@ class KissaDetayPage extends StatelessWidget {
           ],
           const SizedBox(height: 22),
           Text(
-            'Hikâyenin akışı',
+            AppLocalizations.of(context).uiHikYeninAkisi,
             style: theme.textTheme.titleLarge?.copyWith(
               fontWeight: FontWeight.w900,
             ),
@@ -308,7 +310,7 @@ class KissaDetayPage extends StatelessWidget {
           if (kissa.anahtarKelimeler.isNotEmpty) ...[
             const SizedBox(height: 22),
             Text(
-              'Konular',
+              AppLocalizations.of(context).uiKonular,
               style: theme.textTheme.titleMedium?.copyWith(
                 fontWeight: FontWeight.w800,
               ),

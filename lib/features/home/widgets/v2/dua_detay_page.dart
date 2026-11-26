@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/favorite_button.dart';
 
@@ -89,7 +90,7 @@ class DuaDetayPage extends StatelessWidget {
                 const Icon(Icons.book_rounded, color: _navy, size: 16),
                 const SizedBox(width: 8),
                 Expanded(
-                  child: Text('Kaynak: $duaKaynak',
+                  child: Text(AppLocalizations.of(context).uiFKaynak(duaKaynak),
                       style: const TextStyle(
                           color: _navy,
                           fontSize: 12,

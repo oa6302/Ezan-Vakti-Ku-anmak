@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/admin_card_wrapper.dart';
 
@@ -96,22 +97,23 @@ class RisaleCard extends StatelessWidget {
                               color: _red,
                               borderRadius: BorderRadius.circular(8),
                             ),
-                            child: const Text('RİSALE-İ NUR',
-                                style: TextStyle(
-                                    color: Colors.white,
-                                    shadows: [
-                                      Shadow(
-                                          color: Color(0x99000000),
-                                          blurRadius: 9,
-                                          offset: Offset(0, 4)),
-                                      Shadow(
-                                          color: Color(0x55000000),
-                                          blurRadius: 3,
-                                          offset: Offset(0, 2)),
-                                    ],
-                                    fontSize: 10,
-                                    fontWeight: FontWeight.w900,
-                                    letterSpacing: 1)),
+                            child:
+                                Text(AppLocalizations.of(context).uiRisaleINur,
+                                    style: TextStyle(
+                                        color: Colors.white,
+                                        shadows: [
+                                          Shadow(
+                                              color: Color(0x99000000),
+                                              blurRadius: 9,
+                                              offset: Offset(0, 4)),
+                                          Shadow(
+                                              color: Color(0x55000000),
+                                              blurRadius: 3,
+                                              offset: Offset(0, 2)),
+                                        ],
+                                        fontSize: 10,
+                                        fontWeight: FontWeight.w900,
+                                        letterSpacing: 1)),
                           ),
                           const Spacer(),
                           Container(
@@ -220,8 +222,8 @@ class RisaleCard extends StatelessWidget {
                               color: Color(0xFFFFF0CF),
                               borderRadius: BorderRadius.circular(6),
                             ),
-                            child: const Text(
-                              'Risale-i Nur’dan ilhamla',
+                            child: Text(
+                              AppLocalizations.of(context).uiRisaleINurDan,
                               style: TextStyle(
                                   color: Color(0xFF0A1F44),
                                   shadows: [
@@ -238,7 +240,7 @@ class RisaleCard extends StatelessWidget {
                           const Icon(Icons.access_time_rounded,
                               color: Color(0xFF7A8492), size: 12),
                           const SizedBox(width: 4),
-                          const Text('5 dk okuma',
+                          Text(AppLocalizations.of(context).ui5DkOkuma,
                               style: TextStyle(
                                   color: Color(0xFF7A8492),
                                   shadows: [
@@ -288,8 +290,8 @@ class _RisaleInfografik extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text(
-            'GÜNÜN İMAN-KÜFÜR MUVÂZENESİ',
+          Text(
+            AppLocalizations.of(context).uiGununImanKufurMuv,
             style: TextStyle(
               color: Color(0xFF0A1F44),
               shadows: [

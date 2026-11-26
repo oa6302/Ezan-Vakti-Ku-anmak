@@ -105,5 +105,723 @@
       }
     }
   },
-  "aboutBody": "Namaz merkezli ibadet rehberi. Tüm veriler cihazınızda saklanır."
+  "aboutBody": "Namaz merkezli ibadet rehberi. Tüm veriler cihazınızda saklanır.",
+  "uiYoneticiGirisi": "Yönetici Girişi",
+  "uiIcerikYonetimi": "İçerik Yönetimi",
+  "uiYoneticiPinKodunuGirin": "Yönetici PIN kodunu girin. Bu PIN cihaz içi basit bir engeldir; güvenli kimlik doğrulama yerine geçmez.",
+  "uiYoneticiPin": "Yönetici PIN",
+  "uiYonetimPaneliniAc": "Yönetim panelini aç",
+  "uiBaslikVeEnAz": "Başlık ve en az bir içerik alanı doldurulmalıdır.",
+  "uiDogrulamadanYayinla": "Doğrulamadan yayınla?",
+  "uiBuIcerikDogrulandiOlarak": "Bu içerik \"doğrulandı\" olarak işaretlenmemiş. Yine de yayınlansın mı?",
+  "uiIptal": "İptal",
+  "uiYayinla": "Yayınla",
+  "uiSilinsinMi": "Silinsin mi?",
+  "uiIcerikTuru": "İçerik Türü",
+  "uiYayinDurumu": "Yayın Durumu",
+  "uiKaynakTuru": "Kaynak Türü",
+  "uiDiyanetBuhariMuslimGibi": "Diyanet, Buhârî, Müslim gibi güvenilir kaynaktan kontrol edildi",
+  "uiKaydet": "KAYDET",
+  "uiOneriler": "Öneriler",
+  "uiEkle": "EKLE",
+  "uiIcerikYonetimi2": "İçerik Yönetimi",
+  "uiTopluIslemler": "Toplu işlemler",
+  "uiAktifSekmedekiTumunuYayinla": "Aktif sekmedeki tümünü yayınla",
+  "uiFiltrelenmisleriYayinla": "Filtrelenmişleri yayınla",
+  "uiFiltrelenmisleriSil": "Filtrelenmişleri sil",
+  "uiAnaSayfadaKontrolEt": "Ana sayfada kontrol et",
+  "uiYedekAlJson": "Yedek al (JSON)",
+  "uiYedektenYukleJson": "Yedekten yükle (JSON)",
+  "uiYeniEkle": "YENİ EKLE",
+  "uiBaslikIcerikKaynakVeya": "Başlık, içerik, kaynak veya kategori ara...",
+  "uiSiralama": "Sıralama",
+  "uiIptal2": "İptal",
+  "uiYayinla2": "Yayınla",
+  "ui365GunlukKayitlarKorunuyor": "365 günlük kayıtlar korunuyor; silme işlemi engellendi.",
+  "uiSilinecekIcerikYok": "Silinecek içerik yok.",
+  "uiFiltrelenmisleriSil2": "Filtrelenmişleri sil?",
+  "uiYedektenYukle": "Yedekten yükle",
+  "uiJsonYedeginiAsagiyaYapistirin": "JSON yedeğini aşağıya yapıştırın. \"Birleştir\" varsa günceller, yoksa ekler. \"Üzerine yaz\" mevcut havuzu siler.",
+  "uiUzerineYaz": "Üzerine Yaz",
+  "uiBirlestir": "Birleştir",
+  "uiFiltreleriTemizle": "Filtreleri temizle",
+  "uiGunlukKayitlarSilinemezDuzenlemeye": "Günlük kayıtlar silinemez; düzenlemeye devam edebilirsiniz.",
+  "uiSilindi": "Silindi",
+  "uiKaynakliRehber": "Kaynaklı Rehber",
+  "uiSorunuIceriklerArasindaAra": "Sorunu içerikler arasında ara.",
+  "uiOrnSabirSukurAbdest": "Örn. sabır, şükür, abdest...",
+  "uiOrnekSorular": "Örnek Sorular",
+  "uiFarkliKelimelerleDeneVeya": "Farklı kelimelerle dene veya mevcut içerikleri gözden geçir.",
+  "uiZikirAdi": "Zikir Adı",
+  "uiOrnSubhNallah": "Örn: Sübhânallah",
+  "uiHedefSayi": "Hedef Sayı",
+  "uiSayaclariSifirla": "Sayaçları Sıfırla",
+  "uiSifirla": "Sıfırla",
+  "uiZikriSil": "Zikri Sil",
+  "uiHenuzBirZikirEklenmemis": "Henüz bir zikir eklenmemiş.",
+  "uiZikirEkle": "Zikir Ekle",
+  "uiZincirAdimi": "Zincir Adımı",
+  "uiToplamCekilen": "Toplam Çekilen",
+  "uiTamamlananZincirTuru": "Tamamlanan Zincir Turu",
+  "uiHedefIlerlemesi": "Hedef İlerlemesi",
+  "uiDokun": "DOKUN",
+  "uiZincirAdimlari": "Zincir Adımları",
+  "uiYeniEkle2": "Yeni Ekle",
+  "uiDuzenle": "Düzenle",
+  "uiHenuzDersEklenmemis": "Henüz ders eklenmemiş.",
+  "uiHerTamamlananAdimBir": "Her tamamlanan adım bir kutlama",
+  "uiCocukEkle": "Çocuk Ekle",
+  "uiIsim": "İsim",
+  "uiYas": "Yaş",
+  "uiEkle2": "Ekle",
+  "uiBuCocugunTumIlerleme": "Bu çocuğun tüm ilerleme kayıtları silinecek.",
+  "uiAileModu": "Aile Modu",
+  "uiCocuklarim": "Çocuklarım",
+  "uiAileceOgrenelim": "Ailece Öğrenelim",
+  "uiCocuklariniNamazlaTanistir": "Çocuklarını namazla tanıştır.",
+  "uiHenuzCocukEklenmedi": "Henüz çocuk eklenmedi",
+  "uiCocugunuEkleAdimAdim": "Çocuğunu ekle, adım adım namaz öğrenmesini takip et. 9 basit adım.",
+  "uiSabahNamaziniKil": "Sabah namazını kıl",
+  "uiOgleNamaziniKil": "Öğle namazını kıl",
+  "uiIkindiNamaziniKil": "İkindi namazını kıl",
+  "uiAksamNamaziniKil": "Akşam namazını kıl",
+  "uiYatsiNamaziniKil": "Yatsı namazını kıl",
+  "uiGunlukKurAnOkumasi": "Günlük Kur'an okuması yap",
+  "uiYeniHedefEkle": "Yeni Hedef Ekle",
+  "uiOrn10SayfaKitap": "Örn: 10 sayfa kitap oku",
+  "uiBugunkuManevYolculugun": "Bugünkü manevî yolculuğun",
+  "uiBugununHedefleri": "Bugünün Hedefleri",
+  "uiSukurNotunuzBasariylaKaydedildi": "Şükür notunuz başarıyla kaydedildi.",
+  "ui365GunlukSukurRehberi": "365 Günlük Şükür Rehberi",
+  "uiOneriVeyaKaynakAra": "Öneri veya kaynak ara...",
+  "uiGununManeviOnerisi": "Günün Manevi Önerisi",
+  "uiBunuYaz": "Bunu Yaz",
+  "uiBugunNeIcinSukrediyorsun": "Bugün ne için şükrediyorsun?",
+  "uiSectiginOneriyiBurayaDokebilir": "Seçtiğin öneriyi buraya dökebilir veya kendi cümlelerini yazabilirsin...",
+  "uiSukruKaydet": "Şükrü Kaydet",
+  "uiGecmisSukurlerin": "Geçmiş Şükürlerin",
+  "uiHenuzBirSukurNotu": "Henüz bir şükür notu yazmadın.\nİlk notunu oluşturmak için yukarıdaki alanı kullanabilirsin.",
+  "uiNotuSil": "Notu Sil",
+  "uiBuSukurNotunuSilmek": "Bu şükür notunu silmek istediğinize emin misiniz?",
+  "uiKisiselManeviPusula": "Kişisel Manevi Pusula",
+  "uiBirNimetIcinSukret": "Bir nimet için şükret ve kaydet",
+  "uiOkumaPlanim": "Okuma Planım",
+  "uiKucukAdimlarDuzenliBir": "Küçük adımlar, düzenli bir gelişim",
+  "uiHaftalikIlerleme": "Haftalık İlerleme",
+  "uiIlerlemeniGoruntule": "İlerlemeni görüntüle",
+  "uiYeniOkumaPlaniEkle": "Yeni Okuma Planı Ekle",
+  "uiToplamSayfaSayisi": "Toplam Sayfa Sayısı",
+  "uiKitapTuru": "Kitap Türü",
+  "uiKaldiginYerOnemliBir": "Kaldığın yer, önemli bir cümle veya çıkarım...",
+  "uiHenuzBirOkumaPlanin": "Henüz bir okuma planın yok.",
+  "uiKucukAdimlarDuzenliBir2": "Küçük adımlar, düzenli bir gelişim getirir.",
+  "uiIlkKitabiniEkle": "İlk Kitabını Ekle",
+  "ui5Sayfa": "-5 Sayfa",
+  "ui10Sayfa": "+10 Sayfa",
+  "uiYeniKitap": "Yeni Kitap",
+  "uiManeviYolculukOzetin": "Manevi Yolculuk Özetin",
+  "uiKucukAdimlarDuzenliBir3": "Küçük adımlar, düzenli bir gelişim.",
+  "uiBuHaftaninVerileri": "Bu Haftanın Verileri",
+  "uiDevamEt": "Devam Et!",
+  "uiHarikaGidiyorsun": "Harika gidiyorsun",
+  "uiVerilerinizDigerModullerdekiHedefler": "Verileriniz diğer modüllerdeki (Hedefler, Şükür, Okuma) gerçek kayıtlarınızdan anlık olarak hesaplanmaktadır.",
+  "uiSesliEzberKontrolu": "Sesli Ezber Kontrolü",
+  "uiEzberiniTestEt": "Ezberini Test Et",
+  "uiSureyiSesliOkuEslesme": "Sureyi sesli oku, eşleşme oranını gör.",
+  "uiKarsilastir": "Karşılaştır",
+  "uiDuyulanMetin": "Duyulan Metin",
+  "uiBuKarsilastirmaSesTanima": "Bu karşılaştırma ses tanıma temellidir, kesin değildir. Kaynağından tekrar okuyarak doğrula.",
+  "uiEzberiniSaglamlastirmakIcinGunde": "Ezberini sağlamlaştırmak için günde 3-5 kez, yavaş ve tane tane oku.",
+  "uiHicriYasamCizgisi": "Hicrî Yaşam Çizgisi",
+  "uiDogumTarihiniGir": "Doğum Tarihini Gir",
+  "uiHicriTakvimdeKacGun": "Hicrî takvimde kaç gün, kaç Ramazan, kaç cuma yaşadığını göreceksin.",
+  "uiTarihSec": "Tarih Seç",
+  "uiYasamCizgin": "Yaşam Çizgin",
+  "uiDegistir": "Değiştir",
+  "uiPeygamberimizinSAV": "PEYGAMBERİMİZİN (S.A.V.) SÜNNETİ",
+  "uiHadisISerif": "HADİS-İ ŞERİF",
+  "uiNamazMumininNMiracidir": "\"Namaz, müminin\n   miracıdır.\"",
+  "uiTirmiziSalat1": "(Tirmizî, Salât, 1)",
+  "uiKisaTefsir": "KISA TEFSİR",
+  "uiIcerikHavuzu": "İçerik havuzu",
+  "uiFavorilerim": "Favorilerim",
+  "uiGununKissasi": "GÜNÜN KISSASI",
+  "uiHerKissadaBirHikmet": "Her kıssada bir hikmet",
+  "uiKissadanHisse": "KISSADAN HİSSE",
+  "uiGecmisinHadisesindenBugununIman": "Geçmişin hadisesinden bugünün imanî derslerine...",
+  "uiNamazVakitleriYukleniyor": "Namaz vakitleri yükleniyor...",
+  "uiRisaleINur": "RİSALE-İ NUR",
+  "uiRisaleINurDan": "Risale-i Nur’dan ilhamla",
+  "ui5DkOkuma": "5 dk okuma",
+  "uiGununImanKufurMuv": "GÜNÜN İMAN-KÜFÜR MUVÂZENESİ",
+  "uiYolculukSeviyesi": "Yolculuk Seviyesi",
+  "uiSon30Gun": "Son 30 Gün",
+  "uiSonrakiHedef": "Sonraki Hedef",
+  "uiYillikIsiHaritasi": "Yıllık Isı Haritası",
+  "uiHerKareBirGunu": "Her kare bir günü gösterir. Koyu kare = o gün daha çok vakit kaydedildi.",
+  "uiKandilOzelGunler": "Kandil & Özel Günler",
+  "uiYaklasanGunler": "Yaklaşan Günler",
+  "uiHusuKaydiEklendi": "Huşu kaydı eklendi",
+  "uiKalpHuzuru": "Kalp Huzuru",
+  "uiNamazdaKalbinNeredeydiYargilamadan": "Namazda kalbin neredeydi? Yargılamadan fark et.",
+  "uiBuNamazdaHusuSeviyen": "Bu namazda huşu seviyen?",
+  "ui1Daginik5Derin": "1 = dağınık, 5 = derin",
+  "uiHaftalikHusu": "Haftalık Huşu",
+  "uiSon7GundeOrtalama": "Son 7 günde ortalama huşu seviyen",
+  "uiHusuDagilimi": "Huşu Dağılımı",
+  "uiHenuzKayitYok": "Henüz kayıt yok",
+  "uiHusuPuaniKisiselFarkindalik": "Huşu puanı kişisel farkındalık içindir. Namazın kabulü Allah'a aittir; düşük puan utanç değil, gelişim fırsatıdır.",
+  "uiKissaKutuphanesi": "Kıssa Kütüphanesi",
+  "uiKissaKonuVeyaKaynak": "Kıssa, konu veya kaynak ara...",
+  "uiAramanizlaEslesenKissaBulunamadi": "Aramanızla eşleşen kıssa bulunamadı.",
+  "uiKissaVeHikmet": "Kıssa ve Hikmet",
+  "uiHikYeninAkisi": "Hikâyenin akışı",
+  "uiKonular": "Konular",
+  "uiZamanimizaBakanYonu": "Zamanımıza Bakan Yönü",
+  "uiKissaninZamanimizaBakanYonu": "KISSANIN ZAMANIMIZA BAKAN YÖNÜ",
+  "uiKendimizeSoralim": "Kendimize soralım",
+  "uiKissayiGorselOlarakPaylas": "Kıssayı görsel olarak paylaş",
+  "uiGorselleriGaleriyeKaydet": "Görselleri galeriye kaydet",
+  "uiIcerikYuklenemedi": "İçerik yüklenemedi",
+  "uiNamaziOgreniyorum": "Namazı Öğreniyorum",
+  "uiAdimAdimRehberKaynakli": "Adım adım rehber, kaynaklı içerik",
+  "uiRuhHaliIcerigiEklenmemis": "Ruh hâli içeriği eklenmemiş.",
+  "uiSuAnNasilHissediyorsun": "Şu an nasıl hissediyorsun?",
+  "uiSanaUygunAyetHadis": "Sana uygun ayet, hadis ve dua önerelim.",
+  "uiRuhHalineGore": "Ruh Hâline Göre",
+  "uiKalbinNeSoyluyorsaOna": "Kalbin ne söylüyorsa, ona uygun rehberlik.",
+  "uiBaskaRuhHali": "Başka ruh hâli",
+  "uiBuOnerilerKisiselRehberlik": "Bu öneriler kişisel rehberlik amaçlıdır. Dinî hüküm gerektiren konularda ehil bir âlime danışınız.",
+  "uiBildirimVeHatirlatmaMerkezi": "Bildirim ve hatırlatma merkezi",
+  "uiUygulamaBildirimleri": "Uygulama bildirimleri",
+  "uiTamEzan": "Tam ezan",
+  "uiTamEzanSesDosyasi": "Tam ezan ses dosyası ve Android ses oynatma yapılandırması gerekir.",
+  "uiKisaBildirimTonu": "Kısa bildirim tonu",
+  "uiCihazinBildirimSesiKullanilabilir": "Cihazın bildirim sesi kullanılabilir; gerçek ses davranışı Android kanalına bağlıdır.",
+  "uiBuSecimSuAnda": "Bu seçim şu anda kaydedilir. Tam ezanın gerçekten çalması için ses dosyası ve ayrı Android ses kanalı ayrıca bağlanmalıdır.",
+  "uiDuaVeZikir": "Dua ve zikir",
+  "uiGunlukManeviHatirlatma": "Günlük manevi hatırlatma",
+  "uiKurAnOkuma": "Kur’an okuma",
+  "uiGunlukOkumaVakti": "Günlük okuma vakti",
+  "uiHatirlatmalarinCalismasiIcinUstteki": "Hatırlatmaların çalışması için üstteki uygulama bildirimleri açık olmalıdır.",
+  "uiTestBildirimi": "Test bildirimi",
+  "uiBildirimIzniniVeTemel": "Bildirim iznini ve temel bildirimi kontrol edin.",
+  "uiDene": "Dene",
+  "uiBilmenizGerekenler": "Bilmeniz gerekenler",
+  "uiTumunuSil": "Tümünü sil",
+  "uiHenuzFavoriEklenmedi": "Henüz favori eklenmedi",
+  "uiKartlardakiIkonunaDokunarakNicerikleri": "Kartlardaki  📌  ikonuna dokunarak\niçerikleri buraya kaydedebilirsin.",
+  "uiSonucBulunamadi": "Sonuç bulunamadı.",
+  "uiFavorilerdeAra": "Favorilerde ara...",
+  "uiKaydetmekIcin": "Kaydetmek için 📌",
+  "uiFavoridenCikar": "Favoriden çıkar",
+  "uiFavoridenCikarildi": "Favoriden çıkarıldı",
+  "uiTumFavorilerSilinsinMi": "Tüm favoriler silinsin mi?",
+  "uiTumFavorilerSilindi": "Tüm favoriler silindi",
+  "uiKiblePusulasi": "Kıble Pusulası",
+  "uiHarita": "Harita",
+  "uiKBe": "Kâbe",
+  "uiKirmiziCizgiKonumunuzIle": "Kırmızı çizgi konumunuz ile Kâbe arasındaki yönü gösterir.",
+  "uiKonumum": "Konumum",
+  "uiSehirSec": "Şehir seç",
+  "uiPusulaSensoruBulunamadi": "Pusula sensörü bulunamadı",
+  "uiYaziBoyutu": "Yazı boyutu",
+  "uiKucult": "Küçült",
+  "uiBuyut": "Büyüt",
+  "uiArapca": "ARAPÇA",
+  "uiOkunus": "OKUNUŞ",
+  "uiMeal": "MEAL",
+  "uiTekrarDene": "Tekrar Dene",
+  "uiKuraniKerim": "Kur'ân-ı Kerîm",
+  "uiKurAnKutuphanesi": "Kur'an Kütüphanesi",
+  "uiTamKurAnI": "Tam Kur'ân-ı Kerîm",
+  "ui114SureArapcaDiyanet": "114 sure - Arapça + Diyanet Meali",
+  "uiKurAnIKerim": "Kur'an-ı Kerim",
+  "uiKisaSurelerArapcaOkunus": "Kısa sureler · Arapça · Okunuş · Meal",
+  "uiWidgetFotografiGuncellendi": "Widget fotoğrafı güncellendi.",
+  "uiVarsayilanArkaPlanaDonuldu": "Varsayılan arka plana dönüldü.",
+  "uiFotografOnizlemesiAcilamadi": "Fotoğraf önizlemesi açılamadı",
+  "uiGaleridenFotografSec": "Galeriden fotoğraf seç",
+  "uiVarsayilanArkaPlanaDon": "Varsayılan arka plana dön",
+  "uiArapAVeOsmanl": "Arapça ve Osmanlıca metinler için yazı stili",
+  "uiNZleme": "ÖNİZLEME",
+  "uiRahmNVeRah": "Rahmân ve Rahîm olan Allah'ın adıyla",
+  "uiIndir": "İndir",
+  "ui365GunlukKayitlarSilinemez": "365 günlük kayıtlar silinemez; yalnızca düzenlenebilir.",
+  "uiKartGoruntusuAlinamadi": "Kart görüntüsü alınamadı.",
+  "uiGaleriyeKaydedildi": "📥 Galeriye kaydedildi",
+  "uiAdminModuAktif": "ADMİN MODU AKTİF",
+  "uiKartlarinSagUstundekiKalem": "Kartların sağ üstündeki kalem ikonundan düzenleyebilirsiniz",
+  "uiAdminModundanCik": "Admin modundan çık?",
+  "uiDuzenlemeButonlariGizlenecek": "Düzenleme butonları gizlenecek.",
+  "uiCikis": "Çıkış",
+  "uiCikis2": "ÇIKIŞ",
+  "uiKonumSec": "Konum Seç",
+  "uiGpsIleKonumBul": "GPS ile Konum Bul",
+  "uiManuelSec": "Manuel Seç",
+  "uiIlAra": "İl ara...",
+  "uiIlceAra": "İlçe ara...",
+  "uiFKaliciOlarakSilinecek": "\"{a0}\" kalıcı olarak silinecek.",
+  "@uiFKaliciOlarakSilinecek": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFOneri": "Öneri #{a0}",
+  "@uiFOneri": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFYayinlanacakIcerikYok": "Yayınlanacak içerik yok ({a0}).",
+  "@uiFYayinlanacakIcerikYok": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFYayinla": "{a0} yayınla?",
+  "@uiFYayinla": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFIcerikYayinlanacakVeAna": "{a0} içerik yayınlanacak ve ana sayfada görünecek.",
+  "@uiFIcerikYayinlanacakVeAna": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFIcerikYayinlandi": "{a0} içerik yayınlandı",
+  "@uiFIcerikYayinlandi": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFIcerikKaliciOlarakSilinecek": "{a0} içerik kalıcı olarak silinecek. Geri alınamaz!",
+  "@uiFIcerikKaliciOlarakSilinecek": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFIcerikSilindi": "{a0} içerik silindi",
+  "@uiFIcerikSilindi": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFYedekPanoyaKopyalandiKb": "Yedek panoya kopyalandı ({a0} KB).",
+  "@uiFYedekPanoyaKopyalandiKb": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFHata": "Hata: {a0}",
+  "@uiFHata": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFOgeEdildi": "{a0} öğe {a1} edildi",
+  "@uiFOgeEdildi": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      },
+      "a1": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFGecersizJson": "Geçersiz JSON: {a0}",
+  "@uiFGecersizJson": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFSilinecek": "\"{a0}\" silinecek.",
+  "@uiFSilinecek": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFIcinSonucBulunamadi": "\"{a0}\" için sonuç bulunamadı",
+  "@uiFIcinSonucBulunamadi": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFSonucBulundu": "{a0} sonuç bulundu",
+  "@uiFSonucBulundu": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFPuan": "{a0} puan",
+  "@uiFPuan": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFZikriniSilmekIstediginizeEmin": "\"{a0}\" zikrini silmek istediğinize emin misiniz?",
+  "@uiFZikriniSilmekIstediginizeEmin": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFAdet": "{a0} adet",
+  "@uiFAdet": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFAdiminiTamamladi": "{a0} {a1} \"{a2}\" adımını tamamladı!",
+  "@uiFAdiminiTamamladi": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      },
+      "a1": {
+        "type": "Object"
+      },
+      "a2": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFAdimTamamlandi": "{a0} / {a1} adım tamamlandı",
+  "@uiFAdimTamamlandi": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      },
+      "a1": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFSilinsinMi": "{a0} silinsin mi?",
+  "@uiFSilinsinMi": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFYas": "{a0} yaş",
+  "@uiFYas": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFTamamlandi": "{a0} / {a1} Tamamlandı",
+  "@uiFTamamlandi": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      },
+      "a1": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFNotlar": "{a0} - Notlar",
+  "@uiFNotlar": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFSayfa": "{a0} / {a1} Sayfa",
+  "@uiFSayfa": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      },
+      "a1": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFSonOkuma": "Son okuma: {a0}.{a1}.{a2}",
+  "@uiFSonOkuma": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      },
+      "a1": {
+        "type": "Object"
+      },
+      "a2": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFHedefKelimeler": "{a0} · Hedef Kelimeler",
+  "@uiFHedefKelimeler": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFKelime": "{a0} kelime",
+  "@uiFKelime": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFTahminiRamazanDahaYasayabilirsin": "Tahminen {a0} Ramazan daha yaşayabilirsin (75 yaş varsayımı).",
+  "@uiFTahminiRamazanDahaYasayabilirsin": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFVakitleriYukleniyor": "{a0} vakitleri yükleniyor...",
+  "@uiFVakitleriYukleniyor": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFNamazi": "{a0} Namazı",
+  "@uiFNamazi": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFKaldi": "{a0} kaldı",
+  "@uiFKaldi": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFKaynak": "Kaynak: {a0}",
+  "@uiFKaynak": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFGunes": "Güneş {a0}",
+  "@uiFGunes": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFVakit": "{a0} vakit",
+  "@uiFVakit": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFSonrakiSeviyeye": "%{a0} · Sonraki seviyeye",
+  "@uiFSonrakiSeviyeye": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFGun": "{a0} gün",
+  "@uiFGun": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFKissaBulundu": "{a0} kıssa bulundu",
+  "@uiFKissaBulundu": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFAdim": "{a0} adım",
+  "@uiFAdim": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFOneri2": "{a0} öneri",
+  "@uiFOneri2": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFSehir": "Şehir: {a0}",
+  "@uiFSehir": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFSonPlanlama": "Son planlama: {a0}",
+  "@uiFSonPlanlama": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFFavori": "{a0} favori",
+  "@uiFFavori": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFFavoriKaliciOlarakSilinecek": "{a0} favori kalıcı olarak silinecek.",
+  "@uiFFavoriKaliciOlarakSilinecek": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFAyet": "{a0} - {a1} ayet",
+  "@uiFAyet": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      },
+      "a1": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFAyet2": "{a0} ayet - {a1}",
+  "@uiFAyet2": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      },
+      "a1": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFSure": "{a0} sure",
+  "@uiFSure": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFYet": "{a0} âyet · {a1}",
+  "@uiFYet": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      },
+      "a1": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFFotografSecilemedi": "Fotoğraf seçilemedi: {a0}",
+  "@uiFFotografSecilemedi": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFIslemBasarisiz": "İşlem başarısız: {a0}",
+  "@uiFIslemBasarisiz": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFKaliciOlarakSilinecek2": "\"{a0}\" kalıcı olarak silinecek.",
+  "@uiFKaliciOlarakSilinecek2": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiFIlceleri": "{a0} İlçeleri",
+  "@uiFIlceleri": {
+    "placeholders": {
+      "a0": {
+        "type": "Object"
+      }
+    }
+  },
+  "uiHicriYolculuk": "Hicrî Yolculuk",
+  "uiMiladiZamaniHicriBakisla": "Milâdî zamanı hicrî bakışla gör.",
+  "uiBugunHicri": "BUGÜN (HİCRÎ)",
+  "uiOnemliHicriGunler": "Önemli Hicrî Günler",
+  "uiHicriTarihlerYaklasikHesaplanir": "Hicrî tarihler yaklaşık hesaplanır. Resmî kandil ve bayram tarihleri için Diyanet İşleri Başkanlığı takvimini esas alınız.",
+  "uiAz": "Az",
+  "uiCok": "Çok",
+  "uiMubarekGunler": "Mübarek Günler",
+  "uiKandilBayramVeOzel": "Kandil, bayram ve özel geceler.",
+  "uiSiradaki": "SIRADAKİ",
+  "uiYaklasanOzelGunBulunamadi": "Yaklaşan özel gün bulunamadı",
+  "uiTarihlerYaklasikHesaplanirKesin": "Tarihler yaklaşık hesaplanır. Kesin tarihler için Diyanet İşleri Başkanlığı takvimini esas alınız.",
+  "uiMezhebeGoreFarklilikGosteren": "Mezhebe göre farklılık gösteren konularda kendi mezhebinizin görüşüne veya güvendiğiniz bir âlime danışınız.",
+  "uiKibleAcisiKBe": "Kıble açısı, Kâbe koordinatları (21.42°N, 39.83°E) ile konumunuz arasındaki büyük daire hesabıyla bulunur."
 }

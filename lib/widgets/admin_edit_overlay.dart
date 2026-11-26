@@ -1,4 +1,5 @@
 import 'dart:typed_data';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'dart:ui' as ui;
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
@@ -175,14 +176,14 @@ class CardOverlayActions extends StatelessWidget {
             _compactBtn(
               icon: Icons.edit_rounded,
               color: _green,
-              tooltip: 'Düzenle',
+              tooltip: AppLocalizations.of(context).uiDuzenle,
               onTap: () => _edit(context),
             ),
             _compactDivider(),
             _compactBtn(
               icon: Icons.delete_outline_rounded,
               color: _red,
-              tooltip: 'Sil',
+              tooltip: AppLocalizations.of(context).adminDelete,
               onTap: () => _delete(context),
             ),
           ],
@@ -191,14 +192,14 @@ class CardOverlayActions extends StatelessWidget {
             _compactBtn(
               icon: Icons.download_rounded,
               color: _blue,
-              tooltip: 'İndir',
+              tooltip: AppLocalizations.of(context).uiIndir,
               onTap: () => _download(context),
             ),
             _compactDivider(),
             _compactBtn(
               icon: Icons.share_rounded,
               color: _purple,
-              tooltip: 'Paylaş',
+              tooltip: AppLocalizations.of(context).share,
               onTap: () => _share(context),
             ),
           ],
@@ -246,23 +247,24 @@ class CardOverlayActions extends StatelessWidget {
   Future<void> _delete(BuildContext context) async {
     if (item!.type == ContentType.gunluk) {
       _snack(
-          context, '365 günlük kayıtlar silinemez; yalnızca düzenlenebilir.');
+          context, AppLocalizations.of(context).ui365GunlukKayitlarSilinemez);
       return;
     }
     final ok = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('Silinsin mi?'),
-        content: Text('"${item!.baslik}" kalıcı olarak silinecek.'),
+        title: Text(AppLocalizations.of(context).uiSilinsinMi),
+        content: Text(AppLocalizations.of(context)
+            .uiFKaliciOlarakSilinecek2(item!.baslik)),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('İptal'),
+            child: Text(AppLocalizations.of(context).uiIptal2),
           ),
           FilledButton(
             style: FilledButton.styleFrom(backgroundColor: _red),
             onPressed: () => Navigator.pop(context, true),
-            child: const Text('Sil'),
+            child: Text(AppLocalizations.of(context).adminDelete),
           ),
         ],
       ),
@@ -281,13 +283,13 @@ class CardOverlayActions extends StatelessWidget {
       final bytes = await _capture();
       if (!context.mounted) return;
       if (bytes == null) {
-        _snack(context, 'Kart görüntüsü alınamadı.');
+        _snack(context, AppLocalizations.of(context).uiKartGoruntusuAlinamadi);
         return;
       }
       final name = 'nur_pusulasi_${DateTime.now().millisecondsSinceEpoch}';
       await Gal.putImageBytes(bytes, name: name);
       if (!context.mounted) return;
-      _snack(context, '📥 Galeriye kaydedildi');
+      _snack(context, AppLocalizations.of(context).uiGaleriyeKaydedildi);
     } catch (e) {
       if (!context.mounted) return;
       _snack(context, 'İndirme hatası: $e');
@@ -299,7 +301,7 @@ class CardOverlayActions extends StatelessWidget {
       final bytes = await _capture();
       if (!context.mounted) return;
       if (bytes == null) {
-        _snack(context, 'Kart görüntüsü alınamadı.');
+        _snack(context, AppLocalizations.of(context).uiKartGoruntusuAlinamadi);
         return;
       }
       // Bellekten paylas: web ve mobilde ayni sekilde calisir (gecici dosya yok).

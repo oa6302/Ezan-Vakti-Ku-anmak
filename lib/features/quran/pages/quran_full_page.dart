@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../data/quran_api_service.dart';
 import 'quran_full_detail_page.dart';
 
@@ -43,7 +44,7 @@ class _QuranFullPageState extends State<QuranFullPage> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Kurani Kerim',
+        title: Text(AppLocalizations.of(context).uiKuraniKerim,
             style: TextStyle(
                 color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
         actions: [
@@ -78,7 +79,7 @@ class _QuranFullPageState extends State<QuranFullPage> {
               style: FilledButton.styleFrom(backgroundColor: _navy),
               onPressed: () => _load(force: true),
               icon: const Icon(Icons.refresh_rounded),
-              label: const Text('Tekrar Dene'),
+              label: Text(AppLocalizations.of(context).uiTekrarDene),
             ),
           ],
         ),
@@ -143,7 +144,9 @@ class _QuranFullPageState extends State<QuranFullPage> {
                           fontWeight: FontWeight.w900),
                     ),
                     const SizedBox(height: 2),
-                    Text('${ch.versesCount} ayet - $place',
+                    Text(
+                        AppLocalizations.of(context)
+                            .uiFAyet2(ch.versesCount, place),
                         style: const TextStyle(
                             color: Colors.black54, fontSize: 11)),
                   ],
