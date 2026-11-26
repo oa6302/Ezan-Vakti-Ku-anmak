@@ -5,6 +5,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
+import 'package:nur_pusulasi/data/islami_kissalar.dart';
 import 'package:nur_pusulasi/app/favorites_service.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/favorites_mini_card.dart';
@@ -27,6 +28,7 @@ void main() {
     appState = AppState();
     await appState.load();
     await ContentService.instance.load();
+    await kissalariYukle();
     await FavoritesService.instance.load();
   });
 

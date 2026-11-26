@@ -11,6 +11,7 @@ import 'app/app_settings.dart';
 import 'app/state/app_state.dart';
 import 'app/widget_sync_service.dart';
 import 'app/content_service.dart';
+import 'data/islami_kissalar.dart';
 import 'app/favorites_service.dart';
 import 'app/admin_session.dart';
 import 'package:provider/provider.dart';
@@ -44,6 +45,7 @@ void main() async {
   await _guvenli('ayarlar', appState.load);
   // Icerik servisini yukle (kissa, dua, vecize havuzlari)
   await _guvenli('icerik', ContentService.instance.load);
+  await _guvenli('kissalar', kissalariYukle);
   await _guvenli('favoriler', FavoritesService.instance.load);
   await _guvenli('admin', AdminSession.instance.load);
 

@@ -241,7 +241,7 @@ class KissaDetayPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
                 Text(
-                  kissa.kaynak,
+                  '${kissa.kategori.emoji} ${kissa.kategori.ad}',
                   textAlign: TextAlign.center,
                   style: theme.textTheme.bodySmall?.copyWith(
                     color: Colors.white70,
@@ -250,62 +250,77 @@ class KissaDetayPage extends StatelessWidget {
               ],
             ),
           ),
-          if (kissa.ozet.isNotEmpty) ...[
-            const SizedBox(height: 18),
-            _bolum(
-              context: context,
-              baslik: 'Kıssanın Özeti',
-              metin: kissa.ozet,
-              ikon: Icons.short_text_rounded,
-              renk: const Color(0xFF547A9D),
-            ),
-          ],
-          const SizedBox(height: 22),
-          Text(
-            AppLocalizations.of(context).uiHikYeninAkisi,
-            style: theme.textTheme.titleLarge?.copyWith(
-              fontWeight: FontWeight.w900,
-            ),
-          ),
-          const SizedBox(height: 10),
-          SelectableText(
-            kissa.metin,
-            style: theme.textTheme.bodyLarge?.copyWith(height: 1.9),
+          // Sablon: giris, anlatim, hikmet, dersler, bugun, sorgula, dua, kaynaklar
+          _bolum(
+            context: context,
+            baslik: '✨ Kalbe Dokunan Giriş',
+            metin: kissa.giris,
+            ikon: Icons.nightlight_round,
+            renk: const Color(0xFF547A9D),
           ),
           _bolum(
             context: context,
-            baslik: 'Hakikat',
+            baslik: '📖 Kıssanın Anlatımı',
+            metin: kissa.metin,
+            ikon: Icons.menu_book_rounded,
+            renk: const Color(0xFF0A1F44),
+          ),
+          _bolum(
+            context: context,
+            baslik: '🔍 Hikmetin Penceresi',
             metin: kissa.hakikat,
-            ikon: Icons.lightbulb_outline_rounded,
+            ikon: Icons.search_rounded,
             renk: const Color(0xFFB38A3E),
           ),
           _bolum(
             context: context,
-            baslik: 'Fıtrat',
-            metin: kissa.fitrat,
-            ikon: Icons.spa_outlined,
+            baslik: '💡 Bu Kıssadan Ne Öğreniyoruz?',
+            metin: kissa.dersler
+                .asMap()
+                .entries
+                .map((e) => '${e.key + 1}. ${e.value}')
+                .join('\n\n'),
+            ikon: Icons.lightbulb_outline_rounded,
             renk: const Color(0xFF39866A),
           ),
           _bolum(
             context: context,
-            baslik: 'İman',
-            metin: kissa.iman,
-            ikon: Icons.auto_awesome_rounded,
-            renk: const Color(0xFF526FA2),
-          ),
-          _bolum(
-            context: context,
-            baslik: 'Hayata yansıması',
+            baslik: '🌍 Bugünün Hayatındaki Karşılığı',
             metin: kissa.hayat,
-            ikon: Icons.volunteer_activism_outlined,
+            ikon: Icons.public_rounded,
             renk: const Color(0xFFAD7051),
           ),
           _bolum(
             context: context,
-            baslik: 'Kıssadan hisse',
+            baslik: '🪞 Kendini Sorgula',
+            metin: kissa.sorgula,
+            ikon: Icons.self_improvement_rounded,
+            renk: const Color(0xFF526FA2),
+          ),
+          _bolum(
+            context: context,
+            baslik: '🤲 Dua ve Niyaz',
+            metin: kissa.dua.isEmpty
+                ? ''
+                : kissa.ozgunDua
+                    ? '${kissa.dua}\n\n(Özgün bir yakarıştır; ayet veya hadis değildir.)'
+                    : '${kissa.dua}\n\n(${kissa.duaKaynak})',
+            ikon: Icons.front_hand_rounded,
+            renk: const Color(0xFF00695C),
+          ),
+          _bolum(
+            context: context,
+            baslik: '⭐ Önemli Mesaj',
             metin: kissa.hisse,
-            ikon: Icons.favorite_outline_rounded,
+            ikon: Icons.star_rounded,
             renk: kissa.renk,
+          ),
+          _bolum(
+            context: context,
+            baslik: '📚 Kaynaklar',
+            metin: kissa.kaynaklar.map((k) => '• $k').join('\n'),
+            ikon: Icons.library_books_rounded,
+            renk: const Color(0xFF5D4037),
           ),
           if (kissa.anahtarKelimeler.isNotEmpty) ...[
             const SizedBox(height: 22),

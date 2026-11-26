@@ -168,19 +168,18 @@ class _KissaGorselUretici {
     }
 
     if (tefekkurOdakli) {
-      ekle('Hakikatin penceresi', kissa.hakikat);
-      ekle('Fıtratımıza bakan yönü', kissa.fitrat);
-      ekle('İmanî ders', kissa.iman);
-      ekle('Bugünkü hayatımıza yansıması', kissa.hayat);
+      ekle('🔍 Hikmetin penceresi', kissa.hakikat);
+      ekle('💡 Bu kıssadan ne öğreniyoruz?', kissa.fitrat);
+      ekle('🌍 Bugünün hayatındaki karşılığı', kissa.hayat);
+      ekle('🪞 Kendini sorgula', kissa.sorgula);
       if (parcalar.isEmpty) ekle('Kıssadan hisse', kissa.hisse);
     } else {
-      ekle('Kıssanın özeti', kissa.ozet);
-      ekle('Hikâyenin akışı', kissa.metin);
-      ekle('Hakikat', kissa.hakikat);
-      ekle('Fıtrat', kissa.fitrat);
-      ekle('İman', kissa.iman);
-      ekle('Hayata yansıması', kissa.hayat);
-      ekle('Kıssadan hisse', kissa.hisse);
+      ekle('✨ Giriş', kissa.giris);
+      ekle('📖 Kıssanın anlatımı', kissa.metin);
+      ekle('🔍 Hikmetin penceresi', kissa.hakikat);
+      ekle('💡 Dersler', kissa.fitrat);
+      ekle('🌍 Bugünün hayatında', kissa.hayat);
+      ekle('⭐ Önemli mesaj', kissa.hisse);
     }
 
     if (parcalar.isEmpty) {

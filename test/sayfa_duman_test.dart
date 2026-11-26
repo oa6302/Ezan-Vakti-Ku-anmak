@@ -7,6 +7,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'yardimci/fontlar.dart';
 import 'package:nur_pusulasi/app/admin_session.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
+import 'package:nur_pusulasi/data/islami_kissalar.dart';
 import 'package:nur_pusulasi/app/favorites_service.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
 import 'package:nur_pusulasi/features/admin/admin_gate_page.dart';
@@ -49,6 +50,7 @@ final sayfalar = <String, Widget Function()>{
   'Kutuphane (Kuran)': () => const QuranPage(),
   'Kuran Tam': () => const QuranFullPage(),
   'Kissa Kutuphanesi': () => const KissaKutuphanesiPage(),
+  'Kissa Detay': () => KissaDetayPage(kissa: islamiKissalar.first),
   'Namaz Ogren': () => const LearnPage(),
   'Husu': () => const KhushuPage(),
   'Ruh Hali': () => const MoodPage(),
@@ -76,6 +78,7 @@ void main() {
     appState = AppState();
     await appState.load();
     await ContentService.instance.load();
+    await kissalariYukle();
     await FavoritesService.instance.load();
     await AdminSession.instance.load();
   });
