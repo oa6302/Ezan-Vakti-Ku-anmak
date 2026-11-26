@@ -11,6 +11,16 @@
  },
  {
   "gun": 2,
+  "baslik": "Reşhalar Risâlesi",
+  "bolum": "Reşhalar Risâlesi",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 27,
+  "latin": "Ey gözleri sağlam ve kalbleri kör olmayan insanlar! Bakınız, insan âleminde iki dâire ve iki levha var. Birinci dâire, rubûbiyet dâiresidir. İkinci dâire, ubûdiyet dâiresidir. Birinci levha, hüsn-ü san‘at levhasıdır. İkinci levha, tefekkür ve istihsân levhasıdır. Bu iki dâire ile iki levha arasındaki münâsebete bakınız: Ubûdiyet dâiresi, bütün kuvvetiyle rubûbiyet dâiresi hesabına çalışıyor. Tefekkür ve teşekkür ve istihsân levhası da, bütün işârâtıyla hüsn-ü san‘at ve ni‘met levhasına bakıyor.",
+  "osmanlica": "ای كوزلری صاغلام و قلبلری كور اولمایان انسانلر! باقیڭز، انسان عالمندە ایكی دائرە و ایكی لوحە وار. برنجی دائرە، ربوبیّت دائرەسیدر. ایكنجی دائرە، عبودیت دائرەسیدر. برنجی لوحە، حسن صنعت لوحەسیدر. ایكنجی لوحە، تفكّر و استحسان لوحەسیدر. بو ایكی دائرە ایلە ایكی لوحە آراسندەكی مناسبتە باقیڭز: عبودیت دائرەسی، بتون قوّتیلە ربوبیّت دائرەسی حسابنە چالیشییور. تفكّر و تشكّر و استحسان لوحەسی دە، بتون اشاراتیلە حسن صنعت و نعمت لوحەسنە باقییور.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 3,
   "baslik": "Hutbe-i Şâmiye",
   "bolum": "Hutbe-i Şâmiye · Birinci Kelime",
   "eser": "Mektûbât",
@@ -20,7 +30,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 3,
+  "gun": 4,
+  "baslik": "Lâsiyyemâlar",
+  "bolum": "Lâsiyyemâlar",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 29,
+  "latin": "Kâinâtın bütün zerrâtının gerek müctemian ve gerekse münferiden lisân-ı acz ve fakırlarıyla vücûb-u vücûduna ve vahdetine şehâdet ettikleri Sâni‘-i Hakîm’e, kâinâtın zerrâtı adedince hamd ü senâlar ve şükürler olsun. Hem kâinâtın tılsımını açıp, âyâtını keşfedip beyân eden resûlü ile âl ve ashâbına ve sâir enbiyâ ve mürselîne ve ihvânına ve ibâd-ı sâlihîne bî-nihâye ve bî-hesâb salât ü selâmlar olsun.",
+  "osmanlica": "كائناتڭ بتون ذرّاتنڭ كرك مجتمعًا و كركسە منفردًا لسان عجز و فقرلریلە وجوب وجودینە و وحدتنە شهادت ایتدكلری صانع حكیمە، كائناتڭ ذرّاتی عددنجە حمد و ثنالر و شكرلر اولسون. هم كائناتڭ طلسمنی آچوب، آیاتنی كشف ایدوب بیان ایدن رسولی ایلە آل و اصحابنە و سائر انبیا و مرسلینە و اخواننە و عباد صالحینە بی نهایە و بی حساب صلات و سلاملر اولسون.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 5,
   "baslik": "Birinci Lem‘a",
   "bolum": "Birinci Lem‘a",
   "eser": "Lem'alar",
@@ -30,7 +50,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 4,
+  "gun": 6,
+  "baslik": "Lâsiyyemâlar",
+  "bolum": "Lâsiyyemâlar",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 39,
+  "latin": "Bak, o Zât öyle bir maksad ve öyle bir gāye için saâdet istiyor, duâ ediyor ki, insanı ve bütün mahlûkātı esfel-i sâfilîn olan fenâ-yı mutlaka sukūttan, kıymetsizlikten, fâidesizlikten, abesiyetten kurtarıp, a‘lâ-yı illiyyîn olan kıymete, bekāya, ulvî vazîfeye, mektûbât-ı samedâniye olması derecesine çıkarıyor.",
+  "osmanlica": "باق، او ذاتؐ اویلە بر مقصد و اویلە بر غایە ایچون سعادت ایستەیور، دعا ایدییوركە، انسانی و بتون مخلوقاتی اسفل سافلین اولان فنای مطلقە سقوطدن، قیمتسزلكدن، فائدەسزلكدن، عبثیّتدن قورتاروب، اعلای علّیین اولان قیمتە، بقایە، علوی وظیفەیە، مكتوبات صمدانیە اولمسی درجەسنە چیقارییور.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 7,
   "baslik": "Altıncı Şuâ",
   "bolum": "Altıncı Şuâ · Birinci Nükte",
   "eser": "Şuâ'lar",
@@ -40,7 +70,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 5,
+  "gun": 8,
+  "baslik": "Habâb Risalesi",
+  "bolum": "Habâb Risalesi · İ‘lem 20",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 84,
+  "latin": "Selef-i sâlihîn asrında ve o zaman çarşısında en mergūb metâ‘, Hâlik-ı semâvât ve arzın marziyâtlarını ve bizden arzularını kelâmından istinbât etmek ve nûr-u nübüvvet ve Kur’ân ile kapatılmayacak derecede açılan âhiret âlemindeki saâdet-i ebediyeyi kazandırmak ve vesâilini elde etmek idi. Bu i‘tibârla o zamanlarda bütün fikirler, kalbler, rûhlar marziyât-ı İlâhiyeyi bilmeye ve öğrenmeye müteveccih idi. Bunun için isti‘dâd ve iktidârı olanlar, o zamanlarda vukū‘a gelen ahvâlden ve vukūâttan ve muhâverâttan ders alırlardı. Ve ictihâdlara zemîn teşkîl eden yüksek isti‘dâdlar vücûda gelirdi.",
+  "osmanlica": "سلف صالحین عصرندە و او زمان چارشوسندە اڭ مرغوب متاع، خالق سماوات و ارضڭ مرضیاتلرینی و بزدن آرزولرینی كلامندن استنباط ایتمك و نور نبوّت و قرآن ایلە قپاتیلمایاجق درجەدە آچیلان آخرت عالمندەكی سعادت ابدیەیی قزاندیرمق و وسائلنی الدە ایتمك ایدی. بو اعتبارلە او زمانلردە بتون فكرلر، قلبلر، روحلر مرضیّات الٰهیّەیی بیلمەیە و اوگرنمگە متوجّه ایدی. بونڭ ایچون استعداد و اقتداری اولانلر، او زمانلردە وقوعە كلن احوالدن و وقوعاتدن و محاوراتدن درس آلیرلردی. و اجتهادلرە زمین تشكیل ایدن یوكسك استعدادلر وجودە كلیردی.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 9,
   "baslik": "Onuncu Huccet-i Îmâniye",
   "bolum": "Onuncu Huccet-i Îmâniye",
   "eser": "Asâ-yı Mûsâ",
@@ -50,7 +90,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 6,
+  "gun": 10,
+  "baslik": "Habâb Risalesi",
+  "bolum": "Habâb Risalesi · İ‘lem 21",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 85,
+  "latin": "Eşyânın îcâdı, gerek nefislerine ve gerek esbâba olan isnâdı, hayret ve istiğrâbı mûcibdir. Bu da red ve inkârı îcâb eder. Bu dahi dalâletleri intâc eder. Bu hâl ise ızdırâbât-ı rûhiye ve teşevvüşât-ı akliyeye sebeb olur. Bu da rûhları ve akılları firar ettirmekle, Vâcibü’l-Vücûd’a ilticâ etmeye mecbûr eder. Zîrâ her müşkilât, onun kudretiyle hallolur. Ve açılmaz düğümler, onun irâdesiyle açılır. Ve kalbler onun zikriyle mutmain olur.",
+  "osmanlica": "اشیانڭ ایجادی، كرك نفسلرینە و كرك اسبابە اولان اسنادی، حیرت و استغرابی موجبدر. بو دە رد و انكاری ایجاب ایدر. بو دخی ضلالتلری انتاج ایدر. بو حال ایسە اضطرابات روحیە و تشوّشات عقلیەیە سبب اولور. بو دە روحلری و عقللری فرار ایتدیرمكلە، واجب الوجودە التجا ایتمەیە مجبور ایدر. زیرا هر مشكلات، اونڭ قدرتیلە حلّ اولور. و آچیلماز دوگوملر، اونڭ ارادەسیلە آچیلیر. و قلبلر اونڭ ذكریلە مطمئن اولور.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 11,
   "baslik": "On Yedinci Söz",
   "bolum": "On Yedinci Söz · İkinci Makam",
   "eser": "Sözler",
@@ -60,7 +110,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 7,
+  "gun": 12,
+  "baslik": "",
+  "bolum": " · İ‘lem 4",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 112,
+  "latin": "İnsanın çekirdeği olan kalb, ubûdiyet ve ihlâs altında İslâmiyet ile iskā edilmekle, îmân ile intibâha gelirse, nûrânî ve misâlî âlem-i emirden gelen emir ile öyle bir şecere-i nûrâniye olarak yeşillenir ki, onun cismânî âlemine rûh olur. Eğer o kalb çekirdeği böyle bir terbiye görmezse, kuru bir çekirdek olarak kalır. Nûra inkılâb edinceye kadar ateş ile yanması lâzımdır.",
+  "osmanlica": "انسانڭ چكردگی اولان قلب، عبودیت و اخلاص آلتندە اسلامیت ایلە اسقا ایدیلمكلە، ایمان ایلە انتباهە كلیرسە، نورانی و مثالی عالم امردن كلن امر ایلە اویلە بر شجرۀ نورانیە اولارق یشیللنیركە، اونڭ جسمانی عالمنە روح اولور. اگر او قلب چكردگی بویلە بر تربیە كورمزسە، قورو بر چكردك اولارق قالیر. نورە انقلاب ایدنجەیە قدر آتش ایلە یانمسی لازمدر.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 13,
   "baslik": "Hutbe-i Şâmiye",
   "bolum": "Hutbe-i Şâmiye · Dördüncü Kelime",
   "eser": "Mektûbât",
@@ -70,7 +130,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 8,
+  "gun": 14,
+  "baslik": "",
+  "bolum": " · İ‘lem 23",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 122,
+  "latin": "Yine insanın fıtratında olan acîb bir hâl, insanın efrâdı arasında cismen ve sûreten ayrılık varsa da pek azdır. Ama ma‘nen ve rûhen, aralarında zerre ile şems arasındaki ayrılık kadar bir ayrılık vardır. Fakat sâir hayvanât öyle değildir. Meselâ balık ile kuş, kıymet-i rûhiyece birbirine pek yakındırlar. En küçüğü en büyüğü gibidir. Çünki insanın kuvve-i rûhiyesi tahdîd edilmemiştir. İnsan enâniyet ile o kadar aşağı düşer ki, zerreye müsâvî olur. Ubûdiyet ile o kadar yükseğe çıkar ki, iki cihânın güneşi olur. Hazret-i Muhammed Aleyhissalâtü Vesselâm gibi.",
+  "osmanlica": "یینە انسانڭ فطرتندە اولان عجیب بر حال، انسانڭ افرادی آراسندە جسمًا و صورتًا آیریلق وارسە دە پك آزدر. امّا معنًا و روحًا، آرالرندە ذرّە ایلە شمس آراسندەكی آیریلق قدر بر آیریلق واردر. فقط سائر حیوانات اویلە دگلدر. مثلا بالیق ایلە قوش، قیمت روحیەجە بربرینە پك یاقیندرلر. اڭ كوچگی اڭ بیوگی كبیدر. چونكە انسانڭ قوّۀ روحیّەسی تحدید ایدیلمەمشدر. انسان انانیت ایلە او قدر آشاغی دوشركە، ذرّەیە مساوی اولور. عبودیت ایلە او قدر یوكسگە چیقاركە، ایكی جهانڭ كونشی اولور. حضرت محمّد علیە الصّلاة والسّلام كبی.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 15,
   "baslik": "İkinci Lem‘a",
   "bolum": "İkinci Lem‘a · Birinci Nükte",
   "eser": "Lem'alar",
@@ -80,7 +150,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 9,
+  "gun": 16,
+  "baslik": "Şemme Risâlesi",
+  "bolum": "Şemme Risâlesi · İ‘lem 21",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 192,
+  "latin": "Enbiyâ enenin bu vechine bakmışlar. Mülkü tamâmen Allâh’a teslîm etmişler. Ne mülkünde, ne rubûbiyetinde, ne ulûhiyetinde şerîki olmadığına hükmetmişlerdir. Enenin bu vechinden Cenâb-ı Hakk şecere-i tûbâ-yı ubûdiyeti inbât etmiştir. Bu şecerenin dalları ve budakları, kâinât bahçesinde enbiyâ ve evliyâ ve sıddîkîn gibi mübârek meyveleri vermiş, meyvelendirmiştir.",
+  "osmanlica": "انبیا اَنَانڭ بو وجهنە باقمشلر. ملكی تمامًا اللّٰهە تسلیم ایتمشلر. نە ملكندە، نە ربوبیّتندە، نە الوهیتندە شریكی اولمادیغنە حكم ایتمشلردر. اَنَانڭ بو وجهندن جناب حق شجرۀ طوبای عبودیتی انبات ایتمشدر. بو شجرەنڭ داللری و بوداقلری، كائنات باغچەسندە انبیا و اولیا و صدّیقین كبی مبارك میوەلری ویرمش، میوەلندیرمشدر.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 17,
   "baslik": "Yedinci Şuâ",
   "bolum": "Yedinci Şuâ · ",
   "eser": "Şuâ'lar",
@@ -90,7 +170,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 10,
+  "gun": 18,
+  "baslik": "Onuncu Risâle",
+  "bolum": "Onuncu Risâle · İ‘lem 39",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 213,
+  "latin": "Binâenaleyh, Cenâb-ı Hakk her iki hayâtın levâzımâtını elde etmek için insana yirmi dört saatlik bir vakit vermiştir. Çoğunu aza, azını çoğa vermek sûretiyle yirmi üç saati kısa ve fânî olan dünya hayatına sarf ediyorsun. Hiç olmazsa bir saati de beş vakit namaza ve bâkî ve sonsuz uhrevî hayâta sarf etmek lâzımdır ki, dünyada paşa iken âhirette gedâ olmasın.",
+  "osmanlica": "بناءً علیه، جناب حق هر ایكی حیاتڭ لوازماتنی الدە ایتمك ایچون انسانە یگرمی درت ساعتلك بر وقت ویرمشدر. چوغنی آزە، آزینی چوغە ویرمك صورتیلە یگرمی اوچ ساعتی قیصە و فانی اولان دنیا حیاتنە صرف ایدییورسڭ. هیچ اولمازسە بر ساعتی دە بش وقت نمازە و باقی و صوڭسز اخروی حیاتە صرف ایتمك لازمدركە، دنیادە پاشا ایكن آخرتدە كدا اولماسین.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 19,
   "baslik": "Yirminci Lem‘a",
   "bolum": "Yirminci Lem‘a · Üçüncü Sebeb",
   "eser": "Asâ-yı Mûsâ",
@@ -100,7 +190,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 11,
+  "gun": 20,
+  "baslik": "Onuncu Risâle",
+  "bolum": "Onuncu Risâle · İ‘lem 46",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 217,
+  "latin": "Dünya ise, umûr-u dîniyeye ve a‘mâl-i âhirete âit işler ve hizmetler için kurulmuş bir fabrikadır. O fabrikanın içerisinde işlenen ve yapılan ibâdetlerin semeresi öteki âlemde verildiğine nazaran, ibâdetlerde rekābet edilmemelidir. İbâdetlerde rekābet edilirse, ihlâs kaybolur. Ve o rekābeti yapan kimse, halkın takdîr ve tahsînleri gibi dünyevî bir mükâfâtı düşünür. O zavâllı düşünmüyor ki, o düşünce ile amelini ihlâssızlık ile ibtâl eder. Çünki nâsdan sevâb ve ücret aldığı için, nâsı Rabb-i Nâs’a şerîk yapar. Ve halkın nefretlerine hedef olur.",
+  "osmanlica": "دنیا ایسە، امور دینیەیە و اعمال آخرتە عائد ایشلر و خدمتلر ایچون قورولمش بر فابریقەدر. او فابریقەنڭ ایچریسندە ایشلنن و یاپیلان عبادتلرڭ ثمرەسی اوتەكی عالمدە ویریلدیگنە نظرًا، عبادتلردە رقابت ایدیلمەملیدر. عبادتلردە رقابت ایدیلیرسە، اخلاص غائب اولور. و او رقابتی یاپان كیمسە، خلقڭ تقدیر و تحسینلری كبی دنیوی بر مكافاتی دوشونور. او زواللی دوشونمییوركە، او دوشونجە ایلە عملنی اخلاصسزلق ایلە ابطال ایدر. چونكە ناسدن ثواب و اجرت آلدیغی ایچون، ناسی ربّ النّاسە شریك یاپار. و خلقڭ نفرتلرینە هدف اولور.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 21,
   "baslik": "Yirmi Birinci Söz",
   "bolum": "Yirmi Birinci Söz · Birinci Makam",
   "eser": "Sözler",
@@ -110,7 +210,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 12,
+  "gun": 22,
+  "baslik": "Şu‘le Risâlesi",
+  "bolum": "Şu‘le Risâlesi · İ‘lem 12",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 228,
+  "latin": "Hâl bu merkezde iken bazı insanlar şahıslarına âit husûsî ni‘metlere karşı Allâh’a şükrederlerse de, şu umûmî ni‘metler, onlara şumûlü yokmuş gibi akıllarına bile gelmez. Hâlbuki en büyük ni‘met, âmm ve dâimî olan ni‘metlerdir. Umûmiyet, kemâl ve ehemmiyete delîl olduğu gibi, devam da ulviyet ve kıymete delâlet eder.",
+  "osmanlica": "حال بو مركزدە ایكن بعض انسانلر شخصلرینە عائد خصوصی نعمتلرە قارشو اللّٰهە شكر ایدرلرسە دە، شو عمومی نعمتلر، اونلرە شمولی یوقمش كبی عقللرینە بیلە كلمز. حالبوكە اڭ بیوك نعمت، عام و دائمی اولان نعمتلردر. عمومیت، كمال و اهمّیتە دلیل اولدیغی كبی، دوام دە علویت و قیمتە دلالت ایدر.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 23,
   "baslik": "On İkinci Lem‘a",
   "bolum": "On İkinci Lem‘a · Birinci Nükte",
   "eser": "Lem'alar",
@@ -120,7 +230,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 13,
+  "gun": 24,
+  "baslik": "Fihrist",
+  "bolum": "Fihrist",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 258,
+  "latin": "Îmân, bütün eşyâ arasında hakîkî uhuvvet, irtibât, ittisâl ve ittihâd râbıtalarını te’sîs ettiğini.. küfür, burûdet gibi bütün eşyâyı birbirinden ayırdığını.. kâfir dünyada hasenâtının mükâfâtını gördüğü için, dünya kâfire cennet olduğunu.. mü’min seyyiâtının cezâsını dünyada gördüğü için, dünya mü’mine bir nevi‘ cehennem olduğunu.. ve fakat yine mü’min, dünyada kâfire nisbetle daha mes‘ûd olduğunu beyân eder.",
+  "osmanlica": "ایمان، بتون اشیا آراسندە حقیقی اخوّت، ارتباط، اتّصال و اتّحاد رابطەلرینی تأسیس ایتدیگنی.. كفر، برودت كبی بتون اشیایی بربرندن آییردیغنی.. كافر دنیادە حسناتنڭ مكافاتنی كوردیگی ایچون، دنیا كافرە جنّت اولدیغنی.. مؤمن سیّئٓاتنڭ جزاسنی دنیادە كوردیگی ایچون، دنیا مؤمنە بر نوع جهنّم اولدیغنی.. و فقط یینە مؤمن، دنیادە كافرە نسبتلە داها مسعود اولدیغنی بیان ایدر.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 25,
   "baslik": "Dokuzuncu Şuâ",
   "bolum": "Dokuzuncu Şuâ · İkinci Nokta",
   "eser": "Şuâ'lar",
@@ -130,7 +250,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 14,
+  "gun": 26,
+  "baslik": "Fâtiha Sûresi’nin Tefsîri",
+  "bolum": "Fâtiha Sûresi’nin Tefsîri · Fâtiha 1. Âyet",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 10,
+  "latin": "Ey hikmet! Bu gördüğün insanlar, Sultân-ı Ezelî’nin kudretiyle, yokluk karanlıklarından varlık ve ziyâ âlemine çıkarılan mahlûklardır. Sultân-ı Ezelî, bütün mevcûdâtı içinde biz insanları seçmiş ve emânet-i kübrâyı bize vermiştir. Biz, haşir yoluyla saâdet-i ebediyeye müteveccihen hareket etmekteyiz. Dünyadaki işimiz de, o saâdet-i ebediye yollarını te’mîn etmekle, re’sül mâlımız olan isti‘dâdlarımızı nemâlandırmaktır. Bundan sonra şu azîm insan kervanına Sultân-ı Ezelî’den risâlet vazîfesiyle gelip riyâset eden benim. İşte o Sultân-ı Ezelî’nin risâlet berâtı olarak bana verdiği Kur’ân-ı Azîmüşşân elimdedir. Şübhen varsa al, oku!",
+  "osmanlica": "ای حكمت! بو كوردیگڭ انسانلر، سلطان ازلینڭ قدرتیلە، یوقلق قراڭلقلرندن وارلق و ضیا عالمنە چیقاریلان مخلوقلردر. سلطان ازلی، بتون موجوداتی ایچندە بز انسانلری سچمش و امانت كبرایی بزە ویرمشدر. بز، حشر یولیلە سعادت ابدیەیە متوجّهًا حركت ایتمكدەیز. دنیادەكی ایشمز دە، او سعادت ابدیە یوللرینی تأمین ایتمكلە، رأس المالمز اولان استعدادلریمزی نَمالاندیرمقدر. بوندن صوڭرە شو عظیم انسان كرواننە سلطان ازلیدن رسالت وظیفەسیلە كلوب ریاست ایدن بنم. ایشتە او سلطان ازلینڭ رسالت براتی اولارق بڭا ویردیگی قرآن عظیم الشّان المدەدر. شبهەڭ وارسە آل، اوقو!",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 27,
   "baslik": "Şükür Risâlesi",
   "bolum": "Şükür Risâlesi",
   "eser": "Asâ-yı Mûsâ",
@@ -140,7 +270,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 15,
+  "gun": 28,
+  "baslik": "Fâtiha Sûresi’nin Tefsîri",
+  "bolum": "Fâtiha Sûresi’nin Tefsîri · Fâtiha 7. Âyet",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 24,
+  "latin": "Bir şahıs, kudret-i ezeliye tarafından, adem zulümâtından şu korkunç dünya sahrâsına atılırken gözünü açar, bakar. Bir lütuf beklediği zaman, birdenbire düşmanlar gibi hastalıklar, elemler, belâlar hücûm etmeye başlarlar. Bir meded, bir yardım için müsterhimâne tabiata ve anâsıra baktığı vakit, kasâvet-i kalble, merhametsizlikle karşılaşır. Ecrâm-ı semâviyeden istimdâd etmek üzere başını havaya kaldırır. O ecrâm, atom bombaları gibi dehşetli ve heybetli hâlleriyle gözüne görünür. Hemen gözünü yumar, başını eğer, düşünmeye başlar. Bakar ki, hayatî hâcetleri bağırıp çağırmaya başlarlar. Bütün bütün tevahhuş ederek hemen kulaklarını tıkar. Vicdânına ilticâ eder.",
+  "osmanlica": "بر شخص، قدرت ازلیە طرفندن، عدم ظلماتندن شو قورقونچ دنیا صحراسنە آتیلیركن كوزینی آچار، باقار. بر لطف بكلەدیگی زمان، بردنبرە دوشمانلر كبی خستەلقلر، ألملر، بلالر هجوم ایتمەیە باشلارلر. بر مدد، بر یاردیم ایچون مسترحِمانە طبیعتە و عناصرە باقدیغی وقت، قساوتِ قلبلە، مرحمتسزلكلە قارشیلاشیر. اجرام سماویەدن استمداد ایتمك اوزرە باشنی هوایە قالدیرر. او اجرام، آطوم بومبەلری كبی دهشتلی و هیبتلی حاللریلە كوزینە كورونور. همن كوزینی یومار، باشنی اگر، دوشونمەیە باشلار. باقاركە، حیاتی حاجتلری باغیروب چاغیرمەیە باشلارلر. بتون بتون توحّش ایدرك همن قولاقلرینی طیقار. وجداننە التجا ایدر.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 29,
   "baslik": "Yirmi Sekizinci Söz",
   "bolum": "Yirmi Sekizinci Söz · Birinci Makam",
   "eser": "Sözler",
@@ -150,7 +290,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 16,
+  "gun": 30,
+  "baslik": "Bakara Sûresi’nin Tefsîri",
+  "bolum": "Bakara Sûresi’nin Tefsîri · Bakara 3. Âyet",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 39,
+  "latin": "Namaz, kalblerde azamet-i İlâhiyeyi tesbît ve idâme ve akılları ona tevcîh ettirmekle adâlet-i İlâhiyenin kanununa itâat.. ve nizâm-ı Rabbânîye imtisâl ettirmek için yegâne İlâhî bir vesîledir. Zâten insan medenî olduğu cihetle, şahsî ve ictimâî hayatını kurtarmak için o kanun-u İlâhîye muhtâçtır. O vesîleye mürâât etmeyen veya tenbellikle namazı terk eden veyâhûd kıymetini bilmeyen, ne kadar câhil, ne derece hâsir, ne kadar zararlı olduğunu bil’âhire anlar, ama iş işten geçer.",
+  "osmanlica": "نماز، قلبلردە عظمت الٰهیەیی تثبیت و ادامە و عقللری اوڭا توجیه ایتدیرمكلە عدالت الٰهیەنڭ قانوننە اطاعت.. و نظام ربّانی یە امتثال ایتدیرمك ایچون یگانە الٰهی بر وسیلەدر. ذاتًا انسان مدنی اولدیغی جهتلە، شخصی و اجتماعی حیاتنی قورتارمق ایچون او قانون الٰهی یە محتاجدر. او وسیلەیە مراعات ایتمەین ویا تنبللكلە نمازی ترك ایدن ویاخود قیمتنی بیلمەین، نە قدر جاهل، نە درجە خاسر، نە قدر ضررلی اولدیغنی بالآخرە آڭلار، امّا ایش ایشدن كچر.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 31,
   "baslik": "On Üçüncü Lem‘a",
   "bolum": "On Üçüncü Lem‘a · Dokuzuncu İşaret",
   "eser": "Lem'alar",
@@ -160,7 +310,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 17,
+  "gun": 32,
+  "baslik": "Bakara Sûresi’nin Tefsîri",
+  "bolum": "Bakara Sûresi’nin Tefsîri · Bakara 6. Âyet",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 59,
+  "latin": "Kur’ân’ın tecellîsiyle çok nev‘ler silindi, hakîkatler yıkıldı. Onlara bedel, yeni nev‘ler, hakîkatler teşekkül etti. Evet, zaman-ı câhiliyete bak. O zamanda bütün nev‘ler millî râbıtalar üzerine teşekkül ettiği gibi, ictimâî hakîkatler de taassub-u kavmî üzerine binâ edilmişti. Kur’ân’ın tecellîsiyle o râbıtalar kesildi. O hakîkatler tahrîb edildi. Onlara bedel, dînî râbıtalar üzerine yeni nev‘ler ve hakîkatler ihdâs edildi.",
+  "osmanlica": "قرآنڭ تجلّیسیلە چوق نوعلر سیلیندی، حقیقتلر ییقیلدی. اونلرە بدل، یڭی یڭی نوعلر، حقیقتلر تشكّل ایتدی. اوت، زمان جاهلیتە باق. او زماندە بتون نوعلر ملّی رابطەلر اوزرینە تشكّل ایتدیگی كبی، اجتماعی حقیقتلر دە تعصب قومی اوزرینە بنا ایدیلمشدی. قرآنڭ تجلّیسیلە او رابطەلر كسیلدی. او حقیقتلر تخریب ایدیلدی. اونلرە بدل، دینی رابطەلر اوزرینە یڭی نوعلر و حقیقتلر احداث ایدیلدی.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 33,
   "baslik": "Onbirinci Şuâ",
   "bolum": "Onbirinci Şuâ · İkinci Mes’ele",
   "eser": "Şuâ'lar",
@@ -170,7 +330,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 18,
+  "gun": 34,
+  "baslik": "Bakara Sûresi’nin Tefsîri",
+  "bolum": "Bakara Sûresi’nin Tefsîri · Bakara 23. Âyet",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 166,
+  "latin": "Tek başına bir insan! Ne muîni var ve ne yardım edeni var. Ne saltanatı var ve ne definesi var. Meydana çıkmış, bütün dünyaya karşı mübâreze ediyor. Ve umûm insanlara hücûm etmeye hazırlanmış. Ve omuzlarına küre-i arzdan daha büyük bir hakîkat almış. Elinde de insanların saâdetini te’mîn eden bir şerîat tutmuş. O şerîat, libâsa benzemiyor. İnsanın cildi ve derisi gibi yapışık olup, isti‘dâd-ı beşerin inkişâfı nisbetinde tevessü‘ ve inkişâf etmekle saâdet-i dâreyni intâc ve nev‘-i beşerin ahvâlini tanzîm eder.",
+  "osmanlica": "تك باشنە بر انسان! نە معینی وار و نە یاردیم ایدنی وار. نە سلطنتی وار و نە دفینەسی وار. میدانە چیقمش، بتون دنیایە قارشو مبارزە ایدییور. و عموم انسانلرە هجوم ایتمەیە حاضرلانمش. و اوموزلرینە كرۀ ارضدن داها بیوك بر حقیقت آلمش. الندە دە انسانلرڭ سعادتنی تأمین ایدن بر شریعت طوتمش. او شریعت، لباسە بڭزەمییور. انسانڭ جلدی و دریسی كبی یاپیشیق اولوب، استعداد بشرڭ انكشافی نسبتندە توسّع و انكشاف ایتمكلە سعادت دارینی انتاج و نوع بشرڭ احوالنی تنظیم ایدر.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 35,
   "baslik": "Otuzuncu Söz",
   "bolum": "Otuzuncu Söz · Birinci Maksad",
   "eser": "Sözler",
@@ -180,7 +350,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 19,
+  "gun": 36,
+  "baslik": "Bakara Sûresi’nin Tefsîri",
+  "bolum": "Bakara Sûresi’nin Tefsîri · Bakara 28. Âyet",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 229,
+  "latin": "Hayat-ı insaniye, her birisi çok tabakalara şâmil olmak üzere, hayat-ı maddiye, hayat-ı rûhâniye, hayat-ı ma‘neviye, hayat-ı cismâniye gibi nev‘lere ayrılır, inbisât eder. Demek ziyâ, renklerin ve cisimlerin görünmesine sebeb olduğu gibi.. hayat da, mevcûdâtın kâşifi ve sebeb-i zuhûrudur.",
+  "osmanlica": "حیات انسانیە، هر بریسی چوق طبقەلرە شامل اولمق اوزرە، حیات مادّیە، حیات روحانیّە، حیات معنویە، حیات جسمانیە كبی نوعلرە آیریلیر، انبساط ایدر. دیمك ضیا، رنكلرڭ و جسملرڭ كورونمەسنە سبب اولدیغی كبی.. حیات دە، موجوداتڭ كاشفی و سبب ظهوریدر.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 37,
   "baslik": "On Üçüncü Lem‘a",
   "bolum": "On Üçüncü Lem‘a · On Birinci İşaret",
   "eser": "Lem'alar",
@@ -190,7 +370,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 20,
+  "gun": 38,
+  "baslik": "Mektup 49",
+  "bolum": "Mektup 49",
+  "eser": "Kastamonu Lâhikası",
+  "sayfa": 89,
+  "latin": "Şefkat-i insaniye, merhamet-i Rabbâniyenin bir cilvesi olduğundan, elbette rahmetin derecesinden aşmamak ve Rahmeten Lil’âlemîn Zât’ın mertebe-i şefkatinden taşmamak gerektir. Eğer aşsa ve taşsa, o şefkat, elbette merhamet ve şefkat değildir. Belki dalâlete ve ilhâda sirâyet eden bir maraz-ı rûhî ve bir sakam-ı kalbîdir.",
+  "osmanlica": "شفقت انسانیە، مرحمت ربّانیەنڭ بر جلوەسی اولدیغندن، البتە رحمتڭ درجەسندن آشمامق و رحمةً للعالمین ذاتڭؐ مرتبۀ شفقتندن طاشمامق كركدر. اگر آشسە و طاشسە، او شفقت، البتە مرحمت و شفقت دگلدر. بلكە ضلالتە و الحادە سرایت ایدن بر مرض روحی و بر سَقَمِ قلبیدر.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 39,
   "baslik": "Onbirinci Şuâ",
   "bolum": "Onbirinci Şuâ · Sekizinci Mes’ele",
   "eser": "Şuâ'lar",
@@ -200,7 +390,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 21,
+  "gun": 40,
+  "baslik": "Mektup 107",
+  "bolum": "Mektup 107 · ",
+  "eser": "Kastamonu Lâhikası",
+  "sayfa": 204,
+  "latin": "Hayat ise, eğer îmân olmazsa veyâhûd isyan ile o îmân te’sîr etmezse, hayat, zâhirî ve kısacık bir zevk ve lezzetle beraber, binler derece o zevk ve lezzetten ziyâde elemler, hüzünler, kederler verir. Çünki insanda akıl ve fikir olduğu için, hayvanın aksine olarak hazır zamanla beraber geçmiş ve gelecek zamanlarla da fıtraten alâkadârdır. O zamanlardan dahi hem elem, hem lezzet alabilir. Hayvan ise, fikri olmadığı için hazır lezzetini, geçmişten gelen hüzünler ve gelecekten gelen korkular, endişeler bozmuyor.",
+  "osmanlica": "حیات ایسە، اگر ایمان اولمازسە ویاخود عصیان ایلە او ایمان تأثیر ایتمزسە، حیات، ظاهری و قیصەجق بر ذوق و لذّتلە برابر، بیڭلر درجە او ذوق و لذّتدن زیادە ألملر، حزنلر، كدرلر ویرر. چونكە انساندە عقل و فكر اولدیغی ایچون، حیوانڭ عكسنە اولارق حاضر زمانلە برابر كچمش و كلەجك زمانلرلە دە فطرتًا علاقەداردر. او زمانلردن دخی هم الم، هم لذّت آلابیلیر. حیوان ایسە، فكری اولمدیغی ایچون حاضر لذّتنی، كچمشدن كلن حزنلر و كلەجكدن كلن قورقولر، اندیشەلر بوزمییور.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 41,
   "baslik": "Otuz Birinci Söz",
   "bolum": "Otuz Birinci Söz · İkinci Esas",
   "eser": "Sözler",
@@ -210,7 +410,17 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 22,
+  "gun": 42,
+  "baslik": "Mektup 107",
+  "bolum": "Mektup 107 · ",
+  "eser": "Kastamonu Lâhikası",
+  "sayfa": 204,
+  "latin": "İnsan ise, eğer dalâlet ve gaflete düşmüş ise, hazır lezzetine geçmişten gelen hüzünler ve gelecekten gelen endişeler, o cüz’î lezzeti cidden acılaştırıyor, bozuyor. Hususan gayr-i meşrû‘ ise, bütün zehirli bir bal hükmündedir. Demek hayvandan yüz derece lezzet-i hayat noktasında aşağı düşer. Belki ehl-i dalâletin ve gafletin hayatı, belki vücûdu, belki kâinâtı, bulunduğu gündür. Bütün geçmiş zaman ve kâinâtlar, onun dalâleti noktasında ma‘dûmdur, ölmüştür. Akıl alâkadârlığı ile ona zulümâtlar, karanlıklar veriyor. Gelecek zamanlar ise, i‘tikādsızlığı cihetiyle yine ma‘dûmdur. Ve ademle hâsıl olan ebedî firâklar, mütemâdiyen onun fikir yoluyla hayatına zulümâtlar veriyorlar.",
+  "osmanlica": "انسان ایسە، اگر ضلالت و غفلتە دوشمش ایسە، حاضر لذّتنە كچمشدن كلن حزنلر و كلەجكدن كلن اندیشەلر، او جزئی لذّتی جدًّا آجیلاشدیرییور، بوزویور. خصوصًا غیر مشروع ایسە، بتون بتون زهرلی بر بال حكمندەدر. دیمك حیواندن یوز درجە لذّت حیات نقطەسندە آشاغی دوشر. بلكە اهل ضلالتڭ و غفلتڭ حیاتی، بلكە وجودی، بلكە كائناتی، بولوندیغی كوندر. بتون كچمش زمان و كائناتلر، اونڭ ضلالتی نقطەسندە معدومدر، ئولمشدر. عقل علاقەدارلغی ایلە اوڭا ظلماتلر، قراڭلقلر ویرییور. كلەجك زمانلر ایسە، اعتقادسزلغی جهتیلە یینە معدومدر. و عدملە حاصل اولان ابدی فراقلر، متمادیًا اونڭ فكر یولیلە حیاتنە ظلماتلر ویرییورلر.",
+  "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
+ },
+ {
+  "gun": 43,
   "baslik": "On Dördüncü Lem‘a",
   "bolum": "On Dördüncü Lem‘a · İkinci Makam",
   "eser": "Lem'alar",
@@ -220,7 +430,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 23,
+  "gun": 44,
   "baslik": "Onbirinci Şuâ",
   "bolum": "Onbirinci Şuâ · Sekizinci Mes’ele",
   "eser": "Şuâ'lar",
@@ -230,7 +440,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 24,
+  "gun": 45,
   "baslik": "Otuz İkinci Söz",
   "bolum": "Otuz İkinci Söz · Üçüncü Mevkıf",
   "eser": "Sözler",
@@ -240,7 +450,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 25,
+  "gun": 46,
   "baslik": "On Yedinci Lem‘a",
   "bolum": "On Yedinci Lem‘a · Beşinci Nota",
   "eser": "Lem'alar",
@@ -250,7 +460,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 26,
+  "gun": 47,
   "baslik": "Onikinci Şuâ",
   "bolum": "Onikinci Şuâ · ",
   "eser": "Şuâ'lar",
@@ -260,7 +470,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 27,
+  "gun": 48,
   "baslik": "Otuz İkinci Söz",
   "bolum": "Otuz İkinci Söz · Üçüncü Mevkıf",
   "eser": "Sözler",
@@ -270,7 +480,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 28,
+  "gun": 49,
   "baslik": "On Yedinci Lem‘a",
   "bolum": "On Yedinci Lem‘a · Sekizinci Nota",
   "eser": "Lem'alar",
@@ -280,7 +490,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 29,
+  "gun": 50,
   "baslik": "Onikinci Şuâ",
   "bolum": "Onikinci Şuâ · ",
   "eser": "Şuâ'lar",
@@ -290,7 +500,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 30,
+  "gun": 51,
   "baslik": "On Yedinci Lem‘a",
   "bolum": "On Yedinci Lem‘a · On İkinci Nota",
   "eser": "Lem'alar",
@@ -300,7 +510,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 31,
+  "gun": 52,
   "baslik": "Onbeşinci Şuâ",
   "bolum": "Onbeşinci Şuâ · Birinci Makam",
   "eser": "Şuâ'lar",
@@ -310,7 +520,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 32,
+  "gun": 53,
   "baslik": "On Yedinci Lem‘a",
   "bolum": "On Yedinci Lem‘a · On Üçüncü Nota",
   "eser": "Lem'alar",
@@ -320,7 +530,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 33,
+  "gun": 54,
   "baslik": "Yirmi Beşinci Lem‘a",
   "bolum": "Yirmi Beşinci Lem‘a · Yirmi Beşinci Devâ",
   "eser": "Lem'alar",
@@ -330,7 +540,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 34,
+  "gun": 55,
   "baslik": "Yirmi Altıncı Lem‘a",
   "bolum": "Yirmi Altıncı Lem‘a · On Dördüncü Recâ",
   "eser": "Lem'alar",
@@ -340,7 +550,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 35,
+  "gun": 56,
   "baslik": "Otuzuncu Lem‘a",
   "bolum": "Otuzuncu Lem‘a · Birinci Nükte",
   "eser": "Lem'alar",
@@ -350,7 +560,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 36,
+  "gun": 57,
   "baslik": "Otuzuncu Lem‘a",
   "bolum": "Otuzuncu Lem‘a · İkinci Nükte",
   "eser": "Lem'alar",
@@ -360,7 +570,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 37,
+  "gun": 58,
   "baslik": "Otuzuncu Lem‘a",
   "bolum": "Otuzuncu Lem‘a · Dördüncü Nükte",
   "eser": "Lem'alar",
@@ -370,7 +580,7 @@
   "metinKaynagi": "risale.online (aynen; Osmanlıca kelime kelime Latince karşılıklı)"
  },
  {
-  "gun": 38,
+  "gun": 59,
   "baslik": "Eser Duâsı",
   "bolum": "Eser Duâsı",
   "eser": "Lem'alar",

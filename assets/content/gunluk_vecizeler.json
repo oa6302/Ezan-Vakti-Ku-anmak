@@ -21,6 +21,16 @@
  },
  {
   "gun": 3,
+  "latin": "Hayat, Hâlik’ın ehadiyetine burhân olduğu gibi, mevt de Hâlik’ın devam ve bekāsına bir delîldir.",
+  "osmanlica": "حیات، خالقڭ احدیتنە برهان اولدیغی كبی، موت دە خالقڭ دوام و بقاسنە بر دلیلدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 15,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Ahiret",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 4,
   "latin": "Mevt, vazîfe-i hayattan bir terhîstir, bir paydostur.",
   "osmanlica": "موت، وظیفۀ حیاتدن بر ترخیصدر، بر پایدوسدر.",
   "eser": "Mektûbât",
@@ -30,7 +40,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 4,
+  "gun": 5,
   "latin": "Bütün firâklardan gelen feryâdlar, aşk-ı bekādan gelen ağlamaların tercümanlarıdır.",
   "osmanlica": "بتون فراقلردن كلن فریادلر، عشق بقادن كلن آغلامەلرڭ ترجمانلریدر.",
   "eser": "Lem'alar",
@@ -40,7 +50,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 5,
+  "gun": 6,
+  "latin": "Hakîkati gören bir nazar halkı iğfâl etmez.",
+  "osmanlica": "حقیقتی كورن بر نظر خلقی اغفال ایتمز.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 23,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Hakikat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 7,
   "latin": "Kur’ân, menba‘-ı hak ve ma‘den-i hakîkat olduğuna bir imzadır.",
   "osmanlica": "قرآن، منبع حق و معدن حقیقت اولدیغنە بر امضادر.",
   "eser": "Şuâ'lar",
@@ -50,7 +70,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 6,
+  "gun": 8,
   "latin": "Allâh bir olur, müteaddid olamaz.",
   "osmanlica": "اللّٰه بر اولور، متعدّد اولاماز.",
   "eser": "Asâ-yı Mûsâ",
@@ -60,7 +80,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 7,
+  "gun": 9,
+  "latin": "İnsan herkesi kendisinden üstün bilmelidir.",
+  "osmanlica": "انسان هركسی كندیسندن اوستون بیلملیدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 60,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Marifet",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 10,
   "latin": "Namaz dahi bütün ibâdâtın envâını şâmil bir fihriste-i nûrâniyedir.",
   "osmanlica": "نماز دخی بتون عباداتڭ انواعنی شامل بر فهرستۀ نورانیەدر.",
   "eser": "Sözler",
@@ -70,7 +100,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 8,
+  "gun": 11,
   "latin": "Mevt dahi hayat gibi nikmet içinde nikmet, azâb içinde azâbdır.",
   "osmanlica": "موت دخی حیات كبی نقمت ایچندە نقمت، عذاب ایچندە عذابدر.",
   "eser": "Mektûbât",
@@ -80,7 +110,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 9,
+  "gun": 12,
+  "latin": "Lezzetlerin zevâlinden sonra kalan dumanları, günahlarıdır.",
+  "osmanlica": "لذّتلرڭ زوالندن صوڭرە قالان دومانلری، كناهلریدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 64,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Dünya ve Hayat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 13,
   "latin": "Gaflet ve dalâlet firâkı içinde, değil bir sene, belki bin sene, bir saniye hükmündedir.",
   "osmanlica": "غفلت و ضلالت فراقی ایچندە، دگل بر سنە، بلكە بیڭ سنە، بر ثانیە حكمندەدر.",
   "eser": "Lem'alar",
@@ -90,7 +130,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 10,
+  "gun": 14,
   "latin": "Kur’ân, mu‘cize ve tâkat-i beşerin fevkınde olduğuna bir imzadır.",
   "osmanlica": "قرآن، معجزە و طاقت بشرڭ فوقندە اولدیغنە بر امضادر.",
   "eser": "Şuâ'lar",
@@ -100,7 +140,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 11,
+  "gun": 15,
+  "latin": "Gafletten neş’et eden dalâlet, pek garîb ve pek acîbdir.",
+  "osmanlica": "غفلتدن نشئت ایدن ضلالت، پك غریب و پك عجیبدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 66,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "İman",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 16,
   "latin": "Şükrün mikyâsı kanâattir ve iktisaddır ve rızâdır ve memnuniyettir.",
   "osmanlica": "شكرڭ مقیاسی قناعتدر و اقتصاددر و رضادر و ممنونیتدر.",
   "eser": "Asâ-yı Mûsâ",
@@ -110,7 +160,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 12,
+  "gun": 17,
   "latin": "Cenâb-ı Hakk’a vâsıl olacak tarîkler pek çoktur.",
   "osmanlica": "جناب حقّە واصل اولاجق طریقلر پك چوقدر.",
   "eser": "Sözler",
@@ -120,7 +170,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 13,
+  "gun": 18,
+  "latin": "Küfür yolunda yürümek, buzlar üzerinde yürümekten daha zahmetli ve daha tehlikelidir.",
+  "osmanlica": "كفر یولندە یورومك، بوزلر اوزرندە یورومكدن داها زحمتلی و داها تهلكەلیدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 72,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "İman",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 19,
   "latin": "Bütün tarîklerin nokta-i müntehâsı, hakāik-i îmâniyenin vuzûh ve inkişâfıdır.",
   "osmanlica": "بتون طریقلرڭ نقطۀ منتهاسی، حقائق ایمانیەنڭ وضوح و انكشافیدر.",
   "eser": "Mektûbât",
@@ -130,7 +190,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 14,
+  "gun": 20,
   "latin": "Dalâlette ve küfürde hem adem ve terk vardır ki, pek kolaydır, hareket istemez.",
   "osmanlica": "ضلالتدە و كفردە هم عدم و ترك واردركە، پك قولایدر، حركت ایستەمز.",
   "eser": "Lem'alar",
@@ -140,7 +200,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 15,
+  "gun": 21,
+  "latin": "Nûr-u îmânla dünyanın evvelki iki yüzüne bakmak, ma‘nevî bir cennet gibidir.",
+  "osmanlica": "نور ایمانلە دنیانڭ اوّلكی ایكی یوزینە باقمق، معنوی بر جنّت كبیدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 73,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "İman",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 22,
   "latin": "Her şeyi gösteren güneşi, güneşten sormak gerektir.",
   "osmanlica": "هر شیئی كوسترن كونشی، كونشدن صورمق كركدر.",
   "eser": "Şuâ'lar",
@@ -150,7 +220,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 16,
+  "gun": 23,
   "latin": "Şükürsüzlüğün mîzânı hırstır ve israftır, hürmetsizliktir.",
   "osmanlica": "شكرسزلگڭ میزانی حرصدر و اسرافدر، حرمتسزلكدر.",
   "eser": "Asâ-yı Mûsâ",
@@ -160,7 +230,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 17,
+  "gun": 24,
+  "latin": "Duâlar, tevhîd ve ibâdetin esrârına numûnedir.",
+  "osmanlica": "دعالر، توحید و عبادتڭ اسرارینە نمونەدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 79,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "İbadet",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 25,
   "latin": "Bütün hak tarîkler Kur’ân’dan alınmıştır.",
   "osmanlica": "بتون حق طریقلر قرآندن آلینمشدر.",
   "eser": "Sözler",
@@ -170,7 +250,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 18,
+  "gun": 26,
   "latin": "Dünya saltanatı ile ma‘nevî saltanatın cem‘i gāyet müşkildir.",
   "osmanlica": "دنیا سلطنتی ایلە معنوی سلطنتڭ جمعی غایت مشكلدر.",
   "eser": "Mektûbât",
@@ -180,7 +260,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 19,
+  "gun": 27,
+  "latin": "Kur’ân’ın i‘câzı, tahrîfine bir seddir.",
+  "osmanlica": "قرآنڭ اعجازی، تحریفنە بر سددر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 88,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Kur'an",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 28,
   "latin": "İnsan küçük bir âlem olduğu gibi, âlem dahi büyük bir insandır.",
   "osmanlica": "انسان كوچك بر عالَم اولدیغی كبی، عالَم دخی بیوك بر انساندر.",
   "eser": "Lem'alar",
@@ -190,7 +280,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 20,
+  "gun": 29,
   "latin": "Kur’ân’ın hemen üçten birisi, haşirdir.",
   "osmanlica": "قرآنڭ همن اوچدن بریسی، حشردر.",
   "eser": "Şuâ'lar",
@@ -200,7 +290,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 21,
+  "gun": 30,
+  "latin": "Îmâna âit bilgilerden sonra en lâzım ve en mühim olan a‘mâl-i sâlihadır.",
+  "osmanlica": "ایمانە عائد بیلكیلردن صوڭرە اڭ لازم و اڭ مهم اولان اعمال صالحەدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 110,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "İman",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 31,
   "latin": "Kur’ân-ı Hakîm hem ma‘nen, hem nazmen mu‘cizedir.",
   "osmanlica": "قرآن حكیم هم معنًا، هم نظمًا معجزەدر.",
   "eser": "Asâ-yı Mûsâ",
@@ -210,7 +310,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 22,
+  "gun": 32,
   "latin": "Her şey nefsinde ma‘nâ-yı ismiyle fânîdir, mefkūddur, hâdistir, ma‘dûmdur.",
   "osmanlica": "هر شی نفسندە معنای اسمیلە فانیدر، مفقوددر، حادثدر، معدومدر.",
   "eser": "Sözler",
@@ -220,7 +320,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 23,
+  "gun": 33,
+  "latin": "Kur’ân hem zikirdir, hem fikirdir, hem hikmettir, hem ilimdir, hem hakîkattir, hem şerîattır.",
+  "osmanlica": "قرآن هم ذكردر، هم فكردر، هم حكمتدر، هم علمدر، هم حقیقتدر، هم شریعتدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 122,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Kur'an",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 34,
   "latin": "Hayât-ı ebediyeyi kazanmakta en birinci vâsıta ve saâdet-i ebediyenin anahtarı îmândır.",
   "osmanlica": "حیات ابدیەیی قزانمقدە اڭ برنجی واسطە و سعادت ابدیەنڭ آناختاری ایماندر.",
   "eser": "Mektûbât",
@@ -230,7 +340,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 24,
+  "gun": 35,
   "latin": "Nûra karşı muâraza edilmez ve nûrdan kaçılmaz ve nûrun izhârından zarar gelmez.",
   "osmanlica": "نورە قارشو معارضە ایدیلمز و نوردن قاچیلماز و نورڭ اظهارندن ضرر كلمز.",
   "eser": "Lem'alar",
@@ -240,7 +350,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 25,
+  "gun": 36,
+  "latin": "İnsan, seyyiâtıyla Allâh’a zarar vermiş olmaz.",
+  "osmanlica": "انسان، سیّئٓاتیلە اللّٰهە ضرر ویرمش اولماز.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 124,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Marifet",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 37,
   "latin": "Kur’ân’ın hakîkî tercümesi, kābil değildir.",
   "osmanlica": "قرآنڭ حقیقی ترجمەسی، قابل دگلدر.",
   "eser": "Şuâ'lar",
@@ -250,7 +370,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 26,
+  "gun": 38,
   "latin": "Bazen bir dakîka lezzeti için, bir mes‘ûd hânenin saâdetini mahveder.",
   "osmanlica": "بعضًا بر دقیقە لذّتی ایچون، بر مسعود خانەنڭ سعادتنی محو ایدر.",
   "eser": "Asâ-yı Mûsâ",
@@ -260,7 +380,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 27,
+  "gun": 39,
+  "latin": "Allâh’a tevekkül edene Allâh kâfîdir.",
+  "osmanlica": "اللّٰهە توكّل ایدنە اللّٰه كافیدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 124,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Şükür ve Sabır",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 40,
   "latin": "Her şeyde, hatta en çirkin görünen şeylerde hakîkî bir hüsün ciheti vardır.",
   "osmanlica": "هر شیدە، حتّی اڭ چركین كورونن شیلردە حقیقی بر حسن جهتی واردر.",
   "eser": "Sözler",
@@ -270,7 +400,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 28,
+  "gun": 41,
   "latin": "Cenneti halketmek, bir bahar kadar kolaydır.",
   "osmanlica": "جنّتی خلق ایتمك، بر بهار قدر قولایدر.",
   "eser": "Mektûbât",
@@ -280,7 +410,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 29,
+  "gun": 42,
+  "latin": "Allâh, kâmil-i mutlak olduğundan lizâtihî mahbûbdur.",
+  "osmanlica": "اللّٰه، كامل مطلق اولدیغندن لِذَاتِەٖ محبوبدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 124,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Marifet",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 43,
   "latin": "Dünyadaki sadâlar ölümlerden, elemlerden gelen vâveylâlardır.",
   "osmanlica": "دنیادەكی صدالر ئولوملردن، ألملردن كلن واویلالردر.",
   "eser": "Lem'alar",
@@ -290,7 +430,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 30,
+  "gun": 44,
   "latin": "İnsanın i‘tikādı sağlam olmazsa, da‘vâyı kaybeder.",
   "osmanlica": "انسانڭ اعتقادی صاغلام اولمازسە، دعوایی غائب ایدر.",
   "eser": "Şuâ'lar",
@@ -300,7 +440,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 31,
+  "gun": 45,
+  "latin": "Ubûdiyetin dâîsi emr-i İlâhî ve netîcesi rızâ-yı İlâhîdir.",
+  "osmanlica": "عبودیتڭ داعیسی امر الٰهی و نتیجەسی رضای الٰهیدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 163,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "İbadet",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 46,
   "latin": "Cin ve insin en parlak saâdeti ve en tatlı ni‘meti, o ma‘rifetullâh içindeki muhabbetullâhtır.",
   "osmanlica": "جن و انسڭ اڭ پارلاق سعادتی و اڭ طاتلی نعمتی، او معرفت اللّٰه ایچندەكی محبّت اللّٰهدر.",
   "eser": "Asâ-yı Mûsâ",
@@ -310,7 +460,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 32,
+  "gun": 47,
   "latin": "Tevekkül, esbâbı bütün reddetmek değildir.",
   "osmanlica": "توكّل، اسبابی بتون بتون رد ایتمك دگلدر.",
   "eser": "Sözler",
@@ -320,7 +470,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 33,
+  "gun": 48,
+  "latin": "Nefs-i nâtıkanın en yüksek matlûbu devam ve bekādır.",
+  "osmanlica": "نفس ناطقەنڭ اڭ یوكسك مطلوبی دوام و بقادر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 175,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Ahiret",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 49,
   "latin": "Muhabbetin esbâbı olan iyilikler, muhabbet gibi nûrdur.",
   "osmanlica": "محبّتڭ اسبابی اولان اییلكلر، محبّت كبی نوردر.",
   "eser": "Mektûbât",
@@ -330,7 +490,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 34,
+  "gun": 50,
   "latin": "Îmân, bir hüsn-ü münezzeh ve mücerreddir.",
   "osmanlica": "ایمان، بر حسن منزّه و مجرّددر.",
   "eser": "Lem'alar",
@@ -340,7 +500,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 35,
+  "gun": 51,
+  "latin": "İnsanları fikren dalâlete atan sebeblerden biri, ülfeti ilim telakkî etmeleridir.",
+  "osmanlica": "انسانلری فكرًا ضلالتە آتان سببلردن بری، الفتی علم تلقّی ایتمەلریدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 188,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "İman",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 52,
   "latin": "Nûrlar, makbûl sadaka gibi belâların def‘ine vesîledir.",
   "osmanlica": "نورلر، مقبول صدقە كبی بلالرڭ دفعنە وسیلەدر.",
   "eser": "Şuâ'lar",
@@ -350,7 +520,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 36,
+  "gun": 53,
   "latin": "İnsan, cihâzât ve âlât i‘tibâriyle çok zengindir.",
   "osmanlica": "انسان، جهازات و آلات اعتباریلە چوق زنكیندر.",
   "eser": "Sözler",
@@ -360,7 +530,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 37,
+  "gun": 54,
+  "latin": "Rûh zâten zaman ile mukayyed değildir.",
+  "osmanlica": "روح ذاتًا زمان ایلە مقیّد دگلدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 189,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Kalp ve Nefis",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 55,
   "latin": "Kur’ân’a ve îmâna âit her şey kıymetlidir.",
   "osmanlica": "قرآنە و ایمانە عائد هر شی قیمتلیدر.",
   "eser": "Mektûbât",
@@ -370,7 +550,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 38,
+  "gun": 56,
   "latin": "Âhirette medâr-ı rekābet bir şey yoktur ve rekābet de olamaz.",
   "osmanlica": "آخرتدە مدار رقابت بر شی یوقدر و رقابت دە اولاماز.",
   "eser": "Lem'alar",
@@ -380,7 +560,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 39,
+  "gun": 57,
+  "latin": "Kâinâtın miftâhı, yani anahtarı insanın elindedir.",
+  "osmanlica": "كائناتڭ مفتاحی، یعنی آناختاری انسانڭ الندەدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 191,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Marifet",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 58,
   "latin": "Îmân ve tevhîd yolu, gāyet kısa ve doğru ve müstakîm ve kolaydır.",
   "osmanlica": "ایمان و توحید یولی، غایت قیصە و طوغری و مستقیم و قولایدر.",
   "eser": "Şuâ'lar",
@@ -390,7 +580,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 40,
+  "gun": 59,
   "latin": "İnsanın helâl sa‘yiyle meşrû‘ dâirede gördüğü zevkler, lezzetler, keyfine kâfîdir.",
   "osmanlica": "انسانڭ حلال سعییلە مشروع دائرەدە كوردیگی ذوقلر، لذّتلر، كیفنە كافیدر.",
   "eser": "Sözler",
@@ -400,7 +590,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 41,
+  "gun": 60,
+  "latin": "Acz de, aşk gibi Allâh’a îsâl eden yollardan biridir.",
+  "osmanlica": "عجز دە، عشق كبی اللّٰهە ایصال ایدن یوللردن بریدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 198,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Marifet",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 61,
   "latin": "İnsanın hem şahsı, hem âlemi her zaman teceddüd ettikleri için, her zaman tecdîd-i îmâna muhtâçtır.",
   "osmanlica": "انسانڭ هم شخصی، هم عالمی هر زمان تجدّد ایتدكلری ایچون، هر زمان تجدید ایمانە محتاجدر.",
   "eser": "Mektûbât",
@@ -410,7 +610,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 42,
+  "gun": 62,
   "latin": "İbâdeti terkeden, mevcûdâtın ibâdetini görmez ve göremez.",
   "osmanlica": "عبادتی ترك ایدن، موجوداتڭ عبادتنی كورمز و كورەمز.",
   "eser": "Lem'alar",
@@ -420,7 +620,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 43,
+  "gun": 63,
+  "latin": "Dünya, âlem-i âhirete bir fihrist hükmündedir.",
+  "osmanlica": "دنیا، عالم آخرتە بر فهرست حكمندەدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 205,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Ahiret",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 64,
   "latin": "Hayât-ı şahsiye ve hayât-ı ictimâiyenin bütün yollarında istikāmet, en fâideli ve en kolay ve kısadır.",
   "osmanlica": "حیات شخصیە و حیات اجتماعیەنڭ بتون یوللرندە استقامت، اڭ فائدەلی و اڭ قولای و قیصەدر.",
   "eser": "Şuâ'lar",
@@ -430,7 +640,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 44,
+  "gun": 65,
   "latin": "İnsan, çendân bütün esmâya mazhar ve bütün kemâlâta müsteiddir.",
   "osmanlica": "انسان، چندان بتون اسمایە مظهر و بتون كمالاتە مستعددر.",
   "eser": "Sözler",
@@ -440,7 +650,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 45,
+  "gun": 66,
+  "latin": "İnsandaki kusur sonsuz olduğu gibi, insanın aczine ve fakrına ve ihtiyacına da nihâyet yoktur.",
+  "osmanlica": "انساندەكی قصور صوڭسز اولدیغی كبی، انسانڭ عجزینە و فقرینە و احتیاجنە دە نهایت یوقدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 212,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Dünya ve Hayat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 67,
   "latin": "Allâh’ı bilmek, varlığını bilmenin gayrıdır.",
   "osmanlica": "اللّٰهی بیلمك، وارلغنی بیلمەنڭ غیریدر.",
   "eser": "Mektûbât",
@@ -450,7 +670,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 46,
+  "gun": 68,
   "latin": "Cenâb-ı Hak insanı, kâinât için bir mikyâs, bir mîzân sûretinde yaratmıştır.",
   "osmanlica": "جناب حق انسانی، كائنات ایچون بر مقیاس، بر میزان صورتندە یاراتمشدر.",
   "eser": "Lem'alar",
@@ -460,7 +680,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 47,
+  "gun": 69,
+  "latin": "İnsandaki fakr, gınâ-yı rahmetin derecelerine bir mikyâstır.",
+  "osmanlica": "انساندەكی فقر، غنای رحمتڭ درجەلرینە بر مقیاسدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 212,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Ahiret",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 70,
   "latin": "Gördüm ki ölüm, ehl-i îmân için bir terhîstir.",
   "osmanlica": "كوردمكە ئولوم، اهل ایمان ایچون بر ترخیصدر.",
   "eser": "Şuâ'lar",
@@ -470,7 +700,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 48,
+  "gun": 71,
   "latin": "Ubûdiyet, mukaddeme-i mükâfât-ı lâhika değil, belki netice-i ni‘met-i sâbıkadır.",
   "osmanlica": "عبودیت، مقدّمۀ مكافات لاحقە دگل، بلكە نتیجۀ نعمت سابقەدر.",
   "eser": "Sözler",
@@ -480,7 +710,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 49,
+  "gun": 72,
+  "latin": "İnsandaki acz, kudret ve kibriyâsına bir mîzândır.",
+  "osmanlica": "انساندەكی عجز، قدرت و كبریاسنە بر میزاندر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 212,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Hakikat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 73,
   "latin": "Kur’ân bitmez ve tükenmez bir hazînedir.",
   "osmanlica": "قرآن بیتمز و توكنمز بر خزینەدر.",
   "eser": "Mektûbât",
@@ -490,7 +730,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 50,
+  "gun": 74,
   "latin": "Allâh’ı tanıyanın dünyası, nûrla ve ma‘nevî sürûrla doludur.",
   "osmanlica": "اللّٰهی طانییانڭ دنیاسی، نورلە و معنوی سرورلە طولودر.",
   "eser": "Lem'alar",
@@ -500,7 +740,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 51,
+  "gun": 75,
+  "latin": "Namaz dahi ubûdiyetin esas bir rüknüdür.",
+  "osmanlica": "نماز دخی عبودیتڭ اساس بر ركنیدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 213,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "İbadet",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 76,
   "latin": "Elbette ve elbette bize lâzım olan, sabır içinde dâimâ şükür etmektir.",
   "osmanlica": "البتە و البتە بزە لازم اولان، صبر ایچندە دائما شكر ایتمكدر.",
   "eser": "Şuâ'lar",
@@ -510,7 +760,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 52,
+  "gun": 77,
   "latin": "Cenâb-ı Hakk, cenneti ve saâdet-i ebediyeyi mahz-ı fazl ve keremiyle ihsân eder.",
   "osmanlica": "جناب حق، جنّتی و سعادت ابدیەیی محض فضل و كرمیلە احسان ایدر.",
   "eser": "Sözler",
@@ -520,7 +770,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 53,
+  "gun": 78,
+  "latin": "Nefis ve şeytanla uğraşmak, cihaddır.",
+  "osmanlica": "نفس و شیطانلە اوغراشمق، جهاددر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 214,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Kalp ve Nefis",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 79,
   "latin": "Hakîkaten insanda en tehlikeli damar, enâniyettir.",
   "osmanlica": "حقیقتًا انساندە اڭ تهلكەلی طمار، انانیّتدر.",
   "eser": "Mektûbât",
@@ -530,7 +790,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 54,
+  "gun": 80,
   "latin": "Ölüm, sûreten göründüğü gibi dehşetli değildir.",
   "osmanlica": "ئولوم، صورتًا كوروندیگی كبی دهشتلی دگلدر.",
   "eser": "Lem'alar",
@@ -540,7 +800,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 55,
+  "gun": 81,
+  "latin": "Duâya her hâlde cevâb verilir, cevâbsız bırakılmaz.",
+  "osmanlica": "دعایە هر حالدە جواب ویریلیر، جوابسز بیراقیلماز.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 215,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "İbadet",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 82,
   "latin": "Dünya muhabbeti bütün hataların başıdır.",
   "osmanlica": "دنیا محبّتی بتون خطالرڭ باشیدر.",
   "eser": "Sözler",
@@ -550,7 +820,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 56,
+  "gun": 83,
   "latin": "Hürriyet, umûmî efrâdın zerrât-ı hürriyâtının muhassalıdır.",
   "osmanlica": "حرّیت، عمومی افرادڭ ذرّات حریاتنڭ محصَّلیدر.",
   "eser": "Mektûbât",
@@ -560,7 +830,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 57,
+  "gun": 84,
+  "latin": "İnsan, Cenâb-ı Hakk’dan hiç bir hak taleb etmeye hakkı yoktur.",
+  "osmanlica": "انسان، جناب حقدن هیچ بر حق طلب ایتمەیە حقّی یوقدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 218,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Hakikat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 85,
   "latin": "Ölüm, vazîfe-i hayat külfetinden bir terhîstir.",
   "osmanlica": "ئولوم، وظیفۀ حیات كلفتندن بر ترخیصدر.",
   "eser": "Lem'alar",
@@ -570,7 +850,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 58,
+  "gun": 86,
   "latin": "Hayat, her şeyin başıdır ve esasıdır.",
   "osmanlica": "حیات، هر شیئڭ باشیدر و اساسیدر.",
   "eser": "Sözler",
@@ -580,7 +860,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 59,
+  "gun": 87,
+  "latin": "Cenâb-ı Hakk’ın günahkârları affetmesi fazıldır, ta‘zîb etmesi adildir.",
+  "osmanlica": "جناب حقّڭ كناهكارلری عفو ایتمسی فضلدر، تعذیب ایتمسی عدلدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 227,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Hakikat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 88,
   "latin": "Muhabbet galebe çalsa, adâvet terahhum ve acımaya inkılâb eder.",
   "osmanlica": "محبّت غلبە چالسە، عداوت ترحّم و آجیمغە انقلاب ایدر.",
   "eser": "Mektûbât",
@@ -590,7 +880,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 60,
+  "gun": 89,
   "latin": "Hastalık, bazılara ehemmiyetli bir definedir ve gāyet kıymetdâr bir hediye-i İlâhiyedir.",
   "osmanlica": "خستەلق، بعضیلرە اهمّیتلی بر دفینەدر و غایت قیمتدار بر هدیۀ الٰهیّەدر.",
   "eser": "Lem'alar",
@@ -600,7 +890,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 61,
+  "gun": 90,
+  "latin": "İnsan, nisyândan alındığı için, insan nisyâna mübtelâdır.",
+  "osmanlica": "انسان، نسیاندن آلیندیغی ایچون، انسان نسیانە مبتلادر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 227,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Dünya ve Hayat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 91,
   "latin": "Hayat rûhun ziyâsıdır, şuûr hayâtın nûrudur.",
   "osmanlica": "حیات روحڭ ضیاسیدر، شعور حیاتڭ نوریدر.",
   "eser": "Sözler",
@@ -610,7 +910,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 62,
+  "gun": 92,
   "latin": "Muhabbete en lâyık şey muhabbettir.",
   "osmanlica": "محبّتە اڭ لایق شی محبّتدر.",
   "eser": "Mektûbât",
@@ -620,7 +920,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 63,
+  "gun": 93,
+  "latin": "Akıl gözünü kapasa da, vicdânın gözü dâimâ açıktır.",
+  "osmanlica": "عقل كوزینی قپاسە دە، وجدانڭ كوزی دائما آچیقدر.",
+  "eser": "Mesnevî-i Nûriye",
+  "sayfa": 243,
+  "kaynak": "Bedîüzzaman Said Nursî, Mesnevî-i Nûriye",
+  "kategori": "Kalp ve Nefis",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 94,
   "latin": "Hastalık, hayat-ı ictimâiye-i insaniyede en mühim ve gāyet güzel olan hürmet ve merhameti telkîn eder.",
   "osmanlica": "خستەلق، حیات اجتماعیۀ انسانیەدە اڭ مهم و غایت كوزل اولان حرمت و مرحمتی تلقین ایدر.",
   "eser": "Lem'alar",
@@ -630,7 +940,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 64,
+  "gun": 95,
   "latin": "Hayat, mevcûdâtın keşşâfıdır, belki netîcesidir, zübdesidir.",
   "osmanlica": "حیات، موجوداتڭ كشّافیدر، بلكە نتیجەسیدر، زبدەسیدر.",
   "eser": "Sözler",
@@ -640,7 +950,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 65,
+  "gun": 96,
+  "latin": "Bütün lezzetler îmânda olduğu gibi, bütün elemler de dalâlettedir.",
+  "osmanlica": "بتون لذّتلر ایماندە اولدیغی كبی، بتون الملر دە ضلالتدەدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 24,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "İman",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 97,
   "latin": "Hayat, bir şeyi her şeye mâlik eder.",
   "osmanlica": "حیات، بر شیئی هر شیئە مالك ایدر.",
   "eser": "Mektûbât",
@@ -650,7 +970,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 66,
+  "gun": 98,
   "latin": "İhtiyârlık da hoştur, hastalık da hoştur, vefât dahi hoştur.",
   "osmanlica": "اختیارلق دە خوشدر، خستەلق دە خوشدر، وفات دخی خوشدر.",
   "eser": "Lem'alar",
@@ -660,7 +980,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 67,
+  "gun": 99,
+  "latin": "İnsanların hey’et-i ictimâiyesinde intizâm ve âsâyişi te’mîn eden köprü, zekâttır.",
+  "osmanlica": "انسانلرڭ هیئت اجتماعیەسندە انتظام و آسایشی تأمین ایدن كوپرو، زكاتدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 40,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "Hakikat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 100,
   "latin": "Kâinâtta, bittecrübe her şeyin bir nokta-i kemâli vardır.",
   "osmanlica": "كائناتدە، بالتّجربە هر شیئڭ بر نقطۀ كمالی واردر.",
   "eser": "Sözler",
@@ -670,7 +1000,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 68,
+  "gun": 101,
   "latin": "Her şeyi olduğu gibi tavsîf etmek gerektir.",
   "osmanlica": "هر شیئی اولدیغی كبی توصیف ایتمك كركدر.",
   "eser": "Mektûbât",
@@ -680,7 +1010,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 69,
+  "gun": 102,
+  "latin": "Âhirete îmân, âhiretin gelmesine îmân demektir.",
+  "osmanlica": "آخرتە ایمان، آخرتڭ كلمەسنە ایمان دیمكدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 42,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "İman",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 103,
   "latin": "Ölüm firâk değildir, bir visâldir, bir tebdîl-i mekândır, bâkî bir meyveyi sünbül vermektir.",
   "osmanlica": "ئولوم فراق دگلدر، بر وصالدر، بر تبدیل مكاندر، باقی بر میوەیی سنبل ویرمكدر.",
   "eser": "Lem'alar",
@@ -690,7 +1030,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 70,
+  "gun": 104,
   "latin": "Kâinât kapıları zâhiren açık görünürken, hakîkaten kapalıdır.",
   "osmanlica": "كائنات قاپولری ظاهرًا آچیق كورونوركن، حقیقتًا قاپالیدر.",
   "eser": "Sözler",
@@ -700,7 +1040,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 71,
+  "gun": 105,
+  "latin": "Bütün fenlerin şehâdetiyle, fıtratta israf yoktur.",
+  "osmanlica": "بتون فنلرڭ شهادتیلە، فطرتدە اسراف یوقدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 48,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "Ahlak",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 106,
   "latin": "Musîbet, cinâyetin netîcesi, mükâfâtın mukaddemesidir.",
   "osmanlica": "مصیبت، جنایتڭ نتیجەسی، مكافاتڭ مقدّمەسیدر.",
   "eser": "Mektûbât",
@@ -710,7 +1060,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 72,
+  "gun": 107,
   "latin": "Bütün kâinâta tasarruf edemeyen bir zât, kâinâtın hiç bir cüz’üne hakîkî mâlik olamaz.",
   "osmanlica": "بتون كائناتە تصرّف ایدەمەین بر ذات، كائناتڭ هیچ بر جزئنە حقیقی مالك اولاماز.",
   "eser": "Lem'alar",
@@ -720,7 +1070,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 73,
+  "gun": 108,
+  "latin": "Bütün kemâlâta îsâl edici, sıdktır.",
+  "osmanlica": "بتون كمالاتە ایصال ایدیجی، صدقدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 86,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "Ahlak",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 109,
   "latin": "Cenâb-ı Hakk her şeye her şeyden daha yakındır.",
   "osmanlica": "جناب حق هر شیئە هر شیدن داها یاقیندر.",
   "eser": "Sözler",
@@ -730,7 +1090,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 74,
+  "gun": 110,
   "latin": "İnsanda büyüklüğün mikyâsı küçüklüktür, yani tevâzu‘dur.",
   "osmanlica": "انساندە بیوكلگڭ مقیاسی كوچكلكدر، یعنی تواضعدر.",
   "eser": "Mektûbât",
@@ -740,7 +1100,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 75,
+  "gun": 111,
+  "latin": "Şefkati olan, kimseyi tahkîr ve tezlîl etmez.",
+  "osmanlica": "شفقتی اولان، كیمسەیی تحقیر و تذلیل ایتمز.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 94,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "Ahlak",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 112,
   "latin": "Kâinâtın mevcûdâtı ve envâ‘ları, en muntazam bir fabrikanın çarkları gibi birbirine muâvenet eder.",
   "osmanlica": "كائناتڭ موجوداتی و انواعلری، اڭ منتظم بر فابریقەنڭ چرخلری كبی بربرینە معاونت ایدر.",
   "eser": "Lem'alar",
@@ -750,7 +1120,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 76,
+  "gun": 113,
   "latin": "Elem olmazsa lezzet berkemâl olmaz.",
   "osmanlica": "الم اولمازسە لذّت بر كمال اولماز.",
   "eser": "Sözler",
@@ -760,7 +1130,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 77,
+  "gun": 114,
+  "latin": "İnsandan tabiat paslarını izâle eden, ibâdettir.",
+  "osmanlica": "انساندن طبیعت پاصلرینی ازالە ایدن، عبادتدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 134,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "İbadet",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 115,
   "latin": "Allâh, kalbin bâtınını, îmân ve ma‘rifet ve muhabbeti için yaratmıştır.",
   "osmanlica": "اللّٰه، قلبڭ باطننی، ایمان و معرفت و محبّتی ایچون یاراتمشدر.",
   "eser": "Mektûbât",
@@ -770,7 +1150,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 78,
+  "gun": 116,
   "latin": "Akıl dahi, şuûrdan ve histen süzülmüş, şuûrun bir hulâsasıdır.",
   "osmanlica": "عقل دخی، شعوردن و حسّدن سوزولمش، شعورڭ بر خلاصەسیدر.",
   "eser": "Lem'alar",
@@ -780,7 +1160,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 79,
+  "gun": 117,
+  "latin": "İnsanı mukadder olan kemâlâtına yetiştiren, ibâdettir.",
+  "osmanlica": "انسانی مقدّر اولان كمالاتنە یتیشدیرن، عبادتدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 134,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "İbadet",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 118,
   "latin": "Dünyanın ne kadar kıymetdâr mehâsini varsa, cennetin mehâsinine nisbet edilse, hiç hükmündedir.",
   "osmanlica": "دنیانڭ نە قدر قیمتدار محاسنی وارسە، جنّتڭ محاسننە نسبت ایدیلسە، هیچ حكمندەدر.",
   "eser": "Sözler",
@@ -790,7 +1180,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 80,
+  "gun": 119,
   "latin": "İnsanın gıdaya ihtiyacı gibi, zevke de bir ihtiyacı vardır.",
   "osmanlica": "انسانڭ غدایە احتیاجی كبی، ذوقە دە بر احتیاجی واردر.",
   "eser": "Mektûbât",
@@ -800,7 +1190,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 81,
+  "gun": 120,
+  "latin": "İnsanın gāibâne olan aşağı mertebesinden huzûrun yüksek makamına çıkması, ancak ibâdet vâsıtasıyla olduğuna işârettir.",
+  "osmanlica": "انسانڭ غائبانە اولان آشاغی مرتبەسندن حضورڭ یوكسك مقامنە چیقمەسی، آنجق عبادت واسطەسیلە اولدیغنە اشارتدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 145,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "İbadet",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 121,
   "latin": "Saâdet-i ebediyenin anahtarı olan îmânın kuvvetleşmesi, ehemmiyeti çok azîmdir.",
   "osmanlica": "سعادت ابدیەنڭ آناختاری اولان ایمانڭ قوّتلشمەسی، اهمّیتی چوق عظیمدر.",
   "eser": "Lem'alar",
@@ -810,7 +1210,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 82,
+  "gun": 122,
   "latin": "Bütün mevcûdâtın hakāiki, bütün kâinâtın hakîkati esmâ-yı İlâhiyeye istinâd eder.",
   "osmanlica": "بتون موجوداتڭ حقائقی، بتون كائناتڭ حقیقتی اسمای الٰهیەیە استناد ایدر.",
   "eser": "Sözler",
@@ -820,7 +1220,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 83,
+  "gun": 123,
+  "latin": "Cennet, cehennem, şecere-i hilkatin ebede doğru uzanıp giden iki dalından tezâhür eden iki semeredir.",
+  "osmanlica": "جنّت، جهنّم، شجرۀ خلقتڭ ابدە طوغری اوزانوب كیدن ایكی دالندن تظاهر ایدن ایكی ثمرەدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 193,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "Ahiret",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 124,
   "latin": "Bir cemâatin selâmeti için, bir ferdin rızâsı bulunmadan, hayatı ve hakkı fedâ edilmez.",
   "osmanlica": "بر جماعتڭ سلامتی ایچون، بر فردڭ رضاسی بولونمدن، حیاتی و حقّی فدا ایدیلمز.",
   "eser": "Mektûbât",
@@ -830,7 +1240,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 84,
+  "gun": 125,
   "latin": "Îmânın bir zerre kadar kuvveti ziyâde olması, bir hazînedir.",
   "osmanlica": "ایمانڭ بر ذرّە قدر قوّتی زیادە اولمسی، بر خزینەدر.",
   "eser": "Lem'alar",
@@ -840,7 +1250,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 85,
+  "gun": 126,
+  "latin": "Lezzetin hakîkî lezzet olması, ancak zevâl görmeyerek devam eden lezzetlerdir.",
+  "osmanlica": "لذّتڭ حقیقی لذّت اولمسی، آنجق زوال كورمیەرك دوام ایدن لذّتلردر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 198,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "Dünya ve Hayat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 127,
   "latin": "Her şeyi yapamayan bir şeyi de yapamaz.",
   "osmanlica": "هر شیئی یاپامایان بر شیئی دە یاپاماز.",
   "eser": "Sözler",
@@ -850,7 +1270,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 86,
+  "gun": 128,
   "latin": "En hayırlı genç odur ki, ihtiyâr gibi ölümü düşünüp âhiretine çalışarak, gençlik hevesâtına esîr olmayıp gaflette boğulmayandır.",
   "osmanlica": "اڭ خیرلی كنچ اودركە، اختیار كبی ئولومی دوشونوب آخرتنە چالیشارق، كنچلك هوساتنە اسیر اولمایوب غفلتدە بوغولمایاندر.",
   "eser": "Mektûbât",
@@ -860,7 +1280,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 87,
+  "gun": 129,
+  "latin": "Hayat da, mevcûdâtın kâşifi ve sebeb-i zuhûrudur.",
+  "osmanlica": "حیات دە، موجوداتڭ كاشفی و سبب ظهوریدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 229,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "Dünya ve Hayat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 130,
   "latin": "Her şey, hususan zîhayat olanlar, gāyet ma‘nîdâr birer kelime, birer mektûb, birer kasîde-i Rabbâniyedir.",
   "osmanlica": "هر شی، خصوصًا ذی حیات اولانلر، غایت معنیدار برر كلمە، برر مكتوب، برر قصیدۀ ربّانیّەدر.",
   "eser": "Lem'alar",
@@ -870,7 +1300,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 88,
+  "gun": 131,
   "latin": "Rûh bir nûrânî kanundur, vücûd-u hâricî giymiş bir nâmustur.",
   "osmanlica": "روح بر نورانی قانوندر، وجود خارجی كییمش بر ناموسدر.",
   "eser": "Sözler",
@@ -880,7 +1310,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 89,
+  "gun": 132,
+  "latin": "Mevt, ancak rûhun cesed kafesinden çıkmasıyla tebdîl-i mekân etmesinden ibârettir.",
+  "osmanlica": "موت، آنجق روحڭ جسد قفسندن چیقمەسیلە تبدیل مكان ایتمەسندن عبارتدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 231,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "Ahiret",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 133,
   "latin": "İşte şu kâinâtın zîşuûru ve en mükemmel meyvesi ve netîcesi ve gāyesi insandır.",
   "osmanlica": "ایشتە شو كائناتڭ ذی شعوری و اڭ مكمّل میوەسی و نتیجەسی و غایەسی انساندر.",
   "eser": "Mektûbât",
@@ -890,7 +1330,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 90,
+  "gun": 134,
   "latin": "Bâkî-i Hakîkî’nin muhabbeti ve ma‘rifeti ve rızâsı yolunda bir saniye, bir senedir.",
   "osmanlica": "باقئ حقیقینڭ محبّتی و معرفتی و رضاسی یولندە بر ثانیە، بر سنەدر.",
   "eser": "Lem'alar",
@@ -900,7 +1340,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 91,
+  "gun": 135,
+  "latin": "İnsanın eti, hürmet ve kerâmeti sebebiyle haram olmuştur.",
+  "osmanlica": "انسانڭ اتی، حرمت و كرامتی سببیلە حرام اولمشدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 243,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "Hakikat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 136,
   "latin": "Hakîkî mürşid-i âlim koyun olur, kuş olmaz.",
   "osmanlica": "حقیقی مرشد عالم قویون اولور، قوش اولماز.",
   "eser": "Sözler",
@@ -910,7 +1360,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 92,
+  "gun": 137,
   "latin": "İşte Ramazân-ı Şerîf’deki oruc, hakîkî ve hâlis, azametli ve umûmî bir şükrün anahtarıdır.",
   "osmanlica": "ایشتە رمضان شریفدەكی اوروچ، حقیقی و خالص، عظمتلی و عمومی بر شكرڭ آناختاریدر.",
   "eser": "Mektûbât",
@@ -920,7 +1370,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 93,
+  "gun": 138,
+  "latin": "Cenâb-ı Hakk’ın ef‘âli hikmetlerden, maslahatlardan hâlî değildir.",
+  "osmanlica": "جناب حقّڭ افعالی حكمتلردن، مصلحتلردن خالی دگلدر.",
+  "eser": "İşârâtü'l-İ'câz",
+  "sayfa": 254,
+  "kaynak": "Bedîüzzaman Said Nursî, İşârâtü'l-İ'câz",
+  "kategori": "Hakikat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 139,
   "latin": "Senin hakkın şekvâ değil, şükürdür, sabırdır.",
   "osmanlica": "سنڭ حقّڭ شكوا دگل، شكردر، صبردر.",
   "eser": "Lem'alar",
@@ -930,7 +1390,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 94,
+  "gun": 140,
   "latin": "Allâh’ın rahmetinden fazla rahmet edilmez.",
   "osmanlica": "اللّٰهڭ رحمتندن فضلە رحمت ایدیلمز.",
   "eser": "Sözler",
@@ -940,7 +1400,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 95,
+  "gun": 141,
+  "latin": "İnsanın cevheri büyüktür, mâhiyeti âliyedir, cinâyeti dahi azîmdir.",
+  "osmanlica": "انسانڭ جوهری بیوكدر، ماهیتی عالیەدر، جنایتی دخی عظیمدر.",
+  "eser": "Muhâkemât",
+  "sayfa": 37,
+  "kaynak": "Bedîüzzaman Said Nursî, Muhâkemât",
+  "kategori": "Hakikat",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 142,
   "latin": "Tasallut-u medeniyetin zamanında âlemin hükümrânı, ilim ve ma‘rifettir.",
   "osmanlica": "تسلُّط مدنیّتڭ زمانندە عالمڭ حكمرانی، علم و معرفتدر.",
   "eser": "Mektûbât",
@@ -950,7 +1420,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 96,
+  "gun": 143,
   "latin": "İşte mürşidin rûhu ve kalbi bir aynadır.",
   "osmanlica": "ایشتە مرشدڭ روحی و قلبی بر آیینەدر.",
   "eser": "Lem'alar",
@@ -960,7 +1430,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 97,
+  "gun": 144,
+  "latin": "Cennet ucuz olmadığı gibi cehennem de lüzûmsuz değildir.",
+  "osmanlica": "جنّت اوجوز اولمدیغی كبی جهنّم دە لزومسز دگلدر.",
+  "eser": "Barla Lâhikası",
+  "sayfa": 341,
+  "kaynak": "Bedîüzzaman Said Nursî, Barla Lâhikası",
+  "kategori": "Ahiret",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 145,
   "latin": "Allâh’ın gazabından fazla gazab edilmez.",
   "osmanlica": "اللّٰهڭ غضبندن فضلە غضب ایدیلمز.",
   "eser": "Sözler",
@@ -970,7 +1450,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 98,
+  "gun": 146,
   "latin": "Yirmi sene mübhem bir ömür, nihâyeti muayyen bin sene ömre müreccahtır.",
   "osmanlica": "یگرمی سنە مبهم بر عمر، نهایتی معیّن بیڭ سنە عمرە مرجّحدر.",
   "eser": "Mektûbât",
@@ -980,7 +1460,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 99,
+  "gun": 147,
+  "latin": "Ehl-i kalb için bazen sükût dahi bir konuşmaktır.",
+  "osmanlica": "اهل قلب ایچون بعضًا سكوت دخی بر قونوشمقدر.",
+  "eser": "Barla Lâhikası",
+  "sayfa": 365,
+  "kaynak": "Bedîüzzaman Said Nursî, Barla Lâhikası",
+  "kategori": "Kalp ve Nefis",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 148,
   "latin": "Riyâdan nefret veren ve ihlâsı kazandıran, râbıta-i mevttir.",
   "osmanlica": "ریادن نفرت ویرن و اخلاصی قزاندیران، رابطۀ موتدر.",
   "eser": "Lem'alar",
@@ -990,7 +1480,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 100,
+  "gun": 149,
   "latin": "Musîbetin içinde bir ni‘met mündericdir.",
   "osmanlica": "مصیبتڭ ایچندە بر نعمت مندرجدر.",
   "eser": "Sözler",
@@ -1000,7 +1490,17 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 101,
+  "gun": 150,
+  "latin": "Zulme râzı olmak dahi zulümdür.",
+  "osmanlica": "ظلمە راضی اولمق دخی ظلمدر.",
+  "eser": "Kastamonu Lâhikası",
+  "sayfa": 195,
+  "kaynak": "Bedîüzzaman Said Nursî, Kastamonu Lâhikası",
+  "kategori": "Ahlak",
+  "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
+ },
+ {
+  "gun": 151,
   "latin": "Abd, kendi aczini ve fakrını duâ ile i‘lân eder.",
   "osmanlica": "عبد، كندی عجزینی و فقرینی دعا ایلە اعلان ایدر.",
   "eser": "Mektûbât",
@@ -1010,7 +1510,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 102,
+  "gun": 152,
   "latin": "Aynı hâdisede insan zulmeder, fakat kader âdildir, adâlet eder.",
   "osmanlica": "عین حادثەدە انسان ظلم ایدر، فقط قدر عادلدر، عدالت ایدر.",
   "eser": "Lem'alar",
@@ -1020,7 +1520,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 103,
+  "gun": 153,
   "latin": "Hak olan bir vesîle, bâtıl vesîleye gālibdir.",
   "osmanlica": "حق اولان بر وسیلە، باطل وسیلەیە غالبدر.",
   "eser": "Sözler",
@@ -1030,7 +1530,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 104,
+  "gun": 154,
   "latin": "İşte kalb ve mâhiyet-i insaniye, zîşuûr bir aynadır.",
   "osmanlica": "ایشتە قلب و ماهیّت انسانیە، ذی شعور بر آیینەدر.",
   "eser": "Lem'alar",
@@ -1040,7 +1540,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 105,
+  "gun": 155,
   "latin": "Kur’ân’da bir hâssa var, başka kelâmda yoktur.",
   "osmanlica": "قرآندە بر خاصّە وار، باشقە كلامدە یوقدر.",
   "eser": "Sözler",
@@ -1050,7 +1550,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 106,
+  "gun": 156,
   "latin": "Hakîkat hak mîzânı Kur’ân’dır, başka olmaz.",
   "osmanlica": "حقیقت حق میزانی قرآندر، باشقە اولماز.",
   "eser": "Sözler",
@@ -1060,7 +1560,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 107,
+  "gun": 157,
   "latin": "Rahmânü’r-Rahîm’in dergâhında ya zaaf ve acziyle ağlamak veya fakr ve ihtiyacıyla duâ etmek gerektir.",
   "osmanlica": "رحمن الرّحیمڭ درگاهندە یا ضعف و عجزیلە آغلامق ویا فقر و احتیاجیلە دعا ایتمك كركدر.",
   "eser": "Sözler",
@@ -1070,7 +1570,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 108,
+  "gun": 158,
   "latin": "Eşyâ malımdır, dünya hânemdir, kâinât mâlikim tarafından verilmiş bir mülkümdür.",
   "osmanlica": "اشیا مالمدر، دنیا خانەمدر، كائنات مالكم طرفندن ویریلمش بر ملكمدر.",
   "eser": "Sözler",
@@ -1080,7 +1580,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 109,
+  "gun": 159,
   "latin": "Kur’ân’ın edebiyse, öyle bir hüznü verir ki, âşıkāne hüzündür, yetîmâne değildir.",
   "osmanlica": "قرآنڭ أدبیسە، اویلە بر حزنی ویرركە، عاشقانە حزندر، یتیمانە دگلدر.",
   "eser": "Sözler",
@@ -1090,7 +1590,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 110,
+  "gun": 160,
   "latin": "Muhabbet, şu kâinâtın bir sebeb-i vücûdudur.",
   "osmanlica": "محبّت، شو كائناتڭ بر سبب وجودیدر.",
   "eser": "Sözler",
@@ -1100,7 +1600,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 111,
+  "gun": 161,
   "latin": "Yemeğin nisbî lezzeti, açlık eleminin te’sîriyledir.",
   "osmanlica": "ییمگڭ نسبی لذّتی، آچلق ألمنڭ تأثیریلەدر.",
   "eser": "Sözler",
@@ -1110,7 +1610,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 112,
+  "gun": 162,
   "latin": "Sebeb-i muhabbet ya lezzet veya menfaat, ya müşâkelet, yani meyl-i cinsiyet, ya kemâldir.",
   "osmanlica": "سبب محبّت یا لذّت ویا منفعت، یا مشاكلت، یعنی میل جنسیت، یا كمالدر.",
   "eser": "Sözler",
@@ -1120,7 +1620,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 113,
+  "gun": 163,
   "latin": "Zihnin ma‘rifetullâh, hissin muhabbetullâh, latîfenin şuhûddur.",
   "osmanlica": "ذهنڭ معرفت اللّٰه، حسّڭ محبّت اللّٰه، لطیفەنڭ شهوددر.",
   "eser": "Sözler",
@@ -1130,7 +1630,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 114,
+  "gun": 164,
   "latin": "İşte kıyâmet dahi şu insan-ı ekber olan dünyanın ecelidir.",
   "osmanlica": "ایشتە قیامت دخی شو انسان اكبر اولان دنیانڭ اجلیدر.",
   "eser": "Sözler",
@@ -1140,7 +1640,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 115,
+  "gun": 165,
   "latin": "Allâh’a abd ve asker olmak, öyle lezzetli bir şereftir ki, ta‘rîf edilmez.",
   "osmanlica": "اللّٰهە عبد و عسكر اولمق، اویلە لذّتلی بر شرفدركە، تعریف ایدیلمز.",
   "eser": "Sözler",
@@ -1150,7 +1650,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 116,
+  "gun": 166,
   "latin": "Senin hakkın medih değil, istiğfârdır, nedâmettir.",
   "osmanlica": "سنڭ حقّڭ مدح دگل، استغفاردر، ندامتدر.",
   "eser": "Sözler",
@@ -1160,7 +1660,7 @@
   "metinKaynagi": "risale.online (Osmanlıca kelime kelime Latince karşılıklı metin)"
  },
  {
-  "gun": 117,
+  "gun": 167,
   "latin": "Fennin hiç bir hakîkat-i kat‘iyesi, Kur’ân’ın hakāik-i kudsiyesine ilişemez.",
   "osmanlica": "فنّڭ هیچ بر حقیقت قطعیەسی، قرآنڭ حقائق قدسیّەسنە ایلیشەمز.",
   "eser": "Sözler",

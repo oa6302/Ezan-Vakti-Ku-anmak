@@ -20,3 +20,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 
 ## Gunluk pasaj (2026-11-27)
 - `assets/content/gunluk_risale.json`: asil eserlerden aynen paragraflar (38); mevcut risale_havuzu kayitlari korunur, arkada kalir.
+- 2026-11-27: Ek eserlerden (Mesnevî, İşârât, Kastamonu) 21 pasaj eklendi (`tooling/icerik/risale_secim.json`).

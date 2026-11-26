@@ -23,3 +23,4 @@ Vecize kimliği artık metinden türetilir (`_kararliHash`); önceden her açıl
 ## Gunluk vecize (2026-11-27)
 - `assets/content/gunluk_vecizeler.json`: 117 vecize; Osmanlica ve Latince risale.online kelime kelime hizali metinden ayni cumle. Uretim: `tooling/icerik/vecize_cikar.js` -> `vecize_sec.js` + elle secim `vecize_secim.json`.
 - Eski 110 sadelestirilmis vecize `vecize_havuzu.dart`ta korunur, gunluk havuzda kullanilmaz.
+- 2026-11-27: Ek eserlerden 50 vecize (Mesnevî, İşârât, Muhâkemât, Lâhikalardan bilinen kısa vecizeler); toplam 167.
