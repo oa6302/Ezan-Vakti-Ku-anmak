@@ -16,7 +16,7 @@ class PrayerRowV2 extends StatefulWidget {
 class _PrayerRowV2State extends State<PrayerRowV2> {
   final _service = PrayerService();
   PrayerTimeResult? _result;
-  String _city = '';
+  String _konumAnahtari = '';
   int _loadGeneration = 0;
 
   @override
@@ -25,8 +25,8 @@ class _PrayerRowV2State extends State<PrayerRowV2> {
     // Il, ilce veya GPS degisince yeniden hesapla (tek kaynak: AppState)
     final s = context.watch<AppState>();
     final anahtar = '${s.city}|${s.lat}|${s.lng}';
-    if (anahtar != _city || _result == null) {
-      _city = anahtar;
+    if (anahtar != _konumAnahtari || _result == null) {
+      _konumAnahtari = anahtar;
       _load(s);
     }
   }

@@ -1,11 +1,11 @@
 {
   "@@locale": "tr",
-  "appTitle": "5 Vakit Namaz",
+  "appTitle": "Ezan Vakti Kuşanmak",
   "appSubtitle": "Namazla huzura, ibadetle huşuya",
   "greetingMorning": "Hayırlı sabahlar",
   "greetingDay": "Hayırlı gündüzler",
   "greetingEvening": "Hayırlı akşamlar",
-  "userDefault": "5 Vakit Namaz Kullanıcısı",
+  "userDefault": "Değerli Kullanıcı",
   "blessing": "Rabbimizin rahmeti ve bereketi üzerinize olsun.",
   "nextPrayer": "Sonraki Namaz",
   "remainingTime": "Kalan Süre",
@@ -81,5 +81,29 @@
   "reflection": "Tefekkür",
   "tags": "Etiketler",
   "favorite": "Favorilere Ekle",
-  "share": "Paylaş"
+  "share": "Paylaş",
+  "tabQibla": "Pusula",
+  "tabTrack": "Takip",
+  "khushuTitle": "Huşu Takibi",
+  "khushuDesc": "Kalp huzurunu fark et",
+  "moodTitle": "Ruh Halin",
+  "moodDesc": "Kalbin ne söylüyorsa",
+  "journeyTitle": "Manevi Yolculuk",
+  "journeyDesc": "Isı haritası · Seri · Seviye",
+  "gratitudeJournalDesc": "Nimeti fark et, kalbi besle",
+  "languageStyleTitle": "Dil ve Yazı Stili",
+  "notificationDesc": "Vakit hatırlatmaları",
+  "assistantTitle": "Akıllı Asistan",
+  "assistantDesc": "Kaynaklı soru-cevap",
+  "adminPanelDesc": "İçerik havuzlarını yönet",
+  "aboutTitle": "Uygulama Hakkında",
+  "aboutVersion": "Sürüm {version}",
+  "@aboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutBody": "Namaz merkezli ibadet rehberi. Tüm veriler cihazınızda saklanır."
 }

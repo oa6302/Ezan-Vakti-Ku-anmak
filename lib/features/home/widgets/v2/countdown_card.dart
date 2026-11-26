@@ -22,7 +22,8 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
   PrayerTimeResult? _result;
   Timer? _timer;
   late final AnimationController _breath;
-  String _city = '';
+  String _konumAnahtari = '';
+  String _konumAdi = '';
   int _loadGeneration = 0;
 
   @override
@@ -50,8 +51,9 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
     // Il, ilce veya GPS degisince yeniden hesapla (tek kaynak: AppState)
     final s = context.watch<AppState>();
     final anahtar = '${s.city}|${s.lat}|${s.lng}';
-    if (anahtar != _city || _result == null) {
-      _city = anahtar;
+    if (anahtar != _konumAnahtari || _result == null) {
+      _konumAnahtari = anahtar;
+      _konumAdi = s.locationName;
       _load(s);
     }
   }
@@ -151,11 +153,15 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
               child: CircularProgressIndicator(strokeWidth: 2),
             ),
             const SizedBox(width: 14),
-            Text('$_city vakitleri yukleniyor...',
-                style: const TextStyle(
-                    color: Color(0xFF0A1F44),
-                    fontSize: 13,
-                    fontWeight: FontWeight.w600)),
+            Expanded(
+              child: Text('$_konumAdi vakitleri yükleniyor...',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                      color: Color(0xFF0A1F44),
+                      fontSize: 13,
+                      fontWeight: FontWeight.w600)),
+            ),
           ],
         ),
       );

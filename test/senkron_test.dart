@@ -10,14 +10,19 @@ import 'package:nur_pusulasi/app/state/app_state.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/favorites_mini_card.dart';
 import 'package:nur_pusulasi/features/home/widgets/v2/header_v2.dart';
 import 'package:nur_pusulasi/features/prayer/data/prayer_service.dart';
+import 'package:nur_pusulasi/app/app_settings.dart';
+import 'package:nur_pusulasi/main.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import 'yardimci/fontlar.dart';
 
 void main() {
   late AppState appState;
 
   setUpAll(() async {
     TestWidgetsFlutterBinding.ensureInitialized();
+    await gercekFontlariYukle();
     SharedPreferences.setMockInitialValues({});
     appState = AppState();
     await appState.load();
@@ -28,6 +33,7 @@ void main() {
   Widget sar(Widget w) => ChangeNotifierProvider<AppState>.value(
         value: appState,
         child: MaterialApp(
+          theme: ThemeData(fontFamily: 'Roboto'),
           locale: const Locale('tr'),
           supportedLocales: const [Locale('tr'), Locale('en'), Locale('ar')],
           localizationsDelegates: const [
@@ -89,5 +95,28 @@ void main() {
     await FavoritesService.instance.toggle(item);
     await tester.pump();
     expect(FavoritesService.instance.count, once);
+  });
+
+  testWidgets('Dil degisince alt menu ve Daha Fazla ekrani cevrilir',
+      (tester) async {
+    tester.view.physicalSize = const Size(1080, 2340);
+    tester.view.devicePixelRatio = 3;
+    addTearDown(tester.view.reset);
+    await tester.pumpWidget(ChangeNotifierProvider<AppState>.value(
+      value: appState,
+      child: const NurPusulasiApp(),
+    ));
+    await tester.pump(const Duration(milliseconds: 500));
+    expect(find.text('Pusula'), findsOneWidget);
+    expect(find.text('Daha Fazla'), findsWidgets);
+
+    AppSettings.instance.locale.value = const Locale('en');
+    await tester.pump(const Duration(milliseconds: 500));
+    expect(find.text('Compass'), findsOneWidget);
+    expect(find.text('More'), findsWidgets);
+
+    AppSettings.instance.locale.value = const Locale('tr');
+    await tester.pumpWidget(const SizedBox());
+    await tester.pump(const Duration(seconds: 2));
   });
 }

@@ -9,7 +9,7 @@ class AppLocalizationsTr extends AppLocalizations {
   AppLocalizationsTr([String locale = 'tr']) : super(locale);
 
   @override
-  String get appTitle => '5 Vakit Namaz';
+  String get appTitle => 'Ezan Vakti Kuşanmak';
 
   @override
   String get appSubtitle => 'Namazla huzura, ibadetle huşuya';
@@ -24,7 +24,7 @@ class AppLocalizationsTr extends AppLocalizations {
   String get greetingEvening => 'Hayırlı akşamlar';
 
   @override
-  String get userDefault => '5 Vakit Namaz Kullanıcısı';
+  String get userDefault => 'Değerli Kullanıcı';
 
   @override
   String get blessing => 'Rabbimizin rahmeti ve bereketi üzerinize olsun.';
@@ -253,4 +253,58 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get share => 'Paylaş';
+
+  @override
+  String get tabQibla => 'Pusula';
+
+  @override
+  String get tabTrack => 'Takip';
+
+  @override
+  String get khushuTitle => 'Huşu Takibi';
+
+  @override
+  String get khushuDesc => 'Kalp huzurunu fark et';
+
+  @override
+  String get moodTitle => 'Ruh Halin';
+
+  @override
+  String get moodDesc => 'Kalbin ne söylüyorsa';
+
+  @override
+  String get journeyTitle => 'Manevi Yolculuk';
+
+  @override
+  String get journeyDesc => 'Isı haritası · Seri · Seviye';
+
+  @override
+  String get gratitudeJournalDesc => 'Nimeti fark et, kalbi besle';
+
+  @override
+  String get languageStyleTitle => 'Dil ve Yazı Stili';
+
+  @override
+  String get notificationDesc => 'Vakit hatırlatmaları';
+
+  @override
+  String get assistantTitle => 'Akıllı Asistan';
+
+  @override
+  String get assistantDesc => 'Kaynaklı soru-cevap';
+
+  @override
+  String get adminPanelDesc => 'İçerik havuzlarını yönet';
+
+  @override
+  String get aboutTitle => 'Uygulama Hakkında';
+
+  @override
+  String aboutVersion(String version) {
+    return 'Sürüm $version';
+  }
+
+  @override
+  String get aboutBody =>
+      'Namaz merkezli ibadet rehberi. Tüm veriler cihazınızda saklanır.';
 }

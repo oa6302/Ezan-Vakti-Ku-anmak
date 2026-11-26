@@ -103,7 +103,7 @@ abstract class AppLocalizations {
   /// No description provided for @appTitle.
   ///
   /// In tr, this message translates to:
-  /// **'5 Vakit Namaz'**
+  /// **'Ezan Vakti Kuşanmak'**
   String get appTitle;
 
   /// No description provided for @appSubtitle.
@@ -133,7 +133,7 @@ abstract class AppLocalizations {
   /// No description provided for @userDefault.
   ///
   /// In tr, this message translates to:
-  /// **'5 Vakit Namaz Kullanıcısı'**
+  /// **'Değerli Kullanıcı'**
   String get userDefault;
 
   /// No description provided for @blessing.
@@ -591,6 +591,108 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'Paylaş'**
   String get share;
+
+  /// No description provided for @tabQibla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Pusula'**
+  String get tabQibla;
+
+  /// No description provided for @tabTrack.
+  ///
+  /// In tr, this message translates to:
+  /// **'Takip'**
+  String get tabTrack;
+
+  /// No description provided for @khushuTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Huşu Takibi'**
+  String get khushuTitle;
+
+  /// No description provided for @khushuDesc.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kalp huzurunu fark et'**
+  String get khushuDesc;
+
+  /// No description provided for @moodTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ruh Halin'**
+  String get moodTitle;
+
+  /// No description provided for @moodDesc.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kalbin ne söylüyorsa'**
+  String get moodDesc;
+
+  /// No description provided for @journeyTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Manevi Yolculuk'**
+  String get journeyTitle;
+
+  /// No description provided for @journeyDesc.
+  ///
+  /// In tr, this message translates to:
+  /// **'Isı haritası · Seri · Seviye'**
+  String get journeyDesc;
+
+  /// No description provided for @gratitudeJournalDesc.
+  ///
+  /// In tr, this message translates to:
+  /// **'Nimeti fark et, kalbi besle'**
+  String get gratitudeJournalDesc;
+
+  /// No description provided for @languageStyleTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dil ve Yazı Stili'**
+  String get languageStyleTitle;
+
+  /// No description provided for @notificationDesc.
+  ///
+  /// In tr, this message translates to:
+  /// **'Vakit hatırlatmaları'**
+  String get notificationDesc;
+
+  /// No description provided for @assistantTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Akıllı Asistan'**
+  String get assistantTitle;
+
+  /// No description provided for @assistantDesc.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaynaklı soru-cevap'**
+  String get assistantDesc;
+
+  /// No description provided for @adminPanelDesc.
+  ///
+  /// In tr, this message translates to:
+  /// **'İçerik havuzlarını yönet'**
+  String get adminPanelDesc;
+
+  /// No description provided for @aboutTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Uygulama Hakkında'**
+  String get aboutTitle;
+
+  /// No description provided for @aboutVersion.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sürüm {version}'**
+  String aboutVersion(String version);
+
+  /// No description provided for @aboutBody.
+  ///
+  /// In tr, this message translates to:
+  /// **'Namaz merkezli ibadet rehberi. Tüm veriler cihazınızda saklanır.'**
+  String get aboutBody;
 }
 
 class _AppLocalizationsDelegate
