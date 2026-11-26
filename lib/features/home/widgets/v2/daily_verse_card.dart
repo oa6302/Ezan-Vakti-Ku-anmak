@@ -119,7 +119,7 @@ class DailyVerseCard extends StatelessWidget {
                           'Günün Ayeti',
                           style: TextStyle(
                             color: Color(0xFF0A1F44),
-                            shadows: const [
+                            shadows: [
                               Shadow(
                                   color: Color(0x99000000),
                                   blurRadius: 9,
@@ -140,7 +140,7 @@ class DailyVerseCard extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: const TextStyle(
                             color: Color(0xFF64748B),
-                            shadows: const [
+                            shadows: [
                               Shadow(
                                   color: Color(0x99000000),
                                   blurRadius: 9,
@@ -158,7 +158,7 @@ class DailyVerseCard extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         color: Color(0xFF64748B),
-                        shadows: const [
+                        shadows: [
                           Shadow(
                               color: Color(0x99000000),
                               blurRadius: 9,
@@ -178,7 +178,7 @@ class DailyVerseCard extends StatelessWidget {
                           textAlign: TextAlign.center,
                           style: const TextStyle(
                               color: Color(0xFF0A1F44),
-                              shadows: const [
+                              shadows: [
                                 Shadow(
                                     color: Color(0x99000000),
                                     blurRadius: 9,
@@ -197,7 +197,7 @@ class DailyVerseCard extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         color: Color(0xFF0A1F44),
-                        shadows: const [
+                        shadows: [
                           Shadow(
                               color: Color(0x99000000),
                               blurRadius: 9,
@@ -218,7 +218,7 @@ class DailyVerseCard extends StatelessWidget {
                       const Text('KISA TEFSİR',
                           style: TextStyle(
                               color: Color(0xFF0A1F44),
-                              shadows: const [
+                              shadows: [
                                 Shadow(
                                     color: Color(0x99000000),
                                     blurRadius: 9,
@@ -235,7 +235,7 @@ class DailyVerseCard extends StatelessWidget {
                           textAlign: TextAlign.justify,
                           style: const TextStyle(
                               color: Color(0xFF334155),
-                              shadows: const [
+                              shadows: [
                                 Shadow(
                                     color: Color(0x99000000),
                                     blurRadius: 9,
@@ -253,7 +253,7 @@ class DailyVerseCard extends StatelessWidget {
                       textAlign: TextAlign.center,
                       style: const TextStyle(
                         color: Color(0xFF64748B),
-                        shadows: const [
+                        shadows: [
                           Shadow(
                               color: Color(0x99000000),
                               blurRadius: 9,

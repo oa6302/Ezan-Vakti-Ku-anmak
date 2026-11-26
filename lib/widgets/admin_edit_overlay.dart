@@ -279,14 +279,17 @@ class CardOverlayActions extends StatelessWidget {
     }
     try {
       final bytes = await _capture();
+      if (!context.mounted) return;
       if (bytes == null) {
         _snack(context, 'Kart görüntüsü alınamadı.');
         return;
       }
       final name = 'nur_pusulasi_${DateTime.now().millisecondsSinceEpoch}';
       await Gal.putImageBytes(bytes, name: name);
+      if (!context.mounted) return;
       _snack(context, '📥 Galeriye kaydedildi');
     } catch (e) {
+      if (!context.mounted) return;
       _snack(context, 'İndirme hatası: $e');
     }
   }
@@ -294,11 +297,11 @@ class CardOverlayActions extends StatelessWidget {
   Future<void> _share(BuildContext context) async {
     try {
       final bytes = await _capture();
+      if (!context.mounted) return;
       if (bytes == null) {
         _snack(context, 'Kart görüntüsü alınamadı.');
         return;
       }
-      if (!context.mounted) return;
       // Bellekten paylas: web ve mobilde ayni sekilde calisir (gecici dosya yok).
       await SharePlus.instance.share(ShareParams(
         files: [
@@ -310,6 +313,7 @@ class CardOverlayActions extends StatelessWidget {
         text: shareText ?? 'Nur Pusulası · Ezan Vakti Kuşanmak',
       ));
     } catch (e) {
+      if (!context.mounted) return;
       _snack(context, 'Paylaşım hatası: $e');
     }
   }

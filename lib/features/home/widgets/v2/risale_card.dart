@@ -99,7 +99,7 @@ class RisaleCard extends StatelessWidget {
                             child: const Text('RİSALE-İ NUR',
                                 style: TextStyle(
                                     color: Colors.white,
-                                    shadows: const [
+                                    shadows: [
                                       Shadow(
                                           color: Color(0x99000000),
                                           blurRadius: 9,
@@ -147,7 +147,7 @@ class RisaleCard extends StatelessWidget {
                         risaleMetin,
                         style: const TextStyle(
                             color: Color(0xFF536174),
-                            shadows: const [
+                            shadows: [
                               Shadow(
                                   color: Color(0x99000000),
                                   blurRadius: 9,
@@ -168,7 +168,7 @@ class RisaleCard extends StatelessWidget {
                           '“$risaleAlinti”',
                           style: const TextStyle(
                               color: Color(0xFF26364D),
-                              shadows: const [
+                              shadows: [
                                 Shadow(
                                     color: Color(0x99000000),
                                     blurRadius: 9,
@@ -191,7 +191,7 @@ class RisaleCard extends StatelessWidget {
                                 .join(' • '),
                             style: const TextStyle(
                                 color: Color(0xFF687386),
-                                shadows: const [
+                                shadows: [
                                   Shadow(
                                       color: Color(0x99000000),
                                       blurRadius: 9,
@@ -241,7 +241,7 @@ class RisaleCard extends StatelessWidget {
                           const Text('5 dk okuma',
                               style: TextStyle(
                                   color: Color(0xFF7A8492),
-                                  shadows: const [
+                                  shadows: [
                                     Shadow(
                                         color: Color(0x99000000),
                                         blurRadius: 9,
@@ -292,7 +292,7 @@ class _RisaleInfografik extends StatelessWidget {
             'GÜNÜN İMAN-KÜFÜR MUVÂZENESİ',
             style: TextStyle(
               color: Color(0xFF0A1F44),
-              shadows: const [
+              shadows: [
                 Shadow(
                     color: Color(0x99000000),
                     blurRadius: 9,
@@ -332,7 +332,7 @@ class _RisaleInfografik extends StatelessWidget {
                     kelime,
                     style: const TextStyle(
                       color: Color(0xFF0A1F44),
-                      shadows: const [
+                      shadows: [
                         Shadow(
                             color: Color(0x99000000),
                             blurRadius: 9,
@@ -401,7 +401,7 @@ class _MuvazeneTarafi extends StatelessWidget {
             baslik,
             style: const TextStyle(
               color: Color(0xFF0A1F44),
-              shadows: const [
+              shadows: [
                 Shadow(
                     color: Color(0x99000000),
                     blurRadius: 9,
@@ -420,7 +420,7 @@ class _MuvazeneTarafi extends StatelessWidget {
             aciklama,
             style: const TextStyle(
               color: Color(0xFF536174),
-              shadows: const [
+              shadows: [
                 Shadow(
                     color: Color(0x99000000),
                     blurRadius: 9,
