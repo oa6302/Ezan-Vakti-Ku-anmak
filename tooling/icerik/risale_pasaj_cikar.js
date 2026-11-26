@@ -3,7 +3,7 @@
 // node risale_pasaj_cikar.js <cikti.json>
 const fs = require('fs');
 const API = 'https://risale.online/risale-api';
-const ESERLER = [[17, 'Sözler', 379], [13, 'Mektûbât', 515], [12, "Lem'alar", 419], [18, "Şuâ'lar", 628], [1, 'Asâ-yı Mûsâ', 318]];
+const ESERLER = process.env.ESERLER ? JSON.parse(process.env.ESERLER) : [[17, 'Sözler', 379], [13, 'Mektûbât', 515], [12, "Lem'alar", 419], [18, "Şuâ'lar", 628], [1, 'Asâ-yı Mûsâ', 318]];
 const ADIM = 10;
 const bekle = ms => new Promise(r => setTimeout(r, ms));
 async function al(url) {
