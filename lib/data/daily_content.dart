@@ -52,8 +52,7 @@ class DailyContent {
   });
 }
 
-const List<DailyContent> gunlukIcerikler = [
-];
+const List<DailyContent> gunlukIcerikler = [];
 
 DailyContent bugununIcerigi() {
   final now = DateTime.now();
@@ -217,4 +216,3 @@ const List<DailyContent> ekIcerikler = [
     renk: Color(0xFF2FAE7F),
   ),
 ];
-

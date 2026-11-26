@@ -1,4 +1,4 @@
-﻿import 'dart:convert';
+import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 
 enum PrayerStatus { kilindi, cemaatle, kaza, bos }
@@ -222,7 +222,9 @@ class PrayerTracker {
         }
       }
     }
-    if (activeDays.isEmpty) { return 0; }
+    if (activeDays.isEmpty) {
+      return 0;
+    }
     final sorted = activeDays.toList()..sort();
     var longest = 1;
     var current = 1;
@@ -230,7 +232,9 @@ class PrayerTracker {
       final diff = sorted[i].difference(sorted[i - 1]).inDays;
       if (diff == 1) {
         current++;
-        if (current > longest) { longest = current; }
+        if (current > longest) {
+          longest = current;
+        }
       } else {
         current = 1;
       }
@@ -260,4 +264,3 @@ class PrayerTracker {
     await prefs.remove(_key);
   }
 }
-

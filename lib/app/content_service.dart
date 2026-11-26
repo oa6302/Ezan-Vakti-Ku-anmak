@@ -332,7 +332,17 @@ class ContentService extends ChangeNotifier {
           )),
     ];
 
-    _pools[ContentType.vecize] = vecizeHavuzu.map((v) => ContentItem(id: 'vecize_${v.hashCode}', type: ContentType.vecize, baslik: v.kategori, icerik: v.latin, altIcerik: v.osmanlica, kaynak: 'BEDİÜZZAMAN SAİD NURSÎ', kategori: v.kategori, durum: ContentStatus.yayinlandi)).toList();
+    _pools[ContentType.vecize] = vecizeHavuzu
+        .map((v) => ContentItem(
+            id: 'vecize_${v.hashCode}',
+            type: ContentType.vecize,
+            baslik: v.kategori,
+            icerik: v.latin,
+            altIcerik: v.osmanlica,
+            kaynak: 'BEDİÜZZAMAN SAİD NURSÎ',
+            kategori: v.kategori,
+            durum: ContentStatus.yayinlandi))
+        .toList();
 
     // Digerleri bos baslar (admin ekleyebilir)
     // AYET havuzu (Diyanet meali + Arapca)
@@ -353,7 +363,7 @@ class ContentService extends ChangeNotifier {
         .toList();
 
     // GUNLUK ICERIK havuzu
-        final gunlukAll = gunluk365Icerikler;
+    final gunlukAll = gunluk365Icerikler;
     _pools[ContentType.gunluk] = List.generate(365, (i) {
       if (i < gunlukAll.length) {
         final g = gunlukAll[i];
@@ -508,8 +518,8 @@ class ContentService extends ChangeNotifier {
               kategori: h.kategori,
               durum: ContentStatus.yayinlandi,
             ))
-        .toList();  }
-
+        .toList();
+  }
 
   /// SharedPreferences'taki override'lari yukle
   Future<void> _overlayFromPrefs() async {
@@ -523,9 +533,9 @@ class ContentService extends ChangeNotifier {
           (t) => t.key == entry.key,
           orElse: () => ContentType.kissa,
         );
-        
+
         if (type == ContentType.kissa) continue;
-final list = (entry.value as List)
+        final list = (entry.value as List)
             .map((j) => ContentItem.fromJson(Map<String, dynamic>.from(j)))
             .toList();
         // Sadece custom + silinmis ozel kayitlari degistir
@@ -569,10 +579,12 @@ final list = (entry.value as List)
   ContentItem? getDailyPoolItem(ContentType type, DateTime date) {
     final pool = _pools[type];
     if (pool == null || pool.isEmpty) return null;
-    final doluKayitlar = pool.where((item) =>
-        item.icerik.trim().isNotEmpty ||
-        (item.altIcerik?.trim().isNotEmpty ?? false) ||
-        (item.arapca?.trim().isNotEmpty ?? false)).toList();
+    final doluKayitlar = pool
+        .where((item) =>
+            item.icerik.trim().isNotEmpty ||
+            (item.altIcerik?.trim().isNotEmpty ?? false) ||
+            (item.arapca?.trim().isNotEmpty ?? false))
+        .toList();
     if (doluKayitlar.isEmpty) return null;
     final gun = date.difference(DateTime(date.year, 1, 1)).inDays;
     return doluKayitlar[gun % doluKayitlar.length];
@@ -756,9 +768,9 @@ final list = (entry.value as List)
         (t) => t.key == entry.key,
         orElse: () => ContentType.kissa,
       );
-      
-        if (type == ContentType.kissa) continue;
-final incoming = (entry.value as List)
+
+      if (type == ContentType.kissa) continue;
+      final incoming = (entry.value as List)
           .map((j) => ContentItem.fromJson(Map<String, dynamic>.from(j)))
           .toList();
 
@@ -822,12 +834,3 @@ final incoming = (entry.value as List)
         icerik: 'Icerik yakinda eklenecek.',
       );
 }
-
-
-
-
-
-
-
-
-
