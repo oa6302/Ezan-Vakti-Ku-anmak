@@ -20,3 +20,4 @@ Veri: `assets/content/kissalar_365.json` · Denetim: `test/kissa_kalite_test.dar
 16 kategori × ~23 kıssa. Parti başına 16 (her kategoriden 1). Parti 1: `kissa_001–016` ✅ · Parti 2: `kissa_017–032` ✅ · Parti 3: `kissa_033–048` ✅ · Parti 4: `kissa_049–064` ✅.
 - Parti 5 (2026-11-27): kissa_065-080, her kategoriden 1.
 - Parti 6 (2026-11-27): kissa_081-096, her kategoriden 1.
+- Parti 7 (2026-11-27): kissa_097-112, her kategoriden 1.
