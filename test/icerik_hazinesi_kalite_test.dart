@@ -64,6 +64,19 @@ void main() {
         test('Risale perspektifinde eser adi ve kaynaklar', () {
           expect(d.kaynaklar.any((k) => k.contains('Said Nursî')), isTrue);
         });
+        test('Risale perspektifindeki birebir alintilar dogrulanmis metinde',
+            () {
+          final dogrulanmis = [
+            ..._oku('assets/content/gunluk_vecizeler.json')
+                .map((v) => v['latin'] as String),
+            ..._oku('assets/content/gunluk_risale.json')
+                .map((v) => v['latin'] as String),
+          ];
+          for (final m in RegExp('“([^”]+)”').allMatches(d.risalePerspektifi)) {
+            expect(dogrulanmis.any((t) => t.contains(m.group(1)!)), isTrue,
+                reason: 'Dogrulanmamis alinti: ${m.group(1)}');
+          }
+        });
         test('Mini sinav ve tefekkur sorusu', () {
           expect(
               d.sinav.length + d.dogruYanlis.length, greaterThanOrEqualTo(3));
