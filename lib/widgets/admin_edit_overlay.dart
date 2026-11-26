@@ -1,11 +1,10 @@
-import 'dart:io';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:gal/gal.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:nur_pusulasi/app/admin_session.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/features/admin/content_editor_page.dart';
@@ -274,6 +273,10 @@ class CardOverlayActions extends StatelessWidget {
   }
 
   Future<void> _download(BuildContext context) async {
+    if (kIsWeb) {
+      // Web'de galeri yok: paylasim menusu ile indirilebilir.
+      return _share(context);
+    }
     try {
       final bytes = await _capture();
       if (bytes == null) {
@@ -295,15 +298,17 @@ class CardOverlayActions extends StatelessWidget {
         _snack(context, 'Kart görüntüsü alınamadı.');
         return;
       }
-      final dir = await getTemporaryDirectory();
-      final file = File(
-          '${dir.path}/nur_pusulasi_${DateTime.now().millisecondsSinceEpoch}.png');
-      await file.writeAsBytes(bytes);
       if (!context.mounted) return;
-      await Share.shareXFiles(
-        [XFile(file.path)],
+      // Bellekten paylas: web ve mobilde ayni sekilde calisir (gecici dosya yok).
+      await SharePlus.instance.share(ShareParams(
+        files: [
+          XFile.fromData(bytes,
+              mimeType: 'image/png',
+              name:
+                  'nur_pusulasi_${DateTime.now().millisecondsSinceEpoch}.png'),
+        ],
         text: shareText ?? 'Nur Pusulası · Ezan Vakti Kuşanmak',
-      );
+      ));
     } catch (e) {
       _snack(context, 'Paylaşım hatası: $e');
     }

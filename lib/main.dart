@@ -1,4 +1,5 @@
-import 'dart:io' show Platform;
+import 'package:flutter/foundation.dart'
+    show kIsWeb, defaultTargetPlatform, TargetPlatform;
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/features/qibla/qibla_page.dart';
 import 'features/growth/growth_page.dart';
@@ -33,15 +34,15 @@ const _gold = Color(0xFFC9A961);
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await NotificationService().init();
 
   final appState = AppState();
-  await appState.load();
-
+  // Bir servisin hatasi uygulamanin acilmasini engellemesin.
+  await _guvenli('bildirim', () => NotificationService().init());
+  await _guvenli('ayarlar', appState.load);
   // Icerik servisini yukle (kissa, dua, vecize havuzlari)
-  await ContentService.instance.load();
-  await FavoritesService.instance.load();
-  await AdminSession.instance.load();
+  await _guvenli('icerik', ContentService.instance.load);
+  await _guvenli('favoriler', FavoritesService.instance.load);
+  await _guvenli('admin', AdminSession.instance.load);
 
   runApp(
     ChangeNotifierProvider<AppState>.value(
@@ -50,6 +51,20 @@ void main() async {
     ),
   );
 }
+
+Future<void> _guvenli(String ad, Future<void> Function() is_) async {
+  try {
+    await is_();
+  } catch (e, s) {
+    debugPrint('Acilis hatasi ($ad): $e\n$s');
+  }
+}
+
+/// Ana ekran widget'lari sadece mobil cihazlarda var (web/masaustunde yok).
+bool get _mobil =>
+    !kIsWeb &&
+    (defaultTargetPlatform == TargetPlatform.android ||
+        defaultTargetPlatform == TargetPlatform.iOS);
 
 class NurPusulasiApp extends StatefulWidget {
   const NurPusulasiApp({super.key});
@@ -153,26 +168,27 @@ class _MainShellState extends State<MainShell> with WidgetsBindingObserver {
 
   Future<void> _refreshNotifications() async {
     final appState = context.read<AppState>();
-    // Örnek:
-    if (Platform.isAndroid || Platform.isIOS) {
+    // Namaz vakitleri ve gunun ayetini Android ana ekran widget'larina aktar.
+    if (_mobil) {
       try {
-        await WidgetSyncService.sync(
-            appState); // Veya senin kodunda nasıl çağrılıyorsa
+        await WidgetSyncService.sync(appState);
       } catch (e) {
         debugPrint('Widget sync error: $e');
       }
     }
 
-    // Namaz vakitleri ve gunun ayetini Android ana ekran widget'larina aktar.
-
-    if (!mounted) return;
+    if (!mounted || kIsWeb) return;
     if (appState.notifEnabled) {
-      await NotificationService().scheduleAll(
-        city: appState.city,
-        latitude: appState.lat,
-        longitude: appState.lng,
-        locationLabel: appState.locationName,
-      );
+      try {
+        await NotificationService().scheduleAll(
+          city: appState.city,
+          latitude: appState.lat,
+          longitude: appState.lng,
+          locationLabel: appState.locationName,
+        );
+      } catch (e) {
+        debugPrint('Bildirim planlama hatasi: $e');
+      }
     }
   }
 
