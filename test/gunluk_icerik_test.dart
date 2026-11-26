@@ -42,6 +42,20 @@ void main() {
     }
   });
 
+  test('Gunluk dualar: kaynak + sihhat; hadis dualarinda Arapca yok', () {
+    final dualar = _oku('assets/content/gunluk_dualar.json');
+    expect(dualar.length, greaterThanOrEqualTo(80));
+    expect(dualar.map((d) => d['anlam']).toSet().length, dualar.length);
+    for (final d in dualar) {
+      expect((d['anlam'] as String).length, greaterThan(20));
+      expect((d['kaynak'] as String).trim(), isNotEmpty);
+      expect((d['sihhat'] as String).trim(), isNotEmpty);
+      final kuran = d['sihhat'] == "Kur'an-ı Kerîm";
+      expect(_arap.hasMatch((d['arapca'] as String?) ?? ''), kuran,
+          reason: d['kaynak'] as String);
+    }
+  });
+
   test('Uygulama gunluk havuzlari bu listelerden kurar; her gun farkli',
       () async {
     TestWidgetsFlutterBinding.ensureInitialized();
@@ -49,6 +63,13 @@ void main() {
     await ContentService.instance.load();
     expect(ContentService.instance.getPool(ContentType.ayet).length, 365);
     expect(ContentService.instance.getPool(ContentType.hadis).length, 365);
+    expect(
+        ContentService.instance
+            .getPool(ContentType.hadis)
+            .every((h) => (h.arapca ?? '').isEmpty),
+        isTrue);
+    expect(ContentService.instance.getPool(ContentType.vecize).first.icerik,
+        'Îmân hem nûrdur, hem kuvvettir.');
     final yil =
         List.generate(365, (i) => DateTime(2026, 1, 1).add(Duration(days: i)));
     final gunluk = yil

@@ -9,6 +9,23 @@ import 'package:nur_pusulasi/data/icerik_hazinesi.dart';
 import 'package:nur_pusulasi/data/vecize_havuzu.dart';
 
 void main() {
+  test('Gunluk vecizeler: Osmanlica ve Latince ayni cumle, kaynakli', () {
+    final gunluk = (jsonDecode(
+                File('assets/content/gunluk_vecizeler.json').readAsStringSync())
+            as List)
+        .map((e) => Map<String, dynamic>.from(e as Map))
+        .toList();
+    expect(gunluk.length, greaterThanOrEqualTo(100));
+    expect(gunluk.map((v) => v['latin']).toSet().length, gunluk.length);
+    for (final v in gunluk) {
+      final o = v['osmanlica'] as String, l = v['latin'] as String;
+      expect(RegExp(r'[؀-ۿ]').hasMatch(o), isTrue, reason: l);
+      // Esleme kaynakta kelime kelime (data-latince) yapildi; sezgisel
+      // harf kontrolu bilesik yazimlarda (ذی حیات = zîhayat) yanilir.
+      expect((v['eser'] as String).isNotEmpty && v['sayfa'] is int, isTrue);
+    }
+  });
+
   test('Mevcut vecizeler: Osmanlica-Latin uyum raporu', () {
     final rapor = StringBuffer();
     var uyumsuz = 0;
@@ -32,10 +49,17 @@ void main() {
     final detaylar = (jsonDecode(
             File(vecizeDetaylariVarligi).readAsStringSync()) as List)
         .map((e) => VecizeDetayi.fromJson(Map<String, dynamic>.from(e as Map)));
+    // Gunluk havuz: kaynaktan dogrulanmis vecizeler
+    final gunluk = (jsonDecode(
+                File('assets/content/gunluk_vecizeler.json').readAsStringSync())
+            as List)
+        .map((e) => Map<String, dynamic>.from(e as Map));
     for (final d in detaylar) {
-      final v = vecizeHavuzu.where((x) => x.latin == d.latin);
-      expect(v, isNotEmpty, reason: 'Havuzda yok: ${d.latin}');
-      expect(osmanlicaLatinUyumsuzluklari(v.first.osmanlica, v.first.latin),
+      final v = gunluk.where((x) => x['latin'] == d.latin);
+      expect(v, isNotEmpty, reason: 'Gunluk havuzda yok: ${d.latin}');
+      expect(
+          osmanlicaLatinUyumsuzluklari(
+              v.first['osmanlica'] as String, v.first['latin'] as String),
           isEmpty,
           reason: d.latin);
     }

@@ -3,3 +3,5 @@
 - Hadis (365): `sh hadis_indir.sh && node hadis_sec.js ../../assets/content/gunluk_hadisler.json` — Nevevî Kırk Hadis + Buhârî seçili kitaplar; numara kaynaktan.
 İndirilen `*.json` dosyaları git'e girmez.
 - `kuran_dualari.js`: Kur'an dualarını `dua_hazinesi.json`a ekler (`node kuran_dualari.js ../../assets/content/dua_hazinesi.json`).
+- `vecize_cikar.js` / `vecize_sec.js` / `vecize_secim.json`: risale.online asil eserlerinden dogrulanmis vecize.
+- `dua_hadis_sec.js`: hadis dualari + Kur'an dualari -> `gunluk_dualar.json`.

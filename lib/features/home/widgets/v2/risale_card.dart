@@ -6,7 +6,6 @@ import 'package:nur_pusulasi/widgets/admin_card_wrapper.dart';
 
 const _red = Color(0xFFC8102E);
 
-
 class RisaleCard extends StatelessWidget {
   const RisaleCard({super.key});
 

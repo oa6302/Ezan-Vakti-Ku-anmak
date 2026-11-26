@@ -19,3 +19,7 @@ Gövde 2.800–3.200 karakter (hakikat…temel ders).
 Vecize kimliği artık metinden türetilir (`_kararliHash`); önceden her açılışta değişiyor, favoriler kayboluyordu.
 
 Örnek: "İman hem nurdur hem kuvvettir." → Sözler, 23. Söz, 1. Mebhas, 5. Nokta.
+
+## Gunluk vecize (2026-11-27)
+- `assets/content/gunluk_vecizeler.json`: 117 vecize; Osmanlica ve Latince risale.online kelime kelime hizali metinden ayni cumle. Uretim: `tooling/icerik/vecize_cikar.js` -> `vecize_sec.js` + elle secim `vecize_secim.json`.
+- Eski 110 sadelestirilmis vecize `vecize_havuzu.dart`ta korunur, gunluk havuzda kullanilmaz.

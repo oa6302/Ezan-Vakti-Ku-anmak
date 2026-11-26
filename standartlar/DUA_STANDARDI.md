@@ -26,3 +26,4 @@ Kur'an metni mushafla, hadis kaynağıyla, Risale metni eserle karşılaştırı
 
 ## Parti kaydı
 - Parti 1: 63 Kur'an duası (dua_k001-k063), `tooling/icerik/kuran_dualari.js`. Metin api.quran.com (Uthmani), anlam Diyanet meali; okunuş otomatik harf çevirisi, parça anlamı kelime kelime.
+- Parti 2: `assets/content/gunluk_dualar.json` 87 gunluk dua (63 Kur'an + 24 hadis duasi, yalniz meal). `tooling/icerik/dua_hadis_sec.js`; kisiye/yere ozel dualar elendi.

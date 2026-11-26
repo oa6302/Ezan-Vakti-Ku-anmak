@@ -584,6 +584,58 @@ class ContentService extends ChangeNotifier {
     } catch (e) {
       debugPrint('gunluk_hadisler: $e');
     }
+    try {
+      // Kaynagi dogrulanmis dualar once; eski dua kayitlari silinmez, arkada kalir
+      final dualar = await oku('assets/content/gunluk_dualar.json');
+      if (dualar.isNotEmpty) {
+        final dogrulanmis = dualar
+            .map((d) => ContentItem(
+                  id: 'gdua_${_kararliHash('${d['kaynak']}|${d['anlam']}')}',
+                  type: ContentType.dua,
+                  baslik: d['baslik'] as String,
+                  icerik: (d['okunus'] as String?) ?? '',
+                  altIcerik: d['anlam'] as String,
+                  arapca: (d['arapca'] as String?) ?? '',
+                  kaynak: d['kaynak'] as String,
+                  kategori: d['kategori'] as String?,
+                  dogrulandi: true,
+                  durum: ContentStatus.yayinlandi,
+                  extra: {'sihhat': d['sihhat']},
+                ))
+            .toList();
+        _pools[ContentType.dua] = [
+          ...dogrulanmis,
+          ...?_pools[ContentType.dua],
+        ];
+      }
+    } catch (e) {
+      debugPrint('gunluk_dualar: $e');
+    }
+    try {
+      // Osmanlica ve Latince ayni kaynak cumlesinden (kelime kelime); eski
+      // sadelestirilmis vecizeler vecize_havuzu.dart'ta korunur.
+      final vecizeler = await oku('assets/content/gunluk_vecizeler.json');
+      if (vecizeler.isNotEmpty) {
+        _pools[ContentType.vecize] = vecizeler
+            .map((v) => ContentItem(
+                  id: 'vecize_${_kararliHash(v['latin'] as String)}',
+                  type: ContentType.vecize,
+                  baslik: v['kategori'] as String,
+                  icerik: v['latin'] as String,
+                  altIcerik: v['osmanlica'] as String,
+                  kaynak:
+                      'BEDÎÜZZAMAN SAİD NURSÎ · ${(v['eser'] as String).toUpperCase()}',
+                  kategori: v['kategori'] as String,
+                  dogrulandi: true,
+                  kaynakTuru: KaynakTuru.risale,
+                  durum: ContentStatus.yayinlandi,
+                  extra: {'eser': v['eser'], 'sayfa': v['sayfa']},
+                ))
+            .toList();
+      }
+    } catch (e) {
+      debugPrint('gunluk_vecizeler: $e');
+    }
   }
 
   /// SharedPreferences'taki override'lari yukle
