@@ -102,7 +102,9 @@ class PrayerService {
     final coordinates = Coordinates(lat, lng);
 
     final params = CalculationMethodParameters.turkiye();
-    params.madhab = Madhab.hanafi;
+    // Diyanet takvimindeki ikindi "asr-i evvel"dir (golge = 1 misli).
+    // Madhab.hanafi (asr-i sani) ikindiyi ~25-40 dk gec verir.
+    params.madhab = Madhab.shafi;
 
     final prayerTimes = PrayerTimes(
       coordinates: coordinates,
@@ -126,7 +128,7 @@ class PrayerService {
       date: targetDate,
       times: times,
       calculationMethod: 'Diyanet (yaklasim)',
-      madhab: 'Hanefi',
+      madhab: 'Asr-i evvel (Diyanet)',
     );
   }
 

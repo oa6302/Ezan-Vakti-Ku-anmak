@@ -52,8 +52,10 @@ void main() {
       await t.tap(hedef);
       await bekle(t);
       expect(t.takeException(), isNull, reason: 'Sayfa: $ad');
-      await t.pageBack();
+      // Sistem geri tusu (ozel basligi olan sayfalarda da calisir)
+      await t.binding.handlePopRoute();
       await bekle(t, 750);
+      expect(find.text('Daha Fazla'), findsWidgets, reason: 'Geri: $ad');
     }
   });
 }
