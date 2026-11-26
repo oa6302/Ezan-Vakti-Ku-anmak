@@ -830,5 +830,6 @@
   "uiPusulaSensorYok": "Bu cihazda manyetik pusula sensörü yok veya izin verilmedi.\n\nKıble açısı hesaplandı, ancak cihaz yönü gösterilemiyor.",
   "uiBildirimNotlari": "• Hatırlatma saatleri cihazın yerel saatine göre ayarlanır.\n• Pil tasarrufu bazı telefonlarda bildirimleri geciktirebilir.\n• Android bildirim sesleri kanal ayarlarından etkilenir.\n• Bu ekran tek başına tam ezan sesini etkinleştirmez.",
   "uiKissaHakikatleriKesfet": "Bu kıssanın hayatımıza bakan derin hakikatlerini keşfet",
-  "uiSayaclarSifirlanacak": "Mevcut ilerleme, toplam sayaç ve tamamlanan zincir turları sıfırlanacak. Zikir listeniz korunacaktır."
+  "uiSayaclarSifirlanacak": "Mevcut ilerleme, toplam sayaç ve tamamlanan zincir turları sıfırlanacak. Zikir listeniz korunacaktır.",
+  "uiKissaDevaminiOku": "Kıssanın devamını oku"
 }

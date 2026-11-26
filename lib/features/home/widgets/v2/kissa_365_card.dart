@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/data/islami_kissalar.dart';
-import 'package:nur_pusulasi/features/kissa/pages/kissa_tefekkur_page.dart';
+import 'package:nur_pusulasi/features/kissa/pages/kissa_kutuphanesi_page.dart';
 import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
 
 class Kissa365Card extends StatefulWidget {
@@ -23,7 +23,8 @@ class _Kissa365CardState extends State<Kissa365Card> {
     final bugun = DateTime.now();
     final gunNo = bugun.difference(DateTime(bugun.year, 1, 1)).inDays;
     final kissa = islamiKissalar[gunNo % islamiKissalar.length];
-    final ozet = kissa.ozet.trim().isNotEmpty ? kissa.ozet : kissa.hisse;
+    // Kartta kissanin baslangici; devami detay sayfasinda
+    final ozet = kissa.baslangic.isNotEmpty ? kissa.baslangic : kissa.hisse;
 
     return Container(
       decoration: BoxDecoration(
@@ -132,7 +133,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                     const SizedBox(height: 11),
                     Text(
                       ozet,
-                      maxLines: 4,
+                      maxLines: 6,
                       overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
                         shadows: [
@@ -267,7 +268,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                 onTap: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (_) => KissaTefekkurPage(kissa: kissa),
+                      builder: (_) => KissaDetayPage(kissa: kissa),
                     ),
                   );
                 },
@@ -280,7 +281,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                     children: [
                       Expanded(
                         child: Text(
-                          AppLocalizations.of(context).uiKissaHakikatleriKesfet,
+                          AppLocalizations.of(context).uiKissaDevaminiOku,
                           style: TextStyle(
                             color: Color(0xFF10264B),
                             fontSize: 12,

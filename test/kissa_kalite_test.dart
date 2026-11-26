@@ -35,6 +35,15 @@ void main() {
         }
       });
       test('En az 3 ders', () => expect(k.dersler.length, greaterThanOrEqualTo(3)));
+      test('Kissa tam anlatiliyor (anlatim >= 1.600 ve govdenin yarisindan fazla)', () {
+        expect(k.metin.length, greaterThanOrEqualTo(1600),
+            reason: 'anlatim ${k.metin.length}');
+        expect(k.metin.length / k.govde.length, greaterThan(0.5));
+      });
+      test('Kart icin baslangic paragrafi 150-450 karakter', () {
+        expect(k.baslangic.length, inInclusiveRange(150, 450),
+            reason: 'baslangic ${k.baslangic.length}');
+      });
       test('2. Kaynak var', () => expect(k.kaynaklar, isNotEmpty));
       test('Sorgula bir soru', () => expect(k.sorgula.trim(), endsWith('?')));
       test('Kimlik ve kategori gecerli', () {

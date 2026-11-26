@@ -2661,6 +2661,12 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'Mevcut ilerleme, toplam sayaç ve tamamlanan zincir turları sıfırlanacak. Zikir listeniz korunacaktır.'**
   String get uiSayaclarSifirlanacak;
+
+  /// No description provided for @uiKissaDevaminiOku.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kıssanın devamını oku'**
+  String get uiKissaDevaminiOku;
 }
 
 class _AppLocalizationsDelegate

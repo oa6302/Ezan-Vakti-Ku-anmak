@@ -6,6 +6,8 @@ Veri: `assets/content/kissalar_365.json` · Denetim: `test/kissa_kalite_test.dar
 
 ## Ölçü
 - Gövde 2.800–3.200 karakter (başlık ve kaynak hariç). Dolgu ve tekrar yok.
+- Kıssa tam anlatılır: `anlatim` ≥ 1.600 karakter ve gövdenin yarısından fazlası.
+- `anlatim` ilk paragrafı (150–450) ana sayfa kartında görünür; "Kıssanın devamını oku" tam kıssayı açar.
 - Kategori: `peygamberler kuran efendimiz sahabe alimler risale sabir merhamet namaz tovbe aile adalet ahiret iman nefis genclik`.
 
 ## Doğruluk (insan incelemesi)

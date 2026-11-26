@@ -1442,4 +1442,7 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get uiSayaclarSifirlanacak =>
       'سيُعاد تعيين التقدّم الحالي والعداد الإجمالي والجولات المكتملة. ستبقى قائمة أذكارك محفوظة.';
+
+  @override
+  String get uiKissaDevaminiOku => 'اقرأ القصة كاملة';
 }

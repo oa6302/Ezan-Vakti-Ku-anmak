@@ -1446,4 +1446,7 @@ class AppLocalizationsTr extends AppLocalizations {
   @override
   String get uiSayaclarSifirlanacak =>
       'Mevcut ilerleme, toplam sayaç ve tamamlanan zincir turları sıfırlanacak. Zikir listeniz korunacaktır.';
+
+  @override
+  String get uiKissaDevaminiOku => 'Kıssanın devamını oku';
 }

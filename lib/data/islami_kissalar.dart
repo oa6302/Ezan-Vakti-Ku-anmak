@@ -83,6 +83,10 @@ class Kissa {
   });
 
   String get kaynak => kaynaklar.join(' · ');
+
+  /// Kissanin baslangici (anlatimin ilk paragrafi): kartta gosterilir,
+  /// devami detay sayfasinda okunur.
+  String get baslangic => metin.split('\n\n').first.trim();
   String get ozet => giris;
   String get fitrat => dersler.map((d) => '• $d').join('\n\n');
   String get iman => '';

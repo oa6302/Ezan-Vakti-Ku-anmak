@@ -1453,4 +1453,7 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get uiSayaclarSifirlanacak =>
       'Current progress, the total counter and completed chain rounds will be reset. Your dhikr list will be kept.';
+
+  @override
+  String get uiKissaDevaminiOku => 'Read the full story';
 }
