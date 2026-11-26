@@ -550,5 +550,501 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_010",
+  "kategori": "ibadet",
+  "baslik": "Namaz: İbadetlerin Nurani Fihristi",
+  "giris": "Bir kitabın başındaki fihrist, o kitabın bütün bölümlerini kısaca gösterir. Namaz için de böyle bir şey söylenebilir mi? Kıyamda, rükûda, secdede ve oturuşta yapılan her hareket, başka ibadetlerin bir özeti olabilir mi? Bediüzzaman namazı bu açıdan anlatır.",
+  "aciklama": "Kur'an namazı ‘dinin direği’ olarak gösterilen bir ibadet olarak sık sık emreder: “Namazı dosdoğru kılın, zekâtı verin ve rükû edenlerle birlikte rükû edin.” Namaz, imandan sonra en önemli farzdır. Peygamber Efendimiz, kıyamet günü kulun ilk hesaba çekileceği amelin namaz olduğunu bildirmiştir. Namazın bu kadar önemli olmasının sebebi, onun kulluğun bütün yönlerini bir araya getirmesidir. Namazda insan hem bedeniyle hem diliyle hem de kalbiyle ibadet eder. Kıyamda Allah'ın kelamını okur, rükûda O'nun azametine eğilir, secdede kendi aczini en derin şekilde hisseder. Namaz, aynı zamanda insanı kötülüklerden alıkoyan bir terbiyedir: “Şüphesiz namaz, hayâsızlıktan ve kötülükten alıkoyar.” Günde beş defa tekrarlanan bu buluşma, insanın kalbini sürekli tazeler ve gün boyunca biriken gafleti temizler.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Dokuzuncu Söz'ünün Dördüncü Nükte'sinde namazın bu kapsayıcılığını şöyle ifade eder: “Namaz dahi bütün ibâdâtın envâını şâmil bir fihriste-i nûrâniyedir.” Eserdeki anlatımın özetine göre namazda, meleklerin ve bütün mahlûkatın farklı ibadetlerinin birer numunesi vardır: Kıyamdakiler, rükûdakiler, secdedekiler gibi. İnsan namazla bu ibadetlerin hepsine bir ölçüde ortak olur. İşârâtü'l-İ'câz'da da ibadetin insanı nasıl temizlediği şöyle anlatılır: “İnsandan tabiat paslarını izâle eden, ibâdettir.” Yani ibadet, dünyanın kirlerini ve gafletin paslarını kalpten silen bir temizliktir.",
+  "kainattanDelil": "Ağaçların dalları güneşe doğru uzanır, otlar toprağa eğilir, kuşlar gökte saf saf uçar. Kâinattaki her varlık kendi lisanıyla Rabbini tesbih eder. Namazdaki kıyam, rükû ve secde, bu kâinat ibadetinin insandaki özetidir. İnsan namaz kıldığında, bütün varlıkların ibadet korosuna katılmış olur.",
+  "hikmet": "Namaz, kulluğun bütün çeşitlerini bir arada yaşatan bir ibadettir. Onu sadece bir hareketler dizisi olarak değil, bütün kâinatın ibadetine katılmak olarak görmek, namazın tadını artırır. Her secde, kalbin paslarını silen bir temizliktir. Namazı kılan, gün boyu Rabbiyle beş defa buluşmuş olur.",
+  "kendimize": "Namazlarımda kıyamın, rükûnun ve secdenin anlamını düşünüyor muyum? Namaz bana gün içinde biriken gafletten bir temizlik oluyor mu? Namaz vakti girdiğinde onu ertelemek yerine hemen kalkabiliyor muyum?",
+  "hayat": "Namaza dururken kendimize ‘Şimdi bütün kâinatın ibadetine katılıyorum’ demek, namazı daha bilinçli kılar. Secdeleri biraz uzatıp orada kendi dilimizle dua etmek de namazı kalbimizin sığınağı hâline getirir.",
+  "ders": "Namaz, bütün ibadetlerin nurani bir fihristi ve kalbin paslarını silen bir temizliktir.",
+  "tefekkurSorusu": "Bugünkü namazlarımın hangisinde kendimi bütün kâinatla birlikte ibadet ediyor gibi hissettim?",
+  "dua": {
+   "arapca": "رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى ۚ رَبَّنَا وَتَقَبَّلْ دُعَآءِ رَبَّنَا ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ ٱلْحِسَابُ",
+   "okunus": "Rabbi ic'alnî mukîme s-saleti vemin zurrıyyetî rabbenâ vetekabbel du'âi rabbenâ iğfir lî velivâlideyye velilmuminîne yevme yekûmu l-hısâb",
+   "anlam": "&quot;Rabbim! Beni ve çocuklarımı namaz kılanlardan eyle. Rabbimiz! Duamı kabul buyur.&quot; &quot;Rabbimiz! Hesap görülecek günde, beni, anamı babamı ve inananları bağışla.&quot;",
+   "kaynak": "İbrâhîm, 14/40-41"
+  },
+  "kavramlar": [
+   "Namaz",
+   "İbadet",
+   "Dokuzuncu Söz",
+   "Secde",
+   "Tesbih"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/43",
+   "Ankebût, 29/45",
+   "Bediüzzaman Said Nursî, Sözler, Dokuzuncu Söz, Dördüncü Nükte",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Bakara 21. âyetin tefsiri",
+   "Tirmizî, Salât, 188 (413)"
+  ],
+  "sinav": [
+   {
+    "soru": "Bediüzzaman namazı neye benzetir?",
+    "secenekler": [
+     "Bütün ibadetlerin nurani fihristine",
+     "Bir günlük işe",
+     "Sadece bir alışkanlığa",
+     "Bir spor hareketine"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre insandan tabiat paslarını ne giderir?",
+    "secenekler": [
+     "Ticaret",
+     "İbadet",
+     "Uyku",
+     "Eğlence"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Kur'an'a göre namaz, hayâsızlıktan ve kötülükten alıkoyar.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_011",
+  "kategori": "nefis",
+  "baslik": "İnsandaki En Tehlikeli Damar: Enaniyet",
+  "giris": "Bir aynanın ışığı yansıtması ile kendini ışık kaynağı sanması arasındaki farkı düşünün. İnsan da sahip olduğu yetenekleri ve nimetleri kendinden bilirse, bir aynanın kendini güneş sanması gibi olur. Bediüzzaman bu yanılgının kaynağına ‘enaniyet’ der.",
+  "aciklama": "Enaniyet, insanın kendini her şeyin merkezi ve sahibi zannetmesidir. Kur'an, Karun'un hikâyesinde bu hastalığın en açık örneğini verir. Karun kendisine verilen hazineler hakkında “Bu bana ancak kendimdeki bilgi sayesinde verildi” demiş ve helak olmuştu. Şeytanın Âdem'e secde etmeyi reddederken söylediği “Ben ondan daha hayırlıyım” sözü de enaniyetin ilk örneğidir. Enaniyet, insanı Allah'ı unutmaya, nimetleri kendinden bilmeye ve başkalarını küçük görmeye sürükler. Bu yüzden nefis terbiyesinin en önemli hedeflerinden biri enaniyeti kırmaktır. Kur'an, nefsini arındıranın kurtulduğunu bildirir: “Nefsini arındıran kurtuluşa ermiştir, onu kötülüklere gömen ise ziyana uğramıştır.” Nefisle mücadele, ömür boyu süren bir yolculuktur.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirmi Dokuzuncu Mektub'unun Altıncı Kısmı'nda bu hastalığı şöyle tarif eder: “Hakîkaten insanda en tehlikeli damar, enâniyettir.” Eserdeki anlatımın özetine göre enaniyet, insanın kendi varlığını müstakil görmesi ve başkasının hakkını kabul etmemesine yol açar. Sözler'in Otuzuncu Söz'ünde de ‘ene’, yani insandaki benlik, Allah'ın sıfatlarını anlamak için bir ölçü olarak verilmiş bir emanet olarak anlatılır; bu emaneti kendine mal eden enaniyete düşer. Mesnevî-i Nûriye'de ise nefisle mücadele şöyle tanımlanır: “Nefis ve şeytanla uğraşmak, cihaddır.” Yani enaniyeti kırmak, insanın kendi iç dünyasında yaptığı büyük bir cihaddır.",
+  "kainattanDelil": "Ay, gece parlak görünür; ama ışığı kendisinin değildir, güneşten gelir. Ay ışığını kendinden bilseydi büyük bir yanılgıya düşerdi. İnsandaki güzellikler, yetenekler ve nimetler de böyledir; hepsi Allah'ın isimlerinin yansımalarıdır. Bir damla su, güneşin aksini taşır; ama damla buharlaşınca güneş yerinde kalır. Asıl olan güneştir, damla sadece bir aynadır.",
+  "hikmet": "Enaniyet, insanı yüceltiyormuş gibi görünürken aslında onu yalnızlaştırır ve küçültür. Benliğini Allah'ın emaneti olarak gören insan, hem tevazu kazanır hem de gerçek bir değer bulur. Nefisle cihad, en zor ama en kârlı cihaddır. Benliğini emanet bilen, onu sahibinin rızasına göre kullanır.",
+  "kendimize": "Başarılarımı kendime mi, yoksa Allah'ın lütfuna mı bağlıyorum? Bir tartışmada haklı olmaktan çok kendimi haklı çıkarmaya mı çalışıyorum?",
+  "hayat": "Bir başarı elde ettiğimizde ‘Bu Rabbimin lütfundandır’ demek, eleştirildiğimizde savunmaya geçmeden önce dinlemek enaniyete karşı somut adımlardır. Her gün bir kez kendi kusurlarımızı düşünmek de nefis terbiyesinin başlangıcıdır.",
+  "ders": "İnsandaki en tehlikeli damar enaniyettir; onu kırmak için nefisle yapılan mücadele bir cihaddır.",
+  "tefekkurSorusu": "Bugün hangi davranışımda enaniyetin, yani ‘ben’ duygusunun izini gördüm?",
+  "dua": {
+   "arapca": "رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+   "okunus": "Rabbi innî zalemtu nefsî fe-iğfir lî feğafera lehu innehu huve l-ğafûru r-rahîm",
+   "anlam": "Musa: &quot;Rabbim! Doğrusu kendime yazık ettim, beni bağışla&quot; dedi. Allah da onu bağışladı. O, şüphesiz bağışlayandır, merhamet edendir.",
+   "kaynak": "Kasas, 28/16"
+  },
+  "kavramlar": [
+   "Enaniyet",
+   "Ene",
+   "Nefis",
+   "Cihad",
+   "Tevazu"
+  ],
+  "kaynaklar": [
+   "Kasas, 28/78",
+   "Şems, 91/9-10",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Dokuzuncu Mektub, Altıncı Kısım",
+   "Bediüzzaman Said Nursî, Sözler, Otuzuncu Söz",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Onuncu Risâle"
+  ],
+  "sinav": [
+   {
+    "soru": "Bediüzzaman'a göre insandaki en tehlikeli damar nedir?",
+    "secenekler": [
+     "Merhamet",
+     "Enaniyet",
+     "Cömertlik",
+     "Sabır"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Mesnevî-i Nûriye'ye göre nefis ve şeytanla uğraşmak nedir?",
+    "secenekler": [
+     "Bir oyun",
+     "Bir cihad",
+     "Bir zaman kaybı",
+     "Bir hastalık"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Karun, kendisine verilen hazineleri Allah'ın lütfu olarak görmüştü.",
+    "dogru": false
+   }
+  ]
+ },
+ {
+  "id": "ders_012",
+  "kategori": "iman",
+  "baslik": "Ebedî Saadetin Anahtarı ve İmanın Tecdidi",
+  "giris": "Bir anahtar düşünün: Sonsuz bir hazinenin kapısını açıyor. Bu anahtar paslanırsa ya da kaybolursa ne olur? İnsan onu sürekli kontrol eder, temizler, korur. Bediüzzaman imanı ebedî saadetin anahtarına benzetir ve bu anahtarın sürekli yenilenmesi gerektiğini söyler.",
+  "aciklama": "Kur'an, iman edip salih amel işleyenlere ebedî bir saadet vaat eder: “İman edip salih ameller işleyenlere gelince, onlar için içlerinde ebedî kalacakları cennetler vardır.” İman, bu saadetin ilk ve en temel şartıdır. Ancak iman bir defa kazanılıp sonra unutulacak bir şey değildir. Kur'an, müminlere şöyle seslenir: “Ey iman edenler! Allah'a ve Resûlüne iman edin.” Müfessirler bu âyeti, imanı sürekli tazelemek ve derinleştirmek şeklinde açıklamışlardır. Peygamber Efendimiz de bir hadisinde, elbisenin eskidiği gibi imanın da kalpte eskiyebileceğini, bu yüzden Allah'tan imanın yenilenmesini istemek gerektiğini bildirmiştir. İnsanın kalbi değişkendir; gaflet, günah ve dünyanın meşguliyetleri imanın parlaklığını örtebilir.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın On Altıncı Mektub'unun İkinci Nokta'sında imanın değerini şöyle ifade eder: “Hayât-ı ebediyeyi kazanmakta en birinci vâsıta ve saâdet-i ebediyenin anahtarı îmândır.” Yirmi Altıncı Mektub'un Dördüncü Mebhas'ında ise imanın yenilenmesinin gerekçesini açıklar: “İnsanın hem şahsı, hem âlemi her zaman teceddüd ettikleri için, her zaman tecdîd-i îmâna muhtâçtır.” Eserdeki anlatımın özetine göre insan her gün yenilenir, etrafındaki dünya da sürekli değişir; bu değişen her ‘yeni insan’ ve ‘yeni dünya’ için imanın da yenilenmesi gerekir. Bediüzzaman, bunun en güzel yolunun ‘Lâ ilâhe illallah’ zikrini tefekkürle tekrar etmek olduğunu belirtir.",
+  "kainattanDelil": "Ağaçlar her bahar yapraklarını yeniler; nehirler her an yeni sularla akar. Bedenimizdeki hücreler de sürekli yenilenir. Kâinatta hiçbir şey durağan değildir. İman da canlı bir ağaç gibi, sürekli yeni yapraklarla beslenmeli ve tazelenmelidir. Bir lamba da yağı tazelenmezse söner; iman lambası da zikir ve ibadetle beslenmelidir.",
+  "hikmet": "İman, ebedî saadetin anahtarıdır; ama anahtar da bakım ister. Her gün değişen insan ve dünya, her gün yenilenen bir imana muhtaçtır. Zikir ve tefekkür, imanın paslanmasını önleyen en etkili yollardır. İmanını tazeleyen, her yeni günü yeni bir nurla karşılar.",
+  "kendimize": "İmanımı en son ne zaman bilinçli olarak tazeledim? ‘Lâ ilâhe illallah’ derken bu sözün anlamını kalbimde hissediyor muyum? Gafletin imanımın parlaklığını örttüğü anları fark edebiliyor muyum?",
+  "hayat": "Her sabah ve akşam birkaç defa ‘Lâ ilâhe illallah’ zikrini anlamını düşünerek tekrar etmek, imanı tazelemenin sünnete uygun bir yoludur. İman esaslarına dair bir kitap okumak ya da bir sohbete katılmak da imanın tecdidine yardımcı olur.",
+  "ders": "İman ebedî saadetin anahtarıdır; değişen insan ve dünya için her zaman yenilenmelidir.",
+  "tefekkurSorusu": "Bugün imanımı tazelemek için ne yaptım?",
+  "dua": {
+   "arapca": "رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
+   "okunus": "Rabbenâ innenâ âmennâ fe-iğfir lenâ zunûbenâ vekınâ 'azâbe n-nâr",
+   "anlam": "Onlar ki, &quot;Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru&quot; diyen, sabreden, doğru olan, gönülden kulluk eden, hayra sarfeden ve seher vakitlerinde bağışlanma dileyenlerdir.",
+   "kaynak": "Âl-i İmrân, 3/16"
+  },
+  "kavramlar": [
+   "İman",
+   "Tecdid-i iman",
+   "Saadet-i ebediye",
+   "Zikir",
+   "Tefekkür"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/82",
+   "Nisâ, 4/136",
+   "Bediüzzaman Said Nursî, Mektûbât, On Altıncı Mektub, İkinci Nokta",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Altıncı Mektub, Dördüncü Mebhas",
+   "Hâkim, el-Müstedrek, I, 4"
+  ],
+  "sinav": [
+   {
+    "soru": "Bediüzzaman'a göre saadet-i ebediyenin anahtarı nedir?",
+    "secenekler": [
+     "Zenginlik",
+     "İman",
+     "Şöhret",
+     "Güç"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "İnsan neden her zaman tecdid-i imana muhtaçtır?",
+    "secenekler": [
+     "Çünkü imanı kaybolmuştur",
+     "Çünkü hem şahsı hem âlemi sürekli yenilenir",
+     "Çünkü dünya durağandır",
+     "Çünkü iman bir alışkanlıktır"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "İmanı tazelemenin yollarından biri, ‘Lâ ilâhe illallah’ zikrini tefekkürle tekrar etmektir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_013",
+  "kategori": "risaleler",
+  "baslik": "Hastalık: Bir Define ve Bir Hediye",
+  "giris": "Hastalık çoğu zaman sadece bir sıkıntı olarak görülür. Peki hastalığın içinde gizli bir hazine olabilir mi? Bediüzzaman, hastalara yazdığı risalede hastalığa bambaşka bir pencereden bakmayı öğretir: bir define ve bir hediye olarak.",
+  "aciklama": "Kur'an, Hz. Eyyûb'un hastalık karşısındaki sabrını örnek olarak gösterir. Eyyûb (a.s.) yıllarca hasta kaldığı hâlde şikâyet etmemiş, sadece “Bana bir dert dokundu; sen merhametlilerin en merhametlisisin” diye dua etmiştir. Peygamber Efendimiz de hastalığın müminin günahlarına kefaret olduğunu müjdelemiştir: “Müslümana bir hastalık, bir yorgunluk, bir keder isabet etmez ki Allah onun sebebiyle günahlarını silmesin.” Ayrıca hasta ziyaretini müminin üzerindeki haklardan saymış, hasta ziyaret edenin cennet bahçelerinde olacağını bildirmiştir. Hastalık, insana sağlığın kıymetini hatırlatır; dünyanın geçiciliğini gösterir ve kalbi Allah'a yöneltir. Bu yüzden hastalığa sadece bir kayıp olarak değil, aynı zamanda bir imkân olarak bakmak mümkündür.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın Yirmi Beşinci Lem'a'sını, yani Hastalar Risalesi'ni yirmi beş devâ, yani ilaç olarak yazar. On Üçüncü Devâ'da şöyle der: “Hastalık, bazılara ehemmiyetli bir definedir ve gāyet kıymetdâr bir hediye-i İlâhiyedir.” Eserdeki anlatımın özetine göre hastalık, gafleti dağıtır, ömrü ibadete çevirir ve insanı ahirete hazırlar. On Yedinci Devâ'da ise hastalığın toplumsal faydasına dikkat çeker: “Hastalık, hayat-ı ictimâiye-i insaniyede en mühim ve gāyet güzel olan hürmet ve merhameti telkîn eder.” Yani hastalık, insanlar arasında şefkat ve merhamet bağlarını güçlendirir.",
+  "kainattanDelil": "Kışın donan toprak, ilkbaharda daha bereketli olur. Budanan bir ağaç, daha güçlü dallar verir. Kâinatta zorluklar çoğu zaman yeni bir güzelliğin hazırlığıdır. Hastalık da insanın kalbinde yeni bir şefkat ve sabır filizlendirebilir. Ateşte pişen toprak, sağlam bir kaba dönüşür; zorluklardan geçen kalp de olgunlaşır.",
+  "hikmet": "Hastalığa iman gözüyle bakan, onun içinde gizli hazineleri bulur: sabır, şükür, tövbe ve merhamet. Hasta kardeşini ziyaret eden ise hem ona teselli verir hem de kendi kalbini yumuşatır. Hastalık, insanı kendi aczine ve Rabbinin rahmetine en çok yaklaştıran hâllerden biridir.",
+  "kendimize": "Hastalandığımda şikâyet mi ediyorum, yoksa sabredip dua mı ediyorum? Hasta bir yakınımı en son ne zaman ziyaret ettim? Sağlığımın kıymetini, onu kaybetmeden önce biliyor muyum?",
+  "hayat": "Hastalık zamanlarında ‘Elhamdülillâhi alâ külli hâl’ demek, tedaviyi sürdürürken şifayı Allah'tan istemek bu dersin uygulamasıdır. Hasta bir komşuyu veya akrabayı ziyaret edip ona dua etmek de Hastalar Risalesi'nin anlattığı merhametin yaşanmasıdır. Hasta ziyaretinde kısa kalmak, hastaya umut veren sözler söylemek ve şifa duası okumak ziyaretin edebindendir.",
+  "ders": "Hastalık, imanla bakana bir define ve bir hediye; topluma ise merhamet ve hürmet dersidir.",
+  "tefekkurSorusu": "Yaşadığım bir hastalık bana hangi değerin kıymetini öğretti?",
+  "dua": {
+   "arapca": "أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+   "okunus": "Ennî messeniye d-duru ve-ente erhamu r-râhımîn",
+   "anlam": "Eyyub da: &quot;Başıma bir bela geldi, (Sana sığındım), Sen merhametlilerin merhametlisisin&quot; diye Rabbine nida etmişti.",
+   "kaynak": "Enbiyâ, 21/83"
+  },
+  "kavramlar": [
+   "Hastalık",
+   "Sabır",
+   "Merhamet",
+   "Hastalar Risalesi",
+   "Devâ"
+  ],
+  "kaynaklar": [
+   "Enbiyâ, 21/83-84",
+   "Buhârî, Merdâ, 1 (5641)",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirmi Beşinci Lem'a, On Üçüncü Devâ",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirmi Beşinci Lem'a, On Yedinci Devâ",
+   "Müslim, Birr, 41 (2568)"
+  ],
+  "sinav": [
+   {
+    "soru": "Bediüzzaman hastalığı bazıları için neye benzetir?",
+    "secenekler": [
+     "Bir cezaya",
+     "Bir defineye ve hediyeye",
+     "Bir tesadüfe",
+     "Bir zaafa"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Yedinci Devâ'ya göre hastalık toplumda neyi telkin eder?",
+    "secenekler": [
+     "Hürmet ve merhameti",
+     "Kıskançlığı",
+     "Bencilliği",
+     "Korkuyu"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Hastalar Risalesi, Lem'alar'ın Yirmi Beşinci Lem'a'sıdır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_014",
+  "kategori": "kainat",
+  "baslik": "Her Şeye Her Şeyden Daha Yakın",
+  "giris": "Güneş bizden çok uzaktır; ama ışığı ve sıcaklığı her an bize ulaşır, hatta bir damla suda bile görünür. Biz güneşe uzağız, ama o bize yakındır. Allah'ın yakınlığı da böyle midir? Bediüzzaman bu soruya dair derin bir hakikati dile getirir.",
+  "aciklama": "Kur'an, Allah'ın insana ne kadar yakın olduğunu şöyle bildirir: “Andolsun, insanı biz yarattık ve nefsinin ona ne fısıldadığını biliriz. Biz ona şah damarından daha yakınız.” Bir başka âyette de “Kullarım beni senden sorarlarsa, ben onlara çok yakınım. Dua edenin duasına cevap veririm” buyrulur. Allah'ın yakınlığı, mekân ve mesafe ile ölçülen bir yakınlık değildir; O'nun ilmi, kudreti ve rahmeti her şeyi kuşatmıştır. İnsan ise Allah'tan, gafleti ve günahları ölçüsünde uzaklaşabilir. Bu yüzden ibadet ve zikir, kulun Rabbine yaklaşma yolculuğudur. Kur'an, insanın kâinattaki düzene ve kendi yaratılışına bakarak Allah'ı tanımasını ister; çünkü kâinat ile insan arasında derin bir benzerlik ve bağ vardır.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Otuz Birinci Söz'ünün İkinci Esas'ında, Mirac bahsinde bu hakikati şöyle ifade eder: “Cenâb-ı Hakk her şeye her şeyden daha yakındır.” Eserdeki anlatımın özetine göre Allah her şeye yakındır, fakat her şey O'ndan uzaktır; tıpkı güneşin bize yakın, bizim ona uzak olmamız gibi. Lem'alar'ın On Üçüncü Lem'a'sının Onuncu İşaret'inde ise insan ile kâinat arasındaki bağ şöyle anlatılır: “İnsan küçük bir âlem olduğu gibi, âlem dahi büyük bir insandır.” Yani kâinattaki düzen insanda, insandaki düzen de kâinatta bir ayna gibi yansır; her ikisi de aynı Yaratıcı'yı gösterir.",
+  "kainattanDelil": "İnsan bedeninde kan dolaşımı nehirlere, akciğerler ormanlara, kemikler dağlara benzetilebilir. Kâinatta güneş merkezdeyken, insanda kalp merkezdedir. Bu benzerlikler, insanın küçük bir âlem, kâinatın da büyük bir insan gibi olduğunu ve ikisinin de aynı ustanın eseri olduğunu gösterir. Bir aynaya bakan, güneşi kendi elinde tutar gibi görür; Allah'ın tecellisi de her şeyde böyle hazırdır.",
+  "hikmet": "Allah'ın yakınlığını bilen insan hiçbir zaman yalnız değildir. O'na uzak olan biziz; yaklaşmanın yolu ise zikir, dua ve ibadettir. Kendini tanıyan, kâinatı da tanır; kâinatı tanıyan, Rabbini tanır. O'na yaklaşmak isteyen, önce gafletin perdesini kaldırmalıdır.",
+  "kendimize": "Kendimi Rabbime yakın mı, yoksa uzak mı hissediyorum? Bu uzaklığın sebebi O mu, yoksa benim gafletim mi? Dua ederken Rabbimin beni işittiğini kalbimde hissediyor muyum?",
+  "hayat": "Yalnızlık hissettiğimiz anlarda ‘Ben size şah damarınızdan daha yakınım’ âyetini hatırlamak kalbe huzur verir. Gün içinde birkaç dakika Allah'ı anmak ve kendi bedenimizdeki düzeni tefekkür etmek de bu yakınlığı hissetmenin yoludur. Dua ederken ‘O beni işitiyor’ bilinciyle konuşmak, duayı daha samimi kılar.",
+  "ders": "Allah her şeye her şeyden daha yakındır; uzak olan biziz ve yaklaşmanın yolu zikir ve ibadettir.",
+  "tefekkurSorusu": "Bugün Rabbime yaklaşmak için hangi adımı attım?",
+  "dua": {
+   "arapca": "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًۭا",
+   "okunus": "Rabbenâ âtinâ min ledunke rahmeten veheyyi lenâ min emrınâ raşeden",
+   "anlam": "Birkaç genç mağaraya sığınmış: &quot;Rabbimiz! Katından bize rahmet ver ve işimizde doğruyu göster, bizi başarılı kıl&quot; demişlerdi.",
+   "kaynak": "Kehf, 18/10"
+  },
+  "kavramlar": [
+   "Kurbiyet",
+   "Akrebiyet",
+   "Âlem-i sağîr",
+   "Otuz Birinci Söz",
+   "Tefekkür"
+  ],
+  "kaynaklar": [
+   "Kâf, 50/16",
+   "Bakara, 2/186",
+   "Bediüzzaman Said Nursî, Sözler, Otuz Birinci Söz, İkinci Esas",
+   "Bediüzzaman Said Nursî, Lem'alar, On Üçüncü Lem'a, Onuncu İşaret",
+   "Müslim, Salât, 215 (482)"
+  ],
+  "sinav": [
+   {
+    "soru": "Bediüzzaman'a göre Allah'ın yakınlığı nasıldır?",
+    "secenekler": [
+     "Her şeye her şeyden daha yakındır",
+     "Sadece bazı yerlere yakındır",
+     "Uzaktır",
+     "Mekânla sınırlıdır"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "On Üçüncü Lem'a'ya göre insan ve âlem arasındaki ilişki nedir?",
+    "secenekler": [
+     "Hiçbir ilişki yoktur",
+     "İnsan küçük bir âlem, âlem büyük bir insandır",
+     "Âlem insandan bağımsızdır",
+     "İnsan âlemden üstündür"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Kur'an'a göre Allah insana şah damarından daha yakındır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_015",
+  "kategori": "ahiret",
+  "baslik": "Cenneti Yaratmak Bir Bahar Kadar Kolaydır",
+  "giris": "Her yıl kışın ölü gibi görünen toprak, baharda milyonlarca çiçek, ağaç ve canlıyla yeniden dirilir. Bu muazzam diriliş, hiçbir zorluk göstermeden gerçekleşir. Bediüzzaman, bu manzaradan ahirete dair önemli bir sonuç çıkarır.",
+  "aciklama": "Kur'an, ahiretin varlığını ispat ederken sık sık baharın dirilişini delil olarak gösterir: “Allah'ın rahmetinin eserlerine bak: Ölümünden sonra yeryüzünü nasıl diriltiyor! Şüphesiz bunu yapan, ölüleri de diriltecektir. O, her şeye gücü yetendir.” Ahirete iman, İslam'ın temel inanç esaslarından biridir ve Kur'an'ın büyük bir bölümü bu konuyu işler. İnsanlar tarih boyunca ölümden sonra dirilişi uzak görmüş ve “Çürümüş kemikleri kim diriltecek?” diye sormuşlardır. Kur'an bu soruya şöyle cevap verir: “De ki: Onları ilk defa yaratan diriltecek.” İlk yaratış, ikinci yaratıştan daha zor değildir; aksine Allah için her ikisi de kolaydır. Peygamber Efendimiz de kıyamet gününde insanların, tıpkı yağmurla bitkilerin yeşermesi gibi kabirlerinden çıkarılacağını haber vermiştir.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirminci Mektub'unun İkinci Makam'ında Allah'ın kudretinin sonsuzluğunu anlatırken şöyle der: “Cenneti halketmek, bir bahar kadar kolaydır.” Eserdeki anlatımın özetine göre her bahar, yeryüzünde yüz binlerce türün dirilişini gösteren kudret için cenneti yaratmak hiç de zor değildir. Şuâlar'ın Dokuzuncu Şuâ'sının İkinci Nokta'sında da ahiret konusunun Kur'an'daki yerine dikkat çekilir: “Kur’ân’ın hemen üçten birisi, haşirdir.” Yani Kur'an'ın yaklaşık üçte biri, ölümden sonraki diriliş ve ahiret hayatıyla ilgilidir. Bu, ahiret inancının dinin ne kadar merkezinde olduğunu gösterir.",
+  "kainattanDelil": "Kurumuş bir tohum toprağa düşer; birkaç hafta sonra yeşil bir filiz olarak çıkar. Kuru bir dal, baharda tomurcuklarla dolar. Her bahar, kâinatın her köşesinde ölüden diri çıkarılır. Bu manzara, ahiretteki büyük dirilişin her yıl tekrarlanan küçük bir örneğidir. Yağmurla canlanan çöl, birkaç gün içinde çiçeklerle dolar. Kudret için ölüyü diriltmek, kuru toprağı yeşertmek kadar kolaydır.",
+  "hikmet": "Bahar, ahiretin her yıl gösterilen bir provası gibidir. Bu kadar büyük bir dirilişi kolayca gerçekleştiren kudret için insanları diriltmek de kolaydır. Ahirete iman, ölümü korkunç bir son olmaktan çıkarır. Ahireti düşünen, dünyayı bir ekin tarlası gibi görür ve ahiret için eker.",
+  "kendimize": "Baharın dirilişini izlerken ahireti düşünüyor muyum? Kur'an'ın üçte birinin ahiretle ilgili olması bana ne söylüyor? Bugün ahiretim için ne ektim?",
+  "hayat": "Bahar aylarında bir yürüyüşe çıkıp tomurcuklanan ağaçlara bakarak ahireti tefekkür etmek bu dersin uygulamasıdır. Kur'an okurken ahiretle ilgili âyetlere özellikle dikkat etmek de bu hakikatin farkındalığını artırır. Cenaze namazlarına katılmak da ahireti hatırlatan bir ibadettir.",
+  "ders": "Cenneti yaratmak, her yıl baharı yaratan kudret için bir bahar kadar kolaydır.",
+  "tefekkurSorusu": "Son gördüğüm bahar manzarası bana ahiret hakkında ne anlattı?",
+  "dua": {
+   "arapca": "رَبَّنَآ إِنَّكَ جَامِعُ ٱلنَّاسِ لِيَوْمٍۢ لَّا رَيْبَ فِيهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ",
+   "okunus": "Rabbenâ inneke câmi'u n-nâsi liyevmin lâ raybe fîhi inne'llâhe lâ yuhlifu l-mî'âd",
+   "anlam": "Rabbimiz! Doğrusu geleceği şüphe götürmeyen günde, insanları toplayacak olan Sensin. Şüphesiz ki Allah verdiği sözden caymaz.",
+   "kaynak": "Âl-i İmrân, 3/9"
+  },
+  "kavramlar": [
+   "Haşir",
+   "Bahar",
+   "Kudret",
+   "Ahiret",
+   "Yirminci Mektub"
+  ],
+  "kaynaklar": [
+   "Rûm, 30/50",
+   "Yâsîn, 36/78-79",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirminci Mektub, İkinci Makam",
+   "Bediüzzaman Said Nursî, Şuâlar, Dokuzuncu Şuâ, İkinci Nokta",
+   "Bediüzzaman Said Nursî, Sözler, Onuncu Söz"
+  ],
+  "sinav": [
+   {
+    "soru": "Bediüzzaman'a göre cenneti yaratmak ne kadar kolaydır?",
+    "secenekler": [
+     "Bir bahar kadar",
+     "İmkânsızdır",
+     "Çok zordur",
+     "Bilinemez"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Dokuzuncu Şuâ'ya göre Kur'an'ın yaklaşık ne kadarı haşirle ilgilidir?",
+    "secenekler": [
+     "Onda biri",
+     "Üçte biri",
+     "Yarısı",
+     "Tamamı"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Kur'an, ahireti ispat ederken baharın dirilişini delil olarak gösterir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_016",
+  "kategori": "kuran",
+  "baslik": "Kur'an Hem Zikir Hem Fikir Hem Hikmettir",
+  "giris": "Bir kitabı okurken sadece bilgi mi ediniriz, yoksa o kitap kalbimizi de değiştirebilir mi? Kur'an, bir yandan Allah'ı hatırlatan bir zikir, bir yandan düşünmeye çağıran bir fikir, bir yandan da hayatı düzenleyen bir rehberdir. Bediüzzaman, Kur'an'ın bu çok yönlülüğünü tek bir cümlede toplar.",
+  "aciklama": "Kur'an kendisini farklı isimlerle tanıtır: Zikir, yani Allah'ı hatırlatan öğüt; Hüdâ, yani doğru yolu gösteren rehber; Şifâ, yani kalplere ilaç; Furkân, yani hakkı batıldan ayıran ölçü; Nûr, yani yolu aydınlatan ışık. Bu isimlerin her biri, Kur'an'ın insana farklı bir yönden hitap ettiğini gösterir. Kur'an hem akla hitap eder, hem kalbe; hem bireyin iç dünyasını düzenler, hem toplumun hayatını. Allah, Kur'an'ın öğüt almak için kolaylaştırıldığını bildirir; ama aynı zamanda onun üzerinde derin derin düşünülmesini de ister: “Onlar Kur'an'ı düşünmüyorlar mı? Yoksa kalpleri üzerinde kilitler mi var?” Tasavvuf yollarından fıkıh ilmine kadar İslam'ın bütün ilimleri, Kur'an'ın bu zengin kaynağından beslenmiştir.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'de Kur'an'ın bu çok yönlülüğünü şöyle ifade eder: “Kur’ân hem zikirdir, hem fikirdir, hem hikmettir, hem ilimdir, hem hakîkattir, hem şerîattır.” Eserdeki anlatımın özetine göre Kur'an, insanın bütün latifelerine, yani akıl, kalp, ruh ve nefs gibi manevi duygularına ayrı ayrı gıda verir. Sözler'in On Yedinci Söz'ünün zeylinde de bütün manevi yolların kaynağına işaret edilir: “Bütün hak tarîkler Kur’ân’dan alınmıştır.” Yani Allah'a ulaştıran bütün doğru yollar, sonunda Kur'an'ın kaynağından beslenir ve onun ölçüleriyle değerlendirilir.",
+  "kainattanDelil": "Güneş ışığı tek bir kaynaktan gelir; ama bir prizmadan geçtiğinde yedi renge ayrılır. Her renk ayrı bir güzellik taşır; ama hepsi aynı ışığın parçalarıdır. Kur'an da tek bir kaynaktan gelir; ama zikir, fikir, hikmet, ilim, hakikat ve şeriat gibi farklı renklerle insana ulaşır. Bir pınarın suyu hem susuzluğu giderir hem toprağı yeşertir hem de değirmen çevirir; Kur'an da insanın bütün ihtiyaçlarına cevap verir.",
+  "hikmet": "Kur'an'ı sadece bir yönüyle okumak, prizmanın tek bir rengini görmek gibidir. Onu hem zikir hem fikir olarak okuyan, hem kalbini hem aklını besler. Bütün hak yollar Kur'an'da birleşir. Kur'an'ı sevgiyle okuyan, her okuyuşta ondan yeni bir renk keşfeder.",
+  "kendimize": "Kur'an'ı okurken ondan hangi gıdayı alıyorum: zikir mi, fikir mi, hikmet mi? Onun bütün yönlerinden faydalanmaya çalışıyor muyum? Kur'an'ı en son ne zaman sadece okumak için değil, anlamak için açtım?",
+  "hayat": "Kur'an'ı bazen sadece okumak ve dinlemek için, bazen de mealiyle birlikte üzerinde düşünmek için okumak, onun farklı yönlerinden faydalanmaktır. Okuduğumuz bir âyeti gün içinde hayatımıza nasıl uygulayacağımızı düşünmek de Kur'an'ın şeriat yönünü yaşamaktır.",
+  "ders": "Kur'an hem zikir, hem fikir, hem hikmet, hem ilim, hem hakikat, hem şeriattır; bütün hak yollar ondan alınmıştır.",
+  "tefekkurSorusu": "Bugün Kur'an'dan kalbime ve aklıma hangi gıdayı aldım?",
+  "dua": {
+   "arapca": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ وَٱتَّبَعْنَا ٱلرَّسُولَ فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ",
+   "okunus": "Rabbenâ âmennâ bimâ enzelte ve-ittebe'nâ r-rasûle fe-uktubnâ me'a s-şâhidîn",
+   "anlam": "&quot;Rabbimiz! İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz&quot;.",
+   "kaynak": "Âl-i İmrân, 3/53"
+  },
+  "kavramlar": [
+   "Kur'an",
+   "Zikir",
+   "Fikir",
+   "Hikmet",
+   "Şeriat"
+  ],
+  "kaynaklar": [
+   "Muhammed, 47/24",
+   "Kamer, 54/17",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye",
+   "Bediüzzaman Said Nursî, Sözler, On Yedinci Söz'ün Zeyli",
+   "Yûnus, 10/57"
+  ],
+  "sinav": [
+   {
+    "soru": "Bediüzzaman'a göre Kur'an hangi özellikleri birlikte taşır?",
+    "secenekler": [
+     "Sadece zikir",
+     "Zikir, fikir, hikmet, ilim, hakikat ve şeriat",
+     "Sadece ilim",
+     "Sadece hikmet"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Yedinci Söz'ün zeyline göre bütün hak tarikler nereden alınmıştır?",
+    "secenekler": [
+     "Felsefeden",
+     "Kur'an'dan",
+     "Geleneklerden",
+     "Rüyalardan"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Kur'an, kendisini Şifâ, Nûr ve Furkân gibi isimlerle de tanıtır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_017",
+  "kategori": "iman",
+  "baslik": "Vicdanın Hiç Kapanmayan Gözü",
+  "giris": "Bir insan bazen aklıyla bir gerçeği inkâr edebilir; ama içinde bir ses ona hâlâ doğruyu fısıldar. Bu ses nereden gelir? Bediüzzaman, insanın içinde hiç kapanmayan bir göz olduğunu söyler ve bu gözün ne gördüğünü anlatır.",
+  "aciklama": "Kur'an, insanın fıtratına, yani yaratılıştan gelen yapısına Allah'ı tanıma kabiliyetinin konduğunu bildirir: “Sen yüzünü hanîf olarak dine, Allah'ın insanları üzerinde yarattığı fıtrata çevir. Allah'ın yaratışında değişiklik yoktur.” Peygamber Efendimiz de her çocuğun fıtrat üzere doğduğunu, sonradan çevresinin etkisiyle değiştiğini haber vermiştir. Vicdan, bu fıtratın insandaki sesidir. Akıl bazen alışkanlıkların, çevrenin veya nefsin etkisiyle yanılabilir; ama vicdan, insanın derinliklerinde doğruyu hatırlatmaya devam eder. Kur'an'da, sıkıntı anında Allah'a yalvaran ama kurtulunca O'nu unutan insanlardan bahsedilir. Bu, vicdanın en zor anlarda bile Allah'ı tanıdığının bir göstergesidir.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Nokta Risâlesi'nde vicdanın bu özelliğini şöyle ifade eder: “Akıl gözünü kapasa da, vicdânın gözü dâimâ açıktır.” Eserdeki anlatımın özetine göre vicdan, insanın Allah'a olan ihtiyacını ve O'nu tanımaya olan meylini sürekli hisseder; çünkü insanın kalbinde bir ‘nokta-i istinad’, yani dayanak noktası, ve bir ‘nokta-i istimdad’, yani yardım isteme noktası vardır. Mesnevî'nin Şemme Risâlesi'nde ise aklın nasıl yanılabileceği anlatılır: “İnsanları fikren dalâlete atan sebeblerden biri, ülfeti ilim telakkî etmeleridir.” Yani alışkanlık, bilgi zannedilir; insanlar alıştıkları şeyleri sorgulamadıkları için gerçeği göremez hâle gelir.",
+  "kainattanDelil": "Pusulanın iğnesi ne kadar sallanırsa sallansın, sonunda kuzeyi gösterir. Göçmen kuşlar hiç görmedikleri yönleri bulur. Kâinattaki varlıkların içine konmuş bu yön bulma kabiliyeti gibi, insanın vicdanına da Rabbini gösteren bir pusula konmuştur. Çocuklar, hiç öğretilmeden haksızlığa karşı itiraz eder; bu, vicdanın fıtratta yer aldığının bir işaretidir.",
+  "hikmet": "Vicdan, insanın en güvenilir iç rehberidir. Akıl alışkanlıklarla perdelenebilir; ama vicdanın sesi susturulsa bile tamamen kaybolmaz. Alışkanlıkları sorgulamak, vicdanın sesini duymanın ilk adımıdır. Vicdanını dinleyen insan, kalabalığın yanlışına kapılmaz.",
+  "kendimize": "Vicdanımın bana fısıldadığı ama aklımla görmezden geldiğim bir gerçek var mı? Hangi alışkanlıklarımı hiç sorgulamadan sürdürüyorum? Vicdanım beni rahatsız ettiğinde onu susturmaya mı çalışıyorum, yoksa dinliyor muyum?",
+  "hayat": "Bir karar verirken sadece ‘Herkes böyle yapıyor’ diye değil, ‘Vicdanım buna ne diyor?’ diye sormak bu dersin uygulamasıdır. Günlük alışkanlıklarımızı zaman zaman gözden geçirip onları Kur'an ve sünnetin ölçüsüyle tartmak da aklı alışkanlığın esaretinden kurtarır. Vicdan muhasebesi için her gece birkaç dakika ayırmak güzel bir alışkanlıktır.",
+  "ders": "Akıl gözünü kapasa da vicdanın gözü daima açıktır; alışkanlığı bilgi sanmak dalaletin sebeplerindendir.",
+  "tefekkurSorusu": "Bugün vicdanımın sesini dinlediğim bir an oldu mu?",
+  "dua": {
+   "arapca": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+   "okunus": "Ihdinâ s-sırâta l-mustekîme sırâta ellezîne en'amte 'aleyhim ğayrı l-meğdûbi 'aleyhim velâ d-dâlîn",
+   "anlam": "Bizi doğru yola eriştir. Nimete erdirdiğin kimselerin yoluna; gazaba uğrayanların, ya da sapıtanların yoluna değil.",
+   "kaynak": "Fâtiha, 1/6-7"
+  },
+  "kavramlar": [
+   "Vicdan",
+   "Fıtrat",
+   "Ülfet",
+   "Nokta-i istinad",
+   "Nokta-i istimdad"
+  ],
+  "kaynaklar": [
+   "Rûm, 30/30",
+   "Buhârî, Cenâiz, 80 (1358)",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Nokta Risâlesi",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Şemme Risâlesi",
+   "Yûnus, 10/12"
+  ],
+  "sinav": [
+   {
+    "soru": "Bediüzzaman'a göre akıl gözünü kapasa da hangisinin gözü daima açıktır?",
+    "secenekler": [
+     "Vicdanın",
+     "Nefsin",
+     "Hayalin",
+     "Hafızanın"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Şemme Risâlesi'ne göre insanları fikren dalalete atan sebeplerden biri nedir?",
+    "secenekler": [
+     "Çok okumak",
+     "Ülfeti, yani alışkanlığı ilim sanmak",
+     "Tefekkür etmek",
+     "Dua etmek"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Hadise göre her çocuk fıtrat üzere doğar.",
+    "dogru": true
+   }
+  ]
  }
 ]
