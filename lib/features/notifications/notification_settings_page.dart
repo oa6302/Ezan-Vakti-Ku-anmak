@@ -214,8 +214,7 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
 
     if (selected == null) return;
 
-    final value =
-        '${selected.hour.toString().padLeft(2, '0')}:'
+    final value = '${selected.hour.toString().padLeft(2, '0')}:'
         '${selected.minute.toString().padLeft(2, '0')}';
 
     final prefs = await SharedPreferences.getInstance();
@@ -421,7 +420,8 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
                 _masterEnabled
                     ? Icons.check_circle_rounded
                     : Icons.notifications_off_rounded,
-                color: _masterEnabled ? const Color(0xFF75E0B4) : Colors.white54,
+                color:
+                    _masterEnabled ? const Color(0xFF75E0B4) : Colors.white54,
                 size: 25,
               ),
             ],
@@ -495,24 +495,29 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
   Widget _masterCard() {
     return Container(
       decoration: _cardDecoration(),
-      child: SwitchListTile(
-        contentPadding: const EdgeInsets.symmetric(horizontal: 18, vertical: 8),
-        value: _masterEnabled,
-        onChanged: _toggleMaster,
-        activeThumbColor: _green,
-        secondary: const Icon(Icons.notifications_active_rounded,
-            color: _green, size: 27),
-        title: const Text('Uygulama bildirimleri',
-            style: TextStyle(
-              color: _navy,
-              fontWeight: FontWeight.w900,
-              fontSize: 14,
-            )),
-        subtitle: Text(
-          _masterEnabled
-              ? 'Namaz vakitleri ve günlük hatırlatmalar açık'
-              : 'Bütün uygulama bildirimleri kapalı',
-          style: const TextStyle(color: Colors.black54, fontSize: 12),
+      // Material: dokunma efekti kart renginin ustunde gorunsun
+      child: Material(
+        type: MaterialType.transparency,
+        child: SwitchListTile(
+          contentPadding:
+              const EdgeInsets.symmetric(horizontal: 18, vertical: 8),
+          value: _masterEnabled,
+          onChanged: _toggleMaster,
+          activeThumbColor: _green,
+          secondary: const Icon(Icons.notifications_active_rounded,
+              color: _green, size: 27),
+          title: const Text('Uygulama bildirimleri',
+              style: TextStyle(
+                color: _navy,
+                fontWeight: FontWeight.w900,
+                fontSize: 14,
+              )),
+          subtitle: Text(
+            _masterEnabled
+                ? 'Namaz vakitleri ve günlük hatırlatmalar açık'
+                : 'Bütün uygulama bildirimleri kapalı',
+            style: const TextStyle(color: Colors.black54, fontSize: 12),
+          ),
         ),
       ),
     );
@@ -522,79 +527,83 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
     return Container(
       padding: const EdgeInsets.all(18),
       decoration: _cardDecoration(),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          _sectionTitle(
-            Icons.volume_up_rounded,
-            'Ezan ve bildirim sesi',
-            'Tercih ettiğiniz ses biçimini seçin.',
-            color: _gold,
-          ),
-          const SizedBox(height: 16),
-          RadioGroup<String>(
-            groupValue: _azanMode,
-            onChanged: _setAzanMode,
-            child: Column(
-              children: [
-                RadioListTile<String>(
-                  contentPadding: EdgeInsets.zero,
-                  value: 'full',
-                  activeColor: _navy,
-                  title: const Text(
-                    'Tam ezan',
-                    style: TextStyle(
-                      color: _navy,
-                      fontWeight: FontWeight.w800,
-                      fontSize: 13,
+      child: Material(
+        type: MaterialType.transparency,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _sectionTitle(
+              Icons.volume_up_rounded,
+              'Ezan ve bildirim sesi',
+              'Tercih ettiğiniz ses biçimini seçin.',
+              color: _gold,
+            ),
+            const SizedBox(height: 16),
+            RadioGroup<String>(
+              groupValue: _azanMode,
+              onChanged: _setAzanMode,
+              child: Column(
+                children: [
+                  RadioListTile<String>(
+                    contentPadding: EdgeInsets.zero,
+                    value: 'full',
+                    activeColor: _navy,
+                    title: const Text(
+                      'Tam ezan',
+                      style: TextStyle(
+                        color: _navy,
+                        fontWeight: FontWeight.w800,
+                        fontSize: 13,
+                      ),
+                    ),
+                    subtitle: const Text(
+                      'Tam ezan ses dosyası ve Android ses oynatma yapılandırması gerekir.',
+                      style: TextStyle(fontSize: 11, color: Colors.black54),
                     ),
                   ),
-                  subtitle: const Text(
-                    'Tam ezan ses dosyası ve Android ses oynatma yapılandırması gerekir.',
-                    style: TextStyle(fontSize: 11, color: Colors.black54),
-                  ),
-                ),
-                RadioListTile<String>(
-                  contentPadding: EdgeInsets.zero,
-                  value: 'short',
-                  activeColor: _navy,
-                  title: const Text(
-                    'Kısa bildirim tonu',
-                    style: TextStyle(
-                      color: _navy,
-                      fontWeight: FontWeight.w800,
-                      fontSize: 13,
+                  RadioListTile<String>(
+                    contentPadding: EdgeInsets.zero,
+                    value: 'short',
+                    activeColor: _navy,
+                    title: const Text(
+                      'Kısa bildirim tonu',
+                      style: TextStyle(
+                        color: _navy,
+                        fontWeight: FontWeight.w800,
+                        fontSize: 13,
+                      ),
+                    ),
+                    subtitle: const Text(
+                      'Cihazın bildirim sesi kullanılabilir; gerçek ses davranışı Android kanalına bağlıdır.',
+                      style: TextStyle(fontSize: 11, color: Colors.black54),
                     ),
                   ),
-                  subtitle: const Text(
-                    'Cihazın bildirim sesi kullanılabilir; gerçek ses davranışı Android kanalına bağlıdır.',
-                    style: TextStyle(fontSize: 11, color: Colors.black54),
+                ],
+              ),
+            ),
+            Container(
+              padding: const EdgeInsets.all(11),
+              decoration: BoxDecoration(
+                color: _gold.withValues(alpha: 0.10),
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Icon(Icons.info_outline_rounded, color: _gold, size: 18),
+                  SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      'Bu seçim şu anda kaydedilir. Tam ezanın gerçekten çalması için ses dosyası ve ayrı Android ses kanalı ayrıca bağlanmalıdır.',
+                      style:
+                          TextStyle(color: _navy, fontSize: 11, height: 1.45),
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
-          ),          Container(
-            padding: const EdgeInsets.all(11),
-            decoration: BoxDecoration(
-              color: _gold.withValues(alpha: 0.10),
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: const Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Icon(Icons.info_outline_rounded, color: _gold, size: 18),
-                SizedBox(width: 8),
-                Expanded(
-                  child: Text(
-                    'Bu seçim şu anda kaydedilir. Tam ezanın gerçekten çalması için ses dosyası ve ayrı Android ses kanalı ayrıca bağlanmalıdır.',
-                    style: TextStyle(
-                        color: _navy, fontSize: 11, height: 1.45),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
@@ -724,35 +733,38 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
     return Container(
       padding: const EdgeInsets.all(18),
       decoration: _cardDecoration(),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          _sectionTitle(
-            Icons.mosque_rounded,
-            'Namaz vakitleri',
-            'Bildirim almak istediğiniz vakitleri seçin.',
-          ),
-          const SizedBox(height: 10),
-          for (final v in _vakit.keys)
-            SwitchListTile(
-              contentPadding: EdgeInsets.zero,
-              dense: true,
-              value: _vakit[v] ?? true,
-              onChanged:
-                  _masterEnabled ? (value) => _toggleVakit(v, value) : null,
-              activeThumbColor: _navy,
-              secondary: Icon(icons[v] ?? Icons.access_time_rounded,
-                  color: _navy, size: 22),
-              title: Text(
-                labels[v] ?? v,
-                style: const TextStyle(
-                  color: _navy,
-                  fontSize: 13,
-                  fontWeight: FontWeight.w800,
+      child: Material(
+        type: MaterialType.transparency,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _sectionTitle(
+              Icons.mosque_rounded,
+              'Namaz vakitleri',
+              'Bildirim almak istediğiniz vakitleri seçin.',
+            ),
+            const SizedBox(height: 10),
+            for (final v in _vakit.keys)
+              SwitchListTile(
+                contentPadding: EdgeInsets.zero,
+                dense: true,
+                value: _vakit[v] ?? true,
+                onChanged:
+                    _masterEnabled ? (value) => _toggleVakit(v, value) : null,
+                activeThumbColor: _navy,
+                secondary: Icon(icons[v] ?? Icons.access_time_rounded,
+                    color: _navy, size: 22),
+                title: Text(
+                  labels[v] ?? v,
+                  style: const TextStyle(
+                    color: _navy,
+                    fontSize: 13,
+                    fontWeight: FontWeight.w800,
+                  ),
                 ),
               ),
-            ),
-        ],
+          ],
+        ),
       ),
     );
   }
@@ -855,4 +867,3 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
     );
   }
 }
-
