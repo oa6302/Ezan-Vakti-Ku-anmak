@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:nur_pusulasi/data/dua_havuzu.dart';
@@ -258,6 +259,7 @@ class ContentService extends ChangeNotifier {
   Future<void> load() async {
     if (_loaded) return;
     _buildDefaults();
+    await _gunlukHavuzlariYukle();
     await _overlayFromPrefs();
     _loaded = true;
     notifyListeners();
@@ -520,6 +522,58 @@ class ContentService extends ChangeNotifier {
               durum: ContentStatus.yayinlandi,
             ))
         .toList();
+  }
+
+  /// 365 gunluk, kaynaktan dogrulanmis ayet ve hadis listeleri (gun sirasiyla).
+  /// Dosya okunamazsa eski havuz yedek olarak kalir.
+  Future<void> _gunlukHavuzlariYukle() async {
+    Future<List<Map<String, dynamic>>> oku(String p) async =>
+        (jsonDecode(await rootBundle.loadString(p)) as List)
+            .map((e) => Map<String, dynamic>.from(e as Map))
+            .toList();
+    try {
+      final ayetler = await oku('assets/content/gunluk_ayetler.json');
+      if (ayetler.isNotEmpty) {
+        _pools[ContentType.ayet] = ayetler
+            .map((a) => ContentItem(
+                  id: 'ayet_${a['anahtar']}',
+                  type: ContentType.ayet,
+                  baslik: a['kaynak'] as String,
+                  icerik: a['arapca'] as String,
+                  altIcerik: a['meal'] as String,
+                  arapca: a['arapca'] as String,
+                  kaynak: 'Diyanet İşleri Başkanlığı Meali',
+                  kategori: a['tema'] as String,
+                  dogrulandi: true,
+                  durum: ContentStatus.yayinlandi,
+                  kaynakTuru: KaynakTuru.diyanet,
+                ))
+            .toList();
+      }
+    } catch (e) {
+      debugPrint('gunluk_ayetler: $e');
+    }
+    try {
+      final hadisler = await oku('assets/content/gunluk_hadisler.json');
+      if (hadisler.isNotEmpty) {
+        _pools[ContentType.hadis] = hadisler
+            .map((h) => ContentItem(
+                  id: 'hadis_${_kararliHash(h['numara'] as String)}',
+                  type: ContentType.hadis,
+                  baslik: h['tema'] as String,
+                  icerik: h['metin'] as String,
+                  arapca: (h['arapca'] as String?) ?? '',
+                  altIcerik: h['numara'] as String,
+                  kaynak: h['kaynak'] as String,
+                  kategori: h['tema'] as String,
+                  dogrulandi: true,
+                  durum: ContentStatus.yayinlandi,
+                ))
+            .toList();
+      }
+    } catch (e) {
+      debugPrint('gunluk_hadisler: $e');
+    }
   }
 
   /// SharedPreferences'taki override'lari yukle

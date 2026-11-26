@@ -82,3 +82,5 @@ assets/content/*.bozuk*
 # Flutter
 build/
 .dart_tool/
+tooling/icerik/tur-*.json
+tooling/icerik/ara-*.json
