@@ -74,6 +74,22 @@ class PrayerService {
     return _calculate(city.lat, city.lng, city.name, date);
   }
 
+  /// Tek kaynak: kayitli koordinat (ilce/GPS) varsa onu, yoksa il merkezini kullanir.
+  /// Ana sayfa kartlari, ana ekran widget'i ve bildirimler ayni sonucu gorur.
+  Future<PrayerTimeResult?> calculateForLocation({
+    required String city,
+    double? lat,
+    double? lng,
+    String? label,
+    DateTime? date,
+  }) {
+    if (lat != null && lng != null) {
+      return calculateForCoordinates(lat, lng, label ?? city, date: date);
+    }
+    return calculateForCity(city.trim().isEmpty ? 'Istanbul' : city,
+        date: date);
+  }
+
   Future<PrayerTimeResult?> calculateForCoordinates(
       double lat, double lng, String label,
       {DateTime? date}) async {

@@ -159,11 +159,16 @@ class HomeHeaderV2 extends StatelessWidget {
                           const Icon(Icons.location_on_outlined,
                               color: Colors.white70, size: 15),
                           const SizedBox(width: 6),
-                          Text('${context.watch<AppState>().city}, Türkiye',
-                              style: const TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 13,
-                                  fontWeight: FontWeight.w600)),
+                          // Ilce secildiyse "Ilce, Il" (tek kaynak: AppState)
+                          Flexible(
+                            child: Text(context.watch<AppState>().locationName,
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: const TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 13,
+                                    fontWeight: FontWeight.w600)),
+                          ),
                           const SizedBox(width: 4),
                           const Icon(Icons.keyboard_arrow_down_rounded,
                               color: Colors.white70, size: 16),

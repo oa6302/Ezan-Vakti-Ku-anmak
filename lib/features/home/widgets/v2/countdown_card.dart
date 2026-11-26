@@ -47,23 +47,23 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    final c = context.watch<AppState>().city;
-    final safe = c.trim().isEmpty ? 'Istanbul' : c;
-    if (safe != _city || _result == null) {
-      _city = safe;
-      _load(safe);
+    // Il, ilce veya GPS degisince yeniden hesapla (tek kaynak: AppState)
+    final s = context.watch<AppState>();
+    final anahtar = '${s.city}|${s.lat}|${s.lng}';
+    if (anahtar != _city || _result == null) {
+      _city = anahtar;
+      _load(s);
     }
   }
 
-  Future<void> _load(String city) async {
+  Future<void> _load(AppState s) async {
     final generation = ++_loadGeneration;
     try {
-      debugPrint('Countdown: calculating for $city');
       final r = await _service
-          .calculateForCity(city)
+          .calculateForLocation(
+              city: s.city, lat: s.lat, lng: s.lng, label: s.locationName)
           .timeout(const Duration(seconds: 8));
       if (!mounted || generation != _loadGeneration) return;
-      debugPrint('Countdown: OK -> ${r?.nextPrayerName}');
       setState(() => _result = r);
     } catch (e, st) {
       debugPrint('Countdown error: $e');
@@ -71,8 +71,7 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
       if (mounted && generation == _loadGeneration) {
         setState(() => _result = null);
       }
-    } finally {
-    }
+    } finally {}
   }
 
   /// Saniye destekli format: "02:15:34"
@@ -198,189 +197,197 @@ class _NextPrayerCountdownState extends State<NextPrayerCountdown>
       ),
       child: IntrinsicHeight(
         child: Row(
-        children: [
-          Expanded(
-            flex: 5,
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    // Nefes alan ikon + progress ring
-                    AnimatedBuilder(
-                      animation: _breath,
-                      builder: (context, _) {
-                        final scale = 1.0 + (_breath.value * 0.06);
-                        return SizedBox(
-                          width: 68,
-                          height: 68,
-                          child: Stack(
-                            alignment: Alignment.center,
-                            children: [
-                              // Progress ring
-                              CustomPaint(
-                                size: const Size(68, 68),
-                                painter: _RingPainter(
-                                  progress: progress,
-                                  color: renk,
-                                  bgColor: Colors.white.withValues(alpha: 0.12),
+          children: [
+            Expanded(
+              flex: 5,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      // Nefes alan ikon + progress ring
+                      AnimatedBuilder(
+                        animation: _breath,
+                        builder: (context, _) {
+                          final scale = 1.0 + (_breath.value * 0.06);
+                          return SizedBox(
+                            width: 68,
+                            height: 68,
+                            child: Stack(
+                              alignment: Alignment.center,
+                              children: [
+                                // Progress ring
+                                CustomPaint(
+                                  size: const Size(68, 68),
+                                  painter: _RingPainter(
+                                    progress: progress,
+                                    color: renk,
+                                    bgColor:
+                                        Colors.white.withValues(alpha: 0.12),
+                                  ),
+                                ),
+                                // Nefes alan cami ikonu
+                                Transform.scale(
+                                  scale: scale,
+                                  child: Container(
+                                    width: 52,
+                                    height: 52,
+                                    decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      color: renk.withValues(alpha: 0.18),
+                                      boxShadow: [
+                                        BoxShadow(
+                                          color: renk.withValues(alpha: 0.4),
+                                          blurRadius: 14,
+                                          spreadRadius: 1,
+                                        ),
+                                      ],
+                                    ),
+                                    child: const Icon(Icons.mosque_rounded,
+                                        color: _gold, size: 28),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          );
+                        },
+                      ),
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Container(
+                              padding: const EdgeInsets.symmetric(
+                                  horizontal: 8, vertical: 3),
+                              decoration: BoxDecoration(
+                                color: _gold.withValues(alpha: 0.15),
+                                borderRadius: BorderRadius.circular(6),
+                              ),
+                              child: const Text('Sonraki Namaz',
+                                  style: TextStyle(
+                                      color: _gold,
+                                      fontSize: 9.5,
+                                      fontWeight: FontWeight.w800)),
+                            ),
+                            const SizedBox(height: 6),
+                            AnimatedSwitcher(
+                              duration: const Duration(milliseconds: 400),
+                              transitionBuilder: (child, anim) =>
+                                  FadeTransition(
+                                opacity: anim,
+                                child: SlideTransition(
+                                  position: Tween<Offset>(
+                                    begin: const Offset(0, 0.3),
+                                    end: Offset.zero,
+                                  ).animate(anim),
+                                  child: child,
                                 ),
                               ),
-                              // Nefes alan cami ikonu
-                              Transform.scale(
-                                scale: scale,
-                                child: Container(
-                                  width: 52,
-                                  height: 52,
-                                  decoration: BoxDecoration(
-                                    shape: BoxShape.circle,
-                                    color: renk.withValues(alpha: 0.18),
-                                    boxShadow: [
-                                      BoxShadow(
-                                        color: renk.withValues(alpha: 0.4),
-                                        blurRadius: 14,
-                                        spreadRadius: 1,
-                                      ),
-                                    ],
-                                  ),
-                                  child: const Icon(Icons.mosque_rounded,
-                                      color: _gold, size: 28),
+                              child: Text(
+                                '$namazAdi Namazi',
+                                key: ValueKey(namazAdi),
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: const TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.w900),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 10),
+                  Row(
+                    children: [
+                      const Icon(Icons.access_time_rounded,
+                          color: Colors.white70, size: 15),
+                      const SizedBox(width: 5),
+                      Text(timeStr,
+                          style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 15,
+                              fontWeight: FontWeight.w700)),
+                      const SizedBox(width: 10),
+                      // Canli saniye gostergesi (dar ekranda tasmasin)
+                      Flexible(
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 8, vertical: 4),
+                          decoration: BoxDecoration(
+                            color: renk.withValues(alpha: 0.25),
+                            borderRadius: BorderRadius.circular(8),
+                            border: Border.all(
+                              color: renk.withValues(alpha: 0.5),
+                              width: 1,
+                            ),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Container(
+                                width: 5,
+                                height: 5,
+                                decoration: BoxDecoration(
+                                  color: renk,
+                                  shape: BoxShape.circle,
                                 ),
+                              ),
+                              const SizedBox(width: 5),
+                              Flexible(
+                                child: Text('${_fmtFull(remain)} kaldi',
+                                    maxLines: 1,
+                                    overflow: TextOverflow.ellipsis,
+                                    style: const TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 11,
+                                        fontWeight: FontWeight.w800,
+                                        fontFeatures: [
+                                          FontFeature.tabularFigures(),
+                                        ])),
                               ),
                             ],
                           ),
-                        );
-                      },
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 8, vertical: 3),
-                            decoration: BoxDecoration(
-                              color: _gold.withValues(alpha: 0.15),
-                              borderRadius: BorderRadius.circular(6),
-                            ),
-                            child: const Text('Sonraki Namaz',
-                                style: TextStyle(
-                                    color: _gold,
-                                    fontSize: 9.5,
-                                    fontWeight: FontWeight.w800)),
-                          ),
-                          const SizedBox(height: 6),
-                          AnimatedSwitcher(
-                            duration: const Duration(milliseconds: 400),
-                            transitionBuilder: (child, anim) => FadeTransition(
-                              opacity: anim,
-                              child: SlideTransition(
-                                position: Tween<Offset>(
-                                  begin: const Offset(0, 0.3),
-                                  end: Offset.zero,
-                                ).animate(anim),
-                                child: child,
-                              ),
-                            ),
-                            child: Text(
-                              '$namazAdi Namazi',
-                              key: ValueKey(namazAdi),
-                              maxLines: 1,
-                              overflow: TextOverflow.ellipsis,
-                              style: const TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 20,
-                                  fontWeight: FontWeight.w900),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 10),
-                Row(
-                  children: [
-                    const Icon(Icons.access_time_rounded,
-                        color: Colors.white70, size: 15),
-                    const SizedBox(width: 5),
-                    Text(timeStr,
-                        style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 15,
-                            fontWeight: FontWeight.w700)),
-                    const SizedBox(width: 10),
-                    // Canli saniye gostergesi
-                    Container(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 8, vertical: 4),
-                      decoration: BoxDecoration(
-                        color: renk.withValues(alpha: 0.25),
-                        borderRadius: BorderRadius.circular(8),
-                        border: Border.all(
-                          color: renk.withValues(alpha: 0.5),
-                          width: 1,
                         ),
                       ),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Container(
-                            width: 5,
-                            height: 5,
-                            decoration: BoxDecoration(
-                              color: renk,
-                              shape: BoxShape.circle,
-                            ),
-                          ),
-                          const SizedBox(width: 5),
-                          Text('${_fmtFull(remain)} kaldi',
-                              style: const TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 11,
-                                  fontWeight: FontWeight.w800,
-                                  fontFeatures: [
-                                    FontFeature.tabularFigures(),
-                                  ])),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-              ],
+                    ],
+                  ),
+                ],
+              ),
             ),
-          ),
-          Container(
-            width: 1,
-            margin: const EdgeInsets.symmetric(horizontal: 12),
-            color: Colors.white.withValues(alpha: 0.15),
-          ),
-          Expanded(
-            flex: 4,
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                const Text('"Namaz, muminin\n   miracidir."',
-                    textAlign: TextAlign.right,
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 12.5,
-                        height: 1.5,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600)),
-                const SizedBox(height: 6),
-                Text('(Tirmizi, Salat, 1)',
-                    style: TextStyle(
-                        color: Colors.white.withValues(alpha: 0.6),
-                        fontSize: 10)),
-              ],
+            Container(
+              width: 1,
+              margin: const EdgeInsets.symmetric(horizontal: 12),
+              color: Colors.white.withValues(alpha: 0.15),
             ),
-          ),
-        ],
+            Expanded(
+              flex: 4,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  const Text('"Namaz, muminin\n   miracidir."',
+                      textAlign: TextAlign.right,
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 12.5,
+                          height: 1.5,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600)),
+                  const SizedBox(height: 6),
+                  Text('(Tirmizi, Salat, 1)',
+                      style: TextStyle(
+                          color: Colors.white.withValues(alpha: 0.6),
+                          fontSize: 10)),
+                ],
+              ),
+            ),
+          ],
         ),
       ),
     );
