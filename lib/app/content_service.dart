@@ -334,7 +334,8 @@ class ContentService extends ChangeNotifier {
 
     _pools[ContentType.vecize] = vecizeHavuzu
         .map((v) => ContentItem(
-            id: 'vecize_${v.hashCode}',
+            // Sabit kimlik: nesne hashCode'u her acilista degisir, favoriler kaybolurdu
+            id: 'vecize_${_kararliHash(v.latin)}',
             type: ContentType.vecize,
             baslik: v.kategori,
             icerik: v.latin,
@@ -833,4 +834,14 @@ class ContentService extends ChangeNotifier {
         baslik: type.label,
         icerik: 'Icerik yakinda eklenecek.',
       );
+}
+
+/// FNV-1a: platformdan ve calistirmadan bagimsiz, metinden turetilen kimlik.
+String _kararliHash(String s) {
+  var h = 0x811c9dc5;
+  for (final c in s.codeUnits) {
+    h ^= c;
+    h = (h * 0x01000193) & 0xFFFFFFFF;
+  }
+  return h.toRadixString(16);
 }

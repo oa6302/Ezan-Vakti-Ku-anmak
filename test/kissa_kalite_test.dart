@@ -34,8 +34,11 @@ void main() {
           expect(b.value.trim(), isNotEmpty, reason: '${b.key} bos');
         }
       });
-      test('En az 3 ders', () => expect(k.dersler.length, greaterThanOrEqualTo(3)));
-      test('Kissa tam anlatiliyor (anlatim >= 1.600 ve govdenin yarisindan fazla)', () {
+      test('En az 3 ders',
+          () => expect(k.dersler.length, greaterThanOrEqualTo(3)));
+      test(
+          'Kissa tam anlatiliyor (anlatim >= 1.600 ve govdenin yarisindan fazla)',
+          () {
         expect(k.metin.length, greaterThanOrEqualTo(1600),
             reason: 'anlatim ${k.metin.length}');
         expect(k.metin.length / k.govde.length, greaterThan(0.5));

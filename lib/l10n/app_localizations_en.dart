@@ -1456,4 +1456,17 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get uiKissaDevaminiOku => 'Read the full story';
+
+  @override
+  String get duaHazinesiTitle => 'Treasury of Duas';
+
+  @override
+  String get duaHazinesiDesc => 'Quran, Sunnah, supplications and memorization';
+
+  @override
+  String get risaleHakikatleriTitle => 'Truths of the Risale-i Nur';
+
+  @override
+  String get risaleHakikatleriDesc =>
+      'Lessons of faith, reflection and quizzes';
 }

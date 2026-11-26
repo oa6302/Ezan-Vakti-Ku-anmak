@@ -1,0 +1,32 @@
+[
+{
+"id": "ders_001",
+"kategori": "kainat",
+"baslik": "Kâinat Kitabı: Her Şey Yazanını Anlatır",
+"giris": "Bir kütüphanede, harfleri dizilmiş, sayfaları sıralanmış, anlamlı cümlelerle dolu bir kitap bulsanız ‘Bu kendi kendine olmuş’ der misiniz? Hiçbir akıl, tek bir sayfanın bile tesadüfen yazıldığını kabul etmez. Peki, her sayfası bir bahar, her satırı bir ağaç, her harfi bir hücre olan kâinat kitabı kimin yazısıdır?",
+"aciklama": "Kur'an, insanı sadece yazılı ayetleri okumaya değil, kâinattaki ayetlere de bakmaya davet eder. Göklerin ve yerin yaratılışında, gece ile gündüzün birbiri ardınca gelişinde akıl sahipleri için ayetler olduğunu bildirir. ‘Ayet’ kelimesi hem Kur'an'ın cümlelerine hem de Allah'ı gösteren işaretlere verilen addır. Bu yüzden kâinat, okunmak için yaratılmış büyük bir kitap gibidir.\n\nBir kitabı okuyan, önce harfleri görür, sonra kelimeleri, sonra anlamı. Kâinatta da durum böyledir. Bir elmanın kabuğundaki renk, çekirdeğindeki gelecek ağacın planı, ağacın köküne ulaşan su ve ışık birbirine bağlı satırlar gibidir. Bu satırlar arasında ölçü, düzen ve amaç vardır. Ölçü ve amaç ise bir bilgiyi ve iradeyi gösterir. Kör bir tesadüf, ölçü koyamaz; amaç gözetemez.",
+"risalePerspektifi": "Bediüzzaman Said Nursî, bu hakikati özellikle Şuâlar'ın Yedinci Şuâ'sı olan Âyetü'l-Kübrâ risalesinde işler. Orada dünyaya misafir olarak gelen bir yolcunun, kendisini bu misafirhaneye getireni tanımak için göklere, yere, denizlere, ırmaklara, bitkilere, hayvanlara, insanlara, peygamberlere ve Kur'an'a sorduğu anlatılır. Her biri kendi lisanıyla Yaratıcısının birliğine şahitlik eder. Risale-i Nur'un metodu burada açıktır: Kâinatın her parçası, kendi varlığıyla ‘Beni yapan var’ der. Bu anlatım, eserdeki tefekkür yolculuğunun özetidir; asıl metin için Âyetü'l-Kübrâ okunmalıdır.",
+"kainattanDelil": "Bir buğday tanesini düşünün. Toprağa düştüğünde nem, sıcaklık ve ışıkla buluşur; içindeki bilgi uyanır, kök aşağıya, filiz yukarıya yönelir. Aynı toprakta yan yana duran bir gül ile bir dut, aynı su ve aynı topraktan bambaşka renk, koku ve tat çıkarır. Toprak ve su bu farkı bilmez. Bu farkı bilen, her tohuma kendi planını yazan bir İlim ve İrade sahibidir.",
+"hikmet": "Kâinatı bir kitap olarak okumak, insanı ezberlenmiş bir inançtan tahkikî bir imana taşır. Her nimet bir mektup, her mevsim bir sayfa olur. Bakışı değişen insanın şükrü de değişir; çünkü artık yalnızca nimeti değil, Vereni de görür.",
+"kendimize": "Bugün kaç şeye baktım ama okumadım? Sofradaki ekmeğe, yağan yağmura, kendi kalbimin atışına ‘Bunu kim yazdı?’ diye sorduğum oldu mu?",
+"hayat": "Yürüyüşe çıktığınızda bir ağacın yapraklarına, bir karıncanın çabasına bir dakika ayırın. Çocuklarınıza ‘Bu çiçeği kim boyadı?’ diye sorun. Yemekten önce ‘Bismillah’, sonra ‘Elhamdülillah’ demeyi anlamını düşünerek yapın. Böylece gündelik hayat bir tefekkür dersine dönüşür.",
+"ders": "Kâinat okunmayı bekleyen bir kitaptır; her satırı, onu Yazanı tanıtır.",
+"tefekkurSorusu": "Bugün gördüğüm en sıradan şey hangisiydi ve o şey bana Rabbimden ne anlattı?",
+"dua": {
+"arapca": "رَبَّنَا مَا خَلَقْتَ هٰذَا بَاطِلًا سُبْحَانَكَ فَقِنَا عَذَابَ النَّارِ",
+"okunus": "Rabbenâ mâ halakte hâzâ bâtılâ, sübhâneke fekınâ azâbe'n-nâr.",
+"anlam": "Rabbimiz! Sen bunu boş yere yaratmadın. Seni bütün eksikliklerden tenzih ederiz. Bizi ateş azabından koru.",
+"kaynak": "Âl-i İmrân, 3/191"
+},
+"kavramlar": ["Kâinat kitabı", "Ayet", "Tefekkür", "Tahkikî iman", "Âyetü'l-Kübrâ"],
+"kaynaklar": ["Âl-i İmrân, 3/190-191", "Bakara, 2/164", "Bediüzzaman Said Nursî, Şuâlar, Yedinci Şuâ (Âyetü'l-Kübrâ)"],
+"sinav": [
+{"soru": "Kur'an'da ‘ayet’ kelimesi hangi anlamlarda kullanılır?", "secenekler": ["Sadece Kur'an cümleleri", "Kur'an cümleleri ve Allah'ı gösteren işaretler", "Sadece mucizeler", "Sadece gök cisimleri"], "dogru": 1},
+{"soru": "Âyetü'l-Kübrâ risalesinde Yaratıcısını arayan yolcu ne yapar?", "secenekler": ["Sadece kitap okur", "Kâinatın parçalarına tek tek sorar", "Bir hocaya danışır", "Hiçbir şey sormaz"], "dogru": 1}
+],
+"dogruYanlis": [
+{"ifade": "Ölçü ve amaç, bir bilgi ve iradenin varlığını gösterir.", "dogru": true},
+{"ifade": "Âyetü'l-Kübrâ, Sözler'in bir bölümüdür.", "dogru": false}
+]
+}
+]

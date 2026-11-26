@@ -1449,4 +1449,16 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get uiKissaDevaminiOku => 'Kıssanın devamını oku';
+
+  @override
+  String get duaHazinesiTitle => 'Dua Hazinesi';
+
+  @override
+  String get duaHazinesiDesc => 'Kur\'an, sünnet, münacat ve ezber';
+
+  @override
+  String get risaleHakikatleriTitle => 'Risale-i Nur Hakikatleri';
+
+  @override
+  String get risaleHakikatleriDesc => 'İman dersleri, tefekkür ve mini sınav';
 }

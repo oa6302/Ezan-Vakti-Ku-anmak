@@ -427,5 +427,9 @@
   "uiBildirimNotlari": "• Reminder times follow the device's local time.\n• Battery saving may delay notifications on some phones.\n• Android notification sounds depend on channel settings.\n• This screen alone does not enable the full adhan sound.",
   "uiKissaHakikatleriKesfet": "Discover the deep truths of this story for our lives",
   "uiSayaclarSifirlanacak": "Current progress, the total counter and completed chain rounds will be reset. Your dhikr list will be kept.",
-  "uiKissaDevaminiOku": "Read the full story"
+  "uiKissaDevaminiOku": "Read the full story",
+  "duaHazinesiTitle": "Treasury of Duas",
+  "duaHazinesiDesc": "Quran, Sunnah, supplications and memorization",
+  "risaleHakikatleriTitle": "Truths of the Risale-i Nur",
+  "risaleHakikatleriDesc": "Lessons of faith, reflection and quizzes"
 }

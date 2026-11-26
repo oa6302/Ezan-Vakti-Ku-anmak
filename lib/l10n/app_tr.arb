@@ -831,5 +831,9 @@
   "uiBildirimNotlari": "• Hatırlatma saatleri cihazın yerel saatine göre ayarlanır.\n• Pil tasarrufu bazı telefonlarda bildirimleri geciktirebilir.\n• Android bildirim sesleri kanal ayarlarından etkilenir.\n• Bu ekran tek başına tam ezan sesini etkinleştirmez.",
   "uiKissaHakikatleriKesfet": "Bu kıssanın hayatımıza bakan derin hakikatlerini keşfet",
   "uiSayaclarSifirlanacak": "Mevcut ilerleme, toplam sayaç ve tamamlanan zincir turları sıfırlanacak. Zikir listeniz korunacaktır.",
-  "uiKissaDevaminiOku": "Kıssanın devamını oku"
+  "uiKissaDevaminiOku": "Kıssanın devamını oku",
+  "duaHazinesiTitle": "Dua Hazinesi",
+  "duaHazinesiDesc": "Kur'an, sünnet, münacat ve ezber",
+  "risaleHakikatleriTitle": "Risale-i Nur Hakikatleri",
+  "risaleHakikatleriDesc": "İman dersleri, tefekkür ve mini sınav"
 }

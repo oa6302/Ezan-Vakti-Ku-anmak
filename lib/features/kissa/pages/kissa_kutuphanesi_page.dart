@@ -113,7 +113,9 @@ class _KissaKutuphanesiPageState extends State<KissaKutuphanesiPage> {
                           subtitle: Padding(
                             padding: const EdgeInsets.only(top: 6),
                             child: Text(
-                              kissa.baslangic.isNotEmpty ? kissa.baslangic : kissa.kaynak,
+                              kissa.baslangic.isNotEmpty
+                                  ? kissa.baslangic
+                                  : kissa.kaynak,
                               maxLines: 2,
                               overflow: TextOverflow.ellipsis,
                             ),

@@ -7,7 +7,11 @@ import 'package:flutter_test/flutter_test.dart';
 import 'yardimci/fontlar.dart';
 import 'package:nur_pusulasi/app/admin_session.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
+import 'package:nur_pusulasi/data/icerik_hazinesi.dart';
 import 'package:nur_pusulasi/data/islami_kissalar.dart';
+import 'package:nur_pusulasi/features/hazine/dua_hazinesi_page.dart';
+import 'package:nur_pusulasi/features/hazine/risale_dersleri_page.dart';
+import 'package:nur_pusulasi/features/hazine/vecize_detay_page.dart';
 import 'package:nur_pusulasi/app/favorites_service.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
 import 'package:nur_pusulasi/features/admin/admin_gate_page.dart';
@@ -51,6 +55,14 @@ final sayfalar = <String, Widget Function()>{
   'Kuran Tam': () => const QuranFullPage(),
   'Kissa Kutuphanesi': () => const KissaKutuphanesiPage(),
   'Kissa Detay': () => KissaDetayPage(kissa: islamiKissalar.first),
+  'Dua Hazinesi': () => const DuaHazinesiPage(),
+  'Dua Hazinesi Detay': () => DuaHazineDetayPage(dua: duaHazinesi.first),
+  'Risale Dersleri': () => const RisaleDersleriPage(),
+  'Risale Ders': () => RisaleDersPage(ders: risaleDersleri.first),
+  'Vecize Detay': () => VecizeDetayPage(
+      osmanlica: 'ایمان هم نوردر هم قوتدر.',
+      latin: vecizeDetaylari.keys.first,
+      detay: vecizeDetaylari.values.first),
   'Namaz Ogren': () => const LearnPage(),
   'Husu': () => const KhushuPage(),
   'Ruh Hali': () => const MoodPage(),
@@ -79,6 +91,7 @@ void main() {
     await appState.load();
     await ContentService.instance.load();
     await kissalariYukle();
+    await icerikHazinesiniYukle();
     await FavoritesService.instance.load();
     await AdminSession.instance.load();
   });

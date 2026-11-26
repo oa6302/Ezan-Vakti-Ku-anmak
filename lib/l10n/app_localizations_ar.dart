@@ -1445,4 +1445,16 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get uiKissaDevaminiOku => 'اقرأ القصة كاملة';
+
+  @override
+  String get duaHazinesiTitle => 'كنز الأدعية';
+
+  @override
+  String get duaHazinesiDesc => 'القرآن والسنة والمناجاة والحفظ';
+
+  @override
+  String get risaleHakikatleriTitle => 'حقائق رسائل النور';
+
+  @override
+  String get risaleHakikatleriDesc => 'دروس الإيمان والتفكر واختبار قصير';
 }

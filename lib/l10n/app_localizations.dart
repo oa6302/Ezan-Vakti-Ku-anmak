@@ -2667,6 +2667,30 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'Kıssanın devamını oku'**
   String get uiKissaDevaminiOku;
+
+  /// No description provided for @duaHazinesiTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dua Hazinesi'**
+  String get duaHazinesiTitle;
+
+  /// No description provided for @duaHazinesiDesc.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kur\'an, sünnet, münacat ve ezber'**
+  String get duaHazinesiDesc;
+
+  /// No description provided for @risaleHakikatleriTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur Hakikatleri'**
+  String get risaleHakikatleriTitle;
+
+  /// No description provided for @risaleHakikatleriDesc.
+  ///
+  /// In tr, this message translates to:
+  /// **'İman dersleri, tefekkür ve mini sınav'**
+  String get risaleHakikatleriDesc;
 }
 
 class _AppLocalizationsDelegate
