@@ -17,4 +17,4 @@ Veri: `assets/content/kissalar_365.json` · Denetim: `test/kissa_kalite_test.dar
 - Yorum, yorum olarak işaretlenir; ihtilaf varsa belirtilir.
 
 ## 365 günlük plan
-16 kategori × ~23 kıssa. Parti başına 16 (her kategoriden 1). Parti 1: `kissa_001–016` ✅ · Parti 2: `kissa_017–032` ✅.
+16 kategori × ~23 kıssa. Parti başına 16 (her kategoriden 1). Parti 1: `kissa_001–016` ✅ · Parti 2: `kissa_017–032` ✅ · Parti 3: `kissa_033–048` ✅.
