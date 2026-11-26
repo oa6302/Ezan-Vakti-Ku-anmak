@@ -5,3 +5,4 @@
 - `kuran_dualari.js`: Kur'an dualarını `dua_hazinesi.json`a ekler (`node kuran_dualari.js ../../assets/content/dua_hazinesi.json`).
 - `vecize_cikar.js` / `vecize_sec.js` / `vecize_secim.json`: risale.online asil eserlerinden dogrulanmis vecize.
 - `dua_hadis_sec.js`: hadis dualari + Kur'an dualari -> `gunluk_dualar.json`.
+- `risale_pasaj_cikar.js` / `risale_pasaj_sec.js`: gunluk Risale pasajlari (aynen, fihrist bolumuyle) -> `gunluk_risale.json`.

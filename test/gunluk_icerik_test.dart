@@ -56,6 +56,18 @@ void main() {
     }
   });
 
+  test('Gunluk Risale pasajlari: aynen, eser + bolum + Osmanlica', () {
+    final r = _oku('assets/content/gunluk_risale.json');
+    expect(r.length, greaterThanOrEqualTo(30));
+    for (final x in r) {
+      final l = x['latin'] as String;
+      expect(l.length, inInclusiveRange(260, 720));
+      expect(RegExp(r'^[A-ZÇĞİÖŞÜÂÎÛ]').hasMatch(l), isTrue, reason: l);
+      expect(_arap.hasMatch(x['osmanlica'] as String), isTrue);
+      expect((x['eser'] as String).isNotEmpty && x['sayfa'] is int, isTrue);
+    }
+  });
+
   test('Uygulama gunluk havuzlari bu listelerden kurar; her gun farkli',
       () async {
     TestWidgetsFlutterBinding.ensureInitialized();

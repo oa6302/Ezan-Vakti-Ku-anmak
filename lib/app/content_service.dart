@@ -636,6 +636,30 @@ class ContentService extends ChangeNotifier {
     } catch (e) {
       debugPrint('gunluk_vecizeler: $e');
     }
+    try {
+      // Asil eserlerden aynen pasajlar once; mevcut risale kayitlari korunur
+      final pasajlar = await oku('assets/content/gunluk_risale.json');
+      if (pasajlar.isNotEmpty) {
+        _pools[ContentType.risale] = [
+          ...pasajlar.map((r) => ContentItem(
+                id: 'risale_${_kararliHash(r['latin'] as String)}',
+                type: ContentType.risale,
+                baslik: r['baslik'] as String,
+                icerik: r['latin'] as String,
+                arapca: r['osmanlica'] as String?,
+                kaynak: r['eser'] as String,
+                kategori: r['bolum'] as String,
+                dogrulandi: true,
+                kaynakTuru: KaynakTuru.risale,
+                durum: ContentStatus.yayinlandi,
+                extra: {'sayfa': r['sayfa']},
+              )),
+          ...?_pools[ContentType.risale],
+        ];
+      }
+    } catch (e) {
+      debugPrint('gunluk_risale: $e');
+    }
   }
 
   /// SharedPreferences'taki override'lari yukle
