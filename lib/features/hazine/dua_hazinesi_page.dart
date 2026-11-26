@@ -183,7 +183,8 @@ class _DuaHazineDetayPageState extends State<DuaHazineDetayPage> {
                             Text(p.okunus,
                                 style: t.bodyMedium
                                     ?.copyWith(fontStyle: FontStyle.italic)),
-                            Text(p.anlam, style: t.bodySmall),
+                            if (p.anlam.isNotEmpty)
+                              Text(p.anlam, style: t.bodySmall),
                             CheckboxListTile(
                               contentPadding: EdgeInsets.zero,
                               dense: true,

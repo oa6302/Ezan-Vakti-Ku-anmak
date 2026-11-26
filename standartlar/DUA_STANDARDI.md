@@ -23,3 +23,6 @@ Kur'an metni mushafla, hadis kaynağıyla, Risale metni eserle karşılaştırı
 `lib/data/dua_havuzu*.dart` (~150 dua) korunur; ana sayfa kartı onları kullanmaya devam eder. Doğrulanıp bu yapıya taşındıkça hazineye eklenir. Bilinen sorun: bazı kayıtlarda `arapca` alanı Latin harflidir.
 
 Örnek: `dua_001` Seyyidü'l-İstiğfar (Buhârî 6306).
+
+## Parti kaydı
+- Parti 1: 63 Kur'an duası (dua_k001-k063), `tooling/icerik/kuran_dualari.js`. Metin api.quran.com (Uthmani), anlam Diyanet meali; okunuş otomatik harf çevirisi, parça anlamı kelime kelime.
