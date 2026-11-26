@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/widgets/nur_kart.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/admin_card_wrapper.dart';
@@ -50,35 +51,7 @@ class DailyVerseCard extends StatelessWidget {
             shareText: 'Günün Ayeti: $ayet\n$kaynak',
             child: Container(
               padding: const EdgeInsets.fromLTRB(12, 12, 12, 58),
-              decoration: BoxDecoration(
-                gradient: const LinearGradient(colors: [
-                  Color(0xFFF9FBFF),
-                  Color(0xFFE8EFF8),
-                  Color(0xFFDCE7F3)
-                ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                borderRadius: BorderRadius.circular(24),
-                border: Border.all(
-                  color: const Color(0xFF9FB6D1),
-                  width: 1.2,
-                ),
-                boxShadow: const [
-                  BoxShadow(
-                    color: Color(0x38304865),
-                    blurRadius: 28,
-                    offset: Offset(0, 12),
-                  ),
-                  BoxShadow(
-                    color: Color(0x303D5E83),
-                    blurRadius: 14,
-                    offset: Offset(0, 3),
-                  ),
-                  BoxShadow(
-                    color: Color(0xFFFFFFFF),
-                    blurRadius: 5,
-                    offset: Offset(0, -2),
-                  ),
-                ],
-              ),
+              decoration: NurKartStili.kutu(),
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                 child: Column(
@@ -94,7 +67,7 @@ class DailyVerseCard extends StatelessWidget {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(14),
                             border: Border.all(
-                              color: const Color(0xFFD8B96E),
+                              color: const Color(0xFFC8102E),
                               width: 1,
                             ),
                             boxShadow: const [
@@ -112,7 +85,7 @@ class DailyVerseCard extends StatelessWidget {
                           ),
                           child: const Icon(
                             Icons.menu_book_rounded,
-                            color: Color(0xFF0A1F44),
+                            color: Color(0xFF142747),
                             size: 23,
                           ),
                         ),
@@ -120,7 +93,7 @@ class DailyVerseCard extends StatelessWidget {
                         Text(
                           AppLocalizations.of(context).verseOfDay,
                           style: TextStyle(
-                            color: Color(0xFF0A1F44),
+                            color: Color(0xFF142747),
                             shadows: [
                               Shadow(
                                   color: Color(0x99000000),
@@ -179,7 +152,7 @@ class DailyVerseCard extends StatelessWidget {
                       Text(ayetArapca,
                           textAlign: TextAlign.center,
                           style: const TextStyle(
-                              color: Color(0xFF0A1F44),
+                              color: Color(0xFF142747),
                               shadows: [
                                 Shadow(
                                     color: Color(0x99000000),
@@ -198,7 +171,7 @@ class DailyVerseCard extends StatelessWidget {
                       ayet,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                        color: Color(0xFF0A1F44),
+                        color: Color(0xFF142747),
                         shadows: [
                           Shadow(
                               color: Color(0x99000000),
@@ -219,7 +192,7 @@ class DailyVerseCard extends StatelessWidget {
                       const SizedBox(height: 10),
                       Text(AppLocalizations.of(context).uiKisaTefsir,
                           style: TextStyle(
-                              color: Color(0xFF0A1F44),
+                              color: Color(0xFF142747),
                               shadows: [
                                 Shadow(
                                     color: Color(0x99000000),

@@ -36,15 +36,17 @@ void main() {
   test('Tarih anahtari YYYY-MM-DD, saat kaymasi yok', () {
     expect(GunlukPlanServisi.tarihAnahtari(DateTime(2026, 11, 26, 23, 59)),
         '2026-11-26');
-    expect(GunlukPlanServisi.anahtardanTarih('2026-03-01'),
-        DateTime(2026, 3, 1));
+    expect(
+        GunlukPlanServisi.anahtardanTarih('2026-03-01'), DateTime(2026, 3, 1));
   });
 
   test('27 Kasim duasi 26 Kasim duasini degistirmez; programlar bagimsiz',
       () async {
     final g26 = DateTime(2026, 11, 26), g27 = DateTime(2026, 11, 27);
-    await plan.kaydet(ContentType.dua, g26, _dua('a'), ContentStatus.yayinlandi);
-    await plan.kaydet(ContentType.dua, g27, _dua('b'), ContentStatus.yayinlandi);
+    await plan.kaydet(
+        ContentType.dua, g26, _dua('a'), ContentStatus.yayinlandi);
+    await plan.kaydet(
+        ContentType.dua, g27, _dua('b'), ContentStatus.yayinlandi);
     await plan.kaydet(ContentType.hadis, g26,
         _dua('h').copyWithType(ContentType.hadis), ContentStatus.taslak);
     expect(plan.kayit(ContentType.dua, g26)!.icerik.baslik, 'a');
@@ -75,8 +77,11 @@ void main() {
         ContentService.instance.otomatikGunlukKayit(ContentType.dua, bugun);
     await plan.kaydet(
         ContentType.dua, bugun, _dua('plan'), ContentStatus.yayinlandi);
-    expect(ContentService.instance.getDailyPoolItem(ContentType.dua, bugun)!
-        .baslik, 'plan');
+    expect(
+        ContentService.instance
+            .getDailyPoolItem(ContentType.dua, bugun)!
+            .baslik,
+        'plan');
     expect(ContentService.instance.planliMi(ContentType.dua, bugun), isTrue);
     // Taslaga alininca arsiv sirasina doner
     await plan.durumDegistir(ContentType.dua, bugun, ContentStatus.taslak);

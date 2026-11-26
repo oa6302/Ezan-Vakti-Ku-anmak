@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/widgets/nur_kart.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../../../../app/content_service.dart';
 import '../../../../widgets/admin_card_wrapper.dart';
 import 'dua_detay_page.dart';
 
-const _navy = Color(0xFF0A1F44);
+const _navy = Color(0xFF142747);
 const _red = Color(0xFFB71C1C);
 
 class DuaCard extends StatelessWidget {
@@ -61,29 +62,7 @@ class DuaCard extends StatelessWidget {
               child: Container(
                 margin: const EdgeInsets.symmetric(horizontal: 14),
                 padding: const EdgeInsets.only(bottom: 48),
-                decoration: BoxDecoration(
-                  gradient: const LinearGradient(
-                      colors: [Color(0xFFEAF1F9), Color(0xFFFFF0E2)],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight),
-                  borderRadius: BorderRadius.circular(24),
-                  border: Border.all(
-                    color: const Color(0xFFD99A56),
-                    width: 1.2,
-                  ),
-                  boxShadow: const [
-                    BoxShadow(
-                      color: Color(0x55000000),
-                      blurRadius: 28,
-                      offset: Offset(0, 12),
-                    ),
-                    BoxShadow(
-                      color: Color(0x30FF8A24),
-                      blurRadius: 15,
-                      offset: Offset(0, 4),
-                    ),
-                  ],
-                ),
+                decoration: NurKartStili.kutu(),
                 child: Row(
                   children: [
                     Container(

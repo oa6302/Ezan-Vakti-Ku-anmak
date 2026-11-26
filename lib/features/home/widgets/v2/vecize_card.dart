@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/widgets/nur_kart.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/app/app_settings.dart';
 import 'package:nur_pusulasi/widgets/admin_card_wrapper.dart';
 import 'package:nur_pusulasi/data/icerik_hazinesi.dart';
 import 'package:nur_pusulasi/features/hazine/vecize_detay_page.dart';
 
-const _navy = Color(0xFF0A1F44);
-const _gold = Color(0xFFC9A961);
-const _orange = Color(0xFFB58D4A);
+const _navy = Color(0xFF142747);
+const _gold = Color(0xFFC8102E);
+const _orange = Color(0xFFC8102E);
 
 const _textShadow = [
   Shadow(color: Color(0x45000000), offset: Offset(0, 2), blurRadius: 6),
@@ -65,27 +66,7 @@ class VecizeCard extends StatelessWidget {
                 '${vecize.icerik}\n\n— ${vecize.kaynak ?? "Bedîüzzaman Said Nursî"}',
             child: Container(
               margin: const EdgeInsets.symmetric(horizontal: 14),
-              decoration: BoxDecoration(
-                gradient: const LinearGradient(colors: [
-                  Color(0xFFFFF8EA),
-                  Color(0xFFF3EBD9),
-                  Color(0xFFFFFCF5)
-                ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-                borderRadius: BorderRadius.circular(24),
-                border: Border.all(color: const Color(0xFFD7C18E), width: 1.2),
-                boxShadow: [
-                  BoxShadow(
-                    color: Color(0x55000000),
-                    blurRadius: 28,
-                    offset: Offset(0, 12),
-                  ),
-                  BoxShadow(
-                    color: _gold.withValues(alpha: 0.15),
-                    blurRadius: 12,
-                    offset: const Offset(0, 2),
-                  ),
-                ],
-              ),
+              decoration: NurKartStili.kutu(),
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(20, 22, 20, 56),
                 child: Column(

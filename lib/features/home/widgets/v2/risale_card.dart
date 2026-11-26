@@ -1,17 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/widgets/nur_kart.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/admin_card_wrapper.dart';
 
-const _red = Color(0xFF397B76);
+const _red = Color(0xFFC8102E);
 
-const _deepShadow = [
-  BoxShadow(
-    color: Color(0x38345C58),
-    blurRadius: 28,
-    offset: Offset(0, 12),
-  ),
-];
 
 class RisaleCard extends StatelessWidget {
   const RisaleCard({super.key});
@@ -60,19 +54,7 @@ class RisaleCard extends StatelessWidget {
               '${r.baslik}\n\n${risaleAlinti.isNotEmpty ? risaleAlinti : risaleMetin}\n\n— $risaleEser${risaleBolum.isNotEmpty ? " • $risaleBolum" : ""}',
           child: Container(
             margin: const EdgeInsets.symmetric(horizontal: 14),
-            decoration: BoxDecoration(
-              gradient: const LinearGradient(colors: [
-                Color(0xFFE9F2F0),
-                Color(0xFFDCEBE7),
-                Color(0xFFF8FAF6)
-              ], begin: Alignment.topLeft, end: Alignment.bottomRight),
-              borderRadius: BorderRadius.circular(24),
-              border: Border.all(
-                color: const Color(0xFF9FC5BA),
-                width: 1.4,
-              ),
-              boxShadow: _deepShadow,
-            ),
+            decoration: NurKartStili.kutu(),
             child: Stack(
               children: [
                 Positioned(
@@ -124,7 +106,7 @@ class RisaleCard extends StatelessWidget {
                               shape: BoxShape.circle,
                             ),
                             child: const Icon(Icons.chevron_right_rounded,
-                                color: Color(0xFF0A1F44), size: 18),
+                                color: Color(0xFF142747), size: 18),
                           ),
                         ],
                       ),
@@ -132,7 +114,7 @@ class RisaleCard extends StatelessWidget {
                       Text(
                         r.baslik,
                         style: const TextStyle(
-                            color: Color(0xFF0A1F44),
+                            color: Color(0xFF142747),
                             shadows: [
                               Shadow(
                                   color: Color(0x30000000),
@@ -226,7 +208,7 @@ class RisaleCard extends StatelessWidget {
                             child: Text(
                               AppLocalizations.of(context).uiRisaleINurDan,
                               style: TextStyle(
-                                  color: Color(0xFF0A1F44),
+                                  color: Color(0xFF142747),
                                   shadows: [
                                     Shadow(
                                         color: Color(0x30000000),
@@ -294,7 +276,7 @@ class _RisaleInfografik extends StatelessWidget {
           Text(
             AppLocalizations.of(context).uiGununImanKufurMuv,
             style: TextStyle(
-              color: Color(0xFF0A1F44),
+              color: Color(0xFF142747),
               shadows: [
                 Shadow(
                     color: Color(0x99000000),
@@ -313,7 +295,7 @@ class _RisaleInfografik extends StatelessWidget {
           Text(
             konu,
             style: const TextStyle(
-              color: Color(0xFF0A1F44),
+              color: Color(0xFF142747),
               fontSize: 12,
               fontWeight: FontWeight.w800,
             ),
@@ -334,7 +316,7 @@ class _RisaleInfografik extends StatelessWidget {
                   child: Text(
                     kelime,
                     style: const TextStyle(
-                      color: Color(0xFF0A1F44),
+                      color: Color(0xFF142747),
                       shadows: [
                         Shadow(
                             color: Color(0x99000000),
@@ -403,7 +385,7 @@ class _MuvazeneTarafi extends StatelessWidget {
           Text(
             baslik,
             style: const TextStyle(
-              color: Color(0xFF0A1F44),
+              color: Color(0xFF142747),
               shadows: [
                 Shadow(
                     color: Color(0x99000000),

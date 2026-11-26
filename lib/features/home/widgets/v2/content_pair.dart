@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/widgets/nur_kart.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../../../../app/content_service.dart';
 import '../../../../widgets/admin_card_wrapper.dart';
@@ -59,21 +60,7 @@ class _LightCard extends StatelessWidget {
         width: double.infinity,
         margin: const EdgeInsets.symmetric(vertical: 4),
         padding: const EdgeInsets.fromLTRB(18, 18, 18, 54),
-        decoration: BoxDecoration(
-          gradient: const LinearGradient(
-              colors: [Color(0xFFFFF0E2), Color(0xFFFFE5C8)],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight),
-          borderRadius: BorderRadius.circular(22),
-          border: Border.all(color: const Color(0xFFE6B77E), width: 1.2),
-          boxShadow: const [
-            BoxShadow(
-              color: Color(0x26334A62),
-              blurRadius: 28,
-              offset: Offset(0, 12),
-            ),
-          ],
-        ),
+        decoration: NurKartStili.kutu(),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -89,7 +76,7 @@ class _LightCard extends StatelessWidget {
                   ),
                   child: const Icon(
                     Icons.menu_book_rounded,
-                    color: Color(0xFF0A1F44),
+                    color: Color(0xFF142747),
                     size: 21,
                   ),
                 ),
@@ -102,7 +89,7 @@ class _LightCard extends StatelessWidget {
                         AppLocalizations.of(context).hadithOfDay,
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                          color: Color(0xFF0A1F44),
+                          color: Color(0xFF142747),
                           fontSize: 15,
                           fontWeight: FontWeight.w900,
                         ),
@@ -112,7 +99,7 @@ class _LightCard extends StatelessWidget {
                         AppLocalizations.of(context).uiPeygamberimizinSAV,
                         textAlign: TextAlign.center,
                         style: TextStyle(
-                          color: Color(0xFF0A1F44),
+                          color: Color(0xFF142747),
                           fontSize: 8,
                           fontWeight: FontWeight.w800,
                           letterSpacing: 0.8,
@@ -149,7 +136,7 @@ class _LightCard extends StatelessWidget {
                             blurRadius: 3,
                             offset: Offset(0, 2)),
                       ],
-                      color: Color(0xFF0A1F44),
+                      color: Color(0xFF142747),
                       fontSize: 21,
                       height: 1.9,
                       fontWeight: FontWeight.w600,
@@ -163,7 +150,7 @@ class _LightCard extends StatelessWidget {
               AppLocalizations.of(context).uiHadisISerif,
               textAlign: TextAlign.center,
               style: TextStyle(
-                color: Color(0xFF0A1F44),
+                color: Color(0xFF142747),
                 fontSize: 9,
                 fontWeight: FontWeight.w900,
                 letterSpacing: 1,
@@ -196,7 +183,7 @@ class _LightCard extends StatelessWidget {
                 children: [
                   const Icon(
                     Icons.menu_book_outlined,
-                    color: Color(0xFF0A1F44),
+                    color: Color(0xFF142747),
                     size: 15,
                   ),
                   const SizedBox(width: 6),

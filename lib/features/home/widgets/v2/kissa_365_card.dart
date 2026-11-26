@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/widgets/nur_kart.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/data/islami_kissalar.dart';
 import 'package:nur_pusulasi/features/kissa/pages/kissa_kutuphanesi_page.dart';
@@ -45,21 +46,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
     final ozet = kissa.baslangic.isNotEmpty ? kissa.baslangic : kissa.hisse;
 
     return Container(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(26),
-        border: Border.all(color: const Color(0xFFD0C79F), width: 1.2),
-        gradient: const LinearGradient(
-            colors: [Color(0xFFF0F0E4), Color(0xFFE4E4D0), Color(0xFFF8F5E9)],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight),
-        boxShadow: [
-          BoxShadow(
-            color: Color(0x383F4934),
-            blurRadius: 28,
-            offset: Offset(0, 12),
-          ),
-        ],
-      ),
+      decoration: NurKartStili.kutu(),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -108,7 +95,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                               AppLocalizations.of(context)
                                   .uiHerKissadaBirHikmet,
                               style: TextStyle(
-                                color: Color(0xFF0A1F44),
+                                color: Color(0xFF142747),
                                 fontSize: 17,
                                 fontWeight: FontWeight.w800,
                               ),
@@ -139,7 +126,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                             blurRadius: 2,
                             offset: Offset(0, 1)),
                       ],
-                      color: Color(0xFF0A1F44),
+                      color: Color(0xFF142747),
                       fontSize: 19,
                       fontWeight: FontWeight.w900,
                       height: 1.4,
@@ -219,7 +206,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                                         blurRadius: 2,
                                         offset: Offset(0, 1)),
                                   ],
-                                  color: Color(0xFF0A1F44),
+                                  color: Color(0xFF142747),
                                   fontSize: 13,
                                   height: 1.6,
                                   fontWeight: FontWeight.w600,
