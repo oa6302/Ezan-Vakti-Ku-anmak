@@ -271,7 +271,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                     ),
                   );
                 },
-                child: const Padding(
+                child: Padding(
                   padding: EdgeInsets.symmetric(
                     horizontal: 15,
                     vertical: 14,
@@ -280,8 +280,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                     children: [
                       Expanded(
                         child: Text(
-                          'Bu kıssanın hayatımıza bakan derin '
-                          'hakikatlerini keşfet',
+                          AppLocalizations.of(context).uiKissaHakikatleriKesfet,
                           style: TextStyle(
                             color: Color(0xFF10264B),
                             fontSize: 12,

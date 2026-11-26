@@ -1425,4 +1425,32 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get uiKibleAcisiKBe =>
       'The Qibla angle is found by a great-circle calculation between the Kaaba (21.42°N, 39.83°E) and your location.';
+
+  @override
+  String get uiTefekkurHazirlaniyor =>
+      'A longer reflection for this story is being prepared. You can read its moral here for now.';
+
+  @override
+  String get uiTefekkurSoru =>
+      'In light of this story, which of my behaviors can I improve today?';
+
+  @override
+  String get uiTefekkurNot =>
+      'This reflection interprets present-day lessons drawn from the story; it is not a direct translation of a verse.';
+
+  @override
+  String get uiPusulaSensorYok =>
+      'This device has no magnetic compass sensor or permission was denied.\n\nThe Qibla angle was calculated, but the device direction cannot be shown.';
+
+  @override
+  String get uiBildirimNotlari =>
+      '• Reminder times follow the device\'s local time.\n• Battery saving may delay notifications on some phones.\n• Android notification sounds depend on channel settings.\n• This screen alone does not enable the full adhan sound.';
+
+  @override
+  String get uiKissaHakikatleriKesfet =>
+      'Discover the deep truths of this story for our lives';
+
+  @override
+  String get uiSayaclarSifirlanacak =>
+      'Current progress, the total counter and completed chain rounds will be reset. Your dhikr list will be kept.';
 }

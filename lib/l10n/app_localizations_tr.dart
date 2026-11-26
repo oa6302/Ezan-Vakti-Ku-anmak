@@ -1418,4 +1418,32 @@ class AppLocalizationsTr extends AppLocalizations {
   @override
   String get uiKibleAcisiKBe =>
       'Kıble açısı, Kâbe koordinatları (21.42°N, 39.83°E) ile konumunuz arasındaki büyük daire hesabıyla bulunur.';
+
+  @override
+  String get uiTefekkurHazirlaniyor =>
+      'Bu kıssanın daha geniş tefekkür metni hazırlanıyor. Mevcut kıssadan hisseyi burada okuyabilirsin.';
+
+  @override
+  String get uiTefekkurSoru =>
+      'Bu kıssanın ışığında bugün hangi davranışımı güzelleştirebilirim?';
+
+  @override
+  String get uiTefekkurNot =>
+      'Bu tefekkür, kıssadan çıkarılan güncel dersleri yorumlar; doğrudan ayet meali değildir.';
+
+  @override
+  String get uiPusulaSensorYok =>
+      'Bu cihazda manyetik pusula sensörü yok veya izin verilmedi.\n\nKıble açısı hesaplandı, ancak cihaz yönü gösterilemiyor.';
+
+  @override
+  String get uiBildirimNotlari =>
+      '• Hatırlatma saatleri cihazın yerel saatine göre ayarlanır.\n• Pil tasarrufu bazı telefonlarda bildirimleri geciktirebilir.\n• Android bildirim sesleri kanal ayarlarından etkilenir.\n• Bu ekran tek başına tam ezan sesini etkinleştirmez.';
+
+  @override
+  String get uiKissaHakikatleriKesfet =>
+      'Bu kıssanın hayatımıza bakan derin hakikatlerini keşfet';
+
+  @override
+  String get uiSayaclarSifirlanacak =>
+      'Mevcut ilerleme, toplam sayaç ve tamamlanan zincir turları sıfırlanacak. Zikir listeniz korunacaktır.';
 }

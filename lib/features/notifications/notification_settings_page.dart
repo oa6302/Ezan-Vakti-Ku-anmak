@@ -858,10 +858,7 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
           ),
           SizedBox(height: 10),
           Text(
-            '• Hatırlatma saatleri cihazın yerel saatine göre ayarlanır.\n'
-            '• Pil tasarrufu bazı telefonlarda bildirimleri geciktirebilir.\n'
-            '• Android bildirim sesleri kanal ayarlarından etkilenir.\n'
-            '• Bu ekran tek başına tam ezan sesini etkinleştirmez.',
+            AppLocalizations.of(context).uiBildirimNotlari,
             style: TextStyle(
               color: Colors.black87,
               fontSize: 11,

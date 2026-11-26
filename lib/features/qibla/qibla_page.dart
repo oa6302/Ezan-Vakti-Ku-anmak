@@ -692,8 +692,7 @@ class _QiblaPageState extends State<QiblaPage> {
                   color: _navy, fontSize: 16, fontWeight: FontWeight.w900)),
           SizedBox(height: 8),
           Text(
-            'Bu cihazda manyetik pusula sensörü yok veya izin verilmedi.\n\n'
-            'Kıble açısı hesaplandı, ancak cihaz yönü gösterilemiyor.',
+            AppLocalizations.of(context).uiPusulaSensorYok,
             textAlign: TextAlign.center,
             style: TextStyle(color: Colors.black54, fontSize: 12, height: 1.6),
           ),

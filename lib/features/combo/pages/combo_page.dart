@@ -471,9 +471,8 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
           borderRadius: BorderRadius.circular(24),
         ),
         title: Text(AppLocalizations.of(context).uiSayaclariSifirla),
-        content: const Text(
-          'Mevcut ilerleme, toplam sayaç ve tamamlanan zincir '
-          'turları sıfırlanacak. Zikir listeniz korunacaktır.',
+        content: Text(
+          AppLocalizations.of(context).uiSayaclarSifirlanacak,
         ),
         actions: [
           TextButton(

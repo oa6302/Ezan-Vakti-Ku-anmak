@@ -2619,6 +2619,48 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'Kıble açısı, Kâbe koordinatları (21.42°N, 39.83°E) ile konumunuz arasındaki büyük daire hesabıyla bulunur.'**
   String get uiKibleAcisiKBe;
+
+  /// No description provided for @uiTefekkurHazirlaniyor.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu kıssanın daha geniş tefekkür metni hazırlanıyor. Mevcut kıssadan hisseyi burada okuyabilirsin.'**
+  String get uiTefekkurHazirlaniyor;
+
+  /// No description provided for @uiTefekkurSoru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu kıssanın ışığında bugün hangi davranışımı güzelleştirebilirim?'**
+  String get uiTefekkurSoru;
+
+  /// No description provided for @uiTefekkurNot.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu tefekkür, kıssadan çıkarılan güncel dersleri yorumlar; doğrudan ayet meali değildir.'**
+  String get uiTefekkurNot;
+
+  /// No description provided for @uiPusulaSensorYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu cihazda manyetik pusula sensörü yok veya izin verilmedi.\n\nKıble açısı hesaplandı, ancak cihaz yönü gösterilemiyor.'**
+  String get uiPusulaSensorYok;
+
+  /// No description provided for @uiBildirimNotlari.
+  ///
+  /// In tr, this message translates to:
+  /// **'• Hatırlatma saatleri cihazın yerel saatine göre ayarlanır.\n• Pil tasarrufu bazı telefonlarda bildirimleri geciktirebilir.\n• Android bildirim sesleri kanal ayarlarından etkilenir.\n• Bu ekran tek başına tam ezan sesini etkinleştirmez.'**
+  String get uiBildirimNotlari;
+
+  /// No description provided for @uiKissaHakikatleriKesfet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu kıssanın hayatımıza bakan derin hakikatlerini keşfet'**
+  String get uiKissaHakikatleriKesfet;
+
+  /// No description provided for @uiSayaclarSifirlanacak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Mevcut ilerleme, toplam sayaç ve tamamlanan zincir turları sıfırlanacak. Zikir listeniz korunacaktır.'**
+  String get uiSayaclarSifirlanacak;
 }
 
 class _AppLocalizationsDelegate

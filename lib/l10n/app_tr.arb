@@ -823,5 +823,12 @@
   "uiYaklasanOzelGunBulunamadi": "Yaklaşan özel gün bulunamadı",
   "uiTarihlerYaklasikHesaplanirKesin": "Tarihler yaklaşık hesaplanır. Kesin tarihler için Diyanet İşleri Başkanlığı takvimini esas alınız.",
   "uiMezhebeGoreFarklilikGosteren": "Mezhebe göre farklılık gösteren konularda kendi mezhebinizin görüşüne veya güvendiğiniz bir âlime danışınız.",
-  "uiKibleAcisiKBe": "Kıble açısı, Kâbe koordinatları (21.42°N, 39.83°E) ile konumunuz arasındaki büyük daire hesabıyla bulunur."
+  "uiKibleAcisiKBe": "Kıble açısı, Kâbe koordinatları (21.42°N, 39.83°E) ile konumunuz arasındaki büyük daire hesabıyla bulunur.",
+  "uiTefekkurHazirlaniyor": "Bu kıssanın daha geniş tefekkür metni hazırlanıyor. Mevcut kıssadan hisseyi burada okuyabilirsin.",
+  "uiTefekkurSoru": "Bu kıssanın ışığında bugün hangi davranışımı güzelleştirebilirim?",
+  "uiTefekkurNot": "Bu tefekkür, kıssadan çıkarılan güncel dersleri yorumlar; doğrudan ayet meali değildir.",
+  "uiPusulaSensorYok": "Bu cihazda manyetik pusula sensörü yok veya izin verilmedi.\n\nKıble açısı hesaplandı, ancak cihaz yönü gösterilemiyor.",
+  "uiBildirimNotlari": "• Hatırlatma saatleri cihazın yerel saatine göre ayarlanır.\n• Pil tasarrufu bazı telefonlarda bildirimleri geciktirebilir.\n• Android bildirim sesleri kanal ayarlarından etkilenir.\n• Bu ekran tek başına tam ezan sesini etkinleştirmez.",
+  "uiKissaHakikatleriKesfet": "Bu kıssanın hayatımıza bakan derin hakikatlerini keşfet",
+  "uiSayaclarSifirlanacak": "Mevcut ilerleme, toplam sayaç ve tamamlanan zincir turları sıfırlanacak. Zikir listeniz korunacaktır."
 }

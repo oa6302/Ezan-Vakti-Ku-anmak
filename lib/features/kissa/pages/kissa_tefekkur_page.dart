@@ -180,8 +180,7 @@ class KissaTefekkurPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 4, bottom: 12),
               child: Text(
-                'Bu kıssanın daha geniş tefekkür metni hazırlanıyor. '
-                'Mevcut kıssadan hisseyi burada okuyabilirsin.',
+                AppLocalizations.of(context).uiTefekkurHazirlaniyor,
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
                       color: Theme.of(context).colorScheme.onSurfaceVariant,
                       height: 1.6,
@@ -207,8 +206,7 @@ class KissaTefekkurPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 9),
                 Text(
-                  'Bu kıssanın ışığında bugün hangi davranışımı '
-                  'güzelleştirebilirim?',
+                  AppLocalizations.of(context).uiTefekkurSoru,
                   style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                         height: 1.65,
                       ),
@@ -227,8 +225,7 @@ class KissaTefekkurPage extends StatelessWidget {
           ),
           const SizedBox(height: 10),
           Text(
-            'Bu tefekkür, kıssadan çıkarılan güncel dersleri yorumlar; '
-            'doğrudan ayet meali değildir.',
+            AppLocalizations.of(context).uiTefekkurNot,
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   color: Theme.of(context).colorScheme.onSurfaceVariant,

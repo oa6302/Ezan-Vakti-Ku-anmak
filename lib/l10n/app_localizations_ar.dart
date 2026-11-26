@@ -1414,4 +1414,32 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get uiKibleAcisiKBe =>
       'تُحسب زاوية القبلة بحساب الدائرة العظمى بين الكعبة (21.42°ش، 39.83°ق) وموقعك.';
+
+  @override
+  String get uiTefekkurHazirlaniyor =>
+      'يجري إعداد تأمل أوسع لهذه القصة. يمكنك قراءة العبرة منها هنا.';
+
+  @override
+  String get uiTefekkurSoru =>
+      'في ضوء هذه القصة، أيّ سلوك لديّ يمكنني تحسينه اليوم؟';
+
+  @override
+  String get uiTefekkurNot =>
+      'هذا التأمل يفسّر دروساً معاصرة مستخلصة من القصة؛ وليس ترجمة مباشرة لآية.';
+
+  @override
+  String get uiPusulaSensorYok =>
+      'لا يوجد مستشعر بوصلة مغناطيسية في هذا الجهاز أو لم يُمنح الإذن.\n\nتم حساب زاوية القبلة، لكن لا يمكن عرض اتجاه الجهاز.';
+
+  @override
+  String get uiBildirimNotlari =>
+      '• تُضبط أوقات التذكير حسب التوقيت المحلي للجهاز.\n• قد يؤخّر توفير البطارية الإشعارات في بعض الهواتف.\n• تتأثر أصوات إشعارات أندرويد بإعدادات القناة.\n• هذه الشاشة وحدها لا تفعّل صوت الأذان الكامل.';
+
+  @override
+  String get uiKissaHakikatleriKesfet =>
+      'اكتشف الحقائق العميقة لهذه القصة في حياتنا';
+
+  @override
+  String get uiSayaclarSifirlanacak =>
+      'سيُعاد تعيين التقدّم الحالي والعداد الإجمالي والجولات المكتملة. ستبقى قائمة أذكارك محفوظة.';
 }
