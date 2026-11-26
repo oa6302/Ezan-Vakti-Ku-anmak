@@ -6,7 +6,7 @@ import '../../../../widgets/admin_card_wrapper.dart';
 import 'dua_detay_page.dart';
 
 const _navy = Color(0xFF142747);
-const _red = Color(0xFFB71C1C);
+const _red = Color(0xFFC8102E);
 
 class DuaCard extends StatelessWidget {
   const DuaCard({super.key});
@@ -87,7 +87,7 @@ class DuaCard extends StatelessWidget {
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(25),
                             border: Border.all(
-                              color: const Color(0xFFFFD98D),
+                              color: const Color(0xFFFCE8EB),
                               width: 1.5,
                             ),
                             boxShadow: const [

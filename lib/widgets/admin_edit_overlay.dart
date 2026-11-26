@@ -11,7 +11,7 @@ import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/features/admin/content_editor_page.dart';
 
 const _red = Color(0xFFB71C1C);
-const _gold = Color(0xFFC9A961);
+const _gold = Color(0xFFC8102E);
 const _green = Color(0xFF2FAE7F);
 const _blue = Color(0xFF1976D2);
 const _purple = Color(0xFF7B1FA2);

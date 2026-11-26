@@ -67,12 +67,12 @@ class _Kissa365CardState extends State<Kissa365Card> {
                         width: 46,
                         height: 46,
                         decoration: BoxDecoration(
-                          color: const Color(0xFFE7E8D8),
+                          color: const Color(0xFFF3F6FB),
                           borderRadius: BorderRadius.circular(15),
                         ),
                         child: Icon(
                           kissa.ikon,
-                          color: const Color(0xFFE8C77A),
+                          color: const Color(0xFFC8102E),
                           size: 26,
                         ),
                       ),
@@ -84,7 +84,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                             Text(
                               AppLocalizations.of(context).uiGununKissasi,
                               style: TextStyle(
-                                color: Color(0xFFE8C77A),
+                                color: Color(0xFFC8102E),
                                 fontSize: 10,
                                 fontWeight: FontWeight.w900,
                                 letterSpacing: 1.3,
@@ -105,7 +105,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                       ),
                       const Icon(
                         Icons.auto_stories_rounded,
-                        color: Color(0xFF9B8751),
+                        color: Color(0xFFC8102E),
                         size: 23,
                       ),
                     ],
@@ -164,7 +164,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                     width: double.infinity,
                     padding: const EdgeInsets.all(14),
                     decoration: BoxDecoration(
-                      color: const Color(0xFFFFFDF6),
+                      color: const Color(0xFFFFFFFF),
                       borderRadius: BorderRadius.circular(17),
                       border: Border.all(
                         color: Colors.white.withValues(alpha: 0.10),
@@ -175,7 +175,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                       children: [
                         const Icon(
                           Icons.lightbulb_outline_rounded,
-                          color: Color(0xFFE8C77A),
+                          color: Color(0xFFC8102E),
                           size: 20,
                         ),
                         const SizedBox(width: 10),
@@ -186,7 +186,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                               Text(
                                 AppLocalizations.of(context).uiKissadanHisse,
                                 style: TextStyle(
-                                  color: Color(0xFFE8C77A),
+                                  color: Color(0xFFC8102E),
                                   fontSize: 10,
                                   fontWeight: FontWeight.w900,
                                   letterSpacing: 0.8,
@@ -266,7 +266,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
           Padding(
             padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
             child: Material(
-              color: const Color(0xFFD8C58D),
+              color: const Color(0xFFC8102E),
               borderRadius: BorderRadius.circular(15),
               child: InkWell(
                 borderRadius: BorderRadius.circular(15),

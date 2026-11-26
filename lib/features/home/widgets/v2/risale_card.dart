@@ -62,7 +62,7 @@ class RisaleCard extends StatelessWidget {
                   child: Opacity(
                     opacity: 0.1,
                     child: Icon(Icons.auto_stories_rounded,
-                        size: 140, color: Color(0xFFD6B36A)),
+                        size: 140, color: Color(0xFFC8102E)),
                   ),
                 ),
                 Padding(
@@ -201,7 +201,7 @@ class RisaleCard extends StatelessWidget {
                             padding: const EdgeInsets.symmetric(
                                 horizontal: 8, vertical: 4),
                             decoration: BoxDecoration(
-                              color: Color(0xFFFFF0CF),
+                              color: Color(0xFFFCE8EB),
                               borderRadius: BorderRadius.circular(6),
                             ),
                             child: Text(
@@ -265,9 +265,9 @@ class _RisaleInfografik extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        color: const Color(0xFFF8FCFA),
+        color: const Color(0xFFFFFFFF),
         borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: const Color(0xFFD6B36A), width: 1),
+        border: Border.all(color: const Color(0xFFC8102E), width: 1),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -309,7 +309,7 @@ class _RisaleInfografik extends StatelessWidget {
                   padding:
                       const EdgeInsets.symmetric(horizontal: 7, vertical: 4),
                   decoration: BoxDecoration(
-                    color: const Color(0xFFFFEBC2),
+                    color: const Color(0xFFFCE8EB),
                     borderRadius: BorderRadius.circular(6),
                   ),
                   child: Text(
@@ -374,7 +374,7 @@ class _MuvazeneTarafi extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(8),
       decoration: BoxDecoration(
-        color: const Color(0xFFEFF6F3),
+        color: const Color(0xFFF3F6FB),
         borderRadius: BorderRadius.circular(9),
         border: Border.all(color: const Color(0x55D6B36A)),
       ),
