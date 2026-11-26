@@ -16,6 +16,8 @@ import 'package:nur_pusulasi/app/favorites_service.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
 import 'package:nur_pusulasi/features/admin/admin_gate_page.dart';
 import 'package:nur_pusulasi/features/admin/content_manager_page.dart';
+import 'package:nur_pusulasi/features/admin/gunluk_yonetim_page.dart';
+import 'package:nur_pusulasi/features/admin/plan_duzenle_page.dart';
 import 'package:nur_pusulasi/features/assistant/pages/assistant_page.dart';
 import 'package:nur_pusulasi/features/combo/pages/combo_page.dart';
 import 'package:nur_pusulasi/features/family/pages/family_page.dart';
@@ -78,6 +80,11 @@ final sayfalar = <String, Widget Function()>{
   'Bildirim Ayarlari': () => const NotificationSettingsPage(),
   'Admin Giris': () => const AdminGatePage(),
   'Icerik Yonetimi': () => const ContentManagerPage(),
+  'Yonetim Paneli': () => const GunlukYonetimPage(),
+  'Plan Duzenle Vecize': () => PlanDuzenlePage(
+      program: ContentType.vecize, tarih: DateTime(2026, 11, 26)),
+  'Plan Duzenle Kissa': () => PlanDuzenlePage(
+      program: ContentType.kissa, tarih: DateTime(2026, 11, 27)),
 };
 
 void main() {

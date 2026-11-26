@@ -2691,6 +2691,468 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'İman dersleri, tefekkür ve mini sınav'**
   String get risaleHakikatleriDesc;
+
+  /// No description provided for @ypBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yönetim Paneli'**
+  String get ypBaslik;
+
+  /// No description provided for @ypBugun.
+  ///
+  /// In tr, this message translates to:
+  /// **'BUGÜN'**
+  String get ypBugun;
+
+  /// No description provided for @ypSeciliTarih.
+  ///
+  /// In tr, this message translates to:
+  /// **'SEÇİLEN TARİH'**
+  String get ypSeciliTarih;
+
+  /// No description provided for @ypGecmis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Geçmiş gün · görüntüle / düzenle'**
+  String get ypGecmis;
+
+  /// No description provided for @ypGelecek.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gelecek gün · planla / taslak'**
+  String get ypGelecek;
+
+  /// No description provided for @ypBugunEtiket.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugün · günlük yönetim'**
+  String get ypBugunEtiket;
+
+  /// No description provided for @ypBugunGit.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugüne Git'**
+  String get ypBugunGit;
+
+  /// No description provided for @ypOncekiGun.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önceki Gün'**
+  String get ypOncekiGun;
+
+  /// No description provided for @ypSonrakiGun.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonraki Gün'**
+  String get ypSonrakiGun;
+
+  /// No description provided for @ypTakvimdenSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tarihe Git'**
+  String get ypTakvimdenSec;
+
+  /// No description provided for @ypAnaSayfa.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ana Sayfa'**
+  String get ypAnaSayfa;
+
+  /// No description provided for @ypYenile.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yenile'**
+  String get ypYenile;
+
+  /// No description provided for @ypCikis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Çıkış Yap'**
+  String get ypCikis;
+
+  /// No description provided for @ypYenilendi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Veriler kaynaktan yeniden yüklendi'**
+  String get ypYenilendi;
+
+  /// No description provided for @ypToplamIcerik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Toplam içerik'**
+  String get ypToplamIcerik;
+
+  /// No description provided for @ypBugunYayinda.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugün planla yayında'**
+  String get ypBugunYayinda;
+
+  /// No description provided for @ypBugunTaslak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugün taslak'**
+  String get ypBugunTaslak;
+
+  /// No description provided for @ypPlanlanan.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gelecek için planlı'**
+  String get ypPlanlanan;
+
+  /// No description provided for @ypTaslakGunler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Taslak bekleyen gün'**
+  String get ypTaslakGunler;
+
+  /// No description provided for @ypSonGuncellenen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Son güncellenen kayıtlar'**
+  String get ypSonGuncellenen;
+
+  /// No description provided for @ypKayitYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz plan kaydı yok'**
+  String get ypKayitYok;
+
+  /// No description provided for @ypGununProgramlari.
+  ///
+  /// In tr, this message translates to:
+  /// **'Seçilen günün programları'**
+  String get ypGununProgramlari;
+
+  /// No description provided for @ypDurumOtomatik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Otomatik (arşiv)'**
+  String get ypDurumOtomatik;
+
+  /// No description provided for @ypDurumTaslak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Taslak'**
+  String get ypDurumTaslak;
+
+  /// No description provided for @ypDurumYayinda.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayımlandı'**
+  String get ypDurumYayinda;
+
+  /// No description provided for @ypDurumPlanli.
+  ///
+  /// In tr, this message translates to:
+  /// **'Planlandı'**
+  String get ypDurumPlanli;
+
+  /// No description provided for @ypDurumArsiv.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arşivlendi'**
+  String get ypDurumArsiv;
+
+  /// No description provided for @ypOtomatikAciklama.
+  ///
+  /// In tr, this message translates to:
+  /// **'Plan yok; bu gün arşiv sırasındaki içerik gösterilir.'**
+  String get ypOtomatikAciklama;
+
+  /// No description provided for @ypSonGuncelleme.
+  ///
+  /// In tr, this message translates to:
+  /// **'Son güncelleme'**
+  String get ypSonGuncelleme;
+
+  /// No description provided for @ypOnizle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önizle'**
+  String get ypOnizle;
+
+  /// No description provided for @ypDuzenle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Düzenle'**
+  String get ypDuzenle;
+
+  /// No description provided for @ypYeniIcerik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeni İçerik'**
+  String get ypYeniIcerik;
+
+  /// No description provided for @ypArsivdenSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arşivden Seç'**
+  String get ypArsivdenSec;
+
+  /// No description provided for @ypYayimla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayımla'**
+  String get ypYayimla;
+
+  /// No description provided for @ypTaslagaAl.
+  ///
+  /// In tr, this message translates to:
+  /// **'Taslağa Al'**
+  String get ypTaslagaAl;
+
+  /// No description provided for @ypArsivle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arşivle'**
+  String get ypArsivle;
+
+  /// No description provided for @ypSil.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sil'**
+  String get ypSil;
+
+  /// No description provided for @ypSilOnay.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu günün kaydı silinsin mi? Gün, otomatik arşiv sırasına döner; diğer günler etkilenmez.'**
+  String get ypSilOnay;
+
+  /// No description provided for @ypVazgec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Vazgeç'**
+  String get ypVazgec;
+
+  /// No description provided for @ypKaydedildi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydedildi'**
+  String get ypKaydedildi;
+
+  /// No description provided for @ypKayitHatasi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydedilemedi; veri değişmedi. Tekrar deneyin.'**
+  String get ypKayitHatasi;
+
+  /// No description provided for @ypDigerModuller.
+  ///
+  /// In tr, this message translates to:
+  /// **'Diğer modüller'**
+  String get ypDigerModuller;
+
+  /// No description provided for @ypModulYonetimi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Modül yönetimi: arşiv, arama, filtre, ekle/sil'**
+  String get ypModulYonetimi;
+
+  /// No description provided for @ypEzanVakitleri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ezan vakitleri konumdan otomatik hesaplanır; içerik kaydı olarak değiştirilmez.'**
+  String get ypEzanVakitleri;
+
+  /// No description provided for @ypAra.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ara'**
+  String get ypAra;
+
+  /// No description provided for @ypYayinTarihi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayın tarihi'**
+  String get ypYayinTarihi;
+
+  /// No description provided for @ypZorunlu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Zorunlu alan'**
+  String get ypZorunlu;
+
+  /// No description provided for @ypTaslakKaydet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Taslak Kaydet'**
+  String get ypTaslakKaydet;
+
+  /// No description provided for @ypMevcutVar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu tarihte bu program için zaten bir kayıt var. Mevcut kaydı düzenlemek ister misiniz?'**
+  String get ypMevcutVar;
+
+  /// No description provided for @ypMevcutuDuzenle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Mevcut Kaydı Düzenle'**
+  String get ypMevcutuDuzenle;
+
+  /// No description provided for @ypUzerineYaz.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bilerek Değiştir'**
+  String get ypUzerineYaz;
+
+  /// No description provided for @ypAyniMetin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu metin şu tarihlerde de kullanılıyor:'**
+  String get ypAyniMetin;
+
+  /// No description provided for @ypAlanBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Başlık'**
+  String get ypAlanBaslik;
+
+  /// No description provided for @ypAlanKaynak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaynak (eser, sure/ayet, hadis kitabı)'**
+  String get ypAlanKaynak;
+
+  /// No description provided for @ypAlanKategori.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kategori'**
+  String get ypAlanKategori;
+
+  /// No description provided for @ypAlanLatin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Latin harfli metin (Osmanlıcanın birebir aktarımı)'**
+  String get ypAlanLatin;
+
+  /// No description provided for @ypAlanOsmanlica.
+  ///
+  /// In tr, this message translates to:
+  /// **'Osmanlıca orijinal metin'**
+  String get ypAlanOsmanlica;
+
+  /// No description provided for @ypAlanArapca.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arapça metin'**
+  String get ypAlanArapca;
+
+  /// No description provided for @ypAlanMeal.
+  ///
+  /// In tr, this message translates to:
+  /// **'Türkçe meal'**
+  String get ypAlanMeal;
+
+  /// No description provided for @ypAlanHadisMetni.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hadis meali'**
+  String get ypAlanHadisMetni;
+
+  /// No description provided for @ypAlanNumara.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hadis numarası / bölüm'**
+  String get ypAlanNumara;
+
+  /// No description provided for @ypAlanOkunus.
+  ///
+  /// In tr, this message translates to:
+  /// **'Okunuş'**
+  String get ypAlanOkunus;
+
+  /// No description provided for @ypAlanAnlam.
+  ///
+  /// In tr, this message translates to:
+  /// **'Türkçe anlam'**
+  String get ypAlanAnlam;
+
+  /// No description provided for @ypAlanMetin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Metin'**
+  String get ypAlanMetin;
+
+  /// No description provided for @ypAlanHakikat.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikat açıklaması'**
+  String get ypAlanHakikat;
+
+  /// No description provided for @ypKissaSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kıssa seçin'**
+  String get ypKissaSec;
+
+  /// No description provided for @ypAyGeri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önceki ay'**
+  String get ypAyGeri;
+
+  /// No description provided for @ypAyIleri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonraki ay'**
+  String get ypAyIleri;
+
+  /// No description provided for @ypProgVecize.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Vecizesi'**
+  String get ypProgVecize;
+
+  /// No description provided for @ypProgAyet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Ayeti'**
+  String get ypProgAyet;
+
+  /// No description provided for @ypProgHadis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Hadisi'**
+  String get ypProgHadis;
+
+  /// No description provided for @ypProgDua.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Duası'**
+  String get ypProgDua;
+
+  /// No description provided for @ypProgKissa.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Kıssası'**
+  String get ypProgKissa;
+
+  /// No description provided for @ypProgRisale.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur / Hakikat'**
+  String get ypProgRisale;
+
+  /// No description provided for @ypGosterilen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kullanıcıya gösterilen'**
+  String get ypGosterilen;
+
+  /// No description provided for @ypIcerikYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'İçerik yok'**
+  String get ypIcerikYok;
+
+  /// No description provided for @ypKaydet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydet'**
+  String get ypKaydet;
 }
 
 class _AppLocalizationsDelegate

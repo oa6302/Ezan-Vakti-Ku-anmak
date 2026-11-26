@@ -27,7 +27,8 @@ class RisaleCard extends StatelessWidget {
         final dailyMetin = dailyExtra['risaleHakikat']?.toString() ?? '';
         final poolRisale =
             ContentService.instance.getDailyPoolItem(ContentType.risale, now);
-        final hasDailyRisale = dailyMetin.trim().isNotEmpty;
+        final hasDailyRisale = dailyMetin.trim().isNotEmpty &&
+            !ContentService.instance.planliMi(ContentType.risale, now);
         final r = hasDailyRisale ? daily! : poolRisale;
         if (r == null) return const SizedBox.shrink();
 

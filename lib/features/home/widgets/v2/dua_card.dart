@@ -18,13 +18,13 @@ class DuaCard extends StatelessWidget {
         final now = DateTime.now();
         final daily = ContentService.instance.getDailyRecordForDate(now);
         final dailyExtra = daily?.extra ?? {};
-        final hasDailyDua = (dailyExtra['duaArapca']
-                    ?.toString()
-                    .trim()
-                    .isNotEmpty ??
-                false) ||
-            (dailyExtra['duaAnlam']?.toString().trim().isNotEmpty ?? false) ||
-            (dailyExtra['duaOkunus']?.toString().trim().isNotEmpty ?? false);
+        final hasDailyDua = !ContentService.instance
+                .planliMi(ContentType.dua, now) &&
+            ((dailyExtra['duaArapca']?.toString().trim().isNotEmpty ?? false) ||
+                (dailyExtra['duaAnlam']?.toString().trim().isNotEmpty ??
+                    false) ||
+                (dailyExtra['duaOkunus']?.toString().trim().isNotEmpty ??
+                    false));
         final poolDua =
             ContentService.instance.getDailyPoolItem(ContentType.dua, now);
         final dua = hasDailyDua ? daily : poolDua;

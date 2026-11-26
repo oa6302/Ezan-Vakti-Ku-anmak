@@ -3,6 +3,20 @@ import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/data/islami_kissalar.dart';
 import 'package:nur_pusulasi/features/kissa/pages/kissa_kutuphanesi_page.dart';
 import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
+import 'package:nur_pusulasi/app/content_service.dart';
+import 'package:nur_pusulasi/app/gunluk_plan.dart';
+
+/// Admin plani (yayinda) varsa o kissa; yoksa yil gunune gore arsiv sirasi.
+Kissa? gununKissasi(DateTime tarih) {
+  if (islamiKissalar.isEmpty) return null;
+  final id = GunlukPlanServisi.instance
+      .yayindaki(ContentType.kissa, tarih)
+      ?.extra?['kissaId'];
+  final planli = islamiKissalar.where((k) => k.id == id);
+  if (planli.isNotEmpty) return planli.first;
+  final gunNo = tarih.difference(DateTime(tarih.year, 1, 1)).inDays;
+  return islamiKissalar[gunNo % islamiKissalar.length];
+}
 
 class Kissa365Card extends StatefulWidget {
   const Kissa365Card({super.key});
@@ -15,14 +29,18 @@ class _Kissa365CardState extends State<Kissa365Card> {
   final _repaintKey = GlobalKey();
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => ListenableBuilder(
+      listenable: GunlukPlanServisi.instance,
+      builder: (context, _) => _kart(context));
+
+  Widget _kart(BuildContext context) {
     if (islamiKissalar.isEmpty) {
       return const SizedBox.shrink();
     }
 
     final bugun = DateTime.now();
-    final gunNo = bugun.difference(DateTime(bugun.year, 1, 1)).inDays;
-    final kissa = islamiKissalar[gunNo % islamiKissalar.length];
+    final kissa = gununKissasi(bugun);
+    if (kissa == null) return const SizedBox.shrink();
     // Kartta kissanin baslangici; devami detay sayfasinda
     final ozet = kissa.baslangic.isNotEmpty ? kissa.baslangic : kissa.hisse;
 

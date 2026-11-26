@@ -1457,4 +1457,240 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get risaleHakikatleriDesc => 'دروس الإيمان والتفكر واختبار قصير';
+
+  @override
+  String get ypBaslik => 'لوحة الإدارة';
+
+  @override
+  String get ypBugun => 'اليوم';
+
+  @override
+  String get ypSeciliTarih => 'التاريخ المحدد';
+
+  @override
+  String get ypGecmis => 'يوم سابق · عرض / تعديل';
+
+  @override
+  String get ypGelecek => 'يوم قادم · تخطيط / مسودة';
+
+  @override
+  String get ypBugunEtiket => 'اليوم · الإدارة اليومية';
+
+  @override
+  String get ypBugunGit => 'الذهاب إلى اليوم';
+
+  @override
+  String get ypOncekiGun => 'اليوم السابق';
+
+  @override
+  String get ypSonrakiGun => 'اليوم التالي';
+
+  @override
+  String get ypTakvimdenSec => 'انتقل إلى تاريخ';
+
+  @override
+  String get ypAnaSayfa => 'الرئيسية';
+
+  @override
+  String get ypYenile => 'تحديث';
+
+  @override
+  String get ypCikis => 'تسجيل الخروج';
+
+  @override
+  String get ypYenilendi => 'أُعيد تحميل البيانات من المصدر';
+
+  @override
+  String get ypToplamIcerik => 'إجمالي المحتوى';
+
+  @override
+  String get ypBugunYayinda => 'المنشور اليوم';
+
+  @override
+  String get ypBugunTaslak => 'مسودات اليوم';
+
+  @override
+  String get ypPlanlanan => 'مجدول للأيام القادمة';
+
+  @override
+  String get ypTaslakGunler => 'أيام بها مسودات';
+
+  @override
+  String get ypSonGuncellenen => 'آخر التحديثات';
+
+  @override
+  String get ypKayitYok => 'لا توجد سجلات مخططة بعد';
+
+  @override
+  String get ypGununProgramlari => 'برامج اليوم المحدد';
+
+  @override
+  String get ypDurumOtomatik => 'تلقائي (الأرشيف)';
+
+  @override
+  String get ypDurumTaslak => 'مسودة';
+
+  @override
+  String get ypDurumYayinda => 'منشور';
+
+  @override
+  String get ypDurumPlanli => 'مجدول';
+
+  @override
+  String get ypDurumArsiv => 'مؤرشف';
+
+  @override
+  String get ypOtomatikAciklama =>
+      'لا توجد خطة؛ يُعرض محتوى الأرشيف بالتناوب في هذا اليوم.';
+
+  @override
+  String get ypSonGuncelleme => 'آخر تحديث';
+
+  @override
+  String get ypOnizle => 'معاينة';
+
+  @override
+  String get ypDuzenle => 'تعديل';
+
+  @override
+  String get ypYeniIcerik => 'محتوى جديد';
+
+  @override
+  String get ypArsivdenSec => 'اختر من الأرشيف';
+
+  @override
+  String get ypYayimla => 'نشر';
+
+  @override
+  String get ypTaslagaAl => 'نقل إلى المسودة';
+
+  @override
+  String get ypArsivle => 'أرشفة';
+
+  @override
+  String get ypSil => 'حذف';
+
+  @override
+  String get ypSilOnay =>
+      'هل تريد حذف سجل هذا اليوم؟ سيعود اليوم إلى تناوب الأرشيف دون التأثير على الأيام الأخرى.';
+
+  @override
+  String get ypVazgec => 'إلغاء';
+
+  @override
+  String get ypKaydedildi => 'تم الحفظ';
+
+  @override
+  String get ypKayitHatasi => 'تعذّر الحفظ؛ لم تتغير البيانات. حاول مجددًا.';
+
+  @override
+  String get ypDigerModuller => 'وحدات أخرى';
+
+  @override
+  String get ypModulYonetimi =>
+      'إدارة الوحدات: الأرشيف والبحث والتصفية والإضافة والحذف';
+
+  @override
+  String get ypEzanVakitleri =>
+      'تُحسب أوقات الأذان تلقائيًا من الموقع ولا تُعدَّل كمحتوى.';
+
+  @override
+  String get ypAra => 'بحث';
+
+  @override
+  String get ypYayinTarihi => 'تاريخ النشر';
+
+  @override
+  String get ypZorunlu => 'حقل إلزامي';
+
+  @override
+  String get ypTaslakKaydet => 'حفظ كمسودة';
+
+  @override
+  String get ypMevcutVar =>
+      'يوجد سجل لهذا البرنامج في هذا التاريخ. هل تريد تعديل السجل الموجود؟';
+
+  @override
+  String get ypMevcutuDuzenle => 'تعديل الموجود';
+
+  @override
+  String get ypUzerineYaz => 'استبدال عن قصد';
+
+  @override
+  String get ypAyniMetin => 'يُستخدم هذا النص أيضًا في:';
+
+  @override
+  String get ypAlanBaslik => 'العنوان';
+
+  @override
+  String get ypAlanKaynak => 'المصدر (الكتاب، السورة/الآية، كتاب الحديث)';
+
+  @override
+  String get ypAlanKategori => 'الفئة';
+
+  @override
+  String get ypAlanLatin => 'النص بالحروف اللاتينية (نقل حرفي)';
+
+  @override
+  String get ypAlanOsmanlica => 'النص العثماني الأصلي';
+
+  @override
+  String get ypAlanArapca => 'النص العربي';
+
+  @override
+  String get ypAlanMeal => 'المعنى بالتركية';
+
+  @override
+  String get ypAlanHadisMetni => 'ترجمة الحديث';
+
+  @override
+  String get ypAlanNumara => 'رقم الحديث / الباب';
+
+  @override
+  String get ypAlanOkunus => 'النطق';
+
+  @override
+  String get ypAlanAnlam => 'المعنى';
+
+  @override
+  String get ypAlanMetin => 'النص';
+
+  @override
+  String get ypAlanHakikat => 'شرح الحقيقة';
+
+  @override
+  String get ypKissaSec => 'اختر قصة';
+
+  @override
+  String get ypAyGeri => 'الشهر السابق';
+
+  @override
+  String get ypAyIleri => 'الشهر التالي';
+
+  @override
+  String get ypProgVecize => 'حكمة اليوم';
+
+  @override
+  String get ypProgAyet => 'آية اليوم';
+
+  @override
+  String get ypProgHadis => 'حديث اليوم';
+
+  @override
+  String get ypProgDua => 'دعاء اليوم';
+
+  @override
+  String get ypProgKissa => 'قصة اليوم';
+
+  @override
+  String get ypProgRisale => 'رسائل النور / حقيقة';
+
+  @override
+  String get ypGosterilen => 'المعروض للمستخدمين';
+
+  @override
+  String get ypIcerikYok => 'لا يوجد محتوى';
+
+  @override
+  String get ypKaydet => 'حفظ';
 }

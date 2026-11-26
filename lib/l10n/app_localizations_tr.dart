@@ -1461,4 +1461,241 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get risaleHakikatleriDesc => 'İman dersleri, tefekkür ve mini sınav';
+
+  @override
+  String get ypBaslik => 'Yönetim Paneli';
+
+  @override
+  String get ypBugun => 'BUGÜN';
+
+  @override
+  String get ypSeciliTarih => 'SEÇİLEN TARİH';
+
+  @override
+  String get ypGecmis => 'Geçmiş gün · görüntüle / düzenle';
+
+  @override
+  String get ypGelecek => 'Gelecek gün · planla / taslak';
+
+  @override
+  String get ypBugunEtiket => 'Bugün · günlük yönetim';
+
+  @override
+  String get ypBugunGit => 'Bugüne Git';
+
+  @override
+  String get ypOncekiGun => 'Önceki Gün';
+
+  @override
+  String get ypSonrakiGun => 'Sonraki Gün';
+
+  @override
+  String get ypTakvimdenSec => 'Tarihe Git';
+
+  @override
+  String get ypAnaSayfa => 'Ana Sayfa';
+
+  @override
+  String get ypYenile => 'Yenile';
+
+  @override
+  String get ypCikis => 'Çıkış Yap';
+
+  @override
+  String get ypYenilendi => 'Veriler kaynaktan yeniden yüklendi';
+
+  @override
+  String get ypToplamIcerik => 'Toplam içerik';
+
+  @override
+  String get ypBugunYayinda => 'Bugün planla yayında';
+
+  @override
+  String get ypBugunTaslak => 'Bugün taslak';
+
+  @override
+  String get ypPlanlanan => 'Gelecek için planlı';
+
+  @override
+  String get ypTaslakGunler => 'Taslak bekleyen gün';
+
+  @override
+  String get ypSonGuncellenen => 'Son güncellenen kayıtlar';
+
+  @override
+  String get ypKayitYok => 'Henüz plan kaydı yok';
+
+  @override
+  String get ypGununProgramlari => 'Seçilen günün programları';
+
+  @override
+  String get ypDurumOtomatik => 'Otomatik (arşiv)';
+
+  @override
+  String get ypDurumTaslak => 'Taslak';
+
+  @override
+  String get ypDurumYayinda => 'Yayımlandı';
+
+  @override
+  String get ypDurumPlanli => 'Planlandı';
+
+  @override
+  String get ypDurumArsiv => 'Arşivlendi';
+
+  @override
+  String get ypOtomatikAciklama =>
+      'Plan yok; bu gün arşiv sırasındaki içerik gösterilir.';
+
+  @override
+  String get ypSonGuncelleme => 'Son güncelleme';
+
+  @override
+  String get ypOnizle => 'Önizle';
+
+  @override
+  String get ypDuzenle => 'Düzenle';
+
+  @override
+  String get ypYeniIcerik => 'Yeni İçerik';
+
+  @override
+  String get ypArsivdenSec => 'Arşivden Seç';
+
+  @override
+  String get ypYayimla => 'Yayımla';
+
+  @override
+  String get ypTaslagaAl => 'Taslağa Al';
+
+  @override
+  String get ypArsivle => 'Arşivle';
+
+  @override
+  String get ypSil => 'Sil';
+
+  @override
+  String get ypSilOnay =>
+      'Bu günün kaydı silinsin mi? Gün, otomatik arşiv sırasına döner; diğer günler etkilenmez.';
+
+  @override
+  String get ypVazgec => 'Vazgeç';
+
+  @override
+  String get ypKaydedildi => 'Kaydedildi';
+
+  @override
+  String get ypKayitHatasi => 'Kaydedilemedi; veri değişmedi. Tekrar deneyin.';
+
+  @override
+  String get ypDigerModuller => 'Diğer modüller';
+
+  @override
+  String get ypModulYonetimi =>
+      'Modül yönetimi: arşiv, arama, filtre, ekle/sil';
+
+  @override
+  String get ypEzanVakitleri =>
+      'Ezan vakitleri konumdan otomatik hesaplanır; içerik kaydı olarak değiştirilmez.';
+
+  @override
+  String get ypAra => 'Ara';
+
+  @override
+  String get ypYayinTarihi => 'Yayın tarihi';
+
+  @override
+  String get ypZorunlu => 'Zorunlu alan';
+
+  @override
+  String get ypTaslakKaydet => 'Taslak Kaydet';
+
+  @override
+  String get ypMevcutVar =>
+      'Bu tarihte bu program için zaten bir kayıt var. Mevcut kaydı düzenlemek ister misiniz?';
+
+  @override
+  String get ypMevcutuDuzenle => 'Mevcut Kaydı Düzenle';
+
+  @override
+  String get ypUzerineYaz => 'Bilerek Değiştir';
+
+  @override
+  String get ypAyniMetin => 'Bu metin şu tarihlerde de kullanılıyor:';
+
+  @override
+  String get ypAlanBaslik => 'Başlık';
+
+  @override
+  String get ypAlanKaynak => 'Kaynak (eser, sure/ayet, hadis kitabı)';
+
+  @override
+  String get ypAlanKategori => 'Kategori';
+
+  @override
+  String get ypAlanLatin =>
+      'Latin harfli metin (Osmanlıcanın birebir aktarımı)';
+
+  @override
+  String get ypAlanOsmanlica => 'Osmanlıca orijinal metin';
+
+  @override
+  String get ypAlanArapca => 'Arapça metin';
+
+  @override
+  String get ypAlanMeal => 'Türkçe meal';
+
+  @override
+  String get ypAlanHadisMetni => 'Hadis meali';
+
+  @override
+  String get ypAlanNumara => 'Hadis numarası / bölüm';
+
+  @override
+  String get ypAlanOkunus => 'Okunuş';
+
+  @override
+  String get ypAlanAnlam => 'Türkçe anlam';
+
+  @override
+  String get ypAlanMetin => 'Metin';
+
+  @override
+  String get ypAlanHakikat => 'Hakikat açıklaması';
+
+  @override
+  String get ypKissaSec => 'Kıssa seçin';
+
+  @override
+  String get ypAyGeri => 'Önceki ay';
+
+  @override
+  String get ypAyIleri => 'Sonraki ay';
+
+  @override
+  String get ypProgVecize => 'Günün Vecizesi';
+
+  @override
+  String get ypProgAyet => 'Günün Ayeti';
+
+  @override
+  String get ypProgHadis => 'Günün Hadisi';
+
+  @override
+  String get ypProgDua => 'Günün Duası';
+
+  @override
+  String get ypProgKissa => 'Günün Kıssası';
+
+  @override
+  String get ypProgRisale => 'Risale-i Nur / Hakikat';
+
+  @override
+  String get ypGosterilen => 'Kullanıcıya gösterilen';
+
+  @override
+  String get ypIcerikYok => 'İçerik yok';
+
+  @override
+  String get ypKaydet => 'Kaydet';
 }

@@ -19,7 +19,8 @@ class DailyVerseCard extends StatelessWidget {
           final dailyAyet = dailyRecord?.extra?['ayet']?.toString() ??
               dailyRecord?.icerik ??
               '';
-          final hasDailyVerse = dailyAyet.trim().isNotEmpty;
+          final hasDailyVerse = dailyAyet.trim().isNotEmpty &&
+              !ContentService.instance.planliMi(ContentType.ayet, now);
           final poolItem =
               ContentService.instance.getDailyPoolItem(ContentType.ayet, now);
           final item = hasDailyVerse ? dailyRecord : poolItem;

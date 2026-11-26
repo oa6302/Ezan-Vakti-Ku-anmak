@@ -1469,4 +1469,240 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get risaleHakikatleriDesc =>
       'Lessons of faith, reflection and quizzes';
+
+  @override
+  String get ypBaslik => 'Admin Panel';
+
+  @override
+  String get ypBugun => 'TODAY';
+
+  @override
+  String get ypSeciliTarih => 'SELECTED DATE';
+
+  @override
+  String get ypGecmis => 'Past day · view / edit';
+
+  @override
+  String get ypGelecek => 'Future day · plan / draft';
+
+  @override
+  String get ypBugunEtiket => 'Today · daily management';
+
+  @override
+  String get ypBugunGit => 'Go to Today';
+
+  @override
+  String get ypOncekiGun => 'Previous Day';
+
+  @override
+  String get ypSonrakiGun => 'Next Day';
+
+  @override
+  String get ypTakvimdenSec => 'Go to Date';
+
+  @override
+  String get ypAnaSayfa => 'Home';
+
+  @override
+  String get ypYenile => 'Refresh';
+
+  @override
+  String get ypCikis => 'Sign Out';
+
+  @override
+  String get ypYenilendi => 'Data reloaded from source';
+
+  @override
+  String get ypToplamIcerik => 'Total content';
+
+  @override
+  String get ypBugunYayinda => 'Published today';
+
+  @override
+  String get ypBugunTaslak => 'Drafts today';
+
+  @override
+  String get ypPlanlanan => 'Scheduled ahead';
+
+  @override
+  String get ypTaslakGunler => 'Days with drafts';
+
+  @override
+  String get ypSonGuncellenen => 'Recently updated';
+
+  @override
+  String get ypKayitYok => 'No planned records yet';
+
+  @override
+  String get ypGununProgramlari => 'Programs of the selected day';
+
+  @override
+  String get ypDurumOtomatik => 'Automatic (archive)';
+
+  @override
+  String get ypDurumTaslak => 'Draft';
+
+  @override
+  String get ypDurumYayinda => 'Published';
+
+  @override
+  String get ypDurumPlanli => 'Scheduled';
+
+  @override
+  String get ypDurumArsiv => 'Archived';
+
+  @override
+  String get ypOtomatikAciklama =>
+      'No plan; the archive rotation is shown on this day.';
+
+  @override
+  String get ypSonGuncelleme => 'Last updated';
+
+  @override
+  String get ypOnizle => 'Preview';
+
+  @override
+  String get ypDuzenle => 'Edit';
+
+  @override
+  String get ypYeniIcerik => 'New Content';
+
+  @override
+  String get ypArsivdenSec => 'Choose from Archive';
+
+  @override
+  String get ypYayimla => 'Publish';
+
+  @override
+  String get ypTaslagaAl => 'Move to Draft';
+
+  @override
+  String get ypArsivle => 'Archive';
+
+  @override
+  String get ypSil => 'Delete';
+
+  @override
+  String get ypSilOnay =>
+      'Delete this day\'s record? The day returns to the archive rotation; other days are not affected.';
+
+  @override
+  String get ypVazgec => 'Cancel';
+
+  @override
+  String get ypKaydedildi => 'Saved';
+
+  @override
+  String get ypKayitHatasi => 'Could not save; data unchanged. Try again.';
+
+  @override
+  String get ypDigerModuller => 'Other modules';
+
+  @override
+  String get ypModulYonetimi =>
+      'Module management: archive, search, filter, add/delete';
+
+  @override
+  String get ypEzanVakitleri =>
+      'Prayer times are calculated automatically from location and are not edited as content.';
+
+  @override
+  String get ypAra => 'Search';
+
+  @override
+  String get ypYayinTarihi => 'Publish date';
+
+  @override
+  String get ypZorunlu => 'Required field';
+
+  @override
+  String get ypTaslakKaydet => 'Save Draft';
+
+  @override
+  String get ypMevcutVar =>
+      'A record already exists for this program on that date. Edit the existing record?';
+
+  @override
+  String get ypMevcutuDuzenle => 'Edit Existing';
+
+  @override
+  String get ypUzerineYaz => 'Replace Intentionally';
+
+  @override
+  String get ypAyniMetin => 'This text is also used on:';
+
+  @override
+  String get ypAlanBaslik => 'Title';
+
+  @override
+  String get ypAlanKaynak => 'Source (work, surah/verse, hadith book)';
+
+  @override
+  String get ypAlanKategori => 'Category';
+
+  @override
+  String get ypAlanLatin => 'Latin-script text (verbatim transcription)';
+
+  @override
+  String get ypAlanOsmanlica => 'Original Ottoman text';
+
+  @override
+  String get ypAlanArapca => 'Arabic text';
+
+  @override
+  String get ypAlanMeal => 'Turkish translation';
+
+  @override
+  String get ypAlanHadisMetni => 'Hadith translation';
+
+  @override
+  String get ypAlanNumara => 'Hadith number / section';
+
+  @override
+  String get ypAlanOkunus => 'Transliteration';
+
+  @override
+  String get ypAlanAnlam => 'Meaning';
+
+  @override
+  String get ypAlanMetin => 'Text';
+
+  @override
+  String get ypAlanHakikat => 'Explanation';
+
+  @override
+  String get ypKissaSec => 'Choose a story';
+
+  @override
+  String get ypAyGeri => 'Previous month';
+
+  @override
+  String get ypAyIleri => 'Next month';
+
+  @override
+  String get ypProgVecize => 'Quote of the Day';
+
+  @override
+  String get ypProgAyet => 'Verse of the Day';
+
+  @override
+  String get ypProgHadis => 'Hadith of the Day';
+
+  @override
+  String get ypProgDua => 'Prayer of the Day';
+
+  @override
+  String get ypProgKissa => 'Story of the Day';
+
+  @override
+  String get ypProgRisale => 'Risale-i Nur / Truth';
+
+  @override
+  String get ypGosterilen => 'Shown to users';
+
+  @override
+  String get ypIcerikYok => 'No content';
+
+  @override
+  String get ypKaydet => 'Save';
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:nur_pusulasi/app/gunluk_plan.dart';
 import 'package:nur_pusulasi/data/dua_havuzu.dart';
 import 'package:nur_pusulasi/data/vecize_havuzu.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_2.dart';
@@ -265,6 +266,15 @@ class ContentService extends ChangeNotifier {
     notifyListeners();
   }
 
+  /// Yenile: varliklar ve kalici admin kayitlari bastan okunur.
+  Future<void> yenidenYukle() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.reload();
+    _pools.clear();
+    _loaded = false;
+    await load();
+  }
+
   /// Hardcoded havuzlardan default ContentItem listeleri olustur
   void _buildDefaults() {
     // KISSA havuzu
@@ -515,7 +525,7 @@ class ContentService extends ChangeNotifier {
               type: ContentType.hadis,
               baslik: h.baslik,
               icerik: h.metin,
-              arapca: h.arapca,
+              arapca: null, // hadislerde yalniz meal gosterilir
               altIcerik: h.kaynakRef,
               kaynak: h.kitap,
               kategori: h.kategori,
@@ -562,7 +572,7 @@ class ContentService extends ChangeNotifier {
                   type: ContentType.hadis,
                   baslik: h['tema'] as String,
                   icerik: h['metin'] as String,
-                  arapca: (h['arapca'] as String?) ?? '',
+                  arapca: null, // hadislerde yalniz meal gosterilir
                   altIcerik: h['numara'] as String,
                   kaynak: h['kaynak'] as String,
                   kategori: h['tema'] as String,
@@ -631,7 +641,18 @@ class ContentService extends ChangeNotifier {
   }
 
   /// Belirli bir içerik havuzundan tarihe göre dolu kayıt seçer.
-  ContentItem? getDailyPoolItem(ContentType type, DateTime date) {
+  ContentItem? getDailyPoolItem(ContentType type, DateTime date) =>
+      GunlukPlanServisi.instance.yayindaki(type, date) ??
+      otomatikGunlukKayit(type, date);
+
+  /// Admin plani olmadan arsiv sirasinin o gune verdigi kayit.
+  bool planliMi(ContentType type, DateTime date) =>
+      GunlukPlanServisi.instance.yayindaki(type, date) != null;
+
+  /// Plan degisince kartlar yeniden cizilir.
+  void planDegisti() => notifyListeners();
+
+  ContentItem? otomatikGunlukKayit(ContentType type, DateTime date) {
     final pool = _pools[type];
     if (pool == null || pool.isEmpty) return null;
     final doluKayitlar = pool

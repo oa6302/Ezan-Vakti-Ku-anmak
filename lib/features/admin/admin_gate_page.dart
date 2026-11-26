@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'content_manager_page.dart';
+import 'gunluk_yonetim_page.dart';
 import 'package:nur_pusulasi/app/admin_session.dart';
 import 'package:nur_pusulasi/app/theme.dart';
 
@@ -35,13 +35,15 @@ class _AdminGatePageState extends State<AdminGatePage> {
     if (!mounted) return;
     Navigator.of(context).pushReplacement(
       MaterialPageRoute<void>(
-        builder: (_) => const ContentManagerPage(),
+        builder: (_) => const GunlukYonetimPage(),
       ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
+    // Oturum aciksa (ana sayfadan geri donus) PIN tekrar sorulmaz
+    if (AdminSession.instance.isAdmin) return const GunlukYonetimPage();
     return Scaffold(
       appBar:
           AppBar(title: Text(AppLocalizations.of(context).uiYoneticiGirisi)),

@@ -25,7 +25,7 @@ const kayit = [];
 for (const h of tn.hadiths) {
   if (!h.text || !h.text.trim()) continue;
   const ar = arapN.get(h.hadithnumber) || '';
-  kayit.push({ tema: 'Kırk Hadis', metin: h.text.trim(), arapca: ar.length <= 1200 ? ar : '',
+  kayit.push({ tema: 'Kırk Hadis', metin: h.text.trim(),
     kaynak: `Nevevî, Kırk Hadis, ${h.hadithnumber}`, numara: `Nevevî ${h.hadithnumber}`,
     sihhat: 'Nevevî\'nin seçtiği hadisler (asıl kaynakları metnin sonunda belirtilir)' });
 }
@@ -37,7 +37,6 @@ for (const h of tb.hadiths) {
   if (!b || !uygun(h.text)) continue;
   const a = anahtar(h.text); if (tekil.has(a)) continue; tekil.add(a);
   (kuyruk[b[1]] ??= []).push({ tema: b[1], metin: h.text.trim(),
-    arapca: (arapB.get(h.hadithnumber) || '').length <= 900 ? arapB.get(h.hadithnumber) : '',
     kaynak: `Buhârî, ${b[0]}`, numara: `Buhârî ${h.hadithnumber}`, sihhat: 'Sahih (Buhârî)' });
 }
 for (const b of Object.values(BOLUM)) kuyruk[b[1]] = (kuyruk[b[1]] || []).slice(0, b[2]);

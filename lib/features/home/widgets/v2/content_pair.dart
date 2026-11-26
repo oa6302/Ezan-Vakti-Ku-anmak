@@ -19,7 +19,8 @@ class ContentPair extends StatelessWidget {
           final extra = daily?.extra ?? {};
           final dailyHadis =
               extra['hadis']?.toString() ?? daily?.altIcerik ?? '';
-          final hasDailyHadis = dailyHadis.trim().isNotEmpty;
+          final hasDailyHadis = dailyHadis.trim().isNotEmpty &&
+              !ContentService.instance.planliMi(ContentType.hadis, now);
           final poolHadis =
               ContentService.instance.getDailyPoolItem(ContentType.hadis, now);
 
