@@ -1,4 +1,5 @@
-import 'dart:io' show Platform;
+import 'package:flutter/foundation.dart'
+    show kIsWeb, defaultTargetPlatform, TargetPlatform;
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/features/qibla/qibla_page.dart';
 import 'features/growth/growth_page.dart';
@@ -31,17 +32,20 @@ const _navy = Color(0xFF0A1F44);
 const _red = Color(0xFFB71C1C);
 const _gold = Color(0xFFC9A961);
 
+/// pubspec.yaml 'version' ile ayni tutulur.
+const _surum = '0.2.0';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await NotificationService().init();
 
   final appState = AppState();
-  await appState.load();
-
+  // Bir servisin hatasi uygulamanin acilmasini engellemesin.
+  await _guvenli('bildirim', () => NotificationService().init());
+  await _guvenli('ayarlar', appState.load);
   // Icerik servisini yukle (kissa, dua, vecize havuzlari)
-  await ContentService.instance.load();
-  await FavoritesService.instance.load();
-  await AdminSession.instance.load();
+  await _guvenli('icerik', ContentService.instance.load);
+  await _guvenli('favoriler', FavoritesService.instance.load);
+  await _guvenli('admin', AdminSession.instance.load);
 
   runApp(
     ChangeNotifierProvider<AppState>.value(
@@ -50,6 +54,20 @@ void main() async {
     ),
   );
 }
+
+Future<void> _guvenli(String ad, Future<void> Function() is_) async {
+  try {
+    await is_();
+  } catch (e, s) {
+    debugPrint('Acilis hatasi ($ad): $e\n$s');
+  }
+}
+
+/// Ana ekran widget'lari sadece mobil cihazlarda var (web/masaustunde yok).
+bool get _mobil =>
+    !kIsWeb &&
+    (defaultTargetPlatform == TargetPlatform.android ||
+        defaultTargetPlatform == TargetPlatform.iOS);
 
 class NurPusulasiApp extends StatefulWidget {
   const NurPusulasiApp({super.key});
@@ -70,7 +88,7 @@ class _NurPusulasiAppState extends State<NurPusulasiApp> {
       valueListenable: AppSettings.instance.locale,
       builder: (context, locale, _) {
         return MaterialApp(
-          title: 'Ezan Vakti Kuşanmak',
+          onGenerateTitle: (c) => AppLocalizations.of(c).appTitle,
           debugShowCheckedModeBanner: false,
           theme: buildAppTheme(),
           darkTheme: buildDarkTheme(),
@@ -153,26 +171,27 @@ class _MainShellState extends State<MainShell> with WidgetsBindingObserver {
 
   Future<void> _refreshNotifications() async {
     final appState = context.read<AppState>();
-    // Örnek:
-    if (Platform.isAndroid || Platform.isIOS) {
+    // Namaz vakitleri ve gunun ayetini Android ana ekran widget'larina aktar.
+    if (_mobil) {
       try {
-        await WidgetSyncService.sync(
-            appState); // Veya senin kodunda nasıl çağrılıyorsa
+        await WidgetSyncService.sync(appState);
       } catch (e) {
         debugPrint('Widget sync error: $e');
       }
     }
 
-    // Namaz vakitleri ve gunun ayetini Android ana ekran widget'larina aktar.
-
-    if (!mounted) return;
+    if (!mounted || kIsWeb) return;
     if (appState.notifEnabled) {
-      await NotificationService().scheduleAll(
-        city: appState.city,
-        latitude: appState.lat,
-        longitude: appState.lng,
-        locationLabel: appState.locationName,
-      );
+      try {
+        await NotificationService().scheduleAll(
+          city: appState.city,
+          latitude: appState.lat,
+          longitude: appState.lng,
+          locationLabel: appState.locationName,
+        );
+      } catch (e) {
+        debugPrint('Bildirim planlama hatasi: $e');
+      }
     }
   }
 
@@ -209,11 +228,12 @@ class _SettingsHub extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final t = AppLocalizations.of(context);
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Daha Fazla',
-            style: TextStyle(
+        title: Text(t.tabMore,
+            style: const TextStyle(
                 color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
       body: ListView(
@@ -222,29 +242,29 @@ class _SettingsHub extends StatelessWidget {
           _tile(
               context,
               Icons.favorite_rounded,
-              'Huşu Takibi',
-              'Kalp huzurunu fark et',
+              t.khushuTitle,
+              t.khushuDesc,
               () => Navigator.push(context,
                   MaterialPageRoute<void>(builder: (_) => const KhushuPage()))),
           _tile(
               context,
               Icons.menu_book_rounded,
-              'Namaz Öğre',
-              'Adım adım rehber',
+              t.learnPrayer,
+              t.learnStepByStep,
               () => Navigator.push(context,
                   MaterialPageRoute<void>(builder: (_) => const LearnPage()))),
           _tile(
               context,
               Icons.self_improvement_rounded,
-              'Ruh Halin',
-              'Kalbin ne söylüyorsa',
+              t.moodTitle,
+              t.moodDesc,
               () => Navigator.push(context,
                   MaterialPageRoute<void>(builder: (_) => const MoodPage()))),
           _tile(
               context,
               Icons.auto_awesome_rounded,
-              'Manevi Yolculuk',
-              'Isı haritası · Seri · Seviye',
+              t.journeyTitle,
+              t.journeyDesc,
               () => Navigator.push(
                   context,
                   MaterialPageRoute<void>(
@@ -252,8 +272,8 @@ class _SettingsHub extends StatelessWidget {
           _tile(
               context,
               Icons.volunteer_activism_rounded,
-              'Sukur Defteri',
-              'Nimeti fark et, kalbi besle',
+              t.gratitudeJournal,
+              t.gratitudeJournalDesc,
               () => Navigator.push(
                   context,
                   MaterialPageRoute<void>(
@@ -261,7 +281,7 @@ class _SettingsHub extends StatelessWidget {
           _tile(
               context,
               Icons.language_rounded,
-              'Dil ve Yazı Stili',
+              t.languageStyleTitle,
               'Türkçe · English · العربية',
               () => Navigator.push(
                   context,
@@ -270,8 +290,8 @@ class _SettingsHub extends StatelessWidget {
           _tile(
               context,
               Icons.notifications_active_rounded,
-              'Bildirim Ayarları',
-              'Vakit hatırlatmaları',
+              t.notificationSettings,
+              t.notificationDesc,
               () => Navigator.push(
                   context,
                   MaterialPageRoute<void>(
@@ -279,8 +299,8 @@ class _SettingsHub extends StatelessWidget {
           _tile(
               context,
               Icons.psychology_rounded,
-              'Akıllı Asistan',
-              'Kaynaklı soru-cevap',
+              t.assistantTitle,
+              t.assistantDesc,
               () => Navigator.push(
                   context,
                   MaterialPageRoute<void>(
@@ -288,8 +308,8 @@ class _SettingsHub extends StatelessWidget {
           _tile(
               context,
               Icons.admin_panel_settings_rounded,
-              'Admin Paneli',
-              'Icerik havuzlarini yonet (PIN: 2580)',
+              t.adminPanel,
+              t.adminPanelDesc,
               () => Navigator.push(
                   context,
                   MaterialPageRoute<void>(
@@ -297,17 +317,16 @@ class _SettingsHub extends StatelessWidget {
           _tile(
               context,
               Icons.info_outline_rounded,
-              'Uygulama Hakkında',
-              'Sürüm 1.0.0 · Ezan Vakti Kuşanmak',
+              t.aboutTitle,
+              '${t.aboutVersion(_surum)} · ${t.appTitle}',
               () => showAboutDialog(
                     context: context,
-                    applicationName: 'Ezan Vakti Kuşanmak',
-                    applicationVersion: '1.0.0',
+                    applicationName: t.appTitle,
+                    applicationVersion: _surum,
                     applicationIcon: const Icon(Icons.mosque_rounded,
                         color: _gold, size: 48),
                     children: [
-                      Text(
-                          'Namaz merkezli ibadet rehberi. Tüm veriler cihazınızda saklanır.'),
+                      Text(t.aboutBody),
                     ],
                   )),
         ],
@@ -375,6 +394,7 @@ class _BottomNav extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final t = AppLocalizations.of(context);
     return Container(
       decoration: BoxDecoration(
         color: Colors.white,
@@ -396,11 +416,11 @@ class _BottomNav extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  _navItem(0, Icons.explore_rounded, 'Pusula'),
-                  _navItem(1, Icons.track_changes_rounded, 'Takip'),
+                  _navItem(0, Icons.explore_rounded, t.tabQibla),
+                  _navItem(1, Icons.track_changes_rounded, t.tabTrack),
                   const SizedBox(width: 70),
-                  _navItem(3, Icons.menu_book_rounded, 'Kütüphane'),
-                  _navItem(4, Icons.more_horiz_rounded, 'Daha Fazla'),
+                  _navItem(3, Icons.menu_book_rounded, t.tabLibrary),
+                  _navItem(4, Icons.more_horiz_rounded, t.tabMore),
                 ],
               ),
               Positioned(

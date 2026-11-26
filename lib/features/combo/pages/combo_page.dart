@@ -1,4 +1,4 @@
-﻿import 'dart:convert';
+import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -902,84 +902,89 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
                       ),
                       boxShadow: AppShadows.soft(),
                     ),
-                    child: ListTile(
-                      onTap: () {
-                        setState(() {
-                          _currentIndex = index;
-                          _currentCount = 0;
-                        });
-                        _saveProgress();
-                      },
-                      contentPadding: const EdgeInsets.symmetric(
-                        horizontal: 12,
-                        vertical: 6,
-                      ),
-                      leading: CircleAvatar(
-                        radius: 20,
-                        backgroundColor: isActive ? kAnaLacivert : kArkaPlan,
-                        foregroundColor:
-                            isActive ? Colors.white : kIkincilMetin,
-                        child: Text(
-                          '${index + 1}',
+                    // Material: dokunma efekti kart renginin ustunde gorunsun
+                    child: Material(
+                      type: MaterialType.transparency,
+                      child: ListTile(
+                        onTap: () {
+                          setState(() {
+                            _currentIndex = index;
+                            _currentCount = 0;
+                          });
+                          _saveProgress();
+                        },
+                        contentPadding: const EdgeInsets.symmetric(
+                          horizontal: 12,
+                          vertical: 6,
+                        ),
+                        leading: CircleAvatar(
+                          radius: 20,
+                          backgroundColor: isActive ? kAnaLacivert : kArkaPlan,
+                          foregroundColor:
+                              isActive ? Colors.white : kIkincilMetin,
+                          child: Text(
+                            '${index + 1}',
+                            style: const TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                        title: Text(
+                          dhikr.name,
+                          style: TextStyle(
+                            fontWeight:
+                                isActive ? FontWeight.bold : FontWeight.w600,
+                            color: kAnaMetin,
+                            fontSize: 15,
+                          ),
+                        ),
+                        subtitle: Text(
+                          '${dhikr.target} adet'
+                          '${dhikr.meaning.isNotEmpty ? ' • ${dhikr.meaning}' : ''}',
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
                           style: const TextStyle(
-                            fontWeight: FontWeight.bold,
+                            fontSize: 12,
+                            color: kIkincilMetin,
                           ),
                         ),
-                      ),
-                      title: Text(
-                        dhikr.name,
-                        style: TextStyle(
-                          fontWeight:
-                              isActive ? FontWeight.bold : FontWeight.w600,
-                          color: kAnaMetin,
-                          fontSize: 15,
+                        trailing: Wrap(
+                          spacing: 0,
+                          crossAxisAlignment: WrapCrossAlignment.center,
+                          children: [
+                            IconButton(
+                              tooltip: 'Düzenle',
+                              constraints: const BoxConstraints(
+                                minWidth: 38,
+                                minHeight: 44,
+                              ),
+                              padding: EdgeInsets.zero,
+                              icon: const Icon(
+                                Icons.edit_outlined,
+                                color: kAnaTurkuaz,
+                                size: 21,
+                              ),
+                              onPressed: () => _showDhikrDialog(
+                                existingDhikr: dhikr,
+                              ),
+                            ),
+                            IconButton(
+                              tooltip: 'Sil',
+                              constraints: const BoxConstraints(
+                                minWidth: 38,
+                                minHeight: 44,
+                              ),
+                              padding: EdgeInsets.zero,
+                              icon: const Icon(
+                                Icons.delete_outline_rounded,
+                                color: kZarifBordo,
+                                size: 21,
+                              ),
+                              onPressed: () =>
+                                  _confirmDelete(index, dhikr.name),
+                            ),
+                          ],
                         ),
-                      ),
-                      subtitle: Text(
-                        '${dhikr.target} adet'
-                        '${dhikr.meaning.isNotEmpty ? ' • ${dhikr.meaning}' : ''}',
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                        style: const TextStyle(
-                          fontSize: 12,
-                          color: kIkincilMetin,
-                        ),
-                      ),
-                      trailing: Wrap(
-                        spacing: 0,
-                        crossAxisAlignment: WrapCrossAlignment.center,
-                        children: [
-                          IconButton(
-                            tooltip: 'Düzenle',
-                            constraints: const BoxConstraints(
-                              minWidth: 38,
-                              minHeight: 44,
-                            ),
-                            padding: EdgeInsets.zero,
-                            icon: const Icon(
-                              Icons.edit_outlined,
-                              color: kAnaTurkuaz,
-                              size: 21,
-                            ),
-                            onPressed: () => _showDhikrDialog(
-                              existingDhikr: dhikr,
-                            ),
-                          ),
-                          IconButton(
-                            tooltip: 'Sil',
-                            constraints: const BoxConstraints(
-                              minWidth: 38,
-                              minHeight: 44,
-                            ),
-                            padding: EdgeInsets.zero,
-                            icon: const Icon(
-                              Icons.delete_outline_rounded,
-                              color: kZarifBordo,
-                              size: 21,
-                            ),
-                            onPressed: () => _confirmDelete(index, dhikr.name),
-                          ),
-                        ],
                       ),
                     ),
                   ),
@@ -1037,5 +1042,3 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
     );
   }
 }
-
-

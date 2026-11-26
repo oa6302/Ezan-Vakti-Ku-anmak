@@ -1,18 +1,16 @@
-﻿import 'package:flutter/foundation.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
 import 'package:nur_pusulasi/features/prayer/data/prayer_service.dart';
 
 class WidgetSyncService {
-  static const MethodChannel _channel =
-      MethodChannel('nur_pusulasi/widgets');
+  static const MethodChannel _channel = MethodChannel('nur_pusulasi/widgets');
 
   static Future<void> sync(AppState state) async {
     try {
       final now = DateTime.now();
-      final dayOfYear =
-          now.difference(DateTime(now.year, 1, 1)).inDays + 1;
+      final dayOfYear = now.difference(DateTime(now.year, 1, 1)).inDays + 1;
 
       final verse = ContentService.instance.getForDay(
         ContentType.ayet,
@@ -65,4 +63,3 @@ class WidgetSyncService {
     }
   }
 }
-

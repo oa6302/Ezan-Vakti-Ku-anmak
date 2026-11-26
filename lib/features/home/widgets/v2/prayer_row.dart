@@ -16,29 +16,29 @@ class PrayerRowV2 extends StatefulWidget {
 class _PrayerRowV2State extends State<PrayerRowV2> {
   final _service = PrayerService();
   PrayerTimeResult? _result;
-  String _city = '';
+  String _konumAnahtari = '';
   int _loadGeneration = 0;
 
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    final c = context.watch<AppState>().city;
-    final safe = c.trim().isEmpty ? 'Istanbul' : c;
-    if (safe != _city || _result == null) {
-      _city = safe;
-      _load(safe);
+    // Il, ilce veya GPS degisince yeniden hesapla (tek kaynak: AppState)
+    final s = context.watch<AppState>();
+    final anahtar = '${s.city}|${s.lat}|${s.lng}';
+    if (anahtar != _konumAnahtari || _result == null) {
+      _konumAnahtari = anahtar;
+      _load(s);
     }
   }
 
-  Future<void> _load(String city) async {
+  Future<void> _load(AppState s) async {
     final generation = ++_loadGeneration;
     try {
-      debugPrint('PrayerRow: calculating for $city');
       final r = await _service
-          .calculateForCity(city)
+          .calculateForLocation(
+              city: s.city, lat: s.lat, lng: s.lng, label: s.locationName)
           .timeout(const Duration(seconds: 8));
       if (!mounted || generation != _loadGeneration) return;
-      debugPrint('PrayerRow: OK -> ${r?.times.length} vakit');
       setState(() => _result = r);
     } catch (e, st) {
       debugPrint('PrayerRow error: $e');

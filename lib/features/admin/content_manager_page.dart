@@ -19,7 +19,8 @@ class ContentManagerPage extends StatefulWidget {
 
 class _ContentManagerPageState extends State<ContentManagerPage>
     with SingleTickerProviderStateMixin {
-  static final List<ContentType> _yonetimTipleri = ContentType.values.where((t) => t != ContentType.tefekkur).toList();
+  static final List<ContentType> _yonetimTipleri =
+      ContentType.values.where((t) => t != ContentType.tefekkur).toList();
   late TabController _tabCtrl;
   final _searchCtrl = TextEditingController();
   String _query = '';
@@ -404,27 +405,27 @@ class _ContentManagerPageState extends State<ContentManagerPage>
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
         child: Row(
-        children: [
-          Icon(
-              ContentService.instance.iconFor(
-                  ContentItem(id: '', type: tip, baslik: '', icerik: '')),
-              color: _navy.withValues(alpha: 0.6),
-              size: 16),
-          const SizedBox(width: 8),
-          Text('${tip.label}:',
-              style: const TextStyle(
-                  color: _navy, fontSize: 12, fontWeight: FontWeight.w900)),
-          const SizedBox(width: 8),
-          _statKutu('Toplam', stats['toplam'] ?? 0, _navy),
-          const SizedBox(width: 6),
-          _statKutu('Yayın', stats['yayinlandi'] ?? 0, _green),
-          const SizedBox(width: 6),
-          _statKutu('Taslak', stats['taslak'] ?? 0, Colors.grey),
-          const SizedBox(width: 6),
-          _statKutu('İnceleme', stats['incelemede'] ?? 0, _orange),
-          const SizedBox(width: 6),
-          _statKutu('Arşiv', stats['arsivlendi'] ?? 0, _red),
-        ],
+          children: [
+            Icon(
+                ContentService.instance.iconFor(
+                    ContentItem(id: '', type: tip, baslik: '', icerik: '')),
+                color: _navy.withValues(alpha: 0.6),
+                size: 16),
+            const SizedBox(width: 8),
+            Text('${tip.label}:',
+                style: const TextStyle(
+                    color: _navy, fontSize: 12, fontWeight: FontWeight.w900)),
+            const SizedBox(width: 8),
+            _statKutu('Toplam', stats['toplam'] ?? 0, _navy),
+            const SizedBox(width: 6),
+            _statKutu('Yayın', stats['yayinlandi'] ?? 0, _green),
+            const SizedBox(width: 6),
+            _statKutu('Taslak', stats['taslak'] ?? 0, Colors.grey),
+            const SizedBox(width: 6),
+            _statKutu('İnceleme', stats['incelemede'] ?? 0, _orange),
+            const SizedBox(width: 6),
+            _statKutu('Arşiv', stats['arsivlendi'] ?? 0, _red),
+          ],
         ),
       ),
     );
@@ -532,7 +533,9 @@ class _ContentManagerPageState extends State<ContentManagerPage>
   Future<void> _deleteFiltered() async {
     if (_aktifTip == ContentType.gunluk) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('365 günlük kayıtlar korunuyor; silme işlemi engellendi.')),
+        const SnackBar(
+            content: Text(
+                '365 günlük kayıtlar korunuyor; silme işlemi engellendi.')),
       );
       return;
     }
@@ -864,7 +867,9 @@ class _ContentManagerPageState extends State<ContentManagerPage>
   Future<void> _confirmDelete(ContentItem item) async {
     if (item.type == ContentType.gunluk) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Günlük kayıtlar silinemez; düzenlemeye devam edebilirsiniz.')),
+        const SnackBar(
+            content: Text(
+                'Günlük kayıtlar silinemez; düzenlemeye devam edebilirsiniz.')),
       );
       return;
     }

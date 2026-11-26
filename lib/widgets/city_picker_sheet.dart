@@ -1,4 +1,4 @@
-﻿import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
 import 'package:nur_pusulasi/features/prayer/data/turkish_cities.dart';
@@ -217,8 +217,7 @@ class _CityPickerSheetState extends State<_CityPickerSheet> {
                     c.name,
                     style: TextStyle(
                       color: _navy,
-                      fontWeight:
-                          selected ? FontWeight.w900 : FontWeight.w600,
+                      fontWeight: selected ? FontWeight.w900 : FontWeight.w600,
                     ),
                   ),
                   onTap: () => Navigator.pop(context, c),
@@ -338,8 +337,7 @@ class _DistrictPickerSheetState extends State<_DistrictPickerSheet> {
                     district.name,
                     style: TextStyle(
                       color: _navy,
-                      fontWeight:
-                          selected ? FontWeight.w900 : FontWeight.w600,
+                      fontWeight: selected ? FontWeight.w900 : FontWeight.w600,
                     ),
                   ),
                   onTap: () => Navigator.pop(context, district),
@@ -352,6 +350,3 @@ class _DistrictPickerSheetState extends State<_DistrictPickerSheet> {
     );
   }
 }
-
-
-

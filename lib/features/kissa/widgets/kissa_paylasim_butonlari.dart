@@ -1,10 +1,9 @@
-import 'dart:io';
 import 'dart:typed_data';
 
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:gal/gal.dart';
 import 'package:nur_pusulasi/data/islami_kissalar.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:screenshot/screenshot.dart';
 import 'package:share_plus/share_plus.dart';
 
@@ -48,21 +47,15 @@ class _KissaPaylasimButonlariState extends State<KissaPaylasimButonlari> {
         throw Exception('Paylaşılacak içerik bulunamadı.');
       }
 
-      if (paylas) {
-        final gecici = await getTemporaryDirectory();
-        final klasor = Directory('${gecici.path}/nur_pusulasi_kissalar');
-        await klasor.create(recursive: true);
-
-        final dosyalar = <XFile>[];
+      // Web'de galeri yok: kaydet istegi de paylasim menusuyle yapilir.
+      if (paylas || kIsWeb) {
+        // Bellekten paylas: web ve mobilde ayni sekilde calisir (gecici dosya yok).
         final damga = DateTime.now().microsecondsSinceEpoch;
-
-        for (var i = 0; i < gorseller.length; i++) {
-          final dosya = File(
-            '${klasor.path}/kissa_${damga}_${i + 1}.png',
-          );
-          await dosya.writeAsBytes(gorseller[i], flush: true);
-          dosyalar.add(XFile(dosya.path, mimeType: 'image/png'));
-        }
+        final dosyalar = <XFile>[
+          for (var i = 0; i < gorseller.length; i++)
+            XFile.fromData(gorseller[i],
+                mimeType: 'image/png', name: 'kissa_${damga}_${i + 1}.png'),
+        ];
 
         await SharePlus.instance.share(
           ShareParams(

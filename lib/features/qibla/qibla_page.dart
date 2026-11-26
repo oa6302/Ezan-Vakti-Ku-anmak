@@ -1,5 +1,6 @@
-﻿import 'dart:async';
+import 'dart:async';
 import 'dart:math' as math;
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'dart:io' show Platform;
 import 'package:flutter_compass/flutter_compass.dart';
@@ -63,8 +64,7 @@ class _QiblaPageState extends State<QiblaPage> {
 
     if (_appState.district.isNotEmpty) {
       for (final d in turkishDistricts) {
-        if (d.cityName == _appState.city &&
-            d.name == _appState.district) {
+        if (d.cityName == _appState.city && d.name == _appState.district) {
           lat = d.lat;
           lng = d.lng;
           break;
@@ -101,9 +101,10 @@ class _QiblaPageState extends State<QiblaPage> {
     // Manuel il/ilçe seçiminde kayıtlı eski koordinatlar yerine
     // seçilen yerin kendi koordinatlarını kullan.
     if (appState.district.isNotEmpty) {
-      final district = turkishDistricts.where((d) =>
-          d.cityName == appState.city &&
-          d.name == appState.district).firstOrNull;
+      final district = turkishDistricts
+          .where(
+              (d) => d.cityName == appState.city && d.name == appState.district)
+          .firstOrNull;
 
       if (district != null) {
         _lat = district.lat;
@@ -125,8 +126,9 @@ class _QiblaPageState extends State<QiblaPage> {
 
     _qiblaBearing = _calculateQibla(_lat, _lng);
 
-    final compassStream =
-        (Platform.isAndroid || Platform.isIOS) ? FlutterCompass.events : null;
+    final compassStream = (!kIsWeb && (Platform.isAndroid || Platform.isIOS))
+        ? FlutterCompass.events
+        : null;
 
     if (compassStream == null) {
       _sensorAvailable = false;
@@ -142,6 +144,7 @@ class _QiblaPageState extends State<QiblaPage> {
 
     if (mounted) setState(() => _loading = false);
   }
+
   double _calculateQibla(double lat, double lng) {
     final phiK = _kabeLat * math.pi / 180.0;
     final lambdaK = _kabeLng * math.pi / 180.0;
@@ -187,8 +190,7 @@ class _QiblaPageState extends State<QiblaPage> {
 
     if (appState.district.isNotEmpty) {
       for (final d in turkishDistricts) {
-        if (d.cityName == appState.city &&
-            d.name == appState.district) {
+        if (d.cityName == appState.city && d.name == appState.district) {
           lat = d.lat;
           lng = d.lng;
           break;
@@ -217,6 +219,7 @@ class _QiblaPageState extends State<QiblaPage> {
       _locationGranted = false;
     });
   }
+
   @override
   Widget build(BuildContext context) {
     final heading = _heading ?? 0;
@@ -821,5 +824,3 @@ class _CityPickerState extends State<_CityPicker> {
     );
   }
 }
-
-

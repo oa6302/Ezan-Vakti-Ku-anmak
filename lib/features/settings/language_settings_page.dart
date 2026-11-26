@@ -1,4 +1,5 @@
-﻿import 'dart:io';
+import 'dart:io';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
@@ -60,7 +61,10 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
     setState(() => _currentFont = style);
   }
 
+  static bool get _androidMi => !kIsWeb && Platform.isAndroid;
+
   Future<void> _loadWidgetBackground() async {
+    if (!_androidMi) return;
     final prefs = await SharedPreferences.getInstance();
     final path = prefs.getString('widget_background_path');
     if (mounted) {
@@ -86,8 +90,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
           ? picked.path.split('.').last.toLowerCase()
           : 'jpg';
 
-      final destination =
-          '${directory.path}/widget_background.$extension';
+      final destination = '${directory.path}/widget_background.$extension';
 
       final savedFile = await File(picked.path).copy(destination);
 
@@ -214,6 +217,7 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
       ),
     );
   }
+
   List<Widget> _themeTiles(BuildContext context) {
     final current = context.watch<AppState>().themeMode;
     return [
@@ -294,7 +298,8 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
           const SizedBox(height: 22),
           _sectionHeader('Widget arka planı', Icons.wallpaper_rounded),
           const SizedBox(height: 10),
-          _widgetBackgroundSection(),
+          // Ana ekran widget'i sadece Android'de var
+          if (_androidMi) _widgetBackgroundSection(),
           const SizedBox(height: 22),
           _sectionHeader(t.language, Icons.language_rounded),
           const SizedBox(height: 10),
@@ -325,9 +330,10 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
             ),
           ),
           const SizedBox(height: 10),
-          _fontTile('rika', 'Rika (El yazÄ±sÄ±)', 'Ø§Ù„Ø±Ù‚Ø¹Ø© â€” El yazmasÄ± hat'),
           _fontTile(
-              'matbu', 'Matbu (BasÄ±lÄ±)', 'Ø§Ù„Ù…Ø·Ø¨ÙˆØ¹ â€” Kitap ve matbaa hattÄ±'),
+              'rika', 'Rika (El yazÄ±sÄ±)', 'Ø§Ù„Ø±Ù‚Ø¹Ø© â€” El yazmasÄ± hat'),
+          _fontTile('matbu', 'Matbu (BasÄ±lÄ±)',
+              'Ø§Ù„Ù…Ø·Ø¨ÙˆØ¹ â€” Kitap ve matbaa hattÄ±'),
           const SizedBox(height: 24),
           _previewCard(),
           const SizedBox(height: 20),
@@ -539,4 +545,3 @@ class _LanguageSettingsPageState extends State<LanguageSettingsPage> {
     );
   }
 }
-

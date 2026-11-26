@@ -1,4 +1,3 @@
-﻿
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
@@ -31,8 +30,7 @@ class AppState extends ChangeNotifier {
   String get userName => _userName;
   String get city => _city;
   String get district => _district;
-  String get locationName =>
-      _district.isEmpty ? _city : '$_district, $_city';
+  String get locationName => _district.isEmpty ? _city : '$_district, $_city';
   String get cityAscii => _toAscii(_city);
   double? get lat => _lat;
   double? get lng => _lng;
@@ -46,8 +44,7 @@ class AppState extends ChangeNotifier {
     final now = DateTime.now();
     var a = now.year - _birthDate!.year;
     if (now.month < _birthDate!.month ||
-        (now.month == _birthDate!.month &&
-            now.day < _birthDate!.day)) {
+        (now.month == _birthDate!.month && now.day < _birthDate!.day)) {
       a--;
     }
     return a;
@@ -70,7 +67,9 @@ class AppState extends ChangeNotifier {
     _lat = p.getDouble(kLat);
     _lng = p.getDouble(kLng);
     _notifEnabled = p.getBool(kNotifEnabled) ?? true;
-    _lastTab = p.getInt(kLastTab) ?? 0;
+    // Ilk acilis: ana sayfa (orta sekme). Gecersiz kayit varsa yine ana sayfa.
+    final tab = p.getInt(kLastTab) ?? 2;
+    _lastTab = (tab >= 0 && tab <= 4) ? tab : 2;
 
     switch (p.getString(kThemeMode)) {
       case 'dark':
@@ -120,8 +119,8 @@ class AppState extends ChangeNotifier {
             math.cos(position.latitude * math.pi / 180) *
                 math.cos(district.lat * math.pi / 180) *
                 math.pow(math.sin(dLng / 2), 2);
-        final distance = 2 * earthRadius *
-            math.atan2(math.sqrt(a), math.sqrt(1 - a));
+        final distance =
+            2 * earthRadius * math.atan2(math.sqrt(a), math.sqrt(1 - a));
 
         if (distance < nearestDistance) {
           nearestDistance = distance;
@@ -223,7 +222,20 @@ class AppState extends ChangeNotifier {
   }
 
   static String _toAscii(String s) {
-    return s
+    // Once bozuk kodlanmis metni duzelt, sonra Turkce harfleri ASCII'ye cevir.
+    return _fixTurkishText(s)
+        .replaceAll('İ', 'I')
+        .replaceAll('ı', 'i')
+        .replaceAll('Ş', 'S')
+        .replaceAll('ş', 's')
+        .replaceAll('Ğ', 'G')
+        .replaceAll('ğ', 'g')
+        .replaceAll('Ü', 'U')
+        .replaceAll('ü', 'u')
+        .replaceAll('Ö', 'O')
+        .replaceAll('ö', 'o')
+        .replaceAll('Ç', 'C')
+        .replaceAll('ç', 'c')
         .replaceAll('Ä°', 'I')
         .replaceAll('Ä±', 'i')
         .replaceAll('Å', 'S')
@@ -236,6 +248,3 @@ class AppState extends ChangeNotifier {
         .replaceAll('Ã§', 'c');
   }
 }
-
-
-

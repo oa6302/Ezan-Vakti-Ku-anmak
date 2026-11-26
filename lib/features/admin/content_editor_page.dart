@@ -107,25 +107,36 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
         TextEditingController(text: (ex['vecizeKaynak'] ?? '').toString());
     _risaleHakikat =
         TextEditingController(text: (ex['risaleHakikat'] ?? '').toString());
-    _ayetArapca = TextEditingController(text: (ex['ayetArapca'] ?? '').toString());
-    _ayetTefsir = TextEditingController(text: (ex['ayetTefsir'] ?? '').toString());
-    _risaleAlinti = TextEditingController(text: (ex['risaleAlinti'] ?? '').toString());
-    _risaleEser = TextEditingController(text: (ex['risaleEser'] ?? '').toString());
-    _risaleBolum = TextEditingController(text: (ex['risaleBolum'] ?? '').toString());
+    _ayetArapca =
+        TextEditingController(text: (ex['ayetArapca'] ?? '').toString());
+    _ayetTefsir =
+        TextEditingController(text: (ex['ayetTefsir'] ?? '').toString());
+    _risaleAlinti =
+        TextEditingController(text: (ex['risaleAlinti'] ?? '').toString());
+    _risaleEser =
+        TextEditingController(text: (ex['risaleEser'] ?? '').toString());
+    _risaleBolum =
+        TextEditingController(text: (ex['risaleBolum'] ?? '').toString());
 
     final ak = ex['anahtarKelimeler'];
     _anahtarKelimeler = TextEditingController(
         text: ak is List ? ak.map((e) => '$e').join(', ') : '');
 
     _gunKonu = TextEditingController(text: (ex['gunKonu'] ?? '').toString());
-    _duaBaslik = TextEditingController(text: (ex['duaBaslik'] ?? '').toString());
-    _duaArapca = TextEditingController(text: (ex['duaArapca'] ?? '').toString());
-    _duaOkunus = TextEditingController(text: (ex['duaOkunus'] ?? '').toString());
+    _duaBaslik =
+        TextEditingController(text: (ex['duaBaslik'] ?? '').toString());
+    _duaArapca =
+        TextEditingController(text: (ex['duaArapca'] ?? '').toString());
+    _duaOkunus =
+        TextEditingController(text: (ex['duaOkunus'] ?? '').toString());
     _duaAnlam = TextEditingController(text: (ex['duaAnlam'] ?? '').toString());
-    _duaKaynak = TextEditingController(text: (ex['duaKaynak'] ?? '').toString());
-    _duaKategori = TextEditingController(text: (ex['duaKategori'] ?? '').toString());
+    _duaKaynak =
+        TextEditingController(text: (ex['duaKaynak'] ?? '').toString());
+    _duaKategori =
+        TextEditingController(text: (ex['duaKategori'] ?? '').toString());
     _kissa = TextEditingController(text: (ex['kissa'] ?? '').toString());
-    _kissaKaynak = TextEditingController(text: (ex['kissaKaynak'] ?? '').toString());
+    _kissaKaynak =
+        TextEditingController(text: (ex['kissaKaynak'] ?? '').toString());
 
     // Mood suggestions
     final sg = ex['suggestions'];
@@ -288,9 +299,10 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
   }
 
   Future<void> _save() async {
-    final baslik = _type == ContentType.gunluk && _gunKonu.text.trim().isNotEmpty
-        ? _gunKonu.text.trim()
-        : _baslik.text.trim();
+    final baslik =
+        _type == ContentType.gunluk && _gunKonu.text.trim().isNotEmpty
+            ? _gunKonu.text.trim()
+            : _baslik.text.trim();
     final icerik = _type == ContentType.gunluk && _icerik.text.trim().isEmpty
         ? _ayet.text.trim()
         : _icerik.text.trim();
@@ -348,9 +360,17 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
       type: _type,
       baslik: baslik,
       icerik: icerik,
-      altIcerik: _type == ContentType.gunluk && _altIcerik.text.trim().isEmpty && _hadis.text.trim().isNotEmpty ? _hadis.text.trim() : (_altIcerik.text.trim().isEmpty ? null : _altIcerik.text.trim()),
+      altIcerik: _type == ContentType.gunluk &&
+              _altIcerik.text.trim().isEmpty &&
+              _hadis.text.trim().isNotEmpty
+          ? _hadis.text.trim()
+          : (_altIcerik.text.trim().isEmpty ? null : _altIcerik.text.trim()),
       arapca: _arapca.text.trim().isEmpty ? null : _arapca.text.trim(),
-      kaynak: _type == ContentType.gunluk && _kaynak.text.trim().isEmpty && _ayetKaynak.text.trim().isNotEmpty ? _ayetKaynak.text.trim() : (_kaynak.text.trim().isEmpty ? null : _kaynak.text.trim()),
+      kaynak: _type == ContentType.gunluk &&
+              _kaynak.text.trim().isEmpty &&
+              _ayetKaynak.text.trim().isNotEmpty
+          ? _ayetKaynak.text.trim()
+          : (_kaynak.text.trim().isEmpty ? null : _kaynak.text.trim()),
       kategori: _kategori.text.trim().isEmpty ? null : _kategori.text.trim(),
       custom: true,
       durum: _durum,
@@ -727,10 +747,12 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
       const SizedBox(height: 10),
       _field(_risaleBolum, 'Risale Bölüm / Sayfa', maxLines: 1),
       const SizedBox(height: 14),
-      _field(_anahtarKelimeler, 'Anahtar Kelimeler (virgülle ayır)', maxLines: 2),
+      _field(_anahtarKelimeler, 'Anahtar Kelimeler (virgülle ayır)',
+          maxLines: 2),
       const SizedBox(height: 14),
     ];
   }
+
   // â•â•â• KANDIL â•â•â•
   List<Widget> _kandilFields() {
     return [
@@ -761,4 +783,3 @@ class _ContentEditorPageState extends State<ContentEditorPage> {
     );
   }
 }
-

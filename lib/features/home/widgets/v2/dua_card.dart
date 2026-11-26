@@ -141,7 +141,7 @@ class DuaCard extends StatelessWidget {
                               children: [
                                 const Text('Günün Duası',
                                     style: TextStyle(
-                                        shadows: const [
+                                        shadows: [
                                           Shadow(
                                               color: Color(0x99000000),
                                               blurRadius: 9,
@@ -190,7 +190,7 @@ class DuaCard extends StatelessWidget {
                             Text(duaBaslik,
                                 textAlign: TextAlign.center,
                                 style: const TextStyle(
-                                    shadows: const [
+                                    shadows: [
                                       Shadow(
                                           color: Color(0x99000000),
                                           blurRadius: 9,
@@ -229,7 +229,7 @@ class DuaCard extends StatelessWidget {
                                 maxLines: 3,
                                 overflow: TextOverflow.ellipsis,
                                 style: const TextStyle(
-                                    shadows: const [
+                                    shadows: [
                                       Shadow(
                                           color: Color(0x99000000),
                                           blurRadius: 9,
@@ -245,7 +245,7 @@ class DuaCard extends StatelessWidget {
                                     height: 1.4)),
                             const SizedBox(height: 4),
                             Text('($duaKaynak)',
-                                style: const TextStyle(shadows: const [
+                                style: const TextStyle(shadows: [
                                   Shadow(
                                       color: Color(0x99000000),
                                       blurRadius: 9,

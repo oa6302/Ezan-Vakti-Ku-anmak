@@ -9,7 +9,7 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => '5 Daily Prayers';
+  String get appTitle => 'Ezan Vakti Kuşanmak';
 
   @override
   String get appSubtitle => 'Peace through prayer, humility through worship';
@@ -24,7 +24,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get greetingEvening => 'Good evening';
 
   @override
-  String get userDefault => '5 Daily Prayers User';
+  String get userDefault => 'Dear User';
 
   @override
   String get blessing => 'May the mercy and blessings of our Lord be upon you.';
@@ -253,4 +253,58 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get share => 'Share';
+
+  @override
+  String get tabQibla => 'Compass';
+
+  @override
+  String get tabTrack => 'Tracking';
+
+  @override
+  String get khushuTitle => 'Khushu Tracker';
+
+  @override
+  String get khushuDesc => 'Notice your inner peace';
+
+  @override
+  String get moodTitle => 'Your Mood';
+
+  @override
+  String get moodDesc => 'Whatever your heart says';
+
+  @override
+  String get journeyTitle => 'Spiritual Journey';
+
+  @override
+  String get journeyDesc => 'Heatmap · Streak · Level';
+
+  @override
+  String get gratitudeJournalDesc => 'Notice the blessings, nourish the heart';
+
+  @override
+  String get languageStyleTitle => 'Language & Script';
+
+  @override
+  String get notificationDesc => 'Prayer time reminders';
+
+  @override
+  String get assistantTitle => 'Smart Assistant';
+
+  @override
+  String get assistantDesc => 'Sourced Q&A';
+
+  @override
+  String get adminPanelDesc => 'Manage content pools';
+
+  @override
+  String get aboutTitle => 'About the App';
+
+  @override
+  String aboutVersion(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String get aboutBody =>
+      'A prayer-centered worship guide. All data is stored on your device.';
 }

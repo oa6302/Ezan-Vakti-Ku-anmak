@@ -101,8 +101,8 @@ class NotificationService {
       final date = DateTime(now.year, now.month, now.day + offset);
 
       final result = latitude != null && longitude != null
-          ? await PrayerService().calculateForCoordinates(
-              latitude, longitude, label, date: date)
+          ? await PrayerService()
+              .calculateForCoordinates(latitude, longitude, label, date: date)
           : await PrayerService().calculateForCity(city, date: date);
 
       if (result == null) continue;
@@ -128,6 +128,7 @@ class NotificationService {
 
     await scheduleDailyReminders();
   }
+
   Future<void> _schedule({
     required int id,
     required String title,
@@ -153,7 +154,7 @@ class NotificationService {
       scheduledDate: tz.TZDateTime.from(time, tz.local),
       notificationDetails: details,
       androidScheduleMode: AndroidScheduleMode.exactAllowWhileIdle,
-      );
+    );
   }
 
   Future<void> cancelAll() async {
@@ -209,13 +210,18 @@ class NotificationService {
     }) async {
       if (!(prefs.getBool('${key}_enabled') ?? false)) return;
 
-      final raw = prefs.getString('${key}_time') ?? (key == 'reminder_kuran' ? '20:00' : '09:00');
+      final raw = prefs.getString('${key}_time') ??
+          (key == 'reminder_kuran' ? '20:00' : '09:00');
       final parts = raw.split(':');
       final hour = parts.length == 2 ? int.tryParse(parts[0]) : null;
       final minute = parts.length == 2 ? int.tryParse(parts[1]) : null;
 
-      if (hour == null || minute == null ||
-          hour < 0 || hour > 23 || minute < 0 || minute > 59) {
+      if (hour == null ||
+          minute == null ||
+          hour < 0 ||
+          hour > 23 ||
+          minute < 0 ||
+          minute > 59) {
         return;
       }
 
@@ -261,16 +267,10 @@ class NotificationService {
       body: 'Kur’an okumaya ayirdiginiz vakti hatirlayin.',
     );
   }
+
   Future<int> pendingCount() async {
     if (kIsWeb) return 0;
     final list = await _plugin.pendingNotificationRequests();
     return list.length;
   }
 }
-
-
-
-
-
-
-

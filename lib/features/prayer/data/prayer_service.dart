@@ -74,6 +74,22 @@ class PrayerService {
     return _calculate(city.lat, city.lng, city.name, date);
   }
 
+  /// Tek kaynak: kayitli koordinat (ilce/GPS) varsa onu, yoksa il merkezini kullanir.
+  /// Ana sayfa kartlari, ana ekran widget'i ve bildirimler ayni sonucu gorur.
+  Future<PrayerTimeResult?> calculateForLocation({
+    required String city,
+    double? lat,
+    double? lng,
+    String? label,
+    DateTime? date,
+  }) {
+    if (lat != null && lng != null) {
+      return calculateForCoordinates(lat, lng, label ?? city, date: date);
+    }
+    return calculateForCity(city.trim().isEmpty ? 'Istanbul' : city,
+        date: date);
+  }
+
   Future<PrayerTimeResult?> calculateForCoordinates(
       double lat, double lng, String label,
       {DateTime? date}) async {
@@ -86,7 +102,9 @@ class PrayerService {
     final coordinates = Coordinates(lat, lng);
 
     final params = CalculationMethodParameters.turkiye();
-    params.madhab = Madhab.hanafi;
+    // Diyanet takvimindeki ikindi "asr-i evvel"dir (golge = 1 misli).
+    // Madhab.hanafi (asr-i sani) ikindiyi ~25-40 dk gec verir.
+    params.madhab = Madhab.shafi;
 
     final prayerTimes = PrayerTimes(
       coordinates: coordinates,
@@ -110,7 +128,7 @@ class PrayerService {
       date: targetDate,
       times: times,
       calculationMethod: 'Diyanet (yaklasim)',
-      madhab: 'Hanefi',
+      madhab: 'Asr-i evvel (Diyanet)',
     );
   }
 

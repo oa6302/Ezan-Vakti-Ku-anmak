@@ -56,7 +56,7 @@ class _AdminGatePageState extends State<AdminGatePage> {
           ),
           const SizedBox(height: 8),
           const Text(
-            'Varsayilan PIN: 2580. Bu PIN cihaz ici basit bir engeldir; guvenli kimlik dogrulama yerine gecmez.',
+            'Yonetici PIN kodunu girin. Bu PIN cihaz ici basit bir engeldir; guvenli kimlik dogrulama yerine gecmez.',
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 22),

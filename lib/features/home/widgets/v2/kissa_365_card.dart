@@ -97,7 +97,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                       ),
                       const Icon(
                         Icons.auto_stories_rounded,
-                        color: const Color(0xFF9B8751),
+                        color: Color(0xFF9B8751),
                         size: 23,
                       ),
                     ],
@@ -108,7 +108,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                   Text(
                     kissa.baslik,
                     style: const TextStyle(
-                      shadows: const [
+                      shadows: [
                         Shadow(
                             color: Color(0x55000000),
                             blurRadius: 7,
@@ -133,7 +133,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                       maxLines: 4,
                       overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
-                        shadows: const [
+                        shadows: [
                           Shadow(
                               color: Color(0x55000000),
                               blurRadius: 7,
@@ -188,7 +188,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                               Text(
                                 kissa.hisse,
                                 style: const TextStyle(
-                                  shadows: const [
+                                  shadows: [
                                     Shadow(
                                         color: Color(0x55000000),
                                         blurRadius: 7,
@@ -216,7 +216,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                   Text(
                     kissa.kaynak,
                     style: const TextStyle(
-                      shadows: const [
+                      shadows: [
                         Shadow(
                             color: Color(0x55000000),
                             blurRadius: 7,

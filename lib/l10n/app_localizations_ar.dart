@@ -9,7 +9,7 @@ class AppLocalizationsAr extends AppLocalizations {
   AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
-  String get appTitle => 'الصلوات الخمس';
+  String get appTitle => 'Ezan Vakti Kuşanmak';
 
   @override
   String get appSubtitle => 'الطمأنينة بالصلاة، والخشوع بالعبادة';
@@ -24,7 +24,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get greetingEvening => 'مساء الخير';
 
   @override
-  String get userDefault => 'مستخدم الصلوات الخمس';
+  String get userDefault => 'المستخدم العزيز';
 
   @override
   String get blessing => 'رحمة ربنا وبركاته عليكم.';
@@ -253,4 +253,58 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get share => 'مشاركة';
+
+  @override
+  String get tabQibla => 'البوصلة';
+
+  @override
+  String get tabTrack => 'المتابعة';
+
+  @override
+  String get khushuTitle => 'متابعة الخشوع';
+
+  @override
+  String get khushuDesc => 'لاحظ سكينة قلبك';
+
+  @override
+  String get moodTitle => 'حالتك النفسية';
+
+  @override
+  String get moodDesc => 'ما يقوله قلبك';
+
+  @override
+  String get journeyTitle => 'الرحلة الروحية';
+
+  @override
+  String get journeyDesc => 'خريطة · سلسلة · مستوى';
+
+  @override
+  String get gratitudeJournalDesc => 'لاحظ النعم وغذِّ القلب';
+
+  @override
+  String get languageStyleTitle => 'اللغة ونمط الخط';
+
+  @override
+  String get notificationDesc => 'تذكيرات أوقات الصلاة';
+
+  @override
+  String get assistantTitle => 'المساعد الذكي';
+
+  @override
+  String get assistantDesc => 'أسئلة وأجوبة موثقة';
+
+  @override
+  String get adminPanelDesc => 'إدارة المحتوى';
+
+  @override
+  String get aboutTitle => 'حول التطبيق';
+
+  @override
+  String aboutVersion(String version) {
+    return 'الإصدار $version';
+  }
+
+  @override
+  String get aboutBody =>
+      'دليل عبادة محوره الصلاة. تُحفظ جميع البيانات على جهازك.';
 }
