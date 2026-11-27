@@ -53,10 +53,12 @@ function birlestir(c, alan) {
           if (c.some(t => /Kirmizi|Arabi/.test(t.sinif))) continue; // baslik, ayet/hadis ibaresi
           if (c.some(t => t.lat === null && !/^[.,!?؟،:;]+$/.test(t.osm))) continue;
           const kelime = c.filter(t => t.lat).length;
-          if (kelime < 5 || kelime > 18) continue;
+          // MIN_KELIME/MAX_KELIME/MAX_UZ ile genisletilebilir; EVET_SERBEST=1 'Evet,' basina izin verir.
+          if (kelime < +(process.env.MIN_KELIME || 5) || kelime > +(process.env.MAX_KELIME || 18)) continue;
           const latin = birlestir(c, 'lat'), osmanlica = birlestir(c, 'osm');
-          if (latin.length < 30 || latin.length > 150 || YASAK.test(latin)) continue;
-          if (BAGLAC.test(latin.split(/[\s,]+/)[0])) continue;
+          if (latin.length < 30 || latin.length > +(process.env.MAX_UZ || 150) || YASAK.test(latin)) continue;
+          const ilk = latin.split(/[\s,]+/)[0];
+          if (BAGLAC.test(ilk) && !(process.env.EVET_SERBEST && /^evet$/i.test(ilk))) continue;
           if (!YUKLEM.test(latin)) continue;
           const k = latin.toLocaleLowerCase('tr').replace(/[^a-zçğıöşüâîû]/g, '');
           if (gorulen.has(k)) continue; gorulen.add(k);

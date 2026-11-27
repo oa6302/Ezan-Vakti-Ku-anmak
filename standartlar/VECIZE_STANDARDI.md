@@ -26,3 +26,4 @@ Vecize kimliği artık metinden türetilir (`_kararliHash`); önceden her açıl
 - 2026-11-27: Ek eserlerden 50 vecize (Mesnevî, İşârât, Muhâkemât, Lâhikalardan bilinen kısa vecizeler); toplam 167.
 - 2026-11-27: Birlesik aday listesinden siki puan + elle secim 40 vecize (vecize_secim.json ek3); toplam 207. Daha fazlasi bağlama muhtaç/zamirli oldugu icin alinmadi; gunluk dongu 207 ile doner.
 - 2026-11-27: vecize5 listesinden elle seçilen 39 vecize (vecize_secim.json ek5); toplam 246.
+- 2026-11-27: Uzun cümle taraması (vecize_cikar MIN_KELIME/MAX_KELIME/MAX_UZ) ile 32 vecize (ek6); toplam 278.

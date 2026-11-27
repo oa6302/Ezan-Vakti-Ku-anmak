@@ -34,3 +34,5 @@ Kur'an metni mushafla, hadis kaynağıyla, Risale metni eserle karşılaştırı
 - Olmayan alan gösterilmez, uydurulmaz: hadis dualarında yalnız meal ("kaynağında yalnız meali verilmiştir" notu); hikmet/ne zaman okunur alanı veride yoksa bölüm çıkmaz.
 - Ezber: `DuaEzberServisi` (parça, seviye, aralıklı tekrar 1-3-7-14-30 gün). Eski `ezber_<id>` kayıtları aktarılır, silinmez. Parçası olmayan dua, metni değiştirilmeden bölünür.
 - Paylaşım görseli metne göre uzar (kesilmez); metin paylaşımı da var. Doğrulanmış ses kaydı olmadığı için sesli dinleme eklenmedi.
+- Parti 4 (2026-11-27): 37 yeni Kur'an duası ve zikir ayeti (dua_k064-k100; İstirca, Felak, Nâs, Âyetü'l-Kürsî, İhlâs, Haşr sonu, binek duası vb.). Kimlikler sona eklendi, eski kimlikler değişmedi.
+- Parti 5 (2026-11-27): Tırnak içi hadis duaları yeniden tarandı (parantezli çevirmen açıklamaları dahil aynen); kişiye/olaya özel, beddua, bozuk OCR'li ve Kur'an tekrarı olanlar elle elendi; 87 hadis duası ve zikri eklendi. Günlük dua havuzu: 218 doğrulanmış + 147 eski kayıt = 365 tekil gün.
