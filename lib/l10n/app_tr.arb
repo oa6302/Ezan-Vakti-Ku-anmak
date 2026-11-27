@@ -1124,5 +1124,113 @@
     }
   },
   "hkAynen": "Eserden aynen",
-  "hkIlgiliHakikatler": "İlgili hakikatler"
+  "hkIlgiliHakikatler": "İlgili hakikatler",
+  "dkKutuphane": "DUA KÜTÜPHANESİ",
+  "dkArapca": "ARAPÇA METİN",
+  "dkArapcaNot": "Arapça metin · Kaynaktaki harekeyle",
+  "dkOkunus": "TÜRKÇE OKUNUŞU",
+  "dkAnlam": "TÜRKÇE ANLAMI",
+  "dkYalnizMeal": "Bu duanın kaynağında yalnız meali verilmiştir.",
+  "dkKaynak": "DUANIN KAYNAĞI",
+  "dkSinif": "Sınıf",
+  "dkNumara": "Numara",
+  "dkSihhat": "Sıhhat",
+  "dkAciklama": "DUANIN AÇIKLAMASI",
+  "dkHikmet": "DUANIN HİKMETİ",
+  "dkNeZaman": "NE ZAMAN OKUNUR?",
+  "dkEzber": "Bu Duayı Ezberle",
+  "dkEzberAlt": "Parça parça öğren, tekrar et ve ezberini kontrol et.",
+  "dkEzberBasla": "EZBERLEMEYE BAŞLA",
+  "dkIlgili": "İLGİLİ DUALAR",
+  "dkOnceki": "Önceki dua",
+  "dkSonraki": "Sonraki dua",
+  "dkKopyala": "Kopyala",
+  "dkKopyalandi": "Dua panoya kopyalandı",
+  "dkPaylas": "Paylaş",
+  "dkGorselPaylas": "Görsel kart olarak paylaş",
+  "dkMetinPaylas": "Metin olarak paylaş",
+  "dkGorselHazirlaniyor": "Görsel hazırlanıyor…",
+  "dkPaylasimHata": "Paylaşım açılamadı",
+  "dkKaydet": "Kaydet",
+  "dkKaydedildi": "Favorilere eklendi",
+  "dkKaydiKaldir": "Favorilerden çıkarıldı",
+  "dkOkumaAyarlari": "Okuma ayarları",
+  "dkGeceModu": "Gece okuma modu",
+  "dkBoyutArapca": "Arapça yazı boyutu",
+  "dkBoyutOkunus": "Okunuş yazı boyutu",
+  "dkBoyutAnlam": "Anlam yazı boyutu",
+  "dkGoster": "Göster",
+  "dkGizle": "Gizle",
+  "dkGizliMetin": "Gizlendi · Hatırlamaya çalış, sonra dokun",
+  "dkEzberBaslik": "Ezber",
+  "dkAdimOku": "Oku ve tekrar et",
+  "dkAdimHatirla": "Hafızadan hatırla",
+  "dkAdimBosluk": "Boşluk doldur",
+  "dkAdimEslestir": "Eşleştir",
+  "dkTekrar": "Tekrar {n}/3",
+  "@dkTekrar": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "dkTekrarEt": "Tekrar ettim",
+  "dkParca": "Parça {i}/{n}",
+  "@dkParca": {
+    "placeholders": {
+      "i": {
+        "type": "int"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "dkBiliyorum": "Hatırladım",
+  "dkTekrarGerek": "Tekrar etmeliyim",
+  "dkEzberledim": "Ezberledim",
+  "dkIlerleme": "{e}/{t} parça ezberlendi",
+  "@dkIlerleme": {
+    "placeholders": {
+      "e": {
+        "type": "int"
+      },
+      "t": {
+        "type": "int"
+      }
+    }
+  },
+  "dkSonrakiTekrar": "Sonraki tekrar: {tarih}",
+  "@dkSonrakiTekrar": {
+    "placeholders": {
+      "tarih": {
+        "type": "String"
+      }
+    }
+  },
+  "dkTekrarZamani": "Tekrar zamanı geldi",
+  "dkEzberTamam": "Ezber tamamlandı",
+  "dkBoslukYonerge": "Eksik kelimeyi seç",
+  "dkEslestirYonerge": "Her parçayı anlamıyla eşleştir",
+  "dkDogru": "Doğru",
+  "dkDogrusu": "Doğrusu: {cevap}",
+  "@dkDogrusu": {
+    "placeholders": {
+      "cevap": {
+        "type": "String"
+      }
+    }
+  },
+  "dkKontrol": "Kontrol et",
+  "dkYeniden": "Yeniden",
+  "dkTekrarBasarili": "Bugünkü tekrar başarılı",
+  "dkTekrarBasarisiz": "Yarın yeniden tekrar et",
+  "dkTekrarSonuc": "Bugünkü tekrarı kaydet",
+  "dkEzberDurumu": "Ezber Durumum",
+  "dkOgrenilen": "Öğrenilenler",
+  "dkBekleyen": "Tekrar bekleyen",
+  "dkTamamlanan": "Tamamlanan",
+  "dkEzberBos": "Henüz ezberine başladığın dua yok.",
+  "dkParcaYok": "Bu dua tek parça hâlinde ezberlenir."
 }

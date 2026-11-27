@@ -300,7 +300,10 @@ void main() {
     });
 
     testWidgets('Bos konu yerine dogrulanmis metin gosterir', (t) async {
-      HakikatServisi.instance.durumDegistir('ders_034', HakikatDurumu.arsiv);
+      for (final d in _dersler
+          .where((d) => d.hakikatKonulari.contains(HakikatKonusu.nubuvvet))) {
+        HakikatServisi.instance.durumDegistir(d.id, HakikatDurumu.arsiv);
+      }
       await t.pumpWidget(
           _uygulama(const HakikatKonuPage(konu: HakikatKonusu.nubuvvet)));
       await t.pumpAndSettle();

@@ -31,3 +31,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - İlgili metinler yalnız `gunluk_risale.json` + `gunluk_vecizeler.json` (aynen) içinden eşleşir; yeni Risale metni üretilmez.
 - Okuyucu ve yönetici durumu: `HakikatServisi` (SharedPreferences `nur_pusulasi_hakikat_v1`). Varlıktaki dersler değişmez; düzenleme ayrı kayıt, geri alınabilir. Günün Hakikati: tarih anahtarı (YYYY-MM-DD) planı, yoksa tarihe bağlı sabit seçim.
 - ders_034 (Nübüvvet) eklendi; toplam 34. Dua metinlerindeki `&quot;` kaçışları düzeltildi (kaynak araçlar da düzeltildi).
+- 2026-11-27: ders_035-038 (Esmâ, kader, tabiat/ülfet, nübüvvet); toplam 38. Alıntılar gunluk_vecizeler/gunluk_risale'de birebir.

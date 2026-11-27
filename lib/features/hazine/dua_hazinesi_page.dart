@@ -1,8 +1,12 @@
 // 🌙 Dua Hazinesi: koleksiyonlar, dua detayi ve ezber (standartlar/DUA_STANDARDI.md)
 import 'package:flutter/material.dart';
 import 'package:nur_pusulasi/data/icerik_hazinesi.dart';
-import 'package:shared_preferences/shared_preferences.dart';
+import 'package:nur_pusulasi/app/content_service.dart';
+import 'package:nur_pusulasi/app/dua_ezber_servisi.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 
+import 'dua/dua_gorunum.dart';
+import 'dua/dua_okuma_page.dart';
 import 'ortak.dart';
 
 class DuaHazinesiPage extends StatelessWidget {
@@ -15,6 +19,8 @@ class DuaHazinesiPage extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(14),
         children: [
+          const DuaEzberOzeti(),
+          const SizedBox(height: 8),
           for (final k in DuaKoleksiyonu.values)
             Builder(builder: (context) {
               final sayi = duaHazinesi.where((d) => d.koleksiyon == k).length;
@@ -69,7 +75,8 @@ class DuaListesiPage extends StatelessWidget {
                       onTap: () => Navigator.push(
                           context,
                           MaterialPageRoute<void>(
-                              builder: (_) => DuaHazineDetayPage(dua: d))),
+                              builder: (_) =>
+                                  DuaHazineDetayPage(dua: d, liste: liste))),
                     ),
                   ),
               ],
@@ -78,129 +85,143 @@ class DuaListesiPage extends StatelessWidget {
   }
 }
 
-class DuaHazineDetayPage extends StatefulWidget {
+/// Dua Hazinesi kaydini premium okuma ekraninda acar.
+class DuaHazineDetayPage extends StatelessWidget {
   final DuaKaydi dua;
-  const DuaHazineDetayPage({super.key, required this.dua});
+  final List<DuaKaydi> liste;
+  const DuaHazineDetayPage(
+      {super.key, required this.dua, this.liste = const []});
 
   @override
-  State<DuaHazineDetayPage> createState() => _DuaHazineDetayPageState();
+  Widget build(BuildContext context) => DuaOkumaPage(
+        dua: DuaGorunum.kayittan(dua),
+        liste: [for (final d in liste) DuaGorunum.kayittan(d)],
+      );
 }
 
-class _DuaHazineDetayPageState extends State<DuaHazineDetayPage> {
-  Set<int> _ezber = {};
-  bool _testModu = false;
-  final Set<int> _acik = {};
-  String get _anahtar => 'ezber_${widget.dua.id}';
+/// Ezber durumu: ogrenilen, tekrar bekleyen ve tamamlanan dualar (gercek kayit).
+List<DuaGorunum> tumDualar() => [
+      for (final d in duaHazinesi) DuaGorunum.kayittan(d),
+      for (final c in ContentService.instance.getPool(ContentType.dua))
+        DuaGorunum.icerikten(c),
+    ];
 
+class DuaEzberOzeti extends StatefulWidget {
+  const DuaEzberOzeti({super.key});
+  @override
+  State<DuaEzberOzeti> createState() => _DuaEzberOzetiState();
+}
+
+class _DuaEzberOzetiState extends State<DuaEzberOzeti> {
   @override
   void initState() {
     super.initState();
-    _yukle();
-  }
-
-  Future<void> _yukle() async {
-    final p = await SharedPreferences.getInstance();
-    final l = p.getStringList(_anahtar) ?? const [];
-    if (mounted) setState(() => _ezber = l.map(int.parse).toSet());
-  }
-
-  Future<void> _degistir(int i) async {
-    setState(() => _ezber.contains(i) ? _ezber.remove(i) : _ezber.add(i));
-    final p = await SharedPreferences.getInstance();
-    await p.setStringList(_anahtar, _ezber.map((e) => '$e').toList());
+    DuaEzberServisi.instance.yukle();
   }
 
   @override
   Widget build(BuildContext context) {
-    final d = widget.dua;
-    final t = Theme.of(context).textTheme;
-    final toplam = d.parcalar.length;
+    final t = AppLocalizations.of(context);
+    return ListenableBuilder(
+      listenable: DuaEzberServisi.instance,
+      builder: (context, _) {
+        final ez = DuaEzberServisi.instance;
+        final baslanan = ez.baslananlar.toSet();
+        final hepsi = {for (final d in tumDualar()) d.id: d};
+        final liste = [
+          for (final id in baslanan)
+            if (hepsi[id] case final d?) d
+        ];
+        final tamam = liste
+            .where((d) => ez.tamamlandiMi(d.id, ezberParcalari(d).length))
+            .toList();
+        final bekleyen = liste
+            .where((d) => !tamam.contains(d) && ez.tekrarZamaniMi(d.id))
+            .toList();
+        final ogrenilen = liste
+            .where((d) => !tamam.contains(d) && !bekleyen.contains(d))
+            .toList();
+        Widget kutu(String ad, List<DuaGorunum> l, IconData ikon) => Expanded(
+              child: InkWell(
+                borderRadius: BorderRadius.circular(14),
+                onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute<void>(
+                        builder: (_) => _EzberListesi(baslik: ad, liste: l))),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 10),
+                  child: Column(children: [
+                    Icon(ikon, color: hazineAltin),
+                    const SizedBox(height: 4),
+                    Text('${l.length}',
+                        style: const TextStyle(
+                            fontSize: 20, fontWeight: FontWeight.w900)),
+                    Text(ad,
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(fontSize: 12)),
+                  ]),
+                ),
+              ),
+            );
+        return Card(
+          child: Padding(
+            padding: const EdgeInsets.all(12),
+            child: Column(children: [
+              Text(t.dkEzberDurumu,
+                  style: const TextStyle(
+                      fontWeight: FontWeight.w800, color: hazineLacivert)),
+              const SizedBox(height: 6),
+              if (liste.isEmpty)
+                Padding(
+                  padding: const EdgeInsets.all(8),
+                  child: Text(t.dkEzberBos,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(color: Colors.black54)),
+                )
+              else
+                Row(children: [
+                  kutu(t.dkOgrenilen, ogrenilen, Icons.school_rounded),
+                  kutu(t.dkBekleyen, bekleyen, Icons.schedule_rounded),
+                  kutu(t.dkTamamlanan, tamam, Icons.verified_rounded),
+                ]),
+            ]),
+          ),
+        );
+      },
+    );
+  }
+}
+
+class _EzberListesi extends StatelessWidget {
+  final String baslik;
+  final List<DuaGorunum> liste;
+  const _EzberListesi({required this.baslik, required this.liste});
+
+  @override
+  Widget build(BuildContext context) {
+    final t = AppLocalizations.of(context);
     return Scaffold(
-      appBar: AppBar(title: Text(d.baslik, overflow: TextOverflow.ellipsis)),
-      body: ListView(
-        padding: const EdgeInsets.fromLTRB(16, 12, 16, 32),
-        children: [
-          Container(
-            padding: const EdgeInsets.all(20),
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(22),
-              boxShadow: const [
-                BoxShadow(
-                    color: Color(0x33000000),
-                    blurRadius: 22,
-                    offset: Offset(0, 10))
+      appBar: AppBar(title: Text(baslik)),
+      body: liste.isEmpty
+          ? Center(child: Text(t.dkEzberBos, textAlign: TextAlign.center))
+          : ListView(
+              padding: const EdgeInsets.all(14),
+              children: [
+                for (final d in liste)
+                  Card(
+                    child: ListTile(
+                      title: Text(d.baslik,
+                          style: const TextStyle(fontWeight: FontWeight.w800)),
+                      subtitle: Text(d.kaynak),
+                      onTap: () => Navigator.push(
+                          context,
+                          MaterialPageRoute<void>(
+                              builder: (_) =>
+                                  DuaOkumaPage(dua: d, liste: liste))),
+                    ),
+                  ),
               ],
             ),
-            child: ArapcaMetin(d.arapca, boyut: 24),
-          ),
-          HazineBolum(baslik: '🔤 Okunuşu', metin: d.okunus),
-          HazineBolum(baslik: '📖 Anlamı', metin: d.anlam),
-          HazineBolum(
-            baslik: '📚 Kaynak ve Sınıf',
-            renk: const Color(0xFF5D4037),
-            metin: [
-              'Sınıf: ${d.sinif.ad}',
-              'Kaynak: ${d.kaynak}',
-              if (d.hadisNo.isNotEmpty) 'Numara: ${d.hadisNo}',
-              if (d.sihhat.isNotEmpty) 'Sıhhat: ${d.sihhat}',
-            ].join('\n'),
-          ),
-          HazineBolum(baslik: '💡 Açıklama', metin: d.aciklama),
-          if (toplam > 0)
-            HazineBolum(
-              baslik: '🧠 Ezber ($toplam parçadan ${_ezber.length})',
-              renk: const Color(0xFF6A4C93),
-              cocuk: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  LinearProgressIndicator(
-                      value: _ezber.length / toplam, minHeight: 6),
-                  SwitchListTile(
-                    contentPadding: EdgeInsets.zero,
-                    title: const Text('Test modu (Arapçayı gizle)'),
-                    value: _testModu,
-                    onChanged: (v) => setState(() {
-                      _testModu = v;
-                      _acik.clear();
-                    }),
-                  ),
-                  for (final (i, p) in d.parcalar.indexed)
-                    Card(
-                      child: Padding(
-                        padding: const EdgeInsets.all(12),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.stretch,
-                          children: [
-                            if (!_testModu || _acik.contains(i))
-                              ArapcaMetin(p.arapca, boyut: 20)
-                            else
-                              OutlinedButton(
-                                onPressed: () => setState(() => _acik.add(i)),
-                                child: const Text('Hatırla, sonra göster'),
-                              ),
-                            const SizedBox(height: 6),
-                            Text(p.okunus,
-                                style: t.bodyMedium
-                                    ?.copyWith(fontStyle: FontStyle.italic)),
-                            if (p.anlam.isNotEmpty)
-                              Text(p.anlam, style: t.bodySmall),
-                            CheckboxListTile(
-                              contentPadding: EdgeInsets.zero,
-                              dense: true,
-                              title: const Text('Ezberledim'),
-                              value: _ezber.contains(i),
-                              onChanged: (_) => _degistir(i),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                ],
-              ),
-            ),
-        ],
-      ),
     );
   }
 }

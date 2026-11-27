@@ -2127,4 +2127,215 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get hkIlgiliHakikatler => 'حقائق ذات صلة';
+
+  @override
+  String get dkKutuphane => 'مكتبة الأدعية';
+
+  @override
+  String get dkArapca => 'النص العربي';
+
+  @override
+  String get dkArapcaNot => 'النص العربي · بالتشكيل الوارد في المصدر';
+
+  @override
+  String get dkOkunus => 'النطق بالتركية';
+
+  @override
+  String get dkAnlam => 'المعنى بالتركية';
+
+  @override
+  String get dkYalnizMeal => 'لم يُذكر في مصدر هذا الدعاء إلا معناه.';
+
+  @override
+  String get dkKaynak => 'مصدر الدعاء';
+
+  @override
+  String get dkSinif => 'التصنيف';
+
+  @override
+  String get dkNumara => 'الرقم';
+
+  @override
+  String get dkSihhat => 'الصحة';
+
+  @override
+  String get dkAciklama => 'شرح الدعاء';
+
+  @override
+  String get dkHikmet => 'حكمة الدعاء';
+
+  @override
+  String get dkNeZaman => 'متى يُقرأ؟';
+
+  @override
+  String get dkEzber => 'احفظ هذا الدعاء';
+
+  @override
+  String get dkEzberAlt => 'تعلّمه جزءًا جزءًا، وكرّره، وتحقّق من حفظك.';
+
+  @override
+  String get dkEzberBasla => 'ابدأ الحفظ';
+
+  @override
+  String get dkIlgili => 'أدعية ذات صلة';
+
+  @override
+  String get dkOnceki => 'الدعاء السابق';
+
+  @override
+  String get dkSonraki => 'الدعاء التالي';
+
+  @override
+  String get dkKopyala => 'نسخ';
+
+  @override
+  String get dkKopyalandi => 'تم نسخ الدعاء';
+
+  @override
+  String get dkPaylas => 'مشاركة';
+
+  @override
+  String get dkGorselPaylas => 'مشاركة كبطاقة صورة';
+
+  @override
+  String get dkMetinPaylas => 'مشاركة كنص';
+
+  @override
+  String get dkGorselHazirlaniyor => 'جارٍ تجهيز الصورة…';
+
+  @override
+  String get dkPaylasimHata => 'تعذّر فتح المشاركة';
+
+  @override
+  String get dkKaydet => 'حفظ';
+
+  @override
+  String get dkKaydedildi => 'أُضيف إلى المفضلة';
+
+  @override
+  String get dkKaydiKaldir => 'أُزيل من المفضلة';
+
+  @override
+  String get dkOkumaAyarlari => 'إعدادات القراءة';
+
+  @override
+  String get dkGeceModu => 'وضع القراءة الليلية';
+
+  @override
+  String get dkBoyutArapca => 'حجم النص العربي';
+
+  @override
+  String get dkBoyutOkunus => 'حجم النطق';
+
+  @override
+  String get dkBoyutAnlam => 'حجم المعنى';
+
+  @override
+  String get dkGoster => 'إظهار';
+
+  @override
+  String get dkGizle => 'إخفاء';
+
+  @override
+  String get dkGizliMetin => 'مخفي · حاول التذكّر ثم انقر';
+
+  @override
+  String get dkEzberBaslik => 'الحفظ';
+
+  @override
+  String get dkAdimOku => 'اقرأ وكرّر';
+
+  @override
+  String get dkAdimHatirla => 'تذكّر من الذاكرة';
+
+  @override
+  String get dkAdimBosluk => 'املأ الفراغ';
+
+  @override
+  String get dkAdimEslestir => 'طابق';
+
+  @override
+  String dkTekrar(int n) {
+    return 'التكرار $n/3';
+  }
+
+  @override
+  String get dkTekrarEt => 'كرّرته';
+
+  @override
+  String dkParca(int i, int n) {
+    return 'الجزء $i/$n';
+  }
+
+  @override
+  String get dkBiliyorum => 'تذكّرت';
+
+  @override
+  String get dkTekrarGerek => 'أحتاج إلى التكرار';
+
+  @override
+  String get dkEzberledim => 'حفظته';
+
+  @override
+  String dkIlerleme(int e, int t) {
+    return 'حُفظ $e/$t من الأجزاء';
+  }
+
+  @override
+  String dkSonrakiTekrar(String tarih) {
+    return 'المراجعة التالية: $tarih';
+  }
+
+  @override
+  String get dkTekrarZamani => 'حان وقت المراجعة';
+
+  @override
+  String get dkEzberTamam => 'اكتمل الحفظ';
+
+  @override
+  String get dkBoslukYonerge => 'اختر الكلمة الناقصة';
+
+  @override
+  String get dkEslestirYonerge => 'طابق كل جزء مع معناه';
+
+  @override
+  String get dkDogru => 'صحيح';
+
+  @override
+  String dkDogrusu(String cevap) {
+    return 'الصواب: $cevap';
+  }
+
+  @override
+  String get dkKontrol => 'تحقّق';
+
+  @override
+  String get dkYeniden => 'مرة أخرى';
+
+  @override
+  String get dkTekrarBasarili => 'نجحت مراجعة اليوم';
+
+  @override
+  String get dkTekrarBasarisiz => 'راجِع غدًا مرة أخرى';
+
+  @override
+  String get dkTekrarSonuc => 'احفظ مراجعة اليوم';
+
+  @override
+  String get dkEzberDurumu => 'حالة حفظي';
+
+  @override
+  String get dkOgrenilen => 'قيد التعلّم';
+
+  @override
+  String get dkBekleyen => 'بانتظار المراجعة';
+
+  @override
+  String get dkTamamlanan => 'المكتملة';
+
+  @override
+  String get dkEzberBos => 'لم تبدأ حفظ أي دعاء بعد.';
+
+  @override
+  String get dkParcaYok => 'يُحفظ هذا الدعاء جزءًا واحدًا.';
 }

@@ -28,3 +28,9 @@ Kur'an metni mushafla, hadis kaynağıyla, Risale metni eserle karşılaştırı
 - Parti 1: 63 Kur'an duası (dua_k001-k063), `tooling/icerik/kuran_dualari.js`. Metin api.quran.com (Uthmani), anlam Diyanet meali; okunuş otomatik harf çevirisi, parça anlamı kelime kelime.
 - Parti 2: `assets/content/gunluk_dualar.json` 87 gunluk dua (63 Kur'an + 24 hadis duasi, yalniz meal). `tooling/icerik/dua_hadis_sec.js`; kisiye/yere ozel dualar elendi.
 - Parti 3 (2026-11-27): Buhârî, Ebû Dâvûd ve Nesâî'den elle seçilen 7 hadis duası (genel, aynen meal); toplam 94. Türkçe hadith-api metinlerinde parantezli açıklama ve OCR bozukluğu fazla; daha fazlası kaynakla birebir doğrulanamadığı için alınmadı.
+
+## Dua okuma ekranı (2026-11-27)
+- Tek ekran (`lib/features/hazine/dua/dua_okuma_page.dart`): Dua Hazinesi ve günlük dua aynı premium görünümle açılır. Ana metinler ortalı, Arapça RTL; sıra: başlık > Arapça > okunuş > anlam > kaynak > açıklama > hikmet > ne zaman okunur > ezber > ilgili dualar.
+- Olmayan alan gösterilmez, uydurulmaz: hadis dualarında yalnız meal ("kaynağında yalnız meali verilmiştir" notu); hikmet/ne zaman okunur alanı veride yoksa bölüm çıkmaz.
+- Ezber: `DuaEzberServisi` (parça, seviye, aralıklı tekrar 1-3-7-14-30 gün). Eski `ezber_<id>` kayıtları aktarılır, silinmez. Parçası olmayan dua, metni değiştirilmeden bölünür.
+- Paylaşım görseli metne göre uzar (kesilmez); metin paylaşımı da var. Doğrulanmış ses kaydı olmadığı için sesli dinleme eklenmedi.

@@ -2139,4 +2139,217 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get hkIlgiliHakikatler => 'Related truths';
+
+  @override
+  String get dkKutuphane => 'PRAYER LIBRARY';
+
+  @override
+  String get dkArapca => 'ARABIC TEXT';
+
+  @override
+  String get dkArapcaNot => 'Arabic text · with vowel marks from the source';
+
+  @override
+  String get dkOkunus => 'TRANSLITERATION';
+
+  @override
+  String get dkAnlam => 'MEANING';
+
+  @override
+  String get dkYalnizMeal =>
+      'Only the meaning is given in this prayer\'s source.';
+
+  @override
+  String get dkKaynak => 'SOURCE';
+
+  @override
+  String get dkSinif => 'Classification';
+
+  @override
+  String get dkNumara => 'Number';
+
+  @override
+  String get dkSihhat => 'Authenticity';
+
+  @override
+  String get dkAciklama => 'EXPLANATION';
+
+  @override
+  String get dkHikmet => 'WISDOM';
+
+  @override
+  String get dkNeZaman => 'WHEN IS IT RECITED?';
+
+  @override
+  String get dkEzber => 'Memorize This Prayer';
+
+  @override
+  String get dkEzberAlt =>
+      'Learn it piece by piece, repeat and check your memory.';
+
+  @override
+  String get dkEzberBasla => 'START MEMORIZING';
+
+  @override
+  String get dkIlgili => 'RELATED PRAYERS';
+
+  @override
+  String get dkOnceki => 'Previous prayer';
+
+  @override
+  String get dkSonraki => 'Next prayer';
+
+  @override
+  String get dkKopyala => 'Copy';
+
+  @override
+  String get dkKopyalandi => 'Prayer copied';
+
+  @override
+  String get dkPaylas => 'Share';
+
+  @override
+  String get dkGorselPaylas => 'Share as image card';
+
+  @override
+  String get dkMetinPaylas => 'Share as text';
+
+  @override
+  String get dkGorselHazirlaniyor => 'Preparing image…';
+
+  @override
+  String get dkPaylasimHata => 'Could not open sharing';
+
+  @override
+  String get dkKaydet => 'Save';
+
+  @override
+  String get dkKaydedildi => 'Added to favorites';
+
+  @override
+  String get dkKaydiKaldir => 'Removed from favorites';
+
+  @override
+  String get dkOkumaAyarlari => 'Reading settings';
+
+  @override
+  String get dkGeceModu => 'Night reading mode';
+
+  @override
+  String get dkBoyutArapca => 'Arabic text size';
+
+  @override
+  String get dkBoyutOkunus => 'Transliteration size';
+
+  @override
+  String get dkBoyutAnlam => 'Meaning size';
+
+  @override
+  String get dkGoster => 'Show';
+
+  @override
+  String get dkGizle => 'Hide';
+
+  @override
+  String get dkGizliMetin => 'Hidden · Try to recall, then tap';
+
+  @override
+  String get dkEzberBaslik => 'Memorization';
+
+  @override
+  String get dkAdimOku => 'Read and repeat';
+
+  @override
+  String get dkAdimHatirla => 'Recall from memory';
+
+  @override
+  String get dkAdimBosluk => 'Fill in the blank';
+
+  @override
+  String get dkAdimEslestir => 'Match';
+
+  @override
+  String dkTekrar(int n) {
+    return 'Repeat $n/3';
+  }
+
+  @override
+  String get dkTekrarEt => 'I repeated it';
+
+  @override
+  String dkParca(int i, int n) {
+    return 'Part $i/$n';
+  }
+
+  @override
+  String get dkBiliyorum => 'I remembered';
+
+  @override
+  String get dkTekrarGerek => 'I need to repeat';
+
+  @override
+  String get dkEzberledim => 'Memorized';
+
+  @override
+  String dkIlerleme(int e, int t) {
+    return '$e/$t parts memorized';
+  }
+
+  @override
+  String dkSonrakiTekrar(String tarih) {
+    return 'Next review: $tarih';
+  }
+
+  @override
+  String get dkTekrarZamani => 'Time to review';
+
+  @override
+  String get dkEzberTamam => 'Memorization complete';
+
+  @override
+  String get dkBoslukYonerge => 'Choose the missing word';
+
+  @override
+  String get dkEslestirYonerge => 'Match each part with its meaning';
+
+  @override
+  String get dkDogru => 'Correct';
+
+  @override
+  String dkDogrusu(String cevap) {
+    return 'Correct answer: $cevap';
+  }
+
+  @override
+  String get dkKontrol => 'Check';
+
+  @override
+  String get dkYeniden => 'Again';
+
+  @override
+  String get dkTekrarBasarili => 'Today\'s review succeeded';
+
+  @override
+  String get dkTekrarBasarisiz => 'Review again tomorrow';
+
+  @override
+  String get dkTekrarSonuc => 'Save today\'s review';
+
+  @override
+  String get dkEzberDurumu => 'My Memorization';
+
+  @override
+  String get dkOgrenilen => 'Learning';
+
+  @override
+  String get dkBekleyen => 'Due for review';
+
+  @override
+  String get dkTamamlanan => 'Completed';
+
+  @override
+  String get dkEzberBos => 'You have not started memorizing any prayer yet.';
+
+  @override
+  String get dkParcaYok => 'This prayer is memorized as a single part.';
 }

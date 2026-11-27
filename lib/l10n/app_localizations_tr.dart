@@ -2134,4 +2134,216 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get hkIlgiliHakikatler => 'İlgili hakikatler';
+
+  @override
+  String get dkKutuphane => 'DUA KÜTÜPHANESİ';
+
+  @override
+  String get dkArapca => 'ARAPÇA METİN';
+
+  @override
+  String get dkArapcaNot => 'Arapça metin · Kaynaktaki harekeyle';
+
+  @override
+  String get dkOkunus => 'TÜRKÇE OKUNUŞU';
+
+  @override
+  String get dkAnlam => 'TÜRKÇE ANLAMI';
+
+  @override
+  String get dkYalnizMeal => 'Bu duanın kaynağında yalnız meali verilmiştir.';
+
+  @override
+  String get dkKaynak => 'DUANIN KAYNAĞI';
+
+  @override
+  String get dkSinif => 'Sınıf';
+
+  @override
+  String get dkNumara => 'Numara';
+
+  @override
+  String get dkSihhat => 'Sıhhat';
+
+  @override
+  String get dkAciklama => 'DUANIN AÇIKLAMASI';
+
+  @override
+  String get dkHikmet => 'DUANIN HİKMETİ';
+
+  @override
+  String get dkNeZaman => 'NE ZAMAN OKUNUR?';
+
+  @override
+  String get dkEzber => 'Bu Duayı Ezberle';
+
+  @override
+  String get dkEzberAlt =>
+      'Parça parça öğren, tekrar et ve ezberini kontrol et.';
+
+  @override
+  String get dkEzberBasla => 'EZBERLEMEYE BAŞLA';
+
+  @override
+  String get dkIlgili => 'İLGİLİ DUALAR';
+
+  @override
+  String get dkOnceki => 'Önceki dua';
+
+  @override
+  String get dkSonraki => 'Sonraki dua';
+
+  @override
+  String get dkKopyala => 'Kopyala';
+
+  @override
+  String get dkKopyalandi => 'Dua panoya kopyalandı';
+
+  @override
+  String get dkPaylas => 'Paylaş';
+
+  @override
+  String get dkGorselPaylas => 'Görsel kart olarak paylaş';
+
+  @override
+  String get dkMetinPaylas => 'Metin olarak paylaş';
+
+  @override
+  String get dkGorselHazirlaniyor => 'Görsel hazırlanıyor…';
+
+  @override
+  String get dkPaylasimHata => 'Paylaşım açılamadı';
+
+  @override
+  String get dkKaydet => 'Kaydet';
+
+  @override
+  String get dkKaydedildi => 'Favorilere eklendi';
+
+  @override
+  String get dkKaydiKaldir => 'Favorilerden çıkarıldı';
+
+  @override
+  String get dkOkumaAyarlari => 'Okuma ayarları';
+
+  @override
+  String get dkGeceModu => 'Gece okuma modu';
+
+  @override
+  String get dkBoyutArapca => 'Arapça yazı boyutu';
+
+  @override
+  String get dkBoyutOkunus => 'Okunuş yazı boyutu';
+
+  @override
+  String get dkBoyutAnlam => 'Anlam yazı boyutu';
+
+  @override
+  String get dkGoster => 'Göster';
+
+  @override
+  String get dkGizle => 'Gizle';
+
+  @override
+  String get dkGizliMetin => 'Gizlendi · Hatırlamaya çalış, sonra dokun';
+
+  @override
+  String get dkEzberBaslik => 'Ezber';
+
+  @override
+  String get dkAdimOku => 'Oku ve tekrar et';
+
+  @override
+  String get dkAdimHatirla => 'Hafızadan hatırla';
+
+  @override
+  String get dkAdimBosluk => 'Boşluk doldur';
+
+  @override
+  String get dkAdimEslestir => 'Eşleştir';
+
+  @override
+  String dkTekrar(int n) {
+    return 'Tekrar $n/3';
+  }
+
+  @override
+  String get dkTekrarEt => 'Tekrar ettim';
+
+  @override
+  String dkParca(int i, int n) {
+    return 'Parça $i/$n';
+  }
+
+  @override
+  String get dkBiliyorum => 'Hatırladım';
+
+  @override
+  String get dkTekrarGerek => 'Tekrar etmeliyim';
+
+  @override
+  String get dkEzberledim => 'Ezberledim';
+
+  @override
+  String dkIlerleme(int e, int t) {
+    return '$e/$t parça ezberlendi';
+  }
+
+  @override
+  String dkSonrakiTekrar(String tarih) {
+    return 'Sonraki tekrar: $tarih';
+  }
+
+  @override
+  String get dkTekrarZamani => 'Tekrar zamanı geldi';
+
+  @override
+  String get dkEzberTamam => 'Ezber tamamlandı';
+
+  @override
+  String get dkBoslukYonerge => 'Eksik kelimeyi seç';
+
+  @override
+  String get dkEslestirYonerge => 'Her parçayı anlamıyla eşleştir';
+
+  @override
+  String get dkDogru => 'Doğru';
+
+  @override
+  String dkDogrusu(String cevap) {
+    return 'Doğrusu: $cevap';
+  }
+
+  @override
+  String get dkKontrol => 'Kontrol et';
+
+  @override
+  String get dkYeniden => 'Yeniden';
+
+  @override
+  String get dkTekrarBasarili => 'Bugünkü tekrar başarılı';
+
+  @override
+  String get dkTekrarBasarisiz => 'Yarın yeniden tekrar et';
+
+  @override
+  String get dkTekrarSonuc => 'Bugünkü tekrarı kaydet';
+
+  @override
+  String get dkEzberDurumu => 'Ezber Durumum';
+
+  @override
+  String get dkOgrenilen => 'Öğrenilenler';
+
+  @override
+  String get dkBekleyen => 'Tekrar bekleyen';
+
+  @override
+  String get dkTamamlanan => 'Tamamlanan';
+
+  @override
+  String get dkEzberBos => 'Henüz ezberine başladığın dua yok.';
+
+  @override
+  String get dkParcaYok => 'Bu dua tek parça hâlinde ezberlenir.';
 }

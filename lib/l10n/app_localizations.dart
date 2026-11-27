@@ -3969,6 +3969,408 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'İlgili hakikatler'**
   String get hkIlgiliHakikatler;
+
+  /// No description provided for @dkKutuphane.
+  ///
+  /// In tr, this message translates to:
+  /// **'DUA KÜTÜPHANESİ'**
+  String get dkKutuphane;
+
+  /// No description provided for @dkArapca.
+  ///
+  /// In tr, this message translates to:
+  /// **'ARAPÇA METİN'**
+  String get dkArapca;
+
+  /// No description provided for @dkArapcaNot.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arapça metin · Kaynaktaki harekeyle'**
+  String get dkArapcaNot;
+
+  /// No description provided for @dkOkunus.
+  ///
+  /// In tr, this message translates to:
+  /// **'TÜRKÇE OKUNUŞU'**
+  String get dkOkunus;
+
+  /// No description provided for @dkAnlam.
+  ///
+  /// In tr, this message translates to:
+  /// **'TÜRKÇE ANLAMI'**
+  String get dkAnlam;
+
+  /// No description provided for @dkYalnizMeal.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu duanın kaynağında yalnız meali verilmiştir.'**
+  String get dkYalnizMeal;
+
+  /// No description provided for @dkKaynak.
+  ///
+  /// In tr, this message translates to:
+  /// **'DUANIN KAYNAĞI'**
+  String get dkKaynak;
+
+  /// No description provided for @dkSinif.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sınıf'**
+  String get dkSinif;
+
+  /// No description provided for @dkNumara.
+  ///
+  /// In tr, this message translates to:
+  /// **'Numara'**
+  String get dkNumara;
+
+  /// No description provided for @dkSihhat.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sıhhat'**
+  String get dkSihhat;
+
+  /// No description provided for @dkAciklama.
+  ///
+  /// In tr, this message translates to:
+  /// **'DUANIN AÇIKLAMASI'**
+  String get dkAciklama;
+
+  /// No description provided for @dkHikmet.
+  ///
+  /// In tr, this message translates to:
+  /// **'DUANIN HİKMETİ'**
+  String get dkHikmet;
+
+  /// No description provided for @dkNeZaman.
+  ///
+  /// In tr, this message translates to:
+  /// **'NE ZAMAN OKUNUR?'**
+  String get dkNeZaman;
+
+  /// No description provided for @dkEzber.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu Duayı Ezberle'**
+  String get dkEzber;
+
+  /// No description provided for @dkEzberAlt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Parça parça öğren, tekrar et ve ezberini kontrol et.'**
+  String get dkEzberAlt;
+
+  /// No description provided for @dkEzberBasla.
+  ///
+  /// In tr, this message translates to:
+  /// **'EZBERLEMEYE BAŞLA'**
+  String get dkEzberBasla;
+
+  /// No description provided for @dkIlgili.
+  ///
+  /// In tr, this message translates to:
+  /// **'İLGİLİ DUALAR'**
+  String get dkIlgili;
+
+  /// No description provided for @dkOnceki.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önceki dua'**
+  String get dkOnceki;
+
+  /// No description provided for @dkSonraki.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonraki dua'**
+  String get dkSonraki;
+
+  /// No description provided for @dkKopyala.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kopyala'**
+  String get dkKopyala;
+
+  /// No description provided for @dkKopyalandi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dua panoya kopyalandı'**
+  String get dkKopyalandi;
+
+  /// No description provided for @dkPaylas.
+  ///
+  /// In tr, this message translates to:
+  /// **'Paylaş'**
+  String get dkPaylas;
+
+  /// No description provided for @dkGorselPaylas.
+  ///
+  /// In tr, this message translates to:
+  /// **'Görsel kart olarak paylaş'**
+  String get dkGorselPaylas;
+
+  /// No description provided for @dkMetinPaylas.
+  ///
+  /// In tr, this message translates to:
+  /// **'Metin olarak paylaş'**
+  String get dkMetinPaylas;
+
+  /// No description provided for @dkGorselHazirlaniyor.
+  ///
+  /// In tr, this message translates to:
+  /// **'Görsel hazırlanıyor…'**
+  String get dkGorselHazirlaniyor;
+
+  /// No description provided for @dkPaylasimHata.
+  ///
+  /// In tr, this message translates to:
+  /// **'Paylaşım açılamadı'**
+  String get dkPaylasimHata;
+
+  /// No description provided for @dkKaydet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydet'**
+  String get dkKaydet;
+
+  /// No description provided for @dkKaydedildi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favorilere eklendi'**
+  String get dkKaydedildi;
+
+  /// No description provided for @dkKaydiKaldir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favorilerden çıkarıldı'**
+  String get dkKaydiKaldir;
+
+  /// No description provided for @dkOkumaAyarlari.
+  ///
+  /// In tr, this message translates to:
+  /// **'Okuma ayarları'**
+  String get dkOkumaAyarlari;
+
+  /// No description provided for @dkGeceModu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gece okuma modu'**
+  String get dkGeceModu;
+
+  /// No description provided for @dkBoyutArapca.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arapça yazı boyutu'**
+  String get dkBoyutArapca;
+
+  /// No description provided for @dkBoyutOkunus.
+  ///
+  /// In tr, this message translates to:
+  /// **'Okunuş yazı boyutu'**
+  String get dkBoyutOkunus;
+
+  /// No description provided for @dkBoyutAnlam.
+  ///
+  /// In tr, this message translates to:
+  /// **'Anlam yazı boyutu'**
+  String get dkBoyutAnlam;
+
+  /// No description provided for @dkGoster.
+  ///
+  /// In tr, this message translates to:
+  /// **'Göster'**
+  String get dkGoster;
+
+  /// No description provided for @dkGizle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gizle'**
+  String get dkGizle;
+
+  /// No description provided for @dkGizliMetin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gizlendi · Hatırlamaya çalış, sonra dokun'**
+  String get dkGizliMetin;
+
+  /// No description provided for @dkEzberBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ezber'**
+  String get dkEzberBaslik;
+
+  /// No description provided for @dkAdimOku.
+  ///
+  /// In tr, this message translates to:
+  /// **'Oku ve tekrar et'**
+  String get dkAdimOku;
+
+  /// No description provided for @dkAdimHatirla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hafızadan hatırla'**
+  String get dkAdimHatirla;
+
+  /// No description provided for @dkAdimBosluk.
+  ///
+  /// In tr, this message translates to:
+  /// **'Boşluk doldur'**
+  String get dkAdimBosluk;
+
+  /// No description provided for @dkAdimEslestir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Eşleştir'**
+  String get dkAdimEslestir;
+
+  /// No description provided for @dkTekrar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tekrar {n}/3'**
+  String dkTekrar(int n);
+
+  /// No description provided for @dkTekrarEt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tekrar ettim'**
+  String get dkTekrarEt;
+
+  /// No description provided for @dkParca.
+  ///
+  /// In tr, this message translates to:
+  /// **'Parça {i}/{n}'**
+  String dkParca(int i, int n);
+
+  /// No description provided for @dkBiliyorum.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hatırladım'**
+  String get dkBiliyorum;
+
+  /// No description provided for @dkTekrarGerek.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tekrar etmeliyim'**
+  String get dkTekrarGerek;
+
+  /// No description provided for @dkEzberledim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ezberledim'**
+  String get dkEzberledim;
+
+  /// No description provided for @dkIlerleme.
+  ///
+  /// In tr, this message translates to:
+  /// **'{e}/{t} parça ezberlendi'**
+  String dkIlerleme(int e, int t);
+
+  /// No description provided for @dkSonrakiTekrar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonraki tekrar: {tarih}'**
+  String dkSonrakiTekrar(String tarih);
+
+  /// No description provided for @dkTekrarZamani.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tekrar zamanı geldi'**
+  String get dkTekrarZamani;
+
+  /// No description provided for @dkEzberTamam.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ezber tamamlandı'**
+  String get dkEzberTamam;
+
+  /// No description provided for @dkBoslukYonerge.
+  ///
+  /// In tr, this message translates to:
+  /// **'Eksik kelimeyi seç'**
+  String get dkBoslukYonerge;
+
+  /// No description provided for @dkEslestirYonerge.
+  ///
+  /// In tr, this message translates to:
+  /// **'Her parçayı anlamıyla eşleştir'**
+  String get dkEslestirYonerge;
+
+  /// No description provided for @dkDogru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğru'**
+  String get dkDogru;
+
+  /// No description provided for @dkDogrusu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğrusu: {cevap}'**
+  String dkDogrusu(String cevap);
+
+  /// No description provided for @dkKontrol.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kontrol et'**
+  String get dkKontrol;
+
+  /// No description provided for @dkYeniden.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeniden'**
+  String get dkYeniden;
+
+  /// No description provided for @dkTekrarBasarili.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugünkü tekrar başarılı'**
+  String get dkTekrarBasarili;
+
+  /// No description provided for @dkTekrarBasarisiz.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yarın yeniden tekrar et'**
+  String get dkTekrarBasarisiz;
+
+  /// No description provided for @dkTekrarSonuc.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugünkü tekrarı kaydet'**
+  String get dkTekrarSonuc;
+
+  /// No description provided for @dkEzberDurumu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ezber Durumum'**
+  String get dkEzberDurumu;
+
+  /// No description provided for @dkOgrenilen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Öğrenilenler'**
+  String get dkOgrenilen;
+
+  /// No description provided for @dkBekleyen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tekrar bekleyen'**
+  String get dkBekleyen;
+
+  /// No description provided for @dkTamamlanan.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tamamlanan'**
+  String get dkTamamlanan;
+
+  /// No description provided for @dkEzberBos.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz ezberine başladığın dua yok.'**
+  String get dkEzberBos;
+
+  /// No description provided for @dkParcaYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu dua tek parça hâlinde ezberlenir.'**
+  String get dkParcaYok;
 }
 
 class _AppLocalizationsDelegate

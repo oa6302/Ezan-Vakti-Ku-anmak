@@ -2227,5 +2227,269 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_035",
+  "kategori": "kainat",
+  "baslik": "Her Şeyin Hakikati Bir İsme Dayanır",
+  "giris": "Bir çiçeğe baktığımızda renk, koku ve düzen görürüz. Bir yağmur damlasında hayat, bir annenin şefkatinde merhamet görürüz. Peki bu güzelliklerin kaynağı nedir? Bediüzzaman, kâinattaki her şeyin hakikatinin Allah'ın isimlerine dayandığını söyler. Bu bakış, dünyayı okunacak bir kitaba çevirir.",
+  "aciklama": "Kur'an-ı Kerîm, Allah'ın en güzel isimlerinin olduğunu bildirir: “En güzel isimler Allah'ındır. O hâlde O'na o isimlerle dua edin.” Haşr Sûresi'nin son ayetlerinde de bu isimlerden bir kısmı sayılır: “O, yaratan, var eden, şekil veren Allah'tır. En güzel isimler O'nundur. Göklerde ve yerde bulunanlar O'nu tesbih eder.” Peygamber Efendimiz, Allah'ın doksan dokuz isminden söz etmiş ve onları sayıp anlamını kavrayanın cennete gireceğini haber vermiştir. Allah'ın isimleri, O'nun kendini kullarına tanıtma yoludur. Rezzâk ismi rızıkta, Rahîm ismi merhamette, Hakîm ismi düzende ve hikmette görünür. İnsan, varlıklara bu isimlerin aynası olarak baktığında, her şeyde Allah'ı hatırlatan bir mana bulur.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Otuz İkinci Söz'ünde şöyle der: “Bütün mevcûdâtın hakāiki, bütün kâinâtın hakîkati esmâ-yı İlâhiyeye istinâd eder.” Ve devamında: “Her bir şeyin hakîkati, bir isme veyâhûd çok esmâya istinâd eder.” Eserdeki anlatımın özetine göre bir varlığın asıl hakikati, onun maddesi değil, onda tecelli eden ilahi isimlerdir; madde değişir ve gider, ama ismin tecellisi tazelenerek devam eder. On Yedinci Söz'de bu bakışı bir okuma çağrısına dönüştürür: “Evet, masnûâtta hiç bir eser yok ki, çok ma‘nâlı bir lafz-ı mücessem olmasın, Sâni‘-i Zülcelâl’in çok esmâsını okutturmasın.” Yani her eser, cisimleşmiş manalı bir kelime gibidir. Bu kelimelerin manasını okuyup kalbe koymak, onlara sadece maddi bir varlık olarak bakmaktan çok daha derin bir tefekkürdür.",
+  "kainattanDelil": "Bir elma, toprağın, suyun, güneşin ve havanın bir araya gelmesiyle oluşur; ama onda görünen lezzet, renk, koku ve besin değeri, cömertlik ve ikramı anlatır. Bir kuş yavrusuna yem taşıyan anne kuş, şefkat ve merhameti gösterir. Kar tanelerinin her birinin farklı ve düzenli bir şekli olması, hikmet ve sanatı gösterir. Varlıklar değişip gider; ama her bahar aynı isimlerin yeni tecellileriyle dolar.",
+  "hikmet": "Varlıkların asıl hakikati, onlarda görünen ilahi isimlerdir. Her eser, Sâni'inin isimlerini okutan manalı bir kelime gibidir. Kâinata bu gözle bakan, her şeyde Allah'ı hatırlatan bir ders bulur.",
+  "kendimize": "Bugün gördüğüm bir güzellikte Allah'ın hangi ismini okuyabilirim? Varlıklara sadece maddi bir gözle mi bakıyorum, yoksa onların anlattığı manayı da düşünüyor muyum? Dualarımda Allah'ın isimlerini anarak O'na yöneliyor muyum?",
+  "hayat": "Gün içinde karşılaştığımız bir nimete bakıp ‘Bu, Rezzâk isminin bir tecellisi’ ya da ‘Bu, Rahîm isminin bir hediyesi’ demek bu dersin uygulamasıdır. Her gün Esmâü'l-Hüsnâ'dan bir ismi öğrenip anlamını düşünmek ve o isimle dua etmek de güzel bir alışkanlıktır.",
+  "ders": "Bütün kâinatın hakikati esma-i İlahiyeye dayanır; her eser, Sâni'inin isimlerini okutan manalı bir kelimedir.",
+  "tefekkurSorusu": "Bugün hangi varlıkta Allah'ın hangi ismini okudum?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+   "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+   "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+   "kaynak": "Âl-i İmrân, 3/8"
+  },
+  "konular": [
+   "esma",
+   "tevhid"
+  ],
+  "kavramlar": [
+   "Esma",
+   "Tecelli",
+   "Hakikat",
+   "Masnû",
+   "Tefekkür"
+  ],
+  "kaynaklar": [
+   "A'râf, 7/180",
+   "Haşr, 59/24",
+   "Buhârî, Tevhîd, 12 (7392)",
+   "Bediüzzaman Said Nursî, Sözler, Otuz İkinci Söz, Üçüncü Mevkıf",
+   "Bediüzzaman Said Nursî, Sözler, On Yedinci Söz, İkinci Makam"
+  ],
+  "sinav": [
+   {
+    "soru": "Otuz İkinci Söz'e göre bütün kâinatın hakikati neye dayanır?",
+    "secenekler": [
+     "Tesadüfe",
+     "Esma-i İlahiyeye",
+     "Maddeye",
+     "Tabiata"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Yedinci Söz'e göre her eser neye benzetilir?",
+    "secenekler": [
+     "Manasız bir yığına",
+     "Manalı ve cisimleşmiş bir kelimeye",
+     "Bir gölgeye",
+     "Bir rüyaya"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "A'râf Sûresi'ne göre en güzel isimler Allah'ındır ve O'na bu isimlerle dua edilir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_036",
+  "kategori": "iman",
+  "baslik": "Kadere İman ve İnsanın Vazifesi",
+  "giris": "Bazı insanlar kadere imanı tembelliğe bahane yapar: ‘Ne olacaksa olur’ deyip hiçbir şey yapmazlar. Bazıları da her şeyi kendi gücüne bağlar ve başarısızlıkta yıkılır. Bediüzzaman, bu iki ucun arasında dengeli bir yol gösterir: Kadere iman huzur verir, ama insanı vazifesinden alıkoymaz.",
+  "aciklama": "Kur'an-ı Kerîm, her şeyin bir ölçüyle yaratıldığını bildirir: “Şüphesiz biz her şeyi bir kader ile yarattık.” Başka bir ayette de insanın çalışmasının önemi vurgulanır: “İnsan için ancak çalıştığı vardır.” Peygamber Efendimiz, devesini bağlamadan Allah'a tevekkül ettiğini söyleyen bir adama şöyle buyurmuştur: “Onu bağla, sonra tevekkül et.” Kadere iman, imanın altı esasından biridir. Ama bu iman, insanın iradesini ve sorumluluğunu ortadan kaldırmaz. İnsan sebeplere sarılır, elinden geleni yapar; sonucu ise Allah'a bırakır. Böylece hem gayret eder hem de sonuç ne olursa olsun kalbi huzur içinde kalır.",
+  "risalePerspektifi": "Bediüzzaman, Şuâ'lar'ın Onbirinci Şuâ'sında kadere imanın dünya hayatındaki yerini şöyle ifade eder: “Kadere îmân olmazsa, hayât-ı dünyeviye saâdeti mahvolur.” Eserdeki anlatımın özetine göre kadere iman etmeyen insan, geçmişin acıları ve geleceğin endişeleri arasında ezilir; her musibeti bir yük olarak omzunda taşır. Kadere iman eden ise yükünü Allah'a bırakır ve rahatlar. Ama bu teslimiyet, vazifeyi terk etmek demek değildir. Lem'alar'ın On Yedinci Lem'a'sında Bediüzzaman şöyle der: “İnsan kendi vazîfesini yapmalı, Cenâb-ı Hakk’ın vazîfesine karışmamalıdır.” Yani çalışmak, sebeplere sarılmak ve doğruyu yapmak insanın vazifesidir; sonucu yaratmak ve takdir etmek ise Allah'ın işidir. Mesnevî-i Nûriye'de de bu dengenin sonucu şöyle özetlenir: “Allâh’a tevekkül edene Allâh kâfîdir.”",
+  "kainattanDelil": "Bir çiftçi toprağı sürer, tohumu eker, suyunu verir ve zararlı otları temizler. Ama tohumu filizlendirmek, yağmuru yağdırmak ve güneşi doğdurmak onun elinde değildir. Çiftçi kendi vazifesini yapar ve hasadı bekler. Bir kuş da her sabah yuvasından çıkar, rızkını arar; ama rızkın nerede olacağını o belirlemez. Kâinattaki her varlık kendi vazifesini yapar, sonucu ise Yaratıcısına bırakır.",
+  "hikmet": "Kadere iman, dünya hayatındaki huzurun temelidir; ama vazifeyi terk etmek değildir. İnsan elinden geleni yapar, sonucu Allah'a bırakır. Kendi vazifesini yapıp Allah'ın vazifesine karışmayan, hem gayret eder hem de huzur bulur.",
+  "kendimize": "Kadere imanı bazen tembelliğime bahane yapıyor muyum? Ya da her şeyi kendi gücüme bağlayıp sonuç istediğim gibi olmayınca yıkılıyor muyum? Elimden geleni yaptıktan sonra sonucu gönül rahatlığıyla Allah'a bırakabiliyor muyum?",
+  "hayat": "Bir sınava, bir işe ya da bir tedaviye hazırlanırken bütün imkânlarımızı kullanıp sonra ‘Gerisi Allah'a kalmış’ diyebilmek bu dersin uygulamasıdır. Sonuç istediğimiz gibi olmadığında kendimizi suçlamak ya da isyan etmek yerine ‘Bunda bir hayır vardır’ deyip yeniden çalışmak da kadere imanın hayattaki karşılığıdır.",
+  "ders": "Kadere iman olmazsa dünya hayatının saadeti mahvolur; insan kendi vazifesini yapmalı, Allah'ın vazifesine karışmamalıdır.",
+  "tefekkurSorusu": "Bugün hangi işte elimden geleni yapıp sonucu Allah'a bıraktım?",
+  "dua": {
+   "arapca": "رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَتَوَفَّنَا مُسْلِمِينَ",
+   "okunus": "Rabbenâ efrığ 'aleynâ sabran veteveffenâ muslimîn",
+   "anlam": "Onlar da: “Doğrusu biz ancak Rabbimize döneriz. Rabbimizin ayetleri gelince, onlara inanmamızdan ötürü bizden öç alıyorsun. Rabbimiz! Bize sabır ver ve canımızı müslim olarak al” dediler.",
+   "kaynak": "A'râf, 7/126"
+  },
+  "konular": [
+   "kader",
+   "sukurSabir"
+  ],
+  "kavramlar": [
+   "Kader",
+   "Tevekkül",
+   "Cüz-i ihtiyari",
+   "Vazife",
+   "Teslimiyet"
+  ],
+  "kaynaklar": [
+   "Kamer, 54/49",
+   "Necm, 53/39",
+   "Tirmizî, Sıfatü'l-Kıyâme, 60 (2517)",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Onbirinci Şuâ, Onbirinci Mes'ele",
+   "Bediüzzaman Said Nursî, Lem'alar, On Yedinci Lem'a, On Üçüncü Nota",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye"
+  ],
+  "sinav": [
+   {
+    "soru": "Onbirinci Şuâ'ya göre kadere iman olmazsa ne olur?",
+    "secenekler": [
+     "Hayat-ı dünyeviye saadeti mahvolur",
+     "Hiçbir şey değişmez",
+     "İnsan daha çok çalışır",
+     "Musibetler azalır"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Bediüzzaman'a göre insan ne yapmalıdır?",
+    "secenekler": [
+     "Hiçbir şey yapmamalı",
+     "Allah'ın vazifesine karışmalı",
+     "Kendi vazifesini yapmalı, Allah'ın vazifesine karışmamalı",
+     "Sadece beklemeli"
+    ],
+    "dogru": 2
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Hadise göre deveyi önce bağlamak, sonra tevekkül etmek gerekir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_037",
+  "kategori": "kainat",
+  "baslik": "Mucizeyi Örten Perde: Alışkanlık",
+  "giris": "Bir tohumdan koca bir ağacın çıkması, bir yumurtadan canlı bir kuşun doğması, bir damla sudan bir insanın yaratılması... Bunlar her gün gördüğümüz için bize sıradan gelir. Bediüzzaman, alışkanlığın bu harika olayların üstüne bir perde çektiğini, Kur'an'ın ise bu perdeyi yırttığını söyler.",
+  "aciklama": "Kur'an-ı Kerîm, insanları sürekli olarak etraflarındaki varlıklara bakmaya ve düşünmeye çağırır: “Deveye bakmazlar mı, nasıl yaratılmış? Göğe bakmazlar mı, nasıl yükseltilmiş? Dağlara bakmazlar mı, nasıl dikilmiş? Yere bakmazlar mı, nasıl yayılmış?” Başka bir ayette de şöyle buyrulur: “Yeryüzünde kesin bilgiyle inananlar için deliller vardır. Kendi nefislerinizde de. Hâlâ görmüyor musunuz?” Kur'an'ın bu çağrısı, insanın her gün gördüğü ve artık dikkat etmediği varlıklara yeniden ve dikkatle bakmasını sağlar. Alışılmış olan, aslında en büyük harikalardır; yalnızca sık görüldükleri için fark edilmezler.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in On Üçüncü Söz'ünde Kur'an'ın bu yönünü şöyle anlatır: “Kur’ân-ı Mu‘cizü’l-Beyân, bütün kâinâttaki âdiyât nâmıyla yâd olunan, hârikulâde ve birer mu‘cize-i kudret olan mevcûdât üstündeki âdet ve ülfet perdesini keskin beyânâtıyla yırtıp” insanların ibret nazarını onlara çeker. Eserdeki anlatımın özetine göre sıradan diye adlandırdığımız şeyler, aslında birer kudret mucizesidir; ama ülfet, yani alışkanlık, onları gözümüzde sıradanlaştırır. Âyetü'l-Kübrâ olarak bilinen Yedinci Şuâ'da da annelerin şefkati üzerinden bir örnek verilir: Bu sanat ve fiilin, yeryüzünde hadsiz annenin kalbinde aynı anda tecelli etmesi, metnin ifadesiyle “aynı tarzda, aynı hikmet ve aynı dikkatle tecellîsi ve tasarrufu ve yapması ve ihâtası, bedâhetle vahdeti isbat eder.” Yani her yerde aynı anda işleyen bu şefkat, tek bir Yaratıcı'nın varlığını apaçık gösterir.",
+  "kainattanDelil": "Bir kuş yumurtası, içinde bir kuşun bütün planını taşır; sıcaklık verildiğinde birkaç hafta içinde gözü, kanadı ve kalbi olan bir canlıya dönüşür. Bir tohum, toprağa düşünce kendi ağırlığının binlerce katı bir ağaç hâline gelir. Dünyanın her yerindeki annelerin yavrularına aynı şefkatle yönelmesi de dikkatle bakıldığında olağanüstü bir manzaradır. Bunlar sık görüldükleri için fark edilmez; ama her biri bir harikadır.",
+  "hikmet": "Alışkanlık, harika olanı sıradan gösteren bir perdedir. Kur'an bu perdeyi yırtar ve insanı varlıklara yeniden ve dikkatle bakmaya çağırır. Her yerde aynı anda işleyen düzen ve şefkat, tek bir Yaratıcı'yı gösterir.",
+  "kendimize": "Her gün gördüğüm hangi harikaları artık fark etmiyorum? Alışkanlık, nimetlerin kıymetini benim gözümde de azaltıyor mu? Bir varlığa en son ne zaman ‘Bu nasıl yaratıldı?’ diye dikkatle baktım?",
+  "hayat": "Her gün bir varlığa, örneğin bir yaprağa, bir böceğe ya da gökyüzüne birkaç dakika dikkatle bakıp onun nasıl yaratıldığını düşünmek bu dersin uygulamasıdır. Çocuklarla birlikte bir tohum ekip büyümesini izlemek de alışkanlık perdesini yırtan güzel bir tefekkür etkinliğidir.",
+  "ders": "Kur'an, mevcudat üstündeki adet ve ülfet perdesini yırtar; sıradan sanılan her şey birer kudret mucizesidir.",
+  "tefekkurSorusu": "Bugün hangi sıradan şeyin aslında bir harika olduğunu fark ettim?",
+  "dua": {
+   "arapca": "رَبَّنَآ إِنَّكَ جَامِعُ ٱلنَّاسِ لِيَوْمٍۢ لَّا رَيْبَ فِيهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ",
+   "okunus": "Rabbenâ inneke câmi'u n-nâsi liyevmin lâ raybe fîhi inne'llâhe lâ yuhlifu l-mî'âd",
+   "anlam": "Rabbimiz! Doğrusu geleceği şüphe götürmeyen günde, insanları toplayacak olan Sensin. Şüphesiz ki Allah verdiği sözden caymaz.",
+   "kaynak": "Âl-i İmrân, 3/9"
+  },
+  "konular": [
+   "tabiat",
+   "tevhid",
+   "kuran"
+  ],
+  "kavramlar": [
+   "Ülfet",
+   "Âdet",
+   "Mucize",
+   "Tefekkür",
+   "Vahdet"
+  ],
+  "kaynaklar": [
+   "Gâşiye, 88/17-20",
+   "Zâriyât, 51/20-21",
+   "Bediüzzaman Said Nursî, Sözler, On Üçüncü Söz, Birinci Makam",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Yedinci Şuâ, İkinci Makam"
+  ],
+  "sinav": [
+   {
+    "soru": "On Üçüncü Söz'e göre Kur'an mevcudat üstündeki hangi perdeyi yırtar?",
+    "secenekler": [
+     "Âdet ve ülfet perdesini",
+     "Gece perdesini",
+     "Bulut perdesini",
+     "Zaman perdesini"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Yedinci Şuâ'ya göre annelerin şefkatinin her yerde aynı anda tecellisi neyi ispat eder?",
+    "secenekler": [
+     "Tesadüfü",
+     "Vahdeti",
+     "Tabiatın gücünü",
+     "Hiçbir şeyi"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Gâşiye Sûresi, insanları deveye, göğe, dağlara ve yere bakıp düşünmeye çağırır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_038",
+  "kategori": "iman",
+  "baslik": "Binler Delil: Peygamberliğin Şahitleri",
+  "giris": "Peygamber Efendimizin (s.a.v.) zamanında insanlar ona farklı yollardan iman ettiler. Kimi bir mucizesini görerek, kimi bir sözünü işiterek, kimi de sadece yüzüne bakarak ‘Bu yüz yalancı yüzü değildir’ dedi. Bediüzzaman, bu binlerce delilin bugün de geçerli olduğunu hatırlatır.",
+  "aciklama": "Kur'an-ı Kerîm, Peygamber Efendimizin peygamberliğini pek çok delille bildirir. Onun okuma yazma bilmediği hâlde Kur'an gibi bir kitap getirmesi bunlardan biridir: “Sen bundan önce hiçbir kitap okumuyordun ve onu sağ elinle yazmıyordun. Öyle olsaydı batıl yoldakiler kuşkuya düşerlerdi.” Abdullah bin Selâm, Efendimiz Medine'ye geldiğinde onu görmeye gittiğini ve yüzüne bakınca bunun bir yalancı yüzü olmadığını anladığını anlatır. Ashabın bir kısmı ayın yarılmasına, bir kısmı parmaklarından akan suya, bir kısmı da onun eşsiz ahlakına şahit oldu. Her biri farklı bir delille iman etti; ama hepsi aynı hakikate ulaştı.",
+  "risalePerspektifi": "Bediüzzaman, Mucizat-ı Ahmediye olarak bilinen On Dokuzuncu Mektub'un bir işaretinde şaşkınlığını şöyle dile getirir: Metnin ifadesiyle “Resûl-ü Ekrem Aleyhissalâtü Vesselâm’ın, mübâlağasız binler vecihde binler çeşit insan, her biri birtek mu‘cizesi ile veya bir delîl-i nübüvveti ile veya bir kelâmı ile veya yüzünü görmesiyle ve hâkezâ, birer alâmetiyle îmân getirdikleri” hâlde, bütün bu deliller bugün bazı insanlara yetmiyor gibi görünmektedir. Eserdeki anlatımın özetine göre o deliller sahih nakil ve kesin eserlerle bize kadar ulaşmıştır; dikkatle bakan için hâlâ aynı kuvvettedir. Otuzuncu Söz'de ise nübüvvetin insanlığa öğrettiği yol şöyle tarif edilir: “Nübüvvet ise, gaye-i insaniyet ve vazîfe-i beşeriyet, ahlâk-ı İlâhiye ile ve secâyâ-yı hasene ile tahalluk etmekle beraber.. aczini bilip kudret-i İlâhiyeye ilticâ” etmektir. Yani peygamberlik, insana hem güzel ahlakı hem de aczini bilip Allah'a sığınmayı öğretir.",
+  "kainattanDelil": "Güneşin varlığını ispat etmek için tek bir ışık huzmesi yeterlidir; ama güneş, dünyanın her yerine milyarlarca huzme gönderir. Bir yolcu, karanlık bir gecede tek bir yıldızla yönünü bulabilir; gökyüzünde ise binlerce yıldız vardır. Bir hakikatin delilleri ne kadar çok ve çeşitli olursa, onu görmemek o kadar zorlaşır. Peygamberliğin delilleri de güneşin ışıkları gibi her tarafa yayılmıştır.",
+  "hikmet": "Peygamberliğin delilleri binlercedir ve farklı insanlara farklı kapılardan ulaşır. Bu deliller sahih nakillerle bugüne kadar gelmiştir. Nübüvvet, insana güzel ahlakı ve aczini bilip Allah'a sığınmayı öğretir.",
+  "kendimize": "Peygamber Efendimizi ne kadar tanıyorum? Onun mucizelerini, ahlakını ve sözlerini öğrenmek için ne kadar zaman ayırıyorum? Onun öğrettiği gibi aczimi bilip Allah'a sığınabiliyor muyum?",
+  "hayat": "Siyer ve şemâil kitaplarından her gün kısa bir bölüm okumak, Efendimizin mucizelerini ve ahlakını tanımanın en güzel yoludur. Öğrendiğimiz bir sünneti o gün uygulamak, onun güzel ahlakını kendi hayatımıza taşımak da peygamberliğin bize öğrettiği yolu yaşamaktır.",
+  "ders": "Binler çeşit insan, binler vecihle Resûl-ü Ekrem'e iman etmiştir; o deliller sahih nakille bugün de aynı kuvvettedir.",
+  "tefekkurSorusu": "Bugün Peygamber Efendimizin hangi ahlakını hayatıma taşıyabilirim?",
+  "dua": {
+   "arapca": "رَّبِّ أَدْخِلْنِى مُدْخَلَ صِدْقٍۢ وَأَخْرِجْنِى مُخْرَجَ صِدْقٍۢ وَٱجْعَل لِّى مِن لَّدُنكَ سُلْطَـٰنًۭا نَّصِيرًۭا",
+   "okunus": "Rabbi edhılnî mudhale sıdkın ve-ehrıcnî muhrace sıdkın ve-ic'al lî min ledunke sultânen nesîr",
+   "anlam": "De ki: “Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et; çıkaracağın yerden de hoşnutluk ve esenlikle çıkar. Katından beni destekleyecek bir kuvvet ver.”",
+   "kaynak": "İsrâ, 17/80"
+  },
+  "konular": [
+   "nubuvvet",
+   "iman"
+  ],
+  "kavramlar": [
+   "Nübüvvet",
+   "Mucize",
+   "Delil",
+   "Ahlak",
+   "Acz"
+  ],
+  "kaynaklar": [
+   "Ankebût, 29/48",
+   "Tirmizî, Sıfatü'l-Kıyâme, 42 (2485)",
+   "Bediüzzaman Said Nursî, Mektûbât, On Dokuzuncu Mektub (bu baskıda Zülfikâr Mecmûası'nda)",
+   "Bediüzzaman Said Nursî, Sözler, Otuzuncu Söz, Birinci Maksad"
+  ],
+  "sinav": [
+   {
+    "soru": "On Dokuzuncu Mektub'a göre insanlar Resûl-ü Ekrem'e nasıl iman etmiştir?",
+    "secenekler": [
+     "Tek bir yolla",
+     "Binler vecihle, farklı delillerle",
+     "Hiçbir delil olmadan",
+     "Sadece duyarak"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Otuzuncu Söz'e göre nübüvvet insana neyi öğretir?",
+    "secenekler": [
+     "Kibri",
+     "Aczini bilip kudret-i İlahiyeye iltica etmeyi",
+     "Gafleti",
+     "Sadece dünya işlerini"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ankebût Sûresi'ne göre Peygamber Efendimiz Kur'an'dan önce hiçbir kitap okumuyor ve yazmıyordu.",
+    "dogru": true
+   }
+  ]
  }
 ]
