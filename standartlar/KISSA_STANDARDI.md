@@ -35,3 +35,4 @@ Veri: `assets/content/kissalar_365.json` · Denetim: `test/kissa_kalite_test.dar
 - Parti 19 (2026-11-27): kissa_289-304, her kategoriden 1; kissa Âişe 'Sabr-ı Cemîl' baslik tekrari giderildi.
 - Parti 20 (2026-11-27): kissa_305-320, her kategoriden 1.
 - Parti 21 (2026-11-27): kissa_321-336, her kategoriden 1.
+- Parti 22 (2026-11-27): kissa_337-352, her kategoriden 1.
