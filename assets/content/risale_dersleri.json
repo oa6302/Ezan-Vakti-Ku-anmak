@@ -4905,5 +4905,264 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_075",
+  "kategori": "kuran",
+  "baslik": "Kur'an'ın Talebesi Olmak",
+  "giris": "Her okulun talebesi, hocasından aldığı derslerle tanınır. Bir felsefe talebesi ile bir Kur'an talebesi aynı dünyaya bakar ama farklı şeyler görür. Bediüzzaman, Kur'an'ın talebesinin hem kâinata hem nefsine hem de diğer insanlara bakışının nasıl değiştiğini anlatır; bu talebe, büyük görünen şeyleri birer memur, iyi insanları da birer kardeş olarak görür.",
+  "aciklama": "Kur'an-ı Kerîm, kitabı okuyup öğrenenlere şöyle seslenir: “Kitabı öğrettiğinize, okuduğunuza göre Rabb'e kul olun.” Yani Kur'an'ı öğrenmenin gayesi, Allah'a hakiki kul olmaktır. Peygamber Efendimiz de şöyle buyurmuştur: “Sizin en hayırlınız Kur'an'ı öğrenen ve öğretendir.” Kur'an talebeliği, yalnız harfleri okumak değil, onun dersini hayata geçirmektir.",
+  "risalePerspektifi": "Bediüzzaman, Nur'un İlk Kapısı'nın On Birinci Ders'inde Kur'an talebesinin kâinata bakışını şöyle anlatır: “Evet, Kur’ân’ın tilmîzi, en büyük şeyleri, arş ve şems gibi mevcûdları birer me’mûr, birer mahlûk-u musahhar, birer âciz tanır.” Eserdeki anlatımın özetine göre Kur'an'ın talebesi, güneşi veya yıldızları ilah yerine koymaz; onları Rabbinin emrinde çalışan memurlar olarak görür. Aynı derste bu talebenin niyetinin saflığı da şöyle gösterilir: “Kur’ân’ın tilmîzi ise, yalnız livechillah ve rızâ-yı İlahî için ve fazîlet için o derece nefsinin menfaatinden tecerrüd eder ki, cennet-i ebediyeyi dahi hakîkî maksad ve gâye-i ibâdet yapmaz.” Aynı yerde, bu talebenin göklerde ve yerde bulunan bütün salihlere karşı derin bir kardeşlik hissettiği ve onlara kendi ailesine dua eder gibi samimi kalple dua ettiği anlatılır. Felsefenin talebesi ise kendi menfaatini merkeze koyar; aradaki fark buradan doğar.",
+  "kainattanDelil": "Güneş her sabah doğar ve hiçbir karşılık beklemeden ışığını herkese dağıtır. Yağmur bulutları emir almış gibi gelir, toprağı sular ve gider. Rüzgâr tohumları taşır, arılar çiçekleri tozlar. Büyük ya da küçük her varlık kendisine verilen vazifeyi yapar. Kur'an'ın gözüyle bakan, bu düzende birer memurun itaatini ve bir Âmir'in hükmünü görür.",
+  "hikmet": "Kur'an'ın talebesi, büyük varlıkları ilah değil, birer memur ve emre boyun eğmiş mahluk olarak görür. Niyetinde nefsin menfaatini değil, Allah'ın rızasını gözetir. Salih insanlara karşı derin bir kardeşlik hisseder. Kur'an öğrenmek, Rabbe kul olmanın yoludur.",
+  "kendimize": "Kur'an'ı okurken onun talebesi olduğumu hissediyor muyum? Büyük gördüğüm şeyler karşısında onların birer memur olduğunu hatırlıyor muyum? Hayır işlerimde kendi menfaatimi mi, Allah'ın rızasını mı gözetiyorum?",
+  "hayat": "Bugün Kur'an'dan bir ayeti anlamıyla okuyup onu gün içinde hatırlamak bu dersin uygulamasıdır. Öğrendiğimiz bir ayeti bir aile ferdimizle paylaşmak, hadiste övülen öğretme vazifesine katılmaktır. Dua ederken yalnız kendimiz için değil, bütün müminler için de istemek Kur'an talebesinin kardeşlik hissini besler. Haftada bir gün Kur'an okumak için sabit bir vakit ayırmak da güzel bir alışkanlıktır.",
+  "ders": "Kur'an'ın tilmizi, en büyük mevcudatı birer memur ve âciz mahluk tanır; yalnız Allah rızası için nefsinin menfaatinden sıyrılır.",
+  "tefekkurSorusu": "Bugün Kur'an'ın talebesi olarak neyi farklı gördüm?",
+  "dua": {
+   "arapca": "رَّبِّ زِدْنِى عِلْمًۭا",
+   "okunus": "Rabbi zidnî 'ılmen",
+   "anlam": "Gerçek hükümdar olan Allah Yüce'dir. Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, “Rabbim! ilmimi artır” de.",
+   "kaynak": "Tâhâ, 20/114"
+  },
+  "konular": [
+   "kuran",
+   "ihlasUhuvvet"
+  ],
+  "kavramlar": [
+   "Tilmiz",
+   "Rıza-yı İlahi",
+   "Musahhar",
+   "Uhuvvet",
+   "Talim"
+  ],
+  "kaynaklar": [
+   "Âl-i İmrân, 3/79",
+   "Buhârî, Fezâilü'l-Kur'ân, 5027",
+   "Bediüzzaman Said Nursî, Nur'un İlk Kapısı, On Birinci Ders"
+  ],
+  "sinav": [
+   {
+    "soru": "On Birinci Ders'e göre Kur'an'ın tilmizi arş ve şems gibi mevcudatı nasıl tanır?",
+    "secenekler": [
+     "Birer ilah",
+     "Birer memur ve âciz mahluk",
+     "Tesadüf eseri",
+     "Kendi başına buyruk"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Hadise göre en hayırlınız kimdir?",
+    "secenekler": [
+     "Kur'an'ı öğrenen ve öğreten",
+     "En zengin olan",
+     "En güçlü olan",
+     "En çok konuşan"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "On Birinci Ders'e göre Kur'an'ın tilmizi, cenneti dahi ibadetin hakiki gayesi yapmaz.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_076",
+  "kategori": "kuran",
+  "baslik": "Kur'an Kâinattan Neden Bahseder?",
+  "giris": "Bir sanat eserini inceleyen iki kişiden biri boyanın kimyasını, tuvalin cinsini anlatır; diğeri ise eserin ressamını ve ondaki ustalığı. Fen kitapları kâinatı birinci tarzda anlatır. Bediüzzaman'a göre Kur'an ise kâinattan, onu yapan Sanatkâr'ı tanıtmak için bahseder; güneşi anlatırken bile asıl maksadı onu ışıklandıranı göstermektir.",
+  "aciklama": "Kur'an-ı Kerîm, insanı kâinata bakmaya davet eder: “Göklerde ve yerde neler var, bir bakın.” Başka bir ayette de bu bakışın gayesi bildirilir: “Onun hak olduğu meydana çıkıncaya kadar varlığımızın belgelerini onlara hem dış dünyada ve hem de kendi içlerinde göstereceğiz.” Kur'an'ın kâinattan bahsetmesi, bir bilgi listesi vermek için değil, her varlığı Rabbini tanıtan bir delil olarak okutmak içindir.",
+  "risalePerspektifi": "Bediüzzaman, Yirmi Beşinci Söz'ün Birinci Şu'le'sinde şöyle der: “Evet, Kur’ân güneşten güneş için bahsetmiyor. Belki onu ışıklandıran zât için bahsediyor.” Eserdeki anlatımın özetine göre Kur'an, güneşin insana gerekmeyen mahiyetini değil, onun kâinattaki vazifesini anlatır; güneş, ilahi sanatın düzenine bir merkez ve bir mekik gibidir. Aynı Söz'ün Üçüncü Şu'le'sinde Kur'an ile felsefenin bakışı karşılaştırılır: “Kur’ân ise, dünyaya geçici, seyyâl, aldatıcı, seyyâr, kararsız, inkılâbcı olarak bakar.” Kur'an, varlıkların maddi özelliklerinden kısaca, Rabbin isimlerine nasıl delalet ettiklerinden ise ayrıntılı olarak bahseder. Nur'un İlk Kapısı'nın Üçüncü Ders'inde de bu bakış özetlenir: “Evet, Kur’ân gösterir ki, şu mevcûdât-ı seyyale, Hâlık-ı Zü’l-Celâl’in esmâ-yı hüsnasının âyineleri ve kalem-i kudretinin elvah-ı mütehavvilesidir.”",
+  "kainattanDelil": "Bir elma ağacı, kökünden yaprağına kadar binlerce düzenli işin yapıldığı bir fabrika gibidir; ama kimseden ücret almaz ve meyvesini başkasına verir. Gökyüzündeki yıldızlar sayısızdır, ama hiçbiri yolunu şaşırmaz. Mevsimler değiştikçe her şey yenilenir, aynalar değiştikçe güneşin aksi tazelenir. Her biri, kendi dilince bir isim okutan birer levhadır.",
+  "hikmet": "Kur'an kâinattan, onu yapanı tanıtmak için bahseder. Güneşin asıl değeri, onu ışıklandıranı göstermesidir. Kur'an dünyaya geçici bir yer olarak bakar ve varlıkların vazifelerini anlatır. Değişen varlıklar, Allah'ın isimlerini gösteren ve yenilenen aynalardır.",
+  "kendimize": "Kâinata bakarken yalnız maddeyi mi görüyorum, yoksa onu yapan Sanatkâr'ı da düşünüyor muyum? Okuduğum bilgiler beni Rabbime yaklaştırıyor mu? Değişen ve geçen şeyleri birer ayna olarak görebiliyor muyum?",
+  "hayat": "Bugün bir fen bilgisini öğrenirken, onda Allah'ın hangi ismini gördüğümüzü kısaca düşünmek bu dersin uygulamasıdır. Çocuklarımıza bir çiçeği veya yıldızı anlatırken onu yaratanı da hatırlatmak, Kur'an'ın tarzını hayata geçirmektir. Doğada yürürken bir varlığın vazifesini düşünmek ve ‘Bunu kim, ne için yaptı?’ diye sormak da güzel bir alışkanlıktır.",
+  "ders": "Kur'an güneşten güneş için değil, onu ışıklandıran zat için bahseder; mevcudat, esma-yı hüsnanın aynalarıdır.",
+  "tefekkurSorusu": "Bugün baktığım hangi varlık bana Rabbimin bir ismini okuttu?",
+  "dua": {
+   "arapca": "رَبَّنَا مَا خَلَقْتَ هَـٰذَا بَـٰطِلًۭا سُبْحَـٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ رَبَّنَآ إِنَّكَ مَن تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍۢ",
+   "okunus": "Rabbenâ mâ halekte hâzâ bâtılen subhâneke fekınâ 'azâbe n-nârı rabbenâ inneke men tudhıli n-nâra fekad ehzeytehu vemâ lilzzâlimîne min ensârın",
+   "anlam": "Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: “Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru” “Rabbimiz! Sen ateşe kimi sokarsan, onu şüphesiz rezil etmiş olursun, zulmedenlerin hiç yardımcıları yoktur”.",
+   "kaynak": "Âl-i İmrân, 3/191-192"
+  },
+  "konular": [
+   "kuran",
+   "tabiat"
+  ],
+  "kavramlar": [
+   "Mana-yı Harfî",
+   "Vazife",
+   "Esma",
+   "Âyine",
+   "Delil"
+  ],
+  "kaynaklar": [
+   "Yûnus, 10/101",
+   "Fussilet, 41/53",
+   "Bediüzzaman Said Nursî, Zülfikār (Sözler), Yirmi Beşinci Söz, Birinci Şu'le",
+   "Bediüzzaman Said Nursî, Zülfikār (Sözler), Yirmi Beşinci Söz, Üçüncü Şu'le",
+   "Bediüzzaman Said Nursî, Nur'un İlk Kapısı, Üçüncü Ders"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Beşinci Söz'e göre Kur'an güneşten kimin için bahseder?",
+    "secenekler": [
+     "Güneşin kendisi için",
+     "Onu ışıklandıran zat için",
+     "Gök bilginleri için",
+     "Şairler için"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Üçüncü Ders'e göre Kur'an mevcudatı nasıl gösterir?",
+    "secenekler": [
+     "Esma-yı hüsnanın aynaları olarak",
+     "Kendi kendine var olanlar olarak",
+     "Değersiz şeyler olarak",
+     "Tesadüf eserleri olarak"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Yirmi Beşinci Söz'e göre Kur'an, dünyaya kalıcı ve kararlı bir yer olarak bakar.",
+    "dogru": false
+   }
+  ]
+ },
+ {
+  "id": "ders_077",
+  "kategori": "risaleler",
+  "baslik": "Kurtuluşun Çaresi: Kur'an'ın Dairesine Girmek",
+  "giris": "Fırtınalı bir denizde kalan yolcu için en büyük nimet, sağlam bir gemiye binmektir. Gemi dışında kalan dalgaların oyuncağı olur; içinde olan ise fırtınanın ortasında bile emniyettedir. Bediüzzaman, Lem'alar'ın On Üçüncü Lem'a'sında insanın kâinat içindeki yalnızlığından ve korkularından kurtuluşunu, Kur'an'ın kutsal dairesine girmekte ve Peygamber Efendimizin sünnetine uymakta gösterir.",
+  "aciklama": "Kur'an-ı Kerîm, müminleri birlikte Allah'ın ipine sarılmaya çağırır: “Toptan Allah'ın ipine sarılın, ayrılmayın.” Aynı ayet, bu ip sayesinde bir ateş çukurunun kenarından kurtarıldıklarını hatırlatır. Allah'a sevginin ölçüsü de Peygamber'e uymak olarak gösterilir: “De ki: Allah'ı seviyorsanız bana uyun. Allah da sizi sevsin ve günahlarınızı bağışlasın.” Kur'an ip, sünnet de o ipe tutunmanın yoludur.",
+  "risalePerspektifi": "Bediüzzaman, On Üçüncü Lem'a'nın On Birinci İşaret'inde insana şöyle seslenir: “Kâinâtın hiddetinden, mahlûkātın nefretinden ve mevcûdâtın öfkesinden kurtulmak istersen, işte kurtulmanın çâresi: Kur’ân-ı Hakîm’in dâire-i kudsiyesine girmektir.” Eserdeki anlatımın özetine göre kâinattaki her şey Rabbine itaat ederken isyan eden insan, kâinatla ters düşer; Kur'an'ın dairesine giren ise bütün varlıklarla barışır. Aynı Lem'a'nın Dokuzuncu İşaret'inde bu davet tekrarlanır: “İşte ey ehl-i îmân! Sizi i‘dâm-ı ebedîden ve dünyevî ve uhrevî cehennemlerden kurtaran Kur’ân’ın himâyesi altına mü’minâne ve mu‘temidâne giriniz ve sünnet-i seniyenin dâiresine teslîmkârâne ve müstahsinâne dâhil olunuz.” Aynı yerde Kur'an'ın inkâr edenlere karşı bile bir rahmet yönü olduğu anlatılır: “İşte Kur’ân-ı Hakîm’in küffârlar hakkında da bir nevi‘ cihet-i rahmeti vardır ki, hayât-ı dünyeviyeyi onlara cehennem olmaktan bir derece kurtarıp bir nevi‘ şekk vererek, şekk ile yaşıyorlar.”",
+  "kainattanDelil": "Gezegenler güneşin etrafındaki yörüngelerinde döndükçe düzen içinde kalır; yörüngeden çıkan bir gök cismi ise dağılır. Arılar kovanın düzenine uydukça bal yapar. Kuşlar sürü halinde göç ettikçe yollarını bulur. Kâinatta emniyet, kendisine çizilen dairede kalmaktadır; insan için o daire Kur'an ve sünnettir.",
+  "hikmet": "Kurtuluşun çaresi, Kur'an'ın kutsal dairesine girmek ve sünnete uymaktır. İsyan eden insan kâinatla ters düşer; itaat eden ise bütün varlıklarla barışır. Kur'an, ebedî yokluk korkusundan kurtaran bir himayedir. Allah'ı sevmenin ölçüsü, Resulüne uymaktır.",
+  "kendimize": "Korku ve endişelerimde sığındığım yer neresi? Kur'an'ın dairesine yalnız okuyarak mı giriyorum, yoksa hayatımla da mı? Sünnetten hangisini bugün hayatıma katabilirim?",
+  "hayat": "Bugün bir sünneti bilerek ve niyet ederek yapmak bu dersin uygulamasıdır; örneğin yemeğe besmeleyle başlamak veya selamı yaymak. Endişelendiğimiz bir durumda Kur'an'dan bir sure okuyup kalbimizi onunla sakinleştirmek, onun himayesine girmektir. Ailece kısa bir Kur'an sohbeti yapmak da bu daireyi evimize taşır.",
+  "ders": "Kâinatın hiddetinden kurtulmanın çaresi, Kur'an-ı Hakîm'in daire-i kudsiyesine girmek ve sünnet-i seniyeye ittiba etmektir.",
+  "tefekkurSorusu": "Bugün Kur'an'ın dairesine hangi adımla girdim?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+   "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+   "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+   "kaynak": "Âl-i İmrân, 3/8"
+  },
+  "konular": [
+   "kuran",
+   "nubuvvet"
+  ],
+  "kavramlar": [
+   "Daire-i Kudsiye",
+   "İttiba",
+   "Sünnet",
+   "Himaye",
+   "Rahmet"
+  ],
+  "kaynaklar": [
+   "Âl-i İmrân, 3/103",
+   "Âl-i İmrân, 3/31",
+   "Bediüzzaman Said Nursî, Lem'alar, On Üçüncü Lem'a, On Birinci İşaret",
+   "Bediüzzaman Said Nursî, Lem'alar, On Üçüncü Lem'a, Dokuzuncu İşaret"
+  ],
+  "sinav": [
+   {
+    "soru": "On Üçüncü Lem'a'ya göre kâinatın hiddetinden kurtulmanın çaresi nedir?",
+    "secenekler": [
+     "Kur'an'ın daire-i kudsiyesine girmek",
+     "Yalnız yaşamak",
+     "Servet toplamak",
+     "Kâinattan kaçmak"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Ayete göre Allah'ı sevmenin ölçüsü nedir?",
+    "secenekler": [
+     "Çok konuşmak",
+     "Peygamber'e uymak",
+     "Yalnızlığı seçmek",
+     "Dünyayı terk etmek"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "On Üçüncü Lem'a'ya göre Kur'an'ın inkâr edenler hakkında da bir rahmet yönü vardır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_078",
+  "kategori": "risaleler",
+  "baslik": "Kötülük Bizden, İyilik O'ndan",
+  "giris": "Bir evi kurmak için mimar, işçi ve malzeme gerekir; ama onu yakmak için bir kibrit yeter. Bediüzzaman bu benzetmeyle insanın kötülükteki büyük sorumluluğunu ve iyilikteki küçük payını anlatır. İnsan yaptığı kötülükten tamamen sorumludur; ama iyiliklerle övünmeye hakkı yoktur, çünkü onları isteyen rahmet, yaratan da kudrettir.",
+  "aciklama": "Kur'an-ı Kerîm bu dengeyi açıkça bildirir: “Sana ne iyilik gelirse Allah'tandır, sana ne kötülük dokunursa kendindendir.” Peygamber Efendimizin Rabbinden naklettiği bir hadiste de şöyle buyrulur: “Kim bir hayır bulursa Allah'a hamd etsin; kim de bundan başkasını bulursa ancak kendi nefsini kınasın.” Mümin, iyiliği Allah'a, kusuru kendi nefsine verir; böylece hem gururdan hem de mazeret üretmekten kurtulur.",
+  "risalePerspektifi": "Bediüzzaman, Yirmi Altıncı Söz'ün Birinci Mebhas'ında şöyle der: “Evet, Kur’ân’ın dediği gibi, insan seyyiâtından tamâmen mes’ûldür. Çünki seyyiâtı isteyen odur.” Eserdeki anlatımın özetine göre kötülük, yıkma türünden bir iş olduğu için insanın küçük bir iradesi büyük bir tahribata yol açabilir; bir kibritin bir evi yakması gibi. İyilik ise yapma ve var etme türündendir ve insanın gücünü aşar: “Fakat hasenâtta iftihâra hakkı yoktur. Onda onun hakkı pek azdır.” Çünkü iyiliği isteyen Allah'ın rahmeti, onu yaratan da Allah'ın kudretidir. Peki insan iyiliğe nasıl sahip olur? Aynı yerde bunun cevabı verilir: “İnsan yalnız duâ ile, îmân ile, şuûr ile, rızâ ile onlara sâhib olur.” Böylece kader inancı insanı ne gurura ne de sorumsuzluğa götürür.",
+  "kainattanDelil": "Bir bahçeyi yetiştirmek için toprak, su, güneş ve aylarca emek gerekir; ama onu kurutmak için suyu kesmek yeter. Bir binayı yıllar içinde yükseltirler; bir sarsıntı onu bir anda yıkabilir. Yapmak çok sebebe, yıkmak tek bir sebebe bağlıdır. Bu yüzden yıkan sorumluluğu üstlenir, yapmanın övgüsü ise asıl Yapan'a aittir.",
+  "hikmet": "İnsan kötülükten tamamen sorumludur, çünkü onu isteyen kendisidir. İyilikte ise insanın payı azdır; onu isteyen rahmet, yaratan kudrettir. İnsan iyiliğe dua, iman, şuur ve rıza ile sahip olur. Kusuru nefse, iyiliği Allah'a vermek, gururu ve mazereti birlikte keser.",
+  "kendimize": "Bir hata yaptığımda sorumluluğu üstleniyor muyum, yoksa başkalarını ya da şartları mı suçluyorum? Bir iyilik yaptığımda onu kendime mi, Rabbimin lütfuna mı veriyorum? İyiliklerime dua ve şükürle sahip çıkıyor muyum?",
+  "hayat": "Bugün yaptığımız bir hatayı ‘Benim kusurum’ diyerek kabul etmek ve telafi etmek bu dersin uygulamasıdır. Bir başarıdan sonra ‘Elhamdülillah’ demek, iyiliği sahibine vermektir. Küçük bir kötülüğün büyük zararlar doğurabileceğini düşünerek bir kırıcı sözü söylemekten vazgeçmek de bu hakikatin pratiğidir. Akşamları günün iyiliklerine şükretmek ve hatalarına istiğfar etmek de güzel bir alışkanlıktır.",
+  "ders": "İnsan seyyiatından tamamen mes'uldür; hasenatta ise iftihara hakkı yoktur, onlara ancak dua, iman, şuur ve rıza ile sahip olur.",
+  "tefekkurSorusu": "Bugün hangi iyiliği Rabbime, hangi kusuru nefsime verdim?",
+  "dua": {
+   "arapca": "رَبَّنَا ظَلَمْنَآ أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ ٱلْخَـٰسِرِينَ",
+   "okunus": "Rabbenâ zalemnâ enfusenâ ve-in lem teğfir lenâ veterhamnâ lenekûnenne mine l-hâsirîn",
+   "anlam": "Her ikisi, “Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz” dediler.",
+   "kaynak": "A'râf, 7/23"
+  },
+  "konular": [
+   "kader",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Seyyiat",
+   "Hasenat",
+   "Mesuliyet",
+   "İftihar",
+   "Rıza"
+  ],
+  "kaynaklar": [
+   "Nisâ, 4/79",
+   "Nevevî, Kırk Hadis, 24 (Müslim)",
+   "Bediüzzaman Said Nursî, Tılsımlar (Sözler), Yirmi Altıncı Söz, Birinci Mebhas"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Altıncı Söz'e göre insan neden seyyiatından tamamen mesuldür?",
+    "secenekler": [
+     "Seyyiatı isteyen kendisi olduğu için",
+     "Kader onu zorladığı için",
+     "Başkaları istediği için",
+     "Hiç mesul değildir"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Yirmi Altıncı Söz'e göre insan hasenata neyle sahip olur?",
+    "secenekler": [
+     "Gururla",
+     "Dua, iman, şuur ve rıza ile",
+     "Kuvvetle",
+     "Tesadüfle"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre insana gelen iyilik Allah'tan, dokunan kötülük ise kendindendir.",
+    "dogru": true
+   }
+  ]
  }
 ]
