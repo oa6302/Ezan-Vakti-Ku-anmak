@@ -44,7 +44,11 @@ void main() {
 
   test('Gunluk dualar: kaynak + sihhat; hadis dualarinda Arapca yok', () {
     final dualar = _oku('assets/content/gunluk_dualar.json');
-    expect(dualar.length, greaterThanOrEqualTo(265));
+    expect(dualar.length, greaterThanOrEqualTo(285));
+    // Yazim duzeltmesi yapilan her kayit neyin duzeltildigini soyler
+    for (final d in dualar.where((d) => d.containsKey('duzeltme'))) {
+      expect(d['duzeltme'], contains('→'), reason: d['kaynak'] as String);
+    }
     expect(dualar.map((d) => d['gun']).toList(),
         List.generate(dualar.length, (i) => i + 1));
     expect(dualar.map((d) => d['anlam']).toSet().length, dualar.length);
@@ -101,7 +105,12 @@ void main() {
         isTrue);
     // Dua havuzu yalniz dogrulanmis kayitlardan; eski dua_havuzu*.dart girmez
     final dua = ContentService.instance.getPool(ContentType.dua);
-    expect(dua.length, greaterThanOrEqualTo(265));
+    expect(dua.length, greaterThanOrEqualTo(285));
+    expect(
+        dua.any((d) => (d.extra?['aciklama'] ?? '')
+            .toString()
+            .startsWith('Çeviri metnindeki')),
+        isTrue);
     expect(dua.every((d) => d.dogrulandi && d.id.startsWith('gdua_')), isTrue);
     expect(ContentService.instance.getPool(ContentType.vecize).first.icerik,
         'Îmân hem nûrdur, hem kuvvettir.');

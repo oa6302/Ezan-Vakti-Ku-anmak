@@ -104,6 +104,17 @@ const DUALAR = [
   ['Evvel ve Âhir Olan Allah', 'Hadîd sûresinin başı', ['57:1', '57:2', '57:3'], ''],
   ['Esmâü\'l-Hüsnâ Ayetleri', 'Haşr sûresinin sonu', ['59:22', '59:23', '59:24'], ''],
   ['İhlâs Sûresi', 'Tevhid sûresi', ['112:1', '112:2', '112:3', '112:4'], ''],
+  // 2026-11-27 (2): hazinede olmayan dua ayetleri
+  ['Peygamber Gönder Duası', 'Hz. İbrâhîm ve Hz. İsmâil', ['2:129'], 'rabbanā'],
+  ['Adağımı Kabul Et', 'Hz. Meryem\'in annesi', ['3:35'], 'rabbi'],
+  ['Sana Dua Edip Mahrum Kalmadım', 'Hz. Zekeriyyâ', ['19:4', '19:5', '19:6'], 'rabbi'],
+  ['Zalimlerden Kurtaran Allah\'a Hamd', 'Hz. Nûh', ['23:28'], 'l-ḥamdu'],
+  ['Beni ve Müminleri Kurtar', 'Hz. Nûh', ['26:117', '26:118'], 'rabbi'],
+  ['Üstün Kılan Allah\'a Hamd', 'Hz. Dâvûd ve Hz. Süleyman', ['27:15'], 'l-ḥamdu'],
+  ['Suçlulara Arka Çıkmam', 'Hz. Mûsâ', ['28:17'], 'rabbi'],
+  ['Doğru Yola İletilme Ümidi', 'Hz. Mûsâ', ['28:22'], 'asā'],
+  ['Sıkıntıda Rabbine Niyaz', 'Hz. Eyyûb', ['38:41'], 'annī'],
+  ['Vaadini Yerine Getiren Allah\'a Hamd', 'Cennet ehli', ['39:74'], 'l-ḥamdu'],
 ];
 
 const SURE = require('./ayet_cek_sureler.js');

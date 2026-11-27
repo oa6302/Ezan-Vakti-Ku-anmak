@@ -603,7 +603,11 @@ class ContentService extends ChangeNotifier {
                   kategori: d['kategori'] as String?,
                   dogrulandi: true,
                   durum: ContentStatus.yayinlandi,
-                  extra: {'sihhat': d['sihhat']},
+                  extra: {
+                    'sihhat': d['sihhat'],
+                    // Ceviri yazim hatasi duzeltildiyse acikca gosterilir
+                    if (d['duzeltme'] != null) 'aciklama': d['duzeltme'],
+                  },
                 ))
             .toList();
         _pools[ContentType.dua] = dogrulanmis;

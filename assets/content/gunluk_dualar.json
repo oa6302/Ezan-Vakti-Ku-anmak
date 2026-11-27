@@ -145,6 +145,18 @@
  },
  {
   "gun": 15,
+  "baslik": "Peygamber Gönder Duası",
+  "kategori": "Kur'an Duası",
+  "arapca": "رَبَّنَا وَٱبْعَثْ فِيهِمْ رَسُولًۭا مِّنْهُمْ يَتْلُوا۟ عَلَيْهِمْ ءَايَـٰتِكَ وَيُعَلِّمُهُمُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَيُزَكِّيهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+  "okunus": "Rabbenâ ve-ib'as fîhim rasûlen minhum yetlû 'aleyhim âyâtike veyu'allimuhumu l-kitâbe vel-hıkmete veyuzekkîhim inneke ente l-'azîzu l-hakîm",
+  "anlam": "“Rabbimiz! İçlerinden onlara Senin ayetlerini okuyan, Kitabı ve hikmeti öğreten, onları her kötülükten arıtan bir peygamber gönder. Doğrusu güçlü ve Hakim olan ancak Sensin”.",
+  "kaynak": "Bakara, 2/129",
+  "sihhat": "Kur'an-ı Kerîm",
+  "metinKaynagi": "api.quran.com · Diyanet meali",
+  "hazineId": "dua_k101"
+ },
+ {
+  "gun": 16,
   "baslik": "İmam ve Müezzin İçin Dua",
   "kategori": "İmam ve Müezzin",
   "anlam": "Ey Allah'ım, imamları doğru yola eriştir, müezzinleri de bağışla",
@@ -153,7 +165,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 16,
+  "gun": 17,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Allah'ım! Evvel ve ahir, gizli ve aşikar, işlediğim bütün günahlarımı bağışla sen benim İlahımsın. Senden başka ilah yoktur",
@@ -162,7 +174,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 17,
+  "gun": 18,
   "baslik": "Uyanınca Okunan Dua",
   "kategori": "Uyku",
   "anlam": "Bizi öldürdükten sonra tekrar dirilten ve en sonunda mezarlarımızdan bizi çıkaracak olan Allah'a hamdolsun",
@@ -171,7 +183,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 18,
+  "gun": 19,
   "baslik": "Bağışlanma ve Teslimiyet",
   "kategori": "Kur'an Duası",
   "arapca": "غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
@@ -183,7 +195,7 @@
   "hazineId": "dua_k007"
  },
  {
-  "gun": 19,
+  "gun": 20,
   "baslik": "Bağışlanma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Ey Allah'ım! Beni bağışla, hakka ilet, rızıklandır. Beni afiyette kıl",
@@ -192,7 +204,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 20,
+  "gun": 21,
   "baslik": "Bakara Sûresinin Son Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
@@ -204,7 +216,7 @@
   "hazineId": "dua_k008"
  },
  {
-  "gun": 21,
+  "gun": 22,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Ey Allah'ım, kabir azabından, Mesih-i deccalin fitnesinden, hayatın ve ölümün fitnesinden sana sığınırım. Ey Allah'ım, günahdan ve borçtan da sana sığınırım.",
@@ -213,7 +225,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 22,
+  "gun": 23,
   "baslik": "Kalbin Kaymaması Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
@@ -225,7 +237,7 @@
   "hazineId": "dua_k009"
  },
  {
-  "gun": 23,
+  "gun": 24,
   "baslik": "Ezandan Sonra Dua",
   "kategori": "Namaz",
   "anlam": "Bu tam çağrının ve kılınacak namazın Rabbi ey Ulu Allahım! Muhammed'e vesileyi ve fazileti ver! Onu vaad ettiğin makam-ı mahmûda eriştir.",
@@ -234,7 +246,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 24,
+  "gun": 25,
   "baslik": "Salavat",
   "kategori": "Salavat",
   "anlam": "Ey Allah'ım! İbrahim'in şânını yücelttiğin gibi Muhammed'in ve âlinin şânını da yücelt, İbrahim'e bereket verdiğin gibi Muhammed'e ve âline de bereket ver. Çünkü sen hamd edilensin, şerefli ve ulusun",
@@ -243,7 +255,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 25,
+  "gun": 26,
   "baslik": "Mahşer Gününe İman",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَآ إِنَّكَ جَامِعُ ٱلنَّاسِ لِيَوْمٍۢ لَّا رَيْبَ فِيهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ",
@@ -255,7 +267,7 @@
   "hazineId": "dua_k010"
  },
  {
-  "gun": 26,
+  "gun": 27,
   "baslik": "Salavat",
   "kategori": "Salavat",
   "anlam": "Ey Allah'ım! İbrahim'in âlini yücelttiğin gibi Muhammed'i, hanımlarını ve zürriyetini yücelt! İbrahim'in âline bereket verdiğin gibi, Muhammed'e, hanımlarına ve zürriyetine de bereket ver. Çünkü sen hamdedilensin, şereflisin",
@@ -264,7 +276,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 27,
+  "gun": 28,
   "baslik": "İman Edenlerin Bağışlanma Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
@@ -276,7 +288,17 @@
   "hazineId": "dua_k011"
  },
  {
-  "gun": 28,
+  "gun": 29,
+  "baslik": "Salavât-ı İbrâhîmiyye",
+  "kategori": "Salavat",
+  "anlam": "Ey Allah'ım! İbrahim'i yücelttiğin gibi Muhammed'i ve onun âlini (aile ve ümmetini) de yücelt. Çünkü sen hamdedilensin, şerefli ve ulusun. Ey Allah'ım! İbrahim'in âline bereket verdiğin gibi, Muhammed'e ve onun âline de bereket ver. Çünkü sen, hamd edilensin, şerefli ve ulusun.",
+  "kaynak": "Ebû Dâvûd, 978",
+  "sihhat": "Sahih (Al-Albani)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)",
+  "duzeltme": "Çeviri metnindeki yazım hatası düzeltildi: haınd edilensin → hamd edilensin; şerifli → şerefli"
+ },
+ {
+  "gun": 30,
   "baslik": "Yağmur Duası",
   "kategori": "Yağmur",
   "anlam": "Allah'ım! Bize yardım eden, bereketli otu bol, zararlı değil yararlı, vadeli değil acele yağmur ihsan et",
@@ -285,7 +307,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 29,
+  "gun": 31,
   "baslik": "Yağmur Yağarken Dua",
   "kategori": "Yağmur",
   "anlam": "Allah'ım, faydalı bir yağmur olsun!",
@@ -294,7 +316,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 30,
+  "gun": 32,
   "baslik": "Nur Duası",
   "kategori": "Nur",
   "anlam": "Ey Allah'ım! Benim kalbime nur, dilime nur, kulağıma nûr, gözüme nur, arkama nur, önüme, altıma ve üstüme nûr ver ve benim nurumu büyüt",
@@ -303,7 +325,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 31,
+  "gun": 33,
   "baslik": "Mülkün Sahibine Yakarış",
   "kategori": "Kur'an Duası",
   "arapca": "ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ",
@@ -315,7 +337,7 @@
   "hazineId": "dua_k012"
  },
  {
-  "gun": 32,
+  "gun": 34,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Allah'ım! Seni zikretmekte, sana şükretmekte ve sana güzelce ibâdet etmekte bana yardım et",
@@ -324,7 +346,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 33,
+  "gun": 35,
   "baslik": "Salih Evlat Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ هَبْ لِى مِن لَّدُنكَ ذُرِّيَّةًۭ طَيِّبَةً ۖ إِنَّكَ سَمِيعُ ٱلدُّعَآءِ",
@@ -336,7 +358,7 @@
   "hazineId": "dua_k013"
  },
  {
-  "gun": 34,
+  "gun": 36,
   "baslik": "Rükûdan Doğrulurken Dua",
   "kategori": "Namaz",
   "anlam": "Allâhım! Ey Rabbimiz! Gökler dolusu, yer dolusu, onlardan sonra dilediğin herşey dolusu hamd sana mahsustur. Mecd-ü senaya ehil olan Allah'ım! Senin verdiğini menedecek, menettiğini de verecek yoktur. Senin katında hiçbir varlık sahibine varlığı fayda verecek değildir.",
@@ -345,7 +367,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 35,
+  "gun": 37,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allahım! Şüphesiz ben acizlikten, tenbellikten, korkaklıktan, cimrilik ve ihtiyarlıktan sana sığınırım. Kabir azabından, ölümün ve hayatın fitnesinden sana sığınırım",
@@ -354,7 +376,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 36,
+  "gun": 38,
   "baslik": "Şahitlerle Yazılma Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ وَٱتَّبَعْنَا ٱلرَّسُولَ فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ",
@@ -366,7 +388,7 @@
   "hazineId": "dua_k014"
  },
  {
-  "gun": 37,
+  "gun": 39,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allah'ım, yaptıklarımın ve yapmadıklarımın şerrinden sana sığınırım",
@@ -375,7 +397,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 38,
+  "gun": 40,
   "baslik": "Günahların Bağışlanması ve Sebat",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِىٓ أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
@@ -387,7 +409,7 @@
   "hazineId": "dua_k015"
  },
  {
-  "gun": 39,
+  "gun": 41,
   "baslik": "Sabah Duası",
   "kategori": "Sabah",
   "anlam": "Allahım! Küfür'den ve fakirlikten sana sığınırım. Kabir azabından da sana sığınırım",
@@ -396,7 +418,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 40,
+  "gun": 42,
   "baslik": "Secdede Bağışlanma Duası",
   "kategori": "Namaz",
   "anlam": "Allah'ım günahımın hepsini, küçüğünü büyüğünü, evvelini âhirini, aşikârını ve gizlisini bana bağışla",
@@ -405,7 +427,19 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 41,
+  "gun": 43,
+  "baslik": "Adağımı Kabul Et",
+  "kategori": "Kur'an Duası",
+  "arapca": "رَبِّ إِنِّى نَذَرْتُ لَكَ مَا فِى بَطْنِى مُحَرَّرًۭا فَتَقَبَّلْ مِنِّىٓ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+  "okunus": "Rabbi innî nezertu leke mâ fî betnî muharraran fetekabbel minnî inneke ente s-semî'u l-'alîm",
+  "anlam": "İmran'ın karısı: “Ya Rabbi! Karnımda olanı, sadece sana hizmet etmek üzere adadım, benden kabul buyur, doğrusu işiten ve bilen ancak Sensin” demişti.",
+  "kaynak": "Âl-i İmrân, 3/35",
+  "sihhat": "Kur'an-ı Kerîm",
+  "metinKaynagi": "api.quran.com · Diyanet meali",
+  "hazineId": "dua_k102"
+ },
+ {
+  "gun": 44,
   "baslik": "Allah Bize Yeter",
   "kategori": "Kur'an Duası",
   "arapca": "حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
@@ -417,7 +451,7 @@
   "hazineId": "dua_k016"
  },
  {
-  "gun": 42,
+  "gun": 45,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allahım, aciz duruma düşmekten ve tembellikten sana sığınırım. Sana sığınırım Allahım, korkaklıktan ve yaşlılıktan. Allahım, hayatın ve ölümün fitnesinden ve kabir azabından sana sığınırım.",
@@ -426,7 +460,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 43,
+  "gun": 46,
   "baslik": "Kâinatı Tefekkür Edenlerin Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَا مَا خَلَقْتَ هَـٰذَا بَـٰطِلًۭا سُبْحَـٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ رَبَّنَآ إِنَّكَ مَن تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍۢ",
@@ -438,7 +472,7 @@
   "hazineId": "dua_k017"
  },
  {
-  "gun": 44,
+  "gun": 47,
   "baslik": "Salavat",
   "kategori": "Salavat",
   "anlam": "Allah'ım, İbrahim'in aline salavat getirdiğin gibi, Muhammed'e, onun eşlerine ve zürriyetine salat eyle. İbrahim'in aline bereketler ihsan ettiğin gibi Muhammed'e, onun eşlerine ve zürriyetine de bereketler ihsan eyle. Şüphesiz ki sen Hamidsin, Mecidsin.",
@@ -447,7 +481,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 45,
+  "gun": 48,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allahım! her türlü pislikten sana sığınırım!",
@@ -456,7 +490,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 46,
+  "gun": 49,
   "baslik": "Rükû ve Secdede Dua",
   "kategori": "Namaz",
   "anlam": "Allah'ım, seni tesbîh ederim. Ey Rabbimiz! Seni hamdinle tahmîd eyleriz. Allah'ım beni mağfiret eyle!",
@@ -465,7 +499,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 47,
+  "gun": 50,
   "baslik": "İman Çağrısına Uyanların Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَّبَّنَآ إِنَّنَا سَمِعْنَا مُنَادِيًۭا يُنَادِى لِلْإِيمَـٰنِ أَنْ ءَامِنُوا۟ بِرَبِّكُمْ فَـَٔامَنَّا ۚ رَبَّنَا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ ٱلْأَبْرَارِ رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ ٱلْقِيَـٰمَةِ ۗ إِنَّكَ لَا تُخْلِفُ ٱلْمِيعَادَ",
@@ -477,7 +511,7 @@
   "hazineId": "dua_k018"
  },
  {
-  "gun": 48,
+  "gun": 51,
   "baslik": "Bağışlanma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Allahım! Ben nefsime çok zulmettim. Günahları ancak sen bağışlarsın. Fazlınla bana mağfiret et ve beni affet. Sen Gafur ve Rahim olansın",
@@ -486,7 +520,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 49,
+  "gun": 52,
   "baslik": "Şahitlerle Beraber Yaz",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَآ ءَامَنَّا فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ",
@@ -498,7 +532,7 @@
   "hazineId": "dua_k019"
  },
  {
-  "gun": 50,
+  "gun": 53,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allahım, dünyanın fitne ve sınamasından ve kabir azabından da sana sığınırım.",
@@ -507,7 +541,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 51,
+  "gun": 54,
   "baslik": "Gece Namazına Başlarken Dua",
   "kategori": "Namaz",
   "anlam": "Allah'ım! Ey Cebrail, Mîkâîl ve İsrafil'in Rabbi! Gökler'le yerin yaradanı; hâzırı ve gâîbi bilen Allah'ım! Kullarının ihtilâf ettikleri şeylerde, onların aralarında ancak sen hükmedersin. İhtilâf edilen hakka izninle beni hidâyet eyle! Çünkü dilediğini doğru yola ancak sen hidâyet eylersin!",
@@ -516,7 +550,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 52,
+  "gun": 55,
   "baslik": "Gökten Sofra Duası",
   "kategori": "Kur'an Duası",
   "arapca": "ٱللَّهُمَّ رَبَّنَآ أَنزِلْ عَلَيْنَا مَآئِدَةًۭ مِّنَ ٱلسَّمَآءِ تَكُونُ لَنَا عِيدًۭا لِّأَوَّلِنَا وَءَاخِرِنَا وَءَايَةًۭ مِّنكَ ۖ وَٱرْزُقْنَا وَأَنتَ خَيْرُ ٱلرَّٰزِقِينَ",
@@ -528,7 +562,7 @@
   "hazineId": "dua_k020"
  },
  {
-  "gun": 53,
+  "gun": 56,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allahım, hayatın ve ölümün fitnesinden ve kabir azabından sana sığınırım.",
@@ -537,7 +571,17 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 54,
+  "gun": 57,
+  "baslik": "Cenaze Namazı Duası",
+  "kategori": "Cenaze",
+  "anlam": "Allah'ım, dirimizi - ölümüzü, küçüğümüz- büyüğümüzü, erkeğimizi- kadınımızı, burada olanımızı, olmayanımızı, bağışla. Ey Allah'ım, biz'den, yaşattığın iman üzerine yaşat, öldürdüğünü de İslâm üzerine öldür. Ey Allah'ım! Bizi o'nun (ölümüne sabretme ve cenazesinin defnine katlanma) ecrinden mahrum etme, ve onun (vefatından) sonra bizi sapıttırma",
+  "kaynak": "Ebû Dâvûd, 3201",
+  "sihhat": "Sahih (Al-Albani)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)",
+  "duzeltme": "Çeviri metnindeki yazım hatası düzeltildi: on(un vefatımdan → onun (vefatından)"
+ },
+ {
+  "gun": 58,
   "baslik": "Tövbe Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَا ظَلَمْنَآ أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ ٱلْخَـٰسِرِينَ",
@@ -549,7 +593,7 @@
   "hazineId": "dua_k021"
  },
  {
-  "gun": 55,
+  "gun": 59,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Ey Allah'ım, bana acı, beni rızıklandır, bana afiyet ver ve hidayete erdir.",
@@ -558,7 +602,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 56,
+  "gun": 60,
   "baslik": "Zalimlerle Beraber Kılma",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَا لَا تَجْعَلْنَا مَعَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
@@ -570,7 +614,7 @@
   "hazineId": "dua_k022"
  },
  {
-  "gun": 57,
+  "gun": 61,
   "baslik": "Musibet Anında Dua",
   "kategori": "Sabır",
   "anlam": "Biz Allah'ınız ve ancak ona dönücüleriz. Allah'ım musibetim hakkında bana ecir ver. Ve onun ardından bana daha hayırlısını ihsan eyle",
@@ -579,7 +623,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 58,
+  "gun": 62,
   "baslik": "Ahiret Duası",
   "kategori": "Ahiret",
   "anlam": "Allah'ım! Bize dünyada ve âhirette iyiyi ver, bizi ateşin azabından koru.",
@@ -588,7 +632,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 59,
+  "gun": 63,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allah'ım, cehennem azabından ve kabir azabından sana sığınırım.",
@@ -597,7 +641,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 60,
+  "gun": 64,
   "baslik": "Hak ile Hüküm Ver",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَا ٱفْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِٱلْحَقِّ وَأَنتَ خَيْرُ ٱلْفَـٰتِحِينَ",
@@ -609,7 +653,7 @@
   "hazineId": "dua_k023"
  },
  {
-  "gun": 61,
+  "gun": 65,
   "baslik": "Bağışlanma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Allah’ım! Beni günahlarımdan kar, dolu ve soğuk su ile temizle.",
@@ -618,7 +662,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-nasai)"
  },
  {
-  "gun": 62,
+  "gun": 66,
   "baslik": "Sabır ve Müslüman Olarak Ölüm",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَتَوَفَّنَا مُسْلِمِينَ",
@@ -630,7 +674,7 @@
   "hazineId": "dua_k024"
  },
  {
-  "gun": 63,
+  "gun": 67,
   "baslik": "Tevekkül Duası",
   "kategori": "Tevekkül",
   "anlam": "Allah bize yeter ne güzel vekildir. O sadece Rabbimiz olan Allah’a tevekkül edip güvenip dayanmışız",
@@ -639,7 +683,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 64,
+  "gun": 68,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Allahım, korkaklıktan sana sığınırım. Erzel-i ömürden (yani Hayatın en kötü ve çekilmez olduğu yaşlılıktan) sana sığınırım. Allahım, dünyanın fitne ve sınamasından ve kabir azabından da sana sığınırım.",
@@ -648,7 +692,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 65,
+  "gun": 69,
   "baslik": "Kardeşimle Beraber Bağışla",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ ٱغْفِرْ لِى وَلِأَخِى وَأَدْخِلْنَا فِى رَحْمَتِكَ ۖ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
@@ -660,7 +704,7 @@
   "hazineId": "dua_k025"
  },
  {
-  "gun": 66,
+  "gun": 70,
   "baslik": "Yağmur ve Rüzgâr Duası",
   "kategori": "Yağmur ve Rüzgâr",
   "anlam": "Allahım! Sen'den bu rüzgarın hayrını ve onunla gönderilenler içinde hayırlı olanları isterim. Bu rüzgarın şerrinden, onda bulunan kötülüklerden ve onunla gönderilen kötülüklerden de Sana sığınırım.",
@@ -669,7 +713,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 67,
+  "gun": 71,
   "baslik": "Sen Bizim Velimizsin",
   "kategori": "Kur'an Duası",
   "arapca": "أَنتَ وَلِيُّنَا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا ۖ وَأَنتَ خَيْرُ ٱلْغَـٰفِرِينَ ۞ وَٱكْتُبْ لَنَا فِى هَـٰذِهِ ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ إِنَّا هُدْنَآ إِلَيْكَ ۚ قَالَ عَذَابِىٓ أُصِيبُ بِهِۦ مَنْ أَشَآءُ ۖ وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍۢ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَٱلَّذِينَ هُم بِـَٔايَـٰتِنَا يُؤْمِنُونَ",
@@ -681,7 +725,19 @@
   "hazineId": "dua_k026"
  },
  {
-  "gun": 68,
+  "gun": 72,
+  "baslik": "Sana Dua Edip Mahrum Kalmadım",
+  "kategori": "Kur'an Duası",
+  "arapca": "رَبِّ إِنِّى وَهَنَ ٱلْعَظْمُ مِنِّى وَٱشْتَعَلَ ٱلرَّأْسُ شَيْبًۭا وَلَمْ أَكُنۢ بِدُعَآئِكَ رَبِّ شَقِيًّۭا وَإِنِّى خِفْتُ ٱلْمَوَٰلِىَ مِن وَرَآءِى وَكَانَتِ ٱمْرَأَتِى عَاقِرًۭا فَهَبْ لِى مِن لَّدُنكَ وَلِيًّۭا يَرِثُنِى وَيَرِثُ مِنْ ءَالِ يَعْقُوبَ ۖ وَٱجْعَلْهُ رَبِّ رَضِيًّۭا",
+  "okunus": "Rabbi innî vehene l-'azmu minnî ve-işte'ale r-rasu şeyben velem ekun bidu'âike rabbi şekıyyen ve-innî hıftu l-mevâliye min verâî vekâneti imra-etî 'âkıran feheb lî min ledunke veliyyen yerısunî veyerısu min âli ye'kûbe ve-ic'alhu rabbi radıyyen",
+  "anlam": "Şöyle demişti: “Rabbim! Gerçekten kemiklerim zayıfladı, saçlarım ağardı. Rabbim! Sana yalvarmakla şimdiye kadar bedbaht olup bir şeyden mahrum kalmadım.” Doğrusu, benden sonra yerime geçecek yakınlarımın iyi hareket etmeyeceklerinden korkuyorum. Karım da kısırdır. Katından bana bir oğul bağışla ki, bana ve Yakub oğullarına mirasçı olsun. Rabbim! Onun, rızanı kazanmasını da sağla.“ Doğrusu, benden sonra yerime geçecek yakınlarımın iyi hareket etmeyeceklerinden korkuyorum. Karım da kısırdır. Katından bana bir oğul bağışla ki, bana ve Yakub oğullarına mirasçı olsun. Rabbim! Onun, rızanı kazanmasını da sağla.”",
+  "kaynak": "Meryem, 19/4-6",
+  "sihhat": "Kur'an-ı Kerîm",
+  "metinKaynagi": "api.quran.com · Diyanet meali",
+  "hazineId": "dua_k103"
+ },
+ {
+  "gun": 73,
   "baslik": "Sabah Duası",
   "kategori": "Sabah",
   "anlam": "Allah’ım senin izin ve yardımınla sabahladık ve akşamladık ve yine senin izin ve yardımınla yaşar ve ölürüz, dönüşümüzde sanadır",
@@ -690,7 +746,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 69,
+  "gun": 74,
   "baslik": "Salavat",
   "kategori": "Salavat",
   "anlam": "Allahım! İbrahim ve ailesine salat ettiğin gibi Muhammed ve ailesine de salat et. İbrahim ve ailesine bereket verdiğin gibi Muhammed ve ailesine de bereket ver.",
@@ -699,7 +755,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 70,
+  "gun": 75,
   "baslik": "Allah Bana Yeter",
   "kategori": "Kur'an Duası",
   "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
@@ -711,7 +767,7 @@
   "hazineId": "dua_k027"
  },
  {
-  "gun": 71,
+  "gun": 76,
   "baslik": "Salavat",
   "kategori": "Salavat",
   "anlam": "Allahım! Muhammed, eşleri ve zürriyetine aynen İbrahim ailesi gibi salat et. Muhammed, eşleri ve zürriyetini aynen İbrahim ailesi gibi bereketlendir. Sen hamid ve mecidsin.",
@@ -720,7 +776,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 72,
+  "gun": 77,
   "baslik": "Zalimlere Fitne Kılma",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَا لَا تَجْعَلْنَا فِتْنَةًۭ لِّلْقَوْمِ ٱلظَّـٰلِمِينَ وَنَجِّنَا بِرَحْمَتِكَ مِنَ ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
@@ -732,7 +788,7 @@
   "hazineId": "dua_k028"
  },
  {
-  "gun": 73,
+  "gun": 78,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allahım! Hüzün ve kederden, acizlik ve tembellikten, cimrilik ve korkaklıktan, borç sıkıntısından ve güçlülerin bana galip gelmesinden (tasallutundan) sana sığınırım.",
@@ -741,7 +797,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 74,
+  "gun": 79,
   "baslik": "Akşam Duası",
   "kategori": "Akşam",
   "anlam": "Allah’ım senin izin ve yardımınla akşama çıktık ve sabahladık ve yine senin iznin ve yardımınla yaşar ve ölürüz, dönüşümüzde sanadır.",
@@ -750,7 +806,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 75,
+  "gun": 80,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allahım! Acziyet, tembellik, korkaklık, düşkünlük, kabir azabı, hayat ve ölüm fitnesinden sana sığınırım.",
@@ -759,7 +815,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 76,
+  "gun": 81,
   "baslik": "Bilmediğimi İstemekten Sığınma",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ إِنِّىٓ أَعُوذُ بِكَ أَنْ أَسْـَٔلَكَ مَا لَيْسَ لِى بِهِۦ عِلْمٌۭ ۖ وَإِلَّا تَغْفِرْ لِى وَتَرْحَمْنِىٓ أَكُن مِّنَ ٱلْخَـٰسِرِينَ",
@@ -771,7 +827,7 @@
   "hazineId": "dua_k029"
  },
  {
-  "gun": 77,
+  "gun": 82,
   "baslik": "Bağışlanma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Allahım! Tembellikten, düşkünlükten, günahtan, borçtan, kabir fitne ve azabından, cehennem fitne ve azabından, zenginlik fitnesinin şerrinden, fakirlik fitnesinden, Mesih Deccal fitnesinden sana sığınırım. Allahım! Hatalarımı soğuk kar suyuyla yıka. Bembeyaz elbiseler nasıl kirlerden arınıyorsa sen de benim kalbimi hatalardan öylece arındır. Benimle hatalarımın arasını doğu ile batı arası kadar yap.",
@@ -780,7 +836,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 78,
+  "gun": 83,
   "baslik": "Salihlere Kat",
   "kategori": "Kur'an Duası",
   "arapca": "۞ رَبِّ قَدْ ءَاتَيْتَنِى مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۖ تَوَفَّنِى مُسْلِمًۭا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ",
@@ -792,7 +848,7 @@
   "hazineId": "dua_k030"
  },
  {
-  "gun": 79,
+  "gun": 84,
   "baslik": "Yatarken Okunan Dua",
   "kategori": "Uyku",
   "anlam": "Allah’ım irademi sana teslim ettim yönümü sana çevirdim senden korkup seni isteyerek işlerimi sana bıraktım sırtımı sana dayadım senden kaçıp kurtulmak ancak sana dönmekle mümkündür. İndirdiğin kitaba ve gönderdiğin Nebie iman ettim.",
@@ -801,7 +857,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 80,
+  "gun": 85,
   "baslik": "Helâya Girerken Dua",
   "kategori": "Helâya Girerken",
   "anlam": "Allahım ben, hubus ve habâisten sana sığınırım.",
@@ -810,7 +866,17 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 81,
+  "gun": 86,
+  "baslik": "Günah ve Borçtan Sığınma",
+  "kategori": "Sığınma",
+  "anlam": "Allah'ım! Günahtan ve borçluluktan sana sığınırım",
+  "kaynak": "Buhârî, 2397",
+  "sihhat": "Sahih (Buhârî)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)",
+  "duzeltme": "Çeviri metnindeki yazım hatası düzeltildi: Allah'ıml Günahtan → Allah'ım! Günahtan"
+ },
+ {
+  "gun": 87,
   "baslik": "Zindan Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَـٰهِلِينَ",
@@ -822,7 +888,7 @@
   "hazineId": "dua_k031"
  },
  {
-  "gun": 82,
+  "gun": 88,
   "baslik": "Gece Namazına Başlarken Dua",
   "kategori": "Gece Namazına Başlarken",
   "anlam": "Allah'ım, ey Cebraîl, Mikaîl ve İsrafil'in Rabbî, göklerle yerin yaratıcısı, görüleni ve görülmeyeni bilen (Allah'ım). Kullarının ayrılığa düşdükleri şeylerde onların arasında ancak sen hükmedersin, hakkında ihtilafa düşülmüş olan hakka beni izninle sen ilet, çünkü sen dilediğini doğru yola hidayet eylersin.",
@@ -831,7 +897,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 83,
+  "gun": 89,
   "baslik": "Güvenli Şehir ve Puta Tapmaktan Koruma",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ ٱجْعَلْ هَـٰذَا ٱلْبَلَدَ ءَامِنًۭا وَٱجْنُبْنِى وَبَنِىَّ أَن نَّعْبُدَ ٱلْأَصْنَامَ",
@@ -843,7 +909,7 @@
   "hazineId": "dua_k032"
  },
  {
-  "gun": 84,
+  "gun": 90,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Rabbimizin sevdiği ve razı olduğu şekilde pek çok, ziyadeleşen güzel ve hiç kesilmeyen hamdler kendisine olsun.",
@@ -852,7 +918,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 85,
+  "gun": 91,
   "baslik": "Hayra Yönelme Duası",
   "kategori": "Hidayet",
   "anlam": "Allah’ım bana faydalı olan şeyleri ilham et ve beni benliğimin şerrinden de koru.",
@@ -861,7 +927,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 86,
+  "gun": 92,
   "baslik": "Namazı Devamlı Kılanlardan Eyle",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى ۚ رَبَّنَا وَتَقَبَّلْ دُعَآءِ رَبَّنَا ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ ٱلْحِسَابُ",
@@ -873,7 +939,7 @@
   "hazineId": "dua_k033"
  },
  {
-  "gun": 87,
+  "gun": 93,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Ey Allah'ım! Seni hamdin ile tesbih ve tenzih ederim. İsmin mübarektir, azametin yücedir. ve senden başka ilah yoktur.",
@@ -882,7 +948,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 88,
+  "gun": 94,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Ey Allah'ım, beni bağışla, bana acı, bana afiyet ver, beni (doğru yola) hidayet et ve rızıklandır.",
@@ -891,7 +957,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 89,
+  "gun": 95,
   "baslik": "Anne-Baba Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا",
@@ -903,7 +969,7 @@
   "hazineId": "dua_k034"
  },
  {
-  "gun": 90,
+  "gun": 96,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Allah'ım, seni tesbih (ve tenzih) ederim. Ey Rabbimiz (sana) hamdinle (hamdederim), Allah'ım, beni bağışla.",
@@ -912,7 +978,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 91,
+  "gun": 97,
   "baslik": "Namazda Bağışlanma Duası",
   "kategori": "Namaz",
   "anlam": "Ey Allah’ım ben nefsime çok zulmettim günahları ancak sen bağışlarsın katından bir bağışlanma ile beni bağışla bana merhamet et. Şüphesiz sen bağışlayan ve acıyansın.",
@@ -921,7 +987,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 92,
+  "gun": 98,
   "baslik": "Doğrulukla Girip Çıkma Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَّبِّ أَدْخِلْنِى مُدْخَلَ صِدْقٍۢ وَأَخْرِجْنِى مُخْرَجَ صِدْقٍۢ وَٱجْعَل لِّى مِن لَّدُنكَ سُلْطَـٰنًۭا نَّصِيرًۭا",
@@ -933,7 +999,7 @@
   "hazineId": "dua_k035"
  },
  {
-  "gun": 93,
+  "gun": 99,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Allah'ım günahımın hepsini, küçüğünü büyüğünü, önünü-sonunu bağışla.",
@@ -942,7 +1008,19 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 94,
+  "gun": 100,
+  "baslik": "Zalimlerden Kurtaran Allah'a Hamd",
+  "kategori": "Kur'an Duası",
+  "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى نَجَّىٰنَا مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
+  "okunus": "L-hamdu lillehi ellezî neccânâ mine l-kavmi z-zâlimîn",
+  "anlam": "Ey Nuh! Sen ve beraberindekiler gemiye yerleşince: “Bizi zalim milletten kurtaran Allah'a hamdolsun” de.",
+  "kaynak": "Mü'minûn, 23/28",
+  "sihhat": "Kur'an-ı Kerîm",
+  "metinKaynagi": "api.quran.com · Diyanet meali",
+  "hazineId": "dua_k104"
+ },
+ {
+  "gun": 101,
   "baslik": "Rahmet ve Doğru Yol Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًۭا",
@@ -954,7 +1032,7 @@
   "hazineId": "dua_k036"
  },
  {
-  "gun": 95,
+  "gun": 102,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Allah'ım, bizim kalplerimizi(n arasını) birleştir. Aramızdaki halleri düzelt ve bize kurtuluş yollarını göster. Bizi (küfrün) karanlıklarından (İslâm'ın) aydınlığ(ın)a çıkar ve büyük günahların görüneninden ve görünmeyeninden uzaklaştır. Bize, kulaklarımızda, gözlerimizde, kalbimizde eşlerimizde ve çocuklarımızda bol hayır ver. Tevbelerimizi de kabul et. Çünkü sen, tevbeleri kabul edensin, merhametlisin.",
@@ -963,7 +1041,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 96,
+  "gun": 103,
   "baslik": "Akşam Ezanında Dua",
   "kategori": "Akşam",
   "anlam": "Allah’ım bu akşam ezanı gecenin başladığını gündüzün sona erdiğinin ve senin davetinin sesleri ve namaz vaktinin girişidir. Senden beni bağışlamanı dilerim.",
@@ -972,7 +1050,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 97,
+  "gun": 104,
   "baslik": "Göğsümü Genişlet",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى وَٱحْلُلْ عُقْدَةًۭ مِّن لِّسَانِى يَفْقَهُوا۟ قَوْلِى",
@@ -984,7 +1062,7 @@
   "hazineId": "dua_k037"
  },
  {
-  "gun": 98,
+  "gun": 105,
   "baslik": "Yağmur ve Rüzgâr Duası",
   "kategori": "Yağmur ve Rüzgâr",
   "anlam": "Ey Rabbim! Sen Allahsın, senden başka ilâh yok. Sen zenginsin biz muhtacız, bize yağmur indir. İndirdiğini bize kuvvet ve bir zamana ulaştıracak azık kıl.",
@@ -993,7 +1071,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 99,
+  "gun": 106,
   "baslik": "İlmimi Artır",
   "kategori": "Kur'an Duası",
   "arapca": "رَّبِّ زِدْنِى عِلْمًۭا",
@@ -1005,7 +1083,7 @@
   "hazineId": "dua_k038"
  },
  {
-  "gun": 100,
+  "gun": 107,
   "baslik": "İsm-i Âzam ile Dua",
   "kategori": "İsm-i Âzam ile",
   "anlam": "Ey Allahım! Hamd ancak sanadır senden başka ilah yoktur. Gökleri ve yeri yaratan, bol bol veren (sensin) ey Celal ve İkram sahibi! Ey Hayy ve kayyum! diyerek senden istiyorum.",
@@ -1014,7 +1092,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 101,
+  "gun": 108,
   "baslik": "Hastalık ve Dert Duası",
   "kategori": "Kur'an Duası",
   "arapca": "أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
@@ -1026,7 +1104,7 @@
   "hazineId": "dua_k039"
  },
  {
-  "gun": 102,
+  "gun": 109,
   "baslik": "Hastaya Okunan Dua",
   "kategori": "Şifa",
   "anlam": "Allah’ın adıyla sana zarar veren her şeyden her şahıs ve hased eden her gözden, senin korunmanı isterim. Yine Allah’ın adıyla senin korunmanı isterim. Allah sana şifalar versin",
@@ -1035,7 +1113,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 103,
+  "gun": 110,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Allah'ım benim işlediğim ve işleyeceğim gizlediğim ve açıktan yaptığım, yapmakta ileri gittiğim ve senin bilip benim bilmediğim tüm günahlarımı bağışla. Öne geçiren de sensin geride bırakan da. Senden başka ilâh yoktur.",
@@ -1044,7 +1122,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 104,
+  "gun": 111,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allah'ım geçmişe ve geleceğe âit sıkıntılardan, borçların ağırlığından ve düşmanların galebesinden sana sığınırım.",
@@ -1053,7 +1131,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 105,
+  "gun": 112,
   "baslik": "Sıkıntıdan Kurtuluş Duası",
   "kategori": "Kur'an Duası",
   "arapca": "لَّآ إِلَـٰهَ إِلَّآ أَنتَ سُبْحَـٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّـٰلِمِينَ",
@@ -1065,7 +1143,7 @@
   "hazineId": "dua_k040"
  },
  {
-  "gun": 106,
+  "gun": 113,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allah'ım! (Bana verdiğin) nimetlerinin yok olmasından, (bahşettiğin) sıhhatinin değişmesinden, cezanın aniden gelivermesinden ve gazabın(a) sebep olan herşeyden sana sığınırım.",
@@ -1074,7 +1152,17 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 107,
+  "gun": 114,
+  "baslik": "Rükûdan Sonra Hamd ve Arınma",
+  "kategori": "Namaz",
+  "anlam": "Allah'ım sana göklerle yer ve onlardan başka dilediğin her şey dolusu hamd olsun. Allah'ım beni kar, dolu ve soğuk suyla temizle! Yârabbi! Beni günah ve hatalardan, beyaz elbisenin kirden paklandığı gibi temiz pak eyle.",
+  "kaynak": "Müslim, 476",
+  "sihhat": "Sahih (Müslim)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)",
+  "duzeltme": "Çeviri metnindeki yazım hatası düzeltildi: temizlet Yârabbl → temizle! Yârabbi!"
+ },
+ {
+  "gun": 115,
   "baslik": "Beni Yalnız Bırakma",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ لَا تَذَرْنِى فَرْدًۭا وَأَنتَ خَيْرُ ٱلْوَٰرِثِينَ",
@@ -1086,7 +1174,7 @@
   "hazineId": "dua_k041"
  },
  {
-  "gun": 108,
+  "gun": 116,
   "baslik": "Bir Yere Konaklarken Dua",
   "kategori": "Yolculuk",
   "anlam": "Allah’ın yarattığı mahlukatın şerrinden, Allah’ın eksiksiz tam ayetlerine sığınırım.",
@@ -1095,7 +1183,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 109,
+  "gun": 117,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allah'ım, fayda vermeyen (kabul edilmeyen) namazdan sana sığınırım.",
@@ -1104,7 +1192,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 110,
+  "gun": 118,
   "baslik": "Bereketli Bir Yere İndir",
   "kategori": "Kur'an Duası",
   "arapca": "رَّبِّ أَنزِلْنِى مُنزَلًۭا مُّبَارَكًۭا وَأَنتَ خَيْرُ ٱلْمُنزِلِينَ",
@@ -1116,7 +1204,7 @@
   "hazineId": "dua_k042"
  },
  {
-  "gun": 111,
+  "gun": 119,
   "baslik": "Yolculuk Duası",
   "kategori": "Yolculuk",
   "anlam": "Ey Allahım! Senden bu yolculuğumuzda (bize) iyilik ve takva (üzere olan) amel(ler)den de senin razı olacaklarını (nasib etmeni) dilerim. Ey Allah'ım! Bize bu yolculuğumuzu kolaylaştır. Bizim için uzaklığı dür. Yolculukta arkadaş, ailede ve malda vekil sensin.",
@@ -1125,7 +1213,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 112,
+  "gun": 120,
   "baslik": "Şeytanın Vesveselerinden Sığınma",
   "kategori": "Kur'an Duası",
   "arapca": "رَّبِّ أَعُوذُ بِكَ مِنْ هَمَزَٰتِ ٱلشَّيَـٰطِينِ وَأَعُوذُ بِكَ رَبِّ أَن يَحْضُرُونِ",
@@ -1137,7 +1225,7 @@
   "hazineId": "dua_k043"
  },
  {
-  "gun": 113,
+  "gun": 121,
   "baslik": "Sabah ve Akşam Korunma Duası",
   "kategori": "Korunma",
   "anlam": "İsmi anılıp O’nun adına hareket edildikçe yerde ve gökte hiçbir şeyin zarar veremediği her şeyi duyan ve bilen Allah adıyla",
@@ -1146,7 +1234,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 114,
+  "gun": 122,
   "baslik": "Tevekkül Duası",
   "kategori": "Tevekkül",
   "anlam": "Ey Allah'ım, benim (yegâne) dayanağım ve yardımcım sensin. (Düşmanların hilesini) senin (desteğin) le önlerim. Senin (verdiğin güç)le (düşmana) saldırırım ve (yine) Senin (desteğin)le (düşman'a karşı) savaşırım.",
@@ -1155,7 +1243,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 115,
+  "gun": 123,
   "baslik": "İman Ettik, Bağışla",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
@@ -1167,7 +1255,7 @@
   "hazineId": "dua_k044"
  },
  {
-  "gun": 116,
+  "gun": 124,
   "baslik": "Yatarken Dua",
   "kategori": "Yatarken",
   "anlam": "Ey Allahım, kıyamet günü kullarını (hesaba çekmek üzere tekrar) dirilttiğinde beni azabından koru!",
@@ -1176,7 +1264,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 117,
+  "gun": 125,
   "baslik": "Helâya Girerken Dua",
   "kategori": "Helâya Girerken",
   "anlam": "Allah’ım erkek ve dişi tüm şeytanlardan ve tüm pisliklerden sana sığınırım.",
@@ -1185,7 +1273,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 118,
+  "gun": 126,
   "baslik": "Bağışla ve Merhamet Et",
   "kategori": "Kur'an Duası",
   "arapca": "رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
@@ -1197,7 +1285,7 @@
   "hazineId": "dua_k045"
  },
  {
-  "gun": 119,
+  "gun": 127,
   "baslik": "Kalbin Sebatı İçin Dua",
   "kategori": "İman",
   "anlam": "Ey kalpleri halden hale değiştiren Allah’ım kalbimi dinin üzere sabit kıl",
@@ -1206,7 +1294,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 120,
+  "gun": 128,
   "baslik": "Hidayet ve Takvâ Duası",
   "kategori": "Hidayet ve Takvâ",
   "anlam": "Allah’ım sıhhat ve afiyetle kıldıklarında beraber beni de afiyette kıl, işlerini güzelce ayarladığın kimseler gibi benimde vekilim ol, hidayete erdirdiklerinle beni de hidayette kıl. Kaderin şerrinden beni koru, bana verdiğin nimetleri bereketlendir. Sen herkese hükmedersin sana hükmedilemez velisi olduğun kimse asla zelil olmaz, eksiklikler sana yakışmaz. Ey Rabbimiz! Yücesin ve kutlusun.",
@@ -1215,7 +1303,19 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 121,
+  "gun": 129,
+  "baslik": "Beni ve Müminleri Kurtar",
+  "kategori": "Kur'an Duası",
+  "arapca": "رَبِّ إِنَّ قَوْمِى كَذَّبُونِ فَٱفْتَحْ بَيْنِى وَبَيْنَهُمْ فَتْحًۭا وَنَجِّنِى وَمَن مَّعِىَ مِنَ ٱلْمُؤْمِنِينَ",
+  "okunus": "Rabbi inne kavmî kezebûni fe-ifteh beynî vebeynehum fethan veneccinî vemen me'ıye mine l-muminîn",
+  "anlam": "Nuh: “Rabbim! Milletim beni yalanladı. Benimle onların arasında Sen hüküm ver. Beni ve beraberimdeki inananları kurtar” dedi. Nuh: “Rabbim! Milletim beni yalanladı. Benimle onların arasında Sen hüküm ver. Beni ve beraberimdeki inananları kurtar” dedi.",
+  "kaynak": "Şuarâ, 26/117-118",
+  "sihhat": "Kur'an-ı Kerîm",
+  "metinKaynagi": "api.quran.com · Diyanet meali",
+  "hazineId": "dua_k105"
+ },
+ {
+  "gun": 130,
   "baslik": "Cehennem Azabını Uzaklaştır",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَا ٱصْرِفْ عَنَّا عَذَابَ جَهَنَّمَ ۖ إِنَّ عَذَابَهَا كَانَ غَرَامًا إِنَّهَا سَآءَتْ مُسْتَقَرًّۭا وَمُقَامًۭا",
@@ -1227,7 +1327,7 @@
   "hazineId": "dua_k046"
  },
  {
-  "gun": 122,
+  "gun": 131,
   "baslik": "Vefat Edenler İçin Dua",
   "kategori": "Vefat Edenler",
   "anlam": "Allah’ım dirimizi, ölümüzü burada bulunanımızı ve bulunmayanımızı, küçüğümüzü, büyüğümüzü, erkeğimizi ve dişimizi hepsini affet.",
@@ -1236,7 +1336,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 123,
+  "gun": 132,
   "baslik": "Göz Aydınlığı Bir Aile",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَٰجِنَا وَذُرِّيَّـٰتِنَا قُرَّةَ أَعْيُنٍۢ وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
@@ -1248,7 +1348,7 @@
   "hazineId": "dua_k047"
  },
  {
-  "gun": 124,
+  "gun": 133,
   "baslik": "Vefat Edenler İçin Dua",
   "kategori": "Vefat Edenler",
   "anlam": "Allah’ım affet onu, acı ona, çamaşırın kirden temizlendiği gibi onu dolu (yağmur, kar) ile günahlarından arındır.",
@@ -1257,7 +1357,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 125,
+  "gun": 134,
   "baslik": "Uyanınca Hamd Duası",
   "kategori": "Uyku",
   "anlam": "Vücuduma sıhhat ve afiyet veren Allah’a hamdolsun. Ruhumu bana geri çeviren ibadet ve kulluk yapmama izin veren Allah’a hamdolsun.",
@@ -1266,7 +1366,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 126,
+  "gun": 135,
   "baslik": "Hikmet ve Salihlerle Beraberlik",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ هَبْ لِى حُكْمًۭا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ وَٱجْعَل لِّى لِسَانَ صِدْقٍۢ فِى ٱلْـَٔاخِرِينَ وَٱجْعَلْنِى مِن وَرَثَةِ جَنَّةِ ٱلنَّعِيمِ",
@@ -1278,7 +1378,7 @@
   "hazineId": "dua_k048"
  },
  {
-  "gun": 127,
+  "gun": 136,
   "baslik": "Yeni Elbise Duası",
   "kategori": "Yeni Elbise",
   "anlam": "Allah’ım sana hamdolsun, bunu bana sen giydirdin senden bu elbisenin hayrını ve hayırda kullanılmasını istiyorum şerrinden ve şerde kullanılmasından da sana sığınırım.",
@@ -1287,7 +1387,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 128,
+  "gun": 137,
   "baslik": "Şükre Muvaffak Kıl",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّـٰلِحِينَ",
@@ -1299,7 +1399,7 @@
   "hazineId": "dua_k049"
  },
  {
-  "gun": 129,
+  "gun": 138,
   "baslik": "Rahmân Sûresi Okunurken",
   "kategori": "Rahmân Sûresi Okunurken",
   "anlam": "Ey Rabbimiz, senin nimetlerinden hiçbirini inkar etmeyiz sana hamdolsun.",
@@ -1308,7 +1408,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 130,
+  "gun": 139,
   "baslik": "Abdestten Sonra Dua",
   "kategori": "Abdest",
   "anlam": "Ben inanır ve şâhidlik yaparım ki Allah’tan başka ilah yoktur. O’nun ortağı da yoktur. Yine inanırım ki Muhammed O’nun kulu ve Peygamberidir. Allah’ım! beni tam tevbe edenlerden ve tertemiz temizlenenlerden eyle.",
@@ -1317,7 +1417,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 131,
+  "gun": 140,
   "baslik": "Nefsime Zulmettim",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
@@ -1329,7 +1429,7 @@
   "hazineId": "dua_k050"
  },
  {
-  "gun": 132,
+  "gun": 141,
   "baslik": "Seyyidü'l-İstiğfâr",
   "kategori": "Seyyidü'l-İstiğfâr",
   "anlam": "Allah’ım sensin benim Rabbim, senden başka gerçek ilah yok. Beni yarattın ben de senin kulunum. Ben gücüm yettiğince sana verdiğim sözüm ve senin va’din üzereyim. Yaptıklarımın şerrinden sana sığınırım. İşte verdiğin nimetlerle senin huzurundayım günahlarımla huzurundayım. Beni affet çünkü günahları ancak sen affedersin.",
@@ -1338,7 +1438,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 133,
+  "gun": 142,
   "baslik": "Yatarken Dua",
   "kategori": "Yatarken",
   "anlam": "Allah’ım kullarını mahşerde topladığın veya mahşerde kaldırdığın gün beni azabından koru.",
@@ -1347,7 +1447,17 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 134,
+  "gun": 143,
+  "baslik": "Af, Rahmet, Hidayet ve Rızık Duası",
+  "kategori": "Rızık",
+  "anlam": "Allahım! Beni affet; bana acı; bana hidâyet ve afiyet ver ve beni rızıklandır!",
+  "kaynak": "Müslim, 2697",
+  "sihhat": "Sahih (Müslim)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)",
+  "duzeltme": "Çeviri metnindeki yazım hatası düzeltildi: nzıklandır → rızıklandır; Allahım ! → Allahım!"
+ },
+ {
+  "gun": 144,
   "baslik": "Zalimlerden Kurtar",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ نَجِّنِى مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
@@ -1359,7 +1469,7 @@
   "hazineId": "dua_k051"
  },
  {
-  "gun": 135,
+  "gun": 145,
   "baslik": "Yatarken Dua",
   "kategori": "Yatarken",
   "anlam": "Allah’ım Ey göklerin ve yerlerin Rabbi, bizim ve her şeyin rabbi, taneyi ve çekirdeği yaran, Tevrat’ı, İncil’i ve Kur’ân’ı indiren! Her şerlinin şerrinden sana sığınırım ki her şeyin iradesi senin elindedir. Önce sensin senden önce hiçbir varlık yoktur. Ahir olan sensinsenden sonra hiçbir varlık yoktur. Zahir olan sensin senin üzerinde hiçbir varlık yoktur. Bâtın sensin senin ötende hiçbir şey yoktur. Benim borçlarımı ödettir ve beni fakirlikten kurtar.",
@@ -1368,7 +1478,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 136,
+  "gun": 146,
   "baslik": "Evden Çıkarken Dua",
   "kategori": "Ev",
   "anlam": "Allah’ın adıyla Allah’a güvendim, Allah’a dayandım çaba ve güç gösterebilmemiz ancak Allah’ın izni iledir",
@@ -1377,7 +1487,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 137,
+  "gun": 147,
   "baslik": "İndireceğin Her Hayra Muhtacım",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍۢ فَقِيرٌۭ",
@@ -1389,7 +1499,7 @@
   "hazineId": "dua_k052"
  },
  {
-  "gun": 138,
+  "gun": 148,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Allah’ım sadece sana secde ettim, sana inandım, irademi sana teslim ettim. Yüzüm, kendisini yaratıp şekil veren kulak ve göz verene secde etti. Her şeyi en güzel şekliyle yaratan Allah güzellerin güzeli ve ne mübarektir.",
@@ -1398,7 +1508,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 139,
+  "gun": 149,
   "baslik": "Bozgunculara Karşı Yardım",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ ٱنصُرْنِى عَلَى ٱلْقَوْمِ ٱلْمُفْسِدِينَ",
@@ -1410,7 +1520,7 @@
   "hazineId": "dua_k053"
  },
  {
-  "gun": 140,
+  "gun": 150,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Allah’ım gökler ve yerler dolusu ve ikisinin arasındaki mesafeler dolusu ve dilediğin şeyler dolusu kadar hamd ve övgüler sana mahsustur.",
@@ -1419,7 +1529,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 141,
+  "gun": 151,
   "baslik": "Namaza Başlarken Dua",
   "kategori": "Namaz",
   "anlam": "Ey Allah'ım benimle, günahlarımın arasını doğu ile batı arasını uzaklaştırdığın gibi uzak eyle! Ya Rabbi, beni günahlarımdan beyaz elbisenin kirden temizlendiği gibi temizle! Ey Allah'ım!Beni kar, su ve dolu ile (günahlardan) temizle",
@@ -1428,7 +1538,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 142,
+  "gun": 152,
   "baslik": "Salih Bir Evlat Bağışla",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ هَبْ لِى مِنَ ٱلصَّـٰلِحِينَ",
@@ -1440,7 +1550,7 @@
   "hazineId": "dua_k054"
  },
  {
-  "gun": 143,
+  "gun": 153,
   "baslik": "Bağışlanma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Rabbim beni bağışla tevbemi kabul buyur şüphesiz sen tevbeleri kabul eden ve günahları bağışlayansın.",
@@ -1449,7 +1559,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 144,
+  "gun": 154,
   "baslik": "Meleklerin Müminler İçin Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍۢ رَّحْمَةًۭ وَعِلْمًۭا فَٱغْفِرْ لِلَّذِينَ تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ عَذَابَ ٱلْجَحِيمِ رَبَّنَا وَأَدْخِلْهُمْ جَنَّـٰتِ عَدْنٍ ٱلَّتِى وَعَدتَّهُمْ وَمَن صَلَحَ مِنْ ءَابَآئِهِمْ وَأَزْوَٰجِهِمْ وَذُرِّيَّـٰتِهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
@@ -1461,7 +1571,7 @@
   "hazineId": "dua_k055"
  },
  {
-  "gun": 145,
+  "gun": 155,
   "baslik": "Yolculuk Duası",
   "kategori": "Yolculuk",
   "anlam": "Allah’ım yolculuk boyunca arkadaşımız sensin. Çoluk çocuğumuzu da sana emanet ederiz. Allah’ım bizi nasihatlerinle birlikte kıl. Bizi emniyet içersinde memleketimize geri çevir. Allah’ım bize mesafeleri kısalt, yolculuğumuzu kolay kıl. Allah’ım yolculuğun sıkıntılarından sana sığınırım ve dönüşün zorluklarından ve kötülüklerinden de sana sığınırım.",
@@ -1470,7 +1580,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 146,
+  "gun": 156,
   "baslik": "Azabı Bizden Kaldır",
   "kategori": "Kur'an Duası",
   "arapca": "رَّبَّنَا ٱكْشِفْ عَنَّا ٱلْعَذَابَ إِنَّا مُؤْمِنُونَ",
@@ -1482,7 +1592,19 @@
   "hazineId": "dua_k056"
  },
  {
-  "gun": 147,
+  "gun": 157,
+  "baslik": "Üstün Kılan Allah'a Hamd",
+  "kategori": "Kur'an Duası",
+  "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى فَضَّلَنَا عَلَىٰ كَثِيرٍۢ مِّنْ عِبَادِهِ ٱلْمُؤْمِنِينَ",
+  "okunus": "L-hamdu lillehi ellezî feddalenâ 'alâ kesîrın min 'ıbâdihi l-muminîn",
+  "anlam": "And olsun ki, Davud'a ve Süleyman'a ilim verdik. İkisi “Bizi mümin kullarının çoğundan üstün kılan Allah'a hamdolsun” dediler.",
+  "kaynak": "Neml, 27/15",
+  "sihhat": "Kur'an-ı Kerîm",
+  "metinKaynagi": "api.quran.com · Diyanet meali",
+  "hazineId": "dua_k106"
+ },
+ {
+  "gun": 158,
   "baslik": "Vitir Namazında Dua",
   "kategori": "Namaz",
   "anlam": "Allahım ! Senin gazabından rızana, cezandan affına, senden sana sığınırım. (Lâyık olduğun gibi) senin senalarını sayamam, sen kendini nasıl sena (medh) ettînse öylesin.",
@@ -1491,7 +1613,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 148,
+  "gun": 159,
   "baslik": "Yolculuğa Çıkana Dua",
   "kategori": "Yolculuğa Çıkana",
   "anlam": "Allah’ım yeryüzünü dür uzakları yakın eyle ve yolculuğunu kolay kıl.",
@@ -1500,7 +1622,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 149,
+  "gun": 160,
   "baslik": "Bağışlanma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Rabbim günahlarımı bağışla günahları senden başkası bağışlayamaz.",
@@ -1509,7 +1631,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 150,
+  "gun": 161,
   "baslik": "Kırk Yaş Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًۭا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ",
@@ -1521,7 +1643,7 @@
   "hazineId": "dua_k057"
  },
  {
-  "gun": 151,
+  "gun": 162,
   "baslik": "Hilâl Duası",
   "kategori": "Hilâl",
   "anlam": "Allah’ım bu ayı bizim üzerimize bereket, iman, selamet ve İslam üzere doğdur. Ey Hilâl benimde seninde Rabbin Allah’tır.",
@@ -1530,7 +1652,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 152,
+  "gun": 163,
   "baslik": "Kardeşlerimizi Bağışla",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَـٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّۭا لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ رَءُوفٌۭ رَّحِيمٌ",
@@ -1542,7 +1664,7 @@
   "hazineId": "dua_k058"
  },
  {
-  "gun": 153,
+  "gun": 164,
   "baslik": "Namazdan Sonra Dua",
   "kategori": "Namaz",
   "anlam": "Ey Allahım! Selâm sensin, selâmet sadece sendendir. Sen (zâlimlerin söylediklerinden) çok çok yücesin, (hayır ve bereketin çoktur) ey ululuk ve ihsan sahibi",
@@ -1551,7 +1673,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 154,
+  "gun": 165,
   "baslik": "Süt İçerken Dua",
   "kategori": "Süt İçerken",
   "anlam": "Allah’ım bu sütü bize faydalı kıl ve bundan bize bol ver.",
@@ -1560,7 +1682,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 155,
+  "gun": 166,
   "baslik": "Sana Tevekkül Ettik",
   "kategori": "Kur'an Duası",
   "arapca": "رَّبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ ٱلْمَصِيرُ رَبَّنَا لَا تَجْعَلْنَا فِتْنَةًۭ لِّلَّذِينَ كَفَرُوا۟ وَٱغْفِرْ لَنَا رَبَّنَآ ۖ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
@@ -1572,7 +1694,7 @@
   "hazineId": "dua_k059"
  },
  {
-  "gun": 156,
+  "gun": 167,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allah’ım huşu duymayan kalbten işitilmeyen dua’dan doymayan nefis’den faydasız ilimden sana sığınırım. Bu dört şeyden sana sığınırım.",
@@ -1581,7 +1703,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 157,
+  "gun": 168,
   "baslik": "Nurumuzu Tamamla",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا وَٱغْفِرْ لَنَآ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ",
@@ -1593,7 +1715,7 @@
   "hazineId": "dua_k060"
  },
  {
-  "gun": 158,
+  "gun": 169,
   "baslik": "Hayırlı Ömür Duası",
   "kategori": "Sabır",
   "anlam": "Ey Allahım hayat benim için hayırlı olduğu sürece beni yaşat. Benim için ölüm daha hayırlı olduğu zaman da canımı al",
@@ -1602,7 +1724,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 159,
+  "gun": 170,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allah’ım sıkıntıdan üzüntüden, acizlikten, tembellikten, cimrilikten, borcun belimi bükmesinden ve insanların bana tahakkümünden sana sığınırım.",
@@ -1611,7 +1733,17 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 160,
+  "gun": 171,
+  "baslik": "Din, Dünya ve Âhiretin Islahı Duası",
+  "kategori": "Hidayet",
+  "anlam": "Allahım! Bana işimin ismeti olan dinimi ıslâh et. Merciim içinde olan âhiretimi de ıslâh et. Benim için hayatı her hayır hususunda ziyâde kıl ve bana ölümü her şerden rahat kıl!",
+  "kaynak": "Müslim, 2720",
+  "sihhat": "Sahih (Müslim)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)",
+  "duzeltme": "Çeviri metnindeki yazım hatası düzeltildi: Mercüm → Merciim"
+ },
+ {
+  "gun": 172,
   "baslik": "Katında Bir Ev Yap",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ ٱبْنِ لِى عِندَكَ بَيْتًۭا فِى ٱلْجَنَّةِ وَنَجِّنِى مِن فِرْعَوْنَ وَعَمَلِهِۦ وَنَجِّنِى مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
@@ -1623,7 +1755,7 @@
   "hazineId": "dua_k061"
  },
  {
-  "gun": 161,
+  "gun": 173,
   "baslik": "Hidayet ve Takvâ Duası",
   "kategori": "Hidayet ve Takvâ",
   "anlam": "Allah’ım ben senden hidayet, sorumluluk bilinci iffet ve gönül zenginliği isterim.",
@@ -1632,7 +1764,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 162,
+  "gun": 174,
   "baslik": "Hz. Dâvûd'un Duası",
   "kategori": "Hz. Dâvûd'un",
   "anlam": "Allah’ım senden seni sevmeyi, seni seven kişiyi sevmeyi, senin sevgine ulaştıran ameli yapmayı isterim. Allah’ım senin sevgini bana kendimden, ailemden ve soğuk sudan daha sevimli eyle...",
@@ -1641,7 +1773,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 163,
+  "gun": 175,
   "baslik": "Yenildim, Yardım Et",
   "kategori": "Kur'an Duası",
   "arapca": "أَنِّى مَغْلُوبٌۭ فَٱنتَصِرْ",
@@ -1653,7 +1785,7 @@
   "hazineId": "dua_k062"
  },
  {
-  "gun": 164,
+  "gun": 176,
   "baslik": "Hasta Ziyaretinde Dua",
   "kategori": "Şifa",
   "anlam": "Ulu Allah ve arşın yüce Rabbinden sana şifa vermesini dilerim.",
@@ -1662,7 +1794,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 165,
+  "gun": 177,
   "baslik": "Bağışlanma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Allah’ım Cehennem’in fitnesinden ve Cehennem azabından, kabir fitnesinin şerrinden ve yoksulluk fitnesinin şerrinden ve Mesih Deccâl’ın fitnesinden sana sığınırım. Allah’ım hatalarımı kar ve dolu suyu ile yıka beyaz elbiseyi kirden temizlediğin gibi kalbimi de günahlardan temizle. Doğu ile batının arasını uzaklaştırdığın gibi benimle günahlarımın arasını aç uzaklaştır. Allah’ım tembellikten, ihtiyarlıktan günahtan ve borçtan sana sığınırım.",
@@ -1671,7 +1803,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 166,
+  "gun": 178,
   "baslik": "Anne-Baba ve Müminler İçin Bağışlanma",
   "kategori": "Kur'an Duası",
   "arapca": "رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِمَن دَخَلَ بَيْتِىَ مُؤْمِنًۭا وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ وَلَا تَزِدِ ٱلظَّـٰلِمِينَ إِلَّا تَبَارًۢا",
@@ -1683,7 +1815,7 @@
   "hazineId": "dua_k063"
  },
  {
-  "gun": 167,
+  "gun": 179,
   "baslik": "Bağışlanma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Allah’ım beni affet bana acı. Beni yüce dosta ulaştır.",
@@ -1692,7 +1824,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 168,
+  "gun": 180,
   "baslik": "Musibet Anında İstirca",
   "kategori": "Kur'an Duası",
   "arapca": "إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ",
@@ -1704,7 +1836,7 @@
   "hazineId": "dua_k064"
  },
  {
-  "gun": 169,
+  "gun": 181,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allah’ım her türlü sıkıntıdan, tembellikten ve kabir azabından sana sığınırım.",
@@ -1713,7 +1845,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 170,
+  "gun": 182,
   "baslik": "İftar Duası",
   "kategori": "Oruç",
   "anlam": "Susuzluk gitti, damarlar nemlendi ve inşallah ecir hâsıl oldu",
@@ -1722,7 +1854,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 171,
+  "gun": 183,
   "baslik": "Mazlumların Kurtuluş Duası",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَآ أَخْرِجْنَا مِنْ هَـٰذِهِ ٱلْقَرْيَةِ ٱلظَّالِمِ أَهْلُهَا وَٱجْعَل لَّنَا مِن لَّدُنكَ وَلِيًّۭا وَٱجْعَل لَّنَا مِن لَّدُنكَ نَصِيرًا",
@@ -1734,7 +1866,7 @@
   "hazineId": "dua_k065"
  },
  {
-  "gun": 172,
+  "gun": 184,
   "baslik": "Musibet Anında Dua",
   "kategori": "Musibet",
   "anlam": "Allah’ım senin katında başıma gelenlere sevap verileceğini umuyorum. Bundan dolayı beni mükafatlandır ve onun yerine bana daha hayırlısını ver.",
@@ -1743,7 +1875,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 173,
+  "gun": 185,
   "baslik": "Tövbe Edip Sana Döndüm",
   "kategori": "Kur'an Duası",
   "arapca": "سُبْحَـٰنَكَ تُبْتُ إِلَيْكَ وَأَنَا۠ أَوَّلُ ٱلْمُؤْمِنِينَ",
@@ -1755,7 +1887,19 @@
   "hazineId": "dua_k066"
  },
  {
-  "gun": 174,
+  "gun": 186,
+  "baslik": "Suçlulara Arka Çıkmam",
+  "kategori": "Kur'an Duası",
+  "arapca": "رَبِّ بِمَآ أَنْعَمْتَ عَلَىَّ فَلَنْ أَكُونَ ظَهِيرًۭا لِّلْمُجْرِمِينَ",
+  "okunus": "Rabbi bimâ en'amte 'aleyye felen ekûne zahîran lilmucrımîn",
+  "anlam": "Musa: “Rabbim! Bana verdiğin nimete and olsun ki, suçlulara asla yardımcı olmayacağım” dedi.",
+  "kaynak": "Kasas, 28/17",
+  "sihhat": "Kur'an-ı Kerîm",
+  "metinKaynagi": "api.quran.com · Diyanet meali",
+  "hazineId": "dua_k107"
+ },
+ {
+  "gun": 187,
   "baslik": "Kadir Gecesi Duası",
   "kategori": "Kadir Gecesi",
   "anlam": "Allah’ım sen affedicisin, ikram sahibisin affetmeyi seversin beni de affet.",
@@ -1764,7 +1908,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 175,
+  "gun": 188,
   "baslik": "Hidayet ve Doğruluk Duası",
   "kategori": "Hidayet",
   "anlam": "Allah'ım! bana hidâyet ver, beni doğrult",
@@ -1773,7 +1917,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 176,
+  "gun": 189,
   "baslik": "Yola Çıkarken Besmele",
   "kategori": "Kur'an Duası",
   "arapca": "بِسْمِ ٱللَّهِ مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ إِنَّ رَبِّى لَغَفُورٌۭ رَّحِيمٌۭ",
@@ -1785,7 +1929,7 @@
   "hazineId": "dua_k067"
  },
  {
-  "gun": 177,
+  "gun": 190,
   "baslik": "Sabah Duası",
   "kategori": "Sabah",
   "anlam": "Ey Allah’ım Ey göklerin ve yerin yaratıcısı! Gizli ve açık her şeyi bilen senden başka gerçek ilah yoktur. Ancak sen varsın. Her şeyin Rabbi ve idarecisi sensin. Benliğimin şerrinden, şeytanın şerrinden ve beni şirke düşürmesinden, günah işlemekten ve bir Müslüman’a kötülük etmekten sana sığınırım.",
@@ -1794,7 +1938,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 178,
+  "gun": 191,
   "baslik": "İsm-i Âzam ile Dua",
   "kategori": "İsm-i Âzam ile",
   "anlam": "Ey Allah’ım senden başka ilah yoktur, ancak sen varsın sen bol bol verensin.",
@@ -1803,7 +1947,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 179,
+  "gun": 192,
   "baslik": "Gizliyi ve Açığı Bilen Rabbe",
   "kategori": "Kur'an Duası",
   "arapca": "رَبَّنَآ إِنَّكَ تَعْلَمُ مَا نُخْفِى وَمَا نُعْلِنُ ۗ وَمَا يَخْفَىٰ عَلَى ٱللَّهِ مِن شَىْءٍۢ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ",
@@ -1815,7 +1959,7 @@
   "hazineId": "dua_k068"
  },
  {
-  "gun": 180,
+  "gun": 193,
   "baslik": "Kalbin Sebatı İçin Dua",
   "kategori": "Kalbin Sebatı",
   "anlam": "Allah’ım! Kalbimi kar, dolu ve soğuk su ile soğut. Allah’ım! Beyaz elbiseyi kirden temizlediğin gibi kalbimi de hatalardan temizle.",
@@ -1824,7 +1968,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 181,
+  "gun": 194,
   "baslik": "Uyumadan Önce Dua",
   "kategori": "Uyku",
   "anlam": "Ey Allah'ım, senin isminle ölür, senin isminle dirilirim",
@@ -1833,7 +1977,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 182,
+  "gun": 195,
   "baslik": "Hamd ve Tekbir",
   "kategori": "Kur'an Duası",
   "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
@@ -1845,7 +1989,7 @@
   "hazineId": "dua_k069"
  },
  {
-  "gun": 183,
+  "gun": 196,
   "baslik": "Helal Rızık Duası",
   "kategori": "Helal Rızık",
   "anlam": "Allah’ım haramlarından uzaklaştır helal olana kanaat ettir. Lutfunla beni kimseye muhtaç etme.",
@@ -1854,7 +1998,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 184,
+  "gun": 197,
   "baslik": "Mâşâallah, Kuvvet Ancak Allah'ındır",
   "kategori": "Kur'an Duası",
   "arapca": "مَا شَآءَ ٱللَّهُ لَا قُوَّةَ إِلَّا بِٱللَّهِ ۚ إِن تَرَنِ أَنَا۠ أَقَلَّ مِنكَ مَالًۭا وَوَلَدًۭا",
@@ -1866,7 +2010,7 @@
   "hazineId": "dua_k070"
  },
  {
-  "gun": 185,
+  "gun": 198,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Allah’ım gazabından rızana sığınırım cezalandırmandan bağışına sığınırım. Senden sana sığınırım. Seni övebilecek kelimeleri bulamam. Sen kendini övdüğün gibisin.",
@@ -1875,7 +2019,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 186,
+  "gun": 199,
   "baslik": "Hak ile Hükmet",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَـٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
@@ -1887,7 +2031,17 @@
   "hazineId": "dua_k071"
  },
  {
-  "gun": 187,
+  "gun": 200,
+  "baslik": "İki Secde Arasında Dua",
+  "kategori": "Namaz",
+  "anlam": "Rabbim! Beni bağışla, bana rahmet et. Beni (kırıklarımı) düzelt. Beni rızıklandır ve beni (derecelerimi) yükselt.",
+  "kaynak": "İbn Mâce, 898",
+  "sihhat": "Sahih (Al-Albani)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)",
+  "duzeltme": "Çeviri metnindeki yazım hatası düzeltildi: (m kırıklarımı) → (kırıklarımı); (m derecelerimi) → (derecelerimi)"
+ },
+ {
+  "gun": 201,
   "baslik": "Yatağa Girerken Dua",
   "kategori": "Uyku",
   "anlam": "Allah'ım! Adınla yanımı (yatağa) bıraktım. Ey Allah'ım! Günah(lar)ımı affet, şeytanımı (benden) uzaklaştır. Rehinelerimi çöz, beni (mukarreb meleklerin toplandığı) yüksek meclise koy!",
@@ -1896,7 +2050,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 188,
+  "gun": 202,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Allah’ım korkaklıktan, cimrilikten ihtiyarlığın bunaklığından, dünyanın belalarından ve kabir azabından sana sığınırım.",
@@ -1905,7 +2059,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 189,
+  "gun": 203,
   "baslik": "Yalanlayanlara Karşı Yardım",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ ٱنصُرْنِى بِمَا كَذَّبُونِ",
@@ -1917,7 +2071,7 @@
   "hazineId": "dua_k072"
  },
  {
-  "gun": 190,
+  "gun": 204,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allah’ım tembellikten acizlikten ve cimrilikten sana sığınırım.",
@@ -1926,7 +2080,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 191,
+  "gun": 205,
   "baslik": "Yatarken ve Uyanırken Dua",
   "kategori": "Yatarken ve Uyanırken",
   "anlam": "Allah’ım kendimi sana teslim ettim, işlerimi sana havale ettim, Senin azabından korkarak ve Cennetini ümid ederek sırtımı sana dayadım. Senin azabından korunmak ancak sana sığınmakla mümkündür. İndirdiğin kitaba ve gönderdiğin Nebie iman ettim.",
@@ -1935,7 +2089,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 192,
+  "gun": 206,
   "baslik": "Günahlardan Arınma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Allah’ım hata ve günahlarımı kar, su ve dolu suyu ile temizle, yıka.",
@@ -1944,7 +2098,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-nasai)"
  },
  {
-  "gun": 193,
+  "gun": 207,
   "baslik": "Zalimler Arasında Bırakma",
   "kategori": "Kur'an Duası",
   "arapca": "رَّبِّ إِمَّا تُرِيَنِّى مَا يُوعَدُونَ رَبِّ فَلَا تَجْعَلْنِى فِى ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
@@ -1956,7 +2110,7 @@
   "hazineId": "dua_k073"
  },
  {
-  "gun": 194,
+  "gun": 208,
   "baslik": "Faydalı İlim Duası",
   "kategori": "Faydalı İlim",
   "anlam": "Allah’ım bana öğrettiğin ilimle beni yararlandır bana yarayacak olan ilmi bana öğret. ilmimi artır. Her zaman ve zeminde sana hamdolsun. Cehennemliklerin halinden Allah’a sığınırım.",
@@ -1965,7 +2119,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 195,
+  "gun": 209,
   "baslik": "Ailemi Kurtar",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ نَجِّنِى وَأَهْلِى مِمَّا يَعْمَلُونَ",
@@ -1977,7 +2131,7 @@
   "hazineId": "dua_k074"
  },
  {
-  "gun": 196,
+  "gun": 210,
   "baslik": "Telbiye",
   "kategori": "Telbiye",
   "anlam": "Allahım dâvetine çokça icabet ettim. Senin dâvetine mükerrer icabet ettim. Senin ortağın yoktur. Senin dâvetine tekrar icabet ettim. Şüphesiz, hamd ve ni'met senindir mülk de senindir. Hiç bir ortağın yoktur.",
@@ -1986,7 +2140,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)"
  },
  {
-  "gun": 197,
+  "gun": 211,
   "baslik": "Bağışla ve Mülk Ver",
   "kategori": "Kur'an Duası",
   "arapca": "رَبِّ ٱغْفِرْ لِى وَهَبْ لِى مُلْكًۭا لَّا يَنۢبَغِى لِأَحَدٍۢ مِّنۢ بَعْدِىٓ ۖ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
@@ -1998,7 +2152,7 @@
   "hazineId": "dua_k075"
  },
  {
-  "gun": 198,
+  "gun": 212,
   "baslik": "Mescide Girerken Dua",
   "kategori": "Mescid",
   "anlam": "Allah'ın adıyla. Selam da Allah'ın Resulüne olsun. Allah'ım! Benim günahlarımı mağfiret eyle ve rahmetinin kapılarını bana aç.",
@@ -2007,7 +2161,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)"
  },
  {
-  "gun": 199,
+  "gun": 213,
   "baslik": "Bağışlanma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Allah’ım, dolu ve kar suyu ile günahlarımı yıka. Beyaz elbiseyi kirden arındırdığın gibi kalbimi de günahlardan temizle.",
@@ -2016,7 +2170,19 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-nasai)"
  },
  {
-  "gun": 200,
+  "gun": 214,
+  "baslik": "Doğru Yola İletilme Ümidi",
+  "kategori": "Kur'an Duası",
+  "arapca": "عَسَىٰ رَبِّىٓ أَن يَهْدِيَنِى سَوَآءَ ٱلسَّبِيلِ",
+  "okunus": "'asâ rabbî en yehdiyenî sevâe s-sebîl",
+  "anlam": "Medyen'e doğru yöneldiğinde: “Rabbimin bana doğru yolu göstereceğini umarım” dedi.",
+  "kaynak": "Kasas, 28/22",
+  "sihhat": "Kur'an-ı Kerîm",
+  "metinKaynagi": "api.quran.com · Diyanet meali",
+  "hazineId": "dua_k108"
+ },
+ {
+  "gun": 215,
   "baslik": "Göklerin ve Yerin Yaratıcısına",
   "kategori": "Kur'an Duası",
   "arapca": "ٱللَّهُمَّ فَاطِرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ عَـٰلِمَ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ أَنتَ تَحْكُمُ بَيْنَ عِبَادِكَ فِى مَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ",
@@ -2028,7 +2194,7 @@
   "hazineId": "dua_k076"
  },
  {
-  "gun": 201,
+  "gun": 216,
   "baslik": "Tevhid Zikri",
   "kategori": "Tevhid Zikri",
   "anlam": "La ilahe illallahu vahdeha la şerıke leh, lehu'l-mulkü ve lehü'l-hamdu ve hüve ala kulli şey'in kadır. Allahümme la mania li ma a'teyte ve la mu'tiye li ma men'ate. Ve la yenfeu zelceddi minke'l-ceddü=Allah'tan başka hiçbir ilah yoktur, O'nun ortağı yoktur. Mülk O'nundur. Hamd O'na mahsustur. O her şeye kadirdir. Allah'ım senin verdiğini engelleyecek, vermediğini verecek hiç kimse yoktur. Senin katında mal varlığı olana zenginliği fayda vermez.",
@@ -2037,7 +2203,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 202,
+  "gun": 217,
   "baslik": "İşimi Allah'a Havale Ediyorum",
   "kategori": "Kur'an Duası",
   "arapca": "وَأُفَوِّضُ أَمْرِىٓ إِلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ بَصِيرٌۢ بِٱلْعِبَادِ",
@@ -2049,7 +2215,7 @@
   "hazineId": "dua_k077"
  },
  {
-  "gun": 203,
+  "gun": 218,
   "baslik": "Sabah Namazından Sonra Dua",
   "kategori": "Sabah",
   "anlam": "Allah'ım! Ben Senden yararlı ilim, güzel (= helal) rızık ve makbul amel dilerim.",
@@ -2058,7 +2224,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)"
  },
  {
-  "gun": 204,
+  "gun": 219,
   "baslik": "Tevhid Zikri",
   "kategori": "Tevhid Zikri",
   "anlam": "La havle ve la kuwete illa billah=her çare ve kuwet ancak Allah ile olur.",
@@ -2067,7 +2233,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 205,
+  "gun": 220,
   "baslik": "Binek Duası",
   "kategori": "Kur'an Duası",
   "arapca": "سُبْحَـٰنَ ٱلَّذِى سَخَّرَ لَنَا هَـٰذَا وَمَا كُنَّا لَهُۥ مُقْرِنِينَ وَإِنَّآ إِلَىٰ رَبِّنَا لَمُنقَلِبُونَ",
@@ -2079,7 +2245,7 @@
   "hazineId": "dua_k078"
  },
  {
-  "gun": 206,
+  "gun": 221,
   "baslik": "Meclis Kefâreti",
   "kategori": "Meclis Kefâreti",
   "anlam": "Ey Allah'ım seni (şanına yakışmayan her sıfattan) tenzih ederim. Senden başka (gerçek) bir ilah olmadığına şahitlik ederim. Senden af dilerim ve sana tevbe ediyorum.",
@@ -2088,7 +2254,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 207,
+  "gun": 222,
   "baslik": "Hamd ve Şükür Duası",
   "kategori": "Hamd ve Şükür",
   "anlam": "Elhamdülillahi rabbil alemîn (Eksiksiz tüm övgüler alemlerin Rabbi olan Allah’a mahsustur).",
@@ -2097,7 +2263,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 208,
+  "gun": 223,
   "baslik": "Felak Sûresi ile Sığınma",
   "kategori": "Kur'an Duası",
   "arapca": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
@@ -2109,7 +2275,7 @@
   "hazineId": "dua_k079"
  },
  {
-  "gun": 209,
+  "gun": 224,
   "baslik": "Yağmur Duası",
   "kategori": "Yağmur",
   "anlam": "Allahım! Bize akibeti hayırlı, bol, umumi, acil, geç kalmayan, yararlı ve zararsız bir yağmur ver.",
@@ -2118,7 +2284,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)"
  },
  {
-  "gun": 210,
+  "gun": 225,
   "baslik": "Tevhid Zikri",
   "kategori": "Tevhid Zikri",
   "anlam": "La havle vela kuvvete illa billah = çaba ve güç gösterebilmemiz ancak Allah’ın izni iledir.",
@@ -2127,7 +2293,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 211,
+  "gun": 226,
   "baslik": "Nâs Sûresi ile Sığınma",
   "kategori": "Kur'an Duası",
   "arapca": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ مَلِكِ ٱلنَّاسِ إِلَـٰهِ ٱلنَّاسِ مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
@@ -2139,7 +2305,7 @@
   "hazineId": "dua_k080"
  },
  {
-  "gun": 212,
+  "gun": 227,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Bismillahi'l-lezi lâ yedurru maasmihi şey’ün fi'l-Ardı ve lâ fi's-Semâi ve huve's-Semiu'l-Alîm = (Eziyyet edici her şeyden) Allah'ın ismiyle (korunurum) . Öyle Allah ki, O'nun İsmiyle beraber (olununca) ne yerde bulunan ne de gökte (n inecek) olan hiçbir şey zarar veremez. (Her şeyi) işitici O'dur, bilici O'dur.",
@@ -2148,7 +2314,17 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)"
  },
  {
-  "gun": 213,
+  "gun": 228,
+  "baslik": "Dört Şeyden Sığınma",
+  "kategori": "Sığınma",
+  "anlam": "Allahım dört şeyden sana sığınırım: Faydasız ilimden, huşu duymayan kalp'ten, doymayan nefis'ten ve işitilmeyen (yani kabul olmayan) dua'dan.",
+  "kaynak": "İbn Mâce, 3837",
+  "sihhat": "Sahih (Al-Albani)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)",
+  "duzeltme": "Çeviri metnindeki yazım hatası düzeltildi: duynayan → duymayan"
+ },
+ {
+  "gun": 229,
   "baslik": "Hamd ve Yardım Dileme (Fâtiha)",
   "kategori": "Kur'an Duası",
   "arapca": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ مَـٰلِكِ يَوْمِ ٱلدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
@@ -2160,7 +2336,7 @@
   "hazineId": "dua_k081"
  },
  {
-  "gun": 214,
+  "gun": 230,
   "baslik": "Namazdan Sonra Dua",
   "kategori": "Namazdan Sonra",
   "anlam": "Allah'ım, selâm sensin; selâmet de ancak sendendir. Mübareksin. Ey Celâl ve İkram sahibi!",
@@ -2169,7 +2345,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 215,
+  "gun": 231,
   "baslik": "Gece Kalkınca Dua",
   "kategori": "Gece",
   "anlam": "Allah'ım! Bana mağfiret eyle. Beni hidayette daim eyle, beni rızıklandır ve bana afiyet ver.",
@@ -2178,7 +2354,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)"
  },
  {
-  "gun": 216,
+  "gun": 232,
   "baslik": "Âyetü'l-Kürsî",
   "kategori": "Kur'an Duası",
   "arapca": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
@@ -2190,7 +2366,7 @@
   "hazineId": "dua_k082"
  },
  {
-  "gun": 217,
+  "gun": 233,
   "baslik": "Nur Duası",
   "kategori": "Nur",
   "anlam": "Allah'ım! Benim kalbime nur, gözüme nûr, kulağıma nur, sağıma nur, soluma nûr, üstüme nûr, altıma nûr. Önüme nûr ve arkama nûr ver! benim nurumu büyült!",
@@ -2199,7 +2375,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 218,
+  "gun": 234,
   "baslik": "Tevhide Şahitlik",
   "kategori": "Kur'an Duası",
   "arapca": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّا هُوَ وَٱلْمَلَـٰٓئِكَةُ وَأُو۟لُوا۟ ٱلْعِلْمِ قَآئِمًۢا بِٱلْقِسْطِ ۚ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
@@ -2211,7 +2387,7 @@
   "hazineId": "dua_k083"
  },
  {
-  "gun": 219,
+  "gun": 235,
   "baslik": "Hamd ve Şükür Duası",
   "kategori": "Hamd ve Şükür",
   "anlam": "Allah'ım! Ey Rabbimiz! Gökler dolusu, yer dolusu, göklerle yer arası dolusun, onlardan başka dilediğin her şey dolusu hamd ancak sana mahsûsdur.",
@@ -2220,7 +2396,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 220,
+  "gun": 236,
   "baslik": "İstihâre Duası",
   "kategori": "İstihâre",
   "anlam": "Allah'ım! Hakkımda hayırlısını Sen bildiğin için ben hayırlısına irşad edilmemi senden isterim ve gücünden yardım diliyerek hayırlısına gücümün yetmesini senden dilerim. Senin büyük fadl (ve kerem)ından isterim. Çünkü Sen (her şeye) kadirsin. Ben hiç bir şeye kadir değilim. Sen (her şeyi) bilirsin. Ben (bir şey) bilmem. Sen (herkese) gizli olan herşeyi çok bilicisin. Allah'ım! İstediğim bu iş (burada yapmak istediği şeyi belirtir) Senin ilminde benim için dinime, hayatıma ve ahiretime hayır ise (yahut şimdiki ve gelecekteki işlerim bakımından hayırlı ise) bunu bana mukadder kıl. (Buna gücümü yetiştir.) Bunu bana müyesser kıl. Ve bu işi bana mübarek eyle. Ve eğer senin ilminde (birinci defa söylediğinin mislini burada söyler) şer ise bu işi benden, beni (ve kalbimi) de bu işten çevir ve hayır nerede ise o hayrı bana mukadder eyle! Sonra nefsimi bu hayr'a razı kıl.",
@@ -2229,7 +2405,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)"
  },
  {
-  "gun": 221,
+  "gun": 237,
   "baslik": "Bağışlanma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Allahım! Evvel ve âhir, gîzli ve aşikâr işlediğim bütün günahları ve yaptığım bütün israflarımı ve senin benden daha iyi bildiğin kusurlarımı bana bağışla! İlerleten ancak sen! gerileten de ancak sensin! Senden başka hiç bir ilâh yokdur!",
@@ -2238,7 +2414,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 222,
+  "gun": 238,
   "baslik": "Bizi Buna Eriştiren Allah'a Hamd",
   "kategori": "Kur'an Duası",
   "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى هَدَىٰنَا لِهَـٰذَا وَمَا كُنَّا لِنَهْتَدِىَ لَوْلَآ أَنْ هَدَىٰنَا ٱللَّهُ ۖ لَقَدْ جَآءَتْ رُسُلُ رَبِّنَا بِٱلْحَقِّ ۖ وَنُودُوٓا۟ أَن تِلْكُمُ ٱلْجَنَّةُ أُورِثْتُمُوهَا بِمَا كُنتُمْ تَعْمَلُونَ",
@@ -2250,7 +2426,7 @@
   "hazineId": "dua_k084"
  },
  {
-  "gun": 223,
+  "gun": 239,
   "baslik": "Kalbin Sebatı İçin Dua",
   "kategori": "Kalbin Sebatı",
   "anlam": "Allahım! Ey kalbleri çeviren! Bizim kalblerimizi taatına çevir!",
@@ -2259,7 +2435,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 224,
+  "gun": 240,
   "baslik": "Cennet Ehlinin Tesbihi",
   "kategori": "Kur'an Duası",
   "arapca": "سُبْحَـٰنَكَ ٱللَّهُمَّ وَتَحِيَّتُهُمْ فِيهَا سَلَـٰمٌۭ ۚ وَءَاخِرُ دَعْوَىٰهُمْ أَنِ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
@@ -2271,7 +2447,7 @@
   "hazineId": "dua_k085"
  },
  {
-  "gun": 225,
+  "gun": 241,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allahım! Ben cimrilikten, tenbellikten, erzel-i ömürden, kabir azabından ve hayat memat fitnesinden sana sığınırım.",
@@ -2280,7 +2456,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 226,
+  "gun": 242,
   "baslik": "İhlâs ve İstiğfar Duası",
   "kategori": "Bağışlanma",
   "anlam": "Allahım, beni o kimselerden eyle ki ihlasla güzel amel işledikleri zaman (bunun mükâfatıyla) müjdelenir ve hata işledikleri zaman istiğfar ederler.",
@@ -2289,7 +2465,19 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)"
  },
  {
-  "gun": 227,
+  "gun": 243,
+  "baslik": "Sıkıntıda Rabbine Niyaz",
+  "kategori": "Kur'an Duası",
+  "arapca": "أَنِّى مَسَّنِىَ ٱلشَّيْطَـٰنُ بِنُصْبٍۢ وَعَذَابٍ",
+  "okunus": "Ennî messeniye s-şeytânu binusbin ve'azâb",
+  "anlam": "Kulumuz Eyyub'u da an; Rabbine: “Doğrusu şeytan bana yorgunluk ve azap verdi” diye seslenmişti.",
+  "kaynak": "Sâd, 38/41",
+  "sihhat": "Kur'an-ı Kerîm",
+  "metinKaynagi": "api.quran.com · Diyanet meali",
+  "hazineId": "dua_k109"
+ },
+ {
+  "gun": 244,
   "baslik": "Rabbime Tevekkül Ettim",
   "kategori": "Kur'an Duası",
   "arapca": "إِنِّى تَوَكَّلْتُ عَلَى ٱللَّهِ رَبِّى وَرَبِّكُم ۚ مَّا مِن دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ بِنَاصِيَتِهَآ ۚ إِنَّ رَبِّى عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ",
@@ -2301,7 +2489,7 @@
   "hazineId": "dua_k086"
  },
  {
-  "gun": 228,
+  "gun": 245,
   "baslik": "Yatarken ve Uyanırken Dua",
   "kategori": "Yatarken ve Uyanırken",
   "anlam": "Allahım! Nefsimi sen yarattın, sen öldüreceksin. Onun hayatı-memâtı senin içindir. Sağ bırakırsan onu koru, öldürürsen onu affeyle. Allahım! Ben senden afiyet dilerim!",
@@ -2310,7 +2498,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 229,
+  "gun": 246,
   "baslik": "Başarım Ancak Allah'ladır",
   "kategori": "Kur'an Duası",
   "arapca": "تَوْفِيقِىٓ إِلَّا بِٱللَّهِ ۚ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ",
@@ -2322,7 +2510,7 @@
   "hazineId": "dua_k087"
  },
  {
-  "gun": 230,
+  "gun": 247,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allahım! Ben bütün yaptıklarımın ve yapmadıklarımın şerrinden sana sığınırım.",
@@ -2331,7 +2519,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 231,
+  "gun": 248,
   "baslik": "Allah En İyi Koruyandır",
   "kategori": "Kur'an Duası",
   "arapca": "فَٱللَّهُ خَيْرٌ حَـٰفِظًۭا ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ",
@@ -2343,7 +2531,7 @@
   "hazineId": "dua_k088"
  },
  {
-  "gun": 232,
+  "gun": 249,
   "baslik": "Borçtan Kurtulma Duası",
   "kategori": "Rızık",
   "anlam": "Allahım! Ey yedi göğün Rabbi. Azametli Arş'ın Rabbi. bizim Rabbimiz ve her şey'in Rabbi. Ey Tevrat, İncil ve Kur'an-i Azim'i indiren. Evvel sensin senden önce olan hiç bir şey yoktur. Ahir de sensin, senden sonra hiç bir şey yoktur. Zahir sensin, varlığı seninkinden daha aşikar hiç bir şey yoktur. Batın sensin, sen'den daha gizli hiç bir şey yoktur. Borcumuzu öde ve bizi fakirlikten kurtarıp zenginleştir.",
@@ -2352,7 +2540,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)"
  },
  {
-  "gun": 233,
+  "gun": 250,
   "baslik": "Sığınma Duası",
   "kategori": "Sığınma",
   "anlam": "Allahım! Ancak sana teslim oldum; sana iman ettim; sana tevekkül eyledim; sana yöneldim ve ancak seninle düşmana karşı mücadele ettim. Allahım! Beni dalâlete düşürmenden, senin izzetine sığınırım. Senden başka hiç bir ilâh yoktur. Ölmeyen diri ancak sensin. Cinlerle insanlar ölürler.",
@@ -2361,7 +2549,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 234,
+  "gun": 251,
   "baslik": "Derdimi Allah'a Arz Ederim",
   "kategori": "Kur'an Duası",
   "arapca": "إِنَّمَآ أَشْكُوا۟ بَثِّى وَحُزْنِىٓ إِلَى ٱللَّهِ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
@@ -2373,7 +2561,7 @@
   "hazineId": "dua_k089"
  },
  {
-  "gun": 235,
+  "gun": 252,
   "baslik": "Bağışlanma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Allahım! Bana günahımı, cehlimi, işimdeki israfımı ve benden daha iyi bildiğin kusurlarımı bağışla. Allahım! Bana ciddimi, şakamı, hatamı ve kasdimi bağışla. Bunların hepsi bende vardır. Allahım! Peşin yaptığım ve sonraya bıraktığım, gizlediğim veya aşikâr yaptığım ve senin benden daha iyi bildiğin bütün kusurlarımı bana bağışla! İleri alan ve beri bırakan ancak sensin. Sen her şeye kadirsin.",
@@ -2382,7 +2570,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 236,
+  "gun": 253,
   "baslik": "Hidayet ve Takvâ Duası",
   "kategori": "Hidayet ve Takvâ",
   "anlam": "Allahım! Ben senden hidayet, takva, iffet ve (gönül) zenginlik (i) dilerim.",
@@ -2391,7 +2579,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 237,
+  "gun": 254,
   "baslik": "Yapılan ve Yapılmayan Şerden Sığınma",
   "kategori": "Sığınma",
   "anlam": "Allahım! İşlediğimin şerrinden ve işlemediğimden sana sığınırım.",
@@ -2400,7 +2588,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)"
  },
  {
-  "gun": 238,
+  "gun": 255,
   "baslik": "Nesli İçin Dua",
   "kategori": "Kur'an Duası",
   "arapca": "رَّبَّنَآ إِنِّىٓ أَسْكَنتُ مِن ذُرِّيَّتِى بِوَادٍ غَيْرِ ذِى زَرْعٍ عِندَ بَيْتِكَ ٱلْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ فَٱجْعَلْ أَفْـِٔدَةًۭ مِّنَ ٱلنَّاسِ تَهْوِىٓ إِلَيْهِمْ وَٱرْزُقْهُم مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَشْكُرُونَ",
@@ -2412,7 +2600,7 @@
   "hazineId": "dua_k090"
  },
  {
-  "gun": 239,
+  "gun": 256,
   "baslik": "Bağışlanma Duası",
   "kategori": "Bağışlanma",
   "anlam": "Allahım! Beni affet! Bana acı! Bana hidayet ver! Ve beni rızıklandır!",
@@ -2421,7 +2609,17 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 240,
+  "gun": 257,
+  "baslik": "Dünya ve Âhirette Âfiyet Duası",
+  "kategori": "Âfiyet",
+  "anlam": "Allahım! Ben sen'den dünya ve ahirette afiyet dilerim",
+  "kaynak": "İbn Mâce, 3851",
+  "sihhat": "Sahih (Al-Albani)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)",
+  "duzeltme": "Çeviri metnindeki yazım hatası düzeltildi: Allahın! → Allahım!"
+ },
+ {
+  "gun": 258,
   "baslik": "Evlat İçin Hamd",
   "kategori": "Kur'an Duası",
   "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى وَهَبَ لِى عَلَى ٱلْكِبَرِ إِسْمَـٰعِيلَ وَإِسْحَـٰقَ ۚ إِنَّ رَبِّى لَسَمِيعُ ٱلدُّعَآءِ",
@@ -2433,7 +2631,7 @@
   "hazineId": "dua_k091"
  },
  {
-  "gun": 241,
+  "gun": 259,
   "baslik": "Yolculuk Duası",
   "kategori": "Yolculuk",
   "anlam": "Allah’ım yolculukta arkadaş sensin çoluk çocuğumuza da sen vekilsin. Allah’ım yolcuğun sıkıntılarından sana sığınırım. Dönüşün zorluklarından ve kötülüklerinden de sana sığınırım. Allah’ım yolculuğumuzda bizim arkadaşımız ol çoluk çocuğumuza da vekil ol, bolluktan sonraki darlıktan, mazlumun bedduâsından, mal ve çoluk çocukta kötü görüntü ve kötü neticelerden sana sığınırım.",
@@ -2442,7 +2640,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 242,
+  "gun": 260,
   "baslik": "Diriliş Günü Rezil Etme",
   "kategori": "Kur'an Duası",
   "arapca": "وَلَا تُخْزِنِى يَوْمَ يُبْعَثُونَ يَوْمَ لَا يَنفَعُ مَالٌۭ وَلَا بَنُونَ إِلَّا مَنْ أَتَى ٱللَّهَ بِقَلْبٍۢ سَلِيمٍۢ",
@@ -2454,7 +2652,7 @@
   "hazineId": "dua_k092"
  },
  {
-  "gun": 243,
+  "gun": 261,
   "baslik": "Sabah ve Akşam Âfiyet Duası",
   "kategori": "Âfiyet",
   "anlam": "Allahım! Ben senden dünyada ve ahirette af ve afiyet dilerim. Allahım! Ben senden dinim, dünyam, aile ferdlerim ve malım (hususun) da af ve afiyet dilerim. Allahım! Ayıplarımı ört, beni korkutacak şeylerden emin kıl ve benim önümden, arkamdan, sağımdan solumdan ve üstümden koru. Altımdan muaheze edilmemden sana sığınırım.",
@@ -2463,7 +2661,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-ibnmajah)"
  },
  {
-  "gun": 244,
+  "gun": 262,
   "baslik": "Yolculuk Duası",
   "kategori": "Yolculuk",
   "anlam": "Allah’ım bu yolculuğumda senden sana itaat ve kullukta yine sana karşı sorumluluk bilinci içersinde olmayı dilerim. Razı olacağım amelleri yapmayı dilerim. Allah’ım yolculuğumuzu kolay getir. Uzakları yakın eyle. Yolculuğumuzda arkadaşımız sensin çoluk çocuğumuz hakkında da vekil sensin. Allah’ım bu yolculuğumuzda da bize arkadaş ol. Çoluk çocuğumuz hakkında da vekilimiz ol.",
@@ -2472,7 +2670,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 245,
+  "gun": 263,
   "baslik": "Hamd ve Seçilmiş Kullara Selam",
   "kategori": "Kur'an Duası",
   "arapca": "قُلِ ٱلْحَمْدُ لِلَّهِ وَسَلَـٰمٌ عَلَىٰ عِبَادِهِ ٱلَّذِينَ ٱصْطَفَىٰٓ ۗ ءَآللَّهُ خَيْرٌ أَمَّا يُشْرِكُونَ",
@@ -2484,7 +2682,7 @@
   "hazineId": "dua_k093"
  },
  {
-  "gun": 246,
+  "gun": 264,
   "baslik": "Tesbih",
   "kategori": "Tesbih",
   "anlam": "Rabbimi hamdiyle tesbih ederim. Rabbimi hamdiyle tesbih ederim.",
@@ -2493,7 +2691,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 247,
+  "gun": 265,
   "baslik": "Salavat Ayeti",
   "kategori": "Kur'an Duası",
   "arapca": "إِنَّ ٱللَّهَ وَمَلَـٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى ٱلنَّبِىِّ ۚ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ صَلُّوا۟ عَلَيْهِ وَسَلِّمُوا۟ تَسْلِيمًا",
@@ -2505,7 +2703,7 @@
   "hazineId": "dua_k094"
  },
  {
-  "gun": 248,
+  "gun": 266,
   "baslik": "Salavat",
   "kategori": "Salavat",
   "anlam": "Ey Allah’ım, Muhammed (s.a.v.)’e, O’nun soy sop ve inanan yakınlarına İbrahim (a.s.) ve onun soy sopuna rahmet edip hoş muamele ettiğin gibi muamele et. Muhammed (s.a.v.)’e onun soy sop ve inanan yakınlarını mübarek kılıp bereketli hayatlar nasib ettiğin gibi alemde mübarek kıl gerçekten sen övülmeye layık ve şanı şerefi yüce olansın.",
@@ -2514,7 +2712,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 249,
+  "gun": 267,
   "baslik": "Kabir Ziyaretinde Dua",
   "kategori": "Kabir",
   "anlam": "Selâm mü'min ve Müslümanlardan bu diyarda yatanlara!... Allah, bizim geçmişlerimize de, geleceklerimize de rahmet eylesin. Bizler de inşaallah sizlere katılacağız",
@@ -2523,7 +2721,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 250,
+  "gun": 268,
   "baslik": "Musibet Anında Dua",
   "kategori": "Musibet",
   "anlam": "Allah’ım beni ve onu affet ve bana ondan daha hayırlısını ver.",
@@ -2532,7 +2730,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 251,
+  "gun": 269,
   "baslik": "Hüznü Gideren Allah'a Hamd",
   "kategori": "Kur'an Duası",
   "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَذْهَبَ عَنَّا ٱلْحَزَنَ ۖ إِنَّ رَبَّنَا لَغَفُورٌۭ شَكُورٌ",
@@ -2544,7 +2742,7 @@
   "hazineId": "dua_k095"
  },
  {
-  "gun": 252,
+  "gun": 270,
   "baslik": "Ümmet İçin Bereket Duası",
   "kategori": "Ümmet İçin Bereket",
   "anlam": "Ey Allahım ! Ümmetim için (gündüzün) erken vakitlerini bereketli kıl.",
@@ -2553,7 +2751,19 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 253,
+  "gun": 271,
+  "baslik": "Vaadini Yerine Getiren Allah'a Hamd",
+  "kategori": "Kur'an Duası",
+  "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى صَدَقَنَا وَعْدَهُۥ وَأَوْرَثَنَا ٱلْأَرْضَ نَتَبَوَّأُ مِنَ ٱلْجَنَّةِ حَيْثُ نَشَآءُ ۖ فَنِعْمَ أَجْرُ ٱلْعَـٰمِلِينَ",
+  "okunus": "L-hamdu lillehi ellezî sadekanâ ve'dehu ve-evrasenâ l-erda netebevve-u mine l-ceneti haysu neşâu feni'me ecru l-'âmilîn",
+  "anlam": "Onlar: “Bize verdiği sözde duran ve bizi bu yere varis kılan Allah'a hamdolsun. Cennette istediğimiz yerde oturabiliriz. Yararlı iş işleyenlerin ecri ne güzelmiş!” derler.",
+  "kaynak": "Zümer, 39/74",
+  "sihhat": "Kur'an-ı Kerîm",
+  "metinKaynagi": "api.quran.com · Diyanet meali",
+  "hazineId": "dua_k110"
+ },
+ {
+  "gun": 272,
   "baslik": "Rabbini Tesbih",
   "kategori": "Kur'an Duası",
   "arapca": "سُبْحَـٰنَ رَبِّكَ رَبِّ ٱلْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَـٰمٌ عَلَى ٱلْمُرْسَلِينَ وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
@@ -2565,7 +2775,7 @@
   "hazineId": "dua_k096"
  },
  {
-  "gun": 254,
+  "gun": 273,
   "baslik": "Yatarken Hamd Duası",
   "kategori": "Uyku",
   "anlam": "Bana yeten (ve halka muhtaç etmeyen, verdiği ev bark ile) beni barındıran, yediren ve içiren, bana iyilik edip iyiliğini arttıran, bana (ni'metlerini) veren ve bollaştıran Allah'a hamdolsun. Allah'a her hâl(im)de hamdolsun, herşeyin besleyip büyütücüsü ve gerçek sahibi ve herşeyîn ma'bûdu olan Allah'ım! (Cehennem) âteş(in)den sana sığınırım",
@@ -2574,7 +2784,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
  },
  {
-  "gun": 255,
+  "gun": 274,
   "baslik": "Rüzgâr Estiğinde Dua",
   "kategori": "Rüzgâr Estiğinde",
   "anlam": "Allah’ım bu rüzgarın hayrını taşıdığı şeylerin hayrını ve gönderdiği şeyin hayrını senden ister. Bu rüzgarın şerrinden, taşıdığı şeyin şerrinden ve gönderildiği şeyin şerrinden sana sığınırım.",
@@ -2583,7 +2793,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 256,
+  "gun": 275,
   "baslik": "Kötülüklerden Koru",
   "kategori": "Kur'an Duası",
   "arapca": "وَقِهِمُ ٱلسَّيِّـَٔاتِ ۚ وَمَن تَقِ ٱلسَّيِّـَٔاتِ يَوْمَئِذٍۢ فَقَدْ رَحِمْتَهُۥ ۚ وَذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
@@ -2595,7 +2805,7 @@
   "hazineId": "dua_k097"
  },
  {
-  "gun": 257,
+  "gun": 276,
   "baslik": "Namazda Okunan Dua",
   "kategori": "Namaz",
   "anlam": "Ey Allah’ım sadece sana secde ederim sana inanırım irademi sana teslim ederim. Benim Rabbim sensin yüzüm beni yaratan bana göz kulak verene secde etti. her şeyi en güzel şekliyle yaratan Allah güzellerin güzeli ve ne mübarektir.",
@@ -2604,7 +2814,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 258,
+  "gun": 277,
   "baslik": "Evvel ve Âhir Olan Allah",
   "kategori": "Kur'an Duası",
   "arapca": "سَبَّحَ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ يُحْىِۦ وَيُمِيتُ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ هُوَ ٱلْأَوَّلُ وَٱلْـَٔاخِرُ وَٱلظَّـٰهِرُ وَٱلْبَاطِنُ ۖ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
@@ -2616,7 +2826,7 @@
   "hazineId": "dua_k098"
  },
  {
-  "gun": 259,
+  "gun": 278,
   "baslik": "Tevekkül Duası",
   "kategori": "Tevekkül",
   "anlam": "Allah’ım dayanağım sensin, yardımcım sensin senin verdiğin güçle düşmanlarla savaşıyorum.",
@@ -2625,7 +2835,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
  },
  {
-  "gun": 260,
+  "gun": 279,
   "baslik": "Tahiyyât (Teşehhüd)",
   "kategori": "Namaz",
   "anlam": "Bütün selamlar, dualar, hoş ve temiz dilekler yalnız Allah'ındır. Selam sana ey Nebii Allah'ın rahmeti ve bereketleri de. Selam bize ve Allah'ın salih kullarına olsun",
@@ -2634,7 +2844,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
  },
  {
-  "gun": 261,
+  "gun": 280,
   "baslik": "Esmâü'l-Hüsnâ Ayetleri",
   "kategori": "Kur'an Duası",
   "arapca": "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَـٰلِمُ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ ۖ هُوَ ٱلرَّحْمَـٰنُ ٱلرَّحِيمُ هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْمَلِكُ ٱلْقُدُّوسُ ٱلسَّلَـٰمُ ٱلْمُؤْمِنُ ٱلْمُهَيْمِنُ ٱلْعَزِيزُ ٱلْجَبَّارُ ٱلْمُتَكَبِّرُ ۚ سُبْحَـٰنَ ٱللَّهِ عَمَّا يُشْرِكُونَ هُوَ ٱللَّهُ ٱلْخَـٰلِقُ ٱلْبَارِئُ ٱلْمُصَوِّرُ ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ يُسَبِّحُ لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
@@ -2646,7 +2856,7 @@
   "hazineId": "dua_k099"
  },
  {
-  "gun": 262,
+  "gun": 281,
   "baslik": "Ev Sahibine Dua",
   "kategori": "Ev Sahibine",
   "anlam": "Allahım! Bunlara verdiğin rızıklarda bereket ihsan et! Kendilerine mağfiret ve rahmet eyle!",
@@ -2655,7 +2865,7 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 263,
+  "gun": 282,
   "baslik": "İhlâs Sûresi",
   "kategori": "Kur'an Duası",
   "arapca": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
@@ -2667,7 +2877,7 @@
   "hazineId": "dua_k100"
  },
  {
-  "gun": 264,
+  "gun": 283,
   "baslik": "Yatarken Dua",
   "kategori": "Yatarken",
   "anlam": "Allahım! Nefsimi sana teslim ettim; yüzümü sana döndüm; sırtımı sana dayadım ve emrini (sevabına) tamaan, (azabından) korkarak havale kıldım. Senden kurtulacak ve sığınacak yer ancak sensin. İndirdiğin kitabına iman ettim. Gönderdiğin Resulüne de inandım.",
@@ -2676,12 +2886,22 @@
   "metinKaynagi": "fawazahmed0/hadith-api (tur-muslim)"
  },
  {
-  "gun": 265,
+  "gun": 284,
   "baslik": "Çocuklar İçin Korunma Duası",
   "kategori": "Çocuk",
   "anlam": "Her ikinizi de Allah’ın noksansız tüm kelimeleriyle her türlü şeytan, zararlı hayvanlar ve göz değmesine karşı Allah’a sığındırırım.",
   "kaynak": "Tirmizî, 2060",
   "sihhat": "Sahih (Ahmad Muhammad Shakir)",
   "metinKaynagi": "fawazahmed0/hadith-api (tur-tirmidhi)"
+ },
+ {
+  "gun": 285,
+  "baslik": "Yolculuktan Dönüş Duası",
+  "kategori": "Yolculuk",
+  "anlam": "Allah'dan başka hakiki ma'bud yoktur. O, birdir, ortağı yoktur. Mülk onundur, hamd (yalnız) O'nadır. O'nun herşeye gücü yeter. (Biz seferden memleketimize) dönenleriz, tevbe edenleriz, (sadece Allah'a) ibadet edenleriz, secde edenleriz ve (sadece) rabbımıza hamdedenleriz. Allah va'dine sadıktır. Kuluna yardım etmiş bütün hizipleri tek başına o hezimete uğratmıştır.",
+  "kaynak": "Ebû Dâvûd, 2770",
+  "sihhat": "Sahih (Al-Albani)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)",
+  "duzeltme": "Çeviri metnindeki yazım hatası düzeltildi: hamdedenle-riz → hamdedenleriz"
  }
 ]
