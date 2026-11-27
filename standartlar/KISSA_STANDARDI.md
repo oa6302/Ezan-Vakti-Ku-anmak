@@ -28,3 +28,4 @@ Veri: `assets/content/kissalar_365.json` · Denetim: `test/kissa_kalite_test.dar
 - Parti 12 (2026-11-27): kissa_177-192, her kategoriden 1.
 - Parti 13 (2026-11-27): kissa_193-208, her kategoriden 1.
 - Parti 14 (2026-11-27): kissa_209-224, her kategoriden 1.
+- Parti 15 (2026-11-27): kissa_225-240, her kategoriden 1.
