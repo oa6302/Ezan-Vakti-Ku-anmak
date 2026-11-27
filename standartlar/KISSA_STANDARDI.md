@@ -36,3 +36,4 @@ Veri: `assets/content/kissalar_365.json` · Denetim: `test/kissa_kalite_test.dar
 - Parti 20 (2026-11-27): kissa_305-320, her kategoriden 1.
 - Parti 21 (2026-11-27): kissa_321-336, her kategoriden 1.
 - Parti 22 (2026-11-27): kissa_337-352, her kategoriden 1.
+- Parti 23 (2026-11-27): kissa_353-365, her kategoriden 1 (son parti: 13 kissa, 365 tamamlandi).
