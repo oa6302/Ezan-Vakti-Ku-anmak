@@ -7100,5 +7100,582 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_109",
+  "kategori": "risaleler",
+  "baslik": "Hüner Çoklukta Değil, Rızadadır",
+  "giris": "Bir hayır işi yapan insan bazen etrafına ne kadar çok kişi topladığına bakarak kendini başarılı ya da başarısız sayar. Az kişi dinlediğinde üzülür, çok kişi geldiğinde sevinir. Bediüzzaman, Yirminci Lem'a'da bu ölçünün yanlış olduğunu gösterir: Bazı peygamberlere çok az kişi uymuştur, ama onlar yine de peygamberliğin sonsuz mükâfatını almışlardır.",
+  "aciklama": "Kur'an-ı Kerîm Peygamber Efendimize vazifesinin sınırını şöyle bildirir: “Eğer yüz çevirirlerse bilsinler ki, Biz seni onlara bekçi göndermedik; sana düşen sadece tebliğdir.” İnsanların kabul etmesi Allah'ın elindedir; tebliğ eden kişi ise yalnız kendi vazifesinden sorumludur. Bu ölçü, hizmet eden müminin kalbini hem gururdan hem de ümitsizlikten korur.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın Yirminci Lem'a'sının Üçüncü Sebeb'inde şöyle seslenir: “Ey sevâba hırslı ve a‘mâl-i uhreviyede kanâatsiz insan! Bazı peygamberler gelmişler ki, mahdûd birkaç kişiden başka kendilerine ittibâ‘ edenler olmadığı hâlde, yine o peygamberlik vazîfe-i kudsiyesinin hadsiz ücretini almışlar.” Eserdeki anlatımın özetine göre ahiret işlerinde bile hırs, insanı ihlâstan uzaklaştırabilir; çünkü insan Allah'ın vazifesine karışmaya başlar. Aynı yerde ölçü şöyle konulur: “Demek hüner, kesret-i etbâ‘ ile değildir. Belki hüner, rızâ-yı İlâhîyi kazanmakladır.” Ve hizmet edene şu öğüt verilir: “Kabûl ettirmek, senin etrafına halkı toplamak, Cenâb-ı Hakk’ın vazîfesidir. Vazîfeni yap, Allâh’ın vazîfesine karışma.”",
+  "kainattanDelil": "Çiftçi tohumu eker ve sular; ama yağmuru yağdırmak, güneşi doğdurmak ve tohumu filizlendirmek onun işi değildir. Bir bahçıvan ağaca bakar, ama meyvenin ne zaman olgunlaşacağına o karar vermez. Kâinatta her varlık kendi vazifesini yapar ve neticeyi Yaratıcı'ya bırakır. İnsanın da işi ekmek ve sulamaktır; ürünü vermek Rabbin işidir.",
+  "hikmet": "Hüner, çok kişinin uymasında değil, Allah'ın rızasını kazanmaktadır. Az kişiye ulaşan bir hizmet de Allah katında büyük bir mükâfat kazandırabilir. Kabul ettirmek ve insanları toplamak Allah'ın vazifesidir. Kul vazifesini yapar, neticeye karışmaz; böylece ihlâsını korur. Neticeyi Allah'a bırakan, hem hizmette sebat eder hem de ihlâsını kaybetmez.",
+  "kendimize": "Bir hayır işinde başarıyı kaç kişiye ulaştığımla mı ölçüyorum? Az kişi ilgilendiğinde hevesim kırılıyor mu? Kendi vazifemi yapıp neticeyi Rabbime bırakabiliyor muyum?",
+  "hayat": "Bugün yaptığımız bir iyiliğin ne kadar kişi tarafından görüldüğünü düşünmeden onu yalnız Allah rızası için tamamlamak bu dersin uygulamasıdır. Bir arkadaşımıza bir hakikati anlattığımızda kabul etmese bile kırılmamak, vazife ile neticeyi ayırmaktır. Hizmetimizde ‘Benim işim tebliğ, kabul ettirmek Rabbimin işi’ demek de kalbi rahatlatan güzel bir alışkanlıktır.",
+  "ders": "Hüner kesret-i etba ile değil, rıza-yı İlahiyi kazanmakladır; kabul ettirmek Allah'ın vazifesidir, vazifeni yap, Allah'ın vazifesine karışma.",
+  "tefekkurSorusu": "Bugün hangi işimi neticesini düşünmeden yalnız Allah rızası için yaptım?",
+  "dua": {
+   "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+   "okunus": "Hasbiye'llâhu lâ ilâhe illâ huve 'aleyhi tevekkeltu vehuve rabbu l-'arşi l-'azîm",
+   "anlam": "Eğer yüz çevirirlerse de ki: “Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.”",
+   "kaynak": "Tevbe, 9/129"
+  },
+  "konular": [
+   "ihlasUhuvvet",
+   "kader"
+  ],
+  "kavramlar": [
+   "İhlas",
+   "Rıza-yı İlahi",
+   "Tebliğ",
+   "Vazife",
+   "Hırs"
+  ],
+  "kaynaklar": [
+   "Şûrâ, 42/48",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirminci Lem'a, Üçüncü Sebeb"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirminci Lem'a'ya göre hüner neyle ölçülür?",
+    "secenekler": [
+     "Kesret-i etba ile",
+     "Rıza-yı İlahiyi kazanmakla",
+     "Şöhretle",
+     "Servetle"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirminci Lem'a'ya göre halkı etrafa toplamak ve kabul ettirmek kimin vazifesidir?",
+    "secenekler": [
+     "Cenab-ı Hakk'ın",
+     "Hizmet edenin",
+     "Halkın",
+     "Hiç kimsenin"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Peygamber Efendimize düşen sadece tebliğdir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_110",
+  "kategori": "ibadet",
+  "baslik": "En Büyük Nimet: Herkese ve Her Zaman Verilen",
+  "giris": "Biri bize bir hediye verdiğinde hemen teşekkür ederiz. Ama her an aldığımız nefese, her sabah doğan güneşe, her gün içtiğimiz suya teşekkür etmeyi çoğu zaman unuturuz. Bediüzzaman, insanların hususi nimetlere şükredip umumi nimetleri unuttuğunu, hâlbuki en büyük nimetin herkese ve her zaman verilen nimet olduğunu hatırlatır.",
+  "aciklama": "Kur'an-ı Kerîm nimetlerin sayısızlığını şöyle bildirir: “Allah'ın nimetini sayacak olsanız bitiremezsiniz. Doğrusu insan pek zalim ve çok nankördür.” Peygamber Efendimiz de şöyle buyurmuştur: “Çoğu insanın farkına varamadığı iki nimet vardır ki, onlar sağlık ve boş vakittir.” En kıymetli nimetler, çoğu zaman en alışık olduğumuz için fark etmediğimiz nimetlerdir.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Şu'le Risâlesi'nde şöyle der: “Hâl bu merkezde iken bazı insanlar şahıslarına âit husûsî ni‘metlere karşı Allâh’a şükrederlerse de, şu umûmî ni‘metler, onlara şumûlü yokmuş gibi akıllarına bile gelmez.” Eserdeki anlatımın özetine göre güneş, hava, su ve mevsimler gibi nimetler herkese verildiği için insan onları kendisine verilmiş saymaz ve şükrünü unutur. Aynı yerde bu yanlış bakış şöyle düzeltilir: “Hâlbuki en büyük ni‘met, âmm ve dâimî olan ni‘metlerdir. Umûmiyet, kemâl ve ehemmiyete delîl olduğu gibi, devam da ulviyet ve kıymete delâlet eder.” Mesnevî-i Nûriye'nin başka bir yerinde de şükrün asıl muhatabı şöyle tanıtılır: “Allâh, kâmil-i mutlak olduğundan lizâtihî mahbûbdur.” Yani O, yalnız nimetleri için değil, zatı için de sevilmeye ve övülmeye lâyıktır.",
+  "kainattanDelil": "Güneş her sabah bütün dünyayı aydınlatır ve kimseden ücret istemez. Hava her canlıya yetecek kadar boldur ve hiç tükenmez. Yağmur zengin ile fakirin tarlasını aynı şekilde sular. Bu nimetler herkese verildiği için değersiz değil, aksine o kadar değerlidir ki hiç kimse onları satın alamaz. Kalbimiz bir ömür boyunca hiç durmadan çalışır; ama biz onun her vuruşunu bir nimet olarak nadiren düşünürüz.",
+  "hikmet": "İnsanlar çoğu zaman hususi nimetlere şükredip umumi nimetleri unutur. Hâlbuki en büyük nimet, herkese ve her zaman verilen nimettir. Umumilik kemale, devam ise kıymete işarettir. Allah, kâmil-i mutlak olduğu için zatı itibarıyla sevilmeye lâyıktır. Şükrü umumi nimetlere genişleten, her an teşekkür edecek bir sebep bulur.",
+  "kendimize": "Bugün aldığım nefes, içtiğim su ve gördüğüm güneş için teşekkür ettim mi? Sağlığımın ve boş vaktimin kıymetini biliyor muyum? Şükrüm yalnız bana özel verilenlere mi yönelik?",
+  "hayat": "Bugün sabah uyanınca ‘Bana yeniden bir gün verdin, elhamdülillah’ demek bu dersin uygulamasıdır. Su içerken, güneşe bakarken veya derin bir nefes alırken kalben teşekkür etmek, umumi nimetleri fark etmektir. Boş vaktimizin bir kısmını bir ibadete veya bir iyiliğe ayırmak da hadiste hatırlatılan nimetin şükrüdür.",
+  "ders": "En büyük nimet amm ve daimi olan nimetlerdir; umumiyet kemal ve ehemmiyete, devam ise ulviyet ve kıymete delalet eder.",
+  "tefekkurSorusu": "Bugün hangi umumi nimete ilk kez dikkatle teşekkür ettim?",
+  "dua": {
+   "arapca": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّـٰلِحِينَ",
+   "okunus": "Rabbi evzi'nî en eşkura ni'meteke elletî en'amte 'aleyye ve'alâ vâlideyye ve-en e'mele sâlihan terdâhu ve-edhılnî birahmetike fî 'ıbâdike s-sâlihîn",
+   "anlam": "Süleyman, onun sözüne hafifçe güldü ve: “Rabbim! Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl. Rahmetinle, beni iyi kullarının arasına koy” dedi.",
+   "kaynak": "Neml, 27/19"
+  },
+  "konular": [
+   "sukurSabir",
+   "tabiat"
+  ],
+  "kavramlar": [
+   "Şükür",
+   "Umumi Nimet",
+   "Devam",
+   "Kemal",
+   "Nankörlük"
+  ],
+  "kaynaklar": [
+   "İbrâhîm, 14/34",
+   "Buhârî, Rikâk, 6412",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Şu'le Risâlesi",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye"
+  ],
+  "sinav": [
+   {
+    "soru": "Şu'le Risâlesi'ne göre en büyük nimet hangisidir?",
+    "secenekler": [
+     "Hususi nimetler",
+     "Amm ve daimi olan nimetler",
+     "Nadir nimetler",
+     "Satın alınan nimetler"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Hadise göre çoğu insanın farkına varamadığı iki nimet nedir?",
+    "secenekler": [
+     "Sağlık ve boş vakit",
+     "Altın ve gümüş",
+     "Şöhret ve makam",
+     "Ev ve araba"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah'ın nimetlerini saymaya kalksak bitiremeyiz.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_111",
+  "kategori": "kainat",
+  "baslik": "Rızık Taahhüdü: Hiçbir Canlı Rızıksızlıktan Ölmez",
+  "giris": "İnsan, geleceğin rızkını düşünürken çoğu zaman bugünün huzurunu kaybeder. ‘Yarın ne yiyeceğim, ne kazanacağım?’ endişesi kalbi daraltır. Bediüzzaman, Lem'alar'ın On İkinci Lem'a'sında Allah'ın rızık taahhüdünün bir hakikat olduğunu ve O'nun her canlının bedeninde bile ihtiyat için rızık sakladığını hatırlatır.",
+  "aciklama": "Kur'an-ı Kerîm rızkın sahibini açıkça bildirir: “Yeryüzünde yaşayan bütün canlıların rızkı ancak Allah'a aittir. O, canlıları babaların sulbünde kararlaşmış ve anaların rahminde kararlaşmakta iken de bilir.” Rızkın sahibini tanıyan insan çalışmayı bırakmaz; ama endişe ile değil, tevekkül ile çalışır. Çünkü bilir ki kendisine yazılan rızık ona mutlaka ulaşacaktır.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın On İkinci Lem'a'sının Birinci Nükte'sinde şöyle der: “Taahhüd-ü Rabbânî hakîkattir. Rızıksızlık yüzünden ölenler yoktur.” Eserdeki anlatımın özetine göre Allah, canlının bedenine gönderdiği rızkın bir kısmını yağ şeklinde saklar; hatta her hücreye gönderdiği rızkın bir kısmını o hücrenin bir köşesinde biriktirir. Aynı yerde bu ihtiyatın hikmeti şöyle açıklanır: “İstikbâlde, hâriçten rızık gelmediği zaman sarf edilmek üzere, bir ihtiyât zahîresi hükmünde bulundurur.” Bu saklanmış rızık bitmeden ölenlerin ölüm sebebi rızıksızlık değildir; aksine kötü alışkanlıklardan ve onları terk etmekten doğan bir hastalıktır. Mektûbât'ın Yirminci Mektub'unda ise hayat gibi ölümün de Allah'ın elinde olduğu bildirilir: “Evet, en cüz’î bir zîhayatın mevti dahi, hayatı gibi, bütün hakāik-i hayat ve envâ‘-ı mevt elinde bulunan bir Zât-ı Zülcelâl’in kanunuyla, izniyle, emriyle, kuvvetiyle, ilmiyle olmak zarûrîdir.”",
+  "kainattanDelil": "Kış uykusuna yatan ayı, aylarca yemek yemeden yaşar; çünkü bedeninde biriktirilmiş yağ onu besler. Deve, hörgücünde sakladığı yağla çölde günlerce yol alır. Tohum, içinde taşıdığı besinle toprağın altında filizlenir ve kökleri suya ulaşana kadar onunla yaşar. Kâinatta rızık, yalnız dışarıdan değil, içeriden de ihtiyat olarak verilmiştir.",
+  "hikmet": "Allah'ın rızık taahhüdü bir hakikattir; hiçbir canlı rızıksızlıktan ölmez. Allah, her canlının bedeninde ve hatta her hücresinde ihtiyat rızık saklar. Ölüm, rızıksızlıktan değil, Allah'ın kanunu ve izniyle gelir. Rızkın sahibini bilen, endişe ile değil, tevekkül ile çalışır.",
+  "kendimize": "Rızık endişesi kalbimi ne kadar meşgul ediyor? Çalışırken sonucu Rabbime bırakabiliyor muyum? Kötü alışkanlıklarımın bedenime ve hayatıma verdiği zararı düşünüyor muyum?",
+  "hayat": "Bugün rızık için çalışırken ‘Rızkı veren Allah'tır, ben sebebe sarılıyorum’ niyetini yenilemek bu dersin uygulamasıdır. Yemekte ölçülü olmak ve zararlı bir alışkanlığı azaltmak, bedendeki ihtiyat rızkını korumaktır. Bir ihtiyaç sahibine rızkımızdan pay vermek de rızkın emanet olduğunu hatırlatır.",
+  "ders": "Taahhüd-ü Rabbani hakikattir; rızıksızlık yüzünden ölenler yoktur, Allah her canlının bedeninde ihtiyat rızkı saklar.",
+  "tefekkurSorusu": "Bugün hangi rızık endişemi tevekküle çevirdim?",
+  "dua": {
+   "arapca": "رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍۢ فَقِيرٌۭ",
+   "okunus": "Rabbi innî limâ enzelte ileyye min hayrın fekîr",
+   "anlam": "Musa onların davarlarını suladı. Sonra gölgeye çekildi: “Rabbim! Doğrusu bana indireceğin hayra muhtacım” dedi.",
+   "kaynak": "Kasas, 28/24"
+  },
+  "konular": [
+   "kader",
+   "tabiat"
+  ],
+  "kavramlar": [
+   "Rızık",
+   "Taahhüd-ü Rabbani",
+   "İhtiyat",
+   "Tevekkül",
+   "Ecel"
+  ],
+  "kaynaklar": [
+   "Hûd, 11/6",
+   "Bediüzzaman Said Nursî, Lem'alar, On İkinci Lem'a, Birinci Nükte",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirminci Mektub, Birinci Makam"
+  ],
+  "sinav": [
+   {
+    "soru": "On İkinci Lem'a'ya göre rızıksızlık yüzünden ölen var mıdır?",
+    "secenekler": [
+     "Çoktur",
+     "Yoktur, taahhüd-ü Rabbani hakikattir",
+     "Bazen vardır",
+     "Bilinmez"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On İkinci Lem'a'ya göre Allah ihtiyat rızkını nerede saklar?",
+    "secenekler": [
+     "Canlının bedeninde ve hücrelerinde",
+     "Yalnız toprakta",
+     "Hiçbir yerde",
+     "Yalnız denizde"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre yeryüzündeki bütün canlıların rızkı Allah'a aittir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_112",
+  "kategori": "ahiret",
+  "baslik": "Bütün Kâinat Onun Dirilmesini İster",
+  "giris": "Bir ülkenin en değerli insanı vefat ettiğinde, onun eserleri, öğrencileri ve sevenleri yaşadıkça hatırası da yaşar. Ama Peygamber Efendimiz gibi bütün insanlığa nur getirmiş bir zatın ebediyen yok olması mümkün müdür? Bediüzzaman, bütün kâinatın ve âlemin hakikatinin onun dirilmesini talep ettiğini ve onun şimdi de ruhen diri olduğunu söyler.",
+  "aciklama": "Kur'an-ı Kerîm, diriltmenin kolaylığına ilk yaratılışı delil gösterir: “Çürümüş kemikleri kim yaratacak diyerek, Bize misal vermeye kalkar?” Cevap ise açıktır: “De ki: Onları ilk defa yaratan diriltecektir. O, her türlü yaratmayı bilendir.” Yokluktan var eden kudret için yeniden diriltmek elbette kolaydır. Ve bu kudretin hikmeti, en sevdiği kullarını yokluğa terk etmez.",
+  "risalePerspektifi": "Bediüzzaman, Şuâ'lar'ın Dokuzuncu Şuâ'sının İkinci Nokta'sında şöyle sorar: “Acaba hiç bir cihetle hiç bir imkânı, hiç bir ihtimâli, hiç bir kābiliyeti var mı ki, o Zât Aleyhissalâtü Vesselâm, bütün emsâliyle ve dostlarıyla beraber dirilmesin?” Eserdeki anlatımın özetine göre ömrünü insanlığın ebedî saadeti için dua ve hizmetle geçiren bir zatın ve onun dostlarının ebedî yokluğa mahkûm olması, hikmet ve rahmetle bağdaşmaz. Aynı yerde bu hakikat şöyle kesinleştirilir: “Evet, bütün kâinât ve hakîkat-i âlem, o’nun dirilmesini da‘vâ eder. Ve hayatını Sâhib-i Kâinât’tan taleb ediyor.” İşârâtü'l-İ'câz'da ise haşrin rahmetle bağı şöyle gösterilir: “Evet, rahmetin rahmet olması ve ni‘metin ni‘met olması, ancak ve ancak haşir ve saâdet-i ebediyeye bağlıdır.”",
+  "kainattanDelil": "Kış gelince ağaçlar ölmüş gibi görünür; ama bahar gelince aynı ağaçlar yeniden yapraklanır. Toprağa düşen tohum çürür gibi görünür; ama ondan yeni bir hayat filizlenir. Her gece uyuyan insan, sabah yeniden uyanır. Kâinatta ölüm gibi görünen her şey, yeniden dirilişin küçük bir örneğidir; en büyük diriliş de en değerli insanlar için olacaktır.",
+  "hikmet": "Peygamber Efendimizin ve dostlarının ebedî yokluğa gitmesi hiçbir cihetle mümkün değildir. Bütün kâinat ve âlemin hakikati onun dirilmesini ister. Rahmetin rahmet, nimetin nimet olması haşre ve ebedî saadete bağlıdır. İlk defa yaratan, yeniden diriltmeye elbette kadirdir.",
+  "kendimize": "Peygamber Efendimizin ruhen diri olduğunu düşündüğümde ona olan bağlılığım nasıl değişiyor? Ahirete imanım, sevdiklerimden ayrılığı nasıl hafifletiyor? Rahmetin anlamını haşir ile birlikte düşünüyor muyum?",
+  "hayat": "Bugün Peygamber Efendimize salavat getirirken onun ruhen diri olduğunu ve salavatımızın ona ulaştığını düşünmek bu dersin uygulamasıdır. Vefat etmiş bir yakınımız için dua etmek ve onunla ahirette buluşmayı ümit etmek, haşir inancını hayata taşır. Baharda yeşeren bir ağaca bakıp yeniden dirilişi tefekkür etmek de güzel bir alışkanlıktır.",
+  "ders": "Bütün kâinat ve hakikat-i âlem, Resul-i Ekrem'in dirilmesini dava eder; rahmetin rahmet olması da haşir ve saadet-i ebediyeye bağlıdır.",
+  "tefekkurSorusu": "Bugün haşre olan imanım kalbime hangi teselliyi verdi?",
+  "dua": {
+   "arapca": "رَبَّنَآ إِنَّكَ جَامِعُ ٱلنَّاسِ لِيَوْمٍۢ لَّا رَيْبَ فِيهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ",
+   "okunus": "Rabbenâ inneke câmi'u n-nâsi liyevmin lâ raybe fîhi inne'llâhe lâ yuhlifu l-mî'âd",
+   "anlam": "Rabbimiz! Doğrusu geleceği şüphe götürmeyen günde, insanları toplayacak olan Sensin. Şüphesiz ki Allah verdiği sözden caymaz.",
+   "kaynak": "Âl-i İmrân, 3/9"
+  },
+  "konular": [
+   "ahiret",
+   "nubuvvet"
+  ],
+  "kavramlar": [
+   "Haşir",
+   "Diriliş",
+   "Rahmet",
+   "Saadet-i Ebediye",
+   "Hikmet"
+  ],
+  "kaynaklar": [
+   "Yâsîn, 36/78-79",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Dokuzuncu Şuâ, İkinci Nokta",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Fâtiha Sûresi'nin Tefsîri, 4. Âyet"
+  ],
+  "sinav": [
+   {
+    "soru": "Dokuzuncu Şuâ'ya göre neyin Resul-i Ekrem'in dirilmesini dava ettiği söylenir?",
+    "secenekler": [
+     "Yalnız insanların",
+     "Bütün kâinat ve hakikat-i âlemin",
+     "Hiçbir şeyin",
+     "Yalnız meleklerin"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre rahmetin rahmet olması neye bağlıdır?",
+    "secenekler": [
+     "Haşir ve saadet-i ebediyeye",
+     "Servete",
+     "Şöhrete",
+     "Dünya hayatına"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre insanları ilk defa yaratan, onları yeniden diriltecektir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_113",
+  "kategori": "iman",
+  "baslik": "Büyük İnsan Kervanı ve Emanet",
+  "giris": "Bir kervan uzun bir yolculuğa çıktığında, yolu bilen bir rehbere ve yanında taşıdığı değerli bir emanete ihtiyaç duyar. Bediüzzaman, İşârâtü'l-İ'câz'da insanlığı yokluk karanlığından varlığa çıkarılmış ve ebedî saadete doğru yürüyen büyük bir kervana benzetir. Bu kervana emanet-i kübra verilmiştir ve onu Peygamber Efendimiz Kur'an ile yönetir.",
+  "aciklama": "Kur'an-ı Kerîm insanın yüklendiği emaneti şöyle anlatır: “Doğrusu Biz, sorumluluğu (emaneti) göklere, yere, dağlara sunmuşuzdur da onlar bunu yüklenmekten çekinmişler ve ondan korkup titremişlerdir; onu insan yüklendi.” Bu emanet, insanın ağır bir sorumluluğu olduğu kadar büyük bir şerefidir. Onu korumak, kervanın rehberine uymak ve yolun azığını hazırlamakla mümkündür.",
+  "risalePerspektifi": "Bediüzzaman, İşârâtü'l-İ'câz'da Fâtiha Sûresi'nin tefsirinde insanlığın halini şöyle anlatır: “Ey hikmet! Bu gördüğün insanlar, Sultân-ı Ezelî’nin kudretiyle, yokluk karanlıklarından varlık ve ziyâ âlemine çıkarılan mahlûklardır.” Eserdeki anlatımın özetine göre bu insanlar, bütün varlıklar içinden seçilmiş ve büyük bir emanetle donatılmıştır. Aynı yerde bu yolculuğun hedefi ve dünyadaki vazife şöyle gösterilir: “Biz, haşir yoluyla saâdet-i ebediyeye müteveccihen hareket etmekteyiz. Dünyadaki işimiz de, o saâdet-i ebediye yollarını te’mîn etmekle, re’sül mâlımız olan isti‘dâdlarımızı nemâlandırmaktır.” Aynı anlatımda bu kervanın rehberinin, risalet vazifesiyle gelen ve elinde Kur'an bulunan Peygamber Efendimiz olduğu bildirilir. İşârât'ın başka bir yerinde de şöyle denir: “Evet, saâdet-i ebediye olmasa, en büyük ni‘metlerden sayılan aklın, insanın kafasında yılan vazîfesini görmekten başka bir işi kalmaz.”",
+  "kainattanDelil": "Göçmen kuşlar uzun yolculuklarında sürünün önündeki rehbere uyar ve yollarını şaşırmazlar. Bir tohum, içindeki saklı kabiliyeti toprakta geliştirerek ağaç olur. Nehir, yatağını takip ettikçe denize ulaşır. Kâinatta her yolculuğun bir hedefi, her kabiliyetin bir gelişme yolu ve her kafilenin bir rehberi vardır.",
+  "hikmet": "İnsanlık, yokluktan varlığa çıkarılmış ve ebedî saadete yürüyen büyük bir kervandır. İnsana göklerin ve dağların taşıyamadığı bir emanet verilmiştir. Dünyadaki iş, istidat sermayesini geliştirip saadet yolunu hazırlamaktır. Ebedî saadet olmasa, akıl bile insana bir yük olurdu.",
+  "kendimize": "Kendimi bu büyük kervanın bir yolcusu olarak görüyor muyum? Bana verilen istidat sermayesini nemalandırıyor muyum, yoksa boşa mı harcıyorum? Kervanın rehberine ne kadar uyuyorum?",
+  "hayat": "Bugün bir kabiliyetimizi, örneğin konuşma, yazma veya yardım etme gücümüzü bir hayır işinde kullanmak bu dersin uygulamasıdır. Peygamber Efendimizin bir sünnetini öğrenip uygulamak, kervanın rehberine uymaktır. Günün sonunda ‘Bugün yolculuğumda ne kadar ilerledim?’ diye sormak da güzel bir muhasebedir.",
+  "ders": "İnsanlar yokluktan varlığa çıkarılmış ve emanet-i kübra verilmiş bir kervandır; dünyadaki işleri, istidat sermayelerini nemalandırarak saadet-i ebediye yolunu temin etmektir.",
+  "tefekkurSorusu": "Bugün bana verilen hangi istidadı nemalandırdım?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
+   "okunus": "Rabbenâ lâ tuâhıznâ in nesînâ ev ehtanâ rabbenâ velâ tehmil 'aleynâ isran kemâ hameltehu 'alâ ellezîne min kablinâ rabbenâ velâ tuhammilnâ mâ lâ tâkate lenâ bihi ve-u'fu 'annâ ve-iğfir lenâ ve-irhamnâ ente mevlânâ fe-unsurnâ 'alâ l-kavmi l-kâfirîn",
+   "anlam": "Allah kişiye ancak gücünün yeteceği kadar yükler; kazandığı iyilik lehine, ettiği kötülük de aleyhinedir. Rabbimiz! Eğer unutacak veya yanılacak olursak bizi sorumlu tutma. Rabbimiz bizden öncekilere yüklediğin gibi, bize de ağır yük yükleme. Rabbimiz! Bize gücümüzün yetmeyeceği şeyi taşıtma, bizi affet, bizi bağışla, bize acı. Sen Mevlamızsın, kafirlere karşı bize yardım et.",
+   "kaynak": "Bakara, 2/286"
+  },
+  "konular": [
+   "insanKainat",
+   "nubuvvet"
+  ],
+  "kavramlar": [
+   "Emanet-i Kübra",
+   "İstidat",
+   "Kervan",
+   "Risalet",
+   "Saadet-i Ebediye"
+  ],
+  "kaynaklar": [
+   "Ahzâb, 33/72",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Fâtiha Sûresi'nin Tefsîri, 1. Âyet",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Fâtiha Sûresi'nin Tefsîri, 4. Âyet"
+  ],
+  "sinav": [
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre insanların dünyadaki işi nedir?",
+    "secenekler": [
+     "Yalnız eğlenmek",
+     "İstidat sermayelerini nemalandırıp saadet yolunu temin etmek",
+     "Servet toplamak",
+     "Hiçbir şey"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Ayete göre emaneti kim yüklenmiştir?",
+    "secenekler": [
+     "İnsan",
+     "Dağlar",
+     "Gökler",
+     "Yer"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "İşârâtü'l-İ'câz'a göre saadet-i ebediye olmasa akıl insana bir yük olurdu.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_114",
+  "kategori": "iman",
+  "baslik": "Korkunç Sahrada Bir Yolcu: Rabbini Tanımayanın Hali",
+  "giris": "Gözünü açtığında kendini uçsuz bucaksız bir çölde bulan bir yolcu düşünün. Etrafında yardım edecek kimse yok; hastalıklar ve dertler üstüne geliyor; gökteki yıldızlar bile ona korkutucu görünüyor. Bediüzzaman, İşârâtü'l-İ'câz'da Fâtiha'nın son ayetini tefsir ederken, Rabbini tanımayan insanın dünyadaki halini böyle bir yolcuya benzetir. Bu tablo, imanın değerini anlamak için bir aynadır.",
+  "aciklama": "Kur'an-ı Kerîm, Fâtiha'nın başında bu korkunç tabloyu tersine çeviren hakikati bildirir: “Hamd, Alemlerin Rabbi Allah'a mahsustur.” Âlemlerin bir Rabbi olduğunu bilen insan için çöl bir misafirhane, yıldızlar birer lamba, dertler de birer imtihan olur. Rabbi tanımak, kimsesizliği bir sahiplenilmişliğe, korkuyu bir emniyete çevirir.",
+  "risalePerspektifi": "Bediüzzaman, İşârâtü'l-İ'câz'da Fâtiha Sûresi'nin 7. ayetinin tefsirinde şöyle der: “Bir şahıs, kudret-i ezeliye tarafından, adem zulümâtından şu korkunç dünya sahrâsına atılırken gözünü açar, bakar. Bir lütuf beklediği zaman, birdenbire düşmanlar gibi hastalıklar, elemler, belâlar hücûm etmeye başlarlar.” Eserdeki anlatımın özetine göre bu yolcu yardım için tabiata ve unsurlara baktığında merhametsizlikle karşılaşır; göğe baktığında yıldızlar ona dehşetli görünür; kendi ihtiyaçları ise içinden feryat eder. Aynı yerde bu çaresizliğin sonu şöyle anlatılır: “Bütün bütün tevahhuş ederek hemen kulaklarını tıkar. Vicdânına ilticâ eder.” Vicdan ise insanı bir Rabbe muhtaç olduğuna şahit kılar. Mesnevî-i Nûriye'de bu Rabbin ilmi şöyle tarif edilir: “Bütün kâinâtı ihâta eden bir nûrdan hiç bir şey gizlenemez.” Bu nuru tanıyan yolcu, artık sahrada yalnız değildir.",
+  "kainattanDelil": "Gece karanlığında kaybolan bir yolcu, uzaktaki bir köyün ışığını gördüğünde rahatlar. Çölde susuz kalan biri, bir vahanın izini görünce yeniden güç bulur. Fırtınada kalan bir gemi, deniz fenerinin ışığıyla yolunu bulur. Kâinat, Rabbini tanımayana korkunç bir sahra; tanıyana ise her köşesinde bir ışık bulunan bir misafirhanedir.",
+  "hikmet": "Rabbini tanımayan insan, dünyayı korkunç bir sahra gibi görür. Tabiat ve sebepler ona merhamet edemez. Çaresiz kalan insan sonunda vicdanına sığınır ve bir Rabbe muhtaç olduğunu anlar. Her şeyi kuşatan ilahi nurdan hiçbir şey gizli değildir; onu tanıyan yalnızlıktan kurtulur.",
+  "kendimize": "Hayatın zor anlarında dünyayı korkunç bir sahra gibi mi, yoksa bir misafirhane gibi mi görüyorum? Yardım ararken önce sebeplere mi, Rabbime mi yöneliyorum? Vicdanımın sesine kulak veriyor muyum?",
+  "hayat": "Bugün bir sıkıntı anında Fâtiha'yı anlamını düşünerek okumak ve ‘Âlemlerin Rabbi’ ifadesinde bir an durmak bu dersin uygulamasıdır. Gökyüzüne bakarken yıldızları korkutucu boşluklar değil, Rabbin lambaları olarak görmeye çalışmak tefekkürü değiştirir. Kimsesiz hissettiğimiz bir anda ‘Benim Rabbim var’ demek de kalbe emniyet verir.",
+  "ders": "Rabbini tanımayan şahıs dünyayı korkunç bir sahra gibi görür ve sonunda vicdanına iltica eder; bütün kâinatı ihata eden nurdan hiçbir şey gizlenemez.",
+  "tefekkurSorusu": "Bugün hangi anımda ‘Benim Rabbim var’ diyerek emniyet buldum?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ مَـٰلِكِ يَوْمِ ٱلدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+   "okunus": "El-hamdu lillehi rabbi l-'âlemîne el-rahmâni r-rahîmi mâliki yevmi d-dîni iyyâke ne'budu ve-iyyâke neste'în",
+   "anlam": "Hamd, Alemlerin Rabbi Allah'a mahsustur. O Rahman ve Rahim'dir, Din Gününün sahibidir. Ancak Sana kulluk eder ve yalnız Senden yardım dileriz.",
+   "kaynak": "Fâtiha, 1/2-5"
+  },
+  "konular": [
+   "iman",
+   "insanKainat"
+  ],
+  "kavramlar": [
+   "Vicdan",
+   "İltica",
+   "Rububiyet",
+   "Tevahhuş",
+   "Hamd"
+  ],
+  "kaynaklar": [
+   "Fâtiha, 1/2",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Fâtiha Sûresi'nin Tefsîri, 7. Âyet",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Şu'le'nin Zeyli"
+  ],
+  "sinav": [
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre Rabbini tanımayan şahıs yardım için tabiata baktığında ne ile karşılaşır?",
+    "secenekler": [
+     "Şefkatle",
+     "Kasavet-i kalb ve merhametsizlikle",
+     "Sevinçle",
+     "Huzurla"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre bu şahıs sonunda nereye iltica eder?",
+    "secenekler": [
+     "Vicdanına",
+     "Yıldızlara",
+     "Tabiata",
+     "Unsurlara"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre hamd, Âlemlerin Rabbi Allah'a mahsustur.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_115",
+  "kategori": "risaleler",
+  "baslik": "Güneşe Karşı Göz Yuman Yarasa: Nübüvvet Mesleği",
+  "giris": "Yarasa güneşi görmez; ama bu, güneşin olmadığını değil, yarasanın gözünün ona dayanamadığını gösterir. Bediüzzaman, Medine'deki münafıkların Peygamber Efendimizin parlak mesleği karşısında böyle göz yumduklarını söyler. Çünkü o meslek, nefsin firavunluğunu kıran, insanı sorumluluk ve istikamete çağıran esaslar taşıyordu.",
+  "aciklama": "Kur'an-ı Kerîm, hidayeti bırakıp sapıklığı seçenlerin halini şöyle anlatır: “Onlar, doğruluk yerine sapıklığı aldılar da alışverişleri kar getirmedi; doğru yolu bulamamışlardı.” Hidayetin önünde göz yummak, güneşi inkâr etmek gibidir; zarar güneşe değil, göz yumana döner. Peygamber Efendimizin mesleği, insanı hem dünyada hem ahirette kurtaran bir istikamet yoludur.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın On Üçüncü Lem'a'sının Dokuzuncu İşaret'inde nübüvvet mesleğinin esaslarını şöyle sayar: “Ehl-i hidâyet.. ve başta ehl-i nübüvvet.. ve başta Habîb-i Rabbü’l-Âlemîn olan Resûl-ü Ekrem Aleyhissalâtü Vesselâm’ın meslek-i kudsîsinde.. hem vücûdî, hem sübûtî, hem ta‘mîr, hem hareket, hem hudûdda istikāmet, hem âkıbeti düşünmek, hem ubûdiyet, hem nefs-i emmârenin firavuniyetini ve serbestliğini kırmak gibi esâsât-ı mühimme bulunduğundandır ki,” münafıklar ona karşı direnmişlerdir. Eserdeki anlatımın özetine göre bu meslek yıkmaya değil yapmaya, inkâra değil isbata, başıboşluğa değil sınırlar içinde istikamete dayanır; nefsin serbestliğini isteyenler ise bunu ağır bulur. Şuâ'lar'ın Onbirinci Şuâ'sında hidayet ile dalaletin bir arada bulunmasının sırrı da şöyle ifade edilir: “Hidâyet, dalâlet birbirine karşı gelmesi ve içine girmesi, pek büyük bir hikmet içindir.” Mesnevî-i Nûriye'de ise şöyle denir: “Gafletten neş’et eden dalâlet, pek garîb ve pek acîbdir.”",
+  "kainattanDelil": "Baykuş ve yarasa gündüz ışığından kaçar, karanlıkta dolaşır; ama güneş yine de bütün dünyayı aydınlatır. Göz kapağını kapatan biri için öğle vakti bile gece gibidir. Bitkiler güneşe döner ve büyür; güneşten kaçan bitki ise solar. Kâinatta nur herkese gelir; ama ondan faydalanmak, ona yüzünü dönmeye bağlıdır.",
+  "hikmet": "Nübüvvet mesleği yapıcı, isbat edici, istikametli ve sorumluluk bilincini taşıyan bir meslektir. Bu meslek, nefsin firavunluğunu ve başıboşluğunu kırar. Ona göz yumanlar, güneşe karşı gözünü kapatan yarasa gibidir. Hidayet ile dalaletin karşı karşıya gelmesinde büyük bir hikmet vardır.",
+  "kendimize": "Nefsimin serbestliğini kısıtlayan bir emir karşısında içimde bir direnme hissediyor muyum? İşlerimde akıbeti düşünüyor muyum? Hayatımda yıkıcı mı, yapıcı mı bir yol izliyorum?",
+  "hayat": "Bugün bir işe başlamadan önce onun akıbetini kısaca düşünmek bu dersin uygulamasıdır. Bir şeyi eleştirmek yerine onu düzeltmek veya yerine daha iyisini koymak için çalışmak, nübüvvet mesleğinin yapıcı tarzını takip etmektir. Nefsimizin ‘canım istiyor’ dediği bir şeyde sınırları hatırlamak da istikamettir.",
+  "ders": "Nübüvvet mesleğinde vücudi, sübuti, tamir, istikamet, akıbeti düşünmek, ubudiyet ve nefs-i emmarenin firavuniyetini kırmak gibi esaslar vardır.",
+  "tefekkurSorusu": "Bugün hangi kararımda akıbeti düşünüp istikameti seçtim?",
+  "dua": {
+   "arapca": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+   "okunus": "Ihdinâ s-sırâta l-mustekîme sırâta ellezîne en'amte 'aleyhim ğayrı l-meğdûbi 'aleyhim velâ d-dâlîn",
+   "anlam": "Bizi doğru yola eriştir. Nimete erdirdiğin kimselerin yoluna; gazaba uğrayanların, ya da sapıtanların yoluna değil.",
+   "kaynak": "Fâtiha, 1/6-7"
+  },
+  "konular": [
+   "nubuvvet",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Nübüvvet",
+   "İstikamet",
+   "Firavuniyet",
+   "Akıbet",
+   "Hidayet"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/16",
+   "Bediüzzaman Said Nursî, Lem'alar, On Üçüncü Lem'a, Dokuzuncu İşaret",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Onbirinci Şuâ, Sekizinci Mes'ele",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Katre Risâlesi"
+  ],
+  "sinav": [
+   {
+    "soru": "On Üçüncü Lem'a'ya göre nübüvvet mesleği nefs-i emmarenin neyini kırar?",
+    "secenekler": [
+     "İhtiyacını",
+     "Firavuniyetini ve serbestliğini",
+     "Sağlığını",
+     "Hafızasını"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Üçüncü Lem'a'da münafıklar parlak güneşe karşı neye benzetilir?",
+    "secenekler": [
+     "Yarasa kuşuna",
+     "Arıya",
+     "Kartala",
+     "Bülbüle"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre doğruluk yerine sapıklığı alanların alışverişi kâr getirmemiştir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_116",
+  "kategori": "kuran",
+  "baslik": "Kavim Bağından İman Bağına",
+  "giris": "Cahiliye devrinde insanlar kabileleriyle övünür, akrabalarını haklı ya da haksız her durumda savunurdu. Kan bağı, bütün bağların üstündeydi. Bediüzzaman, Kur'an'ın tecellisiyle bu bağların kesildiğini ve yerine dinî bağlar üzerine kurulmuş yeni bir toplum hakikatinin doğduğunu anlatır. Kur'an, insanlığa yeni bir kardeşlik ölçüsü getirmiştir.",
+  "aciklama": "Kur'an-ı Kerîm farklılıkların hikmetini ve üstünlüğün ölçüsünü şöyle bildirir: “Sizi milletler ve kabileler haline koyduk ki birbirinizi kolayca tanıyasınız. Şüphesiz, Allah katında en değerliniz, O'na karşı gelmekten en çok sakınanızdır.” Milletler ve kabileler tanışmak içindir; üstünlük ise soyda değil, takvadadır. Bu ölçü, cahiliyenin bütün kibir kulelerini yıkmıştır.",
+  "risalePerspektifi": "Bediüzzaman, İşârâtü'l-İ'câz'da Bakara Sûresi'nin 6. ayetinin tefsirinde şöyle der: “Kur’ân’ın tecellîsiyle çok nev‘ler silindi, hakîkatler yıkıldı. Onlara bedel, yeni nev‘ler, hakîkatler teşekkül etti.” Eserdeki anlatımın özetine göre cahiliye devrinde toplumlar millî bağlar üzerine, toplumsal hakikatler de kavim taassubu üzerine kurulmuştu. Aynı yerde bu değişim şöyle anlatılır: “Kur’ân’ın tecellîsiyle o râbıtalar kesildi. O hakîkatler tahrîb edildi. Onlara bedel, dînî râbıtalar üzerine yeni nev‘ler ve hakîkatler ihdâs edildi.” Nitekim tarihte Habeşli Bilal, Rum Süheyb ve Fars Selman aynı imanın kardeşleri olmuşlardır. Şuâ'lar'ın Onbeşinci Şuâ'sında ise bu yeni toplumun yolu şöyle gösterilir: “Hayât-ı şahsiye ve hayât-ı ictimâiyenin bütün yollarında istikāmet, en fâideli ve en kolay ve kısadır.”",
+  "kainattanDelil": "Bir bahçede farklı renk ve kokuda çiçekler vardır; ama hepsi aynı toprak, aynı su ve aynı güneşle beslenir. Bir ağacın yaprakları birbirinden farklıdır; ama hepsi aynı gövdeye bağlıdır. Gökyüzündeki yıldızlar farklı parlaklıktadır; ama hepsi aynı düzene tabidir. Kâinatta farklılık bir zenginlik, ortak kaynak ise bir birlik sebebidir.",
+  "hikmet": "Kur'an'ın tecellisiyle kavim taassubuna dayanan bağlar kesildi, yerine dinî bağlar kuruldu. Milletler ve kabileler tanışmak içindir, üstünlük ise takvadadır. İman bağı, kan bağından daha güçlü bir kardeşlik doğurur. Şahsi ve içtimai hayatta istikamet, en faydalı ve en kısa yoldur.",
+  "kendimize": "İnsanlara bakarken onların soyuna, memleketine mi, yoksa imanına ve ahlâkına mı bakıyorum? Kendi grubumu haksız olduğu durumda da savunduğum oluyor mu? Farklı milletlerden mümin kardeşlerimi gerçekten kardeş olarak görüyor muyum?",
+  "hayat": "Bugün farklı bir memleketten veya kültürden bir mümin kardeşimize selam vermek ve onunla tanışmak bu dersin uygulamasıdır. Bir tartışmada yakınımız da olsa haksız olanı desteklememek, kavmiyet yerine hakkı seçmektir. Dünyanın farklı yerlerindeki Müslümanlar için dua etmek de iman bağını güçlendirir.",
+  "ders": "Kur'an'ın tecellisiyle kavmi rabıtalar üzerine kurulan hakikatler yıkıldı, onlara bedel dini rabıtalar üzerine yeni hakikatler ihdas edildi.",
+  "tefekkurSorusu": "Bugün hangi kardeşimi soyuna değil imanına bakarak sevdim?",
+  "dua": {
+   "arapca": "رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَـٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّۭا لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ رَءُوفٌۭ رَّحِيمٌ",
+   "okunus": "Rabbenâ iğfir lenâ veli-ihvâninâ ellezîne sebekûnâ bil-îmâni velâ tec'al fî kulûbinâ ğıllen lillezîne âmenû rabbenâ inneke raûfun rahîm",
+   "anlam": "Onlardan sonra gelenler: “Rabbimiz! Bizi ve bizden önce inanmış olan kardeşlerimizi bağışla; kalbimizde müminlere karşı kin bırakma; Rabbimiz! Şüphesiz Sen şefkatlisin, merhametlisin” derler.",
+   "kaynak": "Haşr, 59/10"
+  },
+  "konular": [
+   "kuran",
+   "ihlasUhuvvet"
+  ],
+  "kavramlar": [
+   "Rabıta",
+   "Taassub-u Kavmi",
+   "Uhuvvet",
+   "Takva",
+   "İstikamet"
+  ],
+  "kaynaklar": [
+   "Hucurât, 49/13",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Bakara Sûresi'nin Tefsîri, 6. Âyet",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Onbeşinci Şuâ, Birinci Makam"
+  ],
+  "sinav": [
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre cahiliye devrinde ictimai hakikatler neyin üzerine bina edilmişti?",
+    "secenekler": [
+     "Takva",
+     "Taassub-u kavmi",
+     "İlim",
+     "Adalet"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Ayete göre Allah katında en değerli olan kimdir?",
+    "secenekler": [
+     "O'na karşı gelmekten en çok sakınan",
+     "En zengin olan",
+     "En soylu olan",
+     "En güçlü olan"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "İşârâtü'l-İ'câz'a göre Kur'an'ın tecellisiyle dini rabıtalar üzerine yeni hakikatler kuruldu.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_117",
+  "kategori": "nefis",
+  "baslik": "Enenin Hakka Bakan Yüzü: Enbiyanın Yolu",
+  "giris": "İnsandaki ‘ben’ duygusu iki yüzlü bir aynaya benzer. Bir yüzü kendine bakar ve ‘Her şey benim’ der; diğer yüzü ise Rabbine bakar ve ‘Her şey O'nun’ der. Bediüzzaman, peygamberlerin enenin bu ikinci yüzüne baktıklarını, mülkü tamamen Allah'a teslim ettiklerini ve bu yüzden ubudiyet ağacının en güzel meyveleri olduklarını anlatır.",
+  "aciklama": "Kur'an-ı Kerîm nefsin iki yolunu şöyle bildirir: “Kendini arıtan saadete ermiştir. Kendini fenalıklara gömen kimse de ziyana uğramıştır.” Nefsi arındırmak, benliği silmek değil, onu doğru yöne çevirmektir. ‘Ben’ duygusu, Rabbini tanımanın bir ölçüsü olarak kullanıldığında insanı yükseltir; kendini ilah yerine koyduğunda ise alçaltır.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Şemme Risâlesi'nde şöyle der: “Enbiyâ enenin bu vechine bakmışlar. Mülkü tamâmen Allâh’a teslîm etmişler. Ne mülkünde, ne rubûbiyetinde, ne ulûhiyetinde şerîki olmadığına hükmetmişlerdir.” Eserdeki anlatımın özetine göre peygamberler, kendi küçük sahipliklerini, ilimlerini ve güçlerini Allah'ın sonsuz sıfatlarını anlamak için bir ölçü olarak kullanmışlardır. Aynı yerde bu bakışın meyvesi gösterilir: “Enenin bu vechinden Cenâb-ı Hakk şecere-i tûbâ-yı ubûdiyeti inbât etmiştir. Bu şecerenin dalları ve budakları, kâinât bahçesinde enbiyâ ve evliyâ ve sıddîkîn gibi mübârek meyveleri vermiş, meyvelendirmiştir.” Sözler'in Otuzuncu Söz'ünde de enenin bu emanet vazifesi şöyle anlatılır: “Sâni‘-i Hakîm, insanın eline emânet olarak, rubûbiyetinin sıfât ve şuûnâtının hakîkatlerini gösterecek, tanıttıracak işârât ve numûneleri câmi‘ bir ene vermiştir.”",
+  "kainattanDelil": "Ay kendi ışığı olmadığı halde güneşten aldığı ışıkla geceyi aydınlatır; kendini güneş sansaydı karanlıkta kalırdı. Bir ayna, önündeki güzelliği yansıttığı ölçüde değer kazanır. Bir hizmetçi, efendisinin malını kendi malı gibi değil, emanet olarak korudukça güvenilir olur. Kâinatta her şey, kendine değil, kaynağına işaret ettiği ölçüde kıymet bulur.",
+  "hikmet": "Ene, Allah'ın sıfatlarını tanıtacak işaretleri taşıyan bir emanettir. Peygamberler enenin Hakka bakan yüzüne bakmış ve mülkü tamamen Allah'a teslim etmişlerdir. Bu bakıştan ubudiyet ağacı biter; meyveleri peygamberler, veliler ve sıddıklardır. Nefsini arındıran saadete erer.",
+  "kendimize": "Sahip olduklarıma ‘benim’ derken onların gerçek sahibini hatırlıyor muyum? Kendi küçük ilmim ve gücüm bana Rabbimin sonsuz ilmini ve kudretini hatırlatıyor mu? Benliğim beni yükseltiyor mu, yoksa alçaltıyor mu?",
+  "hayat": "Bugün bir başarımızdan bahsederken ‘Allah nasip etti’ demek bu dersin uygulamasıdır. Malımızdan, vaktimizden veya bilgimizden bir kısmını emanet şuuruyla başkalarına vermek, mülkü Allah'a teslim etmektir. Kendimizi beğendiğimiz bir anda bir peygamber kıssasını hatırlamak da benliği doğru yöne çevirir.",
+  "ders": "Enbiya enenin Hakka bakan vechine bakmış ve mülkü tamamen Allah'a teslim etmişlerdir; bu vecihten şecere-i tûba-yı ubudiyet biter.",
+  "tefekkurSorusu": "Bugün hangi sahipliğimi emanet olarak gördüm?",
+  "dua": {
+   "arapca": "۞ رَبِّ قَدْ ءَاتَيْتَنِى مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۖ تَوَفَّنِى مُسْلِمًۭا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ",
+   "okunus": "Rabbi kad âteytenî mine l-mulki ve'allemtenî min tevîli l-ehâdîsi fâtıra s-semâvâti vel-erdı ente veliyyî fî d-dunyâ vel-âhırati teveffenî muslimen ve-elhıknî bil-sâlihîn",
+   "anlam": "“Rabbim! Bana hükümranlık verdin, rüyaların yorumunu öğrettin. Ey göklerin ve yerin yaradanı! Dünya ve ahirette işlerimi yoluna koyan sensin; benim canımı müslüman olarak al ve beni iyilere kat.”",
+   "kaynak": "Yûsuf, 12/101"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "nubuvvet"
+  ],
+  "kavramlar": [
+   "Ene",
+   "Emanet",
+   "Teslimiyet",
+   "Ubudiyet",
+   "Tezkiye"
+  ],
+  "kaynaklar": [
+   "Şems, 91/9-10",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Şemme Risâlesi",
+   "Bediüzzaman Said Nursî, Sözler, Otuzuncu Söz, Birinci Maksad"
+  ],
+  "sinav": [
+   {
+    "soru": "Şemme Risâlesi'ne göre enbiya enenin hangi vechine bakmışlardır?",
+    "secenekler": [
+     "Kendine bakan vechine",
+     "Hakka bakan vechine",
+     "Dünyaya bakan vechine",
+     "Hiçbir vechine"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Otuzuncu Söz'e göre ene insanın eline ne olarak verilmiştir?",
+    "secenekler": [
+     "Emanet olarak",
+     "Mülk olarak",
+     "Ceza olarak",
+     "Oyuncak olarak"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre kendini arıtan saadete ermiştir.",
+    "dogru": true
+   }
+  ]
  }
 ]
