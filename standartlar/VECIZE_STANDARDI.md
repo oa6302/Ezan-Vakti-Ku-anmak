@@ -25,3 +25,4 @@ Vecize kimliği artık metinden türetilir (`_kararliHash`); önceden her açıl
 - Eski 110 sadelestirilmis vecize `vecize_havuzu.dart`ta korunur, gunluk havuzda kullanilmaz.
 - 2026-11-27: Ek eserlerden 50 vecize (Mesnevî, İşârât, Muhâkemât, Lâhikalardan bilinen kısa vecizeler); toplam 167.
 - 2026-11-27: Birlesik aday listesinden siki puan + elle secim 40 vecize (vecize_secim.json ek3); toplam 207. Daha fazlasi bağlama muhtaç/zamirli oldugu icin alinmadi; gunluk dongu 207 ile doner.
+- 2026-11-27: vecize5 listesinden elle seçilen 39 vecize (vecize_secim.json ek5); toplam 246.
