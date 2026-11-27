@@ -2491,5 +2491,538 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_039",
+  "kategori": "iman",
+  "baslik": "İmanın Bir Zerre Kuvveti Bir Hazinedir",
+  "giris": "İman ya vardır ya yoktur diye düşünürüz. Oysa iman, güçlenebilen ve zayıflayabilen canlı bir hakikattir. Bediüzzaman, imanın bir zerre kadar kuvvetlenmesinin bile bir hazine olduğunu söyler. Peki iman nasıl kuvvetlenir ve bu kuvvet insana ne kazandırır?",
+  "aciklama": "Kur'an-ı Kerîm, imanın artabileceğini açıkça bildirir: “Müminler ancak o kimselerdir ki Allah anıldığı zaman kalpleri ürperir, O'nun ayetleri kendilerine okunduğu zaman imanlarını artırır.” Başka bir ayette de Allah'ın müminlerin kalplerine huzur indirdiği ve bunun imanlarını artırdığı haber verilir: “İmanlarına iman katsınlar diye müminlerin kalplerine huzur ve güven indiren O'dur.” Peygamber Efendimiz de imanın yetmiş küsur şubeden oluştuğunu, en üstününün ‘Lâ ilâhe illallah’ demek, en aşağısının da yoldan eziyet veren bir şeyi kaldırmak olduğunu bildirmiştir. Demek ki iman sadece bir kabul değil, düşünceyle, ibadetle ve güzel davranışla büyüyen bir ağaçtır.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın Otuzuncu Lem'a'sında imanın kuvvetlenmesinin önemini şöyle vurgular: “Saâdet-i ebediyenin anahtarı olan îmânın kuvvetleşmesi, ehemmiyeti çok azîmdir.” Hemen ardından da şunu ekler: “Îmânın bir zerre kadar kuvveti ziyâde olması, bir hazînedir.” Eserdeki anlatımın özetine göre iman, ebedî saadetin anahtarıdır; bu anahtar ne kadar güçlü olursa, kapıyı o kadar kolay açar. Şüphelerin ve gafletin yaygın olduğu zamanlarda zayıf bir iman sarsılabilir; ama tahkik ile, yani delilleri düşünerek kuvvetlenen bir iman sarsılmaz. Mesnevî-i Nûriye'de ise imanın insana kazandırdığı değer şöyle ifade edilir: “Îmân, insanı ebediyete, cennete lâyık bir cevhere kalb eder.” Yani iman, fani bir varlığı ebedî bir değer taşıyan bir cevhere dönüştürür.",
+  "kainattanDelil": "Bir ağacın kökleri derinleştikçe fırtınalara karşı daha dayanıklı hâle gelir. Kökü yüzeyde kalan ağaç ilk rüzgârda devrilir; derin kökleri olan ağaç ise yüz yıl ayakta kalır. Bir lamba da ne kadar çok yağ alırsa o kadar uzun ve parlak yanar. İman da bilgiyle, ibadetle ve tefekkürle beslendikçe kökleri derinleşir ve ışığı artar.",
+  "hikmet": "İman, büyüyebilen ve kuvvetlenebilen canlı bir hakikattir. Onun bir zerre kadar kuvvetlenmesi bile ebedî saadetin anahtarını güçlendiren bir hazinedir. Tahkik ile kuvvetlenen iman, şüphe fırtınalarına karşı sarsılmaz.",
+  "kendimize": "İmanımı kuvvetlendirmek için bilinçli bir çaba gösteriyor muyum? Bir şüphe kalbime düştüğünde onu delillerle mi gideriyorum, yoksa görmezden mi geliyorum? Bugün imanıma bir zerre de olsa ne kattım?",
+  "hayat": "Her gün birkaç sayfa iman hakikatlerini anlatan bir eser okumak, bir ayetin anlamını düşünmek ve kâinattaki bir varlığa tefekkür nazarıyla bakmak imanı kuvvetlendirmenin yollarıdır. Namaz, zikir ve güzel ahlak da imanın şubeleri olarak onu büyütür. Küçük bir iyilik bile imanı besleyen bir damladır.",
+  "ders": "Ebedi saadetin anahtarı olan imanın kuvvetleşmesi çok önemlidir; imanın bir zerre kuvveti bile bir hazinedir.",
+  "tefekkurSorusu": "Bugün imanımı bir zerre de olsa kuvvetlendirecek ne yaptım?",
+  "dua": {
+   "arapca": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ وَٱتَّبَعْنَا ٱلرَّسُولَ فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ",
+   "okunus": "Rabbenâ âmennâ bimâ enzelte ve-ittebe'nâ r-rasûle fe-uktubnâ me'a s-şâhidîn",
+   "anlam": "“Rabbimiz! İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz”.",
+   "kaynak": "Âl-i İmrân, 3/53"
+  },
+  "konular": [
+   "iman"
+  ],
+  "kavramlar": [
+   "İman",
+   "Tahkik",
+   "Saadet-i ebediye",
+   "Şube",
+   "Cevher"
+  ],
+  "kaynaklar": [
+   "Enfâl, 8/2",
+   "Fetih, 48/4",
+   "Müslim, Îmân, 58 (35)",
+   "Bediüzzaman Said Nursî, Lem'alar, Otuzuncu Lem'a, Altıncı Nükte",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye"
+  ],
+  "sinav": [
+   {
+    "soru": "Otuzuncu Lem'a'ya göre imanın bir zerre kadar kuvveti ziyade olması nedir?",
+    "secenekler": [
+     "Bir hazine",
+     "Önemsiz bir şey",
+     "Bir yük",
+     "Bir tehlike"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Mesnevî-i Nûriye'ye göre iman insanı neye dönüştürür?",
+    "secenekler": [
+     "Fani bir varlığa",
+     "Ebediyete, cennete layık bir cevhere",
+     "Sıradan bir canlıya",
+     "Hiçbir şeye"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Enfâl Sûresi'ne göre Allah'ın ayetleri okunduğunda müminlerin imanı artar.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_040",
+  "kategori": "iman",
+  "baslik": "İman Yolu Kısa ve Kolaydır",
+  "giris": "Bazı insanlar imanın zor, inkârın ise kolay bir yol olduğunu düşünür. Oysa Bediüzzaman tam tersini söyler: İman ve tevhid yolu kısa, doğru ve kolaydır; küfür yolu ise buzlar üzerinde yürümekten daha zahmetli ve tehlikelidir. Bu iddianın sırrı nedir?",
+  "aciklama": "Kur'an-ı Kerîm, doğru yol ile yanlış yolu şöyle karşılaştırır: “Yüzüstü sürünerek giden mi daha doğru yoldadır, yoksa dosdoğru bir yol üzerinde dimdik yürüyen mi?” Başka bir ayette de şöyle buyrulur: “Dinde zorlama yoktur. Doğruluk sapıklıktan açıkça ayrılmıştır.” İman eden insan, kâinattaki her şeyi tek bir Yaratıcı'ya bağlar ve böylece her şeyin açıklamasını kolayca bulur. İnkâr eden ise her bir varlığın oluşumunu ayrı ayrı sebeplere, tesadüfe ya da tabiata bağlamak zorunda kalır. Bu da aklı sayısız imkânsızlıkla karşı karşıya bırakır.",
+  "risalePerspektifi": "Bediüzzaman, Şuâ'lar'ın Onbeşinci Şuâ'sında şöyle der: “Îmân ve tevhîd yolu, gāyet kısa ve doğru ve müstakîm ve kolaydır.” Mesnevî-i Nûriye'deki Katre Risâlesi'nin zeylinde ise küfür yolunu şöyle tarif eder: “Küfür yolunda yürümek, buzlar üzerinde yürümekten daha zahmetli ve daha tehlikelidir.” Eserdeki anlatımın özetine göre her şeyi bir Zât'a vermek bir tek kolay açıklama getirir; her şeyi sebeplere dağıtmak ise her zerreye sonsuz bir ilim ve kudret vermeyi gerektirir. Peki insanlar neden bazen bu zor yolu seçer? On Üçüncü Lem'a bunun bir sırrını açıklar: “Dalâlette ve küfürde hem adem ve terk vardır ki, pek kolaydır, hareket istemez.” Yani inkâr, aslında bir şey inşa etmek değil, terk etmek ve yıkmaktır. Yıkmak kolaydır; ama yıkılan şeyin yerine hiçbir açıklama konulamaz.",
+  "kainattanDelil": "Bir orduyu tek bir komutan kolayca yönetir; her asker kendi başına hareket etse ortalık karışır. Bir kitabı tek bir yazarın yazdığını kabul etmek kolaydır; her harfin kendi kendine yerini bulduğunu iddia etmek ise imkânsızdır. Bir binayı yıkmak bir günde olur; inşa etmek ise yıllar alır. İnkâr, yıkmanın kolaylığını taşır; ama açıklamanın zorluğundan kurtulamaz.",
+  "hikmet": "İman ve tevhid yolu kısa, doğru ve kolaydır; çünkü her şeyi tek bir Zât'a bağlar. Küfür yolu ise her şeyi sebeplere dağıttığı için buzlar üzerinde yürümekten daha zahmetlidir. İnkârın kolay görünmesi, onun yıkıcı ve terk edici olmasındandır.",
+  "kendimize": "Hayatımdaki olayları tek bir Yaratıcı'ya bağlayarak mı yorumluyorum, yoksa onları dağınık sebeplere mi veriyorum? Bir şüpheyle karşılaştığımda, onun yıkmaktan başka ne sunduğunu sorguluyor muyum? İmanın bana verdiği kolaylığı ve huzuru fark ediyor muyum?",
+  "hayat": "Bir olayı değerlendirirken ‘Bunu yaratan ve yöneten kim?’ diye sormak, tevhid yolunun kolaylığını hayatımızda görmektir. Şüphe uyandıran bir fikirle karşılaştığımızda onun bir şey inşa edip etmediğine, yoksa sadece yıkıp yıkmadığına bakmak da doğru düşünmenin bir ölçüsüdür.",
+  "ders": "İman ve tevhid yolu gayet kısa, doğru ve kolaydır; küfür yolu buzlar üzerinde yürümekten daha zahmetli ve tehlikelidir.",
+  "tefekkurSorusu": "Bugün hangi olayı tek bir Yaratıcı'ya bağlayarak daha kolay anladım?",
+  "dua": {
+   "arapca": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+   "okunus": "Ihdinâ s-sırâta l-mustekîme sırâta ellezîne en'amte 'aleyhim ğayrı l-meğdûbi 'aleyhim velâ d-dâlîn",
+   "anlam": "Bizi doğru yola eriştir. Nimete erdirdiğin kimselerin yoluna; gazaba uğrayanların, ya da sapıtanların yoluna değil.",
+   "kaynak": "Fâtiha, 1/6-7"
+  },
+  "konular": [
+   "iman",
+   "tevhid"
+  ],
+  "kavramlar": [
+   "Tevhid",
+   "Küfür",
+   "Dalalet",
+   "İstikamet",
+   "Adem"
+  ],
+  "kaynaklar": [
+   "Mülk, 67/22",
+   "Bakara, 2/256",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Onbeşinci Şuâ, Birinci Makam",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Katre Risâlesi'nin Zeyli",
+   "Bediüzzaman Said Nursî, Lem'alar, On Üçüncü Lem'a, Dokuzuncu İşaret"
+  ],
+  "sinav": [
+   {
+    "soru": "Onbeşinci Şuâ'ya göre iman ve tevhid yolu nasıldır?",
+    "secenekler": [
+     "Uzun ve zor",
+     "Gayet kısa, doğru ve kolay",
+     "Karanlık",
+     "Tehlikeli"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Üçüncü Lem'a'ya göre dalalet ve küfür neden kolay görünür?",
+    "secenekler": [
+     "Çünkü onda adem ve terk vardır",
+     "Çünkü çok delili vardır",
+     "Çünkü çok çalışma ister",
+     "Çünkü herkes kabul eder"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Bakara Sûresi'ne göre dinde zorlama yoktur ve doğruluk sapıklıktan ayrılmıştır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_041",
+  "kategori": "ibadet",
+  "baslik": "İnsanı Kemaline Yetiştiren İbadet",
+  "giris": "Bir tohum, toprağa düşüp suyla buluşmadıkça içindeki ağaç ortaya çıkmaz. İnsanın içinde de büyük kabiliyetler vardır; ama bunlar kendiliğinden gelişmez. Bediüzzaman, insanı kendisi için takdir edilen kemale ulaştıran şeyin ibadet olduğunu söyler.",
+  "aciklama": "Kur'an-ı Kerîm, insanın yaratılış gayesini şöyle bildirir: “Ben cinleri ve insanları ancak bana kulluk etsinler diye yarattım.” Bakara Sûresi'nde de bütün insanlara şöyle hitap edilir: “Ey insanlar! Sizi ve sizden öncekileri yaratan Rabbinize ibadet edin ki korunasınız.” Peygamber Efendimiz, bir kudsî hadiste Allah'ın şöyle buyurduğunu haber vermiştir: “Kulum bana, kendisine farz kıldığım şeylerden daha sevimli bir şeyle yaklaşamaz. Kulum bana nafilelerle yaklaşmaya devam eder, nihayet onu severim.” İbadet, bu yaklaşmanın yoludur. İnsan ibadetle Rabbine yaklaştıkça, kendi değerini ve kâinattaki yerini daha iyi anlar.",
+  "risalePerspektifi": "Bediüzzaman, İşârâtü'l-İ'câz'da Bakara Sûresi'nin yirmi birinci ayetini tefsir ederken şöyle der: “İnsanı mukadder olan kemâlâtına yetiştiren, ibâdettir.” Aynı yerde ibadetin insanı nereye yükselttiğini de anlatır: “İnsanın gāibâne olan aşağı mertebesinden huzûrun yüksek makamına çıkması, ancak ibâdet vâsıtasıyla olduğuna işârettir.” Eserdeki anlatımın özetine göre ayetteki hitabın gaib kipinden muhatap kipine geçmesi, ibadet eden kulun Allah'ın huzuruna yükseldiğine işaret eder. İbadetin sebebi ve neticesi de bellidir; Zehre Risâlesi'nde şöyle ifade edilir: “Ubûdiyetin dâîsi emr-i İlâhî ve netîcesi rızâ-yı İlâhîdir.” Lem'alar'ın Yirmi Üçüncü Lem'a'sında ise ibadeti terk edenin kaybı anlatılır: “İbâdeti terkeden, mevcûdâtın ibâdetini görmez ve göremez.” Yani ibadet eden, kâinatın da ibadet ettiğini görür ve bu büyük halkaya katılır.",
+  "kainattanDelil": "Güneş her gün aynı vakitte doğar, ay kendi yörüngesinde döner, ağaçlar mevsimi gelince meyve verir. Kâinattaki her varlık, kendisine verilen vazifeyi kusursuz bir düzenle yerine getirir. Bir arı bal yapar, bir çiçek açar, bir kuş öter. İnsan ibadet ettiğinde, kâinatın bu büyük tesbih halkasına katılmış olur; ibadeti terk ettiğinde ise bu ahengin dışında kalır.",
+  "hikmet": "İbadet, insanı kendisi için takdir edilen kemale ulaştıran yoldur. İbadetin sebebi Allah'ın emri, neticesi O'nun rızasıdır. İbadet eden, kâinatın da ibadet ettiğini görür ve bu ahenge katılır.",
+  "kendimize": "İbadetlerimi bir alışkanlık olarak mı, yoksa Rabbime yaklaşmanın bir yolu olarak mı yapıyorum? İbadet ederken kâinatın da tesbih ettiğini düşünüyor muyum? İbadetlerimde Allah'ın rızasını mı, yoksa başka bir şeyi mi gözetiyorum?",
+  "hayat": "Namaza dururken ‘Şimdi kâinatın büyük ibadet halkasına katılıyorum’ diye düşünmek, ibadeti canlı tutar. Farzların yanında küçük nafilelerle Allah'a yaklaşmaya çalışmak, bir günü sabah namazı ve zikirle başlatmak da insanı kemaline doğru adım adım yükselten bir yoldur.",
+  "ders": "İnsanı mukadder olan kemalatına yetiştiren ibadettir; ubudiyetin daisi emr-i İlahi, neticesi rıza-yı İlahidir.",
+  "tefekkurSorusu": "Bugünkü ibadetlerimden hangisinde Rabbime gerçekten yaklaştığımı hissettim?",
+  "dua": {
+   "arapca": "رَّبِّ أَعُوذُ بِكَ مِنْ هَمَزَٰتِ ٱلشَّيَـٰطِينِ وَأَعُوذُ بِكَ رَبِّ أَن يَحْضُرُونِ",
+   "okunus": "Rabbi e'ûzu bike min hemezâti s-şeyâtîni ve-e'ûzu bike rabbi en yehdurûn",
+   "anlam": "De ki: “Rabbim! Şeytanların kışkırtmalarından Sana sığınırım.” “Rabbim! Yanımda bulunmalarından da Sana sığınırım.”",
+   "kaynak": "Mü'minûn, 23/97-98"
+  },
+  "konular": [
+   "ibadet"
+  ],
+  "kavramlar": [
+   "İbadet",
+   "Ubudiyet",
+   "Kemal",
+   "Huzur",
+   "Rıza"
+  ],
+  "kaynaklar": [
+   "Zâriyât, 51/56",
+   "Bakara, 2/21",
+   "Buhârî, Rikâk, 38 (6502)",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Bakara Sûresi'nin Tefsîri",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Zehre Risâlesi",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirmi Üçüncü Lem'a, Hâtime"
+  ],
+  "sinav": [
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre insanı mukadder olan kemalatına yetiştiren nedir?",
+    "secenekler": [
+     "Şöhret",
+     "İbadet",
+     "Zenginlik",
+     "Tesadüf"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Zehre Risâlesi'ne göre ubudiyetin neticesi nedir?",
+    "secenekler": [
+     "Rıza-yı İlahi",
+     "Dünya malı",
+     "İnsanların övgüsü",
+     "Makam"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Zâriyât Sûresi'ne göre cinler ve insanlar Allah'a kulluk etsinler diye yaratılmıştır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_042",
+  "kategori": "kuran",
+  "baslik": "Kur'an'ın Üzerindeki İmzalar",
+  "giris": "Değerli bir belgenin doğruluğu, üzerindeki imza ve mühürlerle anlaşılır. Bediüzzaman, Kur'an'ın da üzerinde onun Allah'ın kelamı olduğunu gösteren imzalar taşıdığını söyler. Bu imzalar nelerdir ve bir insan onları nasıl okuyabilir?",
+  "aciklama": "Kur'an-ı Kerîm, kendisinin Allah katından geldiğini çeşitli delillerle bildirir: “Hâlâ Kur'an'ı düşünmüyorlar mı? Eğer o, Allah'tan başkası tarafından olsaydı, onda birçok tutarsızlık bulurlardı.” Başka bir ayette de insanlara şu vaat edilir: “Onun hak olduğu kendilerine açıkça belli olsun diye ayetlerimizi hem dış dünyada hem de kendi içlerinde onlara göstereceğiz.” Kur'an, aynı zamanda hakikatleri misallerle anlatır: “İşte bu misalleri, düşünsünler diye insanlara veriyoruz.” On dört asırdır okunan, ezberlenen ve tek harfi değişmeden korunan bu kitap, her çağın insanına kendi diliyle hitap etmeye devam etmektedir.",
+  "risalePerspektifi": "Bediüzzaman, Âyetü'l-Kübrâ olarak bilinen Yedinci Şuâ'da Kur'an'ın taşıdığı imzaları sayar. Bunlardan ikisi şöyledir: “Kur’ân, mu‘cize ve tâkat-i beşerin fevkınde olduğuna bir imzadır.” Ve: “Kur’ân, menba‘-ı hak ve ma‘den-i hakîkat olduğuna bir imzadır.” Eserdeki anlatımın özetine göre Kur'an'ın üslubu, kapsadığı hakikatler, gaybdan verdiği haberler ve her tabakaya hitap etmesi, onun insan gücünün üstünde olduğunu gösteren mühürlerdir. Yirmi Dördüncü Söz'de ise bilimin Kur'an karşısındaki yeri belirtilir: “Fennin hiç bir hakîkat-i kat‘iyesi, Kur’ân’ın hakāik-i kudsiyesine ilişemez.” Kesinleşmiş bir ilmî hakikat, Kur'an'ın kudsi hakikatleriyle çatışmaz. Mesnevî-i Nûriye'nin Habâb Risâlesi'nde de Kur'an'ın öğretme yöntemi şöyle anlatılır: “Kur’ân-ı Mu‘cizü’l-Beyân, hakîkatleri durûb-u emsâl ile beyân eder.” Yani en derin hakikatleri herkesin anlayabileceği misallerle sunar.",
+  "kainattanDelil": "Bir ressamın tablosu, onun imzası olmasa bile üslubundan tanınır. Bir arı kovanındaki altıgen petekler, mimarının ustalığını gösteren bir imza gibidir. Kâinattaki her varlıkta Yaratıcı'nın sanatının izleri görüldüğü gibi, Kur'an'ın her ayetinde de onun ilahi kaynağının izleri görülür. Kâinat kitabı ile Kur'an kitabı, aynı Zât'ın iki ayrı eseridir.",
+  "hikmet": "Kur'an, üzerinde Allah'ın kelamı olduğunu gösteren imzalar taşır. Kesinleşmiş hiçbir ilmî hakikat onun kudsi hakikatleriyle çatışmaz. Kur'an, en derin hakikatleri herkesin anlayabileceği misallerle anlatır.",
+  "kendimize": "Kur'an'ı okurken onun üzerindeki imzaları fark etmeye çalışıyor muyum? Bir ayetteki misali düşünüp kendi hayatımla ilişkilendirdiğim oluyor mu? Bilim ile Kur'an'ı birbirine rakip mi görüyorum, yoksa aynı hakikatin iki penceresi olarak mı?",
+  "hayat": "Kur'an'daki bir misali, örneğin karanlıkta ateş yakan adamı ya da ölü toprağın yağmurla dirilmesini seçip onun üzerinde birkaç dakika düşünmek bu dersin uygulamasıdır. Bilimsel bir bilgiyi öğrendiğimizde onu Kur'an'ın kâinatı anlatan ayetleriyle birlikte düşünmek de tefekkürü derinleştirir.",
+  "ders": "Kur'an, mucize olduğuna ve hakkın menbaı olduğuna dair imzalar taşır; fennin hiçbir kat'i hakikati onun kudsi hakikatlerine ilişemez.",
+  "tefekkurSorusu": "Bugün Kur'an'daki hangi misal üzerinde düşündüm?",
+  "dua": {
+   "arapca": "غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
+   "okunus": "Ğufrâneke rabbenâ ve-ileyke l-mesîr",
+   "anlam": "Peygamber ve inananlar, ona Rabb'inden indirilene inandı. Hepsi Allah'a, meleklerine, kitaplarına, peygamberlerine inandı. “Peygamberleri arasından hiçbirini ayırdetmeyiz, işittik, itaat ettik, Rabbimiz! Affını dileriz, dönüş Sanadır” dediler.",
+   "kaynak": "Bakara, 2/285"
+  },
+  "konular": [
+   "kuran"
+  ],
+  "kavramlar": [
+   "İmza",
+   "İ'caz",
+   "Hakikat",
+   "Misal",
+   "Fen"
+  ],
+  "kaynaklar": [
+   "Nisâ, 4/82",
+   "Fussilet, 41/53",
+   "Haşr, 59/21",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Yedinci Şuâ, İkinci Makam",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Dördüncü Söz, Üçüncü Dal",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Habâb Risâlesi"
+  ],
+  "sinav": [
+   {
+    "soru": "Yedinci Şuâ'ya göre Kur'an neye dair bir imza taşır?",
+    "secenekler": [
+     "Beşer gücünün üstünde bir mucize olduğuna",
+     "Bir şiir kitabı olduğuna",
+     "Bir tarih kitabı olduğuna",
+     "Sıradan bir söz olduğuna"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Habâb Risâlesi'ne göre Kur'an hakikatleri nasıl beyan eder?",
+    "secenekler": [
+     "Sadece emirlerle",
+     "Durub-u emsal, yani misallerle",
+     "Sadece hikâyelerle",
+     "Hiç açıklamadan"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Nisâ Sûresi'ne göre Kur'an Allah'tan başkası tarafından olsaydı onda birçok tutarsızlık bulunurdu.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_043",
+  "kategori": "ahiret",
+  "baslik": "Cennet Ucuz Değil, Cehennem Lüzumsuz Değil",
+  "giris": "Bazen insan şöyle düşünür: Allah bu kadar merhametliyse cehennem neden var? Bazen de tersini sorar: Bu kısa ömürle ebedî bir cennet nasıl kazanılır? Bediüzzaman, bu iki soruya da dengeli bir cevap verir: Cennet ucuz değildir, cehennem de lüzumsuz değildir.",
+  "aciklama": "Kur'an-ı Kerîm, Allah'ın rahmetinin her şeyi kuşattığını bildirir: “Rahmetim ise her şeyi kuşatmıştır.” Aynı Kur'an, adaletin de yerini bulacağını haber verir: “Kim zerre ağırlığınca bir hayır işlerse onu görür. Kim de zerre ağırlığınca bir kötülük işlerse onu görür.” Peygamber Efendimiz ise şöyle buyurmuştur: “Cennet hoşlanılmayan şeylerle, cehennem ise nefsin arzu ettiği şeylerle kuşatılmıştır.” Bu hadis, cennetin bir emek ve sabır karşılığı olduğunu, cehennemin ise nefsin kontrolsüz arzularının sonucu olduğunu gösterir. Rahmet ve adalet, ahiret inancında birbirini tamamlar.",
+  "risalePerspektifi": "Bediüzzaman, Barla Lâhikası'ndaki bir mektupta bu dengeyi kısa bir cümleyle ifade eder: “Cennet ucuz olmadığı gibi cehennem de lüzûmsuz değildir.” Mesnevî-i Nûriye'nin Şu'le Risâlesi'nde ise Allah'ın af ve azabının mahiyetini şöyle açıklar: “Cenâb-ı Hakk’ın günahkârları affetmesi fazıldır, ta‘zîb etmesi adildir.” Eserdeki anlatımın özetine göre Allah kimseye haksızlık etmez; azap adaletin, af ise lütfun gereğidir. Asâ-yı Mûsâ'da cehennemin varlığının bir hikmeti de şöyle anlatılır: “Cehennemsiz, cennetin pek çok lezzetleri gizli kalır.” Zıtlar birbirini tanıtır; kurtuluşun kıymeti, tehlikenin bilinmesiyle anlaşılır. Katre Risâlesi'nde ise ümit kapısı açık tutulur: “Az bir ömürde, cennet bütün lezâiziyle ve mehâsiniyle kazanılır.” Yani kısa bir ömür, iman ve salih amelle ebedî bir saadete dönüşebilir.",
+  "kainattanDelil": "Bir öğrenci bir yıl boyunca çalışarak bir diploma kazanır; ama bu diploma ona bir ömür boyu kapılar açar. Bir çiftçi birkaç ay emek verir ve yıl boyunca hasadını yer. Kısa bir emeğin uzun bir karşılık getirmesi, kâinatta sık görülen bir kanundur. Öte yandan bir doktorun tehlikeli bir hastalığı anlatması, şifanın kıymetini anlamamızı sağlar.",
+  "hikmet": "Cennet emek ve sabırla kazanılır, cehennem ise adaletin gereğidir. Allah'ın affı fazıl, azabı adalettir. Kısa bir ömür, iman ve salih amelle ebedî bir saadete vesile olabilir.",
+  "kendimize": "Cenneti hiç emek gerektirmeyen bir yer gibi mi düşünüyorum? Cehennemi anlatan ayetleri bir korku değil, bir uyarı ve rahmet olarak okuyabiliyor muyum? Bu kısa ömrün ebedî bir saadeti kazandırabileceğini düşündüğümde, bugün ne yapmalıyım?",
+  "hayat": "Her günü ahirete bir yatırım olarak görmek ve küçük de olsa bir salih amel işlemek bu dersin uygulamasıdır. Nefsin hoşlanmadığı ama hayırlı olan bir işi, örneğin sabah namazına kalkmayı ya da öfkeyi yenmeyi, cennetin yolunu açan bir emek olarak görmek de bu dengeyi hayatımıza taşır.",
+  "ders": "Cennet ucuz olmadığı gibi cehennem de lüzumsuz değildir; az bir ömürde cennet bütün lezzetleriyle kazanılır.",
+  "tefekkurSorusu": "Bugün cennet yolunda verdiğim küçük bir emek ne oldu?",
+  "dua": {
+   "arapca": "رَبَّنَا ٱصْرِفْ عَنَّا عَذَابَ جَهَنَّمَ ۖ إِنَّ عَذَابَهَا كَانَ غَرَامًا إِنَّهَا سَآءَتْ مُسْتَقَرًّۭا وَمُقَامًۭا",
+   "okunus": "Rabbenâ isrıf 'annâ 'azâbe cehenneme inne 'azâbehâ kâne ğarâmen innehâ sâet mustekarran vemukâmen",
+   "anlam": "Onlar, “Rabbimiz! Bizden cehennem azabını uzaklaştır; doğrusu onun azabı sürekli ve acıdır. Orası şüphesiz kötü bir yer ve kötü bir duraktır” derler. Onlar, “Rabbimiz! Bizden cehennem azabını uzaklaştır; doğrusu onun azabı sürekli ve acıdır. Orası şüphesiz kötü bir yer ve kötü bir duraktır” derler.",
+   "kaynak": "Furkân, 25/65-66"
+  },
+  "konular": [
+   "ahiret"
+  ],
+  "kavramlar": [
+   "Cennet",
+   "Cehennem",
+   "Fazıl",
+   "Adalet",
+   "Salih amel"
+  ],
+  "kaynaklar": [
+   "A'râf, 7/156",
+   "Zilzâl, 99/7-8",
+   "Müslim, Cennet, 1 (2822)",
+   "Bediüzzaman Said Nursî, Barla Lâhikası",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Şu'le Risâlesi",
+   "Bediüzzaman Said Nursî, Asâ-yı Mûsâ, Sekizinci Mes'ele",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Katre Risâlesi"
+  ],
+  "sinav": [
+   {
+    "soru": "Bediüzzaman'a göre cennet ve cehennem hakkında hangisi doğrudur?",
+    "secenekler": [
+     "Cennet ucuz, cehennem lüzumsuzdur",
+     "Cennet ucuz değil, cehennem de lüzumsuz değildir",
+     "İkisi de yoktur",
+     "Sadece cennet vardır"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Şu'le Risâlesi'ne göre Allah'ın günahkârları affetmesi nedir?",
+    "secenekler": [
+     "Fazıl",
+     "Zulüm",
+     "Tesadüf",
+     "Zorunluluk"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Hadise göre cennet hoşlanılmayan şeylerle, cehennem ise nefsin arzularıyla kuşatılmıştır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_044",
+  "kategori": "nefis",
+  "baslik": "Ruh: Vücut Giymiş Nurani Bir Kanun",
+  "giris": "Bir insan yetmiş yıl yaşar; bu süre içinde vücudundaki hücreler defalarca yenilenir. Ama o insan hep aynı kişidir; çocukluğunu hatırlar, sevdiklerini tanır. Bu değişmeyen ‘ben’ nedir? Bediüzzaman, ruhu vücut giymiş nurani bir kanun olarak tarif eder ve onun bekasını anlatır.",
+  "aciklama": "Kur'an-ı Kerîm, ruhun Allah'ın emrinden olduğunu bildirir: “Sana ruh hakkında soru sorarlar. De ki: Ruh, Rabbimin emrindendir. Size ancak az bir bilgi verilmiştir.” Âdem'in yaratılışında da ruhun üflenmesinden söz edilir: “Onu düzenleyip içine ruhumdan üflediğim zaman, hemen ona secdeye kapanın.” Başka bir ayette de ölüm ve uyku anında ruhların alınmasından bahsedilir: “Allah, ölecekleri vakit canları alır; ölmeyeceklerin canlarını da uykularında alır.” Bu ayetler, ruhun bedenden farklı bir hakikat olduğunu ve bedenin ölümüyle yok olmadığını gösterir.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Otuz Üçüncü Söz'ündeki Lemeât bölümünde ruhu şöyle tarif eder: “Rûh bir nûrânî kanundur, vücûd-u hâricî giymiş bir nâmustur.” Eserdeki anlatımın özetine göre kâinatta varlıkları yöneten kanunlar vardır; ama bu kanunların dış dünyada bir varlığı yoktur. Ruh ise hem şuurlu bir kanun gibi bedeni yönetir hem de dış bir varlık giymiştir. Bu yüzden beden değişse de ruh aynı kalır. Mesnevî-i Nûriye'nin Şemme Risâlesi'nde ruhun zamanla ilişkisi şöyle ifade edilir: “Rûh zâten zaman ile mukayyed değildir.” İşârâtü'l-İ'câz'da ise ölümün ruha ne yaptığı açıklanır: “Mevt ile cesed dağılır, rûh bâkî kalır.” Zerre Risâlesi'nde de ruhun en büyük arzusu belirtilir: “Nefs-i nâtıkanın en yüksek matlûbu devam ve bekādır.” Ruhun bu beka arzusu, ancak ebedî bir âlemle karşılık bulabilir.",
+  "kainattanDelil": "Bir ağacın yaprakları her yıl dökülür ve yeniden çıkar; ama ağacı ağaç yapan kanun değişmez. Bir nehrin suyu sürekli akıp gider, yerine yeni sular gelir; ama nehir aynı nehirdir. Bir tohumun içindeki büyüme kanunu, toprağa düşüp çürüdüğünde yok olmaz; yeni bir filizde yeniden ortaya çıkar. Ruh da bedenin değişmesiyle değişmeyen, ölümüyle yok olmayan bir hakikattir.",
+  "hikmet": "Ruh, bedeni yöneten ve dış varlık giymiş nurani bir kanundur. Beden değişir ve dağılır, ama ruh baki kalır. Ruhun en büyük arzusu bekadır; bu arzu ancak ebedî bir âlemde karşılık bulur. Bedenin yorgunluğu geçicidir; ruhun huzuru ise kalıcıdır.",
+  "kendimize": "Kendimi sadece bir bedenden mi ibaret görüyorum? Ruhumun ihtiyaçlarını, yani iman, marifet ve muhabbeti, bedenimin ihtiyaçları kadar önemsiyor muyum? İçimdeki beka arzusunun bana ne anlattığını düşünüyor muyum?",
+  "hayat": "Bedenimize gıda verdiğimiz gibi ruhumuza da her gün gıda vermek, yani namaz, zikir, Kur'an ve tefekkürle onu beslemek bu dersin uygulamasıdır. Bir sevdiğimizi kaybettiğimizde, onun ruhunun baki olduğunu hatırlamak ve onun için dua etmek de kalbe teselli verir.",
+  "ders": "Ruh, vücud-u harici giymiş nurani bir kanundur; mevt ile ceset dağılır, ruh baki kalır.",
+  "tefekkurSorusu": "Bugün ruhumu hangi gıdayla besledim?",
+  "dua": {
+   "arapca": "رَبِّ هَبْ لِى حُكْمًۭا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ وَٱجْعَل لِّى لِسَانَ صِدْقٍۢ فِى ٱلْـَٔاخِرِينَ وَٱجْعَلْنِى مِن وَرَثَةِ جَنَّةِ ٱلنَّعِيمِ",
+   "okunus": "Rabbi heb lî hukmen ve-elhıknî bil-sâlihîne ve-ic'al lî lisâne sıdkın fî l-âhırîne ve-ic'alnî min veraseti cenneti n-ne'îm",
+   "anlam": "İbrahim: “Eski atalarınızın ve sizin nelere taptıklarınızı görüyor musunuz? Doğrusu onlar benim düşmanımdır. Dostum ancak Alemlerin Rabbidir. Beni yaratan da, doğru yola eriştiren de O'dur. Beni yediren de, içiren de O'dur. Hasta olduğumda bana O şifa verir. Beni öldürecek, sonra da diriltecek O'dur. Ahiret gününde yanılmalarımı bana bağışlamasını umduğum O'dur. Rabbim! Bana hikmet ver ve beni iyiler arasına kat. Sonrakilerin beni güzel şekilde anmalarını sağla. Beni nimet cennetine varis olanlardan kıl. Babamı da bağışla, o şüphesiz sapıklardandır. İnsanların diriltileceği gün, Allah'a temiz bir kalble gelenden başka kimseye malın ve oğulların fayda vermeyeceği gün, beni rezil etme” demişti. Sonrakilerin beni güzel şekilde anmalarını sağla. Beni nimet cennetine varis olanlardan kıl. Babamı da bağışla, o şüphesiz sapıklardandır. İnsanların diriltileceği gün, Allah'a temiz bir kalble gelenden başka kimseye malın ve oğulların fayda vermeyeceği gün, beni rezil etme\" demişti.",
+   "kaynak": "Şuarâ, 26/83-85"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "ahiret"
+  ],
+  "kavramlar": [
+   "Ruh",
+   "Kanun",
+   "Beka",
+   "Nefs-i natıka",
+   "Mevt"
+  ],
+  "kaynaklar": [
+   "İsrâ, 17/85",
+   "Hicr, 15/29",
+   "Zümer, 39/42",
+   "Bediüzzaman Said Nursî, Sözler, Otuz Üçüncü Söz, Lemeât",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Şemme Risâlesi",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Bakara Sûresi'nin Tefsîri",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Zerre Risâlesi"
+  ],
+  "sinav": [
+   {
+    "soru": "Lemeât'a göre ruh nedir?",
+    "secenekler": [
+     "Bir madde",
+     "Vücud-u harici giymiş nurani bir kanun",
+     "Bir hayal",
+     "Bir duygu"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre ölümle ne olur?",
+    "secenekler": [
+     "Ruh ve beden birlikte yok olur",
+     "Ceset dağılır, ruh baki kalır",
+     "Ruh dağılır, ceset kalır",
+     "Hiçbir şey olmaz"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "İsrâ Sûresi'ne göre ruh, Rabbimin emrindendir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_045",
+  "kategori": "iman",
+  "baslik": "Allah'ı Tanıyanın Dünyası Nurla Doludur",
+  "giris": "Aynı dünyada yaşayan iki insan düşünün. Biri her şeyi tesadüf ve karanlık bir yokluk içinde görür; diğeri her şeyde bir Rabbin şefkatini ve hikmetini görür. İkisinin dünyası aynı mıdır? Bediüzzaman, Allah'ı tanıyanın dünyasının nur ve manevi sevinçle dolu olduğunu söyler.",
+  "aciklama": "Kur'an-ı Kerîm, kalplerin huzurunu Allah'ı anmaya bağlar: “Bunlar, iman edenler ve kalpleri Allah'ı anmakla huzura kavuşanlardır. İyi bilin ki kalpler ancak Allah'ı anmakla huzur bulur.” Başka bir ayette de Allah'ın müminlerin dostu olduğu ve onları karanlıklardan aydınlığa çıkardığı bildirilir: “Allah, iman edenlerin dostudur. Onları karanlıklardan nura çıkarır.” Peygamber Efendimiz de kalbin insan için ne kadar önemli olduğunu şöyle anlatmıştır: “Bedende bir et parçası vardır; o düzgün olursa bütün beden düzgün olur, o bozulursa bütün beden bozulur. Dikkat edin, o kalptir.” Kalbin asıl gıdası, Allah'ı tanımak ve sevmektir.",
+  "risalePerspektifi": "Bediüzzaman, Hastalar Risâlesi'nin Dokuzuncu Deva'sında şöyle der: “Allâh’ı tanıyanın dünyası, nûrla ve ma‘nevî sürûrla doludur.” Eserdeki anlatımın özetine göre Allah'ı tanıyan insan, hastalıkta bile yalnız değildir; her şeyin bir Sahibi olduğunu bildiği için kalbi karanlığa düşmez. Hutbe-i Şâmiye'nin zeylinde kalbin yaratılış gayesi şöyle belirtilir: “Allâh, kalbin bâtınını, îmân ve ma‘rifet ve muhabbeti için yaratmıştır.” Asâ-yı Mûsâ'nın Onuncu Hüccet-i İmaniye'sinde de bu marifetin en tatlı meyvesi anlatılır: “Cin ve insin en parlak saâdeti ve en tatlı ni‘meti, o ma‘rifetullâh içindeki muhabbetullâhtır.” Ancak bu marifet, sadece Allah'ın varlığını kabul etmekten ibaret değildir. Fihriste-i Mektubât'ta bu fark şöyle ifade edilir: “Allâh’ı bilmek, varlığını bilmenin gayrıdır.” Yani marifet, Allah'ı isimleri ve sıfatlarıyla tanımak, O'nun her şeydeki tasarrufunu görmektir.",
+  "kainattanDelil": "Karanlık bir odada eşyalar korkutucu gölgeler gibi görünür; ışık yakılınca aynı eşyalar tanıdık ve güzel hâle gelir. Bir yabancı şehirde rehbersiz dolaşan biri kaybolmaktan korkar; o şehrin sahibini tanıyan ise her köşede bir ikram görür. Kâinat da Allah'ı tanımayan için karanlık ve korkutucu bir boşluk, tanıyan için ise nurla dolu bir misafirhanedir.",
+  "hikmet": "Allah'ı tanımak, dünyayı karanlıktan nura çevirir. Kalp, iman, marifet ve muhabbet için yaratılmıştır. Gerçek marifet, Allah'ın sadece varlığını bilmek değil, O'nu isimleri ve tasarrufuyla tanımaktır.",
+  "kendimize": "Allah'ın varlığını bilmekle O'nu tanımak arasındaki farkı hayatımda yaşıyor muyum? Kalbimi hangi şeylerle dolduruyorum? Zor anlarımda dünyam karanlığa mı dönüyor, yoksa Rabbimi tanımanın nuru beni teselli ediyor mu?",
+  "hayat": "Her gün Allah'ın bir ismini öğrenip o ismin tecellisini o gün çevremizde aramak, marifeti artırmanın yoludur. Zor bir anda ‘Bunun da bir Sahibi var’ diyerek kalbimizi O'na bağlamak, dünyamızı nurla doldurur. Zikir ve tefekkür de kalbin asıl gıdasıdır.",
+  "ders": "Allah'ı tanıyanın dünyası nurla ve manevi sürurla doludur; Allah'ı bilmek, varlığını bilmenin gayrıdır.",
+  "tefekkurSorusu": "Bugün Allah'ı hangi ismiyle daha iyi tanıdım?",
+  "dua": {
+   "arapca": "رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
+   "okunus": "Rabbenâ innenâ âmennâ fe-iğfir lenâ zunûbenâ vekınâ 'azâbe n-nâr",
+   "anlam": "Onlar ki, “Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru” diyen, sabreden, doğru olan, gönülden kulluk eden, hayra sarfeden ve seher vakitlerinde bağışlanma dileyenlerdir.",
+   "kaynak": "Âl-i İmrân, 3/16"
+  },
+  "konular": [
+   "iman",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Marifetullah",
+   "Muhabbetullah",
+   "Kalp",
+   "Sürur",
+   "Nur"
+  ],
+  "kaynaklar": [
+   "Ra'd, 13/28",
+   "Bakara, 2/257",
+   "Buhârî, Îmân, 39 (52)",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirmi Beşinci Lem'a, Dokuzuncu Deva",
+   "Bediüzzaman Said Nursî, Mektûbât, Hutbe-i Şâmiye, İkinci Zeyl",
+   "Bediüzzaman Said Nursî, Asâ-yı Mûsâ, Onuncu Hüccet-i İmaniye",
+   "Bediüzzaman Said Nursî, Mektûbât, Fihriste-i Mektubât"
+  ],
+  "sinav": [
+   {
+    "soru": "Hastalar Risâlesi'ne göre Allah'ı tanıyanın dünyası nasıldır?",
+    "secenekler": [
+     "Karanlık",
+     "Nurla ve manevi sürurla dolu",
+     "Boş",
+     "Korkutucu"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Fihriste-i Mektubât'a göre Allah'ı bilmek nedir?",
+    "secenekler": [
+     "Sadece varlığını bilmektir",
+     "Varlığını bilmenin gayrıdır",
+     "Hiçbir şey değildir",
+     "Sadece bir kelimedir"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ra'd Sûresi'ne göre kalpler ancak Allah'ı anmakla huzur bulur.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_046",
+  "kategori": "nefis",
+  "baslik": "Muhabbete En Layık Şey Muhabbettir",
+  "giris": "Bir mümin kardeşimizle küçük bir mesele yüzünden küsebiliriz. O küçük mesele, aramızdaki iman, İslam ve insanlık bağlarından daha mı büyüktür? Bediüzzaman, Hutbe-i Şâmiye'de bu soruyu sorar ve şu cevabı verir: Muhabbete en layık şey muhabbettir.",
+  "aciklama": "Kur'an-ı Kerîm, müminlerin kardeş olduğunu açıkça bildirir: “Müminler ancak kardeştir. Öyleyse kardeşlerinizin arasını düzeltin.” Başka bir ayette de birliğin önemi şöyle vurgulanır: “Hep birlikte Allah'ın ipine sımsıkı sarılın ve dağılıp ayrılmayın.” Peygamber Efendimiz ise imanı muhabbete bağlamıştır: “İman etmedikçe cennete giremezsiniz. Birbirinizi sevmedikçe de iman etmiş olmazsınız. Size, yaptığınızda birbirinizi seveceğiniz bir şeyi söyleyeyim mi? Aranızda selamı yayın.” Kardeşlik, müminler arasında sadece bir duygu değil, imanın bir gereğidir.",
+  "risalePerspektifi": "Bediüzzaman, Hutbe-i Şâmiye'nin Dördüncü Kelime'sinde şöyle der: “Muhabbete en lâyık şey muhabbettir.” Aynı yerde muhabbetin ve düşmanlığın sebeplerini karşılaştırır: “Evet, muhabbetin sebebleri îmân, İslâmiyet, cinsiyet ve insaniyet gibi nûrânî, kuvvetli zincirler ve ma‘nevî kal‘alardır.” Eserdeki anlatımın özetine göre düşmanlığın sebepleri ise küçük taşlar gibi kişisel meselelerdir; bir mümine gerçek düşmanlık eden, dağ gibi muhabbet sebeplerini hafife almış olur. Yirmi İkinci Mektub'da ise iyiliğin muhabbetle ilişkisi şöyle ifade edilir: “Muhabbetin esbâbı olan iyilikler, muhabbet gibi nûrdur.” Mesnevî-i Nûriye'nin Habâb Risâlesi zeylinde de birliği bozan hastalık tarif edilir: “Asabiyet-i câhiliye, birbirine tesânüd edip yardım eden gaflet, dalâlet, riyâ ve zulmetten mürekkeb bir ma‘cundur.” Kardeşliği koruyan ise iman bağının büyüklüğünü görmektir.",
+  "kainattanDelil": "Bir duvardaki taşlar birbirine kenetlendiğinde sağlam bir bina oluşur; tek bir taş ise kolayca yerinden oynar. Bir ormandaki ağaçların kökleri toprağın altında birbirine dolanarak fırtınalara karşı birlikte dayanır. Arılar binlerce birey olarak tek bir kovan gibi çalışır. Kâinattaki bu birlik, kardeşliğin gücünü ve güzelliğini gösterir.",
+  "hikmet": "Müminler arasındaki muhabbet bağları dağlar gibi büyük, düşmanlık sebepleri ise küçük taşlar gibidir. İyilik muhabbetin sebebidir ve o da nurdur. Kardeşliği korumak, imanın bir gereğidir.",
+  "kendimize": "Küs olduğum bir mümin kardeşim var mı? Aramızdaki mesele, bizi birleştiren iman bağından daha mı büyük? Kardeşlerime iyilik yaparak muhabbeti artırmaya çalışıyor muyum?",
+  "hayat": "Küs olduğumuz bir kardeşimize ilk adımı atarak selam vermek, bir mesaj göndermek ya da küçük bir hediye almak bu dersin uygulamasıdır. Bir mümin hakkında olumsuz bir düşünce aklımıza geldiğinde, onunla aramızdaki iman bağını hatırlamak da muhabbeti korur.",
+  "ders": "Muhabbete en layık şey muhabbettir; muhabbetin sebepleri iman ve İslamiyet gibi nurani, kuvvetli zincirlerdir.",
+  "tefekkurSorusu": "Bugün hangi kardeşimle aramdaki muhabbeti artıracak bir adım attım?",
+  "dua": {
+   "arapca": "رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَـٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّۭا لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ رَءُوفٌۭ رَّحِيمٌ",
+   "okunus": "Rabbenâ iğfir lenâ veli-ihvâninâ ellezîne sebekûnâ bil-îmâni velâ tec'al fî kulûbinâ ğıllen lillezîne âmenû rabbenâ inneke raûfun rahîm",
+   "anlam": "Onlardan sonra gelenler: “Rabbimiz! Bizi ve bizden önce inanmış olan kardeşlerimizi bağışla; kalbimizde müminlere karşı kin bırakma; Rabbimiz! Şüphesiz Sen şefkatlisin, merhametlisin” derler.",
+   "kaynak": "Haşr, 59/10"
+  },
+  "konular": [
+   "ihlasUhuvvet",
+   "genclikAhlak"
+  ],
+  "kavramlar": [
+   "Muhabbet",
+   "Uhuvvet",
+   "Adavet",
+   "Asabiyet",
+   "İyilik"
+  ],
+  "kaynaklar": [
+   "Hucurât, 49/10",
+   "Âl-i İmrân, 3/103",
+   "Müslim, Îmân, 93 (54)",
+   "Bediüzzaman Said Nursî, Mektûbât, Hutbe-i Şâmiye, Dördüncü Kelime",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi İkinci Mektub, Birinci Mebhas",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Zeylü'l-Habâb"
+  ],
+  "sinav": [
+   {
+    "soru": "Hutbe-i Şâmiye'ye göre muhabbete en layık şey nedir?",
+    "secenekler": [
+     "Dünya malı",
+     "Muhabbet",
+     "Şöhret",
+     "Makam"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi İkinci Mektub'a göre muhabbetin sebebi olan iyilikler nedir?",
+    "secenekler": [
+     "Muhabbet gibi nurdur",
+     "Önemsizdir",
+     "Düşmanlık sebebidir",
+     "Bir yüktür"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Hucurât Sûresi'ne göre müminler ancak kardeştir.",
+    "dogru": true
+   }
+  ]
  }
 ]
