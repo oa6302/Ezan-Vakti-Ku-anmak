@@ -585,7 +585,10 @@ class ContentService extends ChangeNotifier {
       debugPrint('gunluk_hadisler: $e');
     }
     try {
-      // Kaynagi dogrulanmis dualar once; eski dua kayitlari silinmez, arkada kalir
+      // Yalniz kaynagi dogrulanmis dualar gunluk havuza girer. Eski
+      // dua_havuzu*.dart kayitlari (147) incelendi: hepsi ya bu listede
+      // dogrulanmis karsiligiyla var ya da kaynagi zayif/yanlis; dosyalar
+      // silinmez, yalniz varlik dosyasi okunamazsa yedek olarak kalir.
       final dualar = await oku('assets/content/gunluk_dualar.json');
       if (dualar.isNotEmpty) {
         final dogrulanmis = dualar
@@ -603,10 +606,7 @@ class ContentService extends ChangeNotifier {
                   extra: {'sihhat': d['sihhat']},
                 ))
             .toList();
-        _pools[ContentType.dua] = [
-          ...dogrulanmis,
-          ...?_pools[ContentType.dua],
-        ];
+        _pools[ContentType.dua] = dogrulanmis;
       }
     } catch (e) {
       debugPrint('gunluk_dualar: $e');
