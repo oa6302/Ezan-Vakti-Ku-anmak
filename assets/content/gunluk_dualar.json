@@ -970,5 +970,68 @@
   "sihhat": "Kur'an-ı Kerîm",
   "metinKaynagi": "api.quran.com · Diyanet meali",
   "hazineId": "dua_k063"
+ },
+ {
+  "gun": 88,
+  "baslik": "Sığınma Duası",
+  "kategori": "Sığınma",
+  "anlam": "Allahım, dünyanın fitne ve sınamasından ve kabir azabından da sana sığınırım.",
+  "kaynak": "Buhârî, 2822",
+  "sihhat": "Sahih (Buhârî)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
+ },
+ {
+  "gun": 89,
+  "baslik": "Sığınma Duası",
+  "kategori": "Sığınma",
+  "anlam": "Allahım, hayatın ve ölümün fitnesinden ve kabir azabından sana sığınırım.",
+  "kaynak": "Buhârî, 2823",
+  "sihhat": "Sahih (Buhârî)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
+ },
+ {
+  "gun": 90,
+  "baslik": "Salih Arkadaş Duası",
+  "kategori": "Salih Arkadaş",
+  "anlam": "Allah'ım, bana beraber oturacağım salih bir arkadaş nasip et.",
+  "kaynak": "Buhârî, 3743",
+  "sihhat": "Sahih (Buhârî)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-bukhari)"
+ },
+ {
+  "gun": 91,
+  "baslik": "Namazda Okunan Dua",
+  "kategori": "Namaz",
+  "anlam": "Ey Allah'ım, bana acı, beni rızıklandır, bana afiyet ver ve hidayete erdir.",
+  "kaynak": "Ebû Dâvûd, 832",
+  "sihhat": "Hasan (Al-Albani)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
+ },
+ {
+  "gun": 92,
+  "baslik": "Ahiret Duası",
+  "kategori": "Ahiret",
+  "anlam": "Allah'ım! Bize dünyada ve âhirette iyiyi ver, bizi ateşin azabından koru.",
+  "kaynak": "Ebû Dâvûd, 1519",
+  "sihhat": "Sahih (Al-Albani)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
+ },
+ {
+  "gun": 93,
+  "baslik": "Sığınma Duası",
+  "kategori": "Sığınma",
+  "anlam": "Allah'ım, cehennem azabından ve kabir azabından sana sığınırım.",
+  "kaynak": "Ebû Dâvûd, 5071",
+  "sihhat": "Sahih (Al-Albani)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-abudawud)"
+ },
+ {
+  "gun": 94,
+  "baslik": "Bağışlanma Duası",
+  "kategori": "Bağışlanma",
+  "anlam": "Allah’ım! Beni günahlarımdan kar, dolu ve soğuk su ile temizle.",
+  "kaynak": "Nesâî, 402",
+  "sihhat": "Sahih (Abu Ghuddah)",
+  "metinKaynagi": "fawazahmed0/hadith-api (tur-nasai)"
  }
 ]

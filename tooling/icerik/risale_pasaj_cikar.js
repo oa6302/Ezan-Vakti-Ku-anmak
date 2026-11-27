@@ -5,6 +5,8 @@ const fs = require('fs');
 const API = 'https://risale.online/risale-api';
 const ESERLER = process.env.ESERLER ? JSON.parse(process.env.ESERLER) : [[17, 'Sözler', 379], [13, 'Mektûbât', 515], [12, "Lem'alar", 419], [18, "Şuâ'lar", 628], [1, 'Asâ-yı Mûsâ', 318]];
 const ADIM = 10;
+// Gevsek tarama: MIN_UZ/MAX_UZ/MIN_KAVRAM env ile; GEVSEK=1 'Evet/İşte/Ey' baslangicina izin verir.
+const MIN_UZ = +(process.env.MIN_UZ || 260), MAX_UZ = +(process.env.MAX_UZ || 720), MIN_KAVRAM = +(process.env.MIN_KAVRAM || 3);
 const bekle = ms => new Promise(r => setTimeout(r, ms));
 async function al(url) {
   for (let d = 0; d < 5; d++) {
@@ -26,7 +28,7 @@ function duzle(dugum, ust = [], out = []) {
   return out;
 }
 const KAVRAM = /(îmân|kur’ân|hakîkat|ubûdiyet|ibâdet|şükür|şükr|sabır|sabr|kalb|rûh|saâdet|nûr|âhiret|dünya|mevt|ölüm|duâ|ihlâs|tevekkül|ma‘rifet|muhabbet|zikr|merhamet|şefkat|hayat|ecel|kabir|cennet|ömür|gaflet|nefs|namaz|acz|fakr|tefekkür|kâinât|esmâ|Allâh|Cenâb-ı Hak|hidâyet|haşir|ebed|bekā|fânî|lezzet|elem|insan)/gi;
-const KOTU = /^(ve|fakat|lâkin|çünki|demek|evet|hem|işte|belki|madem|mâdem|meselâ|hattâ|yani|sonra|şimdi|bu|şu|o|onun|bunun|elhâsıl|hâsılı|amma|ama|eğer|ise|binaenaleyh|ondan|bundan|zîrâ|el-cevap|elcevap|sual|ikinci|üçüncü|dördüncü|beşinci|altıncı|yedinci|sekizinci|dokuzuncu|onuncu|birinci|aziz|sevgili|kardeşlerim|azîz)\b/i;
+const KOTU = new RegExp('^(ve|fakat|lâkin|çünki|demek|' + (process.env.GEVSEK ? '' : 'evet|işte|') + 'hem|belki|madem|mâdem|meselâ|hattâ|yani|sonra|şimdi|bu|şu|o|onun|bunun|elhâsıl|hâsılı|amma|ama|eğer|ise|binaenaleyh|ondan|bundan|zîrâ|el-cevap|elcevap|sual|ikinci|üçüncü|dördüncü|beşinci|altıncı|yedinci|sekizinci|dokuzuncu|onuncu|birinci|aziz|sevgili|kardeşlerim|azîz)\\b', 'i');
 const YASAK = /[0-9«»]|hâşiye|kardeşim|kardeşler|said|üstad|üstâd|talebe|mektup|efendi|hüsrev|mahkeme|hapis|ceza|risâle-i nûr’un|nûr şâkird|şâkirdler/i;
 function tokenlar(html) {
   const t = [];
@@ -58,10 +60,10 @@ function birlestir(tok, alan) {
         if (!tok.length || tok.some(t => /Kirmizi|Arabi/.test(t.sinif))) continue;
         if (tok.some(t => t.lat === null && !/^[.,!?؟،:;]+$/.test(t.osm))) continue;
         const latin = birlestir(tok, 'lat');
-        if (latin.length < 260 || latin.length > 720 || !/[.!]$/.test(latin)) continue;
+        if (latin.length < MIN_UZ || latin.length > MAX_UZ || !/[.!]$/.test(latin)) continue;
         if (KOTU.test(latin) || YASAK.test(latin)) continue;
         const kavram = new Set((latin.match(KAVRAM) || []).map(x => x.toLowerCase())).size;
-        if (kavram < 3) continue;
+        if (kavram < MIN_KAVRAM) continue;
         adaylar.push({ eserId: id, eser: ad, sayfa: par.sayfa, bolum: bolum(par.sayfa), latin,
           osmanlica: birlestir(tok, 'osm'), puan: kavram });
       }
