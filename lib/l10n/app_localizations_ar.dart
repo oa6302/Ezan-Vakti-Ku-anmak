@@ -1453,10 +1453,11 @@ class AppLocalizationsAr extends AppLocalizations {
   String get duaHazinesiDesc => 'القرآن والسنة والمناجاة والحفظ';
 
   @override
-  String get risaleHakikatleriTitle => 'حقائق رسائل النور';
+  String get risaleHakikatleriTitle => 'رسائل النور / الحقائق';
 
   @override
-  String get risaleHakikatleriDesc => 'دروس الإيمان والتفكر واختبار قصير';
+  String get risaleHakikatleriDesc =>
+      'حقائق الإيمان والكليات والتفكّر والتعلّم';
 
   @override
   String get ypBaslik => 'لوحة الإدارة';
@@ -1693,4 +1694,420 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get ypKaydet => 'حفظ';
+
+  @override
+  String get hkBaslik => 'رسائل النور / الحقائق';
+
+  @override
+  String get hkAltBaslik => 'تعلّم حقائق الإيمان وتفكّر فيها وعِشها';
+
+  @override
+  String get hkGununHakikati => 'حقيقة اليوم';
+
+  @override
+  String get hkDetayliIncele => 'اقرأ بالتفصيل';
+
+  @override
+  String get hkPaylas => 'مشاركة';
+
+  @override
+  String get hkArsiv => 'الأيام السابقة';
+
+  @override
+  String get hkArsivBaslik => 'أرشيف حقيقة اليوم';
+
+  @override
+  String get hkBugun => 'اليوم';
+
+  @override
+  String get hkKonular => 'موضوعات الحقائق';
+
+  @override
+  String get hkKulliyat => 'كليات رسائل النور';
+
+  @override
+  String get hkKulliyatAlt => 'المؤلفات والرسائل والنصوص الموثقة';
+
+  @override
+  String get hkAra => 'بحث';
+
+  @override
+  String get hkAraIpucu =>
+      'ابحث في العنوان أو المحتوى أو المفهوم أو الموضوع أو المؤلَّف';
+
+  @override
+  String get hkSonucYok => 'لا توجد نتائج';
+
+  @override
+  String get hkHakikatler => 'الحقائق';
+
+  @override
+  String get hkRisaleMetinleri => 'نصوص رسائل النور';
+
+  @override
+  String get hkTumu => 'الكل';
+
+  @override
+  String hkIlerleme(int tamam, int toplam) {
+    return 'أُكملت $tamam/$toplam حقيقة';
+  }
+
+  @override
+  String get hkDevamEt => 'تابع القراءة';
+
+  @override
+  String get hkFavoriler => 'المفضلة';
+
+  @override
+  String get hkSonraOku => 'اقرأ لاحقًا';
+
+  @override
+  String get hkTamamlananlar => 'المكتملة';
+
+  @override
+  String get hkSikOkunan => 'الأكثر قراءةً لديك على هذا الجهاز';
+
+  @override
+  String get hkBos => 'لا يوجد شيء بعد';
+
+  @override
+  String hkHakikatSayisi(int n) {
+    return '$n حقيقة';
+  }
+
+  @override
+  String get hkKonuBos =>
+      'لا يوجد درس في هذا الموضوع بعد. وفيما يلي نصوص موثقة من رسائل النور حوله.';
+
+  @override
+  String get hkIlgiliMetinler => 'نصوص ذات صلة من رسائل النور';
+
+  @override
+  String get hkIcerikYok => 'لا يوجد محتوى للعرض';
+
+  @override
+  String get hkKonuIman => 'حقائق الإيمان';
+
+  @override
+  String get hkKonuTevhid => 'وجود الله ووحدانيته';
+
+  @override
+  String get hkKonuEsma => 'الأسماء الحسنى';
+
+  @override
+  String get hkKonuKuran => 'القرآن الكريم وحقائقه';
+
+  @override
+  String get hkKonuNubuvvet => 'النبوة وسيدنا محمد ﷺ';
+
+  @override
+  String get hkKonuAhiret => 'الآخرة والحشر';
+
+  @override
+  String get hkKonuKader => 'القدر والإرادة';
+
+  @override
+  String get hkKonuRuh => 'الروح والقلب والنفس';
+
+  @override
+  String get hkKonuInsan => 'الإنسان والكون';
+
+  @override
+  String get hkKonuIbadet => 'الصلاة والعبادة';
+
+  @override
+  String get hkKonuSukur => 'الشكر والصبر والتوكل';
+
+  @override
+  String get hkKonuIhlas => 'الإخلاص والأخوّة';
+
+  @override
+  String get hkKonuGenclik => 'الشباب والأخلاق';
+
+  @override
+  String get hkKonuMusibet => 'المرض والمصيبة والحكمة';
+
+  @override
+  String get hkKonuTabiat => 'الطبيعة والخلق';
+
+  @override
+  String get hkTefekkurKapisi => 'باب التفكّر';
+
+  @override
+  String get hkAciklama => 'بيان الحقيقة';
+
+  @override
+  String get hkPerspektif => 'منظور رسائل النور';
+
+  @override
+  String get hkPerspektifNot =>
+      'ما بين علامتي التنصيص منقول حرفيًا من المؤلَّف، وما سواه شرح.';
+
+  @override
+  String get hkKainattan => 'أدلة من الكون';
+
+  @override
+  String get hkGunlukHayat => 'الصلة بالحياة اليومية';
+
+  @override
+  String get hkHikmet => 'نافذة الحكمة';
+
+  @override
+  String get hkSorgula => 'حاسب نفسك';
+
+  @override
+  String get hkUygula => 'طبّقها: مهمة التفكّر اليومية';
+
+  @override
+  String get hkGorevYaptim => 'تفكّرت في هذا اليوم';
+
+  @override
+  String get hkDua => 'دعاء ذو صلة';
+
+  @override
+  String get hkOgrenilen => 'الحقيقة المستفادة';
+
+  @override
+  String get hkSorular => 'أسئلة المعرفة والتفكّر';
+
+  @override
+  String get hkKavramlar => 'المفاهيم';
+
+  @override
+  String get hkKaynaklar => 'المصادر';
+
+  @override
+  String get hkIlgiliEserler => 'مؤلفات ذات صلة';
+
+  @override
+  String get hkMiniTest => 'اختبار قصير';
+
+  @override
+  String get hkDogru => 'صحيح';
+
+  @override
+  String get hkYanlis => 'خطأ';
+
+  @override
+  String hkDogruCevap(String cevap) {
+    return 'الإجابة الصحيحة: $cevap';
+  }
+
+  @override
+  String get hkGerekce => 'خلاصة الدرس';
+
+  @override
+  String hkTestSonuc(int dogru, int toplam) {
+    return '$dogru/$toplam صحيحة';
+  }
+
+  @override
+  String get hkBoslukDoldur => 'املأ الفراغ';
+
+  @override
+  String get hkBoslukYonerge => 'اختر المفهوم الذي يملأ الفراغ';
+
+  @override
+  String get hkEslestir => 'مطابقة المفاهيم';
+
+  @override
+  String get hkEslestirYonerge => 'طابق كل حقيقة مع خلاصتها';
+
+  @override
+  String get hkSec => 'اختر';
+
+  @override
+  String get hkKontrolEt => 'تحقّق';
+
+  @override
+  String get hkYenidenDene => 'أعد المحاولة';
+
+  @override
+  String get hkTebrik => 'كلها صحيحة!';
+
+  @override
+  String get hkTamamla => 'علّم كمكتمل';
+
+  @override
+  String get hkTamamlandi => 'مكتمل';
+
+  @override
+  String get hkFavoriEkle => 'أضف إلى المفضلة';
+
+  @override
+  String get hkFavoriCikar => 'أزل من المفضلة';
+
+  @override
+  String get hkSonraOkuEkle => 'أضف إلى القراءة لاحقًا';
+
+  @override
+  String get hkSonraOkuCikar => 'أزل من القراءة لاحقًا';
+
+  @override
+  String get hkYaziBoyutu => 'حجم الخط';
+
+  @override
+  String hkEnIyiPuan(int p) {
+    return 'أفضل نتيجة: $p٪';
+  }
+
+  @override
+  String hkOkundu(int p) {
+    return 'قُرئ $p٪';
+  }
+
+  @override
+  String get hkTanitim => 'تعريف';
+
+  @override
+  String get hkAnaKonu => 'الموضوع الرئيس';
+
+  @override
+  String get hkMeseleler => 'المسائل التي يتناولها';
+
+  @override
+  String get hkKonum => 'موضعه في الكليات';
+
+  @override
+  String get hkBolumler => 'الأقسام';
+
+  @override
+  String hkMetinSayisi(int n) {
+    return '$n نصًا موثقًا';
+  }
+
+  @override
+  String get hkEserler => 'المؤلفات';
+
+  @override
+  String get hkRisaleler => 'الرسائل';
+
+  @override
+  String get hkKaynakNotu =>
+      'النصوص منقولة حرفيًا من النص العثماني–اللاتيني المتقابل على risale.online، ولا تُذكر أرقام الصفحات.';
+
+  @override
+  String get hkOsmanlica => 'العثمانية';
+
+  @override
+  String get hkMetin => 'نص من رسائل النور';
+
+  @override
+  String get hkYonetim => 'إدارة الحقائق';
+
+  @override
+  String get hkYonetimAlt => 'أضف الحقائق وعدّلها وانشرها، وخطّط لحقيقة اليوم';
+
+  @override
+  String get hkYeni => 'حقيقة جديدة';
+
+  @override
+  String get hkDuzenle => 'تعديل';
+
+  @override
+  String get hkOnizle => 'معاينة';
+
+  @override
+  String get hkYayinla => 'نشر';
+
+  @override
+  String get hkTaslakYap => 'نقل إلى المسودة';
+
+  @override
+  String get hkArsivle => 'أرشفة';
+
+  @override
+  String get hkSil => 'حذف';
+
+  @override
+  String get hkSilOnay => 'هل تريد حذف هذا السجل؟ السجلات المدمجة تُخفى فقط.';
+
+  @override
+  String get hkVazgec => 'إلغاء';
+
+  @override
+  String get hkGeriAl => 'التراجع عن التعديل';
+
+  @override
+  String get hkDurumTaslak => 'مسودة';
+
+  @override
+  String get hkDurumYayinda => 'منشور';
+
+  @override
+  String get hkDurumArsiv => 'مؤرشف';
+
+  @override
+  String get hkDuzenlendi => 'معدَّل';
+
+  @override
+  String get hkPlanSec => 'اختر حقيقة هذا اليوم';
+
+  @override
+  String get hkPlanOtomatik => 'اختيار تلقائي';
+
+  @override
+  String get hkPlanKaldir => 'إزالة الجدولة';
+
+  @override
+  String get hkPlanli => 'مجدول';
+
+  @override
+  String get hkKaydet => 'حفظ';
+
+  @override
+  String get hkKaydedildi => 'تم الحفظ';
+
+  @override
+  String get hkZorunlu => 'هذا الحقل مطلوب';
+
+  @override
+  String hkKarakter(int n) {
+    return 'المتن: $n حرفًا (الهدف 2800–3200)';
+  }
+
+  @override
+  String get hkAlanBaslik => 'العنوان';
+
+  @override
+  String get hkAlanKavram => 'المفاهيم (مفصولة بفواصل)';
+
+  @override
+  String get hkAlanKaynak => 'المصادر: واحد في كل سطر (آية، حديث، مؤلَّف)';
+
+  @override
+  String get hkAlanDuaArapca => 'الدعاء (بالعربية)';
+
+  @override
+  String get hkAlanDuaOkunus => 'النطق';
+
+  @override
+  String get hkAlanDuaAnlam => 'المعنى';
+
+  @override
+  String get hkAlanDuaKaynak => 'مصدر الدعاء';
+
+  @override
+  String hkAlanSoru(int n) {
+    return 'السؤال $n';
+  }
+
+  @override
+  String get hkAlanSecenek => 'الخيارات: واحد في كل سطر';
+
+  @override
+  String get hkAlanDogruNo => 'الخيار الصحيح (1، 2، 3...)';
+
+  @override
+  String get hkAlanDY => 'عبارة صح/خطأ';
+
+  @override
+  String get hkAlanDYDogru => 'هذه العبارة صحيحة';
+
+  @override
+  String get hkAlanKategori => 'التصنيف الرئيس';
+
+  @override
+  String get hkKaynakUyari =>
+      'لا تنشر الآيات والأحاديث ونصوص رسائل النور قبل التحقق منها.';
 }

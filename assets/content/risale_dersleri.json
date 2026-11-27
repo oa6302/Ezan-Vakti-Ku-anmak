@@ -61,6 +61,11 @@
     "ifade": "Âyetü'l-Kübrâ, Sözler'in bir bölümüdür.",
     "dogru": false
    }
+  ],
+  "konular": [
+   "tevhid",
+   "insanKainat",
+   "tabiat"
   ]
  },
  {
@@ -121,6 +126,9 @@
     "ifade": "Bediüzzaman'a göre iman, insanı kâinata meydan okuyabilecek bir güvene kavuşturur.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "iman"
   ]
  },
  {
@@ -139,7 +147,7 @@
   "dua": {
    "arapca": "رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
    "okunus": "Rabbenâ âmennâ fe-iğfir lenâ ve-irhamnâ ve-ente hayru r-râhımîn",
-   "anlam": "Allah: &quot;Sinin orada! Benimle konuşmayın. Kullarımdan bir topluluk: &quot;Rabbimiz! inandık, artık bizi bağışla, bize acı. Sen acıyanların en iyisisin&quot; diyordu. Siz ise, onları alaya alıyordunuz. Bu yaptıklarınız size Beni anmayı unutturuyordu. Onlara hep gülüyordunuz. Sabretmelerine karşılık bugün onları mükafatlandırdım. Doğrusu onlar kurtulanlardır&quot; der.",
+   "anlam": "Allah: “Sinin orada! Benimle konuşmayın. Kullarımdan bir topluluk: ”Rabbimiz! inandık, artık bizi bağışla, bize acı. Sen acıyanların en iyisisin“ diyordu. Siz ise, onları alaya alıyordunuz. Bu yaptıklarınız size Beni anmayı unutturuyordu. Onlara hep gülüyordunuz. Sabretmelerine karşılık bugün onları mükafatlandırdım. Doğrusu onlar kurtulanlardır” der.",
    "kaynak": "Mü'minûn, 23/109"
   },
   "kavramlar": [
@@ -182,6 +190,9 @@
     "ifade": "Bediüzzaman'a göre ölüm, sevdiklerimizden ebedî bir ayrılıktır.",
     "dogru": false
    }
+  ],
+  "konular": [
+   "ahiret"
   ]
  },
  {
@@ -200,7 +211,7 @@
   "dua": {
    "arapca": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّـٰلِحِينَ",
    "okunus": "Rabbi evzi'nî en eşkura ni'meteke elletî en'amte 'aleyye ve'alâ vâlideyye ve-en e'mele sâlihan terdâhu ve-edhılnî birahmetike fî 'ıbâdike s-sâlihîn",
-   "anlam": "Süleyman, onun sözüne hafifçe güldü ve: &quot;Rabbim! Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl. Rahmetinle, beni iyi kullarının arasına koy&quot; dedi.",
+   "anlam": "Süleyman, onun sözüne hafifçe güldü ve: “Rabbim! Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl. Rahmetinle, beni iyi kullarının arasına koy” dedi.",
    "kaynak": "Neml, 27/19"
   },
   "kavramlar": [
@@ -243,6 +254,9 @@
     "ifade": "İsraf, nimete karşı bir hürmetsizlik olarak görülür.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "sukurSabir"
   ]
  },
  {
@@ -261,7 +275,7 @@
   "dua": {
    "arapca": "رَّبِّ زِدْنِى عِلْمًۭا",
    "okunus": "Rabbi zidnî 'ılmen",
-   "anlam": "Gerçek hükümdar olan Allah Yüce'dir. Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, &quot;Rabbim! ilmimi artır&quot; de.",
+   "anlam": "Gerçek hükümdar olan Allah Yüce'dir. Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, “Rabbim! ilmimi artır” de.",
    "kaynak": "Tâhâ, 20/114"
   },
   "kavramlar": [
@@ -304,6 +318,9 @@
     "ifade": "Meal okumak, Kur'an'ın bütün manalarını tam olarak verir.",
     "dogru": false
    }
+  ],
+  "konular": [
+   "kuran"
   ]
  },
  {
@@ -322,7 +339,7 @@
   "dua": {
    "arapca": "رَبَّنَا مَا خَلَقْتَ هَـٰذَا بَـٰطِلًۭا سُبْحَـٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ رَبَّنَآ إِنَّكَ مَن تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍۢ",
    "okunus": "Rabbenâ mâ halekte hâzâ bâtılen subhâneke fekınâ 'azâbe n-nârı rabbenâ inneke men tudhıli n-nâra fekad ehzeytehu vemâ lilzzâlimîne min ensârın",
-   "anlam": "Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: &quot;Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru&quot; &quot;Rabbimiz! Sen ateşe kimi sokarsan, onu şüphesiz rezil etmiş olursun, zulmedenlerin hiç yardımcıları yoktur&quot;.",
+   "anlam": "Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: “Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru” “Rabbimiz! Sen ateşe kimi sokarsan, onu şüphesiz rezil etmiş olursun, zulmedenlerin hiç yardımcıları yoktur”.",
    "kaynak": "Âl-i İmrân, 3/191-192"
   },
   "kavramlar": [
@@ -365,6 +382,10 @@
     "ifade": "Allah'ın isimlerinden biri olan Vedûd, çok seven ve sevilen anlamına gelir.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "tevhid",
+   "esma"
   ]
  },
  {
@@ -383,7 +404,7 @@
   "dua": {
    "arapca": "رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
    "okunus": "Rabbi innî zalemtu nefsî fe-iğfir lî feğafera lehu innehu huve l-ğafûru r-rahîm",
-   "anlam": "Musa: &quot;Rabbim! Doğrusu kendime yazık ettim, beni bağışla&quot; dedi. Allah da onu bağışladı. O, şüphesiz bağışlayandır, merhamet edendir.",
+   "anlam": "Musa: “Rabbim! Doğrusu kendime yazık ettim, beni bağışla” dedi. Allah da onu bağışladı. O, şüphesiz bağışlayandır, merhamet edendir.",
    "kaynak": "Kasas, 28/16"
   },
   "kavramlar": [
@@ -426,6 +447,10 @@
     "ifade": "Kibir, şeytanın ilk günahı olarak anlatılır.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "tevhid",
+   "tabiat"
   ]
  },
  {
@@ -444,7 +469,7 @@
   "dua": {
    "arapca": "رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
    "okunus": "Rabbenâ efrığ 'aleynâ sabran vesebbit ekdâmenâ ve-unsurnâ 'alâ l-kavmi l-kâfirîn",
-   "anlam": "Calut ve ordusuna karşı çıktıklarında, &quot;Rabbimiz! Bize sabır ver, sebatımızı artır, inkar eden millete karşı bize yardım et&quot; dediler.",
+   "anlam": "Calut ve ordusuna karşı çıktıklarında, “Rabbimiz! Bize sabır ver, sebatımızı artır, inkar eden millete karşı bize yardım et” dediler.",
    "kaynak": "Bakara, 2/250"
   },
   "kavramlar": [
@@ -488,6 +513,10 @@
     "ifade": "Müminin başına gelen sıkıntılar günahlarına kefaret olabilir.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "musibet",
+   "kader"
   ]
  },
  {
@@ -506,7 +535,7 @@
   "dua": {
    "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ",
    "okunus": "Rabbenâ âtinâ fî d-dunyâ haseneten vefî l-âhırati haseneten vekınâ 'azâbe n-nâr",
-   "anlam": "&quot;Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru&quot; diyenler vardır.",
+   "anlam": "“Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru” diyenler vardır.",
    "kaynak": "Bakara, 2/201"
   },
   "kavramlar": [
@@ -549,6 +578,10 @@
     "ifade": "Kur'an'a göre ruh, Rabbin emrindendir.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "ruhKalpNefis",
+   "insanKainat"
   ]
  },
  {
@@ -567,7 +600,7 @@
   "dua": {
    "arapca": "رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى ۚ رَبَّنَا وَتَقَبَّلْ دُعَآءِ رَبَّنَا ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ ٱلْحِسَابُ",
    "okunus": "Rabbi ic'alnî mukîme s-saleti vemin zurrıyyetî rabbenâ vetekabbel du'âi rabbenâ iğfir lî velivâlideyye velilmuminîne yevme yekûmu l-hısâb",
-   "anlam": "&quot;Rabbim! Beni ve çocuklarımı namaz kılanlardan eyle. Rabbimiz! Duamı kabul buyur.&quot; &quot;Rabbimiz! Hesap görülecek günde, beni, anamı babamı ve inananları bağışla.&quot;",
+   "anlam": "“Rabbim! Beni ve çocuklarımı namaz kılanlardan eyle. Rabbimiz! Duamı kabul buyur.” “Rabbimiz! Hesap görülecek günde, beni, anamı babamı ve inananları bağışla.”",
    "kaynak": "İbrâhîm, 14/40-41"
   },
   "kavramlar": [
@@ -611,6 +644,9 @@
     "ifade": "Kur'an'a göre namaz, hayâsızlıktan ve kötülükten alıkoyar.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "ibadet"
   ]
  },
  {
@@ -629,7 +665,7 @@
   "dua": {
    "arapca": "رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
    "okunus": "Rabbi innî zalemtu nefsî fe-iğfir lî feğafera lehu innehu huve l-ğafûru r-rahîm",
-   "anlam": "Musa: &quot;Rabbim! Doğrusu kendime yazık ettim, beni bağışla&quot; dedi. Allah da onu bağışladı. O, şüphesiz bağışlayandır, merhamet edendir.",
+   "anlam": "Musa: “Rabbim! Doğrusu kendime yazık ettim, beni bağışla” dedi. Allah da onu bağışladı. O, şüphesiz bağışlayandır, merhamet edendir.",
    "kaynak": "Kasas, 28/16"
   },
   "kavramlar": [
@@ -673,6 +709,9 @@
     "ifade": "Karun, kendisine verilen hazineleri Allah'ın lütfu olarak görmüştü.",
     "dogru": false
    }
+  ],
+  "konular": [
+   "ruhKalpNefis"
   ]
  },
  {
@@ -691,7 +730,7 @@
   "dua": {
    "arapca": "رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
    "okunus": "Rabbenâ innenâ âmennâ fe-iğfir lenâ zunûbenâ vekınâ 'azâbe n-nâr",
-   "anlam": "Onlar ki, &quot;Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru&quot; diyen, sabreden, doğru olan, gönülden kulluk eden, hayra sarfeden ve seher vakitlerinde bağışlanma dileyenlerdir.",
+   "anlam": "Onlar ki, “Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru” diyen, sabreden, doğru olan, gönülden kulluk eden, hayra sarfeden ve seher vakitlerinde bağışlanma dileyenlerdir.",
    "kaynak": "Âl-i İmrân, 3/16"
   },
   "kavramlar": [
@@ -735,6 +774,9 @@
     "ifade": "İmanı tazelemenin yollarından biri, ‘Lâ ilâhe illallah’ zikrini tefekkürle tekrar etmektir.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "iman"
   ]
  },
  {
@@ -753,7 +795,7 @@
   "dua": {
    "arapca": "أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
    "okunus": "Ennî messeniye d-duru ve-ente erhamu r-râhımîn",
-   "anlam": "Eyyub da: &quot;Başıma bir bela geldi, (Sana sığındım), Sen merhametlilerin merhametlisisin&quot; diye Rabbine nida etmişti.",
+   "anlam": "Eyyub da: “Başıma bir bela geldi, (Sana sığındım), Sen merhametlilerin merhametlisisin” diye Rabbine nida etmişti.",
    "kaynak": "Enbiyâ, 21/83"
   },
   "kavramlar": [
@@ -797,6 +839,9 @@
     "ifade": "Hastalar Risalesi, Lem'alar'ın Yirmi Beşinci Lem'a'sıdır.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "musibet"
   ]
  },
  {
@@ -815,7 +860,7 @@
   "dua": {
    "arapca": "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًۭا",
    "okunus": "Rabbenâ âtinâ min ledunke rahmeten veheyyi lenâ min emrınâ raşeden",
-   "anlam": "Birkaç genç mağaraya sığınmış: &quot;Rabbimiz! Katından bize rahmet ver ve işimizde doğruyu göster, bizi başarılı kıl&quot; demişlerdi.",
+   "anlam": "Birkaç genç mağaraya sığınmış: “Rabbimiz! Katından bize rahmet ver ve işimizde doğruyu göster, bizi başarılı kıl” demişlerdi.",
    "kaynak": "Kehf, 18/10"
   },
   "kavramlar": [
@@ -859,6 +904,10 @@
     "ifade": "Kur'an'a göre Allah insana şah damarından daha yakındır.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "tevhid",
+   "esma"
   ]
  },
  {
@@ -921,6 +970,10 @@
     "ifade": "Kur'an, ahireti ispat ederken baharın dirilişini delil olarak gösterir.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "ahiret",
+   "tabiat"
   ]
  },
  {
@@ -939,7 +992,7 @@
   "dua": {
    "arapca": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ وَٱتَّبَعْنَا ٱلرَّسُولَ فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ",
    "okunus": "Rabbenâ âmennâ bimâ enzelte ve-ittebe'nâ r-rasûle fe-uktubnâ me'a s-şâhidîn",
-   "anlam": "&quot;Rabbimiz! İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz&quot;.",
+   "anlam": "“Rabbimiz! İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz”.",
    "kaynak": "Âl-i İmrân, 3/53"
   },
   "kavramlar": [
@@ -983,6 +1036,9 @@
     "ifade": "Kur'an, kendisini Şifâ, Nûr ve Furkân gibi isimlerle de tanıtır.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "kuran"
   ]
  },
  {
@@ -1045,6 +1101,10 @@
     "ifade": "Hadise göre her çocuk fıtrat üzere doğar.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "ruhKalpNefis",
+   "iman"
   ]
  },
  {
@@ -1063,7 +1123,7 @@
   "dua": {
    "arapca": "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًۭا",
    "okunus": "Rabbenâ âtinâ min ledunke rahmeten veheyyi lenâ min emrınâ raşeden",
-   "anlam": "Birkaç genç mağaraya sığınmış: &quot;Rabbimiz! Katından bize rahmet ver ve işimizde doğruyu göster, bizi başarılı kıl&quot; demişlerdi.",
+   "anlam": "Birkaç genç mağaraya sığınmış: “Rabbimiz! Katından bize rahmet ver ve işimizde doğruyu göster, bizi başarılı kıl” demişlerdi.",
    "kaynak": "Kehf, 18/10"
   },
   "kavramlar": [
@@ -1107,6 +1167,9 @@
     "ifade": "Hadise göre Rabbine ibadet ederek yetişen genç, Arş'ın gölgesinde gölgelenecektir.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "genclikAhlak"
   ]
  },
  {
@@ -1125,7 +1188,7 @@
   "dua": {
    "arapca": "رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى ۚ رَبَّنَا وَتَقَبَّلْ دُعَآءِ رَبَّنَا ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ ٱلْحِسَابُ",
    "okunus": "Rabbi ic'alnî mukîme s-saleti vemin zurrıyyetî rabbenâ vetekabbel du'âi rabbenâ iğfir lî velivâlideyye velilmuminîne yevme yekûmu l-hısâb",
-   "anlam": "&quot;Rabbim! Beni ve çocuklarımı namaz kılanlardan eyle. Rabbimiz! Duamı kabul buyur.&quot; &quot;Rabbimiz! Hesap görülecek günde, beni, anamı babamı ve inananları bağışla.&quot;",
+   "anlam": "“Rabbim! Beni ve çocuklarımı namaz kılanlardan eyle. Rabbimiz! Duamı kabul buyur.” “Rabbimiz! Hesap görülecek günde, beni, anamı babamı ve inananları bağışla.”",
    "kaynak": "İbrâhîm, 14/40-41"
   },
   "kavramlar": [
@@ -1170,6 +1233,9 @@
     "ifade": "Hadise göre samimi bir dua ya dünyada verilir, ya ahirete saklanır ya da bir kötülük uzaklaştırılır.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "ibadet"
   ]
  },
  {
@@ -1188,7 +1254,7 @@
   "dua": {
    "arapca": "رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍۢ فَقِيرٌۭ",
    "okunus": "Rabbi innî limâ enzelte ileyye min hayrın fekîr",
-   "anlam": "Musa onların davarlarını suladı. Sonra gölgeye çekildi: &quot;Rabbim! Doğrusu bana indireceğin hayra muhtacım&quot; dedi.",
+   "anlam": "Musa onların davarlarını suladı. Sonra gölgeye çekildi: “Rabbim! Doğrusu bana indireceğin hayra muhtacım” dedi.",
    "kaynak": "Kasas, 28/24"
   },
   "kavramlar": [
@@ -1231,6 +1297,10 @@
     "ifade": "Hz. Mûsâ, Medyen'de ‘Rabbim! Bana indireceğin her hayra muhtacım’ diye dua etmiştir.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "iman",
+   "sukurSabir"
   ]
  },
  {
@@ -1249,7 +1319,7 @@
   "dua": {
    "arapca": "حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
    "okunus": "Hasbunâ'llâhu veni'me l-vekîl",
-   "anlam": "İnsanlar onlara: &quot;Düşmanınız olan insanlar size karşı bir ordu topladılar, onlardan korkun&quot; dediler. Bu, onların imanını artırdı da: &quot;Allah bize yeter. O ne güzel Vekil'dir&quot; dediler.",
+   "anlam": "İnsanlar onlara: “Düşmanınız olan insanlar size karşı bir ordu topladılar, onlardan korkun” dediler. Bu, onların imanını artırdı da: “Allah bize yeter. O ne güzel Vekil'dir” dediler.",
    "kaynak": "Âl-i İmrân, 3/173"
   },
   "kavramlar": [
@@ -1293,6 +1363,9 @@
     "ifade": "Hadise göre zalim kardeşe yardım, onu zulümden alıkoymaktır.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "kader"
   ]
  },
  {
@@ -1311,7 +1384,7 @@
   "dua": {
    "arapca": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّـٰلِحِينَ",
    "okunus": "Rabbi evzi'nî en eşkura ni'meteke elletî en'amte 'aleyye ve'alâ vâlideyye ve-en e'mele sâlihan terdâhu ve-edhılnî birahmetike fî 'ıbâdike s-sâlihîn",
-   "anlam": "Süleyman, onun sözüne hafifçe güldü ve: &quot;Rabbim! Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl. Rahmetinle, beni iyi kullarının arasına koy&quot; dedi.",
+   "anlam": "Süleyman, onun sözüne hafifçe güldü ve: “Rabbim! Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl. Rahmetinle, beni iyi kullarının arasına koy” dedi.",
    "kaynak": "Neml, 27/19"
   },
   "kavramlar": [
@@ -1355,6 +1428,10 @@
     "ifade": "Bakara Sûresi'ne göre orucun gayelerinden biri şükretmektir.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "ibadet",
+   "sukurSabir"
   ]
  },
  {
@@ -1373,7 +1450,7 @@
   "dua": {
    "arapca": "رَبَّنَا مَا خَلَقْتَ هَـٰذَا بَـٰطِلًۭا سُبْحَـٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ رَبَّنَآ إِنَّكَ مَن تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍۢ",
    "okunus": "Rabbenâ mâ halekte hâzâ bâtılen subhâneke fekınâ 'azâbe n-nârı rabbenâ inneke men tudhıli n-nâra fekad ehzeytehu vemâ lilzzâlimîne min ensârın",
-   "anlam": "Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: &quot;Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru&quot; &quot;Rabbimiz! Sen ateşe kimi sokarsan, onu şüphesiz rezil etmiş olursun, zulmedenlerin hiç yardımcıları yoktur&quot;.",
+   "anlam": "Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: “Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru” “Rabbimiz! Sen ateşe kimi sokarsan, onu şüphesiz rezil etmiş olursun, zulmedenlerin hiç yardımcıları yoktur”.",
    "kaynak": "Âl-i İmrân, 3/191-192"
   },
   "kavramlar": [
@@ -1416,6 +1493,10 @@
     "ifade": "Hadise göre Allah güzeldir, güzeli sever.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "esma",
+   "tabiat"
   ]
  },
  {
@@ -1434,7 +1515,7 @@
   "dua": {
    "arapca": "رَّبِّ زِدْنِى عِلْمًۭا",
    "okunus": "Rabbi zidnî 'ılmen",
-   "anlam": "Gerçek hükümdar olan Allah Yüce'dir. Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, &quot;Rabbim! ilmimi artır&quot; de.",
+   "anlam": "Gerçek hükümdar olan Allah Yüce'dir. Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, “Rabbim! ilmimi artır” de.",
    "kaynak": "Tâhâ, 20/114"
   },
   "kavramlar": [
@@ -1479,6 +1560,10 @@
     "ifade": "Câsiye Sûresi'ne göre göklerde ve yerde olanlar insanın hizmetine verilmiştir.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "insanKainat",
+   "esma"
   ]
  },
  {
@@ -1497,7 +1582,7 @@
   "dua": {
    "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ",
    "okunus": "Rabbenâ âtinâ fî d-dunyâ haseneten vefî l-âhırati haseneten vekınâ 'azâbe n-nâr",
-   "anlam": "&quot;Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru&quot; diyenler vardır.",
+   "anlam": "“Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru” diyenler vardır.",
    "kaynak": "Bakara, 2/201"
   },
   "kavramlar": [
@@ -1542,6 +1627,10 @@
     "ifade": "Hadise göre şüpheli şeylerden sakınan, dinini ve namusunu korumuş olur.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "genclikAhlak",
+   "ruhKalpNefis"
   ]
  },
  {
@@ -1560,7 +1649,7 @@
   "dua": {
    "arapca": "رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
    "okunus": "Rabbenâ âmennâ fe-iğfir lenâ ve-irhamnâ ve-ente hayru r-râhımîn",
-   "anlam": "Allah: &quot;Sinin orada! Benimle konuşmayın. Kullarımdan bir topluluk: &quot;Rabbimiz! inandık, artık bizi bağışla, bize acı. Sen acıyanların en iyisisin&quot; diyordu. Siz ise, onları alaya alıyordunuz. Bu yaptıklarınız size Beni anmayı unutturuyordu. Onlara hep gülüyordunuz. Sabretmelerine karşılık bugün onları mükafatlandırdım. Doğrusu onlar kurtulanlardır&quot; der.",
+   "anlam": "Allah: “Sinin orada! Benimle konuşmayın. Kullarımdan bir topluluk: ”Rabbimiz! inandık, artık bizi bağışla, bize acı. Sen acıyanların en iyisisin“ diyordu. Siz ise, onları alaya alıyordunuz. Bu yaptıklarınız size Beni anmayı unutturuyordu. Onlara hep gülüyordunuz. Sabretmelerine karşılık bugün onları mükafatlandırdım. Doğrusu onlar kurtulanlardır” der.",
    "kaynak": "Mü'minûn, 23/109"
   },
   "kavramlar": [
@@ -1603,6 +1692,9 @@
     "ifade": "Hadise göre mümin dünyada bir garip ya da bir yolcu gibi olmalıdır.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "ahiret"
   ]
  },
  {
@@ -1621,7 +1713,7 @@
   "dua": {
    "arapca": "رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَـٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّۭا لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ رَءُوفٌۭ رَّحِيمٌ",
    "okunus": "Rabbenâ iğfir lenâ veli-ihvâninâ ellezîne sebekûnâ bil-îmâni velâ tec'al fî kulûbinâ ğıllen lillezîne âmenû rabbenâ inneke raûfun rahîm",
-   "anlam": "Onlardan sonra gelenler: &quot;Rabbimiz! Bizi ve bizden önce inanmış olan kardeşlerimizi bağışla; kalbimizde müminlere karşı kin bırakma; Rabbimiz! Şüphesiz Sen şefkatlisin, merhametlisin&quot; derler.",
+   "anlam": "Onlardan sonra gelenler: “Rabbimiz! Bizi ve bizden önce inanmış olan kardeşlerimizi bağışla; kalbimizde müminlere karşı kin bırakma; Rabbimiz! Şüphesiz Sen şefkatlisin, merhametlisin” derler.",
    "kaynak": "Haşr, 59/10"
   },
   "kavramlar": [
@@ -1666,6 +1758,10 @@
     "ifade": "Hucurât Sûresi'ne göre Allah katında en üstün olan, takvaca en ileri olandır.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "ihlasUhuvvet",
+   "genclikAhlak"
   ]
  },
  {
@@ -1684,7 +1780,7 @@
   "dua": {
    "arapca": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى وَٱحْلُلْ عُقْدَةًۭ مِّن لِّسَانِى يَفْقَهُوا۟ قَوْلِى",
    "okunus": "Rabbi işrah lî sadrî veyessir lî emrî ve-uhlul 'ukdeten min lisânî yefkahû kavlî",
-   "anlam": "Musa: &quot;Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin&quot; dedi. Musa: &quot;Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin&quot; dedi. Musa: &quot;Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin&quot; dedi. Musa: &quot;Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin&quot; dedi.",
+   "anlam": "Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi.",
    "kaynak": "Tâhâ, 20/25-28"
   },
   "kavramlar": [
@@ -1729,6 +1825,9 @@
     "ifade": "Hicr Sûresi'ne göre Kur'an'ın koruyucusu Allah'tır.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "kuran"
   ]
  },
  {
@@ -1747,7 +1846,7 @@
   "dua": {
    "arapca": "۞ رَبِّ قَدْ ءَاتَيْتَنِى مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۖ تَوَفَّنِى مُسْلِمًۭا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ",
    "okunus": "Rabbi kad âteytenî mine l-mulki ve'allemtenî min tevîli l-ehâdîsi fâtıra s-semâvâti vel-erdı ente veliyyî fî d-dunyâ vel-âhırati teveffenî muslimen ve-elhıknî bil-sâlihîn",
-   "anlam": "&quot;Rabbim! Bana hükümranlık verdin, rüyaların yorumunu öğrettin. Ey göklerin ve yerin yaradanı! Dünya ve ahirette işlerimi yoluna koyan sensin; benim canımı müslüman olarak al ve beni iyilere kat.&quot;",
+   "anlam": "“Rabbim! Bana hükümranlık verdin, rüyaların yorumunu öğrettin. Ey göklerin ve yerin yaradanı! Dünya ve ahirette işlerimi yoluna koyan sensin; benim canımı müslüman olarak al ve beni iyilere kat.”",
    "kaynak": "Yûsuf, 12/101"
   },
   "kavramlar": [
@@ -1792,6 +1891,10 @@
     "ifade": "Hadise göre Allah'a kavuşmayı seveni Allah da sever.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "ahiret",
+   "musibet"
   ]
  },
  {
@@ -1810,7 +1913,7 @@
   "dua": {
    "arapca": "رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
    "okunus": "Rabbenâ tekabbel minnâ inneke ente s-semî'u l-'alîm",
-   "anlam": "İbrahim ve İsmail, Kabenin temellerini yükseltiyordu: &quot;Rabbimiz! Yaptığımızı kabul buyur. Şüphesiz ki, Sen hem işitir hem bilirsin&quot;",
+   "anlam": "İbrahim ve İsmail, Kabenin temellerini yükseltiyordu: “Rabbimiz! Yaptığımızı kabul buyur. Şüphesiz ki, Sen hem işitir hem bilirsin”",
    "kaynak": "Bakara, 2/127"
   },
   "kavramlar": [
@@ -1854,6 +1957,10 @@
     "ifade": "Hadise göre sadaka maldan bir şey eksiltmez.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "ibadet",
+   "ihlasUhuvvet"
   ]
  },
  {
@@ -1872,7 +1979,7 @@
   "dua": {
    "arapca": "رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِىٓ أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
    "okunus": "Rabbenâ iğfir lenâ zunûbenâ ve-isrâfenâ fî emrınâ vesebbit ekdâmenâ ve-unsurnâ 'alâ l-kavmi l-kâfirîn",
-   "anlam": "Dedikleri ancak şu idi: &quot;Rabbimiz! Günahlarımızı, işimizdeki aşırılıklarımızı bize bağışla, sebatımızı arttır, inkarcı topluluğa karşı bize yardım et&quot;.",
+   "anlam": "Dedikleri ancak şu idi: “Rabbimiz! Günahlarımızı, işimizdeki aşırılıklarımızı bize bağışla, sebatımızı arttır, inkarcı topluluğa karşı bize yardım et”.",
    "kaynak": "Âl-i İmrân, 3/147"
   },
   "kavramlar": [
@@ -1916,6 +2023,10 @@
     "ifade": "İnşirâh Sûresi'ne göre güçlükle beraber bir kolaylık vardır.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "musibet",
+   "sukurSabir"
   ]
  },
  {
@@ -1934,7 +2045,7 @@
   "dua": {
    "arapca": "رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
    "okunus": "Rabbenâ innenâ âmennâ fe-iğfir lenâ zunûbenâ vekınâ 'azâbe n-nâr",
-   "anlam": "Onlar ki, &quot;Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru&quot; diyen, sabreden, doğru olan, gönülden kulluk eden, hayra sarfeden ve seher vakitlerinde bağışlanma dileyenlerdir.",
+   "anlam": "Onlar ki, “Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru” diyen, sabreden, doğru olan, gönülden kulluk eden, hayra sarfeden ve seher vakitlerinde bağışlanma dileyenlerdir.",
    "kaynak": "Âl-i İmrân, 3/16"
   },
   "kavramlar": [
@@ -1979,6 +2090,9 @@
     "ifade": "Hac Sûresi'ne göre Allah'tan başka tapılanlar bir araya gelse bir sinek bile yaratamazlar.",
     "dogru": true
    }
+  ],
+  "konular": [
+   "tevhid"
   ]
  },
  {
@@ -1997,7 +2111,7 @@
   "dua": {
    "arapca": "رَبَّنَا وَٱجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةًۭ مُّسْلِمَةًۭ لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
    "okunus": "Rabbenâ ve-ic'alnâ muslimeyni leke vemin zurrıyyetinâ ummeten muslimeten leke ve-erınâ menâsikenâ vetub 'aleynâ inneke ente t-tevâbu r-rahîm",
-   "anlam": "&quot;Rabbimiz! İkimizi Sana teslim olanlardan kıl, soyumuzdan da Sana teslim olanlardan bir ümmet yetiştir. Bize ibadet yollarımızı göster, tevbemizi kabul buyur, çünkü tevbeleri daima kabul eden, merhametli olan ancak Sensin&quot;.",
+   "anlam": "“Rabbimiz! İkimizi Sana teslim olanlardan kıl, soyumuzdan da Sana teslim olanlardan bir ümmet yetiştir. Bize ibadet yollarımızı göster, tevbemizi kabul buyur, çünkü tevbeleri daima kabul eden, merhametli olan ancak Sensin”.",
    "kaynak": "Bakara, 2/128"
   },
   "kavramlar": [
@@ -2040,6 +2154,76 @@
   "dogruYanlis": [
    {
     "ifade": "Hadise göre ameller niyetlere göredir.",
+    "dogru": true
+   }
+  ],
+  "konular": [
+   "ihlasUhuvvet"
+  ]
+ },
+ {
+  "id": "ders_034",
+  "kategori": "iman",
+  "baslik": "Kâinatın Ruhu: Risalet-i Muhammediye",
+  "giris": "Güneş olmasaydı dünya karanlıkta kalırdı; bitkiler büyümez, renkler görünmezdi. Peki manevi âlemin güneşi kimdir? Bediüzzaman, Peygamber Efendimizin (s.a.v.) risaletini kâinatın manevi güneşine ve hatta ruhuna benzetir. Bu benzetme, peygamberliğin insan hayatındaki yerini anlamamız için bir kapı açar.",
+  "aciklama": "Kur'an-ı Kerîm, Peygamber Efendimizin âlemlere rahmet olarak gönderildiğini bildirir: “Biz seni ancak âlemlere rahmet olarak gönderdik.” Başka bir ayette de onun güzel bir örnek olduğu haber verilir: “Andolsun, Allah'ın Resûlünde sizin için, Allah'a ve ahiret gününe kavuşmayı uman ve Allah'ı çokça anan kimseler için güzel bir örnek vardır.” Peygamberlik, Allah'ın kullarına iradesini bildirmek için seçtiği elçiler aracılığıyla yol göstermesidir. İnsan aklı Allah'ın varlığına dair birçok delil bulabilir; ama O'nun bizden ne istediğini, nasıl ibadet edileceğini ve ahiretin ayrıntılarını ancak vahiy yoluyla öğrenebilir. Peygamber Efendimiz, bu vahyi hem sözüyle hem de hayatıyla insanlığa ulaştırmıştır.",
+  "risalePerspektifi": "Bediüzzaman, Onuncu Söz'ün zeylinde risaletin kâinat için ne ifade ettiğini şöyle anlatır: “Eğer kâinâttan risâlet-i Muhammediyenin nûru çıksa, gitse, kâinât vefât edecek!” Eserdeki anlatımın özetine göre kâinat, Allah'ın isimlerini gösteren manalı bir kitaptır; bu kitabın manasını okuyan ve okutan Peygamberdir. Mana olmadan kitap nasıl anlamsız kalırsa, risaletin nuru olmadan da kâinat anlamsız bir yığına döner. Otuz Üçüncü Mektub'un Otuz İkinci Penceresi'nde ise onu tevhidin en büyük delili olarak tanıtır: “Tevhîdin bir burhân-ı nâtıkı olan Zât-ı Ahmediye” bütün hayatıyla Allah'ın birliğini ilan etmiştir. Nur'un İlk Kapısı'nda da onun bütün ümmete imamlığını bir tablo hâlinde gösterir: “Sath-ı arz bir mescid.. Mekke bir mihrâb.. Medine bir minber..” Bu tabloda Peygamber Efendimiz, bütün ehl-i imana imam ve bütün insanlığa hatiptir.",
+  "kainattanDelil": "Güneş, hiçbir şey istemeden bütün varlıklara ışık ve ısı verir; onun ışığıyla renkler görünür, bitkiler büyür, hayat devam eder. Bir kitabın sayfaları ne kadar güzel olursa olsun, onu okuyup anlatan bir muallim olmadan çoğu manası gizli kalır. Bir kervan da yolu bilen bir rehber olmadan çölde kaybolur. Kâinattaki bu düzen, insanın da manevi bir güneşe, bir muallime ve bir rehbere ihtiyaç duyduğunu gösterir.",
+  "hikmet": "Peygamberlik, kâinat kitabının manasını açan bir nurdur. Onun rehberliği olmadan insan, Allah'ın kendisinden ne istediğini tam olarak bilemez. Peygamber Efendimiz, hem sözü hem de hayatıyla tevhidin en büyük delilidir.",
+  "kendimize": "Peygamber Efendimizi sadece tarihte yaşamış bir şahsiyet olarak mı görüyorum, yoksa hayatıma yön veren bir rehber olarak mı? Onun sünnetini ne kadar tanıyorum ve uyguluyorum? Kâinata bakarken onun öğrettiği gözle bakabiliyor muyum?",
+  "hayat": "Her gün Peygamber Efendimizin hayatından bir hadis ya da bir sünnet okuyup onu o gün uygulamaya çalışmak bu dersin uygulamasıdır. Ona salavat getirmek, ahlakını örnek almak ve sünnetini çocuklarımıza sevdirmek de risaletin nurunu hayatımıza taşımaktır. Siyer okumak da onu tanımanın güzel bir yoludur.",
+  "ders": "Risalet-i Muhammediyenin nuru kâinatın ruhu gibidir; o nur çıksa kâinat manasını kaybeder.",
+  "tefekkurSorusu": "Bugün Peygamber Efendimizin hangi sünnetini hayatıma taşıyabilirim?",
+  "dua": {
+   "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+   "okunus": "Hasbiye'llâhu lâ ilâhe illâ huve 'aleyhi tevekkeltu vehuve rabbu l-'arşi l-'azîm",
+   "anlam": "Eğer yüz çevirirlerse de ki: “Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.”",
+   "kaynak": "Tevbe, 9/129"
+  },
+  "konular": [
+   "nubuvvet",
+   "iman"
+  ],
+  "kavramlar": [
+   "Risalet",
+   "Nübüvvet",
+   "Vahiy",
+   "Sünnet",
+   "Tevhid"
+  ],
+  "kaynaklar": [
+   "Enbiyâ, 21/107",
+   "Ahzâb, 33/21",
+   "Tevbe, 9/128-129",
+   "Bediüzzaman Said Nursî, Sözler, Onuncu Söz, Zeyl (bu baskıda Zülfikâr Mecmûası içinde)",
+   "Bediüzzaman Said Nursî, Mektûbât, Otuz Üçüncü Mektub, Otuz İkinci Pencere",
+   "Bediüzzaman Said Nursî, Nur'un İlk Kapısı, On Dördüncü Ders"
+  ],
+  "sinav": [
+   {
+    "soru": "Bediüzzaman'a göre kâinattan risalet-i Muhammediyenin nuru çıksa ne olur?",
+    "secenekler": [
+     "Kâinat vefat eder",
+     "Hiçbir şey değişmez",
+     "Kâinat daha parlak olur",
+     "Sadece insanlar etkilenir"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Otuz Üçüncü Mektub'a göre Zât-ı Ahmediye neyin burhan-ı natıkıdır?",
+    "secenekler": [
+     "Felsefenin",
+     "Tevhidin",
+     "Tarihin",
+     "Tabiatın"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Enbiyâ Sûresi'ne göre Peygamber Efendimiz âlemlere rahmet olarak gönderilmiştir.",
     "dogru": true
    }
   ]

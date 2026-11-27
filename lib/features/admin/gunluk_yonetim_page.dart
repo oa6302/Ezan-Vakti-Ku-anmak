@@ -12,6 +12,7 @@ import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/widgets/nur_kart.dart';
 
 import 'content_manager_page.dart';
+import 'hakikat_yonetim_page.dart';
 import 'plan_duzenle_page.dart';
 
 // ── Program ve durum yardimcilari ───────────────────────────────────────────
@@ -195,6 +196,8 @@ class _GunlukYonetimPageState extends State<GunlukYonetimPage> {
                         tarih: _secili),
                     const SizedBox(height: 12),
                   ],
+                  _hakikatKarti(t),
+                  const SizedBox(height: 12),
                   _digerModuller(t),
                 ],
               ),
@@ -512,6 +515,19 @@ class _GunlukYonetimPageState extends State<GunlukYonetimPage> {
       ),
     ]);
   }
+
+  Widget _hakikatKarti(AppLocalizations t) => NurKart(
+        onTap: () => Navigator.push(
+            context,
+            MaterialPageRoute<void>(
+                builder: (_) => HakikatYonetimPage(tarih: _secili))),
+        child: NurKartBasligi(
+          ikon: Icons.light_mode_rounded,
+          baslik: t.hkYonetim,
+          altBaslik: t.hkYonetimAlt,
+          sag: const Icon(Icons.chevron_right_rounded),
+        ),
+      );
 
   Widget _digerModuller(AppLocalizations t) => NurKart(
         onTap: () => Navigator.push(

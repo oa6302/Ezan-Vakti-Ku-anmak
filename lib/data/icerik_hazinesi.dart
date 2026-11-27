@@ -29,6 +29,8 @@ class KisaDua {
       j['okunus'] as String? ?? '',
       j['anlam'] as String? ?? '',
       j['kaynak'] as String? ?? '');
+  Map<String, dynamic> toJson() =>
+      {'arapca': arapca, 'okunus': okunus, 'anlam': anlam, 'kaynak': kaynak};
 }
 
 class CoktanSecmeli {
@@ -40,6 +42,8 @@ class CoktanSecmeli {
       j['soru'] as String? ?? '',
       List<String>.from(j['secenekler'] as List? ?? const []),
       j['dogru'] as int? ?? 0);
+  Map<String, dynamic> toJson() =>
+      {'soru': soru, 'secenekler': secenekler, 'dogru': dogru};
 }
 
 class DogruYanlis {
@@ -48,6 +52,7 @@ class DogruYanlis {
   const DogruYanlis(this.ifade, this.dogru);
   factory DogruYanlis.fromJson(Map<String, dynamic> j) =>
       DogruYanlis(j['ifade'] as String? ?? '', j['dogru'] as bool? ?? false);
+  Map<String, dynamic> toJson() => {'ifade': ifade, 'dogru': dogru};
 }
 
 List<T> _liste<T>(dynamic v, T Function(Map<String, dynamic>) f) =>
@@ -175,6 +180,9 @@ class RisaleDersi {
   final List<CoktanSecmeli> sinav;
   final List<DogruYanlis> dogruYanlis;
 
+  /// Hakikat konulari (HakikatKonusu.name); yoksa kategoriden turetilir.
+  final List<String> konular;
+
   const RisaleDersi({
     required this.id,
     required this.kategori,
@@ -193,6 +201,7 @@ class RisaleDersi {
     this.kaynaklar = const [],
     this.sinav = const [],
     this.dogruYanlis = const [],
+    this.konular = const [],
   });
 
   /// Standartta sayilan govde (baslik, dua, sinav ve kaynak haric).
@@ -228,7 +237,29 @@ class RisaleDersi {
         kaynaklar: List<String>.from(j['kaynaklar'] as List? ?? const []),
         sinav: _liste(j['sinav'], CoktanSecmeli.fromJson),
         dogruYanlis: _liste(j['dogruYanlis'], DogruYanlis.fromJson),
+        konular: List<String>.from(j['konular'] as List? ?? const []),
       );
+
+  Map<String, dynamic> toJson() => {
+        'id': id,
+        'kategori': kategori.name,
+        'baslik': baslik,
+        'giris': giris,
+        'aciklama': aciklama,
+        'risalePerspektifi': risalePerspektifi,
+        'kainattanDelil': kainattanDelil,
+        'hikmet': hikmet,
+        'kendimize': kendimize,
+        'hayat': hayat,
+        'dua': dua.toJson(),
+        'ders': ders,
+        'tefekkurSorusu': tefekkurSorusu,
+        'kavramlar': kavramlar,
+        'kaynaklar': kaynaklar,
+        'sinav': [for (final s in sinav) s.toJson()],
+        'dogruYanlis': [for (final d in dogruYanlis) d.toJson()],
+        'konular': konular,
+      };
 }
 
 // ───────────────────────── Vecize detaylari ─────────────────────────

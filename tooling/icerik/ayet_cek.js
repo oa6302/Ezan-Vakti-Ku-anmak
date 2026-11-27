@@ -10,7 +10,7 @@ async function cek(key) {
       const r = await fetch(`https://api.quran.com/api/v4/verses/by_key/${key}?translations=77&fields=text_uthmani`);
       if (!r.ok) throw new Error('HTTP ' + r.status);
       const v = (await r.json()).verse;
-      const meal = v.translations[0].text.replace(/<sup[^>]*>.*?<\/sup>/g, '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+      const meal = v.translations[0].text.replace(/<sup[^>]*>.*?<\/sup>/g, '').replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
       return { arapca: v.text_uthmani, meal };
     } catch (e) { await bekle(800 * (deneme + 1)); }
   }

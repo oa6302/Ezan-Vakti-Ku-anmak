@@ -2683,13 +2683,13 @@ abstract class AppLocalizations {
   /// No description provided for @risaleHakikatleriTitle.
   ///
   /// In tr, this message translates to:
-  /// **'Risale-i Nur Hakikatleri'**
+  /// **'Risale-i Nur / Hakikat'**
   String get risaleHakikatleriTitle;
 
   /// No description provided for @risaleHakikatleriDesc.
   ///
   /// In tr, this message translates to:
-  /// **'İman dersleri, tefekkür ve mini sınav'**
+  /// **'İman hakikatleri, külliyat, tefekkür ve öğrenme'**
   String get risaleHakikatleriDesc;
 
   /// No description provided for @ypBaslik.
@@ -3153,6 +3153,792 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'Kaydet'**
   String get ypKaydet;
+
+  /// No description provided for @hkBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur / Hakikat'**
+  String get hkBaslik;
+
+  /// No description provided for @hkAltBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'İman hakikatlerini öğren, tefekkür et, hayatına taşı'**
+  String get hkAltBaslik;
+
+  /// No description provided for @hkGununHakikati.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Hakikati'**
+  String get hkGununHakikati;
+
+  /// No description provided for @hkDetayliIncele.
+  ///
+  /// In tr, this message translates to:
+  /// **'Detaylı incele'**
+  String get hkDetayliIncele;
+
+  /// No description provided for @hkPaylas.
+  ///
+  /// In tr, this message translates to:
+  /// **'Paylaş'**
+  String get hkPaylas;
+
+  /// No description provided for @hkArsiv.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önceki günler'**
+  String get hkArsiv;
+
+  /// No description provided for @hkArsivBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Hakikati Arşivi'**
+  String get hkArsivBaslik;
+
+  /// No description provided for @hkBugun.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugün'**
+  String get hkBugun;
+
+  /// No description provided for @hkKonular.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikat Konuları'**
+  String get hkKonular;
+
+  /// No description provided for @hkKulliyat.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur Külliyatı'**
+  String get hkKulliyat;
+
+  /// No description provided for @hkKulliyatAlt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Eserler, risaleler ve doğrulanmış metinler'**
+  String get hkKulliyatAlt;
+
+  /// No description provided for @hkAra.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ara'**
+  String get hkAra;
+
+  /// No description provided for @hkAraIpucu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Başlık, içerik, kavram, konu veya eser ara'**
+  String get hkAraIpucu;
+
+  /// No description provided for @hkSonucYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonuç bulunamadı'**
+  String get hkSonucYok;
+
+  /// No description provided for @hkHakikatler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikatler'**
+  String get hkHakikatler;
+
+  /// No description provided for @hkRisaleMetinleri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur metinleri'**
+  String get hkRisaleMetinleri;
+
+  /// No description provided for @hkTumu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tümü'**
+  String get hkTumu;
+
+  /// No description provided for @hkIlerleme.
+  ///
+  /// In tr, this message translates to:
+  /// **'{tamam}/{toplam} hakikat tamamlandı'**
+  String hkIlerleme(int tamam, int toplam);
+
+  /// No description provided for @hkDevamEt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaldığın yerden'**
+  String get hkDevamEt;
+
+  /// No description provided for @hkFavoriler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favoriler'**
+  String get hkFavoriler;
+
+  /// No description provided for @hkSonraOku.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonra oku'**
+  String get hkSonraOku;
+
+  /// No description provided for @hkTamamlananlar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tamamlananlar'**
+  String get hkTamamlananlar;
+
+  /// No description provided for @hkSikOkunan.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu cihazda sık okuduklarınız'**
+  String get hkSikOkunan;
+
+  /// No description provided for @hkBos.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz bir şey yok'**
+  String get hkBos;
+
+  /// No description provided for @hkHakikatSayisi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{n} hakikat'**
+  String hkHakikatSayisi(int n);
+
+  /// No description provided for @hkKonuBos.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu konuda henüz hakikat dersi yok. Aşağıda bu konuyla ilgili doğrulanmış Risale-i Nur metinleri var.'**
+  String get hkKonuBos;
+
+  /// No description provided for @hkIlgiliMetinler.
+  ///
+  /// In tr, this message translates to:
+  /// **'İlgili Risale-i Nur metinleri'**
+  String get hkIlgiliMetinler;
+
+  /// No description provided for @hkIcerikYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gösterilecek içerik bulunamadı'**
+  String get hkIcerikYok;
+
+  /// No description provided for @hkKonuIman.
+  ///
+  /// In tr, this message translates to:
+  /// **'İman Hakikatleri'**
+  String get hkKonuIman;
+
+  /// No description provided for @hkKonuTevhid.
+  ///
+  /// In tr, this message translates to:
+  /// **'Allah\'ın Varlığı ve Birliği'**
+  String get hkKonuTevhid;
+
+  /// No description provided for @hkKonuEsma.
+  ///
+  /// In tr, this message translates to:
+  /// **'Esmâü\'l-Hüsnâ'**
+  String get hkKonuEsma;
+
+  /// No description provided for @hkKonuKuran.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kur\'an-ı Kerîm ve Kur\'an Hakikatleri'**
+  String get hkKonuKuran;
+
+  /// No description provided for @hkKonuNubuvvet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Peygamberlik ve Hz. Muhammed (s.a.v.)'**
+  String get hkKonuNubuvvet;
+
+  /// No description provided for @hkKonuAhiret.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ahiret ve Haşir'**
+  String get hkKonuAhiret;
+
+  /// No description provided for @hkKonuKader.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kader ve İrade'**
+  String get hkKonuKader;
+
+  /// No description provided for @hkKonuRuh.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ruh, Kalp ve Nefis'**
+  String get hkKonuRuh;
+
+  /// No description provided for @hkKonuInsan.
+  ///
+  /// In tr, this message translates to:
+  /// **'İnsan ve Kâinat'**
+  String get hkKonuInsan;
+
+  /// No description provided for @hkKonuIbadet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Namaz ve İbadet'**
+  String get hkKonuIbadet;
+
+  /// No description provided for @hkKonuSukur.
+  ///
+  /// In tr, this message translates to:
+  /// **'Şükür, Sabır ve Tevekkül'**
+  String get hkKonuSukur;
+
+  /// No description provided for @hkKonuIhlas.
+  ///
+  /// In tr, this message translates to:
+  /// **'İhlas ve Uhuvvet'**
+  String get hkKonuIhlas;
+
+  /// No description provided for @hkKonuGenclik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gençlik ve Ahlak'**
+  String get hkKonuGenclik;
+
+  /// No description provided for @hkKonuMusibet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hastalık, Musibet ve Hikmet'**
+  String get hkKonuMusibet;
+
+  /// No description provided for @hkKonuTabiat.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tabiat ve Yaratılış'**
+  String get hkKonuTabiat;
+
+  /// No description provided for @hkTefekkurKapisi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tefekkür Kapısı'**
+  String get hkTefekkurKapisi;
+
+  /// No description provided for @hkAciklama.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikatin Açıklaması'**
+  String get hkAciklama;
+
+  /// No description provided for @hkPerspektif.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur Perspektifi'**
+  String get hkPerspektif;
+
+  /// No description provided for @hkPerspektifNot.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tırnak içindeki ifadeler eserden aynen alınmıştır; diğer cümleler açıklamadır.'**
+  String get hkPerspektifNot;
+
+  /// No description provided for @hkKainattan.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kâinattan Deliller'**
+  String get hkKainattan;
+
+  /// No description provided for @hkGunlukHayat.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günlük Hayatla Bağlantı'**
+  String get hkGunlukHayat;
+
+  /// No description provided for @hkHikmet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hikmet Penceresi'**
+  String get hkHikmet;
+
+  /// No description provided for @hkSorgula.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kendini Sorgula'**
+  String get hkSorgula;
+
+  /// No description provided for @hkUygula.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hayata Uygula: Günlük Tefekkür Görevi'**
+  String get hkUygula;
+
+  /// No description provided for @hkGorevYaptim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugün bunu düşündüm'**
+  String get hkGorevYaptim;
+
+  /// No description provided for @hkDua.
+  ///
+  /// In tr, this message translates to:
+  /// **'İlgili Dua'**
+  String get hkDua;
+
+  /// No description provided for @hkOgrenilen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Öğrenilen Hakikat'**
+  String get hkOgrenilen;
+
+  /// No description provided for @hkSorular.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bilgi ve Tefekkür Soruları'**
+  String get hkSorular;
+
+  /// No description provided for @hkKavramlar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kavramlar'**
+  String get hkKavramlar;
+
+  /// No description provided for @hkKaynaklar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaynaklar'**
+  String get hkKaynaklar;
+
+  /// No description provided for @hkIlgiliEserler.
+  ///
+  /// In tr, this message translates to:
+  /// **'İlgili eserler'**
+  String get hkIlgiliEserler;
+
+  /// No description provided for @hkMiniTest.
+  ///
+  /// In tr, this message translates to:
+  /// **'Mini Test'**
+  String get hkMiniTest;
+
+  /// No description provided for @hkDogru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğru'**
+  String get hkDogru;
+
+  /// No description provided for @hkYanlis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yanlış'**
+  String get hkYanlis;
+
+  /// No description provided for @hkDogruCevap.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğru cevap: {cevap}'**
+  String hkDogruCevap(String cevap);
+
+  /// No description provided for @hkGerekce.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dersin özü'**
+  String get hkGerekce;
+
+  /// No description provided for @hkTestSonuc.
+  ///
+  /// In tr, this message translates to:
+  /// **'{dogru}/{toplam} doğru'**
+  String hkTestSonuc(int dogru, int toplam);
+
+  /// No description provided for @hkBoslukDoldur.
+  ///
+  /// In tr, this message translates to:
+  /// **'Boşluk Doldurma'**
+  String get hkBoslukDoldur;
+
+  /// No description provided for @hkBoslukYonerge.
+  ///
+  /// In tr, this message translates to:
+  /// **'Cümledeki boşluğa gelecek kavramı seç'**
+  String get hkBoslukYonerge;
+
+  /// No description provided for @hkEslestir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kavram Eşleştirme'**
+  String get hkEslestir;
+
+  /// No description provided for @hkEslestirYonerge.
+  ///
+  /// In tr, this message translates to:
+  /// **'Her hakikati özüyle eşleştir'**
+  String get hkEslestirYonerge;
+
+  /// No description provided for @hkSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Seç'**
+  String get hkSec;
+
+  /// No description provided for @hkKontrolEt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kontrol et'**
+  String get hkKontrolEt;
+
+  /// No description provided for @hkYenidenDene.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeniden dene'**
+  String get hkYenidenDene;
+
+  /// No description provided for @hkTebrik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hepsi doğru!'**
+  String get hkTebrik;
+
+  /// No description provided for @hkTamamla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tamamlandı olarak işaretle'**
+  String get hkTamamla;
+
+  /// No description provided for @hkTamamlandi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tamamlandı'**
+  String get hkTamamlandi;
+
+  /// No description provided for @hkFavoriEkle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favorilere ekle'**
+  String get hkFavoriEkle;
+
+  /// No description provided for @hkFavoriCikar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favorilerden çıkar'**
+  String get hkFavoriCikar;
+
+  /// No description provided for @hkSonraOkuEkle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonra oku listesine ekle'**
+  String get hkSonraOkuEkle;
+
+  /// No description provided for @hkSonraOkuCikar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonra oku listesinden çıkar'**
+  String get hkSonraOkuCikar;
+
+  /// No description provided for @hkYaziBoyutu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yazı boyutu'**
+  String get hkYaziBoyutu;
+
+  /// No description provided for @hkEnIyiPuan.
+  ///
+  /// In tr, this message translates to:
+  /// **'En iyi sonuç: %{p}'**
+  String hkEnIyiPuan(int p);
+
+  /// No description provided for @hkOkundu.
+  ///
+  /// In tr, this message translates to:
+  /// **'%{p} okundu'**
+  String hkOkundu(int p);
+
+  /// No description provided for @hkTanitim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tanıtım'**
+  String get hkTanitim;
+
+  /// No description provided for @hkAnaKonu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ana konu'**
+  String get hkAnaKonu;
+
+  /// No description provided for @hkMeseleler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ele aldığı meseleler'**
+  String get hkMeseleler;
+
+  /// No description provided for @hkKonum.
+  ///
+  /// In tr, this message translates to:
+  /// **'Külliyattaki yeri'**
+  String get hkKonum;
+
+  /// No description provided for @hkBolumler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bölümler'**
+  String get hkBolumler;
+
+  /// No description provided for @hkMetinSayisi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{n} doğrulanmış metin'**
+  String hkMetinSayisi(int n);
+
+  /// No description provided for @hkEserler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Eserler'**
+  String get hkEserler;
+
+  /// No description provided for @hkRisaleler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risaleler'**
+  String get hkRisaleler;
+
+  /// No description provided for @hkKaynakNotu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Metinler risale.online\'daki Osmanlıca–Latince karşılıklı metinden aynen alınmıştır; sayfa numarası verilmez.'**
+  String get hkKaynakNotu;
+
+  /// No description provided for @hkOsmanlica.
+  ///
+  /// In tr, this message translates to:
+  /// **'Osmanlıca'**
+  String get hkOsmanlica;
+
+  /// No description provided for @hkMetin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur metni'**
+  String get hkMetin;
+
+  /// No description provided for @hkYonetim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikat Yönetimi'**
+  String get hkYonetim;
+
+  /// No description provided for @hkYonetimAlt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikat ekle, düzenle, yayınla; Günün Hakikati\'ni planla'**
+  String get hkYonetimAlt;
+
+  /// No description provided for @hkYeni.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeni hakikat'**
+  String get hkYeni;
+
+  /// No description provided for @hkDuzenle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Düzenle'**
+  String get hkDuzenle;
+
+  /// No description provided for @hkOnizle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önizle'**
+  String get hkOnizle;
+
+  /// No description provided for @hkYayinla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayınla'**
+  String get hkYayinla;
+
+  /// No description provided for @hkTaslakYap.
+  ///
+  /// In tr, this message translates to:
+  /// **'Taslağa al'**
+  String get hkTaslakYap;
+
+  /// No description provided for @hkArsivle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arşivle'**
+  String get hkArsivle;
+
+  /// No description provided for @hkSil.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sil'**
+  String get hkSil;
+
+  /// No description provided for @hkSilOnay.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu kayıt silinsin mi? Uygulamayla gelen kayıtlar yalnızca gizlenir.'**
+  String get hkSilOnay;
+
+  /// No description provided for @hkVazgec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Vazgeç'**
+  String get hkVazgec;
+
+  /// No description provided for @hkGeriAl.
+  ///
+  /// In tr, this message translates to:
+  /// **'Düzenlemeyi geri al'**
+  String get hkGeriAl;
+
+  /// No description provided for @hkDurumTaslak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Taslak'**
+  String get hkDurumTaslak;
+
+  /// No description provided for @hkDurumYayinda.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayında'**
+  String get hkDurumYayinda;
+
+  /// No description provided for @hkDurumArsiv.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arşiv'**
+  String get hkDurumArsiv;
+
+  /// No description provided for @hkDuzenlendi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Düzenlendi'**
+  String get hkDuzenlendi;
+
+  /// No description provided for @hkPlanSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu günün hakikatini seç'**
+  String get hkPlanSec;
+
+  /// No description provided for @hkPlanOtomatik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Otomatik seçim'**
+  String get hkPlanOtomatik;
+
+  /// No description provided for @hkPlanKaldir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Planı kaldır'**
+  String get hkPlanKaldir;
+
+  /// No description provided for @hkPlanli.
+  ///
+  /// In tr, this message translates to:
+  /// **'Planlandı'**
+  String get hkPlanli;
+
+  /// No description provided for @hkKaydet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydet'**
+  String get hkKaydet;
+
+  /// No description provided for @hkKaydedildi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydedildi'**
+  String get hkKaydedildi;
+
+  /// No description provided for @hkZorunlu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu alan zorunlu'**
+  String get hkZorunlu;
+
+  /// No description provided for @hkKarakter.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gövde: {n} karakter (hedef 2.800–3.200)'**
+  String hkKarakter(int n);
+
+  /// No description provided for @hkAlanBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Başlık'**
+  String get hkAlanBaslik;
+
+  /// No description provided for @hkAlanKavram.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kavramlar (virgülle ayır)'**
+  String get hkAlanKavram;
+
+  /// No description provided for @hkAlanKaynak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaynaklar: her satıra bir (ayet, hadis, eser)'**
+  String get hkAlanKaynak;
+
+  /// No description provided for @hkAlanDuaArapca.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dua (Arapça)'**
+  String get hkAlanDuaArapca;
+
+  /// No description provided for @hkAlanDuaOkunus.
+  ///
+  /// In tr, this message translates to:
+  /// **'Okunuş'**
+  String get hkAlanDuaOkunus;
+
+  /// No description provided for @hkAlanDuaAnlam.
+  ///
+  /// In tr, this message translates to:
+  /// **'Anlam'**
+  String get hkAlanDuaAnlam;
+
+  /// No description provided for @hkAlanDuaKaynak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dua kaynağı'**
+  String get hkAlanDuaKaynak;
+
+  /// No description provided for @hkAlanSoru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Soru {n}'**
+  String hkAlanSoru(int n);
+
+  /// No description provided for @hkAlanSecenek.
+  ///
+  /// In tr, this message translates to:
+  /// **'Seçenekler: her satıra bir'**
+  String get hkAlanSecenek;
+
+  /// No description provided for @hkAlanDogruNo.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğru seçenek (1, 2, 3...)'**
+  String get hkAlanDogruNo;
+
+  /// No description provided for @hkAlanDY.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğru/Yanlış ifadesi'**
+  String get hkAlanDY;
+
+  /// No description provided for @hkAlanDYDogru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu ifade doğru'**
+  String get hkAlanDYDogru;
+
+  /// No description provided for @hkAlanKategori.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ana kategori'**
+  String get hkAlanKategori;
+
+  /// No description provided for @hkKaynakUyari.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ayet, hadis ve Risale-i Nur alıntılarını eserden doğrulamadan yayınlamayın.'**
+  String get hkKaynakUyari;
 }
 
 class _AppLocalizationsDelegate

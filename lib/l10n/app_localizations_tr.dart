@@ -1457,10 +1457,11 @@ class AppLocalizationsTr extends AppLocalizations {
   String get duaHazinesiDesc => 'Kur\'an, sünnet, münacat ve ezber';
 
   @override
-  String get risaleHakikatleriTitle => 'Risale-i Nur Hakikatleri';
+  String get risaleHakikatleriTitle => 'Risale-i Nur / Hakikat';
 
   @override
-  String get risaleHakikatleriDesc => 'İman dersleri, tefekkür ve mini sınav';
+  String get risaleHakikatleriDesc =>
+      'İman hakikatleri, külliyat, tefekkür ve öğrenme';
 
   @override
   String get ypBaslik => 'Yönetim Paneli';
@@ -1698,4 +1699,422 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get ypKaydet => 'Kaydet';
+
+  @override
+  String get hkBaslik => 'Risale-i Nur / Hakikat';
+
+  @override
+  String get hkAltBaslik =>
+      'İman hakikatlerini öğren, tefekkür et, hayatına taşı';
+
+  @override
+  String get hkGununHakikati => 'Günün Hakikati';
+
+  @override
+  String get hkDetayliIncele => 'Detaylı incele';
+
+  @override
+  String get hkPaylas => 'Paylaş';
+
+  @override
+  String get hkArsiv => 'Önceki günler';
+
+  @override
+  String get hkArsivBaslik => 'Günün Hakikati Arşivi';
+
+  @override
+  String get hkBugun => 'Bugün';
+
+  @override
+  String get hkKonular => 'Hakikat Konuları';
+
+  @override
+  String get hkKulliyat => 'Risale-i Nur Külliyatı';
+
+  @override
+  String get hkKulliyatAlt => 'Eserler, risaleler ve doğrulanmış metinler';
+
+  @override
+  String get hkAra => 'Ara';
+
+  @override
+  String get hkAraIpucu => 'Başlık, içerik, kavram, konu veya eser ara';
+
+  @override
+  String get hkSonucYok => 'Sonuç bulunamadı';
+
+  @override
+  String get hkHakikatler => 'Hakikatler';
+
+  @override
+  String get hkRisaleMetinleri => 'Risale-i Nur metinleri';
+
+  @override
+  String get hkTumu => 'Tümü';
+
+  @override
+  String hkIlerleme(int tamam, int toplam) {
+    return '$tamam/$toplam hakikat tamamlandı';
+  }
+
+  @override
+  String get hkDevamEt => 'Kaldığın yerden';
+
+  @override
+  String get hkFavoriler => 'Favoriler';
+
+  @override
+  String get hkSonraOku => 'Sonra oku';
+
+  @override
+  String get hkTamamlananlar => 'Tamamlananlar';
+
+  @override
+  String get hkSikOkunan => 'Bu cihazda sık okuduklarınız';
+
+  @override
+  String get hkBos => 'Henüz bir şey yok';
+
+  @override
+  String hkHakikatSayisi(int n) {
+    return '$n hakikat';
+  }
+
+  @override
+  String get hkKonuBos =>
+      'Bu konuda henüz hakikat dersi yok. Aşağıda bu konuyla ilgili doğrulanmış Risale-i Nur metinleri var.';
+
+  @override
+  String get hkIlgiliMetinler => 'İlgili Risale-i Nur metinleri';
+
+  @override
+  String get hkIcerikYok => 'Gösterilecek içerik bulunamadı';
+
+  @override
+  String get hkKonuIman => 'İman Hakikatleri';
+
+  @override
+  String get hkKonuTevhid => 'Allah\'ın Varlığı ve Birliği';
+
+  @override
+  String get hkKonuEsma => 'Esmâü\'l-Hüsnâ';
+
+  @override
+  String get hkKonuKuran => 'Kur\'an-ı Kerîm ve Kur\'an Hakikatleri';
+
+  @override
+  String get hkKonuNubuvvet => 'Peygamberlik ve Hz. Muhammed (s.a.v.)';
+
+  @override
+  String get hkKonuAhiret => 'Ahiret ve Haşir';
+
+  @override
+  String get hkKonuKader => 'Kader ve İrade';
+
+  @override
+  String get hkKonuRuh => 'Ruh, Kalp ve Nefis';
+
+  @override
+  String get hkKonuInsan => 'İnsan ve Kâinat';
+
+  @override
+  String get hkKonuIbadet => 'Namaz ve İbadet';
+
+  @override
+  String get hkKonuSukur => 'Şükür, Sabır ve Tevekkül';
+
+  @override
+  String get hkKonuIhlas => 'İhlas ve Uhuvvet';
+
+  @override
+  String get hkKonuGenclik => 'Gençlik ve Ahlak';
+
+  @override
+  String get hkKonuMusibet => 'Hastalık, Musibet ve Hikmet';
+
+  @override
+  String get hkKonuTabiat => 'Tabiat ve Yaratılış';
+
+  @override
+  String get hkTefekkurKapisi => 'Tefekkür Kapısı';
+
+  @override
+  String get hkAciklama => 'Hakikatin Açıklaması';
+
+  @override
+  String get hkPerspektif => 'Risale-i Nur Perspektifi';
+
+  @override
+  String get hkPerspektifNot =>
+      'Tırnak içindeki ifadeler eserden aynen alınmıştır; diğer cümleler açıklamadır.';
+
+  @override
+  String get hkKainattan => 'Kâinattan Deliller';
+
+  @override
+  String get hkGunlukHayat => 'Günlük Hayatla Bağlantı';
+
+  @override
+  String get hkHikmet => 'Hikmet Penceresi';
+
+  @override
+  String get hkSorgula => 'Kendini Sorgula';
+
+  @override
+  String get hkUygula => 'Hayata Uygula: Günlük Tefekkür Görevi';
+
+  @override
+  String get hkGorevYaptim => 'Bugün bunu düşündüm';
+
+  @override
+  String get hkDua => 'İlgili Dua';
+
+  @override
+  String get hkOgrenilen => 'Öğrenilen Hakikat';
+
+  @override
+  String get hkSorular => 'Bilgi ve Tefekkür Soruları';
+
+  @override
+  String get hkKavramlar => 'Kavramlar';
+
+  @override
+  String get hkKaynaklar => 'Kaynaklar';
+
+  @override
+  String get hkIlgiliEserler => 'İlgili eserler';
+
+  @override
+  String get hkMiniTest => 'Mini Test';
+
+  @override
+  String get hkDogru => 'Doğru';
+
+  @override
+  String get hkYanlis => 'Yanlış';
+
+  @override
+  String hkDogruCevap(String cevap) {
+    return 'Doğru cevap: $cevap';
+  }
+
+  @override
+  String get hkGerekce => 'Dersin özü';
+
+  @override
+  String hkTestSonuc(int dogru, int toplam) {
+    return '$dogru/$toplam doğru';
+  }
+
+  @override
+  String get hkBoslukDoldur => 'Boşluk Doldurma';
+
+  @override
+  String get hkBoslukYonerge => 'Cümledeki boşluğa gelecek kavramı seç';
+
+  @override
+  String get hkEslestir => 'Kavram Eşleştirme';
+
+  @override
+  String get hkEslestirYonerge => 'Her hakikati özüyle eşleştir';
+
+  @override
+  String get hkSec => 'Seç';
+
+  @override
+  String get hkKontrolEt => 'Kontrol et';
+
+  @override
+  String get hkYenidenDene => 'Yeniden dene';
+
+  @override
+  String get hkTebrik => 'Hepsi doğru!';
+
+  @override
+  String get hkTamamla => 'Tamamlandı olarak işaretle';
+
+  @override
+  String get hkTamamlandi => 'Tamamlandı';
+
+  @override
+  String get hkFavoriEkle => 'Favorilere ekle';
+
+  @override
+  String get hkFavoriCikar => 'Favorilerden çıkar';
+
+  @override
+  String get hkSonraOkuEkle => 'Sonra oku listesine ekle';
+
+  @override
+  String get hkSonraOkuCikar => 'Sonra oku listesinden çıkar';
+
+  @override
+  String get hkYaziBoyutu => 'Yazı boyutu';
+
+  @override
+  String hkEnIyiPuan(int p) {
+    return 'En iyi sonuç: %$p';
+  }
+
+  @override
+  String hkOkundu(int p) {
+    return '%$p okundu';
+  }
+
+  @override
+  String get hkTanitim => 'Tanıtım';
+
+  @override
+  String get hkAnaKonu => 'Ana konu';
+
+  @override
+  String get hkMeseleler => 'Ele aldığı meseleler';
+
+  @override
+  String get hkKonum => 'Külliyattaki yeri';
+
+  @override
+  String get hkBolumler => 'Bölümler';
+
+  @override
+  String hkMetinSayisi(int n) {
+    return '$n doğrulanmış metin';
+  }
+
+  @override
+  String get hkEserler => 'Eserler';
+
+  @override
+  String get hkRisaleler => 'Risaleler';
+
+  @override
+  String get hkKaynakNotu =>
+      'Metinler risale.online\'daki Osmanlıca–Latince karşılıklı metinden aynen alınmıştır; sayfa numarası verilmez.';
+
+  @override
+  String get hkOsmanlica => 'Osmanlıca';
+
+  @override
+  String get hkMetin => 'Risale-i Nur metni';
+
+  @override
+  String get hkYonetim => 'Hakikat Yönetimi';
+
+  @override
+  String get hkYonetimAlt =>
+      'Hakikat ekle, düzenle, yayınla; Günün Hakikati\'ni planla';
+
+  @override
+  String get hkYeni => 'Yeni hakikat';
+
+  @override
+  String get hkDuzenle => 'Düzenle';
+
+  @override
+  String get hkOnizle => 'Önizle';
+
+  @override
+  String get hkYayinla => 'Yayınla';
+
+  @override
+  String get hkTaslakYap => 'Taslağa al';
+
+  @override
+  String get hkArsivle => 'Arşivle';
+
+  @override
+  String get hkSil => 'Sil';
+
+  @override
+  String get hkSilOnay =>
+      'Bu kayıt silinsin mi? Uygulamayla gelen kayıtlar yalnızca gizlenir.';
+
+  @override
+  String get hkVazgec => 'Vazgeç';
+
+  @override
+  String get hkGeriAl => 'Düzenlemeyi geri al';
+
+  @override
+  String get hkDurumTaslak => 'Taslak';
+
+  @override
+  String get hkDurumYayinda => 'Yayında';
+
+  @override
+  String get hkDurumArsiv => 'Arşiv';
+
+  @override
+  String get hkDuzenlendi => 'Düzenlendi';
+
+  @override
+  String get hkPlanSec => 'Bu günün hakikatini seç';
+
+  @override
+  String get hkPlanOtomatik => 'Otomatik seçim';
+
+  @override
+  String get hkPlanKaldir => 'Planı kaldır';
+
+  @override
+  String get hkPlanli => 'Planlandı';
+
+  @override
+  String get hkKaydet => 'Kaydet';
+
+  @override
+  String get hkKaydedildi => 'Kaydedildi';
+
+  @override
+  String get hkZorunlu => 'Bu alan zorunlu';
+
+  @override
+  String hkKarakter(int n) {
+    return 'Gövde: $n karakter (hedef 2.800–3.200)';
+  }
+
+  @override
+  String get hkAlanBaslik => 'Başlık';
+
+  @override
+  String get hkAlanKavram => 'Kavramlar (virgülle ayır)';
+
+  @override
+  String get hkAlanKaynak => 'Kaynaklar: her satıra bir (ayet, hadis, eser)';
+
+  @override
+  String get hkAlanDuaArapca => 'Dua (Arapça)';
+
+  @override
+  String get hkAlanDuaOkunus => 'Okunuş';
+
+  @override
+  String get hkAlanDuaAnlam => 'Anlam';
+
+  @override
+  String get hkAlanDuaKaynak => 'Dua kaynağı';
+
+  @override
+  String hkAlanSoru(int n) {
+    return 'Soru $n';
+  }
+
+  @override
+  String get hkAlanSecenek => 'Seçenekler: her satıra bir';
+
+  @override
+  String get hkAlanDogruNo => 'Doğru seçenek (1, 2, 3...)';
+
+  @override
+  String get hkAlanDY => 'Doğru/Yanlış ifadesi';
+
+  @override
+  String get hkAlanDYDogru => 'Bu ifade doğru';
+
+  @override
+  String get hkAlanKategori => 'Ana kategori';
+
+  @override
+  String get hkKaynakUyari =>
+      'Ayet, hadis ve Risale-i Nur alıntılarını eserden doğrulamadan yayınlamayın.';
 }

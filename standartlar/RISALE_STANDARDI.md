@@ -24,3 +24,10 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-27: ders_002-009; birebir alıntılar gunluk_vecizeler.json (risale.online doğrulamalı) ile karşılaştırıldı; dua Arapçası dua_hazinesi (Kur'an) kayıtlarından.
 - 2026-11-27: ders_010-017 eklendi (toplam 17).
 - 2026-11-27: Gevsek tarama (risale_pasaj_cikar MIN_UZ/MAX_UZ/MIN_KAVRAM/GEVSEK; risale_pasaj_sec GEVSEK/MAKS_BOLUM), Mektûbât risaleleri dahil; baglama muhtac/biyografik/siyasi baslangiclar elle elendi. Kart siniri 260-720; havuz 365 (59 eski + 306 yeni, tamami aynen). Derleme eserler (Tılsımlar, Zülfikâr, Sirâc, Rehberler) ve Lâhikalardan yalniz Bediuzzamana ait ders niteligindeki paragraflar alindi. ders_018-033 eklendi (toplam 33).
+
+## Hakikat bölümü (2026-11-27)
+- Konular: `HakikatKonusu` (15 konu, `lib/data/hakikat.dart`); her ders `konular` alanıyla etiketlenir (yoksa `kategori`den türetilir, eski kayıtlar bozulmaz).
+- Külliyat: `assets/content/risale_kulliyat.json` (eser/risale, konum, tanıtım, ana konu, meseleler, ilgili konular). Popüler risale adlarının yeri risale.online metninde doğrulandı (ör. Tabiat = 23. Lem'a, Münâcât = 3. Şuâ, Âyetü'l-Kübrâ = 7. Şuâ, Uhuvvet = 22. Mektub). Sayfa numarası yok.
+- İlgili metinler yalnız `gunluk_risale.json` + `gunluk_vecizeler.json` (aynen) içinden eşleşir; yeni Risale metni üretilmez.
+- Okuyucu ve yönetici durumu: `HakikatServisi` (SharedPreferences `nur_pusulasi_hakikat_v1`). Varlıktaki dersler değişmez; düzenleme ayrı kayıt, geri alınabilir. Günün Hakikati: tarih anahtarı (YYYY-MM-DD) planı, yoksa tarihe bağlı sabit seçim.
+- ders_034 (Nübüvvet) eklendi; toplam 34. Dua metinlerindeki `&quot;` kaçışları düzeltildi (kaynak araçlar da düzeltildi).

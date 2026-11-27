@@ -12,6 +12,8 @@ import 'app/state/app_state.dart';
 import 'app/widget_sync_service.dart';
 import 'app/content_service.dart';
 import 'app/gunluk_plan.dart';
+import 'app/hakikat_servisi.dart';
+import 'data/hakikat.dart';
 import 'data/icerik_hazinesi.dart';
 import 'data/islami_kissalar.dart';
 import 'features/hazine/dua_hazinesi_page.dart';
@@ -52,6 +54,10 @@ void main() async {
   await _guvenli('gunluk plan', GunlukPlanServisi.instance.yukle);
   await _guvenli('kissalar', kissalariYukle);
   await _guvenli('icerik hazinesi', icerikHazinesiniYukle);
+  await _guvenli('hakikat', () async {
+    await hakikatVerisiniYukle();
+    await HakikatServisi.instance.yukle();
+  });
   await _guvenli('favoriler', FavoritesService.instance.load);
   await _guvenli('admin', AdminSession.instance.load);
 

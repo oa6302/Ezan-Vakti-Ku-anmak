@@ -79,7 +79,7 @@
   "baslik": "Kabul Duası",
   "arapca": "رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
   "okunus": "Rabbenâ tekabbel minnâ inneke ente s-semî'u l-'alîm",
-  "anlam": "İbrahim ve İsmail, Kabenin temellerini yükseltiyordu: &quot;Rabbimiz! Yaptığımızı kabul buyur. Şüphesiz ki, Sen hem işitir hem bilirsin&quot;",
+  "anlam": "İbrahim ve İsmail, Kabenin temellerini yükseltiyordu: “Rabbimiz! Yaptığımızı kabul buyur. Şüphesiz ki, Sen hem işitir hem bilirsin”",
   "kaynak": "Bakara, 2/127",
   "aciklama": "Hz. İbrâhîm ve Hz. İsmâil duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -102,7 +102,7 @@
   "baslik": "Müslüman Bir Nesil Duası",
   "arapca": "رَبَّنَا وَٱجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةًۭ مُّسْلِمَةًۭ لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
   "okunus": "Rabbenâ ve-ic'alnâ muslimeyni leke vemin zurrıyyetinâ ummeten muslimeten leke ve-erınâ menâsikenâ vetub 'aleynâ inneke ente t-tevâbu r-rahîm",
-  "anlam": "&quot;Rabbimiz! İkimizi Sana teslim olanlardan kıl, soyumuzdan da Sana teslim olanlardan bir ümmet yetiştir. Bize ibadet yollarımızı göster, tevbemizi kabul buyur, çünkü tevbeleri daima kabul eden, merhametli olan ancak Sensin&quot;.",
+  "anlam": "“Rabbimiz! İkimizi Sana teslim olanlardan kıl, soyumuzdan da Sana teslim olanlardan bir ümmet yetiştir. Bize ibadet yollarımızı göster, tevbemizi kabul buyur, çünkü tevbeleri daima kabul eden, merhametli olan ancak Sensin”.",
   "kaynak": "Bakara, 2/128",
   "aciklama": "Hz. İbrâhîm ve Hz. İsmâil duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -140,7 +140,7 @@
   "baslik": "Emin Bir Şehir Duası",
   "arapca": "رَبِّ ٱجْعَلْ هَـٰذَا بَلَدًا ءَامِنًۭا وَٱرْزُقْ أَهْلَهُۥ مِنَ ٱلثَّمَرَٰتِ مَنْ ءَامَنَ مِنْهُم بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۖ قَالَ وَمَن كَفَرَ فَأُمَتِّعُهُۥ قَلِيلًۭا ثُمَّ أَضْطَرُّهُۥٓ إِلَىٰ عَذَابِ ٱلنَّارِ ۖ وَبِئْسَ ٱلْمَصِيرُ",
   "okunus": "Rabbi ic'al hâzâ beleden âminen ve-urzuk ehlehu mine t-semerâti men âmene minhum bil-lehi vel-yevmi l-âhırı kâle vemen kefera fe-umetti'uhu kalîlen summe edtarruhu ilâ 'azâbi n-nârı vebise l-mesîr",
-  "anlam": "İbrahim: &quot;Rabbim! Burasını emin bir şehir kıl, halkından, Allah'a ve ahiret gününe inananları ürünlerle rızıklandır&quot; demişti. Allah da: &quot;İnkar edeni de az bir müddet geçindirir, sonra da onu ateşin azabına uğramak zorunda bırakırım, ne kötü sonuç&quot; buyurmuştu.",
+  "anlam": "İbrahim: “Rabbim! Burasını emin bir şehir kıl, halkından, Allah'a ve ahiret gününe inananları ürünlerle rızıklandır” demişti. Allah da: “İnkar edeni de az bir müddet geçindirir, sonra da onu ateşin azabına uğramak zorunda bırakırım, ne kötü sonuç” buyurmuştu.",
   "kaynak": "Bakara, 2/126",
   "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -188,7 +188,7 @@
   "baslik": "Dünya ve Ahiret Güzelliği",
   "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ",
   "okunus": "Rabbenâ âtinâ fî d-dunyâ haseneten vefî l-âhırati haseneten vekınâ 'azâbe n-nâr",
-  "anlam": "&quot;Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru&quot; diyenler vardır.",
+  "anlam": "“Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru” diyenler vardır.",
   "kaynak": "Bakara, 2/201",
   "aciklama": "Müminlerin duası duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -216,7 +216,7 @@
   "baslik": "Sabır ve Sebat Duası",
   "arapca": "رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
   "okunus": "Rabbenâ efrığ 'aleynâ sabran vesebbit ekdâmenâ ve-unsurnâ 'alâ l-kavmi l-kâfirîn",
-  "anlam": "Calut ve ordusuna karşı çıktıklarında, &quot;Rabbimiz! Bize sabır ver, sebatımızı artır, inkar eden millete karşı bize yardım et&quot; dediler.",
+  "anlam": "Calut ve ordusuna karşı çıktıklarında, “Rabbimiz! Bize sabır ver, sebatımızı artır, inkar eden millete karşı bize yardım et” dediler.",
   "kaynak": "Bakara, 2/250",
   "aciklama": "Tâlût'un askerleri duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -244,7 +244,7 @@
   "baslik": "Bağışlanma ve Teslimiyet",
   "arapca": "غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
   "okunus": "Ğufrâneke rabbenâ ve-ileyke l-mesîr",
-  "anlam": "Peygamber ve inananlar, ona Rabb'inden indirilene inandı. Hepsi Allah'a, meleklerine, kitaplarına, peygamberlerine inandı. &quot;Peygamberleri arasından hiçbirini ayırdetmeyiz, işittik, itaat ettik, Rabbimiz! Affını dileriz, dönüş Sanadır&quot; dediler.",
+  "anlam": "Peygamber ve inananlar, ona Rabb'inden indirilene inandı. Hepsi Allah'a, meleklerine, kitaplarına, peygamberlerine inandı. “Peygamberleri arasından hiçbirini ayırdetmeyiz, işittik, itaat ettik, Rabbimiz! Affını dileriz, dönüş Sanadır” dediler.",
   "kaynak": "Bakara, 2/285",
   "aciklama": "Müminlerin duası duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -391,7 +391,7 @@
   "baslik": "İman Edenlerin Bağışlanma Duası",
   "arapca": "رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
   "okunus": "Rabbenâ innenâ âmennâ fe-iğfir lenâ zunûbenâ vekınâ 'azâbe n-nâr",
-  "anlam": "Onlar ki, &quot;Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru&quot; diyen, sabreden, doğru olan, gönülden kulluk eden, hayra sarfeden ve seher vakitlerinde bağışlanma dileyenlerdir.",
+  "anlam": "Onlar ki, “Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru” diyen, sabreden, doğru olan, gönülden kulluk eden, hayra sarfeden ve seher vakitlerinde bağışlanma dileyenlerdir.",
   "kaynak": "Âl-i İmrân, 3/16",
   "aciklama": "Takva sahipleri duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -419,7 +419,7 @@
   "baslik": "Mülkün Sahibine Yakarış",
   "arapca": "ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ",
   "okunus": "Allâhumme mâlike l-mulki tutî l-mulke men teşâu vetenzi'u l-mulke mimmen teşâu vetu'ızzu men teşâu vetuzillu men teşâu biyedike l-hayru inneke 'alâ kulli şeyin kadîrun tûlicu el-leyle fî n-nehârı vetûlicu n-nehâra fî el-leyli vetuhrıcu l-haye mine l-meyiti vetuhrıcu l-meyite mine l-hayi veterzuku men teşâu biğayrı hısâb",
-  "anlam": "De ki: &quot;Mülkün sahibi olan Allah'ım! Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir. Doğrusu Sen, her şeye Kadir'sin. Geceyi gündüze, gündüzü geceye geçirirsin; ölüden diri, diriden ölü çıkarırsın; dilediğini hesapsız rızıklandırırsın&quot;.",
+  "anlam": "De ki: “Mülkün sahibi olan Allah'ım! Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir. Doğrusu Sen, her şeye Kadir'sin. Geceyi gündüze, gündüzü geceye geçirirsin; ölüden diri, diriden ölü çıkarırsın; dilediğini hesapsız rızıklandırırsın”.",
   "kaynak": "Âl-i İmrân, 3/26-27",
   "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -492,7 +492,7 @@
   "baslik": "Salih Evlat Duası",
   "arapca": "رَبِّ هَبْ لِى مِن لَّدُنكَ ذُرِّيَّةًۭ طَيِّبَةً ۖ إِنَّكَ سَمِيعُ ٱلدُّعَآءِ",
   "okunus": "Rabbi heb lî min ledunke zurrıyyeten tayyibeten inneke semî'u d-du'â",
-  "anlam": "Orada Zekeriya Rabbine dua etti: &quot;Ya Rabbi! Bana kendi katından temiz bir soy bahşet, doğrusu Sen duayı işitirsin&quot;.",
+  "anlam": "Orada Zekeriya Rabbine dua etti: “Ya Rabbi! Bana kendi katından temiz bir soy bahşet, doğrusu Sen duayı işitirsin”.",
   "kaynak": "Âl-i İmrân, 3/38",
   "aciklama": "Hz. Zekeriyyâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -520,7 +520,7 @@
   "baslik": "Şahitlerle Yazılma Duası",
   "arapca": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ وَٱتَّبَعْنَا ٱلرَّسُولَ فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ",
   "okunus": "Rabbenâ âmennâ bimâ enzelte ve-ittebe'nâ r-rasûle fe-uktubnâ me'a s-şâhidîn",
-  "anlam": "&quot;Rabbimiz! İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz&quot;.",
+  "anlam": "“Rabbimiz! İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz”.",
   "kaynak": "Âl-i İmrân, 3/53",
   "aciklama": "Havariler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -548,7 +548,7 @@
   "baslik": "Günahların Bağışlanması ve Sebat",
   "arapca": "رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِىٓ أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
   "okunus": "Rabbenâ iğfir lenâ zunûbenâ ve-isrâfenâ fî emrınâ vesebbit ekdâmenâ ve-unsurnâ 'alâ l-kavmi l-kâfirîn",
-  "anlam": "Dedikleri ancak şu idi: &quot;Rabbimiz! Günahlarımızı, işimizdeki aşırılıklarımızı bize bağışla, sebatımızı arttır, inkarcı topluluğa karşı bize yardım et&quot;.",
+  "anlam": "Dedikleri ancak şu idi: “Rabbimiz! Günahlarımızı, işimizdeki aşırılıklarımızı bize bağışla, sebatımızı arttır, inkarcı topluluğa karşı bize yardım et”.",
   "kaynak": "Âl-i İmrân, 3/147",
   "aciklama": "Peygamberlerle savaşan müminler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -581,7 +581,7 @@
   "baslik": "Allah Bize Yeter",
   "arapca": "حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
   "okunus": "Hasbunâ'llâhu veni'me l-vekîl",
-  "anlam": "İnsanlar onlara: &quot;Düşmanınız olan insanlar size karşı bir ordu topladılar, onlardan korkun&quot; dediler. Bu, onların imanını artırdı da: &quot;Allah bize yeter. O ne güzel Vekil'dir&quot; dediler.",
+  "anlam": "İnsanlar onlara: “Düşmanınız olan insanlar size karşı bir ordu topladılar, onlardan korkun” dediler. Bu, onların imanını artırdı da: “Allah bize yeter. O ne güzel Vekil'dir” dediler.",
   "kaynak": "Âl-i İmrân, 3/173",
   "aciklama": "Uhud sonrası müminler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -599,7 +599,7 @@
   "baslik": "Kâinatı Tefekkür Edenlerin Duası",
   "arapca": "رَبَّنَا مَا خَلَقْتَ هَـٰذَا بَـٰطِلًۭا سُبْحَـٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ رَبَّنَآ إِنَّكَ مَن تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍۢ",
   "okunus": "Rabbenâ mâ halekte hâzâ bâtılen subhâneke fekınâ 'azâbe n-nârı rabbenâ inneke men tudhıli n-nâra fekad ehzeytehu vemâ lilzzâlimîne min ensârın",
-  "anlam": "Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: &quot;Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru&quot; &quot;Rabbimiz! Sen ateşe kimi sokarsan, onu şüphesiz rezil etmiş olursun, zulmedenlerin hiç yardımcıları yoktur&quot;.",
+  "anlam": "Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: “Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru” “Rabbimiz! Sen ateşe kimi sokarsan, onu şüphesiz rezil etmiş olursun, zulmedenlerin hiç yardımcıları yoktur”.",
   "kaynak": "Âl-i İmrân, 3/191-192",
   "aciklama": "Akıl sahipleri duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -637,7 +637,7 @@
   "baslik": "İman Çağrısına Uyanların Duası",
   "arapca": "رَّبَّنَآ إِنَّنَا سَمِعْنَا مُنَادِيًۭا يُنَادِى لِلْإِيمَـٰنِ أَنْ ءَامِنُوا۟ بِرَبِّكُمْ فَـَٔامَنَّا ۚ رَبَّنَا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ ٱلْأَبْرَارِ رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ ٱلْقِيَـٰمَةِ ۗ إِنَّكَ لَا تُخْلِفُ ٱلْمِيعَادَ",
   "okunus": "Rabbenâ innenâ semi'nâ munâdiyen yunâdî lilîmâni en âminû birabbikum feâmennâ rabbenâ fe-iğfir lenâ zunûbenâ vekeffir 'annâ seyyiâtinâ veteveffenâ me'a l-ebrârı rabbenâ veâtinâ mâ ve'adttenâ 'alâ rusulike velâ tuhzinâ yevme l-kıyâmeti inneke lâ tuhlifu l-mî'âd",
-  "anlam": "&quot;Rabbimiz! Doğrusu biz Rabbinize inanın diye inanmaya çağıran bir çağırıcıyı işittik de iman ettik. Rabbimiz! Günahlarımızı bize bağışla, kötülüklerimizi ört, canımızi iyilerle beraber al&quot;. &quot;Rabbimiz! Peygamberlerinle vadettiklerini bize ver, kıyamet günü bizi rezil etme. Sen şüphesiz sözünden caymazsın&quot;.",
+  "anlam": "“Rabbimiz! Doğrusu biz Rabbinize inanın diye inanmaya çağıran bir çağırıcıyı işittik de iman ettik. Rabbimiz! Günahlarımızı bize bağışla, kötülüklerimizi ört, canımızi iyilerle beraber al”. “Rabbimiz! Peygamberlerinle vadettiklerini bize ver, kıyamet günü bizi rezil etme. Sen şüphesiz sözünden caymazsın”.",
   "kaynak": "Âl-i İmrân, 3/193-194",
   "aciklama": "Akıl sahipleri duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -695,7 +695,7 @@
   "baslik": "Şahitlerle Beraber Yaz",
   "arapca": "رَبَّنَآ ءَامَنَّا فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ",
   "okunus": "Rabbenâ âmennâ fe-uktubnâ me'a s-şâhidîn",
-  "anlam": "Peygambere indirilen Kuran'ı işittiklerinde, gerçeği öğrenmelerinden gözlerinin yaşla dolarak, &quot;Rabbimiz! İnandık, bizi de şahidlerden yaz. Rabbimizin bizi iyi milletle birlikte bulundurmasını umarken niçin Allah'a ve bize gelen gerçeğe inanmayalım?&quot; dediklerini görürsün.",
+  "anlam": "Peygambere indirilen Kuran'ı işittiklerinde, gerçeği öğrenmelerinden gözlerinin yaşla dolarak, “Rabbimiz! İnandık, bizi de şahidlerden yaz. Rabbimizin bizi iyi milletle birlikte bulundurmasını umarken niçin Allah'a ve bize gelen gerçeğe inanmayalım?” dediklerini görürsün.",
   "kaynak": "Mâide, 5/83",
   "aciklama": "Hakkı tanıyan Hristiyanlar duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -718,7 +718,7 @@
   "baslik": "Gökten Sofra Duası",
   "arapca": "ٱللَّهُمَّ رَبَّنَآ أَنزِلْ عَلَيْنَا مَآئِدَةًۭ مِّنَ ٱلسَّمَآءِ تَكُونُ لَنَا عِيدًۭا لِّأَوَّلِنَا وَءَاخِرِنَا وَءَايَةًۭ مِّنكَ ۖ وَٱرْزُقْنَا وَأَنتَ خَيْرُ ٱلرَّٰزِقِينَ",
   "okunus": "Allâhumme rabbenâ enzil 'aleynâ mâideten mine s-semâi tekûnu lenâ 'îden li-evvelinâ veâhırınâ veâyeten minke ve-urzuknâ ve-ente hayru r-râzikîn",
-  "anlam": "Meryem oğlu İsa, &quot;Allahım! Rabbimiz! Bize ve bizden sonra geleceklere bayram ve Sen'den bir delil olarak gökten bir sofra indir, bizi rızıklandır, Sen rızık verenlerin en hayırlısısın&quot; dedi.",
+  "anlam": "Meryem oğlu İsa, “Allahım! Rabbimiz! Bize ve bizden sonra geleceklere bayram ve Sen'den bir delil olarak gökten bir sofra indir, bizi rızıklandır, Sen rızık verenlerin en hayırlısısın” dedi.",
   "kaynak": "Mâide, 5/114",
   "aciklama": "Hz. Îsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -756,7 +756,7 @@
   "baslik": "Tövbe Duası",
   "arapca": "رَبَّنَا ظَلَمْنَآ أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ ٱلْخَـٰسِرِينَ",
   "okunus": "Rabbenâ zalemnâ enfusenâ ve-in lem teğfir lenâ veterhamnâ lenekûnenne mine l-hâsirîn",
-  "anlam": "Her ikisi, &quot;Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz&quot; dediler.",
+  "anlam": "Her ikisi, “Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz” dediler.",
   "kaynak": "A'râf, 7/23",
   "aciklama": "Hz. Âdem ve Havvâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -784,7 +784,7 @@
   "baslik": "Zalimlerle Beraber Kılma",
   "arapca": "رَبَّنَا لَا تَجْعَلْنَا مَعَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
   "okunus": "Rabbenâ lâ tec'alnâ me'a l-kavmi z-zâlimîn",
-  "anlam": "Gözleri cehennemlikler yönüne çevrilince: &quot;Rabbimiz! Bizi zalimlerle beraber bulundurma&quot; derler.",
+  "anlam": "Gözleri cehennemlikler yönüne çevrilince: “Rabbimiz! Bizi zalimlerle beraber bulundurma” derler.",
   "kaynak": "A'râf, 7/47",
   "aciklama": "A'râf ehli duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -807,7 +807,7 @@
   "baslik": "Hak ile Hüküm Ver",
   "arapca": "رَبَّنَا ٱفْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِٱلْحَقِّ وَأَنتَ خَيْرُ ٱلْفَـٰتِحِينَ",
   "okunus": "Rabbenâ ifteh beynenâ vebeyne kavminâ bil-hakı ve-ente hayru l-fâtihîn",
-  "anlam": "Milletinin büyüklük taslayan ileri gelenleri, &quot;Ey Şuayb! Ya dinimize dönersiniz ya da, and olsun ki seni ve inananları seninle beraber kentimizden çıkarırız&quot; dediler. Şuayb, onlara: &quot;İstemezsek de mi? Allah bizi dininizden kurtardıktan sonra ona dönecek olursak, doğrusu Allah'a karşı yalan uydurmuş oluruz. Rabbimizin dilemesi bir yana, dininize dönmek bize yakışmaz. Rabbimizin ilmi her şeyi kuşatmıştır. Biz yalnız Allah'a güvendik. Rabbimiz! Bizimle milletimiz arasında hak ile Sen hüküm ver, Sen hükmedenlerin en hayırlısısın&quot; dedi.",
+  "anlam": "Milletinin büyüklük taslayan ileri gelenleri, “Ey Şuayb! Ya dinimize dönersiniz ya da, and olsun ki seni ve inananları seninle beraber kentimizden çıkarırız” dediler. Şuayb, onlara: “İstemezsek de mi? Allah bizi dininizden kurtardıktan sonra ona dönecek olursak, doğrusu Allah'a karşı yalan uydurmuş oluruz. Rabbimizin dilemesi bir yana, dininize dönmek bize yakışmaz. Rabbimizin ilmi her şeyi kuşatmıştır. Biz yalnız Allah'a güvendik. Rabbimiz! Bizimle milletimiz arasında hak ile Sen hüküm ver, Sen hükmedenlerin en hayırlısısın” dedi.",
   "kaynak": "A'râf, 7/89",
   "aciklama": "Hz. Şuayb duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -835,7 +835,7 @@
   "baslik": "Sabır ve Müslüman Olarak Ölüm",
   "arapca": "رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَتَوَفَّنَا مُسْلِمِينَ",
   "okunus": "Rabbenâ efrığ 'aleynâ sabran veteveffenâ muslimîn",
-  "anlam": "Onlar da: &quot;Doğrusu biz ancak Rabbimize döneriz. Rabbimizin ayetleri gelince, onlara inanmamızdan ötürü bizden öç alıyorsun. Rabbimiz! Bize sabır ver ve canımızı müslim olarak al&quot; dediler.",
+  "anlam": "Onlar da: “Doğrusu biz ancak Rabbimize döneriz. Rabbimizin ayetleri gelince, onlara inanmamızdan ötürü bizden öç alıyorsun. Rabbimiz! Bize sabır ver ve canımızı müslim olarak al” dediler.",
   "kaynak": "A'râf, 7/126",
   "aciklama": "Firavun'un sihirbazları duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -858,7 +858,7 @@
   "baslik": "Kardeşimle Beraber Bağışla",
   "arapca": "رَبِّ ٱغْفِرْ لِى وَلِأَخِى وَأَدْخِلْنَا فِى رَحْمَتِكَ ۖ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
   "okunus": "Rabbi iğfir lî veli-ehî ve-edhılnâ fî rahmetike ve-ente erhamu r-râhımîn",
-  "anlam": "Musa &quot;Rabbim! Beni ve kardeşimi bağışla, bize acı, Sen merhametlilerin merhametlisisin&quot; dedi.",
+  "anlam": "Musa “Rabbim! Beni ve kardeşimi bağışla, bize acı, Sen merhametlilerin merhametlisisin” dedi.",
   "kaynak": "A'râf, 7/151",
   "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -886,7 +886,7 @@
   "baslik": "Sen Bizim Velimizsin",
   "arapca": "أَنتَ وَلِيُّنَا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا ۖ وَأَنتَ خَيْرُ ٱلْغَـٰفِرِينَ ۞ وَٱكْتُبْ لَنَا فِى هَـٰذِهِ ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ إِنَّا هُدْنَآ إِلَيْكَ ۚ قَالَ عَذَابِىٓ أُصِيبُ بِهِۦ مَنْ أَشَآءُ ۖ وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍۢ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَٱلَّذِينَ هُم بِـَٔايَـٰتِنَا يُؤْمِنُونَ",
   "okunus": "Ente veliyyunâ fe-iğfir lenâ ve-irhamnâ ve-ente hayru l-ğâfirîne ve-uktub lenâ fî hâzihi d-dunyâ haseneten vefî l-âhırati innâ hudnâ ileyke kâle 'azâbî usîbu bihi men eşâu verahmetî vesi'at kulle şeyin fese-ektubuhâ lillezîne yettekûne veyutûne z-zekete ve-ellezîne hum biâyâtinâ yuminûn",
-  "anlam": "Musa, tayin ettiğimiz müddette milletinden yetmiş kişi seçti; onları sarsıntı tutunca dedi ki: &quot;Rabbim! Dileseydin daha önce beni ve onları yok ederdin, aramızdaki beyinsizlerin yaptıklarından ötürü bizi yok eder misin? Bu, Senin imtihanından başka birşey değildir, bununla dilediğini saptırır, dilediğini doğru yola iletirsin; bizim dostumuz Sensin; bizi bağışla, bize merhamet et. Sen bağışlayanların en iyisisin.&quot; &quot;Bu dünyada ve ahirette bizim için güzel olanı yaz; biz Sana yöneldik&quot; dedi. Allah: &quot;Azabıma dilediğim kimseyi uğratırım, rahmetim herşeyi kaplamıştır; bunu Allah'a karşı gelmekten sakınanlara, zekat verenlere, ayetlerimize inanıp, yanlarındaki Tevrat ve İncil'de yazılı buldukları, okuyup yazması olmayan peygambere uyanlara yazacağız. O peygamber, onlara, uygun olanı emreder ve fenalıktan meneder, temiz şeyleri helal, murdar şeyleri haram kılar, onların ağır yüklerini indirir, zor tekliflerini hafifletir. Bu peygambere inanan, hürmet eden, yardım eden, onunla gönderilen nura uyanlar yok mu? İşte onlar saadete erenlerdir&quot; dedi.",
+  "anlam": "Musa, tayin ettiğimiz müddette milletinden yetmiş kişi seçti; onları sarsıntı tutunca dedi ki: “Rabbim! Dileseydin daha önce beni ve onları yok ederdin, aramızdaki beyinsizlerin yaptıklarından ötürü bizi yok eder misin? Bu, Senin imtihanından başka birşey değildir, bununla dilediğini saptırır, dilediğini doğru yola iletirsin; bizim dostumuz Sensin; bizi bağışla, bize merhamet et. Sen bağışlayanların en iyisisin.” “Bu dünyada ve ahirette bizim için güzel olanı yaz; biz Sana yöneldik” dedi. Allah: “Azabıma dilediğim kimseyi uğratırım, rahmetim herşeyi kaplamıştır; bunu Allah'a karşı gelmekten sakınanlara, zekat verenlere, ayetlerimize inanıp, yanlarındaki Tevrat ve İncil'de yazılı buldukları, okuyup yazması olmayan peygambere uyanlara yazacağız. O peygamber, onlara, uygun olanı emreder ve fenalıktan meneder, temiz şeyleri helal, murdar şeyleri haram kılar, onların ağır yüklerini indirir, zor tekliflerini hafifletir. Bu peygambere inanan, hürmet eden, yardım eden, onunla gönderilen nura uyanlar yok mu? İşte onlar saadete erenlerdir” dedi.",
   "kaynak": "A'râf, 7/155-156",
   "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -949,7 +949,7 @@
   "baslik": "Allah Bana Yeter",
   "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
   "okunus": "Hasbiye'llâhu lâ ilâhe illâ huve 'aleyhi tevekkeltu vehuve rabbu l-'arşi l-'azîm",
-  "anlam": "Eğer yüz çevirirlerse de ki: &quot;Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.&quot;",
+  "anlam": "Eğer yüz çevirirlerse de ki: “Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.”",
   "kaynak": "Tevbe, 9/129",
   "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -977,7 +977,7 @@
   "baslik": "Zalimlere Fitne Kılma",
   "arapca": "رَبَّنَا لَا تَجْعَلْنَا فِتْنَةًۭ لِّلْقَوْمِ ٱلظَّـٰلِمِينَ وَنَجِّنَا بِرَحْمَتِكَ مِنَ ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
   "okunus": "Rabbenâ lâ tec'alnâ fitneten lilkavmi z-zâlimîne veneccinâ birahmetike mine l-kavmi l-kâfirîn",
-  "anlam": "&quot;Allah'a güvendik; Ey Rabbimiz! Zalim bir millet ile bizi sınama, rahmetinle bizi kafirlerden kurtar&quot; dediler. &quot;Allah'a güvendik; Ey Rabbimiz! Zalim bir millet ile bizi sınama, rahmetinle bizi kafirlerden kurtar&quot; dediler.",
+  "anlam": "“Allah'a güvendik; Ey Rabbimiz! Zalim bir millet ile bizi sınama, rahmetinle bizi kafirlerden kurtar” dediler. “Allah'a güvendik; Ey Rabbimiz! Zalim bir millet ile bizi sınama, rahmetinle bizi kafirlerden kurtar” dediler.",
   "kaynak": "Yûnus, 10/85-86",
   "aciklama": "Hz. Mûsâ'nın kavmi duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1005,7 +1005,7 @@
   "baslik": "Bilmediğimi İstemekten Sığınma",
   "arapca": "رَبِّ إِنِّىٓ أَعُوذُ بِكَ أَنْ أَسْـَٔلَكَ مَا لَيْسَ لِى بِهِۦ عِلْمٌۭ ۖ وَإِلَّا تَغْفِرْ لِى وَتَرْحَمْنِىٓ أَكُن مِّنَ ٱلْخَـٰسِرِينَ",
   "okunus": "Rabbi innî e'ûzu bike en eseleke mâ leyse lî bihi 'ılmun ve-illâ teğfir lî veterhamnî ekun mine l-hâsirîn",
-  "anlam": "&quot;Rabbim! Bilmediğim şeyi Senden istemekten Sana sığınırım. Beni bağışlamaz ve bana merhamet etmezsen kaybedenlerden olurum&quot; dedi.",
+  "anlam": "“Rabbim! Bilmediğim şeyi Senden istemekten Sana sığınırım. Beni bağışlamaz ve bana merhamet etmezsen kaybedenlerden olurum” dedi.",
   "kaynak": "Hûd, 11/47",
   "aciklama": "Hz. Nûh duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1043,7 +1043,7 @@
   "baslik": "Salihlere Kat",
   "arapca": "۞ رَبِّ قَدْ ءَاتَيْتَنِى مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۖ تَوَفَّنِى مُسْلِمًۭا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ",
   "okunus": "Rabbi kad âteytenî mine l-mulki ve'allemtenî min tevîli l-ehâdîsi fâtıra s-semâvâti vel-erdı ente veliyyî fî d-dunyâ vel-âhırati teveffenî muslimen ve-elhıknî bil-sâlihîn",
-  "anlam": "&quot;Rabbim! Bana hükümranlık verdin, rüyaların yorumunu öğrettin. Ey göklerin ve yerin yaradanı! Dünya ve ahirette işlerimi yoluna koyan sensin; benim canımı müslüman olarak al ve beni iyilere kat.&quot;",
+  "anlam": "“Rabbim! Bana hükümranlık verdin, rüyaların yorumunu öğrettin. Ey göklerin ve yerin yaradanı! Dünya ve ahirette işlerimi yoluna koyan sensin; benim canımı müslüman olarak al ve beni iyilere kat.”",
   "kaynak": "Yûsuf, 12/101",
   "aciklama": "Hz. Yûsuf duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1086,7 +1086,7 @@
   "baslik": "Zindan Duası",
   "arapca": "رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَـٰهِلِينَ",
   "okunus": "Rabbi s-sicnu ehabbu ileyye mimmâ yed'ûnenî ileyhi ve-illâ tesrıf 'annî keydehunne esbu ileyhinne ve-ekun mine l-câhilîn",
-  "anlam": "Yusuf: &quot;Rabbim! Hapis benim için, bunların istediklerini yapmaktan daha iyidir. Eğer tuzaklarını benden uzaklaştırmazsan onlara meyleder ve bilmeyenlerden olurum.&quot; dedi.",
+  "anlam": "Yusuf: “Rabbim! Hapis benim için, bunların istediklerini yapmaktan daha iyidir. Eğer tuzaklarını benden uzaklaştırmazsan onlara meyleder ve bilmeyenlerden olurum.” dedi.",
   "kaynak": "Yûsuf, 12/33",
   "aciklama": "Hz. Yûsuf duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1119,7 +1119,7 @@
   "baslik": "Güvenli Şehir ve Puta Tapmaktan Koruma",
   "arapca": "رَبِّ ٱجْعَلْ هَـٰذَا ٱلْبَلَدَ ءَامِنًۭا وَٱجْنُبْنِى وَبَنِىَّ أَن نَّعْبُدَ ٱلْأَصْنَامَ",
   "okunus": "Rabbi ic'al hâzâ l-belede âminen ve-ucnubnî vebeniyye en ne'bude l-esnâm",
-  "anlam": "İbrahim şöyle demişti: &quot;Rabbim! Bu şehri güvenli kıl; beni ve oğullarımı putlara tapmaktan uzak tut.&quot;",
+  "anlam": "İbrahim şöyle demişti: “Rabbim! Bu şehri güvenli kıl; beni ve oğullarımı putlara tapmaktan uzak tut.”",
   "kaynak": "İbrâhîm, 14/35",
   "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1147,7 +1147,7 @@
   "baslik": "Namazı Devamlı Kılanlardan Eyle",
   "arapca": "رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى ۚ رَبَّنَا وَتَقَبَّلْ دُعَآءِ رَبَّنَا ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ ٱلْحِسَابُ",
   "okunus": "Rabbi ic'alnî mukîme s-saleti vemin zurrıyyetî rabbenâ vetekabbel du'âi rabbenâ iğfir lî velivâlideyye velilmuminîne yevme yekûmu l-hısâb",
-  "anlam": "&quot;Rabbim! Beni ve çocuklarımı namaz kılanlardan eyle. Rabbimiz! Duamı kabul buyur.&quot; &quot;Rabbimiz! Hesap görülecek günde, beni, anamı babamı ve inananları bağışla.&quot;",
+  "anlam": "“Rabbim! Beni ve çocuklarımı namaz kılanlardan eyle. Rabbimiz! Duamı kabul buyur.” “Rabbimiz! Hesap görülecek günde, beni, anamı babamı ve inananları bağışla.”",
   "kaynak": "İbrâhîm, 14/40-41",
   "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1185,7 +1185,7 @@
   "baslik": "Anne-Baba Duası",
   "arapca": "رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا",
   "okunus": "Rabbi irhamhumâ kemâ rabbeyânî sağîr",
-  "anlam": "Onlara acıyarak alçak gönüllülük kanatlarını ger ve: &quot;Rabbim! Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et!&quot; de.",
+  "anlam": "Onlara acıyarak alçak gönüllülük kanatlarını ger ve: “Rabbim! Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et!” de.",
   "kaynak": "İsrâ, 17/24",
   "aciklama": "Müminlere öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1208,7 +1208,7 @@
   "baslik": "Doğrulukla Girip Çıkma Duası",
   "arapca": "رَّبِّ أَدْخِلْنِى مُدْخَلَ صِدْقٍۢ وَأَخْرِجْنِى مُخْرَجَ صِدْقٍۢ وَٱجْعَل لِّى مِن لَّدُنكَ سُلْطَـٰنًۭا نَّصِيرًۭا",
   "okunus": "Rabbi edhılnî mudhale sıdkın ve-ehrıcnî muhrace sıdkın ve-ic'al lî min ledunke sultânen nesîr",
-  "anlam": "De ki: &quot;Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et; çıkaracağın yerden de hoşnutluk ve esenlikle çıkar. Katından beni destekleyecek bir kuvvet ver.&quot;",
+  "anlam": "De ki: “Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et; çıkaracağın yerden de hoşnutluk ve esenlikle çıkar. Katından beni destekleyecek bir kuvvet ver.”",
   "kaynak": "İsrâ, 17/80",
   "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1241,7 +1241,7 @@
   "baslik": "Rahmet ve Doğru Yol Duası",
   "arapca": "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًۭا",
   "okunus": "Rabbenâ âtinâ min ledunke rahmeten veheyyi lenâ min emrınâ raşeden",
-  "anlam": "Birkaç genç mağaraya sığınmış: &quot;Rabbimiz! Katından bize rahmet ver ve işimizde doğruyu göster, bizi başarılı kıl&quot; demişlerdi.",
+  "anlam": "Birkaç genç mağaraya sığınmış: “Rabbimiz! Katından bize rahmet ver ve işimizde doğruyu göster, bizi başarılı kıl” demişlerdi.",
   "kaynak": "Kehf, 18/10",
   "aciklama": "Ashâb-ı Kehf duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1269,7 +1269,7 @@
   "baslik": "Göğsümü Genişlet",
   "arapca": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى وَٱحْلُلْ عُقْدَةًۭ مِّن لِّسَانِى يَفْقَهُوا۟ قَوْلِى",
   "okunus": "Rabbi işrah lî sadrî veyessir lî emrî ve-uhlul 'ukdeten min lisânî yefkahû kavlî",
-  "anlam": "Musa: &quot;Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin&quot; dedi. Musa: &quot;Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin&quot; dedi. Musa: &quot;Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin&quot; dedi. Musa: &quot;Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin&quot; dedi.",
+  "anlam": "Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi.",
   "kaynak": "Tâhâ, 20/25-28",
   "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1302,7 +1302,7 @@
   "baslik": "İlmimi Artır",
   "arapca": "رَّبِّ زِدْنِى عِلْمًۭا",
   "okunus": "Rabbi zidnî 'ılmen",
-  "anlam": "Gerçek hükümdar olan Allah Yüce'dir. Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, &quot;Rabbim! ilmimi artır&quot; de.",
+  "anlam": "Gerçek hükümdar olan Allah Yüce'dir. Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, “Rabbim! ilmimi artır” de.",
   "kaynak": "Tâhâ, 20/114",
   "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1320,7 +1320,7 @@
   "baslik": "Hastalık ve Dert Duası",
   "arapca": "أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
   "okunus": "Ennî messeniye d-duru ve-ente erhamu r-râhımîn",
-  "anlam": "Eyyub da: &quot;Başıma bir bela geldi, (Sana sığındım), Sen merhametlilerin merhametlisisin&quot; diye Rabbine nida etmişti.",
+  "anlam": "Eyyub da: “Başıma bir bela geldi, (Sana sığındım), Sen merhametlilerin merhametlisisin” diye Rabbine nida etmişti.",
   "kaynak": "Enbiyâ, 21/83",
   "aciklama": "Hz. Eyyûb duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1343,7 +1343,7 @@
   "baslik": "Sıkıntıdan Kurtuluş Duası",
   "arapca": "لَّآ إِلَـٰهَ إِلَّآ أَنتَ سُبْحَـٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّـٰلِمِينَ",
   "okunus": "Lâ ilâhe illâ ente subhâneke innî kuntu mine z-zâlimîn",
-  "anlam": "Zünnun (Balık Sahibi; Yunus) hakkında söylediğimizi de an. O, öfkelenerek giderken, kendisini sıkıntıya sokmayacağımızı sanmıştı; fakat sonunda karanlıklar içinde: &quot;Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim&quot; diye seslenmişti.",
+  "anlam": "Zünnun (Balık Sahibi; Yunus) hakkında söylediğimizi de an. O, öfkelenerek giderken, kendisini sıkıntıya sokmayacağımızı sanmıştı; fakat sonunda karanlıklar içinde: “Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim” diye seslenmişti.",
   "kaynak": "Enbiyâ, 21/87",
   "aciklama": "Hz. Yûnus duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1371,7 +1371,7 @@
   "baslik": "Beni Yalnız Bırakma",
   "arapca": "رَبِّ لَا تَذَرْنِى فَرْدًۭا وَأَنتَ خَيْرُ ٱلْوَٰرِثِينَ",
   "okunus": "Rabbi lâ tezernî ferden ve-ente hayru l-vârısîn",
-  "anlam": "Zekeriya da: &quot;Rabbim! Beni tek Başıma bırakma, Sen varislerin en hayırlısısın&quot; diye nida etmişti.",
+  "anlam": "Zekeriya da: “Rabbim! Beni tek Başıma bırakma, Sen varislerin en hayırlısısın” diye nida etmişti.",
   "kaynak": "Enbiyâ, 21/89",
   "aciklama": "Hz. Zekeriyyâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1394,7 +1394,7 @@
   "baslik": "Bereketli Bir Yere İndir",
   "arapca": "رَّبِّ أَنزِلْنِى مُنزَلًۭا مُّبَارَكًۭا وَأَنتَ خَيْرُ ٱلْمُنزِلِينَ",
   "okunus": "Rabbi enzilnî munzelen mubâraken ve-ente hayru l-munzilîn",
-  "anlam": "&quot;Rabbim! Beni mübarek bir yere indir. Sen indirenlerin en iyisisin&quot; de.",
+  "anlam": "“Rabbim! Beni mübarek bir yere indir. Sen indirenlerin en iyisisin” de.",
   "kaynak": "Mü'minûn, 23/29",
   "aciklama": "Hz. Nûh duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1417,7 +1417,7 @@
   "baslik": "Şeytanın Vesveselerinden Sığınma",
   "arapca": "رَّبِّ أَعُوذُ بِكَ مِنْ هَمَزَٰتِ ٱلشَّيَـٰطِينِ وَأَعُوذُ بِكَ رَبِّ أَن يَحْضُرُونِ",
   "okunus": "Rabbi e'ûzu bike min hemezâti s-şeyâtîni ve-e'ûzu bike rabbi en yehdurûn",
-  "anlam": "De ki: &quot;Rabbim! Şeytanların kışkırtmalarından Sana sığınırım.&quot; &quot;Rabbim! Yanımda bulunmalarından da Sana sığınırım.&quot;",
+  "anlam": "De ki: “Rabbim! Şeytanların kışkırtmalarından Sana sığınırım.” “Rabbim! Yanımda bulunmalarından da Sana sığınırım.”",
   "kaynak": "Mü'minûn, 23/97-98",
   "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1445,7 +1445,7 @@
   "baslik": "İman Ettik, Bağışla",
   "arapca": "رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
   "okunus": "Rabbenâ âmennâ fe-iğfir lenâ ve-irhamnâ ve-ente hayru r-râhımîn",
-  "anlam": "Allah: &quot;Sinin orada! Benimle konuşmayın. Kullarımdan bir topluluk: &quot;Rabbimiz! inandık, artık bizi bağışla, bize acı. Sen acıyanların en iyisisin&quot; diyordu. Siz ise, onları alaya alıyordunuz. Bu yaptıklarınız size Beni anmayı unutturuyordu. Onlara hep gülüyordunuz. Sabretmelerine karşılık bugün onları mükafatlandırdım. Doğrusu onlar kurtulanlardır&quot; der.",
+  "anlam": "Allah: “Sinin orada! Benimle konuşmayın. Kullarımdan bir topluluk: ”Rabbimiz! inandık, artık bizi bağışla, bize acı. Sen acıyanların en iyisisin“ diyordu. Siz ise, onları alaya alıyordunuz. Bu yaptıklarınız size Beni anmayı unutturuyordu. Onlara hep gülüyordunuz. Sabretmelerine karşılık bugün onları mükafatlandırdım. Doğrusu onlar kurtulanlardır” der.",
   "kaynak": "Mü'minûn, 23/109",
   "aciklama": "Müminlerin duası duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1468,7 +1468,7 @@
   "baslik": "Bağışla ve Merhamet Et",
   "arapca": "رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
   "okunus": "Rabbi iğfir ve-irham ve-ente hayru r-râhımîn",
-  "anlam": "De ki: &quot;Rabbim! Bağışla, merhamet et, Sen merhamet edenlerin en hayırlısısın.&quot;",
+  "anlam": "De ki: “Rabbim! Bağışla, merhamet et, Sen merhamet edenlerin en hayırlısısın.”",
   "kaynak": "Mü'minûn, 23/118",
   "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1491,7 +1491,7 @@
   "baslik": "Cehennem Azabını Uzaklaştır",
   "arapca": "رَبَّنَا ٱصْرِفْ عَنَّا عَذَابَ جَهَنَّمَ ۖ إِنَّ عَذَابَهَا كَانَ غَرَامًا إِنَّهَا سَآءَتْ مُسْتَقَرًّۭا وَمُقَامًۭا",
   "okunus": "Rabbenâ isrıf 'annâ 'azâbe cehenneme inne 'azâbehâ kâne ğarâmen innehâ sâet mustekarran vemukâmen",
-  "anlam": "Onlar, &quot;Rabbimiz! Bizden cehennem azabını uzaklaştır; doğrusu onun azabı sürekli ve acıdır. Orası şüphesiz kötü bir yer ve kötü bir duraktır&quot; derler. Onlar, &quot;Rabbimiz! Bizden cehennem azabını uzaklaştır; doğrusu onun azabı sürekli ve acıdır. Orası şüphesiz kötü bir yer ve kötü bir duraktır&quot; derler.",
+  "anlam": "Onlar, “Rabbimiz! Bizden cehennem azabını uzaklaştır; doğrusu onun azabı sürekli ve acıdır. Orası şüphesiz kötü bir yer ve kötü bir duraktır” derler. Onlar, “Rabbimiz! Bizden cehennem azabını uzaklaştır; doğrusu onun azabı sürekli ve acıdır. Orası şüphesiz kötü bir yer ve kötü bir duraktır” derler.",
   "kaynak": "Furkân, 25/65-66",
   "aciklama": "Rahmân'ın kulları duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1524,7 +1524,7 @@
   "baslik": "Göz Aydınlığı Bir Aile",
   "arapca": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَٰجِنَا وَذُرِّيَّـٰتِنَا قُرَّةَ أَعْيُنٍۢ وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
   "okunus": "Rabbenâ heb lenâ min ezvâcinâ vezurrıyyâtinâ kurrate e'yunin ve-ic'alnâ lilmuttekîne imâmen",
-  "anlam": "Onlar: &quot;Rabbimiz! Bize eşlerimizden ve çocuklarımızdan gözümüzün aydınlığı olacak insanlar ihsan et ve bizi, Allah'a karşı gelmekten sakınanlara önder yap&quot; derler.",
+  "anlam": "Onlar: “Rabbimiz! Bize eşlerimizden ve çocuklarımızdan gözümüzün aydınlığı olacak insanlar ihsan et ve bizi, Allah'a karşı gelmekten sakınanlara önder yap” derler.",
   "kaynak": "Furkân, 25/74",
   "aciklama": "Rahmân'ın kulları duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1552,7 +1552,7 @@
   "baslik": "Hikmet ve Salihlerle Beraberlik",
   "arapca": "رَبِّ هَبْ لِى حُكْمًۭا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ وَٱجْعَل لِّى لِسَانَ صِدْقٍۢ فِى ٱلْـَٔاخِرِينَ وَٱجْعَلْنِى مِن وَرَثَةِ جَنَّةِ ٱلنَّعِيمِ",
   "okunus": "Rabbi heb lî hukmen ve-elhıknî bil-sâlihîne ve-ic'al lî lisâne sıdkın fî l-âhırîne ve-ic'alnî min veraseti cenneti n-ne'îm",
-  "anlam": "İbrahim: &quot;Eski atalarınızın ve sizin nelere taptıklarınızı görüyor musunuz? Doğrusu onlar benim düşmanımdır. Dostum ancak Alemlerin Rabbidir. Beni yaratan da, doğru yola eriştiren de O'dur. Beni yediren de, içiren de O'dur. Hasta olduğumda bana O şifa verir. Beni öldürecek, sonra da diriltecek O'dur. Ahiret gününde yanılmalarımı bana bağışlamasını umduğum O'dur. Rabbim! Bana hikmet ver ve beni iyiler arasına kat. Sonrakilerin beni güzel şekilde anmalarını sağla. Beni nimet cennetine varis olanlardan kıl. Babamı da bağışla, o şüphesiz sapıklardandır. İnsanların diriltileceği gün, Allah'a temiz bir kalble gelenden başka kimseye malın ve oğulların fayda vermeyeceği gün, beni rezil etme&quot; demişti. Sonrakilerin beni güzel şekilde anmalarını sağla. Beni nimet cennetine varis olanlardan kıl. Babamı da bağışla, o şüphesiz sapıklardandır. İnsanların diriltileceği gün, Allah'a temiz bir kalble gelenden başka kimseye malın ve oğulların fayda vermeyeceği gün, beni rezil etme&quot; demişti.",
+  "anlam": "İbrahim: “Eski atalarınızın ve sizin nelere taptıklarınızı görüyor musunuz? Doğrusu onlar benim düşmanımdır. Dostum ancak Alemlerin Rabbidir. Beni yaratan da, doğru yola eriştiren de O'dur. Beni yediren de, içiren de O'dur. Hasta olduğumda bana O şifa verir. Beni öldürecek, sonra da diriltecek O'dur. Ahiret gününde yanılmalarımı bana bağışlamasını umduğum O'dur. Rabbim! Bana hikmet ver ve beni iyiler arasına kat. Sonrakilerin beni güzel şekilde anmalarını sağla. Beni nimet cennetine varis olanlardan kıl. Babamı da bağışla, o şüphesiz sapıklardandır. İnsanların diriltileceği gün, Allah'a temiz bir kalble gelenden başka kimseye malın ve oğulların fayda vermeyeceği gün, beni rezil etme” demişti. Sonrakilerin beni güzel şekilde anmalarını sağla. Beni nimet cennetine varis olanlardan kıl. Babamı da bağışla, o şüphesiz sapıklardandır. İnsanların diriltileceği gün, Allah'a temiz bir kalble gelenden başka kimseye malın ve oğulların fayda vermeyeceği gün, beni rezil etme\" demişti.",
   "kaynak": "Şuarâ, 26/83-85",
   "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1590,7 +1590,7 @@
   "baslik": "Şükre Muvaffak Kıl",
   "arapca": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّـٰلِحِينَ",
   "okunus": "Rabbi evzi'nî en eşkura ni'meteke elletî en'amte 'aleyye ve'alâ vâlideyye ve-en e'mele sâlihan terdâhu ve-edhılnî birahmetike fî 'ıbâdike s-sâlihîn",
-  "anlam": "Süleyman, onun sözüne hafifçe güldü ve: &quot;Rabbim! Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl. Rahmetinle, beni iyi kullarının arasına koy&quot; dedi.",
+  "anlam": "Süleyman, onun sözüne hafifçe güldü ve: “Rabbim! Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl. Rahmetinle, beni iyi kullarının arasına koy” dedi.",
   "kaynak": "Neml, 27/19",
   "aciklama": "Hz. Süleyman duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1628,7 +1628,7 @@
   "baslik": "Nefsime Zulmettim",
   "arapca": "رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
   "okunus": "Rabbi innî zalemtu nefsî fe-iğfir lî feğafera lehu innehu huve l-ğafûru r-rahîm",
-  "anlam": "Musa: &quot;Rabbim! Doğrusu kendime yazık ettim, beni bağışla&quot; dedi. Allah da onu bağışladı. O, şüphesiz bağışlayandır, merhamet edendir.",
+  "anlam": "Musa: “Rabbim! Doğrusu kendime yazık ettim, beni bağışla” dedi. Allah da onu bağışladı. O, şüphesiz bağışlayandır, merhamet edendir.",
   "kaynak": "Kasas, 28/16",
   "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1656,7 +1656,7 @@
   "baslik": "Zalimlerden Kurtar",
   "arapca": "رَبِّ نَجِّنِى مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
   "okunus": "Rabbi neccinî mine l-kavmi z-zâlimîn",
-  "anlam": "Musa, korku içinde çevresini gözetleyerek oradan çıktı. &quot;Rabbim! Beni zalim milletten kurtar&quot; dedi.",
+  "anlam": "Musa, korku içinde çevresini gözetleyerek oradan çıktı. “Rabbim! Beni zalim milletten kurtar” dedi.",
   "kaynak": "Kasas, 28/21",
   "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1679,7 +1679,7 @@
   "baslik": "İndireceğin Her Hayra Muhtacım",
   "arapca": "رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍۢ فَقِيرٌۭ",
   "okunus": "Rabbi innî limâ enzelte ileyye min hayrın fekîr",
-  "anlam": "Musa onların davarlarını suladı. Sonra gölgeye çekildi: &quot;Rabbim! Doğrusu bana indireceğin hayra muhtacım&quot; dedi.",
+  "anlam": "Musa onların davarlarını suladı. Sonra gölgeye çekildi: “Rabbim! Doğrusu bana indireceğin hayra muhtacım” dedi.",
   "kaynak": "Kasas, 28/24",
   "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1702,7 +1702,7 @@
   "baslik": "Bozgunculara Karşı Yardım",
   "arapca": "رَبِّ ٱنصُرْنِى عَلَى ٱلْقَوْمِ ٱلْمُفْسِدِينَ",
   "okunus": "Rabbi unsurnî 'alâ l-kavmi l-mufsidîn",
-  "anlam": "Lut: &quot;Rabbim! Bozgunculara karşı bana yardım et&quot; dedi.",
+  "anlam": "Lut: “Rabbim! Bozgunculara karşı bana yardım et” dedi.",
   "kaynak": "Ankebût, 29/30",
   "aciklama": "Hz. Lût duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1725,7 +1725,7 @@
   "baslik": "Salih Bir Evlat Bağışla",
   "arapca": "رَبِّ هَبْ لِى مِنَ ٱلصَّـٰلِحِينَ",
   "okunus": "Rabbi heb lî mine s-sâlihîn",
-  "anlam": "&quot;Rabbim! Bana iyilerden olacak bir çocuk ver&quot; diye yalvardı.",
+  "anlam": "“Rabbim! Bana iyilerden olacak bir çocuk ver” diye yalvardı.",
   "kaynak": "Sâffât, 37/100",
   "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1748,7 +1748,7 @@
   "baslik": "Meleklerin Müminler İçin Duası",
   "arapca": "رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍۢ رَّحْمَةًۭ وَعِلْمًۭا فَٱغْفِرْ لِلَّذِينَ تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ عَذَابَ ٱلْجَحِيمِ رَبَّنَا وَأَدْخِلْهُمْ جَنَّـٰتِ عَدْنٍ ٱلَّتِى وَعَدتَّهُمْ وَمَن صَلَحَ مِنْ ءَابَآئِهِمْ وَأَزْوَٰجِهِمْ وَذُرِّيَّـٰتِهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
   "okunus": "Rabbenâ vesi'te kulle şeyin rahmeten ve'ılmen fe-iğfir lillezîne tâbû ve-ittebe'û sebîleke vekıhim 'azâbe l-cehîmi rabbenâ ve-edhılhum cennâti 'adnin elletî ve'adttehum vemen saleha min âbâihim ve-ezvâcihim vezurrıyyâtihim inneke ente l-'azîzu l-hakîm",
-  "anlam": "Arşı yüklenen ve çevresinde bulunanlar, Rablerini överek tesbih ederler; O'na inanırlar. Müminler için: &quot;Rabbimiz! İlmin ve rahmetin herşeyi içine almıştır. Tevbe edip Senin yoluna uyanları bağışla; onları cehennemin azabından koru&quot; diye bağışlanma dilerler. &quot;Rabbimiz! Müminleri ve babalarından, eşlerinden, soylarından iyi olanları, kendilerine söz verdiğin Adn cennetlerine koy; şüphesiz güçlü olan, Hakim olan ancak Sensin&quot;",
+  "anlam": "Arşı yüklenen ve çevresinde bulunanlar, Rablerini överek tesbih ederler; O'na inanırlar. Müminler için: “Rabbimiz! İlmin ve rahmetin herşeyi içine almıştır. Tevbe edip Senin yoluna uyanları bağışla; onları cehennemin azabından koru” diye bağışlanma dilerler. “Rabbimiz! Müminleri ve babalarından, eşlerinden, soylarından iyi olanları, kendilerine söz verdiğin Adn cennetlerine koy; şüphesiz güçlü olan, Hakim olan ancak Sensin”",
   "kaynak": "Mü'min, 40/7-8",
   "aciklama": "Arşı taşıyan melekler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1801,7 +1801,7 @@
   "baslik": "Azabı Bizden Kaldır",
   "arapca": "رَّبَّنَا ٱكْشِفْ عَنَّا ٱلْعَذَابَ إِنَّا مُؤْمِنُونَ",
   "okunus": "Rabbenâ ikşif 'annâ l-'azâbe innâ muminûn",
-  "anlam": "İnsanlar: &quot;Rabbimiz! Bu azabı bizden kaldır; doğrusu artık biz inananlarız&quot; derler.",
+  "anlam": "İnsanlar: “Rabbimiz! Bu azabı bizden kaldır; doğrusu artık biz inananlarız” derler.",
   "kaynak": "Duhân, 44/12",
   "aciklama": "Müminlerin duası duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1824,7 +1824,7 @@
   "baslik": "Kırk Yaş Duası",
   "arapca": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًۭا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ",
   "okunus": "Rabbi evzi'nî en eşkura ni'meteke elletî en'amte 'aleyye ve'alâ vâlideyye ve-en e'mele sâlihan terdâhu ve-eslih lî fî zurrıyyetî innî tubtu ileyke ve-innî mine l-muslimîn",
-  "anlam": "Biz insana, anne ve babasına karşı iyi davranmasını tavsiye etmişizdir; zira annesi, onu, karnında, zorluğa uğrayarak taşımış; onu güçlükle doğurmuştur. Taşınması ve sütten kesilmesi otuz ay sürer. Sonunda erginlik çağına erince ve kırk yaşına varınca: &quot;Rabbim! Bana ve anne babama verdiğin nimete şükretmemi ve benim hoşnut olacağın yararlı bir işi yapmamı sağla; bana verdiğin gibi soyuma da salah ver; doğrusu Sana yöneldim, ben, kendini Sana verenlerdenim&quot; demesi gerekir.",
+  "anlam": "Biz insana, anne ve babasına karşı iyi davranmasını tavsiye etmişizdir; zira annesi, onu, karnında, zorluğa uğrayarak taşımış; onu güçlükle doğurmuştur. Taşınması ve sütten kesilmesi otuz ay sürer. Sonunda erginlik çağına erince ve kırk yaşına varınca: “Rabbim! Bana ve anne babama verdiğin nimete şükretmemi ve benim hoşnut olacağın yararlı bir işi yapmamı sağla; bana verdiğin gibi soyuma da salah ver; doğrusu Sana yöneldim, ben, kendini Sana verenlerdenim” demesi gerekir.",
   "kaynak": "Ahkâf, 46/15",
   "aciklama": "Olgunluğa erişen mümin duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1867,7 +1867,7 @@
   "baslik": "Kardeşlerimizi Bağışla",
   "arapca": "رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَـٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّۭا لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ رَءُوفٌۭ رَّحِيمٌ",
   "okunus": "Rabbenâ iğfir lenâ veli-ihvâninâ ellezîne sebekûnâ bil-îmâni velâ tec'al fî kulûbinâ ğıllen lillezîne âmenû rabbenâ inneke raûfun rahîm",
-  "anlam": "Onlardan sonra gelenler: &quot;Rabbimiz! Bizi ve bizden önce inanmış olan kardeşlerimizi bağışla; kalbimizde müminlere karşı kin bırakma; Rabbimiz! Şüphesiz Sen şefkatlisin, merhametlisin&quot; derler.",
+  "anlam": "Onlardan sonra gelenler: “Rabbimiz! Bizi ve bizden önce inanmış olan kardeşlerimizi bağışla; kalbimizde müminlere karşı kin bırakma; Rabbimiz! Şüphesiz Sen şefkatlisin, merhametlisin” derler.",
   "kaynak": "Haşr, 59/10",
   "aciklama": "Sonra gelen müminler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1905,7 +1905,7 @@
   "baslik": "Sana Tevekkül Ettik",
   "arapca": "رَّبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ ٱلْمَصِيرُ رَبَّنَا لَا تَجْعَلْنَا فِتْنَةًۭ لِّلَّذِينَ كَفَرُوا۟ وَٱغْفِرْ لَنَا رَبَّنَآ ۖ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
   "okunus": "Rabbenâ 'aleyke tevekkelnâ ve-ileyke enebnâ ve-ileyke l-mesîru rabbenâ lâ tec'alnâ fitneten lillezîne keferû ve-iğfir lenâ rabbenâ inneke ente l-'azîzu l-hakîm",
-  "anlam": "İbrahim ve onunla beraber olanlarda, sizin için uyulacak güzel bir örnek vardır. Onlar milletlerine şöyle demişlerdi: &quot;Biz sizden ve Allah'tan başka taptıklarınızdan uzağız; sizin dininizi inkar ediyoruz; bizimle sizin aranızda yalnız Allah'a inanmanıza kadar ebedi düşmanlık ve öfke başgöstermiştir.&quot; -Yalnız, İbrahim'in, babasına: &quot;And olsun ki, senin için mağfiret dileyeceğim, fakat sana Allah'tan gelecek herhangi bir şeyi savmaya gücüm yetmez&quot; sözü bu örneğin dışındadır- &quot;Rabbimiz! Sana güvendik, Sana yöneldik; dönüş Sanadır.&quot; &quot;Rabbimiz! Bizi, inkar edenlerle deneme; bizi bağışla, doğrusu Sen, güçlü olan, Hakim olansın.&quot;",
+  "anlam": "İbrahim ve onunla beraber olanlarda, sizin için uyulacak güzel bir örnek vardır. Onlar milletlerine şöyle demişlerdi: “Biz sizden ve Allah'tan başka taptıklarınızdan uzağız; sizin dininizi inkar ediyoruz; bizimle sizin aranızda yalnız Allah'a inanmanıza kadar ebedi düşmanlık ve öfke başgöstermiştir.” -Yalnız, İbrahim'in, babasına: “And olsun ki, senin için mağfiret dileyeceğim, fakat sana Allah'tan gelecek herhangi bir şeyi savmaya gücüm yetmez” sözü bu örneğin dışındadır- “Rabbimiz! Sana güvendik, Sana yöneldik; dönüş Sanadır.” “Rabbimiz! Bizi, inkar edenlerle deneme; bizi bağışla, doğrusu Sen, güçlü olan, Hakim olansın.”",
   "kaynak": "Mümtehine, 60/4-5",
   "aciklama": "Hz. İbrâhîm ve beraberindekiler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1943,7 +1943,7 @@
   "baslik": "Nurumuzu Tamamla",
   "arapca": "رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا وَٱغْفِرْ لَنَآ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ",
   "okunus": "Rabbenâ etmim lenâ nûranâ ve-iğfir lenâ inneke 'alâ kulli şeyin kadîr",
-  "anlam": "Ey inananlar! Yürekten tevbe ederek Allah'a dönün ki, Rabbiniz kötülüklerinizi örtsün, sizi, içlerinden ırmaklar akan cennetlere koysun. Allah'ın Peygamberini ve onunla beraber olan müminleri utandırmayacağı o gün, ışıkları önlerinde ve defterleri sağlarından verilmiş olarak yürürler ve: &quot;Rabbimiz! Işığımızı tamamla, bizi bağışla, doğrusu Sen herşeye Kadir'sin&quot; derler.",
+  "anlam": "Ey inananlar! Yürekten tevbe ederek Allah'a dönün ki, Rabbiniz kötülüklerinizi örtsün, sizi, içlerinden ırmaklar akan cennetlere koysun. Allah'ın Peygamberini ve onunla beraber olan müminleri utandırmayacağı o gün, ışıkları önlerinde ve defterleri sağlarından verilmiş olarak yürürler ve: “Rabbimiz! Işığımızı tamamla, bizi bağışla, doğrusu Sen herşeye Kadir'sin” derler.",
   "kaynak": "Tahrîm, 66/8",
   "aciklama": "Müminlerin duası duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -1971,7 +1971,7 @@
   "baslik": "Katında Bir Ev Yap",
   "arapca": "رَبِّ ٱبْنِ لِى عِندَكَ بَيْتًۭا فِى ٱلْجَنَّةِ وَنَجِّنِى مِن فِرْعَوْنَ وَعَمَلِهِۦ وَنَجِّنِى مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
   "okunus": "Rabbi ibni lî 'ındeke beyten fî l-ceneti veneccinî min fir'avne ve'amelihi veneccinî mine l-kavmi z-zâlimîn",
-  "anlam": "Allah, inanlara Firavun'un karısını misal gösterir: O: &quot;Rabbim! Katından bana cennette bir ev yap; beni Firavun'dan ve onun işlediklerinden kurtar; beni zalim milletten kurtar&quot; demişti.",
+  "anlam": "Allah, inanlara Firavun'un karısını misal gösterir: O: “Rabbim! Katından bana cennette bir ev yap; beni Firavun'dan ve onun işlediklerinden kurtar; beni zalim milletten kurtar” demişti.",
   "kaynak": "Tahrîm, 66/11",
   "aciklama": "Firavun'un hanımı Âsiye duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -2004,7 +2004,7 @@
   "baslik": "Yenildim, Yardım Et",
   "arapca": "أَنِّى مَغْلُوبٌۭ فَٱنتَصِرْ",
   "okunus": "Ennî meğlûbun fe-intesır",
-  "anlam": "O da: &quot;Ben yenildim, bana yardım et&quot; diye Rabbine yalvarmıştı.",
+  "anlam": "O da: “Ben yenildim, bana yardım et” diye Rabbine yalvarmıştı.",
   "kaynak": "Kamer, 54/10",
   "aciklama": "Hz. Nûh duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [
@@ -2022,7 +2022,7 @@
   "baslik": "Anne-Baba ve Müminler İçin Bağışlanma",
   "arapca": "رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِمَن دَخَلَ بَيْتِىَ مُؤْمِنًۭا وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ وَلَا تَزِدِ ٱلظَّـٰلِمِينَ إِلَّا تَبَارًۢا",
   "okunus": "Rabbi iğfir lî velivâlideyye velimen dehale beytiye muminen velilmuminîne vel-muminâti velâ tezidi z-zâlimîne illâ tebâr",
-  "anlam": "&quot;Rabbim! Beni, anamı, babamı, evime inanmış olarak gireni, inanan erkek ve kadınları bağışla; zalimlerin de yalnız helakını artır.&quot;",
+  "anlam": "“Rabbim! Beni, anamı, babamı, evime inanmış olarak gireni, inanan erkek ve kadınları bağışla; zalimlerin de yalnız helakını artır.”",
   "kaynak": "Nûh, 71/28",
   "aciklama": "Hz. Nûh duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
   "parcalar": [

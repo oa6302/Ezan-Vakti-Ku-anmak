@@ -101,7 +101,7 @@ const ARAP_DISI = /\b(the|of|and|to|is|who|with|from|for)\b/i;
     const kelimeler = []; const mealler = [];
     for (const k of keys) {
       const v = await ayet(k);
-      mealler.push(v.translations[0].text.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim());
+      mealler.push(v.translations[0].text.replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim());
       let w = v.words.filter(x => x.char_type_name === 'word');
       if (bas && k === keys[0]) {
         const n = t => (t || '').toLowerCase().replace(/^(wa|fa)(?=.)/, '').replace(/^l-/, 'al').normalize('NFD').replace(/[̀-ͯ'ʿʾ-]/g, '').replace(/[aeiou]/g, '').replace(/(.)\1+/g, '$1');

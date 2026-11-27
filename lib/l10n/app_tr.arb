@@ -834,8 +834,8 @@
   "uiKissaDevaminiOku": "Kıssanın devamını oku",
   "duaHazinesiTitle": "Dua Hazinesi",
   "duaHazinesiDesc": "Kur'an, sünnet, münacat ve ezber",
-  "risaleHakikatleriTitle": "Risale-i Nur Hakikatleri",
-  "risaleHakikatleriDesc": "İman dersleri, tefekkür ve mini sınav",
+  "risaleHakikatleriTitle": "Risale-i Nur / Hakikat",
+  "risaleHakikatleriDesc": "İman hakikatleri, külliyat, tefekkür ve öğrenme",
   "ypBaslik": "Yönetim Paneli",
   "ypBugun": "BUGÜN",
   "ypSeciliTarih": "SEÇİLEN TARİH",
@@ -912,5 +912,205 @@
   "ypProgRisale": "Risale-i Nur / Hakikat",
   "ypGosterilen": "Kullanıcıya gösterilen",
   "ypIcerikYok": "İçerik yok",
-  "ypKaydet": "Kaydet"
+  "ypKaydet": "Kaydet",
+  "hkBaslik": "Risale-i Nur / Hakikat",
+  "hkAltBaslik": "İman hakikatlerini öğren, tefekkür et, hayatına taşı",
+  "hkGununHakikati": "Günün Hakikati",
+  "hkDetayliIncele": "Detaylı incele",
+  "hkPaylas": "Paylaş",
+  "hkArsiv": "Önceki günler",
+  "hkArsivBaslik": "Günün Hakikati Arşivi",
+  "hkBugun": "Bugün",
+  "hkKonular": "Hakikat Konuları",
+  "hkKulliyat": "Risale-i Nur Külliyatı",
+  "hkKulliyatAlt": "Eserler, risaleler ve doğrulanmış metinler",
+  "hkAra": "Ara",
+  "hkAraIpucu": "Başlık, içerik, kavram, konu veya eser ara",
+  "hkSonucYok": "Sonuç bulunamadı",
+  "hkHakikatler": "Hakikatler",
+  "hkRisaleMetinleri": "Risale-i Nur metinleri",
+  "hkTumu": "Tümü",
+  "hkIlerleme": "{tamam}/{toplam} hakikat tamamlandı",
+  "@hkIlerleme": {
+    "placeholders": {
+      "tamam": {
+        "type": "int"
+      },
+      "toplam": {
+        "type": "int"
+      }
+    }
+  },
+  "hkDevamEt": "Kaldığın yerden",
+  "hkFavoriler": "Favoriler",
+  "hkSonraOku": "Sonra oku",
+  "hkTamamlananlar": "Tamamlananlar",
+  "hkSikOkunan": "Bu cihazda sık okuduklarınız",
+  "hkBos": "Henüz bir şey yok",
+  "hkHakikatSayisi": "{n} hakikat",
+  "@hkHakikatSayisi": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "hkKonuBos": "Bu konuda henüz hakikat dersi yok. Aşağıda bu konuyla ilgili doğrulanmış Risale-i Nur metinleri var.",
+  "hkIlgiliMetinler": "İlgili Risale-i Nur metinleri",
+  "hkIcerikYok": "Gösterilecek içerik bulunamadı",
+  "hkKonuIman": "İman Hakikatleri",
+  "hkKonuTevhid": "Allah'ın Varlığı ve Birliği",
+  "hkKonuEsma": "Esmâü'l-Hüsnâ",
+  "hkKonuKuran": "Kur'an-ı Kerîm ve Kur'an Hakikatleri",
+  "hkKonuNubuvvet": "Peygamberlik ve Hz. Muhammed (s.a.v.)",
+  "hkKonuAhiret": "Ahiret ve Haşir",
+  "hkKonuKader": "Kader ve İrade",
+  "hkKonuRuh": "Ruh, Kalp ve Nefis",
+  "hkKonuInsan": "İnsan ve Kâinat",
+  "hkKonuIbadet": "Namaz ve İbadet",
+  "hkKonuSukur": "Şükür, Sabır ve Tevekkül",
+  "hkKonuIhlas": "İhlas ve Uhuvvet",
+  "hkKonuGenclik": "Gençlik ve Ahlak",
+  "hkKonuMusibet": "Hastalık, Musibet ve Hikmet",
+  "hkKonuTabiat": "Tabiat ve Yaratılış",
+  "hkTefekkurKapisi": "Tefekkür Kapısı",
+  "hkAciklama": "Hakikatin Açıklaması",
+  "hkPerspektif": "Risale-i Nur Perspektifi",
+  "hkPerspektifNot": "Tırnak içindeki ifadeler eserden aynen alınmıştır; diğer cümleler açıklamadır.",
+  "hkKainattan": "Kâinattan Deliller",
+  "hkGunlukHayat": "Günlük Hayatla Bağlantı",
+  "hkHikmet": "Hikmet Penceresi",
+  "hkSorgula": "Kendini Sorgula",
+  "hkUygula": "Hayata Uygula: Günlük Tefekkür Görevi",
+  "hkGorevYaptim": "Bugün bunu düşündüm",
+  "hkDua": "İlgili Dua",
+  "hkOgrenilen": "Öğrenilen Hakikat",
+  "hkSorular": "Bilgi ve Tefekkür Soruları",
+  "hkKavramlar": "Kavramlar",
+  "hkKaynaklar": "Kaynaklar",
+  "hkIlgiliEserler": "İlgili eserler",
+  "hkMiniTest": "Mini Test",
+  "hkDogru": "Doğru",
+  "hkYanlis": "Yanlış",
+  "hkDogruCevap": "Doğru cevap: {cevap}",
+  "@hkDogruCevap": {
+    "placeholders": {
+      "cevap": {
+        "type": "String"
+      }
+    }
+  },
+  "hkGerekce": "Dersin özü",
+  "hkTestSonuc": "{dogru}/{toplam} doğru",
+  "@hkTestSonuc": {
+    "placeholders": {
+      "dogru": {
+        "type": "int"
+      },
+      "toplam": {
+        "type": "int"
+      }
+    }
+  },
+  "hkBoslukDoldur": "Boşluk Doldurma",
+  "hkBoslukYonerge": "Cümledeki boşluğa gelecek kavramı seç",
+  "hkEslestir": "Kavram Eşleştirme",
+  "hkEslestirYonerge": "Her hakikati özüyle eşleştir",
+  "hkSec": "Seç",
+  "hkKontrolEt": "Kontrol et",
+  "hkYenidenDene": "Yeniden dene",
+  "hkTebrik": "Hepsi doğru!",
+  "hkTamamla": "Tamamlandı olarak işaretle",
+  "hkTamamlandi": "Tamamlandı",
+  "hkFavoriEkle": "Favorilere ekle",
+  "hkFavoriCikar": "Favorilerden çıkar",
+  "hkSonraOkuEkle": "Sonra oku listesine ekle",
+  "hkSonraOkuCikar": "Sonra oku listesinden çıkar",
+  "hkYaziBoyutu": "Yazı boyutu",
+  "hkEnIyiPuan": "En iyi sonuç: %{p}",
+  "@hkEnIyiPuan": {
+    "placeholders": {
+      "p": {
+        "type": "int"
+      }
+    }
+  },
+  "hkOkundu": "%{p} okundu",
+  "@hkOkundu": {
+    "placeholders": {
+      "p": {
+        "type": "int"
+      }
+    }
+  },
+  "hkTanitim": "Tanıtım",
+  "hkAnaKonu": "Ana konu",
+  "hkMeseleler": "Ele aldığı meseleler",
+  "hkKonum": "Külliyattaki yeri",
+  "hkBolumler": "Bölümler",
+  "hkMetinSayisi": "{n} doğrulanmış metin",
+  "@hkMetinSayisi": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "hkEserler": "Eserler",
+  "hkRisaleler": "Risaleler",
+  "hkKaynakNotu": "Metinler risale.online'daki Osmanlıca–Latince karşılıklı metinden aynen alınmıştır; sayfa numarası verilmez.",
+  "hkOsmanlica": "Osmanlıca",
+  "hkMetin": "Risale-i Nur metni",
+  "hkYonetim": "Hakikat Yönetimi",
+  "hkYonetimAlt": "Hakikat ekle, düzenle, yayınla; Günün Hakikati'ni planla",
+  "hkYeni": "Yeni hakikat",
+  "hkDuzenle": "Düzenle",
+  "hkOnizle": "Önizle",
+  "hkYayinla": "Yayınla",
+  "hkTaslakYap": "Taslağa al",
+  "hkArsivle": "Arşivle",
+  "hkSil": "Sil",
+  "hkSilOnay": "Bu kayıt silinsin mi? Uygulamayla gelen kayıtlar yalnızca gizlenir.",
+  "hkVazgec": "Vazgeç",
+  "hkGeriAl": "Düzenlemeyi geri al",
+  "hkDurumTaslak": "Taslak",
+  "hkDurumYayinda": "Yayında",
+  "hkDurumArsiv": "Arşiv",
+  "hkDuzenlendi": "Düzenlendi",
+  "hkPlanSec": "Bu günün hakikatini seç",
+  "hkPlanOtomatik": "Otomatik seçim",
+  "hkPlanKaldir": "Planı kaldır",
+  "hkPlanli": "Planlandı",
+  "hkKaydet": "Kaydet",
+  "hkKaydedildi": "Kaydedildi",
+  "hkZorunlu": "Bu alan zorunlu",
+  "hkKarakter": "Gövde: {n} karakter (hedef 2.800–3.200)",
+  "@hkKarakter": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "hkAlanBaslik": "Başlık",
+  "hkAlanKavram": "Kavramlar (virgülle ayır)",
+  "hkAlanKaynak": "Kaynaklar: her satıra bir (ayet, hadis, eser)",
+  "hkAlanDuaArapca": "Dua (Arapça)",
+  "hkAlanDuaOkunus": "Okunuş",
+  "hkAlanDuaAnlam": "Anlam",
+  "hkAlanDuaKaynak": "Dua kaynağı",
+  "hkAlanSoru": "Soru {n}",
+  "@hkAlanSoru": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "hkAlanSecenek": "Seçenekler: her satıra bir",
+  "hkAlanDogruNo": "Doğru seçenek (1, 2, 3...)",
+  "hkAlanDY": "Doğru/Yanlış ifadesi",
+  "hkAlanDYDogru": "Bu ifade doğru",
+  "hkAlanKategori": "Ana kategori",
+  "hkKaynakUyari": "Ayet, hadis ve Risale-i Nur alıntılarını eserden doğrulamadan yayınlamayın."
 }
