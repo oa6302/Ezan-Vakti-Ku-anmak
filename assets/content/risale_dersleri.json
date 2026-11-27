@@ -3565,5 +3565,545 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_055",
+  "kategori": "nefis",
+  "baslik": "Güzel Düşünen Hayatından Lezzet Alır",
+  "giris": "Aynı olayı yaşayan iki insandan biri şikâyet eder, diğeri şükreder. Aynı yağmura biri ‘Her yer çamur oldu’ der, diğeri ‘Toprak canlandı’ der. Bediüzzaman, Şam'daki Emeviye Camii'nde verdiği hutbenin zeylinde, insanın hayatından aldığı lezzetin düşüncesinin güzelliğine bağlı olduğunu anlatır.",
+  "aciklama": "Kur'an-ı Kerîm, zandan kaçınmayı emreder: “Ey iman edenler! Zannın birçoğundan sakının. Çünkü zannın bir kısmı günahtır.” Başka bir ayette de iftira karşısında müminlerin nasıl düşünmesi gerektiği öğretilir: “Bunu işittiğiniz zaman, mümin erkekler ve mümin kadınlar kendi vicdanlarıyla iyi zanda bulunup da ‘Bu apaçık bir iftiradır’ demeleri gerekmez miydi?” Peygamber Efendimiz şöyle buyurmuştur: “Güzel zan, güzel ibadettendir.” Bir kudsî hadiste de Allah'ın şöyle buyurduğu bildirilir: “Ben kulumun beni zannettiği gibiyim.” Güzel düşünmek, hem insanlara hem de Rabbe karşı bir edeptir.",
+  "risalePerspektifi": "Bediüzzaman, Hutbe-i Şâmiye'nin zeylinde şöyle der: “Güzel düşünen, hayatından lezzet alır.” Eserdeki anlatımın özetine göre güzel gören güzel düşünür; güzel düşünen ise hayatından zevk alır. Her şeyi kötü yönüyle gören insan, kendi dünyasını karanlığa çevirir. Münâzarât'ta da benzer bir ölçü verilir: “Güzel rüya gören hayatından lezzet alır.” Bediüzzaman, insanın bu güzelliğe olan ihtiyacının fıtri olduğunu da belirtir. Hutbe-i Şâmiye'nin zeylinde şöyle der: “İnsanın gıdaya ihtiyacı gibi, zevke de bir ihtiyacı vardır.” Bu zevk ihtiyacı, haram yollarla değil, iman nuruyla bakarak ve güzel düşünerek karşılanır. İman, insana her şeyin güzel yönünü gösteren bir göz verir.",
+  "kainattanDelil": "Bir arı ve bir sinek aynı bahçeye girer. Arı çiçekleri bulur ve bal yapar; sinek ise çöpleri arar. Aynı bahçe, bakan gözün tercihine göre bir bal kaynağı ya da bir pislik yuvası olur. Güneş batarken biri karanlığın geldiğine üzülür, diğeri gökyüzünün renklerine hayran kalır. Kâinat, ona nasıl bakıldığına göre farklı bir yüz gösterir.",
+  "hikmet": "Güzel düşünen, hayatından lezzet alır; çünkü dünyaya bakışı, gördüğünü belirler. İnsanın gıdaya olduğu gibi zevke de ihtiyacı vardır; bu ihtiyaç iman nuruyla ve güzel düşünceyle karşılanır. Hüsn-ü zan, hem insanlara hem de Rabbe karşı bir edeptir. Güzel bakan göz, en sıradan şeyde bile bir nimet bulur.",
+  "kendimize": "Olaylara ve insanlara önce iyi yönüyle mi, yoksa kötü yönüyle mi bakıyorum? Bir arkadaşımın davranışını kötüye yormadan önce ona bir mazeret bulmaya çalışıyor muyum? Rabbime karşı güzel zan besliyor muyum?",
+  "hayat": "Bir olayla karşılaştığımızda içimizden önce ‘Bunun güzel tarafı ne?’ diye sormak bu dersin uygulamasıdır. Bir kardeşimiz hakkında olumsuz bir düşünce aklımıza geldiğinde ona yetmiş mazeret aramak ve günün sonunda yaşadığımız üç güzel şeyi hatırlamak da güzel düşünmeyi alışkanlık hâline getirir.",
+  "ders": "Güzel düşünen hayatından lezzet alır; insanın gıdaya ihtiyacı gibi zevke de bir ihtiyacı vardır.",
+  "tefekkurSorusu": "Bugün hangi olaya güzel yönünden bakmayı başardım?",
+  "dua": {
+   "arapca": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَٰجِنَا وَذُرِّيَّـٰتِنَا قُرَّةَ أَعْيُنٍۢ وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+   "okunus": "Rabbenâ heb lenâ min ezvâcinâ vezurrıyyâtinâ kurrate e'yunin ve-ic'alnâ lilmuttekîne imâmen",
+   "anlam": "Onlar: “Rabbimiz! Bize eşlerimizden ve çocuklarımızdan gözümüzün aydınlığı olacak insanlar ihsan et ve bizi, Allah'a karşı gelmekten sakınanlara önder yap” derler.",
+   "kaynak": "Furkân, 25/74"
+  },
+  "konular": [
+   "genclikAhlak",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Hüsn-ü zan",
+   "Lezzet",
+   "Zevk",
+   "Nazar",
+   "İman nuru"
+  ],
+  "kaynaklar": [
+   "Hucurât, 49/12",
+   "Nûr, 24/12",
+   "Ebû Dâvûd, Edeb, 81 (4993)",
+   "Buhârî, Tevhîd, 15 (7405)",
+   "Bediüzzaman Said Nursî, Mektûbât, Hutbe-i Şâmiye, İkinci Zeyl",
+   "Bediüzzaman Said Nursî, Mektûbât, Münâzarât"
+  ],
+  "sinav": [
+   {
+    "soru": "Hutbe-i Şâmiye'ye göre hayatından kim lezzet alır?",
+    "secenekler": [
+     "Güzel düşünen",
+     "Çok kazanan",
+     "Hiç düşünmeyen",
+     "Herkesi eleştiren"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Hutbe-i Şâmiye'ye göre insanın gıdaya ihtiyacı gibi neye de ihtiyacı vardır?",
+    "secenekler": [
+     "Şöhrete",
+     "Zevke",
+     "Kavgaya",
+     "Gaflete"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Hucurât Sûresi'ne göre zannın bir kısmı günahtır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_056",
+  "kategori": "ahiret",
+  "baslik": "Ecel Neden Gizlidir?",
+  "giris": "Ne zaman öleceğimizi bilseydik daha mı iyi yaşardık? Bazıları evet der: Hazırlanırdık, işlerimizi düzene sokardık. Bediüzzaman ise ecelin gizli olmasının büyük bir rahmet olduğunu söyler: Sonu belli olmayan yirmi senelik bir ömür, sonu belli bin senelik bir ömürden daha iyidir.",
+  "aciklama": "Kur'an-ı Kerîm, ecelin ilminin Allah katında olduğunu bildirir: “Hiç kimse yarın ne kazanacağını bilemez. Hiç kimse nerede öleceğini de bilemez.” Başka bir ayette de ecelin değişmediği haber verilir: “Ecelleri geldiğinde onu bir an ne geciktirebilirler ne de öne alabilirler.” Peygamber Efendimiz, ölümü çok hatırlamayı tavsiye etmiş ve şöyle buyurmuştur: “Akşama erdiğinde sabahı bekleme, sabaha erdiğinde akşamı bekleme. Sağlığından hastalığın için, hayatından ölümün için hazırlık yap.” Ecelin gizliliği, insanı her an hazırlıklı olmaya çağırır.",
+  "risalePerspektifi": "Bediüzzaman, Hutbe-i Şâmiye'nin zeylinde şöyle der: “Yirmi sene mübhem bir ömür, nihâyeti muayyen bin sene ömre müreccahtır.” Eserdeki anlatımın özetine göre ölüm vakti belli olsaydı, insan ömrünün yarısını gaflet içinde geçirir, son günlere yaklaştıkça da korkuyla yaşardı. Ecelin gizli olması ise insanı hem dünyası için çalışmaya hem de ahireti için her an hazır olmaya sevk eder. Bu yüzden belirsiz bir ömür, sonu belli bir ömürden daha hayırlıdır. Hastalar Risâlesi'nde ise ölümün korkutucu yüzünün arkasındaki hakikat anlatılır: “Ölüm, sûreten göründüğü gibi dehşetli değildir.” Aynı risalenin On Birinci Deva'sında da ölümün mahiyeti şöyle tarif edilir: “Ölüm, vazîfe-i hayat külfetinden bir terhîstir.” İman eden için ölüm, hayatın yükünden kurtulup asıl vatana dönüştür.",
+  "kainattanDelil": "Bir ağacın yaprakları hangi gün düşeceğini bilmez; bazıları yazın, bazıları sonbaharda düşer. Ama ağaç her yaprağı vazifesini yapacak şekilde yaratmıştır. Bir öğrenci sınavın hangi gün olacağını bilmezse her gün çalışır; bilirse son güne kadar erteler. Gizlilik, her anı değerli kılar.",
+  "hikmet": "Ecelin gizliliği bir rahmettir; insanı her an hem dünyası hem ahireti için hazır olmaya çağırır. Sonu belirsiz bir ömür, sonu belli bir ömürden daha hayırlıdır. İman eden için ölüm, korkutucu göründüğü gibi değil, bir terhistir. Her gün son gün olabilir; bu yüzden her gün bir fırsattır.",
+  "kendimize": "Ölümü uzak bir ihtimal gibi görüp yapacaklarımı erteliyor muyum? Bugün ölsem, yarım kalan hangi işim, hangi helalleşmem, hangi tövbem olurdu? Ölümü korkuyla mı, yoksa bir terhis ve kavuşma olarak mı düşünüyorum?",
+  "hayat": "Her akşam yatmadan önce o günün muhasebesini yapmak ve kimseyle kırgın uyumamak bu dersin uygulamasıdır. Ertelediğimiz bir iyiliği, bir ziyareti ya da bir helalleşmeyi bugün yapmak da ecelin gizliliğinin bize öğrettiği bir hazırlıktır.",
+  "ders": "Yirmi sene mübhem bir ömür, nihayeti muayyen bin sene ömre müreccahtır; ölüm, vazife-i hayat külfetinden bir terhistir.",
+  "tefekkurSorusu": "Ecelimin bugün olabileceğini düşündüğümde neyi ertelemekten vazgeçerim?",
+  "dua": {
+   "arapca": "رَبَّنَا ظَلَمْنَآ أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ ٱلْخَـٰسِرِينَ",
+   "okunus": "Rabbenâ zalemnâ enfusenâ ve-in lem teğfir lenâ veterhamnâ lenekûnenne mine l-hâsirîn",
+   "anlam": "Her ikisi, “Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz” dediler.",
+   "kaynak": "A'râf, 7/23"
+  },
+  "konular": [
+   "ahiret",
+   "kader"
+  ],
+  "kavramlar": [
+   "Ecel",
+   "Mübhem",
+   "Terhis",
+   "Gaflet",
+   "Hazırlık"
+  ],
+  "kaynaklar": [
+   "Lokmân, 31/34",
+   "A'râf, 7/34",
+   "Buhârî, Rikâk, 3 (6416)",
+   "Bediüzzaman Said Nursî, Mektûbât, Hutbe-i Şâmiye, İkinci Zeyl",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirmi Beşinci Lem'a, Dokuzuncu Deva",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirmi Beşinci Lem'a, On Birinci Deva"
+  ],
+  "sinav": [
+   {
+    "soru": "Hutbe-i Şâmiye'ye göre hangisi daha hayırlıdır?",
+    "secenekler": [
+     "Nihayeti muayyen bin sene ömür",
+     "Yirmi sene mübhem bir ömür",
+     "İkisi aynıdır",
+     "Hiçbiri"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Hastalar Risâlesi'ne göre ölüm nedir?",
+    "secenekler": [
+     "Vazife-i hayat külfetinden bir terhis",
+     "Ebedi bir yokluk",
+     "Bir ceza",
+     "Bir tesadüf"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Lokmân Sûresi'ne göre hiç kimse nerede öleceğini bilemez.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_057",
+  "kategori": "ibadet",
+  "baslik": "Allah'a Asker Olmanın Şerefi",
+  "giris": "Bir askerin değeri, bağlı olduğu komutanın büyüklüğüyle ölçülür. Büyük bir hükümdarın ordusunda nefer olmak bile şereftir. Bediüzzaman, kâinatın Sultanına abd ve asker olmanın tarif edilemeyecek kadar lezzetli bir şeref olduğunu söyler. Peki bu kulluk bir ücret karşılığı mıdır?",
+  "aciklama": "Kur'an-ı Kerîm, Allah'ın kullarına olan nimetlerini hatırlatır ve şükrü emreder: “Eğer Allah'ın nimetlerini saymaya kalksanız, onu sayamazsınız.” Başka bir ayette de kulluğun bir şeref olduğu, Peygamber Efendimizin miracı anlatılırken ‘kul’ sıfatıyla anılmasından anlaşılır: “Kulunu bir gece Mescid-i Haram'dan Mescid-i Aksâ'ya götüren Allah'ın şanı yücedir.” Peygamber Efendimiz, geceleri ayakları şişinceye kadar namaz kılar ve kendisine bunun sebebi sorulduğunda şöyle cevap verirdi: “Şükreden bir kul olmayayım mı?” Kulluk, bir alışveriş değil, bir şükür ve bir şereftir.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Altıncı Söz'ünde şöyle der: “Allâh’a abd ve asker olmak, öyle lezzetli bir şereftir ki, ta‘rîf edilmez.” Eserdeki anlatımın özetine göre insan, nefsini ve malını Allah'a emanet olarak satarsa hem kıymeti artar hem de onları kaybetme korkusundan kurtulur. Bu kulluğun mahiyeti ise Yirmi Dördüncü Söz'de şöyle açıklanır: “Ubûdiyet, mukaddeme-i mükâfât-ı lâhika değil, belki netice-i ni‘met-i sâbıkadır.” Yani ibadet, gelecek bir ücretin peşinatı değil, verilmiş nimetlerin şükrüdür. Aynı yerde cennetin bir ücret değil, ilahi bir ihsan olduğu belirtilir: “Cenâb-ı Hakk, cenneti ve saâdet-i ebediyeyi mahz-ı fazl ve keremiyle ihsân eder.” Mesnevî-i Nûriye'nin Şemme Risâlesi'nde de kulun haddi hatırlatılır: “Hiç bir insanın Cenâb-ı Hakk’a karşı hakk-ı i‘tirâzı yoktur.”",
+  "kainattanDelil": "Güneş her gün doğar ve batar, ama bunun için bir ücret istemez; vazifesini yapar. Ağaçlar meyve verir, nehirler akar, arılar bal yapar; her biri kendine verilen vazifeyi Sahibinin adına yapar. Kâinattaki her varlık, kendi diliyle Rabbine kulluk eder. İnsan da kulluk ettiğinde bu büyük ordunun şerefli bir neferi olur.",
+  "hikmet": "Allah'a abd ve asker olmak, tarif edilemeyecek kadar lezzetli bir şereftir. İbadet, gelecek bir ücretin peşinatı değil, geçmiş nimetlerin şükrüdür. Cennet, amellerin karşılığı değil, Allah'ın fazlı ve keremidir. Kul olmayı bilen, hiçbir şeye esir olmaz.",
+  "kendimize": "İbadetlerimi bir ücret beklentisiyle mi, yoksa bir şükür ve şeref duygusuyla mı yapıyorum? Allah'a kul olmanın şerefini hissediyor muyum? Bana verilen nimetleri bir hak olarak mı görüyorum, yoksa bir ihsan olarak mı?",
+  "hayat": "Her namaza ‘Rabbimin askeri olarak huzuruna çıkıyorum’ şuuruyla durmak bu dersin uygulamasıdır. Bir nimeti fark ettiğimizde hemen ‘Elhamdülillah’ demek ve kulluğumuzu bir yük değil, bir şeref olarak görmek de ibadeti lezzetli kılar.",
+  "ders": "Allah'a abd ve asker olmak tarif edilmez bir şereftir; ubudiyet, geçmiş nimetlerin neticesidir.",
+  "tefekkurSorusu": "Bugün Allah'a kul olmanın şerefini hangi anda hissettim?",
+  "dua": {
+   "arapca": "رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍۢ رَّحْمَةًۭ وَعِلْمًۭا فَٱغْفِرْ لِلَّذِينَ تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ عَذَابَ ٱلْجَحِيمِ رَبَّنَا وَأَدْخِلْهُمْ جَنَّـٰتِ عَدْنٍ ٱلَّتِى وَعَدتَّهُمْ وَمَن صَلَحَ مِنْ ءَابَآئِهِمْ وَأَزْوَٰجِهِمْ وَذُرِّيَّـٰتِهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+   "okunus": "Rabbenâ vesi'te kulle şeyin rahmeten ve'ılmen fe-iğfir lillezîne tâbû ve-ittebe'û sebîleke vekıhim 'azâbe l-cehîmi rabbenâ ve-edhılhum cennâti 'adnin elletî ve'adttehum vemen saleha min âbâihim ve-ezvâcihim vezurrıyyâtihim inneke ente l-'azîzu l-hakîm",
+   "anlam": "Arşı yüklenen ve çevresinde bulunanlar, Rablerini överek tesbih ederler; O'na inanırlar. Müminler için: “Rabbimiz! İlmin ve rahmetin herşeyi içine almıştır. Tevbe edip Senin yoluna uyanları bağışla; onları cehennemin azabından koru” diye bağışlanma dilerler. “Rabbimiz! Müminleri ve babalarından, eşlerinden, soylarından iyi olanları, kendilerine söz verdiğin Adn cennetlerine koy; şüphesiz güçlü olan, Hakim olan ancak Sensin”",
+   "kaynak": "Mü'min, 40/7-8"
+  },
+  "konular": [
+   "ibadet",
+   "sukurSabir"
+  ],
+  "kavramlar": [
+   "Ubudiyet",
+   "Abd",
+   "Şeref",
+   "Şükür",
+   "İhsan"
+  ],
+  "kaynaklar": [
+   "İbrâhîm, 14/34",
+   "İsrâ, 17/1",
+   "Buhârî, Teheccüd, 6 (1130)",
+   "Bediüzzaman Said Nursî, Sözler, Altıncı Söz",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Dördüncü Söz, Beşinci Dal",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Şemme Risâlesi"
+  ],
+  "sinav": [
+   {
+    "soru": "Altıncı Söz'e göre Allah'a abd ve asker olmak nasıl bir şereftir?",
+    "secenekler": [
+     "Tarif edilemeyecek kadar lezzetli",
+     "Ağır bir yük",
+     "Sıradan",
+     "Geçici"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Yirmi Dördüncü Söz'e göre cennet nasıl verilir?",
+    "secenekler": [
+     "Amellerin ücreti olarak",
+     "Mahz-ı fazl ve keremle",
+     "Satın alınarak",
+     "Tesadüfen"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Peygamber Efendimiz ‘Şükreden bir kul olmayayım mı?’ buyurmuştur.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_058",
+  "kategori": "kuran",
+  "baslik": "Kur'an'ın Verdiği Âşıkane Hüzün",
+  "giris": "Bazı sözler insanı umutsuzluğa düşürür, yalnızlık ve yetimlik duygusu verir. Bazı sözler ise insanı hüzünlendirse bile bu hüzün kalbi yumuşatır, onu sevgiye yönlendirir. Bediüzzaman, Kur'an'ın verdiği hüznün yetim hüznü değil, bir âşığın hüznü olduğunu söyler.",
+  "aciklama": "Kur'an-ı Kerîm, kendisini dinleyenlerin kalplerinin yumuşadığını bildirir: “Allah sözün en güzelini, ayetleri birbirine benzeyen ve tekrarlanan bir kitap hâlinde indirdi. Rablerinden korkanların derileri ondan ürperir. Sonra derileri ve kalpleri Allah'ın zikrine yumuşar.” Başka bir ayette de Hristiyanlardan bir grubun Kur'an'ı dinlediklerinde gözlerinin yaşla dolduğu anlatılır: “Peygambere indirileni dinledikleri zaman, tanıdıkları gerçekten dolayı gözlerinin yaşla dolduğunu görürsün.” Kur'an'ın hüznü, insanı kopukluğa değil, Rabbine yakınlığa götürür.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Otuz Üçüncü Söz'ündeki Lemeât'ta Kur'an'ın edebini şöyle tarif eder: “Kur’ân’ın edebiyse, öyle bir hüznü verir ki, âşıkāne hüzündür, yetîmâne değildir.” Eserdeki anlatımın özetine göre beşerî edebiyat, ayrılıkları ve kayıpları anlatırken insana sahipsizlik ve yetimlik hüznü verir; Kur'an ise ayrılıkların arkasında baki bir Sevgili'nin olduğunu gösterdiği için hüznü bile muhabbete çevirir. Aynı bölümde Kur'an'ın eşsizliği de şöyle belirtilir: “Kur’ân’da bir hâssa var, başka kelâmda yoktur.” Şuâ'lar'ın Onbeşinci Şuâ'sında Kur'an'ın ahirete verdiği ağırlık hatırlatılır: “Kur’ân-ı Mu‘cizü’l-Beyân’ın üçten birisi, haşre ve âhirete bakar.” Yirmi Üçüncü Mektub'da ise Kur'an'la ilgili her şeyin değeri şöyle ifade edilir: “Kur’ân’a ve îmâna âit her şey kıymetlidir.”",
+  "kainattanDelil": "Sonbaharda yaprakların dökülmesini izleyen biri iki türlü hüzünlenebilir. Biri ‘Her şey bitiyor’ der ve karamsar olur. Diğeri ‘Bahar yeniden gelecek’ der ve hüznü bir özleme dönüşür. Gece karanlığı da güneşin yokluğu değil, sabahın yaklaştığının habercisidir. Bakışın yönü, hüznün rengini değiştirir.",
+  "hikmet": "Kur'an'ın verdiği hüzün, yetimlik değil, âşıkane bir hüzündür; ayrılıkların arkasında baki bir Sevgili'yi gösterir. Kur'an'da başka hiçbir kelamda olmayan bir özellik vardır. Kur'an'a ve imana ait her şey kıymetlidir. Kur'an'ın hüznü kalbi kırmaz, aksine onu yumuşatıp Rabbine yaklaştırır.",
+  "kendimize": "Hüzünlendiğim zamanlarda yetimlik mi, yoksa Rabbime bir özlem mi hissediyorum? Kur'an'ı okuduğumda ya da dinlediğimde kalbim yumuşuyor mu? Kur'an'la ilgili küçük şeylerin bile kıymetli olduğunu düşünüyor muyum?",
+  "hayat": "Hüzünlü bir anımızda Kur'an'dan bir sure açıp okumak ya da güzel bir sesten dinlemek bu dersin uygulamasıdır. Kur'an'ın ahireti anlatan ayetlerini okurken onları korku değil, bir kavuşma özlemiyle düşünmek de âşıkane hüznü tatmamızı sağlar.",
+  "ders": "Kur'an'ın edebi âşıkane bir hüzün verir, yetimane değil; Kur'an'a ve imana ait her şey kıymetlidir.",
+  "tefekkurSorusu": "Bugün yaşadığım bir hüznü Kur'an'ın nuruyla nasıl bir özleme çevirebilirim?",
+  "dua": {
+   "arapca": "رَبَّنَآ ءَامَنَّا فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ",
+   "okunus": "Rabbenâ âmennâ fe-uktubnâ me'a s-şâhidîn",
+   "anlam": "Peygambere indirilen Kuran'ı işittiklerinde, gerçeği öğrenmelerinden gözlerinin yaşla dolarak, “Rabbimiz! İnandık, bizi de şahidlerden yaz. Rabbimizin bizi iyi milletle birlikte bulundurmasını umarken niçin Allah'a ve bize gelen gerçeğe inanmayalım?” dediklerini görürsün.",
+   "kaynak": "Mâide, 5/83"
+  },
+  "konular": [
+   "kuran",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Edep",
+   "Hüzün",
+   "Âşıkane",
+   "Yetimane",
+   "Haşir"
+  ],
+  "kaynaklar": [
+   "Zümer, 39/23",
+   "Mâide, 5/83",
+   "Bediüzzaman Said Nursî, Sözler, Otuz Üçüncü Söz, Lemeât",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Onbeşinci Şuâ, Birinci Makam",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Üçüncü Mektub"
+  ],
+  "sinav": [
+   {
+    "soru": "Lemeât'a göre Kur'an'ın edebi nasıl bir hüzün verir?",
+    "secenekler": [
+     "Yetimane",
+     "Âşıkane",
+     "Umutsuz",
+     "Karamsar"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Onbeşinci Şuâ'ya göre Kur'an'ın üçte biri neye bakar?",
+    "secenekler": [
+     "Haşre ve ahirete",
+     "Tarihe",
+     "Ticarete",
+     "Siyasete"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Zümer Sûresi'ne göre Kur'an dinleyenlerin kalpleri Allah'ın zikrine yumuşar.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_059",
+  "kategori": "nefis",
+  "baslik": "Kalp Şuurlu Bir Aynadır",
+  "giris": "Bir ayna temiz olduğunda güneşi bütün parlaklığıyla gösterir; tozlandığında ise güneşin ışığı bulanıklaşır. Bediüzzaman, insanın kalbinin ve mahiyetinin şuurlu bir ayna olduğunu söyler. Bu aynanın neyi yansıttığı, onun ne kadar temiz tutulduğuna bağlıdır.",
+  "aciklama": "Kur'an-ı Kerîm, kalbin temizliğini kurtuluşun şartı olarak gösterir: “O gün ne mal fayda verir ne de evlat. Ancak Allah'a temiz bir kalp ile gelenler başka.” Başka bir ayette de günahların kalpleri nasıl kararttığı anlatılır: “Hayır! Aksine, kazandıkları şeyler kalplerini paslandırmıştır.” Peygamber Efendimiz bu ayeti şöyle açıklamıştır: “Kul bir günah işlediğinde kalbinde siyah bir nokta oluşur. Eğer o günahtan vazgeçer, tövbe ve istiğfar ederse kalbi parlatılır.” Tövbe ve zikir, kalp aynasını parlatan cilalardır.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın Yirmi Dokuzuncu Lem'a'sında şöyle der: “İşte kalb ve mâhiyet-i insaniye, zîşuûr bir aynadır.” Eserdeki anlatımın özetine göre sıradan bir ayna sadece önüne geleni yansıtır; ama insan kalbi şuurlu bir aynadır, yani neyi yansıttığını bilir ve onu sever. Bu ayna Allah'ın isimlerine dönük olduğunda nurlanır; nefsin heveslerine döndüğünde kararır. On Yedinci Lem'a'da bu aynanın korunması gerektiği hatırlatılır: “İşte mürşidin rûhu ve kalbi bir aynadır.” Kâmil bir rehberin kalbi bile kendi nuru değil, yansıttığı nur bakımından kıymetlidir. Lemeât'ta ise gerçek rehberin tavrı şöyle anlatılır: “Hakîkî mürşid-i âlim koyun olur, kuş olmaz.” Yani bilgisini kuşun yavrusuna çiğneyip vermesi gibi değil, koyunun süt vermesi gibi sindirerek, saf bir gıda olarak verir. Barla Lâhikası'ndaki bir mektupta da kalp ehlinin bir hâli belirtilir: “Ehl-i kalb için bazen sükût dahi bir konuşmaktır.”",
+  "kainattanDelil": "Durgun ve berrak bir göl, gökyüzünü ve yıldızları bütün güzelliğiyle yansıtır; dalgalı ve bulanık bir su ise hiçbir şeyi net göstermez. Bir pencere camı temiz olduğunda dışarıdaki manzara olduğu gibi görünür. Güneş her yere aynı ışığı gönderir; ama onu en parlak yansıtan, en temiz aynadır. Kalp de ne kadar temiz ve sakin olursa, ilahi nurları o kadar berrak yansıtır.",
+  "hikmet": "Kalp, şuurlu bir aynadır; neyi yansıttığını bilir ve sever. Tövbe ve zikirle parlatılan kalp, Allah'ın isimlerini berrak bir şekilde gösterir. Gerçek rehber, bilgisini sindirip saf bir gıda olarak sunar.",
+  "kendimize": "Kalbimin aynası bugün neyi yansıtıyor: Allah'ın isimlerini mi, yoksa nefsimin heveslerini mi? Günahlarımın kalbimi paslandırdığını fark edip tövbe ediyor muyum? Öğrendiklerimi sindirmeden mi, yoksa yaşayarak mı aktarıyorum?",
+  "hayat": "Her gün istiğfar ederek ve zikrederek kalp aynasını temizlemek bu dersin uygulamasıdır. Bir şeyi başkasına öğretmeden önce onu kendimiz yaşamaya çalışmak, gerektiğinde konuşmak yerine susmayı tercih etmek de kalbin aynasını berrak tutmanın yollarındandır.",
+  "ders": "Kalb ve mahiyet-i insaniye zişuur bir aynadır; hakiki mürşid-i âlim koyun olur, kuş olmaz.",
+  "tefekkurSorusu": "Bugün kalbimin aynasını hangi zikir ya da istiğfarla parlattım?",
+  "dua": {
+   "arapca": "رَّبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ ٱلْمَصِيرُ رَبَّنَا لَا تَجْعَلْنَا فِتْنَةًۭ لِّلَّذِينَ كَفَرُوا۟ وَٱغْفِرْ لَنَا رَبَّنَآ ۖ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+   "okunus": "Rabbenâ 'aleyke tevekkelnâ ve-ileyke enebnâ ve-ileyke l-mesîru rabbenâ lâ tec'alnâ fitneten lillezîne keferû ve-iğfir lenâ rabbenâ inneke ente l-'azîzu l-hakîm",
+   "anlam": "İbrahim ve onunla beraber olanlarda, sizin için uyulacak güzel bir örnek vardır. Onlar milletlerine şöyle demişlerdi: “Biz sizden ve Allah'tan başka taptıklarınızdan uzağız; sizin dininizi inkar ediyoruz; bizimle sizin aranızda yalnız Allah'a inanmanıza kadar ebedi düşmanlık ve öfke başgöstermiştir.” -Yalnız, İbrahim'in, babasına: “And olsun ki, senin için mağfiret dileyeceğim, fakat sana Allah'tan gelecek herhangi bir şeyi savmaya gücüm yetmez” sözü bu örneğin dışındadır- “Rabbimiz! Sana güvendik, Sana yöneldik; dönüş Sanadır.” “Rabbimiz! Bizi, inkar edenlerle deneme; bizi bağışla, doğrusu Sen, güçlü olan, Hakim olansın.”",
+   "kaynak": "Mümtehine, 60/4-5"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "ihlasUhuvvet"
+  ],
+  "kavramlar": [
+   "Kalp",
+   "Ayna",
+   "Şuur",
+   "Mürşid",
+   "İstiğfar"
+  ],
+  "kaynaklar": [
+   "Şuarâ, 26/88-89",
+   "Mutaffifîn, 83/14",
+   "Tirmizî, Tefsîr, 83 (3334)",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirmi Dokuzuncu Lem'a",
+   "Bediüzzaman Said Nursî, Lem'alar, On Yedinci Lem'a, On Üçüncü Nota",
+   "Bediüzzaman Said Nursî, Sözler, Otuz Üçüncü Söz, Lemeât",
+   "Bediüzzaman Said Nursî, Barla Lâhikası"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dokuzuncu Lem'a'ya göre kalp ve mahiyet-i insaniye nedir?",
+    "secenekler": [
+     "Şuurlu bir ayna",
+     "Bir taş",
+     "Bir gölge",
+     "Bir perde"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Lemeât'a göre hakiki mürşid-i âlim nasıl olur?",
+    "secenekler": [
+     "Kuş olur",
+     "Koyun olur",
+     "Aslan olur",
+     "Hiçbiri"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Mutaffifîn Sûresi'ne göre kazandıkları şeyler bazı insanların kalplerini paslandırmıştır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_060",
+  "kategori": "iman",
+  "baslik": "Bütün Yolların Varacağı Yer: İmanın Vuzuhu",
+  "giris": "Allah'a ulaşmak için pek çok yol vardır: Kimi zikirle, kimi tefekkürle, kimi hizmetle yürür. Peki bütün bu yolların sonunda varılan yer neresidir? Bediüzzaman, bütün yolların son noktasının iman hakikatlerinin açıkça görünmesi ve kalpte yerleşmesi olduğunu söyler.",
+  "aciklama": "Kur'an-ı Kerîm, Allah'a yönelenlere yollarını göstereceğini vaat eder: “Bizim uğrumuzda cihad edenleri elbette yollarımıza ileteceğiz.” Başka bir ayette de imanın kalpte süslendiği bildirilir: “Fakat Allah size imanı sevdirdi ve onu kalplerinizde süsledi.” Peygamber Efendimiz şöyle buyurmuştur: “Kimde şu üç özellik bulunursa imanın tadını alır: Allah ve Resûlünü her şeyden çok sevmek, bir kimseyi sadece Allah için sevmek ve imandan sonra küfre dönmeyi ateşe atılmak gibi kötü görmek.” İmanın tadını almak, onun hakikatlerinin kalpte açılmasıdır.",
+  "risalePerspektifi": "Bediüzzaman, On Yedinci Söz'ün zeylinde yolların çokluğunu şöyle belirtir: “Cenâb-ı Hakk’a vâsıl olacak tarîkler pek çoktur.” Beşinci Mektub'da ise bütün bu yolların hedefini gösterir: “Bütün tarîklerin nokta-i müntehâsı, hakāik-i îmâniyenin vuzûh ve inkişâfıdır.” Eserdeki anlatımın özetine göre manevi yollar ve tarikatlar birer vasıtadır; asıl gaye, iman hakikatlerinin açıkça anlaşılması ve kalpte yerleşmesidir. Mesnevî-i Nûriye'nin Habâb Risâlesi zeylinde imanın ardından gelen vazife şöyle belirtilir: “Îmâna âit bilgilerden sonra en lâzım ve en mühim olan a‘mâl-i sâlihadır.” Habâb Risâlesi'nde ise zikrin bu yoldaki yeri anlatılır: “Kelime-i tevhîdin tekrar ile zikrine devam etmek, kalbi pek çok şeylerle bağlayan bağları ve ipleri kırmak içindir.” Her tekrarlanan ‘Lâ ilâhe illallah’, kalbi fani bağlardan bir parça daha kurtarır.",
+  "kainattanDelil": "Bütün nehirler farklı dağlardan ve farklı yollardan doğar; ama hepsi sonunda denize ulaşır. Bir dağın zirvesine farklı patikalardan çıkılabilir; ama hepsi aynı zirvede birleşir. Bir ağacın kökleri toprağın farklı yerlerinden su toplar; ama o su, aynı gövdeden geçip aynı meyveye ulaşır. Yolların çokluğu, hedefin birliğini değiştirmez.",
+  "hikmet": "Allah'a ulaştıran yollar çoktur; ama hepsinin son noktası iman hakikatlerinin vuzuhu ve kalpte açılmasıdır. İmandan sonra en mühim olan salih ameldir. Kelime-i tevhidin tekrarı, kalbi fani bağlardan kurtarır.",
+  "kendimize": "Hangi manevi yolu takip ediyor olursam olayım, asıl hedefin imanın kalbimde açılması olduğunu hatırlıyor muyum? İmanımı salih amellerle destekliyor muyum? ‘Lâ ilâhe illallah’ derken kalbimin hangi bağlardan kurtulduğunu düşünüyor muyum?",
+  "hayat": "Her gün bir miktar ‘Lâ ilâhe illallah’ zikrini anlamını düşünerek tekrarlamak bu dersin uygulamasıdır. İman hakikatlerini anlatan bir eseri düzenli okumak ve öğrendiklerimizi salih amellerle hayata geçirmek de imanın kalpte açılmasını sağlar. Farklı yollardaki kardeşlerimize hedefin birliğini hatırlayarak hürmet etmek de önemlidir.",
+  "ders": "Bütün tarîklerin nokta-i müntehası, hakaik-i imaniyenin vuzuh ve inkişafıdır; imandan sonra en mühim olan amel-i salihtir.",
+  "tefekkurSorusu": "Bugün hangi iman hakikati kalbimde biraz daha açıldı?",
+  "dua": {
+   "arapca": "رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
+   "okunus": "Rabbi iğfir ve-irham ve-ente hayru r-râhımîn",
+   "anlam": "De ki: “Rabbim! Bağışla, merhamet et, Sen merhamet edenlerin en hayırlısısın.”",
+   "kaynak": "Mü'minûn, 23/118"
+  },
+  "konular": [
+   "iman",
+   "ibadet",
+   "ihlasUhuvvet"
+  ],
+  "kavramlar": [
+   "Tarik",
+   "Vuzuh",
+   "İnkişaf",
+   "Amel-i salih",
+   "Kelime-i tevhid"
+  ],
+  "kaynaklar": [
+   "Ankebût, 29/69",
+   "Hucurât, 49/7",
+   "Buhârî, Îmân, 9 (16)",
+   "Bediüzzaman Said Nursî, Sözler, On Yedinci Söz, Zeyl",
+   "Bediüzzaman Said Nursî, Mektûbât, Beşinci Mektub",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Zeylü'l-Habâb",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Habâb Risâlesi"
+  ],
+  "sinav": [
+   {
+    "soru": "Beşinci Mektub'a göre bütün tarîklerin nokta-i müntehası nedir?",
+    "secenekler": [
+     "Keramet",
+     "Hakaik-i imaniyenin vuzuh ve inkişafı",
+     "Şöhret",
+     "Makam"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Zeylü'l-Habâb'a göre imana ait bilgilerden sonra en mühim olan nedir?",
+    "secenekler": [
+     "A'mal-i saliha",
+     "Dünya malı",
+     "Tartışma",
+     "Hiçbiri"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Hadise göre Allah ve Resûlünü her şeyden çok seven imanın tadını alır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_061",
+  "kategori": "nefis",
+  "baslik": "Aklın, Kalbin ve Latifelerin Gıdası",
+  "giris": "Bedenin gıdası ekmek ve sudur. Peki aklın, kalbin ve insanın iç dünyasındaki ince duyguların gıdası nedir? Bunlar aç kalırsa ne olur? Bediüzzaman, insanın manevi yapısındaki her duygunun kendine has bir gıdası olduğunu ve bu gıdaların hepsinin Allah'ı tanımakta toplandığını anlatır.",
+  "aciklama": "Kur'an-ı Kerîm, insanın aklını kullanmasını, kalbiyle anlamasını ister ve bunu yapmayanları uyarır: “Onların kalpleri vardır, onunla kavramazlar. Gözleri vardır, onunla görmezler. Kulakları vardır, onunla işitmezler.” Başka bir ayette de gerçek ilmin Allah'tan korkmaya götürdüğü bildirilir: “Kulları içinden ancak bilenler Allah'tan gereğince korkar.” Peygamber Efendimiz de şöyle dua ederdi: “Allah'ım! Fayda vermeyen ilimden, huşû duymayan kalpten, doymayan nefisten ve kabul olunmayan duadan sana sığınırım.” İlim, insanı Rabbine götürdüğü ölçüde gerçek ilimdir.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Otuz Üçüncü Söz'ündeki Lemeât'ta insanın manevi duygularının gıdasını şöyle sıralar: “Zihnin ma‘rifetullâh, hissin muhabbetullâh, latîfenin şuhûddur.” Eserdeki anlatımın özetine göre akıl Allah'ı tanımakla, his O'nu sevmekle, ince latifeler ise O'nun tecellilerini müşahede etmekle doyar. Lem'alar'ın Otuzuncu Lem'a'sında aklın mahiyeti şöyle anlatılır: “Akıl dahi, şuûrdan ve histen süzülmüş, şuûrun bir hulâsasıdır.” Akıl, bu gıdaları almazsa yanlış bilgilerle beslenir. Mesnevî-i Nûriye'nin Şemme Risâlesi'nde bu tehlike şöyle ifade edilir: “Hakîkate bakılırsa, zannettikleri ilim, cehildir.” Yani Allah'ı tanıtmayan bilgi, gerçekte bir cehalettir. Hutbe-i Şâmiye'nin zeylinde ise geleceğin hâkiminin ilim olduğu belirtilir: “Tasallut-u medeniyetin zamanında âlemin hükümrânı, ilim ve ma‘rifettir.”",
+  "kainattanDelil": "Bir bitki sadece suyla değil, güneş ışığıyla ve topraktaki minerallerle de beslenir; bunlardan biri eksik olsa sararır. Bir arının yalnız bal değil, polen de toplaması gerekir. Bedenin farklı organlarının farklı besinlere ihtiyacı vardır. İnsanın manevi yapısı da çok yönlüdür ve her yönü kendi gıdasını ister.",
+  "hikmet": "Aklın gıdası marifetullah, hissin muhabbetullah, latifelerin ise şuhuddur. Allah'ı tanıtmayan bilgi, gerçekte bir cehalettir. Gelecekte âlemin hükümranı ilim ve marifettir.",
+  "kendimize": "Aklımı Allah'ı tanıtan bilgilerle mi, yoksa sadece gelip geçici bilgilerle mi besliyorum? Kalbim Allah sevgisiyle doyuyor mu, yoksa başka sevgilerle mi oyalanıyor? Öğrendiğim bilgiler beni Rabbime yaklaştırıyor mu?",
+  "hayat": "Her gün okuduğumuz şeylerin bir kısmını iman hakikatlerine ayırmak, aklımızı marifetle beslemektir. Allah'ın bir nimetini düşünerek O'na teşekkür etmek kalbi muhabbetle, kâinattaki bir güzelliği dikkatle izlemek de latifeleri şuhudla besler. Faydasız bilgi tüketimini azaltmak da manevi sağlığı korur.",
+  "ders": "Zihnin gıdası marifetullah, hissin muhabbetullah, latifenin şuhuddur; Allah'ı tanıtmayan ilim, hakikatte cehildir.",
+  "tefekkurSorusu": "Bugün aklımı, kalbimi ve ince duygularımı hangi gıdayla besledim?",
+  "dua": {
+   "arapca": "رَّبِّ زِدْنِى عِلْمًۭا",
+   "okunus": "Rabbi zidnî 'ılmen",
+   "anlam": "Gerçek hükümdar olan Allah Yüce'dir. Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, “Rabbim! ilmimi artır” de.",
+   "kaynak": "Tâhâ, 20/114"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "iman"
+  ],
+  "kavramlar": [
+   "Marifetullah",
+   "Muhabbetullah",
+   "Şuhud",
+   "Akıl",
+   "Latife"
+  ],
+  "kaynaklar": [
+   "A'râf, 7/179",
+   "Fâtır, 35/28",
+   "Müslim, Zikir, 73 (2722)",
+   "Bediüzzaman Said Nursî, Sözler, Otuz Üçüncü Söz, Lemeât",
+   "Bediüzzaman Said Nursî, Lem'alar, Otuzuncu Lem'a, Beşinci Nükte",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Şemme Risâlesi",
+   "Bediüzzaman Said Nursî, Mektûbât, Hutbe-i Şâmiye, Zeyl"
+  ],
+  "sinav": [
+   {
+    "soru": "Lemeât'a göre zihnin gıdası nedir?",
+    "secenekler": [
+     "Marifetullah",
+     "Şöhret",
+     "Eğlence",
+     "Uyku"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Şemme Risâlesi'ne göre Allah'ı tanıtmayan bilgi hakikatte nedir?",
+    "secenekler": [
+     "Gerçek ilim",
+     "Cehil",
+     "Hikmet",
+     "Marifet"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Fâtır Sûresi'ne göre kulları içinden ancak bilenler Allah'tan gereğince korkar.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_062",
+  "kategori": "kainat",
+  "baslik": "Her Şeyin Bir Kemal Noktası Vardır",
+  "giris": "Bir tohum toprakta çürümüş gibi görünür, ama aslında ağaç olmaya doğru yol alır. Bir tırtıl kozasına kapanır ve kelebek olarak çıkar. Kâinattaki her şey, daha mükemmel bir hâle doğru yürür. Bediüzzaman, bu yürüyüşün bir kanun olduğunu ve insanın da bütün kemallere kabiliyetli yaratıldığını söyler.",
+  "aciklama": "Kur'an-ı Kerîm, Allah'ın her şeyi en güzel şekilde yarattığını ve insanın en güzel biçimde yaratıldığını bildirir: “Biz insanı en güzel biçimde yarattık.” Başka bir ayette de Allah'ın hayatı ve ölümü nasıl yönettiği anlatılır: “Geceyi gündüze katarsın, gündüzü geceye katarsın. Ölüden diri çıkarırsın, diriden ölü çıkarırsın. Dilediğine hesapsız rızık verirsin.” Peygamber Efendimiz şöyle buyurmuştur: “Allah, her şeye iyilikle davranmayı yazmıştır.” Kâinattaki gelişme ve olgunlaşma, Allah'ın ihsanının ve hikmetinin bir yansımasıdır.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Dokuzuncu Söz'ünde şöyle der: “Kâinâtta, bittecrübe her şeyin bir nokta-i kemâli vardır.” Eserdeki anlatımın özetine göre her varlık, kendisi için takdir edilmiş bir olgunluk noktasına doğru ilerler ve bu yürüyüş, onu yaratan Zât'ın hikmetini gösterir. Aynı Söz'de hayatın bu yürüyüşteki yeri de belirtilir: “Hayat, mevcûdâtın keşşâfıdır, belki netîcesidir, zübdesidir.” Yani hayat, varlıkların gizli kabiliyetlerini ortaya çıkaran, onların özü ve meyvesi olan bir hakikattir. Lem'alar'ın Otuzuncu Lem'a'sında da canlıların mahiyeti şöyle anlatılır: “Her şey, hususan zîhayat olanlar, gāyet ma‘nîdâr birer kelime, birer mektûb, birer kasîde-i Rabbâniyedir.” Yirmi Dördüncü Söz'de ise insanın kemal kabiliyeti şöyle ifade edilir: “İnsan, çendân bütün esmâya mazhar ve bütün kemâlâta müsteiddir.”",
+  "kainattanDelil": "Bir elma çiçeği önce açar, sonra küçük bir meyveye, sonra olgun bir elmaya dönüşür. Bir kuş yavrusu önce yürümeyi, sonra uçmayı öğrenir. Bir insan bebeklikten çocukluğa, gençliğe ve olgunluğa doğru büyür. Kâinattaki her varlık, kendisi için belirlenen kemal noktasına doğru düzenli bir yolculuk yapar.",
+  "hikmet": "Kâinatta her şeyin bir kemal noktası vardır; her varlık ona doğru yürür. Hayat, varlıkların özü ve meyvesidir. İnsan, bütün isimlere ayna olmaya ve bütün kemallere ulaşmaya kabiliyetli yaratılmıştır.",
+  "kendimize": "Ben kendi kemal noktama doğru yürüyor muyum, yoksa bir yerde durdum mu? Bana verilen kabiliyetleri geliştirmek için ne yapıyorum? Kendimi ve diğer canlıları Rabbimin manalı birer mektubu olarak görebiliyor muyum?",
+  "hayat": "Her gün kendimizi bir adım daha geliştirecek küçük bir hedef belirlemek, örneğin bir ayet ezberlemek ya da bir güzel huyu kazanmaya çalışmak bu dersin uygulamasıdır. Çevremizdeki canlıları birer mektup gibi okuyarak onların bize ne anlattığını düşünmek de tefekkürü derinleştirir.",
+  "ders": "Kâinatta her şeyin bir nokta-i kemali vardır; insan bütün esmaya mazhar ve bütün kemalata müstaiddir.",
+  "tefekkurSorusu": "Bugün kendi kemal noktama doğru hangi küçük adımı attım?",
+  "dua": {
+   "arapca": "ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ",
+   "okunus": "Allâhumme mâlike l-mulki tutî l-mulke men teşâu vetenzi'u l-mulke mimmen teşâu vetu'ızzu men teşâu vetuzillu men teşâu biyedike l-hayru inneke 'alâ kulli şeyin kadîrun tûlicu el-leyle fî n-nehârı vetûlicu n-nehâra fî el-leyli vetuhrıcu l-haye mine l-meyiti vetuhrıcu l-meyite mine l-hayi veterzuku men teşâu biğayrı hısâb",
+   "anlam": "De ki: “Mülkün sahibi olan Allah'ım! Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir. Doğrusu Sen, her şeye Kadir'sin. Geceyi gündüze, gündüzü geceye geçirirsin; ölüden diri, diriden ölü çıkarırsın; dilediğini hesapsız rızıklandırırsın”.",
+   "kaynak": "Âl-i İmrân, 3/26-27"
+  },
+  "konular": [
+   "insanKainat",
+   "tabiat",
+   "esma"
+  ],
+  "kavramlar": [
+   "Kemal",
+   "Hayat",
+   "İstidat",
+   "Esma",
+   "Mektub-u Rabbani"
+  ],
+  "kaynaklar": [
+   "Tîn, 95/4",
+   "Âl-i İmrân, 3/27",
+   "Müslim, Sayd, 57 (1955)",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Dokuzuncu Söz",
+   "Bediüzzaman Said Nursî, Lem'alar, Otuzuncu Lem'a, Altıncı Nükte",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Dördüncü Söz, İkinci Dal"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dokuzuncu Söz'e göre kâinatta her şeyin neyi vardır?",
+    "secenekler": [
+     "Bir nokta-i kemali",
+     "Bir sonu",
+     "Bir tesadüfü",
+     "Hiçbir şeyi"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Yirmi Dördüncü Söz'e göre insan neye müstaiddir?",
+    "secenekler": [
+     "Hiçbir şeye",
+     "Bütün kemalata",
+     "Sadece dünyaya",
+     "Sadece yemeye"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Tîn Sûresi'ne göre insan en güzel biçimde yaratılmıştır.",
+    "dogru": true
+   }
+  ]
  }
 ]

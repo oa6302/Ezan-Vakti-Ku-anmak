@@ -34,3 +34,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-27: ders_035-038 (Esmâ, kader, tabiat/ülfet, nübüvvet); toplam 38. Alıntılar gunluk_vecizeler/gunluk_risale'de birebir.
 - 2026-11-27: ders_039-046 (imanın kuvveti, iman yolu, ibadet, Kur'an imzaları, cennet-cehennem, ruh, marifet, muhabbet); toplam 46.
 - 2026-11-27: ders_047-054 (hayat/mevt delili, nefsin firavunluğu, dua, kanaat, geçici lezzet, sıdk, rahmet, dünyayı kalben terk); toplam 54.
+- 2026-11-27: ders_055-062 (hüsn-ü zan, ecelin gizliliği, kulluk şerefi, âşıkane hüzün, kalp aynası, imanın vuzuhu, aklın gıdası, kemal noktası); toplam 62. İşârât'taki 'Ecnebî Feylesofların...' bölümündeki cümleler (yabancı düşünürlerden nakil olabileceği için) kullanılmadı.
