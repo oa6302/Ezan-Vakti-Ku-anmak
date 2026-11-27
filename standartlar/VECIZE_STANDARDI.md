@@ -27,3 +27,4 @@ Vecize kimliği artık metinden türetilir (`_kararliHash`); önceden her açıl
 - 2026-11-27: Birlesik aday listesinden siki puan + elle secim 40 vecize (vecize_secim.json ek3); toplam 207. Daha fazlasi bağlama muhtaç/zamirli oldugu icin alinmadi; gunluk dongu 207 ile doner.
 - 2026-11-27: vecize5 listesinden elle seçilen 39 vecize (vecize_secim.json ek5); toplam 246.
 - 2026-11-27: Uzun cümle taraması (vecize_cikar MIN_KELIME/MAX_KELIME/MAX_UZ) ile 32 vecize (ek6); toplam 278.
+- 2026-11-27: 'Evet,' ile başlayan cümlelere izin veren tarama (EVET_SERBEST, vecize_adaylar4) ile elle seçilen 38 (ek7) + gevşek uzunluk/tek kavram ile 49 (ek8) vecize; toplam 365. Metin aynen (Osmanlıca + Latince aynı cümle), bölüm başlığı fihristten.

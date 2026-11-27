@@ -112,6 +112,7 @@ void main() {
             .startsWith('Çeviri metnindeki')),
         isTrue);
     expect(dua.every((d) => d.dogrulandi && d.id.startsWith('gdua_')), isTrue);
+    expect(ContentService.instance.getPool(ContentType.vecize).length, 365);
     expect(ContentService.instance.getPool(ContentType.vecize).first.icerik,
         'Îmân hem nûrdur, hem kuvvettir.');
     final yil =
