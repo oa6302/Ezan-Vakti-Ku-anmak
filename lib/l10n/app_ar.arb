@@ -639,5 +639,10 @@
   "hkAlanDY": "عبارة صح/خطأ",
   "hkAlanDYDogru": "هذه العبارة صحيحة",
   "hkAlanKategori": "التصنيف الرئيس",
-  "hkKaynakUyari": "لا تنشر الآيات والأحاديث ونصوص رسائل النور قبل التحقق منها."
+  "hkKaynakUyari": "لا تنشر الآيات والأحاديث ونصوص رسائل النور قبل التحقق منها.",
+  "hkDevaminiOku": "اقرأ المزيد",
+  "hkHakikatiKesfet": "استكشف الحقائق",
+  "hkOkumaSuresi": "قراءة {n} د",
+  "hkAynen": "منقول حرفيًا",
+  "hkIlgiliHakikatler": "حقائق ذات صلة"
 }

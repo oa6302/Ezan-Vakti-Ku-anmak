@@ -3939,6 +3939,36 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'Ayet, hadis ve Risale-i Nur alıntılarını eserden doğrulamadan yayınlamayın.'**
   String get hkKaynakUyari;
+
+  /// No description provided for @hkDevaminiOku.
+  ///
+  /// In tr, this message translates to:
+  /// **'Devamını oku'**
+  String get hkDevaminiOku;
+
+  /// No description provided for @hkHakikatiKesfet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikati keşfet'**
+  String get hkHakikatiKesfet;
+
+  /// No description provided for @hkOkumaSuresi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{n} dk okuma'**
+  String hkOkumaSuresi(int n);
+
+  /// No description provided for @hkAynen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Eserden aynen'**
+  String get hkAynen;
+
+  /// No description provided for @hkIlgiliHakikatler.
+  ///
+  /// In tr, this message translates to:
+  /// **'İlgili hakikatler'**
+  String get hkIlgiliHakikatler;
 }
 
 class _AppLocalizationsDelegate

@@ -2117,4 +2117,21 @@ class AppLocalizationsTr extends AppLocalizations {
   @override
   String get hkKaynakUyari =>
       'Ayet, hadis ve Risale-i Nur alıntılarını eserden doğrulamadan yayınlamayın.';
+
+  @override
+  String get hkDevaminiOku => 'Devamını oku';
+
+  @override
+  String get hkHakikatiKesfet => 'Hakikati keşfet';
+
+  @override
+  String hkOkumaSuresi(int n) {
+    return '$n dk okuma';
+  }
+
+  @override
+  String get hkAynen => 'Eserden aynen';
+
+  @override
+  String get hkIlgiliHakikatler => 'İlgili hakikatler';
 }

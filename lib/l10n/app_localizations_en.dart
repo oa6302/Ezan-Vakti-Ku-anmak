@@ -2122,4 +2122,21 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get hkKaynakUyari =>
       'Do not publish verses, hadiths or Risale-i Nur quotes before verifying them.';
+
+  @override
+  String get hkDevaminiOku => 'Read more';
+
+  @override
+  String get hkHakikatiKesfet => 'Explore the truths';
+
+  @override
+  String hkOkumaSuresi(int n) {
+    return '$n min read';
+  }
+
+  @override
+  String get hkAynen => 'Verbatim from the work';
+
+  @override
+  String get hkIlgiliHakikatler => 'Related truths';
 }

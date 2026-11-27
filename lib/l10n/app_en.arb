@@ -639,5 +639,10 @@
   "hkAlanDY": "True/False statement",
   "hkAlanDYDogru": "This statement is true",
   "hkAlanKategori": "Main category",
-  "hkKaynakUyari": "Do not publish verses, hadiths or Risale-i Nur quotes before verifying them."
+  "hkKaynakUyari": "Do not publish verses, hadiths or Risale-i Nur quotes before verifying them.",
+  "hkDevaminiOku": "Read more",
+  "hkHakikatiKesfet": "Explore the truths",
+  "hkOkumaSuresi": "{n} min read",
+  "hkAynen": "Verbatim from the work",
+  "hkIlgiliHakikatler": "Related truths"
 }

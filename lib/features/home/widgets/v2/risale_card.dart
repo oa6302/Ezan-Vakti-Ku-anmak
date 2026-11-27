@@ -3,6 +3,11 @@ import 'package:nur_pusulasi/widgets/nur_kart.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/widgets/admin_card_wrapper.dart';
+import 'package:nur_pusulasi/app/hakikat_servisi.dart';
+import 'package:nur_pusulasi/features/hazine/hakikat/hakikat_ortak.dart'
+    show hakikatAc;
+import 'package:nur_pusulasi/features/hazine/hakikat/risale_pasaj_page.dart';
+import 'package:nur_pusulasi/features/hazine/risale_dersleri_page.dart';
 
 const _red = Color(0xFFC8102E);
 
@@ -45,6 +50,25 @@ class RisaleCard extends StatelessWidget {
                 .toList()
             : <String>[];
 
+        final t = AppLocalizations.of(context);
+        void devaminiOku() => Navigator.push(
+            context,
+            MaterialPageRoute<void>(
+                builder: (_) => RisalePasajPage(
+                      baslik: r.baslik,
+                      metin: risaleMetin,
+                      alinti: risaleAlinti,
+                      osmanlica: hasDailyRisale ? '' : (r.arapca ?? ''),
+                      eser: risaleEser,
+                      bolum: risaleBolum,
+                      aynen: !hasDailyRisale && r.dogrulandi,
+                    )));
+        void kesfet() => Navigator.push(
+            context,
+            MaterialPageRoute<void>(
+                builder: (_) => const RisaleDersleriPage()));
+        final gunun = HakikatServisi.instance.gununHakikati(now);
+
         return AdminCaptureCard(
           item: r,
           lightFavorite: true,
@@ -54,33 +78,38 @@ class RisaleCard extends StatelessWidget {
           child: Container(
             margin: const EdgeInsets.symmetric(horizontal: 14),
             decoration: NurKartStili.kutu(),
-            child: Stack(
-              children: [
-                Positioned(
-                  right: -20,
-                  top: -20,
-                  child: Opacity(
-                    opacity: 0.1,
-                    child: Icon(Icons.auto_stories_rounded,
-                        size: 140, color: Color(0xFFC8102E)),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(18, 18, 18, 54),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
+            child: Material(
+              color: Colors.transparent,
+              child: InkWell(
+                borderRadius: BorderRadius.circular(22),
+                onTap: devaminiOku,
+                child: Stack(
+                  children: [
+                    Positioned(
+                      right: -20,
+                      top: -20,
+                      child: Opacity(
+                        opacity: 0.1,
+                        child: Icon(Icons.auto_stories_rounded,
+                            size: 140, color: Color(0xFFC8102E)),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(18, 18, 18, 54),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 10, vertical: 5),
-                            decoration: BoxDecoration(
-                              color: _red,
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                            child:
-                                Text(AppLocalizations.of(context).uiRisaleINur,
+                          Row(
+                            children: [
+                              Container(
+                                padding: const EdgeInsets.symmetric(
+                                    horizontal: 10, vertical: 5),
+                                decoration: BoxDecoration(
+                                  color: _red,
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
+                                child: Text(
+                                    AppLocalizations.of(context).uiRisaleINur,
                                     style: TextStyle(
                                         color: Colors.white,
                                         shadows: [
@@ -96,85 +125,41 @@ class RisaleCard extends StatelessWidget {
                                         fontSize: 10,
                                         fontWeight: FontWeight.w900,
                                         letterSpacing: 1)),
-                          ),
-                          const Spacer(),
-                          Container(
-                            padding: const EdgeInsets.all(6),
-                            decoration: BoxDecoration(
-                              color: Colors.white.withValues(alpha: 0.1),
-                              shape: BoxShape.circle,
-                            ),
-                            child: const Icon(Icons.chevron_right_rounded,
-                                color: Color(0xFF142747), size: 18),
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 14),
-                      Text(
-                        r.baslik,
-                        style: const TextStyle(
-                            color: Color(0xFF142747),
-                            shadows: [
-                              Shadow(
-                                  color: Color(0x30000000),
-                                  blurRadius: 5,
-                                  offset: Offset(0, 2)),
+                              ),
+                              const Spacer(),
+                              Container(
+                                padding: const EdgeInsets.all(6),
+                                decoration: BoxDecoration(
+                                  color: Colors.white.withValues(alpha: 0.1),
+                                  shape: BoxShape.circle,
+                                ),
+                                child: const Icon(Icons.chevron_right_rounded,
+                                    color: Color(0xFF142747), size: 18),
+                              ),
                             ],
-                            fontSize: 17,
-                            fontWeight: FontWeight.w900,
-                            height: 1.3),
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        risaleMetin,
-                        style: const TextStyle(
-                            color: Color(0xFF536174),
-                            shadows: [
-                              Shadow(
-                                  color: Color(0x99000000),
-                                  blurRadius: 9,
-                                  offset: Offset(0, 4)),
-                              Shadow(
-                                  color: Color(0x55000000),
-                                  blurRadius: 3,
-                                  offset: Offset(0, 2)),
-                            ],
-                            fontSize: 12,
-                            height: 1.5),
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                      const SizedBox(height: 12),
-                      if (risaleAlinti.trim().isNotEmpty) ...[
-                        Text(
-                          '“$risaleAlinti”',
-                          style: const TextStyle(
-                              color: Color(0xFF26364D),
-                              shadows: [
-                                Shadow(
-                                    color: Color(0x99000000),
-                                    blurRadius: 9,
-                                    offset: Offset(0, 4)),
-                                Shadow(
-                                    color: Color(0x55000000),
-                                    blurRadius: 3,
-                                    offset: Offset(0, 2)),
-                              ],
-                              fontSize: 13,
-                              fontStyle: FontStyle.italic,
-                              height: 1.5),
-                        ),
-                        if (risaleEser.trim().isNotEmpty ||
-                            risaleBolum.trim().isNotEmpty) ...[
-                          const SizedBox(height: 5),
+                          ),
+                          const SizedBox(height: 14),
                           Text(
-                            [risaleEser, risaleBolum]
-                                .where((v) => v.trim().isNotEmpty)
-                                .join(' • '),
+                            r.baslik,
                             style: const TextStyle(
-                                color: Color(0xFF687386),
+                                color: Color(0xFF142747),
+                                shadows: [
+                                  Shadow(
+                                      color: Color(0x30000000),
+                                      blurRadius: 5,
+                                      offset: Offset(0, 2)),
+                                ],
+                                fontSize: 17,
+                                fontWeight: FontWeight.w900,
+                                height: 1.3),
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            risaleMetin,
+                            style: const TextStyle(
+                                color: Color(0xFF536174),
                                 shadows: [
                                   Shadow(
                                       color: Color(0x99000000),
@@ -185,46 +170,20 @@ class RisaleCard extends StatelessWidget {
                                       blurRadius: 3,
                                       offset: Offset(0, 2)),
                                 ],
-                                fontSize: 10),
+                                fontSize: 12,
+                                height: 1.5),
+                            maxLines: 5,
+                            overflow: TextOverflow.ellipsis,
                           ),
-                        ],
-                        const SizedBox(height: 12),
-                      ],
-                      _RisaleInfografik(
-                        konu: extra['gunKonu']?.toString() ?? r.baslik,
-                        anahtarKelimeler: anahtarKelimeler,
-                      ),
-                      const SizedBox(height: 14),
-                      Row(
-                        children: [
-                          Container(
-                            padding: const EdgeInsets.symmetric(
-                                horizontal: 8, vertical: 4),
-                            decoration: BoxDecoration(
-                              color: Color(0xFFFCE8EB),
-                              borderRadius: BorderRadius.circular(6),
-                            ),
-                            child: Text(
-                              AppLocalizations.of(context).uiRisaleINurDan,
-                              style: TextStyle(
-                                  color: Color(0xFF142747),
-                                  shadows: [
-                                    Shadow(
-                                        color: Color(0x30000000),
-                                        blurRadius: 3,
-                                        offset: Offset(0, 1)),
-                                  ],
-                                  fontSize: 10,
-                                  fontWeight: FontWeight.w600),
-                            ),
-                          ),
-                          const Spacer(),
-                          const Icon(Icons.access_time_rounded,
-                              color: Color(0xFF7A8492), size: 12),
-                          const SizedBox(width: 4),
-                          Text(AppLocalizations.of(context).ui5DkOkuma,
-                              style: TextStyle(
-                                  color: Color(0xFF7A8492),
+                          const SizedBox(height: 12),
+                          if (hasDailyRisale &&
+                              risaleAlinti.trim().isNotEmpty) ...[
+                            Text(
+                              '“$risaleAlinti”',
+                              maxLines: 3,
+                              overflow: TextOverflow.ellipsis,
+                              style: const TextStyle(
+                                  color: Color(0xFF26364D),
                                   shadows: [
                                     Shadow(
                                         color: Color(0x99000000),
@@ -235,191 +194,184 @@ class RisaleCard extends StatelessWidget {
                                         blurRadius: 3,
                                         offset: Offset(0, 2)),
                                   ],
-                                  fontSize: 10)),
+                                  fontSize: 13,
+                                  fontStyle: FontStyle.italic,
+                                  height: 1.5),
+                            ),
+                            if (risaleEser.trim().isNotEmpty ||
+                                risaleBolum.trim().isNotEmpty) ...[
+                              const SizedBox(height: 5),
+                              Text(
+                                [risaleEser, risaleBolum]
+                                    .where((v) => v.trim().isNotEmpty)
+                                    .join(' • '),
+                                style: const TextStyle(
+                                    color: Color(0xFF687386),
+                                    shadows: [
+                                      Shadow(
+                                          color: Color(0x99000000),
+                                          blurRadius: 9,
+                                          offset: Offset(0, 4)),
+                                      Shadow(
+                                          color: Color(0x55000000),
+                                          blurRadius: 3,
+                                          offset: Offset(0, 2)),
+                                    ],
+                                    fontSize: 10),
+                              ),
+                            ],
+                            const SizedBox(height: 12),
+                          ],
+                          if (anahtarKelimeler.isNotEmpty) ...[
+                            Wrap(
+                              spacing: 5,
+                              runSpacing: 5,
+                              children: [
+                                for (final k in anahtarKelimeler)
+                                  Container(
+                                    padding: const EdgeInsets.symmetric(
+                                        horizontal: 7, vertical: 4),
+                                    decoration: BoxDecoration(
+                                      color: const Color(0xFFFCE8EB),
+                                      borderRadius: BorderRadius.circular(6),
+                                    ),
+                                    child: Text(k,
+                                        style: const TextStyle(
+                                            color: Color(0xFF142747),
+                                            fontSize: 10)),
+                                  ),
+                              ],
+                            ),
+                            const SizedBox(height: 12),
+                          ],
+                          if (gunun != null)
+                            InkWell(
+                              borderRadius: BorderRadius.circular(12),
+                              onTap: () => hakikatAc(context, gunun),
+                              child: Container(
+                                width: double.infinity,
+                                padding: const EdgeInsets.all(10),
+                                decoration: BoxDecoration(
+                                  color: const Color(0xFFF3F6FB),
+                                  borderRadius: BorderRadius.circular(12),
+                                  border: Border.all(
+                                      color: const Color(0x55D6B36A)),
+                                ),
+                                child: Row(children: [
+                                  const Icon(Icons.wb_sunny_rounded,
+                                      color: Color(0xFFC9A961), size: 18),
+                                  const SizedBox(width: 8),
+                                  Expanded(
+                                    child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(t.hkGununHakikati,
+                                              style: const TextStyle(
+                                                  color: Color(0xFFB08A3E),
+                                                  fontSize: 10,
+                                                  fontWeight: FontWeight.w900)),
+                                          Text(gunun.baslik,
+                                              maxLines: 2,
+                                              overflow: TextOverflow.ellipsis,
+                                              style: const TextStyle(
+                                                  color: Color(0xFF142747),
+                                                  fontSize: 12,
+                                                  fontWeight: FontWeight.w800)),
+                                        ]),
+                                  ),
+                                  const Icon(Icons.chevron_right_rounded,
+                                      color: Color(0xFF142747), size: 18),
+                                ]),
+                              ),
+                            ),
+                          const SizedBox(height: 12),
+                          Row(children: [
+                            Expanded(
+                              child: FilledButton.icon(
+                                style: FilledButton.styleFrom(
+                                    backgroundColor: const Color(0xFF142747),
+                                    padding: const EdgeInsets.symmetric(
+                                        vertical: 10)),
+                                onPressed: devaminiOku,
+                                icon: const Icon(Icons.menu_book_rounded,
+                                    size: 17),
+                                label: Text(t.hkDevaminiOku,
+                                    overflow: TextOverflow.ellipsis),
+                              ),
+                            ),
+                            const SizedBox(width: 8),
+                            Expanded(
+                              child: OutlinedButton.icon(
+                                style: OutlinedButton.styleFrom(
+                                    foregroundColor: _red,
+                                    side: const BorderSide(color: _red),
+                                    padding: const EdgeInsets.symmetric(
+                                        vertical: 10)),
+                                onPressed: kesfet,
+                                icon:
+                                    const Icon(Icons.explore_rounded, size: 17),
+                                label: Text(t.hkHakikatiKesfet,
+                                    overflow: TextOverflow.ellipsis),
+                              ),
+                            ),
+                          ]),
+                          const SizedBox(height: 14),
+                          Row(
+                            children: [
+                              Container(
+                                padding: const EdgeInsets.symmetric(
+                                    horizontal: 8, vertical: 4),
+                                decoration: BoxDecoration(
+                                  color: Color(0xFFFCE8EB),
+                                  borderRadius: BorderRadius.circular(6),
+                                ),
+                                child: Text(
+                                  !hasDailyRisale && r.dogrulandi
+                                      ? t.hkAynen
+                                      : t.uiRisaleINurDan,
+                                  style: TextStyle(
+                                      color: Color(0xFF142747),
+                                      shadows: [
+                                        Shadow(
+                                            color: Color(0x30000000),
+                                            blurRadius: 3,
+                                            offset: Offset(0, 1)),
+                                      ],
+                                      fontSize: 10,
+                                      fontWeight: FontWeight.w600),
+                                ),
+                              ),
+                              const Spacer(),
+                              const Icon(Icons.access_time_rounded,
+                                  color: Color(0xFF7A8492), size: 12),
+                              const SizedBox(width: 4),
+                              Text(t.hkOkumaSuresi(okumaDakikasi(risaleMetin)),
+                                  style: TextStyle(
+                                      color: Color(0xFF7A8492),
+                                      shadows: [
+                                        Shadow(
+                                            color: Color(0x99000000),
+                                            blurRadius: 9,
+                                            offset: Offset(0, 4)),
+                                        Shadow(
+                                            color: Color(0x55000000),
+                                            blurRadius: 3,
+                                            offset: Offset(0, 2)),
+                                      ],
+                                      fontSize: 10)),
+                            ],
+                          ),
                         ],
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
-              ],
+              ),
             ),
           ),
         );
       },
-    );
-  }
-}
-
-class _RisaleInfografik extends StatelessWidget {
-  final String konu;
-  final List<String> anahtarKelimeler;
-
-  const _RisaleInfografik({
-    required this.konu,
-    required this.anahtarKelimeler,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(12),
-      decoration: BoxDecoration(
-        color: const Color(0xFFFFFFFF),
-        borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: const Color(0xFFC8102E), width: 1),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            AppLocalizations.of(context).uiGununImanKufurMuv,
-            style: TextStyle(
-              color: Color(0xFF142747),
-              shadows: [
-                Shadow(
-                    color: Color(0x99000000),
-                    blurRadius: 9,
-                    offset: Offset(0, 4)),
-                Shadow(
-                    color: Color(0x55000000),
-                    blurRadius: 3,
-                    offset: Offset(0, 2)),
-              ],
-              fontSize: 10,
-              fontWeight: FontWeight.w900,
-            ),
-          ),
-          const SizedBox(height: 5),
-          Text(
-            konu,
-            style: const TextStyle(
-              color: Color(0xFF142747),
-              fontSize: 12,
-              fontWeight: FontWeight.w800,
-            ),
-          ),
-          if (anahtarKelimeler.isNotEmpty) ...[
-            const SizedBox(height: 8),
-            Wrap(
-              spacing: 5,
-              runSpacing: 5,
-              children: anahtarKelimeler.map((kelime) {
-                return Container(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 7, vertical: 4),
-                  decoration: BoxDecoration(
-                    color: const Color(0xFFFCE8EB),
-                    borderRadius: BorderRadius.circular(6),
-                  ),
-                  child: Text(
-                    kelime,
-                    style: const TextStyle(
-                      color: Color(0xFF142747),
-                      shadows: [
-                        Shadow(
-                            color: Color(0x99000000),
-                            blurRadius: 9,
-                            offset: Offset(0, 4)),
-                        Shadow(
-                            color: Color(0x55000000),
-                            blurRadius: 3,
-                            offset: Offset(0, 2)),
-                      ],
-                      fontSize: 9,
-                    ),
-                  ),
-                );
-              }).toList(),
-            ),
-          ],
-          const SizedBox(height: 10),
-          const Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Expanded(
-                child: _MuvazeneTarafi(
-                  baslik: 'İMAN PERSPEKTİFİ',
-                  aciklama:
-                      'Varlığı yaratılış, gaye ve sorumluluk bağı içinde değerlendirir.',
-                ),
-              ),
-              SizedBox(width: 8),
-              Expanded(
-                child: _MuvazeneTarafi(
-                  baslik: 'NATÜRALİST PERSPEKTİF',
-                  aciklama:
-                      'Olayları tabiat ve gözlemlenebilir süreçler üzerinden açıklar.',
-                ),
-              ),
-            ],
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class _MuvazeneTarafi extends StatelessWidget {
-  final String baslik;
-  final String aciklama;
-
-  const _MuvazeneTarafi({
-    required this.baslik,
-    required this.aciklama,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.all(8),
-      decoration: BoxDecoration(
-        color: const Color(0xFFF3F6FB),
-        borderRadius: BorderRadius.circular(9),
-        border: Border.all(color: const Color(0x55D6B36A)),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            baslik,
-            style: const TextStyle(
-              color: Color(0xFF142747),
-              shadows: [
-                Shadow(
-                    color: Color(0x99000000),
-                    blurRadius: 9,
-                    offset: Offset(0, 4)),
-                Shadow(
-                    color: Color(0x55000000),
-                    blurRadius: 3,
-                    offset: Offset(0, 2)),
-              ],
-              fontSize: 9,
-              fontWeight: FontWeight.w900,
-            ),
-          ),
-          const SizedBox(height: 5),
-          Text(
-            aciklama,
-            style: const TextStyle(
-              color: Color(0xFF536174),
-              shadows: [
-                Shadow(
-                    color: Color(0x99000000),
-                    blurRadius: 9,
-                    offset: Offset(0, 4)),
-                Shadow(
-                    color: Color(0x55000000),
-                    blurRadius: 3,
-                    offset: Offset(0, 2)),
-              ],
-              fontSize: 9,
-              height: 1.3,
-            ),
-          ),
-        ],
-      ),
     );
   }
 }

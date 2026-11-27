@@ -1112,5 +1112,17 @@
   "hkAlanDY": "Doğru/Yanlış ifadesi",
   "hkAlanDYDogru": "Bu ifade doğru",
   "hkAlanKategori": "Ana kategori",
-  "hkKaynakUyari": "Ayet, hadis ve Risale-i Nur alıntılarını eserden doğrulamadan yayınlamayın."
+  "hkKaynakUyari": "Ayet, hadis ve Risale-i Nur alıntılarını eserden doğrulamadan yayınlamayın.",
+  "hkDevaminiOku": "Devamını oku",
+  "hkHakikatiKesfet": "Hakikati keşfet",
+  "hkOkumaSuresi": "{n} dk okuma",
+  "@hkOkumaSuresi": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "hkAynen": "Eserden aynen",
+  "hkIlgiliHakikatler": "İlgili hakikatler"
 }

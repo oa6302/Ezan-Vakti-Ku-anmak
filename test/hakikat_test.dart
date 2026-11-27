@@ -5,12 +5,15 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:nur_pusulasi/app/content_service.dart';
 import 'package:nur_pusulasi/app/hakikat_servisi.dart';
 import 'package:nur_pusulasi/data/hakikat.dart';
 import 'package:nur_pusulasi/data/icerik_hazinesi.dart';
 import 'package:nur_pusulasi/features/admin/hakikat_yonetim_page.dart';
+import 'package:nur_pusulasi/features/home/widgets/v2/risale_card.dart';
 import 'package:nur_pusulasi/features/hazine/hakikat/egitim.dart';
 import 'package:nur_pusulasi/features/hazine/hakikat/hakikat_sayfalari.dart';
+import 'package:nur_pusulasi/features/hazine/hakikat/risale_pasaj_page.dart';
 import 'package:nur_pusulasi/features/hazine/risale_dersleri_page.dart';
 import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -335,6 +338,61 @@ void main() {
       expect(
           HakikatServisi.instance.durum(yeni.first.id), HakikatDurumu.taslak);
       await t.binding.setSurfaceSize(null);
+    });
+  });
+
+  group('Ana sayfa Risale-i Nur karti', () {
+    setUpAll(() async {
+      SharedPreferences.setMockInitialValues({});
+      await ContentService.instance.load();
+      risaleDersleri
+        ..clear()
+        ..addAll(_dersler);
+      await hakikatVerisiniYukle();
+    });
+    setUp(() async {
+      await _servis();
+    });
+
+    testWidgets('Devamini oku pasajin tamamini uygulama icinde acar',
+        (t) async {
+      await t.binding.setSurfaceSize(const Size(420, 1400));
+      await t.pumpWidget(_uygulama(
+          const Scaffold(body: SingleChildScrollView(child: RisaleCard()))));
+      await t.pumpAndSettle();
+      expect(find.text('Devamını oku'), findsOneWidget);
+      expect(find.text('Hakikati keşfet'), findsOneWidget);
+      expect(find.text('Günün Hakikati'), findsOneWidget);
+      final r = ContentService.instance
+          .getDailyPoolItem(ContentType.risale, DateTime.now())!;
+      await t.tap(find.text('Devamını oku'));
+      await t.pumpAndSettle();
+      expect(find.byType(RisalePasajPage), findsOneWidget);
+      expect(find.text(r.icerik), findsOneWidget);
+      expect(find.text('Eserden aynen'), findsOneWidget);
+      await t.tap(find.text('Osmanlıca'));
+      await t.pumpAndSettle();
+      expect(t.takeException(), isNull);
+      await t.binding.setSurfaceSize(null);
+    });
+
+    testWidgets('Hakikati kesfet Hakikat bolumunu acar', (t) async {
+      await t.binding.setSurfaceSize(const Size(420, 1400));
+      await t.pumpWidget(_uygulama(
+          const Scaffold(body: SingleChildScrollView(child: RisaleCard()))));
+      await t.pumpAndSettle();
+      await t.tap(find.text('Hakikati keşfet'));
+      await t.pumpAndSettle();
+      expect(find.byType(RisaleDersleriPage), findsOneWidget);
+      expect(find.text('Hakikat Konuları'), findsOneWidget);
+      await t.binding.setSurfaceSize(null);
+    });
+
+    test('Okuma suresi ve metin konulari', () {
+      expect(okumaDakikasi('kelime ' * 50), 1);
+      expect(okumaDakikasi('kelime ' * 400), 3);
+      expect(metinKonulari('Îmân ve Kur’ân ve îmân'),
+          containsAllInOrder([HakikatKonusu.iman, HakikatKonusu.kuran]));
     });
   });
 }
