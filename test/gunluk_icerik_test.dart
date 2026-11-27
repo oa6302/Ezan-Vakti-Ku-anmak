@@ -56,6 +56,23 @@ void main() {
     }
   });
 
+  test('Gunluk dualar: Peygamber duasi olmayan rivayetler alinmaz', () {
+    // Elle incelendi: tabiin/sahabenin kisisel duasi, recez veya ozel durum.
+    const disarida = {
+      'Buhârî, 3743', // Alkame'nin kisisel duasi
+      'Buhârî, 6278', // ayni olay
+      'Buhârî, 6148', // Amir'in recezi
+      'Müslim, 1802', // ayni recez
+      'Tirmizî, 3527', // bir adamin duasi
+      'Tirmizî, 1092', // ozel durum duasi
+    };
+    final dualar = _oku('assets/content/gunluk_dualar.json');
+    for (final d in dualar) {
+      expect(disarida.contains(d['kaynak']), isFalse,
+          reason: '${d['kaynak']}: ${d['baslik']}');
+    }
+  });
+
   test('Gunluk Risale pasajlari: aynen, eser + bolum + Osmanlica', () {
     final r = _oku('assets/content/gunluk_risale.json');
     expect(r.length, greaterThanOrEqualTo(30));
