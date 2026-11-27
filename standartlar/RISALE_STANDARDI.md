@@ -36,3 +36,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-27: ders_047-054 (hayat/mevt delili, nefsin firavunluğu, dua, kanaat, geçici lezzet, sıdk, rahmet, dünyayı kalben terk); toplam 54.
 - 2026-11-27: ders_055-062 (hüsn-ü zan, ecelin gizliliği, kulluk şerefi, âşıkane hüzün, kalp aynası, imanın vuzuhu, aklın gıdası, kemal noktası); toplam 62. İşârât'taki 'Ecnebî Feylesofların...' bölümündeki cümleler (yabancı düşünürlerden nakil olabileceği için) kullanılmadı.
 - 2026-11-27: ders_063-070 (ebedî yolculuk, kabir, imanın canlandırması, dua vazifesi, ihlas, insanın kıymeti, sünnet, güzelliğin kaynağı); toplam 70. Yeni 39 vecize ile.
+- 2026-11-27: ders_071-074 (anne-baba şefkati, dünyada misafirlik, kâinatı mescide çeviren iman, gurur ve teslimiyet); toplam 74. Alıntılar yeni vecize partilerinden (ek7/ek8), ayetler api.quran.com Diyanet meali, hadisler hadith-api metninden.
