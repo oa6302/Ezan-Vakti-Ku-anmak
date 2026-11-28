@@ -48,3 +48,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-28: ders_143-152 (iman anahtarı, beş kârlı ticaret, kabahati başkasına atmak, has muhatap, sünnetteki hikmet, tevekkül noktası, birlik perdeleri, şükür meyvesi, dar dünya, kâinat kitabı); toplam 152.
 - 2026-11-28: ders_153-161 (yeryüzünün değişimi, bir saat tefekkür, tercüme ve belagat, niyetin gücü, nasihat tarzı, insanın bozulması, küsuf namazı, kalplerin şehadeti, yapmakta zayıf yıkmakta büyük); toplam 161.
 - 2026-11-28: ders_162-169 (iki kabir arası, verilen hüsün verenin hüsnüne delil, Mi'rac yolu, vazife-i asliye, duyguların güzellikleri, Peygamber ayna, ibadete istidat, rahmetten ümit); toplam 169.
+- 2026-11-28: ders_170-178 (güzel işlere çirkinlik karıştırma, tabiat şeriat-ı fıtriye, marifetullah, Kur'an'a muaraza, cüz'i hadise ve umum, kıymet kesrette değil, her insan bir nevi, zıtları cem eden azamet, aynadaki dünya); toplam 178.
