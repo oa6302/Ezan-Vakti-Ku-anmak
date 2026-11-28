@@ -1,0 +1,488 @@
+[
+ {
+  "id": "sozler",
+  "ad": "Sözler",
+  "tur": "eser",
+  "konum": "",
+  "tanitim": "Risale-i Nur Külliyatı'nın temel eserlerinden biridir. Fihristinde otuz üç 'Söz' yer alır. İman hakikatlerini temsiller, mukayeseler ve akli delillerle, herkesin anlayabileceği bir üslupla anlatır.",
+  "anaKonu": "İman esasları ve kulluğun hikmetleri",
+  "meseleler": [
+   "Allah'ın varlığı ve birliği",
+   "Haşir ve ahiret",
+   "Namaz ve ibadetin hikmeti",
+   "Kur'an'ın mucizeliği",
+   "İnsanın mahiyeti ve vazifesi"
+  ],
+  "konular": [
+   "iman",
+   "tevhid",
+   "ahiret",
+   "ibadet",
+   "kuran",
+   "insanKainat"
+  ],
+  "eser": "Sözler",
+  "bolum": "",
+  "anahtarlar": [
+   "Sözler"
+  ]
+ },
+ {
+  "id": "mektubat",
+  "ad": "Mektûbât",
+  "tur": "eser",
+  "konum": "",
+  "tanitim": "Bediüzzaman'ın çeşitli sorulara ve ihtiyaçlara cevap olarak yazdığı mektuplardan oluşur. Fihristinde otuz üç mektubun yanında Münâzarât ve Hutbe-i Şâmiye bölümleri de yer alır.",
+  "anaKonu": "İmani sorulara cevaplar ve hizmet dersleri",
+  "meseleler": [
+   "Peygamber Efendimizin mucizeleri (On Dokuzuncu Mektub)",
+   "Uhuvvet ve muhabbet (Yirmi İkinci Mektub)",
+   "Ramazan ve şükür (Yirmi Dokuzuncu Mektub)",
+   "Marifetullaha açılan pencereler (Otuz Üçüncü Mektub)"
+  ],
+  "konular": [
+   "iman",
+   "nubuvvet",
+   "ihlasUhuvvet",
+   "ibadet"
+  ],
+  "eser": "Mektûbât",
+  "bolum": "",
+  "anahtarlar": [
+   "Mektûbât"
+  ]
+ },
+ {
+  "id": "lemalar",
+  "ad": "Lem'alar",
+  "tur": "eser",
+  "konum": "",
+  "tanitim": "Fihristinde otuz üç Lem'a ve bir Eser Duâsı yer alır. İhlas, hastalık, ihtiyarlık, tabiat, sünnet ve tevekkül gibi konuları işleyen risaleleri bir araya getirir.",
+  "anaKonu": "Kalbî ve ahlaki hakikatler, musibetlere iman nazarıyla bakış",
+  "meseleler": [
+   "İhlas (Yirminci ve Yirmi Birinci Lem'a)",
+   "Tabiat Risalesi (Yirmi Üçüncü Lem'a)",
+   "Hastalar Risalesi (Yirmi Beşinci Lem'a)",
+   "İhtiyarlar Risalesi (Yirmi Altıncı Lem'a)"
+  ],
+  "konular": [
+   "ihlasUhuvvet",
+   "musibet",
+   "tabiat",
+   "ruhKalpNefis",
+   "sukurSabir"
+  ],
+  "eser": "Lem'alar",
+  "bolum": "",
+  "anahtarlar": [
+   "Lem'alar"
+  ]
+ },
+ {
+  "id": "sualar",
+  "ad": "Şuâ'lar",
+  "tur": "eser",
+  "konum": "",
+  "tanitim": "Fihristinde on beş Şuâ yer alır. İman delillerini anlatan risalelerin yanında, bazı Şuâ'lar mahkemelere verilen müdafaa ve istidaları içerir.",
+  "anaKonu": "Tevhid ve iman delilleri",
+  "meseleler": [
+   "Münâcât Risalesi (Üçüncü Şuâ)",
+   "Âyet-i Hasbiye (Dördüncü Şuâ)",
+   "Âyetü'l-Kübrâ (Yedinci Şuâ)"
+  ],
+  "konular": [
+   "tevhid",
+   "iman",
+   "kuran"
+  ],
+  "eser": "Şuâ'lar",
+  "bolum": "",
+  "anahtarlar": [
+   "Şuâ'lar"
+  ]
+ },
+ {
+  "id": "asa",
+  "ad": "Asâ-yı Mûsâ",
+  "tur": "eser",
+  "konum": "",
+  "tanitim": "Fihristinde on bir Mes'ele ve on bir Hüccet-i İmaniye yer alır; ayrıca Yirminci, Yirmi Birinci ve On Dokuzuncu Lem'alar, Şükür Risâlesi, Hulâsatü'l-Hulâsa ve bir lügatçe bulunur.",
+  "anaKonu": "İman hücceleri ve Kur'an'ın hikmetleri",
+  "meseleler": [
+   "Kur'an'daki tekrarların hikmeti (Onuncu Mes'ele)",
+   "İman hücceleri",
+   "Şükür Risâlesi"
+  ],
+  "konular": [
+   "iman",
+   "kuran",
+   "sukurSabir"
+  ],
+  "eser": "Asâ-yı Mûsâ",
+  "bolum": "",
+  "anahtarlar": [
+   "Asâ-yı Mûsâ"
+  ]
+ },
+ {
+  "id": "mesnevi",
+  "ad": "Mesnevî-i Nûriye",
+  "tur": "eser",
+  "konum": "",
+  "tanitim": "Bediüzzaman'ın ilk dönem eserlerindendir. Katre, Habâb, Zerre, Şemme, Şu'le ve Nokta gibi risalelerden oluşur ve tevhid hakikatlerini yoğun bir üslupla işler.",
+  "anaKonu": "Tevhid, marifetullah ve nefis muhasebesi",
+  "meseleler": [
+   "Katre Risâlesi",
+   "Habâb Risâlesi",
+   "Şemme Risâlesi",
+   "Nokta Risâlesi"
+  ],
+  "konular": [
+   "tevhid",
+   "ruhKalpNefis",
+   "esma"
+  ],
+  "eser": "Mesnevî-i Nûriye",
+  "bolum": "",
+  "anahtarlar": [
+   "Mesnevî-i Nûriye"
+  ]
+ },
+ {
+  "id": "isarat",
+  "ad": "İşârâtü'l-İ'câz",
+  "tur": "eser",
+  "konum": "",
+  "tanitim": "Fâtiha Sûresi ile Bakara Sûresi'nin ilk ayetlerinin tefsiridir. Ayetlerin dizilişindeki münasebetleri ve Kur'an'ın icazını inceler.",
+  "anaKonu": "Kur'an'ın nazmındaki icaz",
+  "meseleler": [
+   "Fâtiha Sûresi'nin tefsiri",
+   "Bakara Sûresi'nin ilk ayetlerinin tefsiri"
+  ],
+  "konular": [
+   "kuran"
+  ],
+  "eser": "İşârâtü'l-İ'câz",
+  "bolum": "",
+  "anahtarlar": [
+   "İşârâtü'l-İ'câz"
+  ]
+ },
+ {
+  "id": "muhakemat",
+  "ad": "Muhâkemât",
+  "tur": "eser",
+  "konum": "",
+  "tanitim": "Makaleler hâlinde yazılmıştır. İslami ilimlere sonradan karışan yanlış anlayışları ve İsrailiyatı tenkit ederek, Kur'an'ı doğru anlamanın usulüne dikkat çeker.",
+  "anaKonu": "Kur'an'ı anlama usulü",
+  "meseleler": [
+   "Birinci Makale: tenkit ve usul"
+  ],
+  "konular": [
+   "kuran"
+  ],
+  "eser": "Muhâkemât",
+  "bolum": "",
+  "anahtarlar": [
+   "Muhâkemât"
+  ]
+ },
+ {
+  "id": "barla",
+  "ad": "Barla Lâhikası",
+  "tur": "eser",
+  "konum": "",
+  "tanitim": "Barla döneminde Bediüzzaman ile talebeleri arasında yazılan mektupları bir araya getirir. Bu mektuplarda iman hizmetine dair dersler ve risalelerin okunmasından doğan intibalar yer alır.",
+  "anaKonu": "İman hizmeti ve uhuvvet",
+  "meseleler": [
+   "Hizmette ihlas ve sadakat",
+   "Risalelerin okunması"
+  ],
+  "konular": [
+   "ihlasUhuvvet"
+  ],
+  "eser": "Barla Lâhikası",
+  "bolum": "",
+  "anahtarlar": [
+   "Barla Lâhikası"
+  ]
+ },
+ {
+  "id": "kastamonu",
+  "ad": "Kastamonu Lâhikası",
+  "tur": "eser",
+  "konum": "",
+  "tanitim": "Kastamonu döneminde yazılan mektuplardan oluşur. İman hizmetinin esaslarına, ihlasa ve zamanın manevi ihtiyaçlarına dair dersler içerir.",
+  "anaKonu": "İman hizmeti ve ihlas",
+  "meseleler": [
+   "Hizmet esasları",
+   "Zulme karşı tavır"
+  ],
+  "konular": [
+   "ihlasUhuvvet"
+  ],
+  "eser": "Kastamonu Lâhikası",
+  "bolum": "",
+  "anahtarlar": [
+   "Kastamonu Lâhikası"
+  ]
+ },
+ {
+  "id": "emirdag",
+  "ad": "Emirdağ Lâhikası",
+  "tur": "eser",
+  "konum": "",
+  "tanitim": "Emirdağ döneminde ve sonrasında yazılan mektuplardan oluşur. İman hizmetinin devamına, sabra ve ihlasa dair dersler içerir.",
+  "anaKonu": "İman hizmeti, sabır ve ihlas",
+  "meseleler": [
+   "Hizmette sebat",
+   "Sabır ve tevekkül"
+  ],
+  "konular": [
+   "ihlasUhuvvet",
+   "sukurSabir"
+  ],
+  "eser": "Emirdağ Lâhikası",
+  "bolum": "",
+  "anahtarlar": [
+   "Emirdağ Lâhikası"
+  ]
+ },
+ {
+  "id": "genclik",
+  "ad": "Gençlik Rehberi",
+  "tur": "eser",
+  "konum": "",
+  "tanitim": "Gençlere hitap eden risalelerden derlenmiş bir mecmuadır. Eserin başında belirtildiği üzere, cazibeli bir fitne içinde bulunan ve aklını kaybetmeyen bazı gençlerle bir sohbet şeklinde başlar.",
+  "anaKonu": "Gençliğin kıymeti ve imanla korunması",
+  "meseleler": [
+   "Gençliğin geçiciliği",
+   "Ölüm ve ahiret düşüncesi",
+   "Helal dairesi"
+  ],
+  "konular": [
+   "genclikAhlak",
+   "ahiret"
+  ],
+  "eser": "Gençlik Rehberi",
+  "bolum": "",
+  "anahtarlar": [
+   "Gençlik Rehberi"
+  ]
+ },
+ {
+  "id": "munacat",
+  "ad": "Münâcât Risalesi",
+  "tur": "risale",
+  "konum": "Şuâ'lar · Üçüncü Şuâ",
+  "tanitim": "Münâcât, yani yakarış üslubuyla yazılmış bir iman delilidir. Metnin başında kendisinin Sekizinci Hüccet-i İmaniye olduğu belirtilir.",
+  "anaKonu": "Dua üslubuyla tevhid",
+  "meseleler": [
+   "Göklerin ve yerin tevhide şahitliği",
+   "Yakarış ve tefekkür"
+  ],
+  "konular": [
+   "tevhid",
+   "ibadet"
+  ],
+  "eser": "Şuâ'lar",
+  "bolum": "Üçüncü Şuâ",
+  "anahtarlar": [
+   "Üçüncü Şuâ"
+  ]
+ },
+ {
+  "id": "hasir",
+  "ad": "Haşir Risalesi",
+  "tur": "risale",
+  "konum": "Sözler · Onuncu Söz (bu baskıda metni Zülfikâr Mecmûası'nda)",
+  "tanitim": "Öldükten sonra dirilişi; Allah'ın isimleri, kâinattaki düzen ve baharda yeniden dirilen tabiat gibi deliller üzerinden anlatır.",
+  "anaKonu": "Haşir ve ahiret",
+  "meseleler": [
+   "Haşrin akli ve nakli delilleri",
+   "Bahar ve yeniden diriliş"
+  ],
+  "konular": [
+   "ahiret"
+  ],
+  "eser": "Zülfikār",
+  "bolum": "Onuncu Söz",
+  "anahtarlar": [
+   "Onuncu Söz"
+  ]
+ },
+ {
+  "id": "ayetulkubra",
+  "ad": "Âyetü'l-Kübrâ",
+  "tur": "risale",
+  "konum": "Şuâ'lar · Yedinci Şuâ",
+  "tanitim": "Kâinattaki varlıkların Allah'ın varlığına ve birliğine şahitliğini, kâinatı dolaşıp her varlığa yaratıcısını soran bir yolcunun gözünden anlatır.",
+  "anaKonu": "Kâinatın tevhide şahitliği",
+  "meseleler": [
+   "Göklerin, yerin ve canlıların şahitliği",
+   "Kur'an'ın ve peygamberlerin şahitliği"
+  ],
+  "konular": [
+   "tevhid",
+   "insanKainat",
+   "tabiat"
+  ],
+  "eser": "Şuâ'lar",
+  "bolum": "Yedinci Şuâ",
+  "anahtarlar": [
+   "Yedinci Şuâ"
+  ]
+ },
+ {
+  "id": "tabiat",
+  "ad": "Tabiat Risalesi",
+  "tur": "risale",
+  "konum": "Lem'alar · Yirmi Üçüncü Lem'a",
+  "tanitim": "Varlıkların sebeplere, tesadüfe veya tabiata verilmesinin akli imkânsızlığını gösterir ve her şeyin Allah'ın eseri olduğunu ispat eder. Metnin başında On Yedinci Lem'a'nın On Altıncı Nota'sı olduğu belirtilir.",
+  "anaKonu": "Tabiatçı düşüncenin tenkidi",
+  "meseleler": [
+   "Sebeplerin acizliği",
+   "Tesadüfün imkânsızlığı",
+   "Tabiat bir sanat ve kanundur"
+  ],
+  "konular": [
+   "tabiat",
+   "tevhid"
+  ],
+  "eser": "Lem'alar",
+  "bolum": "Yirmi Üçüncü Lem",
+  "anahtarlar": [
+   "Yirmi Üçüncü Lem"
+  ]
+ },
+ {
+  "id": "hastalar",
+  "ad": "Hastalar Risalesi",
+  "tur": "risale",
+  "konum": "Lem'alar · Yirmi Beşinci Lem'a",
+  "tanitim": "Metnin başında belirtildiği gibi yirmi beş devadan oluşur ve hastalara bir merhem, bir teselli olarak yazılmıştır.",
+  "anaKonu": "Hastalığa iman nazarıyla bakış",
+  "meseleler": [
+   "Şikâyet yerine şükür",
+   "Hastalığın gizli nimetleri",
+   "Hastalık ve merhamet"
+  ],
+  "konular": [
+   "musibet",
+   "sukurSabir"
+  ],
+  "eser": "Lem'alar",
+  "bolum": "Yirmi Beşinci Lem",
+  "anahtarlar": [
+   "Yirmi Beşinci Lem"
+  ]
+ },
+ {
+  "id": "ihlas",
+  "ad": "İhlas Risalesi",
+  "tur": "risale",
+  "konum": "Lem'alar · Yirminci ve Yirmi Birinci Lem'a",
+  "tanitim": "Metinlerin başında belirtildiği üzere ihlas hakkındadır. Hizmette ihlasın önemini, onu bozan sebepleri ve ihlası kazandıran düsturları anlatır.",
+  "anaKonu": "İhlas ve hizmette samimiyet",
+  "meseleler": [
+   "İhlası kazandıran düsturlar",
+   "Rekabetin zararları",
+   "Ölümü düşünmek"
+  ],
+  "konular": [
+   "ihlasUhuvvet"
+  ],
+  "eser": "Lem'alar",
+  "bolum": "Yirminci Lem|Yirmi Birinci Lem",
+  "anahtarlar": [
+   "Yirminci Lem",
+   "Yirmi Birinci Lem"
+  ]
+ },
+ {
+  "id": "uhuvvet",
+  "ad": "Uhuvvet Risalesi",
+  "tur": "risale",
+  "konum": "Mektûbât · Yirmi İkinci Mektub",
+  "tanitim": "İki mebhastır; birinci mebhası, metnin ifadesiyle ehl-i imanı uhuvvete ve muhabbete davet eder.",
+  "anaKonu": "Kardeşlik ve muhabbet",
+  "meseleler": [
+   "Müminler arasındaki muhabbet",
+   "Kin ve adavetin zararları"
+  ],
+  "konular": [
+   "ihlasUhuvvet",
+   "genclikAhlak"
+  ],
+  "eser": "Mektûbât",
+  "bolum": "Yirmi İkinci Mektub",
+  "anahtarlar": [
+   "Yirmi İkinci Mektub"
+  ]
+ },
+ {
+  "id": "ihtiyarlar",
+  "ad": "İhtiyarlar Risalesi",
+  "tur": "risale",
+  "konum": "Lem'alar · Yirmi Altıncı Lem'a",
+  "tanitim": "Metnin başında belirtildiği gibi ihtiyarlar hakkındadır ve yirmi altı 'recâ', yani ümit içerir.",
+  "anaKonu": "İhtiyarlığa ve ölüme ümitle bakış",
+  "meseleler": [
+   "İhtiyarlığın ahirete yakınlığı",
+   "Ölüm bir terhistir"
+  ],
+  "konular": [
+   "ahiret",
+   "musibet"
+  ],
+  "eser": "Lem'alar",
+  "bolum": "Yirmi Altıncı Lem",
+  "anahtarlar": [
+   "Yirmi Altıncı Lem"
+  ]
+ },
+ {
+  "id": "yirmiucuncusoz",
+  "ad": "Yirmi Üçüncü Söz",
+  "tur": "risale",
+  "konum": "Sözler · Yirmi Üçüncü Söz",
+  "tanitim": "İki mebhastır. İmanın insanı nasıl yücelttiğini ve insanın acz ve fakrıyla Allah'a ne kadar muhtaç olduğunu anlatır.",
+  "anaKonu": "İmanın insana kazandırdıkları",
+  "meseleler": [
+   "İman hem nurdur hem kuvvettir",
+   "Tevekkül ve dua",
+   "Helal dairesi keyfe kâfidir"
+  ],
+  "konular": [
+   "iman",
+   "insanKainat"
+  ],
+  "eser": "Sözler",
+  "bolum": "Yirmi Üçüncü Söz",
+  "anahtarlar": [
+   "Yirmi Üçüncü Söz"
+  ]
+ },
+ {
+  "id": "otuzucuncusoz",
+  "ad": "Otuz Üçüncü Söz",
+  "tur": "risale",
+  "konum": "Sözler · Otuz Üçüncü Söz",
+  "tanitim": "Sözler'in son bölümüdür; bu baskıda altında manzum bir üslupla yazılmış Lemeât yer alır. Mektûbât'taki Otuz Üçüncü Mektub ise marifetullaha açılan pencereler hâlinde düzenlenmiştir.",
+  "anaKonu": "İman hakikatlerinin özü",
+  "meseleler": [
+   "Lemeât",
+   "Marifetullaha açılan pencereler"
+  ],
+  "konular": [
+   "tevhid",
+   "kuran"
+  ],
+  "eser": "Sözler",
+  "bolum": "Otuz Üçüncü Söz",
+  "anahtarlar": [
+   "Otuz Üçüncü Söz",
+   "Otuz Üçüncü Mektub"
+  ]
+ }
+]

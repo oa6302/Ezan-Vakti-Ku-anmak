@@ -1,0 +1,116 @@
+Uyumsuz: 57 / 110
+
+3. "Dünya ve ahiret saadeti, İslamiyet ve imandadır."
+   -> سعادت ≠ dünya | دنیا ≠ ve | و ≠ ahiret | آخرت ≠ saadeti
+4. "Aciz ve fakirlik, kulluğun hazinesidir."
+   -> عبدیتڭ ≠ kulluğun | کنزیدر ≠ hazinesidir
+6. "Bu dünya, ahiret mezraasıdır."
+   -> مزرعه ≠ ahiret | آخرتدر ≠ mezraasıdır
+7. "Ölüm, hayatın tahvil ve tecdididir."
+   -> مرگ ≠ ölüm | تحویل ≠ hayatın | و ≠ tahvil | تجدید ≠ ve | حیاتدر ≠ tecdididir
+8. "Her şeyde kudret-i İlahiyenin ayet ve mucizesi vardır."
+   -> آیت ≠ kudret | و ≠ ilahiyenin | معجزه ≠ ayet | قدرت ≠ ve | الهی ≠ mucizesi
+12. "İlim ve fen, imanın envarına muvafık olsa terakki eder."
+   -> ارتقا ≠ terakki
+23. "İnsanın kıymeti, himmetine göre olur."
+   -> kelime sayısı: Osmanlıca 4, Latin 5
+24. "Hâlıkın rıza ve muhabbeti, bütün cihana değer."
+   -> کل ≠ bütün
+37. "Sabreden derviş, muradına ermiş."
+   -> kelime sayısı: Osmanlıca 5, Latin 4 | ایدن ≠ derviş | درویش ≠ muradına | مرادینه ≠ ermiş
+39. "Şükreden, nimetin kadrini bilir."
+   -> kelime sayısı: Osmanlıca 5, Latin 4 | ایدن ≠ nimetin | نعمتڭ ≠ kadrini | قدرینی ≠ bilir
+40. "İhlas, riyadan kurtuluştur."
+   -> kelime sayısı: Osmanlıca 4, Latin 3 | دن ≠ kurtuluştur
+55. "Zerrat-ı kâinat, tesbih-gûy-u vahdettir."
+   -> kelime sayısı: Osmanlıca 4, Latin 5 | وحدتدیر ≠ gûy
+56. "Her zerrede ilahi bir rububiyet zuhuru vardır."
+   -> kelime sayısı: Osmanlıca 5, Latin 7 | ظهور ≠ ilahi | الهی ≠ bir | واردر ≠ rububiyet
+57. "Âlem, esma-i ilahiyenin aynasıdır."
+   -> kelime sayısı: Osmanlıca 3, Latin 4 | آینه‌سیدر ≠ ilahiyenin
+59. "Mevcudat, kudret-i İlahiyenin mucizeleridir."
+   -> خالقڭ ≠ kudret | قدرت ≠ ilahiyenin
+60. "Kâinatta hiçbir şey hikmetsiz değildir."
+   -> kelime sayısı: Osmanlıca 6, Latin 5 | بیر ≠ şey | شئ ≠ hikmetsiz | بی‌حکمت ≠ değildir
+61. "Arz ve sema, tesbihat-ı ilahiye ile müteharriktir."
+   -> kelime sayısı: Osmanlıca 5, Latin 7
+63. "Her şeyde bir mühür-ü Rabbani vardır."
+   -> غیبیه‌سی ≠ rabbani
+64. "Kâinat, hikmetle tanzim edilmiştir."
+   -> kelime sayısı: Osmanlıca 5, Latin 4 | بالغه ≠ tanzim
+65. "Âlem, esma-i ilahiyenin aynasıdır."
+   -> kelime sayısı: Osmanlıca 6, Latin 4 | پرده‌یی ≠ esma | غیبت ≠ ilahiyenin
+67. "Zikir, kalbin mutmain olmasıdır."
+   -> kelime sayısı: Osmanlıca 3, Latin 4 | اطمینانیدر ≠ mutmain
+68. "Akıl, şeriatla inkişaf eder."
+   -> ترقّی ≠ inkişaf
+69. "Meşveret, saadetin esasıdır."
+   -> مداریدیر ≠ esasıdır
+70. "Hak galip gelir, mağlup olmaz."
+   -> اولور ≠ gelir
+71. "Azim ve sebat, en zorlukları aşar."
+   -> kelime sayısı: Osmanlıca 4, Latin 6 | مَشفقتلری ≠ ve
+72. "Yüksek himmet, dağları yerinden oynatır."
+   -> kelime sayısı: Osmanlıca 4, Latin 5 | همت ≠ yüksek | عالی ≠ himmet | کوهleri ≠ dağları | دگستر ≠ yerinden
+73. "Tevekkül, esbap perdesini yırtar."
+   -> ایقاعیله ≠ perdesini | بوغولماز ≠ yırtar
+74. "Rıza-i İlahi, her şeyin fevkindedir."
+   -> kelime sayısı: Osmanlıca 4, Latin 5 | مقصد ≠ her | اصلی‌دیر ≠ şeyin
+75. "İman, ruh için emniyet kapısıdır."
+   -> kelime sayısı: Osmanlıca 6, Latin 5 | بر ≠ ruh | و ≠ emniyet | امان ≠ kapısıdır
+76. "Hakikat, dalaleti yutarak mahveder."
+   -> kelime sayısı: Osmanlıca 3, Latin 4 | توکه‌دیر ≠ yutarak
+77. "Hakikat nuru, kendi kendine parlar."
+   -> kelime sayısı: Osmanlıca 4, Latin 5 | نور ≠ hakikat | حقیقت ≠ nuru | صناعی‌سز ≠ kendi | پارلار ≠ kendine
+78. "İman, insana ebedi hayat kazandırır."
+   -> kelime sayısı: Osmanlıca 4, Latin 5 | آدمه‌ ≠ insana | خلود ≠ ebedi | قازاندیرر ≠ hayat
+79. "Ebedi saadet, Kur'an'a ittiba ile elde edilir."
+   -> kelime sayısı: Osmanlıca 4, Latin 7 | سعادت ≠ ebedi | ابدیه ≠ saadet | قازانیلیر ≠ ittiba
+80. "Tamah, zillet ve hüsran getirir."
+   -> آور ≠ ve | و ≠ hüsran | خسراندر ≠ getirir
+81. "Kanaat, tükenmez bir hazinedir."
+   -> kelime sayısı: Osmanlıca 3, Latin 4 | بیت‌المال ≠ tükenmez | غنا‌دیر ≠ bir
+82. "Yalan, nifakın temelidir."
+   -> کذب ≠ yalan
+83. "Tevazu, insanı mertebe-i aliyeye çıkarır."
+   -> kelime sayısı: Osmanlıca 4, Latin 5 | رفعتینی ≠ mertebe
+84. "Af ve صفح, insana azamet verir."
+   -> صفح ≠ صفح | قیلی‌ئر ≠ verir
+85. "Emanet, dinin temel direklerindendir."
+   -> kelime sayısı: Osmanlıca 3, Latin 4 | ارکانندندیر ≠ temel
+87. "Doğruluk, selamet ve necattır."
+   -> صدق ≠ doğruluk | و ≠ selamet | راستی ≠ ve
+88. "Mekârim-i ahlak, İslam'ın süsüdür."
+   -> زینتی‌دیر ≠ süsüdür
+89. "Ahiret, dünyanın hasat yeridir."
+   -> kelime sayısı: Osmanlıca 5, Latin 4 | محصول ≠ hasat | توپلاندیغی ≠ yeridir
+90. "Dar-ı beka, müminlerin asıl vatanıdır."
+   -> حقیقی ≠ asıl
+91. "Ölüm, hakiki dostlara kavuşma vesilesidir."
+   -> kelime sayısı: Osmanlıca 6, Latin 5 | موت ≠ ölüm | بر ≠ vesilesidir
+92. "Berzah, ruhlar âlemine açılan bir penceredir."
+   -> kelime sayısı: Osmanlıca 5, Latin 6 | عالم‌ ≠ ruhlar | بر ≠ açılan | مرصعدیر ≠ bir
+93. "Cennet, iman ve ameli salihle kazanılır."
+   -> kelime sayısı: Osmanlıca 4, Latin 6 | صالحه‌یله‌ ≠ ve | قازانیلیر ≠ ameli
+94. "Cehennem, isyankar ruhların ceza yeridir."
+   -> kelime sayısı: Osmanlıca 6, Latin 5 | طغیان‌ ≠ isyankar | ایده‌نلرڭ ≠ ruhların | گتیرلدیغی ≠ yeridir
+95. "Haşir ve neşir, ilahi kudretin mucizesidir."
+   -> قدرت ≠ ilahi | الهیه‌نین ≠ kudretin
+97. "Sabr-ı cemil, şikayetsiz sabırdır."
+   -> پاکدیر ≠ sabırdır
+98. "Musibetler, sabredenlere sevap kazandırır."
+   -> اجر ≠ sevap
+99. "Hakiki şükür, nimeti Veren'den bilmektir."
+   -> منعم‌دن ≠ veren'den
+100. "Sabır, müminin manevi kalkanıdır."
+   -> kelime sayısı: Osmanlıca 5, Latin 4 | و ≠ kalkanıdır
+101. "Şükür, nimetin zevaline mani olur."
+   -> kelime sayısı: Osmanlıca 4, Latin 5
+102. "İhlaslı az amel, ihlassız çok amelden üstündür."
+   -> قلیل ≠ ihlassız | اولسه‌ ≠ çok | ده ≠ amelden | کثیردر ≠ üstündür
+103. "Dua, hikmet-i ilahiye dairesinde kabul edilir."
+   -> مقبول ≠ dua | دعا ≠ hikmet | وقت ≠ ilahiye | مرادنده ≠ dairesinde | استجاب ≠ kabul
+104. "Kelamullah, her asırda taze nazil olur."
+   -> kelime sayısı: Osmanlıca 5, Latin 6 | الله ≠ her | عصرده ≠ taze | رهنما‌دیر ≠ nazil
+105. "İhlas, imdad-ı ilahiyi celbeder."
+   -> kelime sayısı: Osmanlıca 5, Latin 4 | قدرت ≠ imdad | امداده ≠ celbeder

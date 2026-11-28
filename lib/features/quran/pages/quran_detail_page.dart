@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:nur_pusulasi/app/arabic_text.dart';
 import 'package:nur_pusulasi/app/app_settings.dart';
@@ -188,14 +189,14 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
         children: [
           const Icon(Icons.text_fields_rounded, color: _navy, size: 18),
           const SizedBox(width: 10),
-          const Text('Yazı boyutu',
+          Text(AppLocalizations.of(context).uiYaziBoyutu,
               style: TextStyle(
                   color: _navy, fontSize: 13, fontWeight: FontWeight.w700)),
           const Spacer(),
           IconButton(
             icon: const Icon(Icons.remove_rounded, color: _navy),
             onPressed: () => _changeFont(-1),
-            tooltip: 'Küçült',
+            tooltip: AppLocalizations.of(context).uiKucult,
           ),
           Text('${_fontSize.round()}',
               style: const TextStyle(
@@ -203,7 +204,7 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
           IconButton(
             icon: const Icon(Icons.add_rounded, color: _navy),
             onPressed: () => _changeFont(1),
-            tooltip: 'Büyüt',
+            tooltip: AppLocalizations.of(context).uiBuyut,
           ),
         ],
       ),
@@ -224,11 +225,11 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Row(
+          Row(
             children: [
               Icon(Icons.menu_book_rounded, color: _gold, size: 16),
               SizedBox(width: 6),
-              Text('ARAPÇA',
+              Text(AppLocalizations.of(context).uiArapca,
                   style: TextStyle(
                       color: _gold,
                       fontSize: 11,
@@ -266,11 +267,11 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Row(
+          Row(
             children: [
               Icon(Icons.record_voice_over_rounded, color: _navy, size: 16),
               SizedBox(width: 6),
-              Text('OKUNUŞ',
+              Text(AppLocalizations.of(context).uiOkunus,
                   style: TextStyle(
                       color: _navy,
                       fontSize: 11,
@@ -304,11 +305,11 @@ class _QuranDetailPageState extends State<QuranDetailPage> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Row(
+          Row(
             children: [
               Icon(Icons.translate_rounded, color: _green, size: 16),
               SizedBox(width: 6),
-              Text('MEAL',
+              Text(AppLocalizations.of(context).uiMeal,
                   style: TextStyle(
                       color: _green,
                       fontSize: 11,

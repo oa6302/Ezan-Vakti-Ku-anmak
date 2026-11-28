@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:nur_pusulasi/app/shadows.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
@@ -35,33 +36,33 @@ class HijriPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Hicri Yasam Cizgisi',
+        title: Text(AppLocalizations.of(context).uiHicriYasamCizgisi,
             style: TextStyle(
                 color: _navy, fontSize: 17, fontWeight: FontWeight.w900)),
       ),
       body: ListView(
         padding: const EdgeInsets.all(14),
         children: [
-          _hero(),
+          _hero(context),
           const SizedBox(height: 14),
           if (birth == null)
             _birthPrompt(context)
           else ...[
-            _hijriTodayCard(),
+            _hijriTodayCard(context),
             const SizedBox(height: 14),
             _journeyCard(context, journey!),
             const SizedBox(height: 14),
           ],
-          _specialDaysCard(),
+          _specialDaysCard(context),
           const SizedBox(height: 14),
-          _infoBox(),
+          _infoBox(context),
           const SizedBox(height: 20),
         ],
       ),
     );
   }
 
-  Widget _hero() {
+  Widget _hero(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
@@ -87,17 +88,17 @@ class HijriPage extends StatelessWidget {
                 const Icon(Icons.auto_awesome_rounded, color: _gold, size: 26),
           ),
           const SizedBox(width: 14),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Hicri Yolculuk',
+                Text(AppLocalizations.of(context).uiHicriYolculuk,
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 18,
                         fontWeight: FontWeight.w900)),
                 SizedBox(height: 4),
-                Text('Miladi zamani hicri bakisla gor.',
+                Text(AppLocalizations.of(context).uiMiladiZamaniHicriBakisla,
                     style: TextStyle(color: Colors.white70, fontSize: 12)),
               ],
             ),
@@ -127,12 +128,12 @@ class HijriPage extends StatelessWidget {
                 color: _gold, size: 36),
           ),
           const SizedBox(height: 16),
-          const Text('Dogum Tarihini Gir',
+          Text(AppLocalizations.of(context).uiDogumTarihiniGir,
               style: TextStyle(
                   color: _navy, fontSize: 16, fontWeight: FontWeight.w900)),
           const SizedBox(height: 8),
-          const Text(
-            'Hicri takvimde kac gun, kac Ramazan, kac cuma yasadigini goreceksin.',
+          Text(
+            AppLocalizations.of(context).uiHicriTakvimdeKacGun,
             textAlign: TextAlign.center,
             style: TextStyle(color: Colors.black54, fontSize: 12, height: 1.5),
           ),
@@ -149,7 +150,7 @@ class HijriPage extends StatelessWidget {
               onPressed: () => _pickBirth(context),
               icon:
                   const Icon(Icons.edit_calendar_rounded, color: Colors.white),
-              label: const Text('Tarih Sec',
+              label: Text(AppLocalizations.of(context).uiTarihSec,
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 15,
@@ -161,7 +162,7 @@ class HijriPage extends StatelessWidget {
     );
   }
 
-  Widget _hijriTodayCard() {
+  Widget _hijriTodayCard(BuildContext context) {
     final now = DateTime.now();
     final h = gregorianToHijri(now);
     return Container(
@@ -192,7 +193,7 @@ class HijriPage extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text('BUGUN (HICRI)',
+                Text(AppLocalizations.of(context).uiBugunHicri,
                     style: TextStyle(
                         color: _gold,
                         fontSize: 10,
@@ -235,7 +236,7 @@ class HijriPage extends StatelessWidget {
                     const Icon(Icons.timeline_rounded, color: _navy, size: 16),
               ),
               const SizedBox(width: 10),
-              const Text('Yasam Cizgin',
+              Text(AppLocalizations.of(context).uiYasamCizgin,
                   style: TextStyle(
                       color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
               const Spacer(),
@@ -245,7 +246,8 @@ class HijriPage extends StatelessWidget {
                   padding: EdgeInsets.zero,
                   minimumSize: const Size(0, 28),
                 ),
-                child: const Text('Degistir', style: TextStyle(fontSize: 11)),
+                child: Text(AppLocalizations.of(context).uiDegistir,
+                    style: TextStyle(fontSize: 11)),
               ),
             ],
           ),
@@ -275,7 +277,9 @@ class HijriPage extends StatelessWidget {
                 const SizedBox(width: 8),
                 Expanded(
                   child: Text(
-                    'Tahmini ${j.remainingRamazans} Ramazan daha yasayabilirsin (75 yas varsayimi).',
+                    AppLocalizations.of(context)
+                        .uiFTahminiRamazanDahaYasayabilirsin(
+                            j.remainingRamazans),
                     style: const TextStyle(
                         color: _navy, fontSize: 11, height: 1.4),
                   ),
@@ -312,7 +316,7 @@ class HijriPage extends StatelessWidget {
     );
   }
 
-  Widget _specialDaysCard() {
+  Widget _specialDaysCard(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
@@ -334,7 +338,7 @@ class HijriPage extends StatelessWidget {
                 child: const Icon(Icons.star_rounded, color: _gold, size: 16),
               ),
               const SizedBox(width: 10),
-              const Text('Onemli Hicri Gunler',
+              Text(AppLocalizations.of(context).uiOnemliHicriGunler,
                   style: TextStyle(
                       color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
             ],
@@ -401,7 +405,7 @@ class HijriPage extends StatelessWidget {
     );
   }
 
-  Widget _infoBox() {
+  Widget _infoBox(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
@@ -409,13 +413,13 @@ class HijriPage extends StatelessWidget {
         borderRadius: BorderRadius.circular(14),
         border: Border.all(color: _gold.withValues(alpha: 0.3)),
       ),
-      child: const Row(
+      child: Row(
         children: [
           Icon(Icons.info_outline_rounded, color: _gold, size: 18),
           SizedBox(width: 10),
           Expanded(
             child: Text(
-              'Hicri tarihler yaklasik hesaplanir. Resmi kandil ve bayram tarihleri icin Diyanet Isleri Baskanligi takvimini esas aliniz.',
+              AppLocalizations.of(context).uiHicriTarihlerYaklasikHesaplanir,
               style: TextStyle(color: _navy, fontSize: 11, height: 1.5),
             ),
           ),

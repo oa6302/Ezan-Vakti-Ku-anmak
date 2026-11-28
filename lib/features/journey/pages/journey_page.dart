@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/shadows.dart';
 import '../../prayer/data/prayer_tracker.dart';
 import '../widgets/year_heatmap.dart';
@@ -53,7 +54,7 @@ class _JourneyPageState extends State<JourneyPage> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Manevi Yolculuk',
+        title: Text(AppLocalizations.of(context).journeyTitle,
             style: TextStyle(
                 color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
@@ -112,7 +113,7 @@ class _JourneyPageState extends State<JourneyPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text('Yolculuk Seviyesi',
+                    Text(AppLocalizations.of(context).uiYolculukSeviyesi,
                         style: TextStyle(color: Colors.white70, fontSize: 11)),
                     const SizedBox(height: 2),
                     Text(level,
@@ -130,7 +131,7 @@ class _JourneyPageState extends State<JourneyPage> {
                   color: _gold.withValues(alpha: 0.15),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: Text('$_total vakit',
+                child: Text(AppLocalizations.of(context).uiFVakit(_total),
                     style: const TextStyle(
                         color: _gold,
                         fontSize: 12,
@@ -149,7 +150,9 @@ class _JourneyPageState extends State<JourneyPage> {
             ),
           ),
           const SizedBox(height: 6),
-          Text('${(progress * 100).round()}% · Sonraki seviyeye',
+          Text(
+              AppLocalizations.of(context)
+                  .uiFSonrakiSeviyeye((progress * 100).round()),
               style: const TextStyle(color: Colors.white54, fontSize: 10)),
         ],
       ),
@@ -240,7 +243,7 @@ class _JourneyPageState extends State<JourneyPage> {
                     color: _navy, size: 16),
               ),
               const SizedBox(width: 10),
-              const Text('Son 30 Gün',
+              Text(AppLocalizations.of(context).uiSon30Gun,
                   style: TextStyle(
                       color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
             ],
@@ -322,7 +325,7 @@ class _JourneyPageState extends State<JourneyPage> {
                 child: const Icon(Icons.flag_rounded, color: _gold, size: 16),
               ),
               const SizedBox(width: 10),
-              const Text('Sonraki Hedef',
+              Text(AppLocalizations.of(context).uiSonrakiHedef,
                   style: TextStyle(
                       color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
               const Spacer(),

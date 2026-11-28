@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'content_manager_page.dart';
+import 'gunluk_yonetim_page.dart';
 import 'package:nur_pusulasi/app/admin_session.dart';
 import 'package:nur_pusulasi/app/theme.dart';
 
@@ -34,29 +35,32 @@ class _AdminGatePageState extends State<AdminGatePage> {
     if (!mounted) return;
     Navigator.of(context).pushReplacement(
       MaterialPageRoute<void>(
-        builder: (_) => const ContentManagerPage(),
+        builder: (_) => const GunlukYonetimPage(),
       ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
+    // Oturum aciksa (ana sayfadan geri donus) PIN tekrar sorulmaz
+    if (AdminSession.instance.isAdmin) return const GunlukYonetimPage();
     return Scaffold(
-      appBar: AppBar(title: const Text('Yonetici Girisi')),
+      appBar:
+          AppBar(title: Text(AppLocalizations.of(context).uiYoneticiGirisi)),
       body: ListView(
         padding: const EdgeInsets.all(22),
         children: [
           const Icon(Icons.admin_panel_settings_rounded, size: 64, color: navy),
           const SizedBox(height: 16),
-          const Text(
-            'Icerik Yonetimi',
+          Text(
+            AppLocalizations.of(context).uiIcerikYonetimi,
             textAlign: TextAlign.center,
             style: TextStyle(
                 fontSize: 23, fontWeight: FontWeight.w900, color: navy),
           ),
           const SizedBox(height: 8),
-          const Text(
-            'Yonetici PIN kodunu girin. Bu PIN cihaz ici basit bir engeldir; guvenli kimlik dogrulama yerine gecmez.',
+          Text(
+            AppLocalizations.of(context).uiYoneticiPinKodunuGirin,
             textAlign: TextAlign.center,
           ),
           const SizedBox(height: 22),
@@ -66,7 +70,7 @@ class _AdminGatePageState extends State<AdminGatePage> {
             keyboardType: TextInputType.number,
             maxLength: 12,
             decoration: InputDecoration(
-              labelText: 'Yonetici PIN',
+              labelText: AppLocalizations.of(context).uiYoneticiPin,
               errorText: _error,
               border:
                   OutlineInputBorder(borderRadius: BorderRadius.circular(16)),
@@ -76,7 +80,7 @@ class _AdminGatePageState extends State<AdminGatePage> {
           const SizedBox(height: 12),
           FilledButton(
             onPressed: _openAdmin,
-            child: const Text('Yonetim panelini ac'),
+            child: Text(AppLocalizations.of(context).uiYonetimPaneliniAc),
           ),
         ],
       ),

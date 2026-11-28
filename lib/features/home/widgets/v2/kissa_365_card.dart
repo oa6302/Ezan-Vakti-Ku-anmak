@@ -1,7 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/widgets/nur_kart.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/data/islami_kissalar.dart';
-import 'package:nur_pusulasi/features/kissa/pages/kissa_tefekkur_page.dart';
+import 'package:nur_pusulasi/features/kissa/pages/kissa_kutuphanesi_page.dart';
 import 'package:nur_pusulasi/widgets/admin_edit_overlay.dart';
+import 'package:nur_pusulasi/app/content_service.dart';
+import 'package:nur_pusulasi/app/gunluk_plan.dart';
+
+/// Admin plani (yayinda) varsa o kissa; yoksa yil gunune gore arsiv sirasi.
+Kissa? gununKissasi(DateTime tarih) {
+  if (islamiKissalar.isEmpty) return null;
+  final id = GunlukPlanServisi.instance
+      .yayindaki(ContentType.kissa, tarih)
+      ?.extra?['kissaId'];
+  final planli = islamiKissalar.where((k) => k.id == id);
+  if (planli.isNotEmpty) return planli.first;
+  final gunNo = tarih.difference(DateTime(tarih.year, 1, 1)).inDays;
+  return islamiKissalar[gunNo % islamiKissalar.length];
+}
 
 class Kissa365Card extends StatefulWidget {
   const Kissa365Card({super.key});
@@ -14,32 +30,23 @@ class _Kissa365CardState extends State<Kissa365Card> {
   final _repaintKey = GlobalKey();
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) => ListenableBuilder(
+      listenable: GunlukPlanServisi.instance,
+      builder: (context, _) => _kart(context));
+
+  Widget _kart(BuildContext context) {
     if (islamiKissalar.isEmpty) {
       return const SizedBox.shrink();
     }
 
     final bugun = DateTime.now();
-    final gunNo = bugun.difference(DateTime(bugun.year, 1, 1)).inDays;
-    final kissa = islamiKissalar[gunNo % islamiKissalar.length];
-    final ozet = kissa.ozet.trim().isNotEmpty ? kissa.ozet : kissa.hisse;
+    final kissa = gununKissasi(bugun);
+    if (kissa == null) return const SizedBox.shrink();
+    // Kartta kissanin baslangici; devami detay sayfasinda
+    final ozet = kissa.baslangic.isNotEmpty ? kissa.baslangic : kissa.hisse;
 
     return Container(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(26),
-        border: Border.all(color: const Color(0xFFD0C79F), width: 1.2),
-        gradient: const LinearGradient(
-            colors: [Color(0xFFF0F0E4), Color(0xFFE4E4D0), Color(0xFFF8F5E9)],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight),
-        boxShadow: [
-          BoxShadow(
-            color: Color(0x383F4934),
-            blurRadius: 28,
-            offset: Offset(0, 12),
-          ),
-        ],
-      ),
+      decoration: NurKartStili.kutu(),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -60,24 +67,24 @@ class _Kissa365CardState extends State<Kissa365Card> {
                         width: 46,
                         height: 46,
                         decoration: BoxDecoration(
-                          color: const Color(0xFFE7E8D8),
+                          color: const Color(0xFFF3F6FB),
                           borderRadius: BorderRadius.circular(15),
                         ),
                         child: Icon(
                           kissa.ikon,
-                          color: const Color(0xFFE8C77A),
+                          color: const Color(0xFFC8102E),
                           size: 26,
                         ),
                       ),
                       const SizedBox(width: 12),
-                      const Expanded(
+                      Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'GÜNÜN KISSASI',
+                              AppLocalizations.of(context).uiGununKissasi,
                               style: TextStyle(
-                                color: Color(0xFFE8C77A),
+                                color: Color(0xFFC8102E),
                                 fontSize: 10,
                                 fontWeight: FontWeight.w900,
                                 letterSpacing: 1.3,
@@ -85,9 +92,10 @@ class _Kissa365CardState extends State<Kissa365Card> {
                             ),
                             SizedBox(height: 4),
                             Text(
-                              'Her kıssada bir hikmet',
+                              AppLocalizations.of(context)
+                                  .uiHerKissadaBirHikmet,
                               style: TextStyle(
-                                color: Color(0xFF0A1F44),
+                                color: Color(0xFF142747),
                                 fontSize: 17,
                                 fontWeight: FontWeight.w800,
                               ),
@@ -97,7 +105,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                       ),
                       const Icon(
                         Icons.auto_stories_rounded,
-                        color: Color(0xFF9B8751),
+                        color: Color(0xFFC8102E),
                         size: 23,
                       ),
                     ],
@@ -118,7 +126,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                             blurRadius: 2,
                             offset: Offset(0, 1)),
                       ],
-                      color: Color(0xFF0A1F44),
+                      color: Color(0xFF142747),
                       fontSize: 19,
                       fontWeight: FontWeight.w900,
                       height: 1.4,
@@ -130,7 +138,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                     const SizedBox(height: 11),
                     Text(
                       ozet,
-                      maxLines: 4,
+                      maxLines: 6,
                       overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
                         shadows: [
@@ -156,7 +164,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                     width: double.infinity,
                     padding: const EdgeInsets.all(14),
                     decoration: BoxDecoration(
-                      color: const Color(0xFFFFFDF6),
+                      color: const Color(0xFFFFFFFF),
                       borderRadius: BorderRadius.circular(17),
                       border: Border.all(
                         color: Colors.white.withValues(alpha: 0.10),
@@ -167,7 +175,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                       children: [
                         const Icon(
                           Icons.lightbulb_outline_rounded,
-                          color: Color(0xFFE8C77A),
+                          color: Color(0xFFC8102E),
                           size: 20,
                         ),
                         const SizedBox(width: 10),
@@ -175,10 +183,10 @@ class _Kissa365CardState extends State<Kissa365Card> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              const Text(
-                                'KISSADAN HİSSE',
+                              Text(
+                                AppLocalizations.of(context).uiKissadanHisse,
                                 style: TextStyle(
-                                  color: Color(0xFFE8C77A),
+                                  color: Color(0xFFC8102E),
                                   fontSize: 10,
                                   fontWeight: FontWeight.w900,
                                   letterSpacing: 0.8,
@@ -198,7 +206,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                                         blurRadius: 2,
                                         offset: Offset(0, 1)),
                                   ],
-                                  color: Color(0xFF0A1F44),
+                                  color: Color(0xFF142747),
                                   fontSize: 13,
                                   height: 1.6,
                                   fontWeight: FontWeight.w600,
@@ -258,18 +266,18 @@ class _Kissa365CardState extends State<Kissa365Card> {
           Padding(
             padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
             child: Material(
-              color: const Color(0xFFD8C58D),
+              color: const Color(0xFFC8102E),
               borderRadius: BorderRadius.circular(15),
               child: InkWell(
                 borderRadius: BorderRadius.circular(15),
                 onTap: () {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (_) => KissaTefekkurPage(kissa: kissa),
+                      builder: (_) => KissaDetayPage(kissa: kissa),
                     ),
                   );
                 },
-                child: const Padding(
+                child: Padding(
                   padding: EdgeInsets.symmetric(
                     horizontal: 15,
                     vertical: 14,
@@ -278,8 +286,7 @@ class _Kissa365CardState extends State<Kissa365Card> {
                     children: [
                       Expanded(
                         child: Text(
-                          'Bu kıssanın hayatımıza bakan derin '
-                          'hakikatlerini keşfet',
+                          AppLocalizations.of(context).uiKissaDevaminiOku,
                           style: TextStyle(
                             color: Color(0xFF10264B),
                             fontSize: 12,
@@ -304,11 +311,11 @@ class _Kissa365CardState extends State<Kissa365Card> {
           // ============================================
           // 4) FOOTER
           // ============================================
-          const Padding(
+          Padding(
             padding: EdgeInsets.fromLTRB(20, 11, 20, 20),
             child: Center(
               child: Text(
-                'Geçmişin hadisesinden bugünün imanî derslerine...',
+                AppLocalizations.of(context).uiGecmisinHadisesindenBugununIman,
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Color(0xFF526078),

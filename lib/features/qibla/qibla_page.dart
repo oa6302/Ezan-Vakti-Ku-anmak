@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'dart:math' as math;
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
@@ -230,7 +231,7 @@ class _QiblaPageState extends State<QiblaPage> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Kıble Pusulası',
+        title: Text(AppLocalizations.of(context).uiKiblePusulasi,
             style: TextStyle(
                 color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
@@ -247,7 +248,7 @@ class _QiblaPageState extends State<QiblaPage> {
                       child: ElevatedButton.icon(
                         onPressed: () => setState(() => _showMap = false),
                         icon: const Icon(Icons.explore_rounded),
-                        label: const Text('Pusula'),
+                        label: Text(AppLocalizations.of(context).tabQibla),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: !_showMap ? _navy : Colors.white,
                           foregroundColor: !_showMap ? Colors.white : _navy,
@@ -265,7 +266,7 @@ class _QiblaPageState extends State<QiblaPage> {
                       child: ElevatedButton.icon(
                         onPressed: () => setState(() => _showMap = true),
                         icon: const Icon(Icons.map_rounded),
-                        label: const Text('Harita'),
+                        label: Text(AppLocalizations.of(context).uiHarita),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: _showMap ? _red : Colors.white,
                           foregroundColor: _showMap ? Colors.white : _navy,
@@ -396,8 +397,8 @@ class _QiblaPageState extends State<QiblaPage> {
               ),
               const Icon(Icons.arrow_forward_rounded, color: _red),
               const SizedBox(width: 8),
-              const Text(
-                'Kâbe',
+              Text(
+                AppLocalizations.of(context).uiKBe,
                 style: TextStyle(
                   color: _red,
                   fontWeight: FontWeight.w900,
@@ -407,8 +408,8 @@ class _QiblaPageState extends State<QiblaPage> {
           ),
         ),
         const SizedBox(height: 10),
-        const Text(
-          'Kırmızı çizgi konumunuz ile Kâbe arasındaki yönü gösterir.',
+        Text(
+          AppLocalizations.of(context).uiKirmiziCizgiKonumunuzIle,
           textAlign: TextAlign.center,
           style: TextStyle(color: Colors.black54, fontSize: 12),
         ),
@@ -446,13 +447,14 @@ class _QiblaPageState extends State<QiblaPage> {
             TextButton.icon(
               onPressed: _requestLocation,
               icon: const Icon(Icons.my_location_rounded, size: 16),
-              label: const Text('Konumum', style: TextStyle(fontSize: 12)),
+              label: Text(AppLocalizations.of(context).uiKonumum,
+                  style: TextStyle(fontSize: 12)),
             ),
           IconButton(
             onPressed: _pickCity,
             icon:
                 const Icon(Icons.location_city_rounded, color: _navy, size: 20),
-            tooltip: 'Şehir seç',
+            tooltip: AppLocalizations.of(context).uiSehirSec,
           ),
         ],
       ),
@@ -682,16 +684,15 @@ class _QiblaPageState extends State<QiblaPage> {
         borderRadius: BorderRadius.circular(18),
       ),
       child: Column(
-        children: const [
+        children: [
           Icon(Icons.sensors_off_rounded, color: _red, size: 48),
           SizedBox(height: 12),
-          Text('Pusula sensörü bulunamadı',
+          Text(AppLocalizations.of(context).uiPusulaSensoruBulunamadi,
               style: TextStyle(
                   color: _navy, fontSize: 16, fontWeight: FontWeight.w900)),
           SizedBox(height: 8),
           Text(
-            'Bu cihazda manyetik pusula sensörü yok veya izin verilmedi.\n\n'
-            'Kıble açısı hesaplandı, ancak cihaz yönü gösterilemiyor.',
+            AppLocalizations.of(context).uiPusulaSensorYok,
             textAlign: TextAlign.center,
             style: TextStyle(color: Colors.black54, fontSize: 12, height: 1.6),
           ),
@@ -774,7 +775,7 @@ class _CityPickerState extends State<_CityPicker> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text('Şehir Seç',
+                Text(AppLocalizations.of(context).selectCity,
                     style: TextStyle(
                         color: _navy,
                         fontSize: 20,
@@ -784,7 +785,7 @@ class _CityPickerState extends State<_CityPicker> {
                   controller: _c,
                   onChanged: _filter,
                   decoration: InputDecoration(
-                    hintText: 'Şehir ara...',
+                    hintText: AppLocalizations.of(context).searchCity,
                     prefixIcon: const Icon(Icons.search_rounded, color: _navy),
                     filled: true,
                     fillColor: const Color(0xFFF3F6FA),

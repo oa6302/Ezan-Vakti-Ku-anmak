@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../data/quran_api_service.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -72,7 +73,7 @@ class _QuranFullDetailPageState extends State<QuranFullDetailPage> {
               style: FilledButton.styleFrom(backgroundColor: _navy),
               onPressed: _load,
               icon: const Icon(Icons.refresh_rounded),
-              label: const Text('Tekrar Dene'),
+              label: Text(AppLocalizations.of(context).uiTekrarDene),
             ),
           ],
         ),
@@ -114,7 +115,8 @@ class _QuranFullDetailPageState extends State<QuranFullDetailPage> {
                   fontWeight: FontWeight.w700)),
           const SizedBox(height: 8),
           Text(
-            '${widget.chapter.translatedName} - ${widget.chapter.versesCount} ayet',
+            AppLocalizations.of(context).uiFAyet(
+                widget.chapter.translatedName, widget.chapter.versesCount),
             style: const TextStyle(color: Colors.white70, fontSize: 12),
           ),
         ],

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:nur_pusulasi/app/gunluk_plan.dart';
 import 'package:nur_pusulasi/data/dua_havuzu.dart';
 import 'package:nur_pusulasi/data/vecize_havuzu.dart';
 import 'package:nur_pusulasi/data/dua_havuzu_2.dart';
@@ -258,9 +260,19 @@ class ContentService extends ChangeNotifier {
   Future<void> load() async {
     if (_loaded) return;
     _buildDefaults();
+    await _gunlukHavuzlariYukle();
     await _overlayFromPrefs();
     _loaded = true;
     notifyListeners();
+  }
+
+  /// Yenile: varliklar ve kalici admin kayitlari bastan okunur.
+  Future<void> yenidenYukle() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.reload();
+    _pools.clear();
+    _loaded = false;
+    await load();
   }
 
   /// Hardcoded havuzlardan default ContentItem listeleri olustur
@@ -334,7 +346,8 @@ class ContentService extends ChangeNotifier {
 
     _pools[ContentType.vecize] = vecizeHavuzu
         .map((v) => ContentItem(
-            id: 'vecize_${v.hashCode}',
+            // Sabit kimlik: nesne hashCode'u her acilista degisir, favoriler kaybolurdu
+            id: 'vecize_${_kararliHash(v.latin)}',
             type: ContentType.vecize,
             baslik: v.kategori,
             icerik: v.latin,
@@ -512,13 +525,145 @@ class ContentService extends ChangeNotifier {
               type: ContentType.hadis,
               baslik: h.baslik,
               icerik: h.metin,
-              arapca: h.arapca,
+              arapca: null, // hadislerde yalniz meal gosterilir
               altIcerik: h.kaynakRef,
               kaynak: h.kitap,
               kategori: h.kategori,
               durum: ContentStatus.yayinlandi,
             ))
         .toList();
+  }
+
+  /// 365 gunluk, kaynaktan dogrulanmis ayet ve hadis listeleri (gun sirasiyla).
+  /// Dosya okunamazsa eski havuz yedek olarak kalir.
+  Future<void> _gunlukHavuzlariYukle() async {
+    Future<List<Map<String, dynamic>>> oku(String p) async =>
+        (jsonDecode(await rootBundle.loadString(p)) as List)
+            .map((e) => Map<String, dynamic>.from(e as Map))
+            .toList();
+    try {
+      final ayetler = await oku('assets/content/gunluk_ayetler.json');
+      if (ayetler.isNotEmpty) {
+        _pools[ContentType.ayet] = ayetler
+            .map((a) => ContentItem(
+                  id: 'ayet_${a['anahtar']}',
+                  type: ContentType.ayet,
+                  baslik: a['kaynak'] as String,
+                  icerik: a['arapca'] as String,
+                  altIcerik: a['meal'] as String,
+                  arapca: a['arapca'] as String,
+                  kaynak: 'Diyanet İşleri Başkanlığı Meali',
+                  kategori: a['tema'] as String,
+                  dogrulandi: true,
+                  durum: ContentStatus.yayinlandi,
+                  kaynakTuru: KaynakTuru.diyanet,
+                ))
+            .toList();
+      }
+    } catch (e) {
+      debugPrint('gunluk_ayetler: $e');
+    }
+    try {
+      final hadisler = await oku('assets/content/gunluk_hadisler.json');
+      if (hadisler.isNotEmpty) {
+        _pools[ContentType.hadis] = hadisler
+            .map((h) => ContentItem(
+                  id: 'hadis_${_kararliHash(h['numara'] as String)}',
+                  type: ContentType.hadis,
+                  baslik: h['tema'] as String,
+                  icerik: h['metin'] as String,
+                  arapca: null, // hadislerde yalniz meal gosterilir
+                  altIcerik: h['numara'] as String,
+                  kaynak: h['kaynak'] as String,
+                  kategori: h['tema'] as String,
+                  dogrulandi: true,
+                  durum: ContentStatus.yayinlandi,
+                ))
+            .toList();
+      }
+    } catch (e) {
+      debugPrint('gunluk_hadisler: $e');
+    }
+    try {
+      // Yalniz kaynagi dogrulanmis dualar gunluk havuza girer. Eski
+      // dua_havuzu*.dart kayitlari (147) incelendi: hepsi ya bu listede
+      // dogrulanmis karsiligiyla var ya da kaynagi zayif/yanlis; dosyalar
+      // silinmez, yalniz varlik dosyasi okunamazsa yedek olarak kalir.
+      final dualar = await oku('assets/content/gunluk_dualar.json');
+      if (dualar.isNotEmpty) {
+        final dogrulanmis = dualar
+            .map((d) => ContentItem(
+                  id: 'gdua_${_kararliHash('${d['kaynak']}|${d['anlam']}')}',
+                  type: ContentType.dua,
+                  baslik: d['baslik'] as String,
+                  icerik: (d['okunus'] as String?) ?? '',
+                  altIcerik: d['anlam'] as String,
+                  arapca: (d['arapca'] as String?) ?? '',
+                  kaynak: d['kaynak'] as String,
+                  kategori: d['kategori'] as String?,
+                  dogrulandi: true,
+                  durum: ContentStatus.yayinlandi,
+                  extra: {
+                    'sihhat': d['sihhat'],
+                    // Ceviri yazim hatasi duzeltildiyse acikca gosterilir
+                    if (d['duzeltme'] != null) 'aciklama': d['duzeltme'],
+                  },
+                ))
+            .toList();
+        _pools[ContentType.dua] = dogrulanmis;
+      }
+    } catch (e) {
+      debugPrint('gunluk_dualar: $e');
+    }
+    try {
+      // Osmanlica ve Latince ayni kaynak cumlesinden (kelime kelime); eski
+      // sadelestirilmis vecizeler vecize_havuzu.dart'ta korunur.
+      final vecizeler = await oku('assets/content/gunluk_vecizeler.json');
+      if (vecizeler.isNotEmpty) {
+        _pools[ContentType.vecize] = vecizeler
+            .map((v) => ContentItem(
+                  id: 'vecize_${_kararliHash(v['latin'] as String)}',
+                  type: ContentType.vecize,
+                  baslik: v['kategori'] as String,
+                  icerik: v['latin'] as String,
+                  altIcerik: v['osmanlica'] as String,
+                  kaynak:
+                      'BEDÎÜZZAMAN SAİD NURSÎ · ${(v['eser'] as String).toUpperCase()}',
+                  kategori: v['kategori'] as String,
+                  dogrulandi: true,
+                  kaynakTuru: KaynakTuru.risale,
+                  durum: ContentStatus.yayinlandi,
+                  extra: {'eser': v['eser'], 'sayfa': v['sayfa']},
+                ))
+            .toList();
+      }
+    } catch (e) {
+      debugPrint('gunluk_vecizeler: $e');
+    }
+    try {
+      // Asil eserlerden aynen pasajlar once; mevcut risale kayitlari korunur
+      final pasajlar = await oku('assets/content/gunluk_risale.json');
+      if (pasajlar.isNotEmpty) {
+        _pools[ContentType.risale] = [
+          ...pasajlar.map((r) => ContentItem(
+                id: 'risale_${_kararliHash(r['latin'] as String)}',
+                type: ContentType.risale,
+                baslik: r['baslik'] as String,
+                icerik: r['latin'] as String,
+                arapca: r['osmanlica'] as String?,
+                kaynak: r['eser'] as String,
+                kategori: r['bolum'] as String,
+                dogrulandi: true,
+                kaynakTuru: KaynakTuru.risale,
+                durum: ContentStatus.yayinlandi,
+                extra: {'sayfa': r['sayfa']},
+              )),
+          ...?_pools[ContentType.risale],
+        ];
+      }
+    } catch (e) {
+      debugPrint('gunluk_risale: $e');
+    }
   }
 
   /// SharedPreferences'taki override'lari yukle
@@ -576,7 +721,18 @@ class ContentService extends ChangeNotifier {
   }
 
   /// Belirli bir içerik havuzundan tarihe göre dolu kayıt seçer.
-  ContentItem? getDailyPoolItem(ContentType type, DateTime date) {
+  ContentItem? getDailyPoolItem(ContentType type, DateTime date) =>
+      GunlukPlanServisi.instance.yayindaki(type, date) ??
+      otomatikGunlukKayit(type, date);
+
+  /// Admin plani olmadan arsiv sirasinin o gune verdigi kayit.
+  bool planliMi(ContentType type, DateTime date) =>
+      GunlukPlanServisi.instance.yayindaki(type, date) != null;
+
+  /// Plan degisince kartlar yeniden cizilir.
+  void planDegisti() => notifyListeners();
+
+  ContentItem? otomatikGunlukKayit(ContentType type, DateTime date) {
     final pool = _pools[type];
     if (pool == null || pool.isEmpty) return null;
     final doluKayitlar = pool
@@ -833,4 +989,14 @@ class ContentService extends ChangeNotifier {
         baslik: type.label,
         icerik: 'Icerik yakinda eklenecek.',
       );
+}
+
+/// FNV-1a: platformdan ve calistirmadan bagimsiz, metinden turetilen kimlik.
+String _kararliHash(String s) {
+  var h = 0x811c9dc5;
+  for (final c in s.codeUnits) {
+    h ^= c;
+    h = (h * 0x01000193) & 0xFFFFFFFF;
+  }
+  return h.toRadixString(16);
 }

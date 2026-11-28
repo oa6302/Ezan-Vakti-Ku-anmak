@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/shadows.dart';
 import '../data/khushu_tracker.dart';
 
@@ -59,8 +60,8 @@ class _KhushuPageState extends State<KhushuPage> {
     await _load();
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Huşu kaydı eklendi'),
+        SnackBar(
+          content: Text(AppLocalizations.of(context).uiHusuKaydiEklendi),
           backgroundColor: _green,
         ),
       );
@@ -72,7 +73,7 @@ class _KhushuPageState extends State<KhushuPage> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Huşu Takibi',
+        title: Text(AppLocalizations.of(context).khushuTitle,
             style: TextStyle(
                 color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
@@ -123,17 +124,19 @@ class _KhushuPageState extends State<KhushuPage> {
             child: const Icon(Icons.favorite_rounded, color: _gold, size: 26),
           ),
           const SizedBox(width: 14),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Kalp Huzuru',
+                Text(AppLocalizations.of(context).uiKalpHuzuru,
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 18,
                         fontWeight: FontWeight.w900)),
                 SizedBox(height: 4),
-                Text('Namazda kalbin neredeydi? Yargılamadan fark et.',
+                Text(
+                    AppLocalizations.of(context)
+                        .uiNamazdaKalbinNeredeydiYargilamadan,
                     style: TextStyle(color: Colors.white70, fontSize: 12)),
               ],
             ),
@@ -154,11 +157,11 @@ class _KhushuPageState extends State<KhushuPage> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('Bu namazda huşu seviyen?',
+          Text(AppLocalizations.of(context).uiBuNamazdaHusuSeviyen,
               style: TextStyle(
                   color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
           const SizedBox(height: 4),
-          const Text('1 = dağınık, 5 = derin',
+          Text(AppLocalizations.of(context).ui1Daginik5Derin,
               style: TextStyle(color: Colors.black54, fontSize: 11)),
           const SizedBox(height: 14),
           Row(
@@ -226,7 +229,7 @@ class _KhushuPageState extends State<KhushuPage> {
               ),
               onPressed: _selected == 0 ? null : _save,
               icon: const Icon(Icons.check_circle_rounded, color: Colors.white),
-              label: const Text('Kaydet',
+              label: Text(AppLocalizations.of(context).adminSave,
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 15,
@@ -319,11 +322,11 @@ class _KhushuPageState extends State<KhushuPage> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('Haftalık Huşu',
+          Text(AppLocalizations.of(context).uiHaftalikHusu,
               style: TextStyle(
                   color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
           const SizedBox(height: 4),
-          const Text('Son 7 günde ortalama huşu seviyen',
+          Text(AppLocalizations.of(context).uiSon7GundeOrtalama,
               style: TextStyle(color: Colors.black54, fontSize: 11)),
           const SizedBox(height: 16),
           SizedBox(
@@ -386,12 +389,12 @@ class _KhushuPageState extends State<KhushuPage> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('Huşu Dağılımı',
+          Text(AppLocalizations.of(context).uiHusuDagilimi,
               style: TextStyle(
                   color: _navy, fontSize: 14, fontWeight: FontWeight.w900)),
           const SizedBox(height: 12),
           if (total == 0)
-            const Text('Henüz kayıt yok',
+            Text(AppLocalizations.of(context).uiHenuzKayitYok,
                 style: TextStyle(color: Colors.black54, fontSize: 12))
           else
             ...List.generate(5, (i) {
@@ -449,13 +452,13 @@ class _KhushuPageState extends State<KhushuPage> {
         borderRadius: BorderRadius.circular(14),
         border: Border.all(color: _gold.withValues(alpha: 0.3)),
       ),
-      child: const Row(
+      child: Row(
         children: [
           Icon(Icons.info_outline_rounded, color: _gold, size: 18),
           SizedBox(width: 10),
           Expanded(
             child: Text(
-              "Huşu puanı kişisel farkındalık içindir. Namazın kabulü Allah'a aittir; düşük puan utanç değil, gelişim fırsatıdır.",
+              AppLocalizations.of(context).uiHusuPuaniKisiselFarkindalik,
               style: TextStyle(color: _navy, fontSize: 11, height: 1.5),
             ),
           ),

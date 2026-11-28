@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../../app/theme.dart';
 import '../../app/shadows.dart';
 import 'daily_goals_page.dart';
@@ -14,7 +15,7 @@ class GrowthPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: kArkaPlan,
       appBar: AppBar(
-        title: const Text('Kişisel Manevi Pusula',
+        title: Text(AppLocalizations.of(context).uiKisiselManeviPusula,
             style: TextStyle(fontWeight: FontWeight.bold)),
         backgroundColor: kKartYuzeyi,
         foregroundColor: kAnaLacivert,
@@ -27,8 +28,8 @@ class GrowthPage extends StatelessWidget {
           children: [
             _buildMenuCard(
               context,
-              title: 'Günlük Hedefler',
-              subtitle: 'Bugünkü manevî yolculuğun',
+              title: AppLocalizations.of(context).dailyGoals,
+              subtitle: AppLocalizations.of(context).uiBugunkuManevYolculugun,
               icon: Icons.track_changes_rounded,
               color: kAnaTurkuaz,
               onTap: () => Navigator.push(context,
@@ -37,8 +38,8 @@ class GrowthPage extends StatelessWidget {
             const SizedBox(height: 16),
             _buildMenuCard(
               context,
-              title: 'Şükür Defteri',
-              subtitle: 'Bir nimet için şükret ve kaydet',
+              title: AppLocalizations.of(context).gratitudeJournal,
+              subtitle: AppLocalizations.of(context).uiBirNimetIcinSukret,
               icon: Icons.edit_note_rounded,
               color: kBasariYesili,
               onTap: () => Navigator.push(
@@ -49,8 +50,8 @@ class GrowthPage extends StatelessWidget {
             const SizedBox(height: 16),
             _buildMenuCard(
               context,
-              title: 'Okuma Planım',
-              subtitle: 'Küçük adımlar, düzenli bir gelişim',
+              title: AppLocalizations.of(context).uiOkumaPlanim,
+              subtitle: AppLocalizations.of(context).uiKucukAdimlarDuzenliBir,
               icon: Icons.menu_book_rounded,
               color: kZarifBordo,
               onTap: () => Navigator.push(context,
@@ -59,8 +60,8 @@ class GrowthPage extends StatelessWidget {
             const SizedBox(height: 16),
             _buildMenuCard(
               context,
-              title: 'Haftalık İlerleme',
-              subtitle: 'İlerlemeni görüntüle',
+              title: AppLocalizations.of(context).uiHaftalikIlerleme,
+              subtitle: AppLocalizations.of(context).uiIlerlemeniGoruntule,
               icon: Icons.insights_rounded,
               color: kAnaLacivert,
               onTap: () => Navigator.push(

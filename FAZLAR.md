@@ -38,9 +38,13 @@ Her faz ayrı dal + PR: `faz/N-ad`. Faz bitti sayılması için **Bitti Kriteri*
 ## F4 — Takip ve gelişim ✅ (açılış/taşma)
 - [x] Growth, journey, khushu, mood, hifz, family, combo, assistant hatasız; Combo dokunma efekti düzeltildi.
 
-## F5 — Yönetim ve dil (kısmi)
+## F5 — Yönetim ve dil ✅
 - [x] Alt menü, Daha Fazla, Hakkında tr/en/ar; `appTitle` düzeltildi; admin PIN arayüzde görünmez.
-- [ ] Sayfa içi metinler (~260 sabit metin) hâlâ Türkçe; dua/hadis içerikleri bilinçli olarak Türkçe kalır.
+- [x] Sayfa içi arayüz metinleri tr/en/ar (~400 yer, ~340 anahtar); değişkenli metinler ICU yer tutuculu.
+- [x] Bozuk kodlanmış (ArapÃ§a…) ve Türkçe karakteri silinmiş metinler düzeltildi.
+- [x] Duman testi her sayfayı 3 dilde açar (75 açılış).
+- Bilinçli Türkçe kalanlar: dua/hadis/kıssa içerikleri, marka adı "Nur Pusulası", namaz vakti adları (veri).
+- [ ] Arapça seçilince yerleşim hâlâ soldan sağa (tasarım kararı: `main.dart` builder). Tam RTL ayrı iş.
 
 ## F6 — Yayın
 - [x] Web ve release APK derleniyor (62.5 MB).

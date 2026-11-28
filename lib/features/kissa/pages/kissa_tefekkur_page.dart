@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/features/kissa/widgets/kissa_paylasim_butonlari.dart';
 import 'package:nur_pusulasi/data/islami_kissalar.dart';
 
@@ -72,7 +73,7 @@ class KissaTefekkurPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Zamanımıza Bakan Yönü'),
+        title: Text(AppLocalizations.of(context).uiZamanimizaBakanYonu),
         centerTitle: true,
         actions: [
           KissaPaylasimButonlari(
@@ -105,8 +106,8 @@ class KissaTefekkurPage extends StatelessWidget {
                   size: 35,
                 ),
                 const SizedBox(height: 13),
-                const Text(
-                  'KISSANIN ZAMANIMIZA BAKAN YÖNÜ',
+                Text(
+                  AppLocalizations.of(context).uiKissaninZamanimizaBakanYonu,
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Color(0xFFE8C77A),
@@ -127,7 +128,8 @@ class KissaTefekkurPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 12),
                 Text(
-                  'Geçmişin hadisesinden bugünün imanî derslerine...',
+                  AppLocalizations.of(context)
+                      .uiGecmisinHadisesindenBugununIman,
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                         color: Colors.white.withValues(alpha: 0.85),
@@ -178,8 +180,7 @@ class KissaTefekkurPage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(top: 4, bottom: 12),
               child: Text(
-                'Bu kıssanın daha geniş tefekkür metni hazırlanıyor. '
-                'Mevcut kıssadan hisseyi burada okuyabilirsin.',
+                AppLocalizations.of(context).uiTefekkurHazirlaniyor,
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
                       color: Theme.of(context).colorScheme.onSurfaceVariant,
                       height: 1.6,
@@ -196,8 +197,8 @@ class KissaTefekkurPage extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
-                  'Kendimize soralım',
+                Text(
+                  AppLocalizations.of(context).uiKendimizeSoralim,
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w800,
@@ -205,8 +206,7 @@ class KissaTefekkurPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 9),
                 Text(
-                  'Bu kıssanın ışığında bugün hangi davranışımı '
-                  'güzelleştirebilirim?',
+                  AppLocalizations.of(context).uiTefekkurSoru,
                   style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                         height: 1.65,
                       ),
@@ -216,7 +216,7 @@ class KissaTefekkurPage extends StatelessWidget {
           ),
           const SizedBox(height: 18),
           Text(
-            'Kaynak: ${kissa.kaynak}',
+            AppLocalizations.of(context).uiFKaynak(kissa.kaynak),
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   color: Theme.of(context).colorScheme.onSurfaceVariant,
@@ -225,8 +225,7 @@ class KissaTefekkurPage extends StatelessWidget {
           ),
           const SizedBox(height: 10),
           Text(
-            'Bu tefekkür, kıssadan çıkarılan güncel dersleri yorumlar; '
-            'doğrudan ayet meali değildir.',
+            AppLocalizations.of(context).uiTefekkurNot,
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   color: Theme.of(context).colorScheme.onSurfaceVariant,

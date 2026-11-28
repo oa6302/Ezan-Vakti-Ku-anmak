@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../app/state/app_state.dart';
@@ -270,8 +271,8 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
         surfaceTintColor: Colors.white,
         elevation: 0,
         iconTheme: const IconThemeData(color: _navy),
-        title: const Text(
-          'Bildirim Ayarları',
+        title: Text(
+          AppLocalizations.of(context).notificationSettings,
           style: TextStyle(
             color: _navy,
             fontSize: 19,
@@ -400,18 +401,20 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
                     color: _gold, size: 28),
               ),
               const SizedBox(width: 14),
-              const Expanded(
+              Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Ezan Vakti Kuşanmak',
+                    Text(AppLocalizations.of(context).appTitle,
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 20,
                           fontWeight: FontWeight.w900,
                         )),
                     SizedBox(height: 4),
-                    Text('Bildirim ve hatırlatma merkezi',
+                    Text(
+                        AppLocalizations.of(context)
+                            .uiBildirimVeHatirlatmaMerkezi,
                         style: TextStyle(color: Colors.white70, fontSize: 12)),
                   ],
                 ),
@@ -447,10 +450,12 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
             ],
           ),
           const SizedBox(height: 12),
-          Text('Şehir: $_city',
+          Text(AppLocalizations.of(context).uiFSehir(_city),
               style: const TextStyle(color: Colors.white70, fontSize: 12)),
           const SizedBox(height: 4),
-          Text('Son planlama: ${_formatLast(_lastScheduled)}',
+          Text(
+              AppLocalizations.of(context)
+                  .uiFSonPlanlama(_formatLast(_lastScheduled)),
               style: const TextStyle(color: Colors.white54, fontSize: 11)),
         ],
       ),
@@ -506,7 +511,7 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
           activeThumbColor: _green,
           secondary: const Icon(Icons.notifications_active_rounded,
               color: _green, size: 27),
-          title: const Text('Uygulama bildirimleri',
+          title: Text(AppLocalizations.of(context).uiUygulamaBildirimleri,
               style: TextStyle(
                 color: _navy,
                 fontWeight: FontWeight.w900,
@@ -548,16 +553,16 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
                     contentPadding: EdgeInsets.zero,
                     value: 'full',
                     activeColor: _navy,
-                    title: const Text(
-                      'Tam ezan',
+                    title: Text(
+                      AppLocalizations.of(context).uiTamEzan,
                       style: TextStyle(
                         color: _navy,
                         fontWeight: FontWeight.w800,
                         fontSize: 13,
                       ),
                     ),
-                    subtitle: const Text(
-                      'Tam ezan ses dosyası ve Android ses oynatma yapılandırması gerekir.',
+                    subtitle: Text(
+                      AppLocalizations.of(context).uiTamEzanSesDosyasi,
                       style: TextStyle(fontSize: 11, color: Colors.black54),
                     ),
                   ),
@@ -565,16 +570,17 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
                     contentPadding: EdgeInsets.zero,
                     value: 'short',
                     activeColor: _navy,
-                    title: const Text(
-                      'Kısa bildirim tonu',
+                    title: Text(
+                      AppLocalizations.of(context).uiKisaBildirimTonu,
                       style: TextStyle(
                         color: _navy,
                         fontWeight: FontWeight.w800,
                         fontSize: 13,
                       ),
                     ),
-                    subtitle: const Text(
-                      'Cihazın bildirim sesi kullanılabilir; gerçek ses davranışı Android kanalına bağlıdır.',
+                    subtitle: Text(
+                      AppLocalizations.of(context)
+                          .uiCihazinBildirimSesiKullanilabilir,
                       style: TextStyle(fontSize: 11, color: Colors.black54),
                     ),
                   ),
@@ -587,14 +593,14 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
                 color: _gold.withValues(alpha: 0.10),
                 borderRadius: BorderRadius.circular(12),
               ),
-              child: const Row(
+              child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Icon(Icons.info_outline_rounded, color: _gold, size: 18),
                   SizedBox(width: 8),
                   Expanded(
                     child: Text(
-                      'Bu seçim şu anda kaydedilir. Tam ezanın gerçekten çalması için ses dosyası ve ayrı Android ses kanalı ayrıca bağlanmalıdır.',
+                      AppLocalizations.of(context).uiBuSecimSuAnda,
                       style:
                           TextStyle(color: _navy, fontSize: 11, height: 1.45),
                     ),
@@ -623,8 +629,8 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
           ),
           const SizedBox(height: 12),
           _reminderRow(
-            title: 'Dua ve zikir',
-            subtitle: 'Günlük manevi hatırlatma',
+            title: AppLocalizations.of(context).uiDuaVeZikir,
+            subtitle: AppLocalizations.of(context).uiGunlukManeviHatirlatma,
             icon: Icons.volunteer_activism_rounded,
             enabled: _duaEnabled,
             time: _duaTime,
@@ -633,8 +639,8 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
           ),
           const Divider(height: 22),
           _reminderRow(
-            title: 'Kur’an okuma',
-            subtitle: 'Günlük okuma vakti',
+            title: AppLocalizations.of(context).uiKurAnOkuma,
+            subtitle: AppLocalizations.of(context).uiGunlukOkumaVakti,
             icon: Icons.menu_book_rounded,
             enabled: _kuranEnabled,
             time: _kuranTime,
@@ -642,8 +648,8 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
             onTime: () => _chooseReminderTime('kuran'),
           ),
           const SizedBox(height: 10),
-          const Text(
-            'Hatırlatmaların çalışması için üstteki uygulama bildirimleri açık olmalıdır.',
+          Text(
+            AppLocalizations.of(context).uiHatirlatmalarinCalismasiIcinUstteki,
             style: TextStyle(color: Colors.black54, fontSize: 11, height: 1.4),
           ),
         ],
@@ -785,18 +791,18 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
                 color: _gold, size: 25),
           ),
           const SizedBox(width: 12),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Test bildirimi',
+                Text(AppLocalizations.of(context).uiTestBildirimi,
                     style: TextStyle(
                       color: _navy,
                       fontSize: 14,
                       fontWeight: FontWeight.w900,
                     )),
                 SizedBox(height: 4),
-                Text('Bildirim iznini ve temel bildirimi kontrol edin.',
+                Text(AppLocalizations.of(context).uiBildirimIzniniVeTemel,
                     style: TextStyle(
                         color: Colors.black54, fontSize: 11, height: 1.4)),
               ],
@@ -812,7 +818,7 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12)),
             ),
-            child: const Text('Dene',
+            child: Text(AppLocalizations.of(context).uiDene,
                 style: TextStyle(fontWeight: FontWeight.w800)),
           ),
         ],
@@ -835,14 +841,14 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
           ),
         ],
       ),
-      child: const Column(
+      child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
               Icon(Icons.info_outline_rounded, color: _gold, size: 20),
               SizedBox(width: 8),
-              Text('Bilmeniz gerekenler',
+              Text(AppLocalizations.of(context).uiBilmenizGerekenler,
                   style: TextStyle(
                     color: _navy,
                     fontSize: 13,
@@ -852,10 +858,7 @@ class _NotificationSettingsPageState extends State<NotificationSettingsPage> {
           ),
           SizedBox(height: 10),
           Text(
-            '• Hatırlatma saatleri cihazın yerel saatine göre ayarlanır.\n'
-            '• Pil tasarrufu bazı telefonlarda bildirimleri geciktirebilir.\n'
-            '• Android bildirim sesleri kanal ayarlarından etkilenir.\n'
-            '• Bu ekran tek başına tam ezan sesini etkinleştirmez.',
+            AppLocalizations.of(context).uiBildirimNotlari,
             style: TextStyle(
               color: Colors.black87,
               fontSize: 11,

@@ -11,6 +11,13 @@ import 'app/app_settings.dart';
 import 'app/state/app_state.dart';
 import 'app/widget_sync_service.dart';
 import 'app/content_service.dart';
+import 'app/gunluk_plan.dart';
+import 'app/hakikat_servisi.dart';
+import 'data/hakikat.dart';
+import 'data/icerik_hazinesi.dart';
+import 'data/islami_kissalar.dart';
+import 'features/hazine/dua_hazinesi_page.dart';
+import 'features/hazine/risale_dersleri_page.dart';
 import 'app/favorites_service.dart';
 import 'app/admin_session.dart';
 import 'package:provider/provider.dart';
@@ -44,6 +51,13 @@ void main() async {
   await _guvenli('ayarlar', appState.load);
   // Icerik servisini yukle (kissa, dua, vecize havuzlari)
   await _guvenli('icerik', ContentService.instance.load);
+  await _guvenli('gunluk plan', GunlukPlanServisi.instance.yukle);
+  await _guvenli('kissalar', kissalariYukle);
+  await _guvenli('icerik hazinesi', icerikHazinesiniYukle);
+  await _guvenli('hakikat', () async {
+    await hakikatVerisiniYukle();
+    await HakikatServisi.instance.yukle();
+  });
   await _guvenli('favoriler', FavoritesService.instance.load);
   await _guvenli('admin', AdminSession.instance.load);
 
@@ -305,6 +319,24 @@ class _SettingsHub extends StatelessWidget {
                   context,
                   MaterialPageRoute<void>(
                       builder: (_) => const AssistantPage()))),
+          _tile(
+              context,
+              Icons.front_hand_rounded,
+              t.duaHazinesiTitle,
+              t.duaHazinesiDesc,
+              () => Navigator.push(
+                  context,
+                  MaterialPageRoute<void>(
+                      builder: (_) => const DuaHazinesiPage()))),
+          _tile(
+              context,
+              Icons.light_mode_rounded,
+              t.risaleHakikatleriTitle,
+              t.risaleHakikatleriDesc,
+              () => Navigator.push(
+                  context,
+                  MaterialPageRoute<void>(
+                      builder: (_) => const RisaleDersleriPage()))),
           _tile(
               context,
               Icons.admin_panel_settings_rounded,

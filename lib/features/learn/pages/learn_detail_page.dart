@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../data/learn_models.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -21,17 +22,17 @@ class LearnDetailPage extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(14),
         children: [
-          _header(),
+          _header(context),
           const SizedBox(height: 14),
           ...section.adimlar.map((s) => _stepCard(s)),
           const SizedBox(height: 20),
-          _infoFooter(),
+          _infoFooter(context),
         ],
       ),
     );
   }
 
-  Widget _header() {
+  Widget _header(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
@@ -60,7 +61,8 @@ class LearnDetailPage extends StatelessWidget {
               color: _gold.withValues(alpha: 0.2),
               borderRadius: BorderRadius.circular(8),
             ),
-            child: Text('${section.adimlar.length} adım',
+            child: Text(
+                AppLocalizations.of(context).uiFAdim(section.adimlar.length),
                 style: const TextStyle(
                     color: _gold, fontSize: 11, fontWeight: FontWeight.w700)),
           ),
@@ -146,7 +148,7 @@ class LearnDetailPage extends StatelessWidget {
     );
   }
 
-  Widget _infoFooter() {
+  Widget _infoFooter(BuildContext context) {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
@@ -155,12 +157,12 @@ class LearnDetailPage extends StatelessWidget {
         border: Border.all(color: _red.withValues(alpha: 0.2)),
       ),
       child: Row(
-        children: const [
+        children: [
           Icon(Icons.info_outline_rounded, color: _red, size: 20),
           SizedBox(width: 10),
           Expanded(
             child: Text(
-              'Mezhebe göre farklılık gösteren konularda kendi mezhebinizin görüşüne veya güvendiğiniz bir âlime danışınız.',
+              AppLocalizations.of(context).uiMezhebeGoreFarklilikGosteren,
               style: TextStyle(color: _navy, fontSize: 11, height: 1.5),
             ),
           ),

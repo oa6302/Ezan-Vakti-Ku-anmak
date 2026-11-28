@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../app/theme.dart';
@@ -99,7 +100,7 @@ class _ReadingPlanPageState extends State<ReadingPlanPage> {
             backgroundColor: kKartYuzeyi,
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
-            title: const Text('Yeni Okuma Planı Ekle',
+            title: Text(AppLocalizations.of(context).uiYeniOkumaPlaniEkle,
                 style: TextStyle(
                     color: kAnaLacivert, fontWeight: FontWeight.bold)),
             content: SingleChildScrollView(
@@ -120,13 +121,14 @@ class _ReadingPlanPageState extends State<ReadingPlanPage> {
                     controller: pagesCtrl,
                     keyboardType: TextInputType.number,
                     decoration: InputDecoration(
-                      labelText: 'Toplam Sayfa Sayısı',
+                      labelText:
+                          AppLocalizations.of(context).uiToplamSayfaSayisi,
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12)),
                     ),
                   ),
                   const SizedBox(height: 16),
-                  const Text('Kitap Türü',
+                  Text(AppLocalizations.of(context).uiKitapTuru,
                       style: TextStyle(fontSize: 14, color: kIkincilMetin)),
                   const SizedBox(height: 8),
                   Wrap(
@@ -156,8 +158,8 @@ class _ReadingPlanPageState extends State<ReadingPlanPage> {
             actions: [
               TextButton(
                 onPressed: () => Navigator.pop(context),
-                child:
-                    const Text('İptal', style: TextStyle(color: kIkincilMetin)),
+                child: Text(AppLocalizations.of(context).uiIptal2,
+                    style: TextStyle(color: kIkincilMetin)),
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
@@ -178,8 +180,8 @@ class _ReadingPlanPageState extends State<ReadingPlanPage> {
                     Navigator.pop(context);
                   }
                 },
-                child:
-                    const Text('Ekle', style: TextStyle(color: Colors.white)),
+                child: Text(AppLocalizations.of(context).uiEkle2,
+                    style: TextStyle(color: Colors.white)),
               ),
             ],
           );
@@ -209,20 +211,21 @@ class _ReadingPlanPageState extends State<ReadingPlanPage> {
       builder: (context) => AlertDialog(
         backgroundColor: kKartYuzeyi,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
-        title: Text('${book.title} - Notlar',
+        title: Text(AppLocalizations.of(context).uiFNotlar(book.title),
             style: const TextStyle(color: kAnaLacivert, fontSize: 18)),
         content: TextField(
           controller: notesCtrl,
           maxLines: 5,
           decoration: InputDecoration(
-            hintText: 'Kaldığın yer, önemli bir cümle veya çıkarım...',
+            hintText: AppLocalizations.of(context).uiKaldiginYerOnemliBir,
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
           ),
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('İptal', style: TextStyle(color: kIkincilMetin)),
+            child: Text(AppLocalizations.of(context).uiIptal2,
+                style: TextStyle(color: kIkincilMetin)),
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
@@ -236,7 +239,8 @@ class _ReadingPlanPageState extends State<ReadingPlanPage> {
               _saveBooks();
               Navigator.pop(context);
             },
-            child: const Text('Kaydet', style: TextStyle(color: Colors.white)),
+            child: Text(AppLocalizations.of(context).adminSave,
+                style: TextStyle(color: Colors.white)),
           ),
         ],
       ),
@@ -254,7 +258,7 @@ class _ReadingPlanPageState extends State<ReadingPlanPage> {
     return Scaffold(
       backgroundColor: kArkaPlan,
       appBar: AppBar(
-        title: const Text('Okuma Planım',
+        title: Text(AppLocalizations.of(context).uiOkumaPlanim,
             style: TextStyle(fontWeight: FontWeight.bold)),
         backgroundColor: kKartYuzeyi,
         foregroundColor: kAnaLacivert,
@@ -268,19 +272,19 @@ class _ReadingPlanPageState extends State<ReadingPlanPage> {
                   const Icon(Icons.menu_book_rounded,
                       size: 72, color: kKenarlik),
                   const SizedBox(height: 16),
-                  const Text('Henüz bir okuma planın yok.',
+                  Text(AppLocalizations.of(context).uiHenuzBirOkumaPlanin,
                       style: TextStyle(
                           fontSize: 18,
                           color: kIkincilMetin,
                           fontWeight: FontWeight.bold)),
                   const SizedBox(height: 8),
-                  const Text('Küçük adımlar, düzenli bir gelişim getirir.',
+                  Text(AppLocalizations.of(context).uiKucukAdimlarDuzenliBir2,
                       style: TextStyle(fontSize: 14, color: kYardimciMetin)),
                   const SizedBox(height: 24),
                   ElevatedButton.icon(
                     onPressed: _addBook,
                     icon: const Icon(Icons.add),
-                    label: const Text('İlk Kitabını Ekle'),
+                    label: Text(AppLocalizations.of(context).uiIlkKitabiniEkle),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: kZarifBordo,
                       foregroundColor: Colors.white,
@@ -367,7 +371,9 @@ class _ReadingPlanPageState extends State<ReadingPlanPage> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text('${book.readPages} / ${book.totalPages} Sayfa',
+                            Text(
+                                AppLocalizations.of(context)
+                                    .uiFSayfa(book.readPages, book.totalPages),
                                 style: const TextStyle(
                                     color: kIkincilMetin,
                                     fontSize: 13,
@@ -396,7 +402,10 @@ class _ReadingPlanPageState extends State<ReadingPlanPage> {
                           children: [
                             if (book.lastReadDate != null)
                               Text(
-                                'Son okuma: ${book.lastReadDate!.day}.${book.lastReadDate!.month}.${book.lastReadDate!.year}',
+                                AppLocalizations.of(context).uiFSonOkuma(
+                                    book.lastReadDate!.day,
+                                    book.lastReadDate!.month,
+                                    book.lastReadDate!.year),
                                 style: const TextStyle(
                                     fontSize: 12,
                                     color: kYardimciMetin,
@@ -433,13 +442,13 @@ class _ReadingPlanPageState extends State<ReadingPlanPage> {
                                 style: IconButton.styleFrom(
                                     backgroundColor: kKartYuzeyi, elevation: 1),
                               ),
-                              const Text('-5 Sayfa',
+                              Text(AppLocalizations.of(context).ui5Sayfa,
                                   style: TextStyle(
                                       fontSize: 12,
                                       color: kIkincilMetin,
                                       fontWeight: FontWeight.bold)),
                               const SizedBox(width: 8),
-                              const Text('+10 Sayfa',
+                              Text(AppLocalizations.of(context).ui10Sayfa,
                                   style: TextStyle(
                                       fontSize: 12,
                                       color: kZarifBordo,
@@ -464,7 +473,7 @@ class _ReadingPlanPageState extends State<ReadingPlanPage> {
               onPressed: _addBook,
               backgroundColor: kZarifBordo,
               icon: const Icon(Icons.add, color: Colors.white),
-              label: const Text('Yeni Kitap',
+              label: Text(AppLocalizations.of(context).uiYeniKitap,
                   style: TextStyle(
                       color: Colors.white, fontWeight: FontWeight.bold)),
             )

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/admin_session.dart';
 
 const _navy = Color(0xFF0A1F44);
@@ -48,11 +49,11 @@ class AdminModeBanner extends StatelessWidget {
                     color: _gold, size: 14),
               ),
               const SizedBox(width: 10),
-              const Expanded(
+              Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('ADMIN MODU AKTIF',
+                    Text(AppLocalizations.of(context).uiAdminModuAktif,
                         style: TextStyle(
                             color: Colors.white,
                             fontSize: 11,
@@ -60,7 +61,8 @@ class AdminModeBanner extends StatelessWidget {
                             letterSpacing: 1.5)),
                     SizedBox(height: 1),
                     Text(
-                        'Kartlarin sag ustundeki kalem ikonundan duzenleyebilirsiniz',
+                        AppLocalizations.of(context)
+                            .uiKartlarinSagUstundekiKalem,
                         style: TextStyle(color: Colors.white70, fontSize: 9)),
                   ],
                 ),
@@ -70,17 +72,19 @@ class AdminModeBanner extends StatelessWidget {
                   final ok = await showDialog<bool>(
                     context: context,
                     builder: (_) => AlertDialog(
-                      title: const Text('Admin modundan cik?'),
-                      content: const Text('Duzenleme butonlari gizlenecek.'),
+                      title:
+                          Text(AppLocalizations.of(context).uiAdminModundanCik),
+                      content: Text(AppLocalizations.of(context)
+                          .uiDuzenlemeButonlariGizlenecek),
                       actions: [
                         TextButton(
                           onPressed: () => Navigator.pop(context, false),
-                          child: const Text('Iptal'),
+                          child: Text(AppLocalizations.of(context).uiIptal),
                         ),
                         FilledButton(
                           style: FilledButton.styleFrom(backgroundColor: _red),
                           onPressed: () => Navigator.pop(context, true),
-                          child: const Text('Cikis'),
+                          child: Text(AppLocalizations.of(context).uiCikis),
                         ),
                       ],
                     ),
@@ -97,12 +101,12 @@ class AdminModeBanner extends StatelessWidget {
                     borderRadius: BorderRadius.circular(20),
                     border: Border.all(color: _red.withValues(alpha: 0.4)),
                   ),
-                  child: const Row(
+                  child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Icon(Icons.logout_rounded, color: _red, size: 12),
                       SizedBox(width: 4),
-                      Text('CIKIS',
+                      Text(AppLocalizations.of(context).uiCikis2,
                           style: TextStyle(
                               color: _red,
                               fontSize: 9,

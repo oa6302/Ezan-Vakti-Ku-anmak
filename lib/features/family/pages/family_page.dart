@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/shadows.dart';
 import '../data/family_data.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
@@ -56,7 +57,7 @@ class _FamilyPageState extends State<FamilyPage> {
         builder: (ctx, setSt) => AlertDialog(
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-          title: const Text('Çocuk Ekle'),
+          title: Text(AppLocalizations.of(context).uiCocukEkle),
           content: SingleChildScrollView(
             child: Column(
               mainAxisSize: MainAxisSize.min,
@@ -88,8 +89,8 @@ class _FamilyPageState extends State<FamilyPage> {
                 const SizedBox(height: 14),
                 TextField(
                   controller: nameCtrl,
-                  decoration: const InputDecoration(
-                    labelText: 'İsim',
+                  decoration: InputDecoration(
+                    labelText: AppLocalizations.of(context).uiIsim,
                     border: OutlineInputBorder(),
                   ),
                 ),
@@ -97,8 +98,8 @@ class _FamilyPageState extends State<FamilyPage> {
                 TextField(
                   controller: ageCtrl,
                   keyboardType: TextInputType.number,
-                  decoration: const InputDecoration(
-                    labelText: 'Yaş',
+                  decoration: InputDecoration(
+                    labelText: AppLocalizations.of(context).uiYas,
                     border: OutlineInputBorder(),
                   ),
                 ),
@@ -108,7 +109,7 @@ class _FamilyPageState extends State<FamilyPage> {
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(ctx, false),
-              child: const Text('İptal'),
+              child: Text(AppLocalizations.of(context).uiIptal2),
             ),
             FilledButton(
               style: FilledButton.styleFrom(backgroundColor: _navy),
@@ -118,7 +119,7 @@ class _FamilyPageState extends State<FamilyPage> {
                 if (n.isEmpty || a <= 0) return;
                 Navigator.pop(ctx, true);
               },
-              child: const Text('Ekle'),
+              child: Text(AppLocalizations.of(context).uiEkle2),
             ),
           ],
         ),
@@ -145,16 +146,16 @@ class _FamilyPageState extends State<FamilyPage> {
       context: context,
       builder: (_) => AlertDialog(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
-        title: Text('${c.name} silinsin mi?'),
-        content: const Text('Bu çocuğun tüm ilerleme kayıtları silinecek.'),
+        title: Text(AppLocalizations.of(context).uiFSilinsinMi(c.name)),
+        content: Text(AppLocalizations.of(context).uiBuCocugunTumIlerleme),
         actions: [
           TextButton(
               onPressed: () => Navigator.pop(context, false),
-              child: const Text('İptal')),
+              child: Text(AppLocalizations.of(context).uiIptal2)),
           FilledButton(
             style: FilledButton.styleFrom(backgroundColor: _red),
             onPressed: () => Navigator.pop(context, true),
-            child: const Text('Sil'),
+            child: Text(AppLocalizations.of(context).adminDelete),
           ),
         ],
       ),
@@ -170,7 +171,7 @@ class _FamilyPageState extends State<FamilyPage> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Aile Modu',
+        title: Text(AppLocalizations.of(context).uiAileModu,
             style: TextStyle(
                 color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
@@ -179,7 +180,7 @@ class _FamilyPageState extends State<FamilyPage> {
         backgroundColor: _navy,
         foregroundColor: Colors.white,
         icon: const Icon(Icons.add_rounded),
-        label: const Text('Çocuk Ekle',
+        label: Text(AppLocalizations.of(context).uiCocukEkle,
             style: TextStyle(fontWeight: FontWeight.w800)),
       ),
       body: _loading
@@ -192,9 +193,9 @@ class _FamilyPageState extends State<FamilyPage> {
                 if (_children.isEmpty)
                   _emptyState()
                 else ...[
-                  const Padding(
+                  Padding(
                     padding: EdgeInsets.symmetric(horizontal: 4),
-                    child: Text('Çocuklarım',
+                    child: Text(AppLocalizations.of(context).uiCocuklarim,
                         style: TextStyle(
                             color: _navy,
                             fontSize: 14,
@@ -235,17 +236,17 @@ class _FamilyPageState extends State<FamilyPage> {
                 color: _gold, size: 28),
           ),
           const SizedBox(width: 14),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Ailece Öğrenelim',
+                Text(AppLocalizations.of(context).uiAileceOgrenelim,
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 18,
                         fontWeight: FontWeight.w900)),
                 SizedBox(height: 4),
-                Text('Çocuklarını namazla tanıştır.',
+                Text(AppLocalizations.of(context).uiCocuklariniNamazlaTanistir,
                     style: TextStyle(color: Colors.white70, fontSize: 12)),
               ],
             ),
@@ -274,12 +275,12 @@ class _FamilyPageState extends State<FamilyPage> {
             child: const Icon(Icons.child_care_rounded, color: _gold, size: 42),
           ),
           const SizedBox(height: 16),
-          const Text('Henüz çocuk eklenmedi',
+          Text(AppLocalizations.of(context).uiHenuzCocukEklenmedi,
               style: TextStyle(
                   color: _navy, fontSize: 15, fontWeight: FontWeight.w900)),
           const SizedBox(height: 8),
-          const Text(
-            'Çocuğunu ekle, adım adım namaz öğrenmesini takip et. 9 basit adım.',
+          Text(
+            AppLocalizations.of(context).uiCocugunuEkleAdimAdim,
             textAlign: TextAlign.center,
             style: TextStyle(color: Colors.black54, fontSize: 12, height: 1.5),
           ),
@@ -342,7 +343,7 @@ class _FamilyPageState extends State<FamilyPage> {
                                   fontSize: 16,
                                   fontWeight: FontWeight.w900)),
                           const SizedBox(height: 2),
-                          Text('${c.age} yaş',
+                          Text(AppLocalizations.of(context).uiFYas(c.age),
                               style: const TextStyle(
                                   color: Colors.black54, fontSize: 12)),
                         ],

@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../app/theme.dart';
@@ -906,7 +907,8 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
 
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: const Text('Şükür notunuz başarıyla kaydedildi.'),
+        content: Text(
+            AppLocalizations.of(context).uiSukurNotunuzBasariylaKaydedildi),
         backgroundColor: kBasariYesili,
         behavior: SnackBarBehavior.floating,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -962,8 +964,8 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        const Text(
-                          '365 Günlük Şükür Rehberi',
+                        Text(
+                          AppLocalizations.of(context).ui365GunlukSukurRehberi,
                           style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
@@ -982,7 +984,8 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
                       onChanged: (val) =>
                           setModalState(() => searchQuery = val),
                       decoration: InputDecoration(
-                        hintText: 'Öneri veya kaynak ara...',
+                        hintText:
+                            AppLocalizations.of(context).uiOneriVeyaKaynakAra,
                         prefixIcon:
                             const Icon(Icons.search, color: kYardimciMetin),
                         filled: true,
@@ -1145,7 +1148,7 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
     return Scaffold(
       backgroundColor: kArkaPlan,
       appBar: AppBar(
-        title: const Text('Şükür Defteri',
+        title: Text(AppLocalizations.of(context).gratitudeJournal,
             style: TextStyle(fontWeight: FontWeight.bold)),
         backgroundColor: kKartYuzeyi,
         foregroundColor: kAnaLacivert,
@@ -1171,12 +1174,17 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      const Text(
-                        'Günün Manevi Önerisi',
-                        style: TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.bold,
-                            color: kAnaTurkuaz),
+                      // Uzun ceviride oklari itmesin
+                      Expanded(
+                        child: Text(
+                          AppLocalizations.of(context).uiGununManeviOnerisi,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.bold,
+                              color: kAnaTurkuaz),
+                        ),
                       ),
                       Row(
                         children: [
@@ -1231,7 +1239,7 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
                         child: OutlinedButton.icon(
                           onPressed: () => _selectPrompt(currentPrompt),
                           icon: const Icon(Icons.edit_rounded, size: 18),
-                          label: const Text('Bunu Yaz'),
+                          label: Text(AppLocalizations.of(context).uiBunuYaz),
                           style: OutlinedButton.styleFrom(
                             foregroundColor: kAnaLacivert,
                             side: const BorderSide(color: kAnaLacivert),
@@ -1245,7 +1253,7 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
                         child: ElevatedButton.icon(
                           onPressed: _showAllPrompts,
                           icon: const Icon(Icons.list_alt_rounded, size: 18),
-                          label: const Text('Tümünü Gör'),
+                          label: Text(AppLocalizations.of(context).seeAll),
                           style: ElevatedButton.styleFrom(
                             backgroundColor: kAnaLacivert,
                             foregroundColor: Colors.white,
@@ -1271,8 +1279,8 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const Text(
-                    'Bugün ne için şükrediyorsun?',
+                  Text(
+                    AppLocalizations.of(context).uiBugunNeIcinSukrediyorsun,
                     style: TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
@@ -1284,8 +1292,8 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
                     maxLines: 4,
                     style: const TextStyle(fontSize: 15, height: 1.5),
                     decoration: InputDecoration(
-                      hintText:
-                          'Seçtiğin öneriyi buraya dökebilir veya kendi cümlelerini yazabilirsin...',
+                      hintText: AppLocalizations.of(context)
+                          .uiSectiginOneriyiBurayaDokebilir,
                       hintStyle:
                           const TextStyle(color: kYardimciMetin, fontSize: 14),
                       filled: true,
@@ -1333,7 +1341,7 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
                     child: ElevatedButton.icon(
                       onPressed: _addEntry,
                       icon: const Icon(Icons.save_rounded),
-                      label: const Text('Şükrü Kaydet'),
+                      label: Text(AppLocalizations.of(context).uiSukruKaydet),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: kBasariYesili,
                         foregroundColor: Colors.white,
@@ -1349,8 +1357,8 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
               ),
             ),
             const SizedBox(height: 32),
-            const Text(
-              'Geçmiş Şükürlerin',
+            Text(
+              AppLocalizations.of(context).uiGecmisSukurlerin,
               style: TextStyle(
                   fontSize: 18, fontWeight: FontWeight.bold, color: kAnaMetin),
             ),
@@ -1364,13 +1372,13 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
                   borderRadius: BorderRadius.circular(16),
                   border: Border.all(color: kKenarlik),
                 ),
-                child: const Column(
+                child: Column(
                   children: [
                     Icon(Icons.auto_awesome_rounded,
                         size: 48, color: kKenarlik),
                     SizedBox(height: 12),
                     Text(
-                      'Henüz bir şükür notu yazmadın.\nİlk notunu oluşturmak için yukarıdaki alanı kullanabilirsin.',
+                      AppLocalizations.of(context).uiHenuzBirSukurNotu,
                       textAlign: TextAlign.center,
                       style: TextStyle(color: kIkincilMetin, height: 1.5),
                     ),
@@ -1417,13 +1425,15 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
                               showDialog(
                                 context: context,
                                 builder: (context) => AlertDialog(
-                                  title: const Text('Notu Sil'),
-                                  content: const Text(
-                                      'Bu şükür notunu silmek istediğinize emin misiniz?'),
+                                  title: Text(
+                                      AppLocalizations.of(context).uiNotuSil),
+                                  content: Text(AppLocalizations.of(context)
+                                      .uiBuSukurNotunuSilmek),
                                   actions: [
                                     TextButton(
                                       onPressed: () => Navigator.pop(context),
-                                      child: const Text('İptal',
+                                      child: Text(
+                                          AppLocalizations.of(context).uiIptal2,
                                           style:
                                               TextStyle(color: kIkincilMetin)),
                                     ),
@@ -1432,7 +1442,9 @@ class _GratitudeJournalPageState extends State<GratitudeJournalPage> {
                                         _deleteEntry(entry.id);
                                         Navigator.pop(context);
                                       },
-                                      child: const Text('Sil',
+                                      child: Text(
+                                          AppLocalizations.of(context)
+                                              .adminDelete,
                                           style: TextStyle(color: kZarifBordo)),
                                     ),
                                   ],

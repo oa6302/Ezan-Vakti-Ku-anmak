@@ -1,0 +1,3642 @@
+[
+ {
+  "id": "dua_001",
+  "koleksiyon": "peygamber",
+  "sinif": "sahihHadis",
+  "baslik": "Seyyidü'l-İstiğfar: Tövbe Dualarının Efendisi",
+  "arapca": "اَللّٰهُمَّ أَنْتَ رَبِّي لَا إِلٰهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلٰى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي، فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+  "okunus": "Allâhümme ente rabbî lâ ilâhe illâ ente, halaktenî ve ene abdük, ve ene alâ ahdike ve va'dike mesteta'tü, eûzü bike min şerri mâ sana'tü, ebûu leke bi-ni'metike aleyye, ve ebûu leke bi-zenbî, fağfir lî, fe-innehû lâ yağfiru'z-zünûbe illâ ente.",
+  "anlam": "Allah'ım! Sen benim Rabbimsin. Senden başka ilah yoktur. Beni sen yarattın, ben senin kulunum. Gücüm yettiğince sana verdiğim söz ve ahdin üzerindeyim. Yaptıklarımın kötülüğünden sana sığınırım. Bana verdiğin nimetini ikrar ederim, günahımı da itiraf ederim. Beni bağışla; çünkü günahları senden başka bağışlayan yoktur.",
+  "kaynak": "Buhârî, Daavât, 2",
+  "hadisNo": "Buhârî, 6306",
+  "sihhat": "Sahih (Buhârî). Ayrıca Tirmizî, Daavât, 15 ve Nesâî'de de rivayet edilmiştir.",
+  "aciklama": "Şeddâd bin Evs'in (r.a.) rivayetine göre Peygamber Efendimiz (s.a.v.) bu duayı ‘seyyidü'l-istiğfar’, yani istiğfarın efendisi olarak tanıtmıştır. Hadisin devamında, kim buna yakînen inanarak gündüz okur da akşam olmadan vefat ederse cennet ehlinden olacağı, kim de inanarak gece okur da sabah olmadan vefat ederse cennet ehlinden olacağı bildirilmiştir. Bu yüzden sabah ve akşam okunması tavsiye edilir. Dua; tevhidi ikrar, kulluğu kabul, verilen sözü hatırlama, nimeti itiraf ve günahı itiraf basamaklarından oluşur. İnsan önce kim olduğunu ve Rabbinin kim olduğunu hatırlar, sonra bağışlanma ister.",
+  "parcalar": [
+   {
+    "arapca": "اَللّٰهُمَّ أَنْتَ رَبِّي لَا إِلٰهَ إِلَّا أَنْتَ",
+    "okunus": "Allâhümme ente rabbî lâ ilâhe illâ ente",
+    "anlam": "Allah'ım! Sen benim Rabbimsin, senden başka ilah yoktur."
+   },
+   {
+    "arapca": "خَلَقْتَنِي وَأَنَا عَبْدُكَ",
+    "okunus": "halaktenî ve ene abdük",
+    "anlam": "Beni sen yarattın, ben senin kulunum."
+   },
+   {
+    "arapca": "وَأَنَا عَلٰى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ",
+    "okunus": "ve ene alâ ahdike ve va'dike mesteta'tü",
+    "anlam": "Gücüm yettiğince sana verdiğim söz ve ahdin üzerindeyim."
+   },
+   {
+    "arapca": "أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ",
+    "okunus": "eûzü bike min şerri mâ sana'tü",
+    "anlam": "Yaptıklarımın kötülüğünden sana sığınırım."
+   },
+   {
+    "arapca": "أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي",
+    "okunus": "ebûu leke bi-ni'metike aleyye, ve ebûu leke bi-zenbî",
+    "anlam": "Bana verdiğin nimetini ikrar ederim, günahımı da itiraf ederim."
+   },
+   {
+    "arapca": "فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+    "okunus": "fağfir lî, fe-innehû lâ yağfiru'z-zünûbe illâ ente",
+    "anlam": "Beni bağışla; çünkü günahları senden başka bağışlayan yoktur."
+   }
+  ]
+ },
+ {
+  "id": "dua_k001",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Hidayet Duası (Fâtiha)",
+  "arapca": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+  "okunus": "Ihdinâ s-sırâta l-mustekîme sırâta ellezîne en'amte 'aleyhim ğayrı l-meğdûbi 'aleyhim velâ d-dâlîn",
+  "anlam": "Bizi doğru yola eriştir. Nimete erdirdiğin kimselerin yoluna; gazaba uğrayanların, ya da sapıtanların yoluna değil.",
+  "kaynak": "Fâtiha, 1/6-7",
+  "aciklama": "Her rekâtta okunan duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ صِرَٰطَ",
+    "okunus": "ihdinâ s-sırâta l-mustekîme sırâta",
+    "anlam": "Kelime kelime: bizi ilet · yola · doğru · yoluna"
+   },
+   {
+    "arapca": "ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ",
+    "okunus": "ellezîne en'amte 'aleyhim ğayrı",
+    "anlam": "Kelime kelime: onlar ki · ni'met verdin · kimselerin · değil"
+   },
+   {
+    "arapca": "ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+    "okunus": "l-meğdûbi 'aleyhim velâ d-dâlîn",
+    "anlam": "Kelime kelime: gazabedilmiş olanların · kendilerine · ve değil · sapmışların"
+   }
+  ]
+ },
+ {
+  "id": "dua_k002",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Kabul Duası",
+  "arapca": "رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+  "okunus": "Rabbenâ tekabbel minnâ inneke ente s-semî'u l-'alîm",
+  "anlam": "İbrahim ve İsmail, Kabenin temellerini yükseltiyordu: “Rabbimiz! Yaptığımızı kabul buyur. Şüphesiz ki, Sen hem işitir hem bilirsin”",
+  "kaynak": "Bakara, 2/127",
+  "aciklama": "Hz. İbrâhîm ve Hz. İsmâil duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ",
+    "okunus": "rabbenâ tekabbel minnâ inneke",
+    "anlam": "Kelime kelime: Rabbi'imiz · kabul buyur · bizden · kuşkusuz sen"
+   },
+   {
+    "arapca": "أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+    "okunus": "ente s-semî'u l-'alîm",
+    "anlam": "Kelime kelime: (yalnız) sen · işitensin · bilensin"
+   }
+  ]
+ },
+ {
+  "id": "dua_k003",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Müslüman Bir Nesil Duası",
+  "arapca": "رَبَّنَا وَٱجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةًۭ مُّسْلِمَةًۭ لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+  "okunus": "Rabbenâ ve-ic'alnâ muslimeyni leke vemin zurrıyyetinâ ummeten muslimeten leke ve-erınâ menâsikenâ vetub 'aleynâ inneke ente t-tevâbu r-rahîm",
+  "anlam": "“Rabbimiz! İkimizi Sana teslim olanlardan kıl, soyumuzdan da Sana teslim olanlardan bir ümmet yetiştir. Bize ibadet yollarımızı göster, tevbemizi kabul buyur, çünkü tevbeleri daima kabul eden, merhametli olan ancak Sensin”.",
+  "kaynak": "Bakara, 2/128",
+  "aciklama": "Hz. İbrâhîm ve Hz. İsmâil duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا وَٱجْعَلْنَا مُسْلِمَيْنِ لَكَ",
+    "okunus": "rabbenâ ve-ic'alnâ muslimeyni leke",
+    "anlam": "Kelime kelime: Rabbimiz · bizi yap · teslim olanlardan · sana"
+   },
+   {
+    "arapca": "وَمِن ذُرِّيَّتِنَآ أُمَّةًۭ مُّسْلِمَةًۭ",
+    "okunus": "vemin zurrıyyetinâ ummeten muslimeten",
+    "anlam": "Kelime kelime: neslimizden de · our offspring · bir ümmet (çıkar) · teslim olan"
+   },
+   {
+    "arapca": "لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ",
+    "okunus": "leke ve-erınâ menâsikenâ vetub",
+    "anlam": "Kelime kelime: sana · ve bize göster · ibadet yollarımızı · ve tevbemizi kabul et"
+   },
+   {
+    "arapca": "عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ",
+    "okunus": "'aleynâ inneke ente t-tevâbu",
+    "anlam": "Kelime kelime: bizden · şüphesiz sen · (ancak) sensin · tevbeleri kabul eden"
+   },
+   {
+    "arapca": "ٱلرَّحِيمُ",
+    "okunus": "r-rahîm",
+    "anlam": "Kelime kelime: çok merhametli olan"
+   }
+  ]
+ },
+ {
+  "id": "dua_k004",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Emin Bir Şehir Duası",
+  "arapca": "رَبِّ ٱجْعَلْ هَـٰذَا بَلَدًا ءَامِنًۭا وَٱرْزُقْ أَهْلَهُۥ مِنَ ٱلثَّمَرَٰتِ مَنْ ءَامَنَ مِنْهُم بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۖ قَالَ وَمَن كَفَرَ فَأُمَتِّعُهُۥ قَلِيلًۭا ثُمَّ أَضْطَرُّهُۥٓ إِلَىٰ عَذَابِ ٱلنَّارِ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+  "okunus": "Rabbi ic'al hâzâ beleden âminen ve-urzuk ehlehu mine t-semerâti men âmene minhum bil-lehi vel-yevmi l-âhırı kâle vemen kefera fe-umetti'uhu kalîlen summe edtarruhu ilâ 'azâbi n-nârı vebise l-mesîr",
+  "anlam": "İbrahim: “Rabbim! Burasını emin bir şehir kıl, halkından, Allah'a ve ahiret gününe inananları ürünlerle rızıklandır” demişti. Allah da: “İnkar edeni de az bir müddet geçindirir, sonra da onu ateşin azabına uğramak zorunda bırakırım, ne kötü sonuç” buyurmuştu.",
+  "kaynak": "Bakara, 2/126",
+  "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ ٱجْعَلْ هَـٰذَا بَلَدًا",
+    "okunus": "rabbi ic'al hâzâ beleden",
+    "anlam": "Kelime kelime: Rabbim · kıl · bu · şehri"
+   },
+   {
+    "arapca": "ءَامِنًۭا وَٱرْزُقْ أَهْلَهُۥ مِنَ",
+    "okunus": "âminen ve-urzuk ehlehu mine",
+    "anlam": "Kelime kelime: güvenli · ve rızıklandır · halkını · ürünlerle"
+   },
+   {
+    "arapca": "ٱلثَّمَرَٰتِ مَنْ ءَامَنَ مِنْهُم",
+    "okunus": "t-semerâti men âmene minhum",
+    "anlam": "Kelime kelime: fruits · kimseleri · inanan · onlardan"
+   },
+   {
+    "arapca": "بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۖ قَالَ",
+    "okunus": "bil-lehi vel-yevmi l-âhırı kâle",
+    "anlam": "Kelime kelime: Allah'a · ve gününe · ahiret · (Rabbi) buyurdu ki"
+   },
+   {
+    "arapca": "وَمَن كَفَرَ فَأُمَتِّعُهُۥ قَلِيلًۭا",
+    "okunus": "vemen kefera fe-umetti'uhu kalîlen",
+    "anlam": "Kelime kelime: kimseyi · inkar eden · onu geçindiririm · az bir (süre)"
+   },
+   {
+    "arapca": "ثُمَّ أَضْطَرُّهُۥٓ إِلَىٰ عَذَابِ",
+    "okunus": "summe edtarruhu ilâ 'azâbi",
+    "anlam": "Kelime kelime: sonra · onu mahkum ederim · azabına"
+   },
+   {
+    "arapca": "ٱلنَّارِ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+    "okunus": "n-nârı vebise l-mesîr",
+    "anlam": "Kelime kelime: cehennem · ve ne kötü · dönüş yeridir"
+   }
+  ]
+ },
+ {
+  "id": "dua_k005",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Dünya ve Ahiret Güzelliği",
+  "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ",
+  "okunus": "Rabbenâ âtinâ fî d-dunyâ haseneten vefî l-âhırati haseneten vekınâ 'azâbe n-nâr",
+  "anlam": "“Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru” diyenler vardır.",
+  "kaynak": "Bakara, 2/201",
+  "aciklama": "Müminlerin duası duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا",
+    "okunus": "rabbenâ âtinâ fî d-dunyâ",
+    "anlam": "Kelime kelime: Rabbimiz · bize ver · dünyada da"
+   },
+   {
+    "arapca": "حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ",
+    "okunus": "haseneten vefî l-âhırati haseneten",
+    "anlam": "Kelime kelime: güzellik · ahirette de · güzellik"
+   },
+   {
+    "arapca": "وَقِنَا عَذَابَ ٱلنَّارِ",
+    "okunus": "vekınâ 'azâbe n-nâr",
+    "anlam": "Kelime kelime: ve bizi koru · azabından · ateş"
+   }
+  ]
+ },
+ {
+  "id": "dua_k006",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Sabır ve Sebat Duası",
+  "arapca": "رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
+  "okunus": "Rabbenâ efrığ 'aleynâ sabran vesebbit ekdâmenâ ve-unsurnâ 'alâ l-kavmi l-kâfirîn",
+  "anlam": "Calut ve ordusuna karşı çıktıklarında, “Rabbimiz! Bize sabır ver, sebatımızı artır, inkar eden millete karşı bize yardım et” dediler.",
+  "kaynak": "Bakara, 2/250",
+  "aciklama": "Tâlût'un askerleri duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا",
+    "okunus": "rabbenâ efrığ 'aleynâ sabran",
+    "anlam": "Kelime kelime: Rabbimiz · dök · üzerimize · sabır"
+   },
+   {
+    "arapca": "وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى",
+    "okunus": "vesebbit ekdâmenâ ve-unsurnâ 'alâ",
+    "anlam": "Kelime kelime: ve sağlam tut · ayaklarımızı · ve bize yardım et · karşı"
+   },
+   {
+    "arapca": "ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
+    "okunus": "l-kavmi l-kâfirîn",
+    "anlam": "Kelime kelime: topluluğuna · kafirler"
+   }
+  ]
+ },
+ {
+  "id": "dua_k007",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Bağışlanma ve Teslimiyet",
+  "arapca": "غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
+  "okunus": "Ğufrâneke rabbenâ ve-ileyke l-mesîr",
+  "anlam": "Peygamber ve inananlar, ona Rabb'inden indirilene inandı. Hepsi Allah'a, meleklerine, kitaplarına, peygamberlerine inandı. “Peygamberleri arasından hiçbirini ayırdetmeyiz, işittik, itaat ettik, Rabbimiz! Affını dileriz, dönüş Sanadır” dediler.",
+  "kaynak": "Bakara, 2/285",
+  "aciklama": "Müminlerin duası duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
+    "okunus": "ğufrâneke rabbenâ ve-ileyke l-mesîr",
+    "anlam": "Kelime kelime: bağışlamanı dileriz · Rabbimiz · sanadır · dönüş(ümüz)"
+   }
+  ]
+ },
+ {
+  "id": "dua_k008",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Bakara Sûresinin Son Duası",
+  "arapca": "رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
+  "okunus": "Rabbenâ lâ tuâhıznâ in nesînâ ev ehtanâ rabbenâ velâ tehmil 'aleynâ isran kemâ hameltehu 'alâ ellezîne min kablinâ rabbenâ velâ tuhammilnâ mâ lâ tâkate lenâ bihi ve-u'fu 'annâ ve-iğfir lenâ ve-irhamnâ ente mevlânâ fe-unsurnâ 'alâ l-kavmi l-kâfirîn",
+  "anlam": "Allah kişiye ancak gücünün yeteceği kadar yükler; kazandığı iyilik lehine, ettiği kötülük de aleyhinedir. Rabbimiz! Eğer unutacak veya yanılacak olursak bizi sorumlu tutma. Rabbimiz bizden öncekilere yüklediğin gibi, bize de ağır yük yükleme. Rabbimiz! Bize gücümüzün yetmeyeceği şeyi taşıtma, bizi affet, bizi bağışla, bize acı. Sen Mevlamızsın, kafirlere karşı bize yardım et.",
+  "kaynak": "Bakara, 2/286",
+  "aciklama": "Müminlerin duası duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا لَا تُؤَاخِذْنَآ إِن",
+    "okunus": "rabbenâ lâ tuâhıznâ in",
+    "anlam": "Kelime kelime: Rabbimiz · bizi sorumlu tutma · eğer"
+   },
+   {
+    "arapca": "نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا",
+    "okunus": "nesînâ ev ehtanâ rabbenâ",
+    "anlam": "Kelime kelime: unutursak · ya da · yanılırsak · Rabbimiz"
+   },
+   {
+    "arapca": "وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا",
+    "okunus": "velâ tehmil 'aleynâ isran",
+    "anlam": "Kelime kelime: yük yükleme · lay · bize · ağır"
+   },
+   {
+    "arapca": "كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ",
+    "okunus": "kemâ hameltehu 'alâ ellezîne",
+    "anlam": "Kelime kelime: gibi · yüklediğin · üzerine · bizden öncekilerin"
+   },
+   {
+    "arapca": "مِن قَبْلِنَا ۚ رَبَّنَا وَلَا",
+    "okunus": "min kablinâ rabbenâ velâ",
+    "anlam": "Kelime kelime: before us · Rabbimiz · bize yükleme"
+   },
+   {
+    "arapca": "تُحَمِّلْنَا مَا لَا طَاقَةَ",
+    "okunus": "tuhammilnâ mâ lâ tâkate",
+    "anlam": "Kelime kelime: lay on us · şeyleri · gücümüzün yetmediğimiz"
+   },
+   {
+    "arapca": "لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا",
+    "okunus": "lenâ bihi ve-u'fu 'annâ",
+    "anlam": "Kelime kelime: bizim · ona · ve affet · bizi"
+   },
+   {
+    "arapca": "وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ",
+    "okunus": "ve-iğfir lenâ ve-irhamnâ ente",
+    "anlam": "Kelime kelime: bağışla · bizi · bize merhamet et · sen"
+   },
+   {
+    "arapca": "مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ",
+    "okunus": "mevlânâ fe-unsurnâ 'alâ l-kavmi",
+    "anlam": "Kelime kelime: bizim sahibimizsin · bize yardım eyle · karşı · toplumuna"
+   },
+   {
+    "arapca": "ٱلْكَـٰفِرِينَ",
+    "okunus": "l-kâfirîn",
+    "anlam": "Kelime kelime: kafirler"
+   }
+  ]
+ },
+ {
+  "id": "dua_k009",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Kalbin Kaymaması Duası",
+  "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+  "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+  "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+  "kaynak": "Âl-i İmrân, 3/8",
+  "aciklama": "İlimde derinleşenler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا",
+    "okunus": "rabbenâ lâ tuziğ kulûbenâ",
+    "anlam": "Kelime kelime: Rabbimiz · eğriltme · deviate · kalblerimizi"
+   },
+   {
+    "arapca": "بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ",
+    "okunus": "be'de iz hedeytenâ veheb",
+    "anlam": "Kelime kelime: sonra · bizi doğru yola ilettikten · You (have) guided us · ve ver"
+   },
+   {
+    "arapca": "لَنَا مِن لَّدُنكَ رَحْمَةً ۚ",
+    "okunus": "lenâ min ledunke rahmeten",
+    "anlam": "Kelime kelime: bize · katından · Yourself · bir rahmet"
+   },
+   {
+    "arapca": "إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+    "okunus": "inneke ente l-vehâb",
+    "anlam": "Kelime kelime: kuşkusuz sen · yalnız sen · çok bağış yapansın"
+   }
+  ]
+ },
+ {
+  "id": "dua_k010",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Mahşer Gününe İman",
+  "arapca": "رَبَّنَآ إِنَّكَ جَامِعُ ٱلنَّاسِ لِيَوْمٍۢ لَّا رَيْبَ فِيهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ",
+  "okunus": "Rabbenâ inneke câmi'u n-nâsi liyevmin lâ raybe fîhi inne'llâhe lâ yuhlifu l-mî'âd",
+  "anlam": "Rabbimiz! Doğrusu geleceği şüphe götürmeyen günde, insanları toplayacak olan Sensin. Şüphesiz ki Allah verdiği sözden caymaz.",
+  "kaynak": "Âl-i İmrân, 3/9",
+  "aciklama": "İlimde derinleşenler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَآ إِنَّكَ جَامِعُ ٱلنَّاسِ",
+    "okunus": "rabbenâ inneke câmi'u n-nâsi",
+    "anlam": "Kelime kelime: Rabbimiz · sen mutlaka · toplayacaksın · insanları"
+   },
+   {
+    "arapca": "لِيَوْمٍۢ لَّا رَيْبَ فِيهِ ۚ",
+    "okunus": "liyevmin lâ raybe fîhi",
+    "anlam": "Kelime kelime: bir günde · asla şüphe olmayan · doubt · kendisinde"
+   },
+   {
+    "arapca": "إِنَّ ٱللَّهَ لَا يُخْلِفُ",
+    "okunus": "inne l-lehe lâ yuhlifu",
+    "anlam": "Kelime kelime: şüphesiz · Allah · dönmez · break"
+   },
+   {
+    "arapca": "ٱلْمِيعَادَ",
+    "okunus": "l-mî'âd",
+    "anlam": "Kelime kelime: sözünden"
+   }
+  ]
+ },
+ {
+  "id": "dua_k011",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "İman Edenlerin Bağışlanma Duası",
+  "arapca": "رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
+  "okunus": "Rabbenâ innenâ âmennâ fe-iğfir lenâ zunûbenâ vekınâ 'azâbe n-nâr",
+  "anlam": "Onlar ki, “Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru” diyen, sabreden, doğru olan, gönülden kulluk eden, hayra sarfeden ve seher vakitlerinde bağışlanma dileyenlerdir.",
+  "kaynak": "Âl-i İmrân, 3/16",
+  "aciklama": "Takva sahipleri duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغْفِرْ",
+    "okunus": "rabbenâ innenâ âmennâ fe-iğfir",
+    "anlam": "Kelime kelime: Rabbimiz · gerçekten biz · inandık · bağışla"
+   },
+   {
+    "arapca": "لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ",
+    "okunus": "lenâ zunûbenâ vekınâ 'azâbe",
+    "anlam": "Kelime kelime: bizden · günahlarımızı · ve bizi koru · azabından"
+   },
+   {
+    "arapca": "ٱلنَّارِ",
+    "okunus": "n-nâr",
+    "anlam": "Kelime kelime: ateş"
+   }
+  ]
+ },
+ {
+  "id": "dua_k012",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Mülkün Sahibine Yakarış",
+  "arapca": "ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ",
+  "okunus": "Allâhumme mâlike l-mulki tutî l-mulke men teşâu vetenzi'u l-mulke mimmen teşâu vetu'ızzu men teşâu vetuzillu men teşâu biyedike l-hayru inneke 'alâ kulli şeyin kadîrun tûlicu el-leyle fî n-nehârı vetûlicu n-nehâra fî el-leyli vetuhrıcu l-haye mine l-meyiti vetuhrıcu l-meyite mine l-hayi veterzuku men teşâu biğayrı hısâb",
+  "anlam": "De ki: “Mülkün sahibi olan Allah'ım! Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir. Doğrusu Sen, her şeye Kadir'sin. Geceyi gündüze, gündüzü geceye geçirirsin; ölüden diri, diriden ölü çıkarırsın; dilediğini hesapsız rızıklandırırsın”.",
+  "kaynak": "Âl-i İmrân, 3/26-27",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى",
+    "okunus": "l-lehume mâlike l-mulki tutî",
+    "anlam": "Kelime kelime: Allah'ım · sahibisin · mülkün · sen verirsin"
+   },
+   {
+    "arapca": "ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ",
+    "okunus": "l-mulke men teşâu vetenzi'u",
+    "anlam": "Kelime kelime: mülkü · kimseye · dilediğin · ve alırsın"
+   },
+   {
+    "arapca": "ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ",
+    "okunus": "l-mulke mimmen teşâu vetu'ızzu",
+    "anlam": "Kelime kelime: mülkü · kimseden · dilediğin · ve yükseltirsin"
+   },
+   {
+    "arapca": "مَن تَشَآءُ وَتُذِلُّ مَن",
+    "okunus": "men teşâu vetuzillu men",
+    "anlam": "Kelime kelime: kimseyi · dilediğin · ve alçaltırsın · kimseyi"
+   },
+   {
+    "arapca": "تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ",
+    "okunus": "teşâu biyedike l-hayru inneke",
+    "anlam": "Kelime kelime: dilediğini · senin elindedir · hayır (mal iyilik)' · şüphesiz sen"
+   },
+   {
+    "arapca": "عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ",
+    "okunus": "'alâ kulli şeyin kadîrun",
+    "anlam": "Kelime kelime: her · every · şeye · kadirsin"
+   },
+   {
+    "arapca": "تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ",
+    "okunus": "tûlicu el-leyle fî n-nehârı",
+    "anlam": "Kelime kelime: sokarsın · geceyi · gündüze"
+   },
+   {
+    "arapca": "وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ",
+    "okunus": "vetûlicu n-nehâra fî el-leyli",
+    "anlam": "Kelime kelime: ve sokarsın · gündüzü · geceye"
+   },
+   {
+    "arapca": "وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ",
+    "okunus": "vetuhrıcu l-haye mine l-meyiti",
+    "anlam": "Kelime kelime: ve çıkarırsın · diriyi · ölüden"
+   },
+   {
+    "arapca": "وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ",
+    "okunus": "vetuhrıcu l-meyite mine l-hayi",
+    "anlam": "Kelime kelime: ve çıkarırsın · ölüyü · diriden"
+   },
+   {
+    "arapca": "وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ",
+    "okunus": "veterzuku men teşâu biğayrı",
+    "anlam": "Kelime kelime: ve rızıklandırırsın · kimseyi · dilediğin · olmaksızın"
+   },
+   {
+    "arapca": "حِسَابٍۢ",
+    "okunus": "hısâb",
+    "anlam": "Kelime kelime: hesap"
+   }
+  ]
+ },
+ {
+  "id": "dua_k013",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Salih Evlat Duası",
+  "arapca": "رَبِّ هَبْ لِى مِن لَّدُنكَ ذُرِّيَّةًۭ طَيِّبَةً ۖ إِنَّكَ سَمِيعُ ٱلدُّعَآءِ",
+  "okunus": "Rabbi heb lî min ledunke zurrıyyeten tayyibeten inneke semî'u d-du'â",
+  "anlam": "Orada Zekeriya Rabbine dua etti: “Ya Rabbi! Bana kendi katından temiz bir soy bahşet, doğrusu Sen duayı işitirsin”.",
+  "kaynak": "Âl-i İmrân, 3/38",
+  "aciklama": "Hz. Zekeriyyâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ هَبْ لِى مِن",
+    "okunus": "rabbi heb lî min",
+    "anlam": "Kelime kelime: Rabbim · ver · bana · katından"
+   },
+   {
+    "arapca": "لَّدُنكَ ذُرِّيَّةًۭ طَيِّبَةً ۖ إِنَّكَ",
+    "okunus": "ledunke zurrıyyeten tayyibeten inneke",
+    "anlam": "Kelime kelime: Yourself · bir nesil · temiz · şüphesiz sen"
+   },
+   {
+    "arapca": "سَمِيعُ ٱلدُّعَآءِ",
+    "okunus": "semî'u d-du'â",
+    "anlam": "Kelime kelime: işitensin · du'ayı"
+   }
+  ]
+ },
+ {
+  "id": "dua_k014",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Şahitlerle Yazılma Duası",
+  "arapca": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ وَٱتَّبَعْنَا ٱلرَّسُولَ فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ",
+  "okunus": "Rabbenâ âmennâ bimâ enzelte ve-ittebe'nâ r-rasûle fe-uktubnâ me'a s-şâhidîn",
+  "anlam": "“Rabbimiz! İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz”.",
+  "kaynak": "Âl-i İmrân, 3/53",
+  "aciklama": "Havariler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ",
+    "okunus": "rabbenâ âmennâ bimâ enzelte",
+    "anlam": "Kelime kelime: Rabbimiz · inandık · şeye · senin indirdiğin"
+   },
+   {
+    "arapca": "وَٱتَّبَعْنَا ٱلرَّسُولَ فَٱكْتُبْنَا مَعَ",
+    "okunus": "ve-ittebe'nâ r-rasûle fe-uktubnâ me'a",
+    "anlam": "Kelime kelime: ve uyduk · elçiye · bizi yaz · beraber"
+   },
+   {
+    "arapca": "ٱلشَّـٰهِدِينَ",
+    "okunus": "s-şâhidîn",
+    "anlam": "Kelime kelime: şahidlerle"
+   }
+  ]
+ },
+ {
+  "id": "dua_k015",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Günahların Bağışlanması ve Sebat",
+  "arapca": "رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِىٓ أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
+  "okunus": "Rabbenâ iğfir lenâ zunûbenâ ve-isrâfenâ fî emrınâ vesebbit ekdâmenâ ve-unsurnâ 'alâ l-kavmi l-kâfirîn",
+  "anlam": "Dedikleri ancak şu idi: “Rabbimiz! Günahlarımızı, işimizdeki aşırılıklarımızı bize bağışla, sebatımızı arttır, inkarcı topluluğa karşı bize yardım et”.",
+  "kaynak": "Âl-i İmrân, 3/147",
+  "aciklama": "Peygamberlerle savaşan müminler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا",
+    "okunus": "rabbenâ iğfir lenâ zunûbenâ",
+    "anlam": "Kelime kelime: Rabbimiz · bağışla · bizim · günahlarımızı"
+   },
+   {
+    "arapca": "وَإِسْرَافَنَا فِىٓ أَمْرِنَا وَثَبِّتْ",
+    "okunus": "ve-isrâfenâ fî emrınâ vesebbit",
+    "anlam": "Kelime kelime: ve taşkınlığımızı · işimizde · our affairs · ve sağlam tut"
+   },
+   {
+    "arapca": "أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ",
+    "okunus": "ekdâmenâ ve-unsurnâ 'alâ l-kavmi",
+    "anlam": "Kelime kelime: ayaklarımızı · bize yardım eyle · karşı · toplumuna"
+   },
+   {
+    "arapca": "ٱلْكَـٰفِرِينَ",
+    "okunus": "l-kâfirîn",
+    "anlam": "Kelime kelime: kafirler"
+   }
+  ]
+ },
+ {
+  "id": "dua_k016",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Allah Bize Yeter",
+  "arapca": "حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
+  "okunus": "Hasbunâ'llâhu veni'me l-vekîl",
+  "anlam": "İnsanlar onlara: “Düşmanınız olan insanlar size karşı bir ordu topladılar, onlardan korkun” dediler. Bu, onların imanını artırdı da: “Allah bize yeter. O ne güzel Vekil'dir” dediler.",
+  "kaynak": "Âl-i İmrân, 3/173",
+  "aciklama": "Uhud sonrası müminler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "حَسْبُنَا ٱللَّهُ وَنِعْمَ ٱلْوَكِيلُ",
+    "okunus": "hasbunâ l-lehu veni'me l-vekîl",
+    "anlam": "Kelime kelime: bize yeter · Allah · ve ne güzel · vekildir"
+   }
+  ]
+ },
+ {
+  "id": "dua_k017",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Kâinatı Tefekkür Edenlerin Duası",
+  "arapca": "رَبَّنَا مَا خَلَقْتَ هَـٰذَا بَـٰطِلًۭا سُبْحَـٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ رَبَّنَآ إِنَّكَ مَن تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍۢ",
+  "okunus": "Rabbenâ mâ halekte hâzâ bâtılen subhâneke fekınâ 'azâbe n-nârı rabbenâ inneke men tudhıli n-nâra fekad ehzeytehu vemâ lilzzâlimîne min ensârın",
+  "anlam": "Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: “Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru” “Rabbimiz! Sen ateşe kimi sokarsan, onu şüphesiz rezil etmiş olursun, zulmedenlerin hiç yardımcıları yoktur”.",
+  "kaynak": "Âl-i İmrân, 3/191-192",
+  "aciklama": "Akıl sahipleri duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا مَا خَلَقْتَ هَـٰذَا",
+    "okunus": "rabbenâ mâ halekte hâzâ",
+    "anlam": "Kelime kelime: Rabbimiz (derler) · yaratmadın · You have created · bunu"
+   },
+   {
+    "arapca": "بَـٰطِلًۭا سُبْحَـٰنَكَ فَقِنَا عَذَابَ",
+    "okunus": "bâtılen subhâneke fekınâ 'azâbe",
+    "anlam": "Kelime kelime: boş yere · sen yücesin · bizi koru · azabından"
+   },
+   {
+    "arapca": "ٱلنَّارِ رَبَّنَآ إِنَّكَ مَن",
+    "okunus": "n-nârı rabbenâ inneke men",
+    "anlam": "Kelime kelime: ateş · Rabbimiz · şüphesiz sen · kimi"
+   },
+   {
+    "arapca": "تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ",
+    "okunus": "tudhıli n-nâra fekad ehzeytehu",
+    "anlam": "Kelime kelime: sokarsan · ateşe · muhakkak ki · onu perişan etmişsindir"
+   },
+   {
+    "arapca": "وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍۢ",
+    "okunus": "vemâ lilzzâlimîne min ensârın",
+    "anlam": "Kelime kelime: yoktur · zalimlerin · hiçbir · yardımcıları"
+   }
+  ]
+ },
+ {
+  "id": "dua_k018",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "İman Çağrısına Uyanların Duası",
+  "arapca": "رَّبَّنَآ إِنَّنَا سَمِعْنَا مُنَادِيًۭا يُنَادِى لِلْإِيمَـٰنِ أَنْ ءَامِنُوا۟ بِرَبِّكُمْ فَـَٔامَنَّا ۚ رَبَّنَا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ ٱلْأَبْرَارِ رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ ٱلْقِيَـٰمَةِ ۗ إِنَّكَ لَا تُخْلِفُ ٱلْمِيعَادَ",
+  "okunus": "Rabbenâ innenâ semi'nâ munâdiyen yunâdî lilîmâni en âminû birabbikum feâmennâ rabbenâ fe-iğfir lenâ zunûbenâ vekeffir 'annâ seyyiâtinâ veteveffenâ me'a l-ebrârı rabbenâ veâtinâ mâ ve'adttenâ 'alâ rusulike velâ tuhzinâ yevme l-kıyâmeti inneke lâ tuhlifu l-mî'âd",
+  "anlam": "“Rabbimiz! Doğrusu biz Rabbinize inanın diye inanmaya çağıran bir çağırıcıyı işittik de iman ettik. Rabbimiz! Günahlarımızı bize bağışla, kötülüklerimizi ört, canımızi iyilerle beraber al”. “Rabbimiz! Peygamberlerinle vadettiklerini bize ver, kıyamet günü bizi rezil etme. Sen şüphesiz sözünden caymazsın”.",
+  "kaynak": "Âl-i İmrân, 3/193-194",
+  "aciklama": "Akıl sahipleri duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَّبَّنَآ إِنَّنَا سَمِعْنَا مُنَادِيًۭا",
+    "okunus": "rabbenâ innenâ semi'nâ munâdiyen",
+    "anlam": "Kelime kelime: Rabbimiz · şüphesiz biz · işittik · bir davetçi"
+   },
+   {
+    "arapca": "يُنَادِى لِلْإِيمَـٰنِ أَنْ ءَامِنُوا۟",
+    "okunus": "yunâdî lilîmâni en âminû",
+    "anlam": "Kelime kelime: çağıran · imana · inanın (diyerek) · Believe"
+   },
+   {
+    "arapca": "بِرَبِّكُمْ فَـَٔامَنَّا ۚ رَبَّنَا فَٱغْفِرْ",
+    "okunus": "birabbikum feâmennâ rabbenâ fe-iğfir",
+    "anlam": "Kelime kelime: Rabbinize · hemen inandık · Rabbimiz · bağışla"
+   },
+   {
+    "arapca": "لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا",
+    "okunus": "lenâ zunûbenâ vekeffir 'annâ",
+    "anlam": "Kelime kelime: bizim · günahlarımızı · ve ört · kötülüklerimizi"
+   },
+   {
+    "arapca": "سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ ٱلْأَبْرَارِ",
+    "okunus": "seyyiâtinâ veteveffenâ me'a l-ebrârı",
+    "anlam": "Kelime kelime: our evil deeds · ve canımızı al · beraber · iyilerle"
+   },
+   {
+    "arapca": "رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا",
+    "okunus": "rabbenâ veâtinâ mâ ve'adttenâ",
+    "anlam": "Kelime kelime: Rabbimiz · ve bize ver · şeyi · va'dettiğin"
+   },
+   {
+    "arapca": "عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا",
+    "okunus": "'alâ rusulike velâ tuhzinâ",
+    "anlam": "Kelime kelime: elçilerine · Your Messengers · bizi rezil perişan etme' · disgrace us"
+   },
+   {
+    "arapca": "يَوْمَ ٱلْقِيَـٰمَةِ ۗ إِنَّكَ لَا",
+    "okunus": "yevme l-kıyâmeti inneke lâ",
+    "anlam": "Kelime kelime: günü · kıyamet · zira sen · caymazsın"
+   },
+   {
+    "arapca": "تُخْلِفُ ٱلْمِيعَادَ",
+    "okunus": "tuhlifu l-mî'âd",
+    "anlam": "Kelime kelime: break · verdiğin sözden"
+   }
+  ]
+ },
+ {
+  "id": "dua_k019",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Şahitlerle Beraber Yaz",
+  "arapca": "رَبَّنَآ ءَامَنَّا فَٱكْتُبْنَا مَعَ ٱلشَّـٰهِدِينَ",
+  "okunus": "Rabbenâ âmennâ fe-uktubnâ me'a s-şâhidîn",
+  "anlam": "Peygambere indirilen Kuran'ı işittiklerinde, gerçeği öğrenmelerinden gözlerinin yaşla dolarak, “Rabbimiz! İnandık, bizi de şahidlerden yaz. Rabbimizin bizi iyi milletle birlikte bulundurmasını umarken niçin Allah'a ve bize gelen gerçeğe inanmayalım?” dediklerini görürsün.",
+  "kaynak": "Mâide, 5/83",
+  "aciklama": "Hakkı tanıyan Hristiyanlar duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَآ ءَامَنَّا فَٱكْتُبْنَا مَعَ",
+    "okunus": "rabbenâ âmennâ fe-uktubnâ me'a",
+    "anlam": "Kelime kelime: Rabbimiz · inandık · bizi yaz · beraber"
+   },
+   {
+    "arapca": "ٱلشَّـٰهِدِينَ",
+    "okunus": "s-şâhidîn",
+    "anlam": "Kelime kelime: şahidlerle"
+   }
+  ]
+ },
+ {
+  "id": "dua_k020",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Gökten Sofra Duası",
+  "arapca": "ٱللَّهُمَّ رَبَّنَآ أَنزِلْ عَلَيْنَا مَآئِدَةًۭ مِّنَ ٱلسَّمَآءِ تَكُونُ لَنَا عِيدًۭا لِّأَوَّلِنَا وَءَاخِرِنَا وَءَايَةًۭ مِّنكَ ۖ وَٱرْزُقْنَا وَأَنتَ خَيْرُ ٱلرَّٰزِقِينَ",
+  "okunus": "Allâhumme rabbenâ enzil 'aleynâ mâideten mine s-semâi tekûnu lenâ 'îden li-evvelinâ veâhırınâ veâyeten minke ve-urzuknâ ve-ente hayru r-râzikîn",
+  "anlam": "Meryem oğlu İsa, “Allahım! Rabbimiz! Bize ve bizden sonra geleceklere bayram ve Sen'den bir delil olarak gökten bir sofra indir, bizi rızıklandır, Sen rızık verenlerin en hayırlısısın” dedi.",
+  "kaynak": "Mâide, 5/114",
+  "aciklama": "Hz. Îsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱللَّهُمَّ رَبَّنَآ أَنزِلْ عَلَيْنَا",
+    "okunus": "l-lehume rabbenâ enzil 'aleynâ",
+    "anlam": "Kelime kelime: Allah'ım · Rabbimiz · indir · bizim üzerimize"
+   },
+   {
+    "arapca": "مَآئِدَةًۭ مِّنَ ٱلسَّمَآءِ تَكُونُ",
+    "okunus": "mâideten mine s-semâi tekûnu",
+    "anlam": "Kelime kelime: bir sofra · gökten · olsun"
+   },
+   {
+    "arapca": "لَنَا عِيدًۭا لِّأَوَّلِنَا وَءَاخِرِنَا",
+    "okunus": "lenâ 'îden li-evvelinâ veâhırınâ",
+    "anlam": "Kelime kelime: bizim için · bir bayram · öncemiz için · ve sonramız için"
+   },
+   {
+    "arapca": "وَءَايَةًۭ مِّنكَ ۖ وَٱرْزُقْنَا وَأَنتَ",
+    "okunus": "veâyeten minke ve-urzuknâ ve-ente",
+    "anlam": "Kelime kelime: ve bir mu'cize (olsun) · Senden · bizi rızıklandır · ve sen"
+   },
+   {
+    "arapca": "خَيْرُ ٱلرَّٰزِقِينَ",
+    "okunus": "hayru r-râzikîn",
+    "anlam": "Kelime kelime: en hayırlısısın · rızık verenlerin"
+   }
+  ]
+ },
+ {
+  "id": "dua_k021",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Tövbe Duası",
+  "arapca": "رَبَّنَا ظَلَمْنَآ أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ ٱلْخَـٰسِرِينَ",
+  "okunus": "Rabbenâ zalemnâ enfusenâ ve-in lem teğfir lenâ veterhamnâ lenekûnenne mine l-hâsirîn",
+  "anlam": "Her ikisi, “Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz” dediler.",
+  "kaynak": "A'râf, 7/23",
+  "aciklama": "Hz. Âdem ve Havvâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا ظَلَمْنَآ أَنفُسَنَا وَإِن",
+    "okunus": "rabbenâ zalemnâ enfusenâ ve-in",
+    "anlam": "Kelime kelime: Rabbimiz · biz zulmettik · kendimize · ve eğer"
+   },
+   {
+    "arapca": "لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا",
+    "okunus": "lem teğfir lenâ veterhamnâ",
+    "anlam": "Kelime kelime: bağışlamazsan · You forgive · bizi · ve bize acımazsan"
+   },
+   {
+    "arapca": "لَنَكُونَنَّ مِنَ ٱلْخَـٰسِرِينَ",
+    "okunus": "lenekûnenne mine l-hâsirîn",
+    "anlam": "Kelime kelime: muhakkak oluruz · ziyana uğrayanlardan"
+   }
+  ]
+ },
+ {
+  "id": "dua_k022",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Zalimlerle Beraber Kılma",
+  "arapca": "رَبَّنَا لَا تَجْعَلْنَا مَعَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
+  "okunus": "Rabbenâ lâ tec'alnâ me'a l-kavmi z-zâlimîn",
+  "anlam": "Gözleri cehennemlikler yönüne çevrilince: “Rabbimiz! Bizi zalimlerle beraber bulundurma” derler.",
+  "kaynak": "A'râf, 7/47",
+  "aciklama": "A'râf ehli duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا لَا تَجْعَلْنَا مَعَ",
+    "okunus": "rabbenâ lâ tec'alnâ me'a",
+    "anlam": "Kelime kelime: Rabbimiz · bizi bulundurma · place us · beraber"
+   },
+   {
+    "arapca": "ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
+    "okunus": "l-kavmi z-zâlimîn",
+    "anlam": "Kelime kelime: toplulukla · zalim"
+   }
+  ]
+ },
+ {
+  "id": "dua_k023",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Hak ile Hüküm Ver",
+  "arapca": "رَبَّنَا ٱفْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِٱلْحَقِّ وَأَنتَ خَيْرُ ٱلْفَـٰتِحِينَ",
+  "okunus": "Rabbenâ ifteh beynenâ vebeyne kavminâ bil-hakı ve-ente hayru l-fâtihîn",
+  "anlam": "Milletinin büyüklük taslayan ileri gelenleri, “Ey Şuayb! Ya dinimize dönersiniz ya da, and olsun ki seni ve inananları seninle beraber kentimizden çıkarırız” dediler. Şuayb, onlara: “İstemezsek de mi? Allah bizi dininizden kurtardıktan sonra ona dönecek olursak, doğrusu Allah'a karşı yalan uydurmuş oluruz. Rabbimizin dilemesi bir yana, dininize dönmek bize yakışmaz. Rabbimizin ilmi her şeyi kuşatmıştır. Biz yalnız Allah'a güvendik. Rabbimiz! Bizimle milletimiz arasında hak ile Sen hüküm ver, Sen hükmedenlerin en hayırlısısın” dedi.",
+  "kaynak": "A'râf, 7/89",
+  "aciklama": "Hz. Şuayb duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا ٱفْتَحْ بَيْنَنَا وَبَيْنَ",
+    "okunus": "rabbenâ ifteh beynenâ vebeyne",
+    "anlam": "Kelime kelime: Rabbimiz · aç(ığa çıkar) · aramızı · ve arasını"
+   },
+   {
+    "arapca": "قَوْمِنَا بِٱلْحَقِّ وَأَنتَ خَيْرُ",
+    "okunus": "kavminâ bil-hakı ve-ente hayru",
+    "anlam": "Kelime kelime: kavmimizin · gerçekle · muhakkak ki sen · en iyisisin"
+   },
+   {
+    "arapca": "ٱلْفَـٰتِحِينَ",
+    "okunus": "l-fâtihîn",
+    "anlam": "Kelime kelime: aç(ığa çıkar)anlanın"
+   }
+  ]
+ },
+ {
+  "id": "dua_k024",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Sabır ve Müslüman Olarak Ölüm",
+  "arapca": "رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَتَوَفَّنَا مُسْلِمِينَ",
+  "okunus": "Rabbenâ efrığ 'aleynâ sabran veteveffenâ muslimîn",
+  "anlam": "Onlar da: “Doğrusu biz ancak Rabbimize döneriz. Rabbimizin ayetleri gelince, onlara inanmamızdan ötürü bizden öç alıyorsun. Rabbimiz! Bize sabır ver ve canımızı müslim olarak al” dediler.",
+  "kaynak": "A'râf, 7/126",
+  "aciklama": "Firavun'un sihirbazları duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا",
+    "okunus": "rabbenâ efrığ 'aleynâ sabran",
+    "anlam": "Kelime kelime: Rabbimiz · boşalt · üzerimize · sabır"
+   },
+   {
+    "arapca": "وَتَوَفَّنَا مُسْلِمِينَ",
+    "okunus": "veteveffenâ muslimîn",
+    "anlam": "Kelime kelime: ve bizi öldür · müslümanlar olarak"
+   }
+  ]
+ },
+ {
+  "id": "dua_k025",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Kardeşimle Beraber Bağışla",
+  "arapca": "رَبِّ ٱغْفِرْ لِى وَلِأَخِى وَأَدْخِلْنَا فِى رَحْمَتِكَ ۖ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+  "okunus": "Rabbi iğfir lî veli-ehî ve-edhılnâ fî rahmetike ve-ente erhamu r-râhımîn",
+  "anlam": "Musa “Rabbim! Beni ve kardeşimi bağışla, bize acı, Sen merhametlilerin merhametlisisin” dedi.",
+  "kaynak": "A'râf, 7/151",
+  "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ ٱغْفِرْ لِى وَلِأَخِى",
+    "okunus": "rabbi iğfir lî veli-ehî",
+    "anlam": "Kelime kelime: Rabbim · bağışla · beni · ve kardeşimi"
+   },
+   {
+    "arapca": "وَأَدْخِلْنَا فِى رَحْمَتِكَ ۖ وَأَنتَ",
+    "okunus": "ve-edhılnâ fî rahmetike ve-ente",
+    "anlam": "Kelime kelime: ve bizi sok · içine · rahmetinin · ve sensin"
+   },
+   {
+    "arapca": "أَرْحَمُ ٱلرَّٰحِمِينَ",
+    "okunus": "erhamu r-râhımîn",
+    "anlam": "Kelime kelime: en merhametlisi · merhametlilerin"
+   }
+  ]
+ },
+ {
+  "id": "dua_k026",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Sen Bizim Velimizsin",
+  "arapca": "أَنتَ وَلِيُّنَا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا ۖ وَأَنتَ خَيْرُ ٱلْغَـٰفِرِينَ ۞ وَٱكْتُبْ لَنَا فِى هَـٰذِهِ ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ إِنَّا هُدْنَآ إِلَيْكَ ۚ قَالَ عَذَابِىٓ أُصِيبُ بِهِۦ مَنْ أَشَآءُ ۖ وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍۢ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَٱلَّذِينَ هُم بِـَٔايَـٰتِنَا يُؤْمِنُونَ",
+  "okunus": "Ente veliyyunâ fe-iğfir lenâ ve-irhamnâ ve-ente hayru l-ğâfirîne ve-uktub lenâ fî hâzihi d-dunyâ haseneten vefî l-âhırati innâ hudnâ ileyke kâle 'azâbî usîbu bihi men eşâu verahmetî vesi'at kulle şeyin fese-ektubuhâ lillezîne yettekûne veyutûne z-zekete ve-ellezîne hum biâyâtinâ yuminûn",
+  "anlam": "Musa, tayin ettiğimiz müddette milletinden yetmiş kişi seçti; onları sarsıntı tutunca dedi ki: “Rabbim! Dileseydin daha önce beni ve onları yok ederdin, aramızdaki beyinsizlerin yaptıklarından ötürü bizi yok eder misin? Bu, Senin imtihanından başka birşey değildir, bununla dilediğini saptırır, dilediğini doğru yola iletirsin; bizim dostumuz Sensin; bizi bağışla, bize merhamet et. Sen bağışlayanların en iyisisin.” “Bu dünyada ve ahirette bizim için güzel olanı yaz; biz Sana yöneldik” dedi. Allah: “Azabıma dilediğim kimseyi uğratırım, rahmetim herşeyi kaplamıştır; bunu Allah'a karşı gelmekten sakınanlara, zekat verenlere, ayetlerimize inanıp, yanlarındaki Tevrat ve İncil'de yazılı buldukları, okuyup yazması olmayan peygambere uyanlara yazacağız. O peygamber, onlara, uygun olanı emreder ve fenalıktan meneder, temiz şeyleri helal, murdar şeyleri haram kılar, onların ağır yüklerini indirir, zor tekliflerini hafifletir. Bu peygambere inanan, hürmet eden, yardım eden, onunla gönderilen nura uyanlar yok mu? İşte onlar saadete erenlerdir” dedi.",
+  "kaynak": "A'râf, 7/155-156",
+  "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "أَنتَ وَلِيُّنَا فَٱغْفِرْ لَنَا",
+    "okunus": "ente veliyyunâ fe-iğfir lenâ",
+    "anlam": "Kelime kelime: sen · bizim velimizsin · bağışla · bizi"
+   },
+   {
+    "arapca": "وَٱرْحَمْنَا ۖ وَأَنتَ خَيْرُ ٱلْغَـٰفِرِينَ",
+    "okunus": "ve-irhamnâ ve-ente hayru l-ğâfirîne",
+    "anlam": "Kelime kelime: ve bize acı · ve sen · en iyisisin · bağışlayanların"
+   },
+   {
+    "arapca": "۞ وَٱكْتُبْ لَنَا فِى هَـٰذِهِ",
+    "okunus": "ve-uktub lenâ fî hâzihi",
+    "anlam": "Kelime kelime: ve yaz · bize · bu · this"
+   },
+   {
+    "arapca": "ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ",
+    "okunus": "d-dunyâ haseneten vefî l-âhırati",
+    "anlam": "Kelime kelime: dünyada · iyilik · ve · ahirette"
+   },
+   {
+    "arapca": "إِنَّا هُدْنَآ إِلَيْكَ ۚ قَالَ",
+    "okunus": "innâ hudnâ ileyke kâle",
+    "anlam": "Kelime kelime: biz · yöneldik · sana · (Alah) buyurdu ki"
+   },
+   {
+    "arapca": "عَذَابِىٓ أُصِيبُ بِهِۦ مَنْ",
+    "okunus": "'azâbî usîbu bihi men",
+    "anlam": "Kelime kelime: azabıma · uğratırım · onu · kimseyi"
+   },
+   {
+    "arapca": "أَشَآءُ ۖ وَرَحْمَتِى وَسِعَتْ كُلَّ",
+    "okunus": "eşâu verahmetî vesi'at kulle",
+    "anlam": "Kelime kelime: dilediğim · ve rahmetim ise · kaplamıştır · her"
+   },
+   {
+    "arapca": "شَىْءٍۢ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ",
+    "okunus": "şeyin fese-ektubuhâ lillezîne yettekûne",
+    "anlam": "Kelime kelime: şeyi · onu yazacağım · kimselere · korunanlara"
+   },
+   {
+    "arapca": "وَيُؤْتُونَ ٱلزَّكَوٰةَ وَٱلَّذِينَ هُم",
+    "okunus": "veyutûne z-zekete ve-ellezîne hum",
+    "anlam": "Kelime kelime: ve verenlere · zekatı · ve kimselere · onlar"
+   },
+   {
+    "arapca": "بِـَٔايَـٰتِنَا يُؤْمِنُونَ",
+    "okunus": "biâyâtinâ yuminûn",
+    "anlam": "Kelime kelime: ayetlerimize · inanıyorlar"
+   }
+  ]
+ },
+ {
+  "id": "dua_k027",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Allah Bana Yeter",
+  "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+  "okunus": "Hasbiye'llâhu lâ ilâhe illâ huve 'aleyhi tevekkeltu vehuve rabbu l-'arşi l-'azîm",
+  "anlam": "Eğer yüz çevirirlerse de ki: “Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.”",
+  "kaynak": "Tevbe, 9/129",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ",
+    "okunus": "hasbiye l-lehu lâ ilâhe",
+    "anlam": "Kelime kelime: bana yeter · Allah · yoktur · tanrı"
+   },
+   {
+    "arapca": "إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ",
+    "okunus": "illâ huve 'aleyhi tevekkeltu",
+    "anlam": "Kelime kelime: başka · O'ndan · O'na · dayandım"
+   },
+   {
+    "arapca": "وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+    "okunus": "vehuve rabbu l-'arşi l-'azîm",
+    "anlam": "Kelime kelime: ve O · rabbidir · Arş'ın · büyük"
+   }
+  ]
+ },
+ {
+  "id": "dua_k028",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Zalimlere Fitne Kılma",
+  "arapca": "رَبَّنَا لَا تَجْعَلْنَا فِتْنَةًۭ لِّلْقَوْمِ ٱلظَّـٰلِمِينَ وَنَجِّنَا بِرَحْمَتِكَ مِنَ ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
+  "okunus": "Rabbenâ lâ tec'alnâ fitneten lilkavmi z-zâlimîne veneccinâ birahmetike mine l-kavmi l-kâfirîn",
+  "anlam": "“Allah'a güvendik; Ey Rabbimiz! Zalim bir millet ile bizi sınama, rahmetinle bizi kafirlerden kurtar” dediler. “Allah'a güvendik; Ey Rabbimiz! Zalim bir millet ile bizi sınama, rahmetinle bizi kafirlerden kurtar” dediler.",
+  "kaynak": "Yûnus, 10/85-86",
+  "aciklama": "Hz. Mûsâ'nın kavmi duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا لَا تَجْعَلْنَا فِتْنَةًۭ",
+    "okunus": "rabbenâ lâ tec'alnâ fitneten",
+    "anlam": "Kelime kelime: Rabbimiz · bizi kılma · make us · bir fitne"
+   },
+   {
+    "arapca": "لِّلْقَوْمِ ٱلظَّـٰلِمِينَ وَنَجِّنَا بِرَحْمَتِكَ",
+    "okunus": "lilkavmi z-zâlimîne veneccinâ birahmetike",
+    "anlam": "Kelime kelime: topluluğu için · zalimler · ve bizi kurtar · rahmetinle"
+   },
+   {
+    "arapca": "مِنَ ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
+    "okunus": "mine l-kavmi l-kâfirîn",
+    "anlam": "Kelime kelime: topluluğundan · kâfirler"
+   }
+  ]
+ },
+ {
+  "id": "dua_k029",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Bilmediğimi İstemekten Sığınma",
+  "arapca": "رَبِّ إِنِّىٓ أَعُوذُ بِكَ أَنْ أَسْـَٔلَكَ مَا لَيْسَ لِى بِهِۦ عِلْمٌۭ ۖ وَإِلَّا تَغْفِرْ لِى وَتَرْحَمْنِىٓ أَكُن مِّنَ ٱلْخَـٰسِرِينَ",
+  "okunus": "Rabbi innî e'ûzu bike en eseleke mâ leyse lî bihi 'ılmun ve-illâ teğfir lî veterhamnî ekun mine l-hâsirîn",
+  "anlam": "“Rabbim! Bilmediğim şeyi Senden istemekten Sana sığınırım. Beni bağışlamaz ve bana merhamet etmezsen kaybedenlerden olurum” dedi.",
+  "kaynak": "Hûd, 11/47",
+  "aciklama": "Hz. Nûh duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ إِنِّىٓ أَعُوذُ بِكَ",
+    "okunus": "rabbi innî e'ûzu bike",
+    "anlam": "Kelime kelime: Rabbim · muhakkak ben · sığınırım · sana"
+   },
+   {
+    "arapca": "أَنْ أَسْـَٔلَكَ مَا لَيْسَ",
+    "okunus": "en eseleke mâ leyse",
+    "anlam": "Kelime kelime: senden istemekten · I (should) ask You · bir şeyi · olmayan"
+   },
+   {
+    "arapca": "لِى بِهِۦ عِلْمٌۭ ۖ وَإِلَّا",
+    "okunus": "lî bihi 'ılmun ve-illâ",
+    "anlam": "Kelime kelime: benim · hakkında · bilgim · eğer"
+   },
+   {
+    "arapca": "تَغْفِرْ لِى وَتَرْحَمْنِىٓ أَكُن",
+    "okunus": "teğfir lî veterhamnî ekun",
+    "anlam": "Kelime kelime: bağışlamazsan · beni · ve bana rahmet etmezsen · olurum"
+   },
+   {
+    "arapca": "مِّنَ ٱلْخَـٰسِرِينَ",
+    "okunus": "mine l-hâsirîn",
+    "anlam": "Kelime kelime: hüsrana uğrayanlardan"
+   }
+  ]
+ },
+ {
+  "id": "dua_k030",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Salihlere Kat",
+  "arapca": "۞ رَبِّ قَدْ ءَاتَيْتَنِى مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۖ تَوَفَّنِى مُسْلِمًۭا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ",
+  "okunus": "Rabbi kad âteytenî mine l-mulki ve'allemtenî min tevîli l-ehâdîsi fâtıra s-semâvâti vel-erdı ente veliyyî fî d-dunyâ vel-âhırati teveffenî muslimen ve-elhıknî bil-sâlihîn",
+  "anlam": "“Rabbim! Bana hükümranlık verdin, rüyaların yorumunu öğrettin. Ey göklerin ve yerin yaradanı! Dünya ve ahirette işlerimi yoluna koyan sensin; benim canımı müslüman olarak al ve beni iyilere kat.”",
+  "kaynak": "Yûsuf, 12/101",
+  "aciklama": "Hz. Yûsuf duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "۞ رَبِّ قَدْ ءَاتَيْتَنِى مِنَ",
+    "okunus": "rabbi kad âteytenî mine",
+    "anlam": "Kelime kelime: Rabbim · gerçekten · bana verdin · mülk"
+   },
+   {
+    "arapca": "ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ",
+    "okunus": "l-mulki ve'allemtenî min tevîli",
+    "anlam": "Kelime kelime: ve bana öğrettin · yorumunu"
+   },
+   {
+    "arapca": "ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ",
+    "okunus": "l-ehâdîsi fâtıra s-semâvâti vel-erdı",
+    "anlam": "Kelime kelime: düşlerin · yaratıcısı · göklerin · ve yerin"
+   },
+   {
+    "arapca": "أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا",
+    "okunus": "ente veliyyî fî d-dunyâ",
+    "anlam": "Kelime kelime: sensin · benim velim · dünyada"
+   },
+   {
+    "arapca": "وَٱلْـَٔاخِرَةِ ۖ تَوَفَّنِى مُسْلِمًۭا وَأَلْحِقْنِى",
+    "okunus": "vel-âhırati teveffenî muslimen ve-elhıknî",
+    "anlam": "Kelime kelime: ve ahirette · beni öldür · müslüman olarak · ve beni kat"
+   },
+   {
+    "arapca": "بِٱلصَّـٰلِحِينَ",
+    "okunus": "bil-sâlihîn",
+    "anlam": "Kelime kelime: iyilere"
+   }
+  ]
+ },
+ {
+  "id": "dua_k031",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Zindan Duası",
+  "arapca": "رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَـٰهِلِينَ",
+  "okunus": "Rabbi s-sicnu ehabbu ileyye mimmâ yed'ûnenî ileyhi ve-illâ tesrıf 'annî keydehunne esbu ileyhinne ve-ekun mine l-câhilîn",
+  "anlam": "Yusuf: “Rabbim! Hapis benim için, bunların istediklerini yapmaktan daha iyidir. Eğer tuzaklarını benden uzaklaştırmazsan onlara meyleder ve bilmeyenlerden olurum.” dedi.",
+  "kaynak": "Yûsuf, 12/33",
+  "aciklama": "Hz. Yûsuf duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ",
+    "okunus": "rabbi s-sicnu ehabbu ileyye",
+    "anlam": "Kelime kelime: Rabbim · zindan · daha iyidir · bana göre"
+   },
+   {
+    "arapca": "مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا",
+    "okunus": "mimmâ yed'ûnenî ileyhi ve-illâ",
+    "anlam": "Kelime kelime: şeyden · beni çağırdığı · bunların · ve eğer"
+   },
+   {
+    "arapca": "تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ",
+    "okunus": "tesrıf 'annî keydehunne esbu",
+    "anlam": "Kelime kelime: savmazsan · benden · onların hilelerini · kayarım"
+   },
+   {
+    "arapca": "إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَـٰهِلِينَ",
+    "okunus": "ileyhinne ve-ekun mine l-câhilîn",
+    "anlam": "Kelime kelime: onlara · ve olurum · cahillerden"
+   }
+  ]
+ },
+ {
+  "id": "dua_k032",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Güvenli Şehir ve Puta Tapmaktan Koruma",
+  "arapca": "رَبِّ ٱجْعَلْ هَـٰذَا ٱلْبَلَدَ ءَامِنًۭا وَٱجْنُبْنِى وَبَنِىَّ أَن نَّعْبُدَ ٱلْأَصْنَامَ",
+  "okunus": "Rabbi ic'al hâzâ l-belede âminen ve-ucnubnî vebeniyye en ne'bude l-esnâm",
+  "anlam": "İbrahim şöyle demişti: “Rabbim! Bu şehri güvenli kıl; beni ve oğullarımı putlara tapmaktan uzak tut.”",
+  "kaynak": "İbrâhîm, 14/35",
+  "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ ٱجْعَلْ هَـٰذَا ٱلْبَلَدَ",
+    "okunus": "rabbi ic'al hâzâ l-belede",
+    "anlam": "Kelime kelime: Rabbim · kıl · bu · şehri"
+   },
+   {
+    "arapca": "ءَامِنًۭا وَٱجْنُبْنِى وَبَنِىَّ أَن",
+    "okunus": "âminen ve-ucnubnî vebeniyye en",
+    "anlam": "Kelime kelime: güvenli · beni uzak tut · ve oğullarımı · tapmaktan"
+   },
+   {
+    "arapca": "نَّعْبُدَ ٱلْأَصْنَامَ",
+    "okunus": "ne'bude l-esnâm",
+    "anlam": "Kelime kelime: we worship · putlara"
+   }
+  ]
+ },
+ {
+  "id": "dua_k033",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Namazı Devamlı Kılanlardan Eyle",
+  "arapca": "رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى ۚ رَبَّنَا وَتَقَبَّلْ دُعَآءِ رَبَّنَا ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ ٱلْحِسَابُ",
+  "okunus": "Rabbi ic'alnî mukîme s-saleti vemin zurrıyyetî rabbenâ vetekabbel du'âi rabbenâ iğfir lî velivâlideyye velilmuminîne yevme yekûmu l-hısâb",
+  "anlam": "“Rabbim! Beni ve çocuklarımı namaz kılanlardan eyle. Rabbimiz! Duamı kabul buyur.” “Rabbimiz! Hesap görülecek günde, beni, anamı babamı ve inananları bağışla.”",
+  "kaynak": "İbrâhîm, 14/40-41",
+  "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ",
+    "okunus": "rabbi ic'alnî mukîme s-saleti",
+    "anlam": "Kelime kelime: Rabbim · beni kıl · kılanlardan · namazı"
+   },
+   {
+    "arapca": "وَمِن ذُرِّيَّتِى ۚ رَبَّنَا وَتَقَبَّلْ",
+    "okunus": "vemin zurrıyyetî rabbenâ vetekabbel",
+    "anlam": "Kelime kelime: ve · zürriyetimi · Rabbimiz · kabul buyur"
+   },
+   {
+    "arapca": "دُعَآءِ رَبَّنَا ٱغْفِرْ لِى",
+    "okunus": "du'âi rabbenâ iğfir lî",
+    "anlam": "Kelime kelime: du'amı · Rabbimiz · bağışla · beni"
+   },
+   {
+    "arapca": "وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ",
+    "okunus": "velivâlideyye velilmuminîne yevme yekûmu",
+    "anlam": "Kelime kelime: anamı-babamı · ve mü'minleri · gün · görüleceği"
+   },
+   {
+    "arapca": "ٱلْحِسَابُ",
+    "okunus": "l-hısâb",
+    "anlam": "Kelime kelime: hesabın"
+   }
+  ]
+ },
+ {
+  "id": "dua_k034",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Anne-Baba Duası",
+  "arapca": "رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا",
+  "okunus": "Rabbi irhamhumâ kemâ rabbeyânî sağîr",
+  "anlam": "Onlara acıyarak alçak gönüllülük kanatlarını ger ve: “Rabbim! Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et!” de.",
+  "kaynak": "İsrâ, 17/24",
+  "aciklama": "Müminlere öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى",
+    "okunus": "rabbi irhamhumâ kemâ rabbeyânî",
+    "anlam": "Kelime kelime: Rabbim · sen de bunlara acı · beni nasıl yetiştirdilerse · they brought me up"
+   },
+   {
+    "arapca": "صَغِيرًۭا",
+    "okunus": "sağîr",
+    "anlam": "Kelime kelime: küçükken"
+   }
+  ]
+ },
+ {
+  "id": "dua_k035",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Doğrulukla Girip Çıkma Duası",
+  "arapca": "رَّبِّ أَدْخِلْنِى مُدْخَلَ صِدْقٍۢ وَأَخْرِجْنِى مُخْرَجَ صِدْقٍۢ وَٱجْعَل لِّى مِن لَّدُنكَ سُلْطَـٰنًۭا نَّصِيرًۭا",
+  "okunus": "Rabbi edhılnî mudhale sıdkın ve-ehrıcnî muhrace sıdkın ve-ic'al lî min ledunke sultânen nesîr",
+  "anlam": "De ki: “Rabbim! Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et; çıkaracağın yerden de hoşnutluk ve esenlikle çıkar. Katından beni destekleyecek bir kuvvet ver.”",
+  "kaynak": "İsrâ, 17/80",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَّبِّ أَدْخِلْنِى مُدْخَلَ صِدْقٍۢ",
+    "okunus": "rabbi edhılnî mudhale sıdkın",
+    "anlam": "Kelime kelime: Rabbim · beni girdir · girdirişiyle · doğruluk"
+   },
+   {
+    "arapca": "وَأَخْرِجْنِى مُخْرَجَ صِدْقٍۢ وَٱجْعَل",
+    "okunus": "ve-ehrıcnî muhrace sıdkın ve-ic'al",
+    "anlam": "Kelime kelime: ve beni çıkar · çıkarışiyle · doğruluk · ve ver"
+   },
+   {
+    "arapca": "لِّى مِن لَّدُنكَ سُلْطَـٰنًۭا",
+    "okunus": "lî min ledunke sultânen",
+    "anlam": "Kelime kelime: bana · katından · near You · bir güç"
+   },
+   {
+    "arapca": "نَّصِيرًۭا",
+    "okunus": "nesîr",
+    "anlam": "Kelime kelime: yardımcı"
+   }
+  ]
+ },
+ {
+  "id": "dua_k036",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Rahmet ve Doğru Yol Duası",
+  "arapca": "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًۭا",
+  "okunus": "Rabbenâ âtinâ min ledunke rahmeten veheyyi lenâ min emrınâ raşeden",
+  "anlam": "Birkaç genç mağaraya sığınmış: “Rabbimiz! Katından bize rahmet ver ve işimizde doğruyu göster, bizi başarılı kıl” demişlerdi.",
+  "kaynak": "Kehf, 18/10",
+  "aciklama": "Ashâb-ı Kehf duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ",
+    "okunus": "rabbenâ âtinâ min ledunke",
+    "anlam": "Kelime kelime: Rabbimiz · bize ver · katından · Yourself"
+   },
+   {
+    "arapca": "رَحْمَةًۭ وَهَيِّئْ لَنَا مِنْ",
+    "okunus": "rahmeten veheyyi lenâ min",
+    "anlam": "Kelime kelime: bir rahmet · ve hazırla · bize · şu işimizden"
+   },
+   {
+    "arapca": "أَمْرِنَا رَشَدًۭا",
+    "okunus": "emrınâ raşeden",
+    "anlam": "Kelime kelime: our affair · bir çıkış yolu"
+   }
+  ]
+ },
+ {
+  "id": "dua_k037",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Göğsümü Genişlet",
+  "arapca": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى وَٱحْلُلْ عُقْدَةًۭ مِّن لِّسَانِى يَفْقَهُوا۟ قَوْلِى",
+  "okunus": "Rabbi işrah lî sadrî veyessir lî emrî ve-uhlul 'ukdeten min lisânî yefkahû kavlî",
+  "anlam": "Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi.",
+  "kaynak": "Tâhâ, 20/25-28",
+  "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ ٱشْرَحْ لِى صَدْرِى",
+    "okunus": "rabbi işrah lî sadrî",
+    "anlam": "Kelime kelime: Rabbim · aç · benim · göğsümü"
+   },
+   {
+    "arapca": "وَيَسِّرْ لِىٓ أَمْرِى وَٱحْلُلْ",
+    "okunus": "veyessir lî emrî ve-uhlul",
+    "anlam": "Kelime kelime: ve kolaylaştır · bana · işimi · ve çöz"
+   },
+   {
+    "arapca": "عُقْدَةًۭ مِّن لِّسَانِى يَفْقَهُوا۟",
+    "okunus": "'ukdeten min lisânî yefkahû",
+    "anlam": "Kelime kelime: düğümünü · dilimin · my tongue · anlasınlar"
+   },
+   {
+    "arapca": "قَوْلِى",
+    "okunus": "kavlî",
+    "anlam": "Kelime kelime: sözümü"
+   }
+  ]
+ },
+ {
+  "id": "dua_k038",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "İlmimi Artır",
+  "arapca": "رَّبِّ زِدْنِى عِلْمًۭا",
+  "okunus": "Rabbi zidnî 'ılmen",
+  "anlam": "Gerçek hükümdar olan Allah Yüce'dir. Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, “Rabbim! ilmimi artır” de.",
+  "kaynak": "Tâhâ, 20/114",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَّبِّ زِدْنِى عِلْمًۭا",
+    "okunus": "rabbi zidnî 'ılmen",
+    "anlam": "Kelime kelime: Rabbim · artır bana · ilmimi"
+   }
+  ]
+ },
+ {
+  "id": "dua_k039",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Hastalık ve Dert Duası",
+  "arapca": "أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+  "okunus": "Ennî messeniye d-duru ve-ente erhamu r-râhımîn",
+  "anlam": "Eyyub da: “Başıma bir bela geldi, (Sana sığındım), Sen merhametlilerin merhametlisisin” diye Rabbine nida etmişti.",
+  "kaynak": "Enbiyâ, 21/83",
+  "aciklama": "Hz. Eyyûb duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ",
+    "okunus": "ennî messeniye d-duru ve-ente",
+    "anlam": "Kelime kelime: gerçekten diye · bana dokundu · bu dert · ve sen"
+   },
+   {
+    "arapca": "أَرْحَمُ ٱلرَّٰحِمِينَ",
+    "okunus": "erhamu r-râhımîn",
+    "anlam": "Kelime kelime: en merhametlisisin · merhametlilerin"
+   }
+  ]
+ },
+ {
+  "id": "dua_k040",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Sıkıntıdan Kurtuluş Duası",
+  "arapca": "لَّآ إِلَـٰهَ إِلَّآ أَنتَ سُبْحَـٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّـٰلِمِينَ",
+  "okunus": "Lâ ilâhe illâ ente subhâneke innî kuntu mine z-zâlimîn",
+  "anlam": "Zünnun (Balık Sahibi; Yunus) hakkında söylediğimizi de an. O, öfkelenerek giderken, kendisini sıkıntıya sokmayacağımızı sanmıştı; fakat sonunda karanlıklar içinde: “Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim” diye seslenmişti.",
+  "kaynak": "Enbiyâ, 21/87",
+  "aciklama": "Hz. Yûnus duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "لَّآ إِلَـٰهَ إِلَّآ أَنتَ",
+    "okunus": "lâ ilâhe illâ ente",
+    "anlam": "Kelime kelime: yoktur · tanrı · başka · senden"
+   },
+   {
+    "arapca": "سُبْحَـٰنَكَ إِنِّى كُنتُ مِنَ",
+    "okunus": "subhâneke innî kuntu mine",
+    "anlam": "Kelime kelime: senin şanın yücedir · muhakkak ben · oldum · zalimlerden"
+   },
+   {
+    "arapca": "ٱلظَّـٰلِمِينَ",
+    "okunus": "z-zâlimîn",
+    "anlam": ""
+   }
+  ]
+ },
+ {
+  "id": "dua_k041",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Beni Yalnız Bırakma",
+  "arapca": "رَبِّ لَا تَذَرْنِى فَرْدًۭا وَأَنتَ خَيْرُ ٱلْوَٰرِثِينَ",
+  "okunus": "Rabbi lâ tezernî ferden ve-ente hayru l-vârısîn",
+  "anlam": "Zekeriya da: “Rabbim! Beni tek Başıma bırakma, Sen varislerin en hayırlısısın” diye nida etmişti.",
+  "kaynak": "Enbiyâ, 21/89",
+  "aciklama": "Hz. Zekeriyyâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ لَا تَذَرْنِى فَرْدًۭا",
+    "okunus": "rabbi lâ tezernî ferden",
+    "anlam": "Kelime kelime: Rabbim · beni bırakma · leave me · tek başıma"
+   },
+   {
+    "arapca": "وَأَنتَ خَيْرُ ٱلْوَٰرِثِينَ",
+    "okunus": "ve-ente hayru l-vârısîn",
+    "anlam": "Kelime kelime: ve sen · en iyisisin · varislerin"
+   }
+  ]
+ },
+ {
+  "id": "dua_k042",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Bereketli Bir Yere İndir",
+  "arapca": "رَّبِّ أَنزِلْنِى مُنزَلًۭا مُّبَارَكًۭا وَأَنتَ خَيْرُ ٱلْمُنزِلِينَ",
+  "okunus": "Rabbi enzilnî munzelen mubâraken ve-ente hayru l-munzilîn",
+  "anlam": "“Rabbim! Beni mübarek bir yere indir. Sen indirenlerin en iyisisin” de.",
+  "kaynak": "Mü'minûn, 23/29",
+  "aciklama": "Hz. Nûh duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَّبِّ أَنزِلْنِى مُنزَلًۭا مُّبَارَكًۭا",
+    "okunus": "rabbi enzilnî munzelen mubâraken",
+    "anlam": "Kelime kelime: Rabbim · beni indir · bir inişle · mübarek"
+   },
+   {
+    "arapca": "وَأَنتَ خَيْرُ ٱلْمُنزِلِينَ",
+    "okunus": "ve-ente hayru l-munzilîn",
+    "anlam": "Kelime kelime: ve sen · en hayırlısısın · konuklayanların"
+   }
+  ]
+ },
+ {
+  "id": "dua_k043",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Şeytanın Vesveselerinden Sığınma",
+  "arapca": "رَّبِّ أَعُوذُ بِكَ مِنْ هَمَزَٰتِ ٱلشَّيَـٰطِينِ وَأَعُوذُ بِكَ رَبِّ أَن يَحْضُرُونِ",
+  "okunus": "Rabbi e'ûzu bike min hemezâti s-şeyâtîni ve-e'ûzu bike rabbi en yehdurûn",
+  "anlam": "De ki: “Rabbim! Şeytanların kışkırtmalarından Sana sığınırım.” “Rabbim! Yanımda bulunmalarından da Sana sığınırım.”",
+  "kaynak": "Mü'minûn, 23/97-98",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَّبِّ أَعُوذُ بِكَ مِنْ",
+    "okunus": "rabbi e'ûzu bike min",
+    "anlam": "Kelime kelime: Rabbim · sığınırım · sana · kışkırtmalarından"
+   },
+   {
+    "arapca": "هَمَزَٰتِ ٱلشَّيَـٰطِينِ وَأَعُوذُ بِكَ",
+    "okunus": "hemezâti s-şeyâtîni ve-e'ûzu bike",
+    "anlam": "Kelime kelime: şeytanların · ve sığınırım · sana"
+   },
+   {
+    "arapca": "رَبِّ أَن يَحْضُرُونِ",
+    "okunus": "rabbi en yehdurûn",
+    "anlam": "Kelime kelime: Rabbim · yanıma uğramalarından"
+   }
+  ]
+ },
+ {
+  "id": "dua_k044",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "İman Ettik, Bağışla",
+  "arapca": "رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
+  "okunus": "Rabbenâ âmennâ fe-iğfir lenâ ve-irhamnâ ve-ente hayru r-râhımîn",
+  "anlam": "Allah: “Sinin orada! Benimle konuşmayın. Kullarımdan bir topluluk: ”Rabbimiz! inandık, artık bizi bağışla, bize acı. Sen acıyanların en iyisisin“ diyordu. Siz ise, onları alaya alıyordunuz. Bu yaptıklarınız size Beni anmayı unutturuyordu. Onlara hep gülüyordunuz. Sabretmelerine karşılık bugün onları mükafatlandırdım. Doğrusu onlar kurtulanlardır” der.",
+  "kaynak": "Mü'minûn, 23/109",
+  "aciklama": "Müminlerin duası duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا",
+    "okunus": "rabbenâ âmennâ fe-iğfir lenâ",
+    "anlam": "Kelime kelime: Rabbimiz · inandık · bağışla · bizi"
+   },
+   {
+    "arapca": "وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
+    "okunus": "ve-irhamnâ ve-ente hayru r-râhımîn",
+    "anlam": "Kelime kelime: ve bize acı · ve sen · en hayırlısısın · acıyanların"
+   }
+  ]
+ },
+ {
+  "id": "dua_k045",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Bağışla ve Merhamet Et",
+  "arapca": "رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
+  "okunus": "Rabbi iğfir ve-irham ve-ente hayru r-râhımîn",
+  "anlam": "De ki: “Rabbim! Bağışla, merhamet et, Sen merhamet edenlerin en hayırlısısın.”",
+  "kaynak": "Mü'minûn, 23/118",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ",
+    "okunus": "rabbi iğfir ve-irham ve-ente",
+    "anlam": "Kelime kelime: Rabbim · bağışla · ve acı · ve sen"
+   },
+   {
+    "arapca": "خَيْرُ ٱلرَّٰحِمِينَ",
+    "okunus": "hayru r-râhımîn",
+    "anlam": "Kelime kelime: en hayırlısısın · acıyanların"
+   }
+  ]
+ },
+ {
+  "id": "dua_k046",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Cehennem Azabını Uzaklaştır",
+  "arapca": "رَبَّنَا ٱصْرِفْ عَنَّا عَذَابَ جَهَنَّمَ ۖ إِنَّ عَذَابَهَا كَانَ غَرَامًا إِنَّهَا سَآءَتْ مُسْتَقَرًّۭا وَمُقَامًۭا",
+  "okunus": "Rabbenâ isrıf 'annâ 'azâbe cehenneme inne 'azâbehâ kâne ğarâmen innehâ sâet mustekarran vemukâmen",
+  "anlam": "Onlar, “Rabbimiz! Bizden cehennem azabını uzaklaştır; doğrusu onun azabı sürekli ve acıdır. Orası şüphesiz kötü bir yer ve kötü bir duraktır” derler. Onlar, “Rabbimiz! Bizden cehennem azabını uzaklaştır; doğrusu onun azabı sürekli ve acıdır. Orası şüphesiz kötü bir yer ve kötü bir duraktır” derler.",
+  "kaynak": "Furkân, 25/65-66",
+  "aciklama": "Rahmân'ın kulları duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا ٱصْرِفْ عَنَّا عَذَابَ",
+    "okunus": "rabbenâ isrıf 'annâ 'azâbe",
+    "anlam": "Kelime kelime: Rabbimiz · uzaklaştır · bizden · azabını"
+   },
+   {
+    "arapca": "جَهَنَّمَ ۖ إِنَّ عَذَابَهَا كَانَ",
+    "okunus": "cehenneme inne 'azâbehâ kâne",
+    "anlam": "Kelime kelime: cehennemin · doğrusu · onun azabı · sargındır"
+   },
+   {
+    "arapca": "غَرَامًا إِنَّهَا سَآءَتْ مُسْتَقَرًّۭا",
+    "okunus": "ğarâmen innehâ sâet mustekarran",
+    "anlam": "Kelime kelime: inseparable · orası · ne kötü · bir karargahtır"
+   },
+   {
+    "arapca": "وَمُقَامًۭا",
+    "okunus": "vemukâmen",
+    "anlam": "Kelime kelime: ve bir makamdır"
+   }
+  ]
+ },
+ {
+  "id": "dua_k047",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Göz Aydınlığı Bir Aile",
+  "arapca": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَٰجِنَا وَذُرِّيَّـٰتِنَا قُرَّةَ أَعْيُنٍۢ وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+  "okunus": "Rabbenâ heb lenâ min ezvâcinâ vezurrıyyâtinâ kurrate e'yunin ve-ic'alnâ lilmuttekîne imâmen",
+  "anlam": "Onlar: “Rabbimiz! Bize eşlerimizden ve çocuklarımızdan gözümüzün aydınlığı olacak insanlar ihsan et ve bizi, Allah'a karşı gelmekten sakınanlara önder yap” derler.",
+  "kaynak": "Furkân, 25/74",
+  "aciklama": "Rahmân'ın kulları duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا هَبْ لَنَا مِنْ",
+    "okunus": "rabbenâ heb lenâ min",
+    "anlam": "Kelime kelime: Rabbimiz · lutfeyle · bize · eşlerimizi"
+   },
+   {
+    "arapca": "أَزْوَٰجِنَا وَذُرِّيَّـٰتِنَا قُرَّةَ أَعْيُنٍۢ",
+    "okunus": "ezvâcinâ vezurrıyyâtinâ kurrate e'yunin",
+    "anlam": "Kelime kelime: our spouses · ve çocuklarımızı · sevinci · gözler"
+   },
+   {
+    "arapca": "وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+    "okunus": "ve-ic'alnâ lilmuttekîne imâmen",
+    "anlam": "Kelime kelime: ve bizi yap · muttakilere · önder"
+   }
+  ]
+ },
+ {
+  "id": "dua_k048",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Hikmet ve Salihlerle Beraberlik",
+  "arapca": "رَبِّ هَبْ لِى حُكْمًۭا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ وَٱجْعَل لِّى لِسَانَ صِدْقٍۢ فِى ٱلْـَٔاخِرِينَ وَٱجْعَلْنِى مِن وَرَثَةِ جَنَّةِ ٱلنَّعِيمِ",
+  "okunus": "Rabbi heb lî hukmen ve-elhıknî bil-sâlihîne ve-ic'al lî lisâne sıdkın fî l-âhırîne ve-ic'alnî min veraseti cenneti n-ne'îm",
+  "anlam": "İbrahim: “Eski atalarınızın ve sizin nelere taptıklarınızı görüyor musunuz? Doğrusu onlar benim düşmanımdır. Dostum ancak Alemlerin Rabbidir. Beni yaratan da, doğru yola eriştiren de O'dur. Beni yediren de, içiren de O'dur. Hasta olduğumda bana O şifa verir. Beni öldürecek, sonra da diriltecek O'dur. Ahiret gününde yanılmalarımı bana bağışlamasını umduğum O'dur. Rabbim! Bana hikmet ver ve beni iyiler arasına kat. Sonrakilerin beni güzel şekilde anmalarını sağla. Beni nimet cennetine varis olanlardan kıl. Babamı da bağışla, o şüphesiz sapıklardandır. İnsanların diriltileceği gün, Allah'a temiz bir kalble gelenden başka kimseye malın ve oğulların fayda vermeyeceği gün, beni rezil etme” demişti. Sonrakilerin beni güzel şekilde anmalarını sağla. Beni nimet cennetine varis olanlardan kıl. Babamı da bağışla, o şüphesiz sapıklardandır. İnsanların diriltileceği gün, Allah'a temiz bir kalble gelenden başka kimseye malın ve oğulların fayda vermeyeceği gün, beni rezil etme\" demişti.",
+  "kaynak": "Şuarâ, 26/83-85",
+  "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ هَبْ لِى حُكْمًۭا",
+    "okunus": "rabbi heb lî hukmen",
+    "anlam": "Kelime kelime: Rabbim · ver · bana · hüküm"
+   },
+   {
+    "arapca": "وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ وَٱجْعَل لِّى",
+    "okunus": "ve-elhıknî bil-sâlihîne ve-ic'al lî",
+    "anlam": "Kelime kelime: ve beni kat · Salihler arasına · ve nasib eyle · bana"
+   },
+   {
+    "arapca": "لِسَانَ صِدْقٍۢ فِى ٱلْـَٔاخِرِينَ",
+    "okunus": "lisâne sıdkın fî l-âhırîne",
+    "anlam": "Kelime kelime: dili · doğruluk · içinde · sonra gelenler"
+   },
+   {
+    "arapca": "وَٱجْعَلْنِى مِن وَرَثَةِ جَنَّةِ",
+    "okunus": "ve-ic'alnî min veraseti cenneti",
+    "anlam": "Kelime kelime: ve beni kıl · varislerinden · cennetinin"
+   },
+   {
+    "arapca": "ٱلنَّعِيمِ",
+    "okunus": "n-ne'îm",
+    "anlam": "Kelime kelime: ni'met(i bol olan)"
+   }
+  ]
+ },
+ {
+  "id": "dua_k049",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Şükre Muvaffak Kıl",
+  "arapca": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّـٰلِحِينَ",
+  "okunus": "Rabbi evzi'nî en eşkura ni'meteke elletî en'amte 'aleyye ve'alâ vâlideyye ve-en e'mele sâlihan terdâhu ve-edhılnî birahmetike fî 'ıbâdike s-sâlihîn",
+  "anlam": "Süleyman, onun sözüne hafifçe güldü ve: “Rabbim! Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl. Rahmetinle, beni iyi kullarının arasına koy” dedi.",
+  "kaynak": "Neml, 27/19",
+  "aciklama": "Hz. Süleyman duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ",
+    "okunus": "rabbi evzi'nî en eşkura",
+    "anlam": "Kelime kelime: Rabbim · gönlüme ilham eyle · diye · şükredeyim"
+   },
+   {
+    "arapca": "نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ",
+    "okunus": "ni'meteke elletî en'amte 'aleyye",
+    "anlam": "Kelime kelime: ni'metine · lutfettiğin · You have bestowed · bana"
+   },
+   {
+    "arapca": "وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ",
+    "okunus": "ve'alâ vâlideyye ve-en e'mele",
+    "anlam": "Kelime kelime: ve · anama babama · ve diye · yapayım"
+   },
+   {
+    "arapca": "صَـٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ",
+    "okunus": "sâlihan terdâhu ve-edhılnî birahmetike",
+    "anlam": "Kelime kelime: faydalı bir iş · senin beğeneceğin · ve beni sok · rahmetinle"
+   },
+   {
+    "arapca": "فِى عِبَادِكَ ٱلصَّـٰلِحِينَ",
+    "okunus": "fî 'ıbâdike s-sâlihîn",
+    "anlam": "Kelime kelime: arasına · kullarının · iyi"
+   }
+  ]
+ },
+ {
+  "id": "dua_k050",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Nefsime Zulmettim",
+  "arapca": "رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+  "okunus": "Rabbi innî zalemtu nefsî fe-iğfir lî feğafera lehu innehu huve l-ğafûru r-rahîm",
+  "anlam": "Musa: “Rabbim! Doğrusu kendime yazık ettim, beni bağışla” dedi. Allah da onu bağışladı. O, şüphesiz bağışlayandır, merhamet edendir.",
+  "kaynak": "Kasas, 28/16",
+  "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ إِنِّى ظَلَمْتُ نَفْسِى",
+    "okunus": "rabbi innî zalemtu nefsî",
+    "anlam": "Kelime kelime: Rabbim · gerçekten ben · zulmettim · nefsime"
+   },
+   {
+    "arapca": "فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ",
+    "okunus": "fe-iğfir lî feğafera lehu",
+    "anlam": "Kelime kelime: bağışla · beni · (Allah) bağışladı · onu"
+   },
+   {
+    "arapca": "إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+    "okunus": "innehu huve l-ğafûru r-rahîm",
+    "anlam": "Kelime kelime: çünkü O · O · çok bağışlayandır · çok esirgeyendir"
+   }
+  ]
+ },
+ {
+  "id": "dua_k051",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Zalimlerden Kurtar",
+  "arapca": "رَبِّ نَجِّنِى مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
+  "okunus": "Rabbi neccinî mine l-kavmi z-zâlimîn",
+  "anlam": "Musa, korku içinde çevresini gözetleyerek oradan çıktı. “Rabbim! Beni zalim milletten kurtar” dedi.",
+  "kaynak": "Kasas, 28/21",
+  "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ نَجِّنِى مِنَ ٱلْقَوْمِ",
+    "okunus": "rabbi neccinî mine l-kavmi",
+    "anlam": "Kelime kelime: Rabbim · beni kurtar · kavimden"
+   },
+   {
+    "arapca": "ٱلظَّـٰلِمِينَ",
+    "okunus": "z-zâlimîn",
+    "anlam": "Kelime kelime: zalim"
+   }
+  ]
+ },
+ {
+  "id": "dua_k052",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "İndireceğin Her Hayra Muhtacım",
+  "arapca": "رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍۢ فَقِيرٌۭ",
+  "okunus": "Rabbi innî limâ enzelte ileyye min hayrın fekîr",
+  "anlam": "Musa onların davarlarını suladı. Sonra gölgeye çekildi: “Rabbim! Doğrusu bana indireceğin hayra muhtacım” dedi.",
+  "kaynak": "Kasas, 28/24",
+  "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ إِنِّى لِمَآ أَنزَلْتَ",
+    "okunus": "rabbi innî limâ enzelte",
+    "anlam": "Kelime kelime: Rabbim · doğrusu ben · ne varsa · indireceğin"
+   },
+   {
+    "arapca": "إِلَىَّ مِنْ خَيْرٍۢ فَقِيرٌۭ",
+    "okunus": "ileyye min hayrın fekîr",
+    "anlam": "Kelime kelime: bana · hayırdan · good · muhtacım"
+   }
+  ]
+ },
+ {
+  "id": "dua_k053",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Bozgunculara Karşı Yardım",
+  "arapca": "رَبِّ ٱنصُرْنِى عَلَى ٱلْقَوْمِ ٱلْمُفْسِدِينَ",
+  "okunus": "Rabbi unsurnî 'alâ l-kavmi l-mufsidîn",
+  "anlam": "Lut: “Rabbim! Bozgunculara karşı bana yardım et” dedi.",
+  "kaynak": "Ankebût, 29/30",
+  "aciklama": "Hz. Lût duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ ٱنصُرْنِى عَلَى ٱلْقَوْمِ",
+    "okunus": "rabbi unsurnî 'alâ l-kavmi",
+    "anlam": "Kelime kelime: Rabbim · bana yardım et · karşı · şu kavme"
+   },
+   {
+    "arapca": "ٱلْمُفْسِدِينَ",
+    "okunus": "l-mufsidîn",
+    "anlam": "Kelime kelime: bozguncu"
+   }
+  ]
+ },
+ {
+  "id": "dua_k054",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Salih Bir Evlat Bağışla",
+  "arapca": "رَبِّ هَبْ لِى مِنَ ٱلصَّـٰلِحِينَ",
+  "okunus": "Rabbi heb lî mine s-sâlihîn",
+  "anlam": "“Rabbim! Bana iyilerden olacak bir çocuk ver” diye yalvardı.",
+  "kaynak": "Sâffât, 37/100",
+  "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ هَبْ لِى مِنَ",
+    "okunus": "rabbi heb lî mine",
+    "anlam": "Kelime kelime: Rabbim · lutfet · bana · iyilerden (bir çocuk)"
+   },
+   {
+    "arapca": "ٱلصَّـٰلِحِينَ",
+    "okunus": "s-sâlihîn",
+    "anlam": ""
+   }
+  ]
+ },
+ {
+  "id": "dua_k055",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Meleklerin Müminler İçin Duası",
+  "arapca": "رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍۢ رَّحْمَةًۭ وَعِلْمًۭا فَٱغْفِرْ لِلَّذِينَ تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ عَذَابَ ٱلْجَحِيمِ رَبَّنَا وَأَدْخِلْهُمْ جَنَّـٰتِ عَدْنٍ ٱلَّتِى وَعَدتَّهُمْ وَمَن صَلَحَ مِنْ ءَابَآئِهِمْ وَأَزْوَٰجِهِمْ وَذُرِّيَّـٰتِهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+  "okunus": "Rabbenâ vesi'te kulle şeyin rahmeten ve'ılmen fe-iğfir lillezîne tâbû ve-ittebe'û sebîleke vekıhim 'azâbe l-cehîmi rabbenâ ve-edhılhum cennâti 'adnin elletî ve'adttehum vemen saleha min âbâihim ve-ezvâcihim vezurrıyyâtihim inneke ente l-'azîzu l-hakîm",
+  "anlam": "Arşı yüklenen ve çevresinde bulunanlar, Rablerini överek tesbih ederler; O'na inanırlar. Müminler için: “Rabbimiz! İlmin ve rahmetin herşeyi içine almıştır. Tevbe edip Senin yoluna uyanları bağışla; onları cehennemin azabından koru” diye bağışlanma dilerler. “Rabbimiz! Müminleri ve babalarından, eşlerinden, soylarından iyi olanları, kendilerine söz verdiğin Adn cennetlerine koy; şüphesiz güçlü olan, Hakim olan ancak Sensin”",
+  "kaynak": "Mü'min, 40/7-8",
+  "aciklama": "Arşı taşıyan melekler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍۢ",
+    "okunus": "rabbenâ vesi'te kulle şeyin",
+    "anlam": "Kelime kelime: Rabbimiz · sen kapladın · her · şeyi"
+   },
+   {
+    "arapca": "رَّحْمَةًۭ وَعِلْمًۭا فَٱغْفِرْ لِلَّذِينَ",
+    "okunus": "rahmeten ve'ılmen fe-iğfir lillezîne",
+    "anlam": "Kelime kelime: rahmet ile · ve bilgi ile · bağışla · kimseleri"
+   },
+   {
+    "arapca": "تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ",
+    "okunus": "tâbû ve-ittebe'û sebîleke vekıhim",
+    "anlam": "Kelime kelime: tevbe eden(leri) · ve uyanları · senin yoluna · ve onları koru"
+   },
+   {
+    "arapca": "عَذَابَ ٱلْجَحِيمِ رَبَّنَا وَأَدْخِلْهُمْ",
+    "okunus": "'azâbe l-cehîmi rabbenâ ve-edhılhum",
+    "anlam": "Kelime kelime: azabından · cehennem · Rabbimiz · ve onları sok"
+   },
+   {
+    "arapca": "جَنَّـٰتِ عَدْنٍ ٱلَّتِى وَعَدتَّهُمْ",
+    "okunus": "cennâti 'adnin elletî ve'adttehum",
+    "anlam": "Kelime kelime: cennetlerine · Adn · onlara söz verdiğin · You have promised them"
+   },
+   {
+    "arapca": "وَمَن صَلَحَ مِنْ ءَابَآئِهِمْ",
+    "okunus": "vemen saleha min âbâihim",
+    "anlam": "Kelime kelime: ve kimseleri · iyi olan · babalarından · their fathers"
+   },
+   {
+    "arapca": "وَأَزْوَٰجِهِمْ وَذُرِّيَّـٰتِهِمْ ۚ إِنَّكَ أَنتَ",
+    "okunus": "ve-ezvâcihim vezurrıyyâtihim inneke ente",
+    "anlam": "Kelime kelime: ve eşleri(nden) · ve çocukları(ndan) · şüphesiz sen · sensin"
+   },
+   {
+    "arapca": "ٱلْعَزِيزُ ٱلْحَكِيمُ",
+    "okunus": "l-'azîzu l-hakîm",
+    "anlam": "Kelime kelime: üstün olan · hüküm ve hikmet sahibi olan"
+   }
+  ]
+ },
+ {
+  "id": "dua_k056",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Azabı Bizden Kaldır",
+  "arapca": "رَّبَّنَا ٱكْشِفْ عَنَّا ٱلْعَذَابَ إِنَّا مُؤْمِنُونَ",
+  "okunus": "Rabbenâ ikşif 'annâ l-'azâbe innâ muminûn",
+  "anlam": "İnsanlar: “Rabbimiz! Bu azabı bizden kaldır; doğrusu artık biz inananlarız” derler.",
+  "kaynak": "Duhân, 44/12",
+  "aciklama": "Müminlerin duası duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَّبَّنَا ٱكْشِفْ عَنَّا ٱلْعَذَابَ",
+    "okunus": "rabbenâ ikşif 'annâ l-'azâbe",
+    "anlam": "Kelime kelime: Rabbimiz · kaldır · bizden · azabı"
+   },
+   {
+    "arapca": "إِنَّا مُؤْمِنُونَ",
+    "okunus": "innâ muminûn",
+    "anlam": "Kelime kelime: çünkü biz · inanıyoruz"
+   }
+  ]
+ },
+ {
+  "id": "dua_k057",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Kırk Yaş Duası",
+  "arapca": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًۭا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ",
+  "okunus": "Rabbi evzi'nî en eşkura ni'meteke elletî en'amte 'aleyye ve'alâ vâlideyye ve-en e'mele sâlihan terdâhu ve-eslih lî fî zurrıyyetî innî tubtu ileyke ve-innî mine l-muslimîn",
+  "anlam": "Biz insana, anne ve babasına karşı iyi davranmasını tavsiye etmişizdir; zira annesi, onu, karnında, zorluğa uğrayarak taşımış; onu güçlükle doğurmuştur. Taşınması ve sütten kesilmesi otuz ay sürer. Sonunda erginlik çağına erince ve kırk yaşına varınca: “Rabbim! Bana ve anne babama verdiğin nimete şükretmemi ve benim hoşnut olacağın yararlı bir işi yapmamı sağla; bana verdiğin gibi soyuma da salah ver; doğrusu Sana yöneldim, ben, kendini Sana verenlerdenim” demesi gerekir.",
+  "kaynak": "Ahkâf, 46/15",
+  "aciklama": "Olgunluğa erişen mümin duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ",
+    "okunus": "rabbi evzi'nî en eşkura",
+    "anlam": "Kelime kelime: Rabbim · beni sevk eyle · şükretmeğe · I may be grateful"
+   },
+   {
+    "arapca": "نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ",
+    "okunus": "ni'meteke elletî en'amte 'aleyye",
+    "anlam": "Kelime kelime: ni'metine · verdiğin · You have bestowed · bana"
+   },
+   {
+    "arapca": "وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ",
+    "okunus": "ve'alâ vâlideyye ve-en e'mele",
+    "anlam": "Kelime kelime: ve · anama babama · ve · yapmağa"
+   },
+   {
+    "arapca": "صَـٰلِحًۭا تَرْضَىٰهُ وَأَصْلِحْ لِى",
+    "okunus": "sâlihan terdâhu ve-eslih lî",
+    "anlam": "Kelime kelime: yararlı işler · razı olacağın · ve salahı devam ettir · benim için"
+   },
+   {
+    "arapca": "فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ",
+    "okunus": "fî zurrıyyetî innî tubtu",
+    "anlam": "Kelime kelime: içinde · zürriyetim · şüphesiz ben · yüz tuttum"
+   },
+   {
+    "arapca": "إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ",
+    "okunus": "ileyke ve-innî mine l-muslimîn",
+    "anlam": "Kelime kelime: sana · ve elbette ben · teslim olanlardanım"
+   }
+  ]
+ },
+ {
+  "id": "dua_k058",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Kardeşlerimizi Bağışla",
+  "arapca": "رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَـٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّۭا لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ رَءُوفٌۭ رَّحِيمٌ",
+  "okunus": "Rabbenâ iğfir lenâ veli-ihvâninâ ellezîne sebekûnâ bil-îmâni velâ tec'al fî kulûbinâ ğıllen lillezîne âmenû rabbenâ inneke raûfun rahîm",
+  "anlam": "Onlardan sonra gelenler: “Rabbimiz! Bizi ve bizden önce inanmış olan kardeşlerimizi bağışla; kalbimizde müminlere karşı kin bırakma; Rabbimiz! Şüphesiz Sen şefkatlisin, merhametlisin” derler.",
+  "kaynak": "Haşr, 59/10",
+  "aciklama": "Sonra gelen müminler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا",
+    "okunus": "rabbenâ iğfir lenâ veli-ihvâninâ",
+    "anlam": "Kelime kelime: Rabbimiz · bağışla · bizi · ve kardeşlerimizi"
+   },
+   {
+    "arapca": "ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَـٰنِ وَلَا",
+    "okunus": "ellezîne sebekûnâ bil-îmâni velâ",
+    "anlam": "Kelime kelime: bizden önce · preceded us · inanmış olan · ve"
+   },
+   {
+    "arapca": "تَجْعَلْ فِى قُلُوبِنَا غِلًّۭا",
+    "okunus": "tec'al fî kulûbinâ ğıllen",
+    "anlam": "Kelime kelime: bırakma · kalblerimizde · our hearts · bir kin"
+   },
+   {
+    "arapca": "لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ",
+    "okunus": "lillezîne âmenû rabbenâ inneke",
+    "anlam": "Kelime kelime: karşı · inananlara · Rabbimiz · elbette sen"
+   },
+   {
+    "arapca": "رَءُوفٌۭ رَّحِيمٌ",
+    "okunus": "raûfun rahîm",
+    "anlam": "Kelime kelime: çok şefkatli · çok merhametlisin"
+   }
+  ]
+ },
+ {
+  "id": "dua_k059",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Sana Tevekkül Ettik",
+  "arapca": "رَّبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ ٱلْمَصِيرُ رَبَّنَا لَا تَجْعَلْنَا فِتْنَةًۭ لِّلَّذِينَ كَفَرُوا۟ وَٱغْفِرْ لَنَا رَبَّنَآ ۖ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+  "okunus": "Rabbenâ 'aleyke tevekkelnâ ve-ileyke enebnâ ve-ileyke l-mesîru rabbenâ lâ tec'alnâ fitneten lillezîne keferû ve-iğfir lenâ rabbenâ inneke ente l-'azîzu l-hakîm",
+  "anlam": "İbrahim ve onunla beraber olanlarda, sizin için uyulacak güzel bir örnek vardır. Onlar milletlerine şöyle demişlerdi: “Biz sizden ve Allah'tan başka taptıklarınızdan uzağız; sizin dininizi inkar ediyoruz; bizimle sizin aranızda yalnız Allah'a inanmanıza kadar ebedi düşmanlık ve öfke başgöstermiştir.” -Yalnız, İbrahim'in, babasına: “And olsun ki, senin için mağfiret dileyeceğim, fakat sana Allah'tan gelecek herhangi bir şeyi savmaya gücüm yetmez” sözü bu örneğin dışındadır- “Rabbimiz! Sana güvendik, Sana yöneldik; dönüş Sanadır.” “Rabbimiz! Bizi, inkar edenlerle deneme; bizi bağışla, doğrusu Sen, güçlü olan, Hakim olansın.”",
+  "kaynak": "Mümtehine, 60/4-5",
+  "aciklama": "Hz. İbrâhîm ve beraberindekiler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَّبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ",
+    "okunus": "rabbenâ 'aleyke tevekkelnâ ve-ileyke",
+    "anlam": "Kelime kelime: Rabbimiz · sana · dayandık · ve sana"
+   },
+   {
+    "arapca": "أَنَبْنَا وَإِلَيْكَ ٱلْمَصِيرُ رَبَّنَا",
+    "okunus": "enebnâ ve-ileyke l-mesîru rabbenâ",
+    "anlam": "Kelime kelime: yöneldik · ve sanadır · dönüş · Rabbimiz"
+   },
+   {
+    "arapca": "لَا تَجْعَلْنَا فِتْنَةًۭ لِّلَّذِينَ",
+    "okunus": "lâ tec'alnâ fitneten lillezîne",
+    "anlam": "Kelime kelime: bizi yapma · make us · bir sınav · kimseler için"
+   },
+   {
+    "arapca": "كَفَرُوا۟ وَٱغْفِرْ لَنَا رَبَّنَآ ۖ",
+    "okunus": "keferû ve-iğfir lenâ rabbenâ",
+    "anlam": "Kelime kelime: inkar eden(ler) · e bağışla · bizi · Rabbimiz"
+   },
+   {
+    "arapca": "إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+    "okunus": "inneke ente l-'azîzu l-hakîm",
+    "anlam": "Kelime kelime: ancak Sensin · Sen · yegane galib · hüküm ve hikmet sahibi"
+   }
+  ]
+ },
+ {
+  "id": "dua_k060",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Nurumuzu Tamamla",
+  "arapca": "رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا وَٱغْفِرْ لَنَآ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ",
+  "okunus": "Rabbenâ etmim lenâ nûranâ ve-iğfir lenâ inneke 'alâ kulli şeyin kadîr",
+  "anlam": "Ey inananlar! Yürekten tevbe ederek Allah'a dönün ki, Rabbiniz kötülüklerinizi örtsün, sizi, içlerinden ırmaklar akan cennetlere koysun. Allah'ın Peygamberini ve onunla beraber olan müminleri utandırmayacağı o gün, ışıkları önlerinde ve defterleri sağlarından verilmiş olarak yürürler ve: “Rabbimiz! Işığımızı tamamla, bizi bağışla, doğrusu Sen herşeye Kadir'sin” derler.",
+  "kaynak": "Tahrîm, 66/8",
+  "aciklama": "Müminlerin duası duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا",
+    "okunus": "rabbenâ etmim lenâ nûranâ",
+    "anlam": "Kelime kelime: Rabbimiz · tamamla · bize · nurumuzu"
+   },
+   {
+    "arapca": "وَٱغْفِرْ لَنَآ ۖ إِنَّكَ عَلَىٰ",
+    "okunus": "ve-iğfir lenâ inneke 'alâ",
+    "anlam": "Kelime kelime: ve bağışla · bizi · doğrusu senin · üzerine"
+   },
+   {
+    "arapca": "كُلِّ شَىْءٍۢ قَدِيرٌۭ",
+    "okunus": "kulli şeyin kadîr",
+    "anlam": "Kelime kelime: her · şey · gücün yeter"
+   }
+  ]
+ },
+ {
+  "id": "dua_k061",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Katında Bir Ev Yap",
+  "arapca": "رَبِّ ٱبْنِ لِى عِندَكَ بَيْتًۭا فِى ٱلْجَنَّةِ وَنَجِّنِى مِن فِرْعَوْنَ وَعَمَلِهِۦ وَنَجِّنِى مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
+  "okunus": "Rabbi ibni lî 'ındeke beyten fî l-ceneti veneccinî min fir'avne ve'amelihi veneccinî mine l-kavmi z-zâlimîn",
+  "anlam": "Allah, inanlara Firavun'un karısını misal gösterir: O: “Rabbim! Katından bana cennette bir ev yap; beni Firavun'dan ve onun işlediklerinden kurtar; beni zalim milletten kurtar” demişti.",
+  "kaynak": "Tahrîm, 66/11",
+  "aciklama": "Firavun'un hanımı Âsiye duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ ٱبْنِ لِى عِندَكَ",
+    "okunus": "rabbi ibni lî 'ındeke",
+    "anlam": "Kelime kelime: Rabbim · yap · bana · katında"
+   },
+   {
+    "arapca": "بَيْتًۭا فِى ٱلْجَنَّةِ وَنَجِّنِى",
+    "okunus": "beyten fî l-ceneti veneccinî",
+    "anlam": "Kelime kelime: bir ev · içinde · cennetin · ve beni kurtar"
+   },
+   {
+    "arapca": "مِن فِرْعَوْنَ وَعَمَلِهِۦ وَنَجِّنِى",
+    "okunus": "min fir'avne ve'amelihi veneccinî",
+    "anlam": "Kelime kelime: Fir'avndan · Firaun · ve onun (kötü) işinden · ve beni kurtar"
+   },
+   {
+    "arapca": "مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
+    "okunus": "mine l-kavmi z-zâlimîn",
+    "anlam": "Kelime kelime: topluluğundan · zalimler"
+   }
+  ]
+ },
+ {
+  "id": "dua_k062",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Yenildim, Yardım Et",
+  "arapca": "أَنِّى مَغْلُوبٌۭ فَٱنتَصِرْ",
+  "okunus": "Ennî meğlûbun fe-intesır",
+  "anlam": "O da: “Ben yenildim, bana yardım et” diye Rabbine yalvarmıştı.",
+  "kaynak": "Kamer, 54/10",
+  "aciklama": "Hz. Nûh duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "أَنِّى مَغْلُوبٌۭ فَٱنتَصِرْ",
+    "okunus": "ennî meğlûbun fe-intesır",
+    "anlam": "Kelime kelime: ben · yenik düştüm · yardım et"
+   }
+  ]
+ },
+ {
+  "id": "dua_k063",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Anne-Baba ve Müminler İçin Bağışlanma",
+  "arapca": "رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِمَن دَخَلَ بَيْتِىَ مُؤْمِنًۭا وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ وَلَا تَزِدِ ٱلظَّـٰلِمِينَ إِلَّا تَبَارًۢا",
+  "okunus": "Rabbi iğfir lî velivâlideyye velimen dehale beytiye muminen velilmuminîne vel-muminâti velâ tezidi z-zâlimîne illâ tebâr",
+  "anlam": "“Rabbim! Beni, anamı, babamı, evime inanmış olarak gireni, inanan erkek ve kadınları bağışla; zalimlerin de yalnız helakını artır.”",
+  "kaynak": "Nûh, 71/28",
+  "aciklama": "Hz. Nûh duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ",
+    "okunus": "rabbi iğfir lî velivâlideyye",
+    "anlam": "Kelime kelime: Rabbim · bağışla · beni · ve babamı-anamı"
+   },
+   {
+    "arapca": "وَلِمَن دَخَلَ بَيْتِىَ مُؤْمِنًۭا",
+    "okunus": "velimen dehale beytiye muminen",
+    "anlam": "Kelime kelime: ve kimseyi · giren · evime · inanarak"
+   },
+   {
+    "arapca": "وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ وَلَا تَزِدِ",
+    "okunus": "velilmuminîne vel-muminâti velâ tezidi",
+    "anlam": "Kelime kelime: ve inanan erkekleri · ve inanan kadınları · ve · artırma"
+   },
+   {
+    "arapca": "ٱلظَّـٰلِمِينَ إِلَّا تَبَارًۢا",
+    "okunus": "z-zâlimîne illâ tebâr",
+    "anlam": "Kelime kelime: zalimlerin · dışında bir şeyi · helaki"
+   }
+  ]
+ },
+ {
+  "id": "dua_k064",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Musibet Anında İstirca",
+  "arapca": "إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ",
+  "okunus": "Innâ lillehi ve-innâ ileyhi râci'ûn",
+  "anlam": "Onlara bir musibet geldiğinde: “Biz Allah'ınız ve elbette O'na döneceğiz” derler.",
+  "kaynak": "Bakara, 2/156",
+  "aciklama": "Sabredenler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ",
+    "okunus": "innâ lillehi ve-innâ ileyhi",
+    "anlam": "Kelime kelime: şüphesiz biz · Allah içiniz · ve şüphesiz biz · O'na"
+   },
+   {
+    "arapca": "رَٰجِعُونَ",
+    "okunus": "râci'ûn",
+    "anlam": "Kelime kelime: döneceğiz"
+   }
+  ]
+ },
+ {
+  "id": "dua_k065",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Mazlumların Kurtuluş Duası",
+  "arapca": "رَبَّنَآ أَخْرِجْنَا مِنْ هَـٰذِهِ ٱلْقَرْيَةِ ٱلظَّالِمِ أَهْلُهَا وَٱجْعَل لَّنَا مِن لَّدُنكَ وَلِيًّۭا وَٱجْعَل لَّنَا مِن لَّدُنكَ نَصِيرًا",
+  "okunus": "Rabbenâ ehrıcnâ min hâzihi l-karyeti z-zâlimi ehluhâ ve-ic'al lenâ min ledunke veliyyen ve-ic'al lenâ min ledunke nesîr",
+  "anlam": "Size ne oluyor da: “Rabbimiz! Bizi halkı zalim olan bu şehirden çıkar, katından bize bir sahip çıkan gönder, katından bize bir yardımcı lutfet” diyen zavallı çocuklar, erkekler ve kadınlar uğrunda ve Allah yolunda savaşmıyorsunuz?",
+  "kaynak": "Nisâ, 4/75",
+  "aciklama": "Mazlum müminler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَآ أَخْرِجْنَا مِنْ هَـٰذِهِ",
+    "okunus": "rabbenâ ehrıcnâ min hâzihi",
+    "anlam": "Kelime kelime: Rabbimiz · bizi çıkar · şu · this"
+   },
+   {
+    "arapca": "ٱلْقَرْيَةِ ٱلظَّالِمِ أَهْلُهَا وَٱجْعَل",
+    "okunus": "l-karyeti z-zâlimi ehluhâ ve-ic'al",
+    "anlam": "Kelime kelime: kentten · zalim · halkı · ve ver"
+   },
+   {
+    "arapca": "لَّنَا مِن لَّدُنكَ وَلِيًّۭا",
+    "okunus": "lenâ min ledunke veliyyen",
+    "anlam": "Kelime kelime: bize · katından · Yourself · bir koruyucu"
+   },
+   {
+    "arapca": "وَٱجْعَل لَّنَا مِن لَّدُنكَ",
+    "okunus": "ve-ic'al lenâ min ledunke",
+    "anlam": "Kelime kelime: ve ver · bize · katından · Yourself"
+   },
+   {
+    "arapca": "نَصِيرًا",
+    "okunus": "nesîr",
+    "anlam": "Kelime kelime: bir yardımcı"
+   }
+  ]
+ },
+ {
+  "id": "dua_k066",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Tövbe Edip Sana Döndüm",
+  "arapca": "سُبْحَـٰنَكَ تُبْتُ إِلَيْكَ وَأَنَا۠ أَوَّلُ ٱلْمُؤْمِنِينَ",
+  "okunus": "Subhâneke tubtu ileyke ve-enâ evvelu l-muminîn",
+  "anlam": "Musa, tayin ettiğimiz vakitte gelip Rabbi onunla konuşunca, Musa: “Rabbim! Bana Kendini göster, Sana bakayım” dedi. Allah: “Sen Beni göremezsin ama dağa bak, eğer o yerinde kalırsa sen de Beni göreceksin” buyurdu. Rabbi dağa tecelli edince onu yerlebir etti ve Musa da baygın düştü; ayılınca: “Yarabbi, münezzehsin, Sana tevbe ettim, ben inananların ilkiyim” dedi.",
+  "kaynak": "A'râf, 7/143",
+  "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "سُبْحَـٰنَكَ تُبْتُ إِلَيْكَ وَأَنَا۠",
+    "okunus": "subhâneke tubtu ileyke ve-enâ",
+    "anlam": "Kelime kelime: Sen yücesin · tevbe ettim · sana · ve ben"
+   },
+   {
+    "arapca": "أَوَّلُ ٱلْمُؤْمِنِينَ",
+    "okunus": "evvelu l-muminîn",
+    "anlam": "Kelime kelime: ilkiyim · inananların"
+   }
+  ]
+ },
+ {
+  "id": "dua_k067",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Yola Çıkarken Besmele",
+  "arapca": "بِسْمِ ٱللَّهِ مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ إِنَّ رَبِّى لَغَفُورٌۭ رَّحِيمٌۭ",
+  "okunus": "Bismi'llâhi mecrahâ vemursâhâ inne rabbî leğafûrun rahîm",
+  "anlam": "Allah “Oraya binin; yürümesi ve durması Allah'ın ismiyledir, Rabbin bağışlar ve merhamet eder” dedi.",
+  "kaynak": "Hûd, 11/41",
+  "aciklama": "Hz. Nûh duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "بِسْمِ ٱللَّهِ مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ",
+    "okunus": "bismi l-lehi mecrahâ vemursâhâ",
+    "anlam": "Kelime kelime: adıyladır · Allah'ın · yüzmesi de · ve durması da"
+   },
+   {
+    "arapca": "إِنَّ رَبِّى لَغَفُورٌۭ رَّحِيمٌۭ",
+    "okunus": "inne rabbî leğafûrun rahîm",
+    "anlam": "Kelime kelime: şüphesiz · Rabbim · bağışlayıcıdır · rahmet edicidir"
+   }
+  ]
+ },
+ {
+  "id": "dua_k068",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Gizliyi ve Açığı Bilen Rabbe",
+  "arapca": "رَبَّنَآ إِنَّكَ تَعْلَمُ مَا نُخْفِى وَمَا نُعْلِنُ ۗ وَمَا يَخْفَىٰ عَلَى ٱللَّهِ مِن شَىْءٍۢ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ",
+  "okunus": "Rabbenâ inneke te'lemu mâ nuhfî vemâ nu'linu vemâ yehfâ 'alâ'llâhi min şeyin fî l-erdı velâ fî s-semâ",
+  "anlam": "“Rabbimiz! Doğrusu Sen gizlediğimizi de, açığa vurduğumuzu da bilirsin. Yerde ve gökte hiçbir şey Allah'tan gizli kalmaz.”",
+  "kaynak": "İbrâhîm, 14/38",
+  "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَآ إِنَّكَ تَعْلَمُ مَا",
+    "okunus": "rabbenâ inneke te'lemu mâ",
+    "anlam": "Kelime kelime: Rabbimiz · şüphesiz sen · bilirsin · şeyi"
+   },
+   {
+    "arapca": "نُخْفِى وَمَا نُعْلِنُ ۗ وَمَا",
+    "okunus": "nuhfî vemâ nu'linu vemâ",
+    "anlam": "Kelime kelime: bizim gizlediğimiz · ve şeyi · açığa vurduğumuz · ve"
+   },
+   {
+    "arapca": "يَخْفَىٰ عَلَى ٱللَّهِ مِن",
+    "okunus": "yehfâ 'alâ l-lehi min",
+    "anlam": "Kelime kelime: gizli kalmaz · Allah'a · Allah · hiçbir"
+   },
+   {
+    "arapca": "شَىْءٍۢ فِى ٱلْأَرْضِ وَلَا",
+    "okunus": "şeyin fî l-erdı velâ",
+    "anlam": "Kelime kelime: şey · yerde · ve ne de"
+   },
+   {
+    "arapca": "فِى ٱلسَّمَآءِ",
+    "okunus": "fî s-semâ",
+    "anlam": "Kelime kelime: gökte"
+   }
+  ]
+ },
+ {
+  "id": "dua_k069",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Hamd ve Tekbir",
+  "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+  "okunus": "L-hamdu lillehi ellezî lem yettehız veleden velem yekun lehu şerîkun fî l-mulki velem yekun lehu veliyyun mine d-zuli vekebbirhu tekbîr",
+  "anlam": "De ki: “Hamd, çocuk edinmemiş olan, hükümranlığında ortağı bulunmayan, düşkün olmayıp yardımcıya da ihtiyaç göstermeyen Allah'a mahsustur.” O'nu gereği gibi büyükle.",
+  "kaynak": "İsrâ, 17/111",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ",
+    "okunus": "l-hamdu lillehi ellezî lem",
+    "anlam": "Kelime kelime: hamdolsun · Allah'a · edinmeyen · has not taken"
+   },
+   {
+    "arapca": "يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن",
+    "okunus": "yettehız veleden velem yekun",
+    "anlam": "Kelime kelime: has not taken · çocuk · ve · olmayan"
+   },
+   {
+    "arapca": "لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ",
+    "okunus": "lehu şerîkun fî l-mulki",
+    "anlam": "Kelime kelime: onun · ortağı · mülkte"
+   },
+   {
+    "arapca": "وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ",
+    "okunus": "velem yekun lehu veliyyun",
+    "anlam": "Kelime kelime: ve · (ihtiyacı) olmayan · onun · yardımcıya"
+   },
+   {
+    "arapca": "مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+    "okunus": "mine d-zuli vekebbirhu tekbîr",
+    "anlam": "Kelime kelime: acze düşüp de · weakness · ve O'nu yücelt · tam bir yüceltme ile"
+   }
+  ]
+ },
+ {
+  "id": "dua_k070",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Mâşâallah, Kuvvet Ancak Allah'ındır",
+  "arapca": "مَا شَآءَ ٱللَّهُ لَا قُوَّةَ إِلَّا بِٱللَّهِ ۚ إِن تَرَنِ أَنَا۠ أَقَلَّ مِنكَ مَالًۭا وَوَلَدًۭا",
+  "okunus": "Mâ şâe'llâhu lâ kuvvete illâ bil-lehi in terani enâ ekalle minke mâlen veveleden",
+  "anlam": "Kendisiyle konuştuğu arkadaşı ona: “Seni topraktan, sonra nutfeden yaratanı, sonunda de seni insan kılığına koyanı mı inkar ediyorsun? İşte O benim Rabbim olan Allah'tır. Rabbime kimseyi ortak koşmam. Bahçene girdiğin zaman, her ne kadar beni kendinden mal ve nüfus bakımından daha az buluyorsan da: ”Maşallah! Kuvvet ancak Allah'a mahsustur!“ demen gerekmez mi? Rabbim, senin bahçenden daha iyisini bana verebilir ve seninkinin üzerine gökten bir felaket gönderir de bahçen yerle bir olabilir. Yahut suyu çekilir bir daha da bulamazsın” dedi.",
+  "kaynak": "Kehf, 18/39",
+  "aciklama": "Bağ sahibine öğüt duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "مَا شَآءَ ٱللَّهُ لَا",
+    "okunus": "mâ şâe l-lehu lâ",
+    "anlam": "Kelime kelime: ne · dilerse · Allah · yoktur"
+   },
+   {
+    "arapca": "قُوَّةَ إِلَّا بِٱللَّهِ ۚ إِن",
+    "okunus": "kuvvete illâ bil-lehi in",
+    "anlam": "Kelime kelime: kuvvet · başka · Allah'tan · gerçi"
+   },
+   {
+    "arapca": "تَرَنِ أَنَا۠ أَقَلَّ مِنكَ",
+    "okunus": "terani enâ ekalle minke",
+    "anlam": "Kelime kelime: sen görüyorsun · beni · daha az · senden"
+   },
+   {
+    "arapca": "مَالًۭا وَوَلَدًۭا",
+    "okunus": "mâlen veveleden",
+    "anlam": "Kelime kelime: malca · ve evlatça"
+   }
+  ]
+ },
+ {
+  "id": "dua_k071",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Hak ile Hükmet",
+  "arapca": "رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَـٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
+  "okunus": "Rabbi uhkum bil-hakı verabbunâ r-rahmânu l-muste'ânu 'alâ mâ tesıfûn",
+  "anlam": "Peygamber: “Rabbim! Aramızda gerçekle hükmet, anlattıklarınıza karşı ancak Rahman olan Rabbimizden yardım istenir” dedi.",
+  "kaynak": "Enbiyâ, 21/112",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا",
+    "okunus": "rabbi uhkum bil-hakı verabbunâ",
+    "anlam": "Kelime kelime: Rabbim · hükmet · hak ile · ve Rabbimiz"
+   },
+   {
+    "arapca": "ٱلرَّحْمَـٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا",
+    "okunus": "r-rahmânu l-muste'ânu 'alâ mâ",
+    "anlam": "Kelime kelime: çok merhamet edendir · O'nun yardımına sığınılır · karşı · şeye"
+   },
+   {
+    "arapca": "تَصِفُونَ",
+    "okunus": "tesıfûn",
+    "anlam": "Kelime kelime: sizin nitelendirdiğiniz"
+   }
+  ]
+ },
+ {
+  "id": "dua_k072",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Yalanlayanlara Karşı Yardım",
+  "arapca": "رَبِّ ٱنصُرْنِى بِمَا كَذَّبُونِ",
+  "okunus": "Rabbi unsurnî bimâ kezebûn",
+  "anlam": "Nuh: “Rabbim! Beni yalanlamalarına karşılık bana yardım et” dedi.",
+  "kaynak": "Mü'minûn, 23/26",
+  "aciklama": "Hz. Nûh duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ ٱنصُرْنِى بِمَا كَذَّبُونِ",
+    "okunus": "rabbi unsurnî bimâ kezebûn",
+    "anlam": "Kelime kelime: Rabbim · bana yardım et · karşısında · yalanlamaları"
+   }
+  ]
+ },
+ {
+  "id": "dua_k073",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Zalimler Arasında Bırakma",
+  "arapca": "رَّبِّ إِمَّا تُرِيَنِّى مَا يُوعَدُونَ رَبِّ فَلَا تَجْعَلْنِى فِى ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
+  "okunus": "Rabbi immâ turıyennî mâ yû'adûne rabbi felâ tec'alnî fî l-kavmi z-zâlimîn",
+  "anlam": "De ki: “Rabbim! Onların tehdit olundukları şeyi bana mutlaka göstereceksen, o zaman beni zalim milletin içinde bulundurma Yarabbi.” De ki: “Rabbim! Onların tehdit olundukları şeyi bana mutlaka göstereceksen, o zaman beni zalim milletin içinde bulundurma Yarabbi.”",
+  "kaynak": "Mü'minûn, 23/93-94",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَّبِّ إِمَّا تُرِيَنِّى مَا",
+    "okunus": "rabbi immâ turıyennî mâ",
+    "anlam": "Kelime kelime: Rabbim · eğer · mutlaka bana göstereceksen · şeyi"
+   },
+   {
+    "arapca": "يُوعَدُونَ رَبِّ فَلَا تَجْعَلْنِى",
+    "okunus": "yû'adûne rabbi felâ tec'alnî",
+    "anlam": "Kelime kelime: onların tehdidedildikleri · Rabbim · beni bırakma · place me"
+   },
+   {
+    "arapca": "فِى ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
+    "okunus": "fî l-kavmi z-zâlimîn",
+    "anlam": "Kelime kelime: içinde · kavmin · zalim"
+   }
+  ]
+ },
+ {
+  "id": "dua_k074",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Ailemi Kurtar",
+  "arapca": "رَبِّ نَجِّنِى وَأَهْلِى مِمَّا يَعْمَلُونَ",
+  "okunus": "Rabbi neccinî ve-ehlî mimmâ ye'melûn",
+  "anlam": "Lut: “Doğrusu yaptığınıza çok kızanlardanım. Rabbim! Beni ve ailemi bunların yapageldiği kötülükten kurtar” dedi.",
+  "kaynak": "Şuarâ, 26/169",
+  "aciklama": "Hz. Lût duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ نَجِّنِى وَأَهْلِى مِمَّا",
+    "okunus": "rabbi neccinî ve-ehlî mimmâ",
+    "anlam": "Kelime kelime: Rabbim · beni kurtar · ve ailemi · şeylerden"
+   },
+   {
+    "arapca": "يَعْمَلُونَ",
+    "okunus": "ye'melûn",
+    "anlam": "Kelime kelime: yaptıkları"
+   }
+  ]
+ },
+ {
+  "id": "dua_k075",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Bağışla ve Mülk Ver",
+  "arapca": "رَبِّ ٱغْفِرْ لِى وَهَبْ لِى مُلْكًۭا لَّا يَنۢبَغِى لِأَحَدٍۢ مِّنۢ بَعْدِىٓ ۖ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+  "okunus": "Rabbi iğfir lî veheb lî mulken lâ yenbeğî li-ehadin min be'dî inneke ente l-vehâb",
+  "anlam": "Süleyman: “Rabbim! Beni bağışla, bana benden sonra kimsenin ulaşamayacağı bir hükümranlık ver; Sen şüphesiz, daima bağışta bulunansın” dedi.",
+  "kaynak": "Sâd, 38/35",
+  "aciklama": "Hz. Süleyman duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ ٱغْفِرْ لِى وَهَبْ",
+    "okunus": "rabbi iğfir lî veheb",
+    "anlam": "Kelime kelime: Rabbim · affet · beni · ve ver"
+   },
+   {
+    "arapca": "لِى مُلْكًۭا لَّا يَنۢبَغِى",
+    "okunus": "lî mulken lâ yenbeğî",
+    "anlam": "Kelime kelime: bana · bir mülk (hükümdarlık) · nasib olmayan · (will) belong"
+   },
+   {
+    "arapca": "لِأَحَدٍۢ مِّنۢ بَعْدِىٓ ۖ إِنَّكَ",
+    "okunus": "li-ehadin min be'dî inneke",
+    "anlam": "Kelime kelime: hiç kimseye · benden sonra · after me · çünkü sensin"
+   },
+   {
+    "arapca": "أَنتَ ٱلْوَهَّابُ",
+    "okunus": "ente l-vehâb",
+    "anlam": "Kelime kelime: sen · çok lutfeden"
+   }
+  ]
+ },
+ {
+  "id": "dua_k076",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Göklerin ve Yerin Yaratıcısına",
+  "arapca": "ٱللَّهُمَّ فَاطِرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ عَـٰلِمَ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ أَنتَ تَحْكُمُ بَيْنَ عِبَادِكَ فِى مَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ",
+  "okunus": "Allâhumme fâtıra s-semâvâti vel-erdı 'âlime l-ğaybi vel-şehâdeti ente tehkumu beyne 'ıbâdike fî mâ kânû fîhi yehtelifûn",
+  "anlam": "De ki: “Ey göklerin, yerin yaratanı, görülmeyeni ve görüleni bilen Allah'ım! Kullarının ayrılığa düştükleri şeyler hakkında aralarında Sen hükmedeceksin.”",
+  "kaynak": "Zümer, 39/46",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱللَّهُمَّ فَاطِرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ",
+    "okunus": "l-lehume fâtıra s-semâvâti vel-erdı",
+    "anlam": "Kelime kelime: Allah'ım · yoktan var eden · gökleri · ve yeri"
+   },
+   {
+    "arapca": "عَـٰلِمَ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ أَنتَ",
+    "okunus": "'âlime l-ğaybi vel-şehâdeti ente",
+    "anlam": "Kelime kelime: bilen · görülmeyeni · ve görüleni · (ancak) sen"
+   },
+   {
+    "arapca": "تَحْكُمُ بَيْنَ عِبَادِكَ فِى",
+    "okunus": "tehkumu beyne 'ıbâdike fî",
+    "anlam": "Kelime kelime: hükmedersin · arasında · kullarının · şeylerde"
+   },
+   {
+    "arapca": "مَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ",
+    "okunus": "mâ kânû fîhi yehtelifûn",
+    "anlam": "Kelime kelime: what · oldukları · hakkında · ayrılığa düştükleri"
+   }
+  ]
+ },
+ {
+  "id": "dua_k077",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "İşimi Allah'a Havale Ediyorum",
+  "arapca": "وَأُفَوِّضُ أَمْرِىٓ إِلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ بَصِيرٌۢ بِٱلْعِبَادِ",
+  "okunus": "Ve-ufevvidu emrî ilâ'llâhi inne'llâhe besîrun bil-'ıbâd",
+  "anlam": "“Size söylediğimi hatırlayacaksınız. Ben işimi Allah'a bırakıyorum. Doğrusu Allah, kulları görür.”",
+  "kaynak": "Mü'min, 40/44",
+  "aciklama": "Firavun ailesinden mümin duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "وَأُفَوِّضُ أَمْرِىٓ إِلَى ٱللَّهِ ۚ",
+    "okunus": "ve-ufevvidu emrî ilâ l-lehi",
+    "anlam": "Kelime kelime: ve bırakıyorum · işimi · Allah'a · Allah"
+   },
+   {
+    "arapca": "إِنَّ ٱللَّهَ بَصِيرٌۢ بِٱلْعِبَادِ",
+    "okunus": "inne l-lehe besîrun bil-'ıbâd",
+    "anlam": "Kelime kelime: şüphesiz · Allah · görür · kulları"
+   }
+  ]
+ },
+ {
+  "id": "dua_k078",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Binek Duası",
+  "arapca": "سُبْحَـٰنَ ٱلَّذِى سَخَّرَ لَنَا هَـٰذَا وَمَا كُنَّا لَهُۥ مُقْرِنِينَ وَإِنَّآ إِلَىٰ رَبِّنَا لَمُنقَلِبُونَ",
+  "okunus": "Subhâne ellezî sehara lenâ hâzâ vemâ kunnâ lehu mukrınîne ve-innâ ilâ rabbinâ lemunkalibûn",
+  "anlam": "Her sınıf varlığı yaratan O'dur. Gemiler ve hayvanlardan binesiniz diye size binekler var etmiştir. Bütün bunlar; üzerlerine oturunca Rabbinizin nimetini anarak: “Bunları buyruğumuza veren ne yücedir; zaten bizim takatimiz bunlara yetmezdi; şüphesiz Rabbimize döneceğiz” demeniz içindir. Her sınıf varlığı yaratan O'dur. Gemiler ve hayvanlardan binesiniz diye size binekler var etmiştir. Bütün bunlar; üzerlerine oturunca Rabbinizin nimetini anarak: “Bunları buyruğumuza veren ne yücedir; zaten bizim takatimiz bunlara yetmezdi; şüphesiz Rabbimize döneceğiz” demeniz içindir.",
+  "kaynak": "Zuhruf, 43/13-14",
+  "aciklama": "Müminlere öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "سُبْحَـٰنَ ٱلَّذِى سَخَّرَ لَنَا",
+    "okunus": "subhâne ellezî sehara lenâ",
+    "anlam": "Kelime kelime: şanı yücedir · hizmetimize verenin · (has) subjected · bizim"
+   },
+   {
+    "arapca": "هَـٰذَا وَمَا كُنَّا لَهُۥ",
+    "okunus": "hâzâ vemâ kunnâ lehu",
+    "anlam": "Kelime kelime: bunu · yoksa · biz değildik · bunu"
+   },
+   {
+    "arapca": "مُقْرِنِينَ وَإِنَّآ إِلَىٰ رَبِّنَا",
+    "okunus": "mukrınîne ve-innâ ilâ rabbinâ",
+    "anlam": "Kelime kelime: (hizmetimize) yanaştıracak · biz elbette · Rabbimize · our Lord"
+   },
+   {
+    "arapca": "لَمُنقَلِبُونَ",
+    "okunus": "lemunkalibûn",
+    "anlam": "Kelime kelime: döneceğiz"
+   }
+  ]
+ },
+ {
+  "id": "dua_k079",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Felak Sûresi ile Sığınma",
+  "arapca": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+  "okunus": "Kul e'ûzu birabbi l-felekı min şerrı mâ haleka vemin şerrı ğâsikın izâ vekabe vemin şerrı n-nefâsâti fî l-'ukadi vemin şerrı hâsidin izâ hased",
+  "anlam": "De ki: “Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.” De ki: “Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.” De ki: “Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.” De ki: “Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.” De ki: “Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.”",
+  "kaynak": "Felak, 113/1-5",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+    "okunus": "kul e'ûzu birabbi l-felekı",
+    "anlam": "Kelime kelime: de ki · sığınırım ben · Rabbe · karanlığı yarıp sabahı ortaya çıkaran"
+   },
+   {
+    "arapca": "مِن شَرِّ مَا خَلَقَ",
+    "okunus": "min şerrı mâ haleka",
+    "anlam": "Kelime kelime: şerrinden · şeylerin · yarattığı"
+   },
+   {
+    "arapca": "وَمِن شَرِّ غَاسِقٍ إِذَا",
+    "okunus": "vemin şerrı ğâsikın izâ",
+    "anlam": "Kelime kelime: ve · şerrinden · gecenin · zaman"
+   },
+   {
+    "arapca": "وَقَبَ وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ",
+    "okunus": "vekabe vemin şerrı n-nefâsâti",
+    "anlam": "Kelime kelime: karanlığı çöktüğü · ve · şerrinden · üfleyenlerin"
+   },
+   {
+    "arapca": "فِى ٱلْعُقَدِ وَمِن شَرِّ",
+    "okunus": "fî l-'ukadi vemin şerrı",
+    "anlam": "Kelime kelime: düğümlere · ve · şerrinden"
+   },
+   {
+    "arapca": "حَاسِدٍ إِذَا حَسَدَ",
+    "okunus": "hâsidin izâ hased",
+    "anlam": "Kelime kelime: hasedcinin · zaman · hased ettiği"
+   }
+  ]
+ },
+ {
+  "id": "dua_k080",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Nâs Sûresi ile Sığınma",
+  "arapca": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ مَلِكِ ٱلنَّاسِ إِلَـٰهِ ٱلنَّاسِ مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+  "okunus": "Kul e'ûzu birabbi n-nâsi meliki n-nâsi ilâhi n-nâsi min şerrı l-vesvâsi l-hanâsi ellezî yuvesvisu fî sudûrı n-nâsi mine l-cineti vel-nâs",
+  "anlam": "De ki: “İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.” De ki: “İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.” De ki: “İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.” De ki: “İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.” De ki: “İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.” De ki: “İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.”",
+  "kaynak": "Nâs, 114/1-6",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+    "okunus": "kul e'ûzu birabbi n-nâsi",
+    "anlam": "Kelime kelime: de ki · sığınırım ben · Rabbine · insanların"
+   },
+   {
+    "arapca": "مَلِكِ ٱلنَّاسِ إِلَـٰهِ ٱلنَّاسِ",
+    "okunus": "meliki n-nâsi ilâhi n-nâsi",
+    "anlam": "Kelime kelime: padişahına · insanların · tanrısına · insanların"
+   },
+   {
+    "arapca": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+    "okunus": "min şerrı l-vesvâsi l-hanâsi",
+    "anlam": "Kelime kelime: şerrinden · vesvesecinin · sinsi"
+   },
+   {
+    "arapca": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ",
+    "okunus": "ellezî yuvesvisu fî sudûrı",
+    "anlam": "Kelime kelime: o ki · fısıldar · göğüslerine"
+   },
+   {
+    "arapca": "ٱلنَّاسِ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+    "okunus": "n-nâsi mine l-cineti vel-nâs",
+    "anlam": "Kelime kelime: insanların · cinlerden · ve insanlar(dan);"
+   }
+  ]
+ },
+ {
+  "id": "dua_k081",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Hamd ve Yardım Dileme (Fâtiha)",
+  "arapca": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ مَـٰلِكِ يَوْمِ ٱلدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+  "okunus": "El-hamdu lillehi rabbi l-'âlemîne el-rahmâni r-rahîmi mâliki yevmi d-dîni iyyâke ne'budu ve-iyyâke neste'în",
+  "anlam": "Hamd, Alemlerin Rabbi Allah'a mahsustur. O Rahman ve Rahim'dir, Din Gününün sahibidir. Ancak Sana kulluk eder ve yalnız Senden yardım dileriz.",
+  "kaynak": "Fâtiha, 1/2-5",
+  "aciklama": "Her rekâtta okunan duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+    "okunus": "el-hamdu lillehi rabbi l-'âlemîne",
+    "anlam": "Kelime kelime: hamdolsun · Allah'a · Rabbi · Alemlerin"
+   },
+   {
+    "arapca": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ مَـٰلِكِ يَوْمِ",
+    "okunus": "el-rahmâni r-rahîmi mâliki yevmi",
+    "anlam": "Kelime kelime: (O) Rahman'dır · Rahim'dir · sahibidir · gününün"
+   },
+   {
+    "arapca": "ٱلدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ",
+    "okunus": "d-dîni iyyâke ne'budu ve-iyyâke",
+    "anlam": "Kelime kelime: Din · ancak sana · kulluk ederiz · ancak senden"
+   },
+   {
+    "arapca": "نَسْتَعِينُ",
+    "okunus": "neste'în",
+    "anlam": "Kelime kelime: yardım isteriz"
+   }
+  ]
+ },
+ {
+  "id": "dua_k082",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Âyetü'l-Kürsî",
+  "arapca": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+  "okunus": "El-lehu lâ ilâhe illâ huve l-hayu l-kayûmu lâ tehuzuhu sinetun velâ nevmun lehu mâ fî s-semâvâti vemâ fî l-erdı men zâ ellezî yeşfe'u 'ındehu illâ bi-iznihi ye'lemu mâ beyne eydîhim vemâ halfehum velâ yuhîtûne bişeyin min 'ılmihi illâ bimâ şâe vesi'a kursiyyuhu s-semâvâti vel-erda velâ yeûduhu hıfzuhumâ vehuve l-'aliyu l-'azîm",
+  "anlam": "Allah, O'ndan başka tanrı olmayan, kendisini uyuklama ve uyku tutmayan, diri, her an yaratıklarını gözetip durandır. Göklerde olan ve yerde olan ancak O'nundur. O'nun izni olmadan katında şefaat edecek kimdir? Onların işlediklerini ve işleyeceklerini bilir, dilediğinden başka ilminden hiçbir şeyi kavrayamazlar. Hükümranlığı gökleri ve yeri kaplamıştır, onların gözetilmesi O'na ağır gelmez. O yücedir, büyüktür.",
+  "kaynak": "Bakara, 2/255",
+  "aciklama": "Zikir olarak okunan duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱللَّهُ لَآ إِلَـٰهَ إِلَّا",
+    "okunus": "el-lehu lâ ilâhe illâ",
+    "anlam": "Kelime kelime: Allah (ki) · yoktur · tanrı · başka"
+   },
+   {
+    "arapca": "هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا",
+    "okunus": "huve l-hayu l-kayûmu lâ",
+    "anlam": "Kelime kelime: O'ndan · daima diridir · koruyup yöneticidir · O'nu tutmaz"
+   },
+   {
+    "arapca": "تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ",
+    "okunus": "tehuzuhu sinetun velâ nevmun",
+    "anlam": "Kelime kelime: overtakes Him · ne bir uyuklama · ve ne de · bir uyku"
+   },
+   {
+    "arapca": "لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ",
+    "okunus": "lehu mâ fî s-semâvâti",
+    "anlam": "Kelime kelime: O'nundur · ne · varsa · göklerde"
+   },
+   {
+    "arapca": "وَمَا فِى ٱلْأَرْضِ ۗ مَن",
+    "okunus": "vemâ fî l-erdı men",
+    "anlam": "Kelime kelime: ve ne · varsa · yerde · kimdir"
+   },
+   {
+    "arapca": "ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ",
+    "okunus": "zâ ellezî yeşfe'u 'ındehu",
+    "anlam": "Kelime kelime: ki · şefaat edebilir · kendisinin katında"
+   },
+   {
+    "arapca": "إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا",
+    "okunus": "illâ bi-iznihi ye'lemu mâ",
+    "anlam": "Kelime kelime: dışında · O'nun izni · bilir · olanı"
+   },
+   {
+    "arapca": "بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ",
+    "okunus": "beyne eydîhim vemâ halfehum",
+    "anlam": "Kelime kelime: onların önünde · before them · ve olanı · arkalarında"
+   },
+   {
+    "arapca": "وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ",
+    "okunus": "velâ yuhîtûne bişeyin min",
+    "anlam": "Kelime kelime: kavrayamazlar · they encompass · hiçbir şey · O'nun ilminden"
+   },
+   {
+    "arapca": "عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ",
+    "okunus": "'ılmihi illâ bimâ şâe",
+    "anlam": "Kelime kelime: His Knowledge · dışında · şeyler · dilediği"
+   },
+   {
+    "arapca": "وَسِعَ كُرْسِيُّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ ۖ",
+    "okunus": "vesi'a kursiyyuhu s-semâvâti vel-erda",
+    "anlam": "Kelime kelime: kaplamıştır · O'nun Kürsüsü · gökleri · ve yeri"
+   },
+   {
+    "arapca": "وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ",
+    "okunus": "velâ yeûduhu hıfzuhumâ vehuve",
+    "anlam": "Kelime kelime: O'na ağır gelmez · tires Him · onları koru(yup gözet)mek · O"
+   },
+   {
+    "arapca": "ٱلْعَلِىُّ ٱلْعَظِيمُ",
+    "okunus": "l-'aliyu l-'azîm",
+    "anlam": "Kelime kelime: yücedir · büyüktür"
+   }
+  ]
+ },
+ {
+  "id": "dua_k083",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Tevhide Şahitlik",
+  "arapca": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّا هُوَ وَٱلْمَلَـٰٓئِكَةُ وَأُو۟لُوا۟ ٱلْعِلْمِ قَآئِمًۢا بِٱلْقِسْطِ ۚ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+  "okunus": "Şehide'llâhu ennehu lâ ilâhe illâ huve vel-melâiketu ve-ulû l-'ılmi kâimen bil-kıstı lâ ilâhe illâ huve l-'azîzu l-hakîm",
+  "anlam": "Allah, melekler ve adaleti yerine getiren ilim sahibleri, O'ndan başka tanrı olmadığına şahidlik etmişlerdir. O'ndan başka tanrı yoktur, O güçlüdür, Hakim'dir.",
+  "kaynak": "Âl-i İmrân, 3/18",
+  "aciklama": "Allah, melekler ve ilim sahipleri duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَآ",
+    "okunus": "şehide l-lehu ennehu lâ",
+    "anlam": "Kelime kelime: şahiddir (ki) · Allah · şüphesiz · yoktur"
+   },
+   {
+    "arapca": "إِلَـٰهَ إِلَّا هُوَ وَٱلْمَلَـٰٓئِكَةُ",
+    "okunus": "ilâhe illâ huve vel-melâiketu",
+    "anlam": "Kelime kelime: tanrı · başka · O'ndan · ve melekler"
+   },
+   {
+    "arapca": "وَأُو۟لُوا۟ ٱلْعِلْمِ قَآئِمًۢا بِٱلْقِسْطِ ۚ",
+    "okunus": "ve-ulû l-'ılmi kâimen bil-kıstı",
+    "anlam": "Kelime kelime: ve sahipleri · ilim · gözeten · adaletle"
+   },
+   {
+    "arapca": "لَآ إِلَـٰهَ إِلَّا هُوَ",
+    "okunus": "lâ ilâhe illâ huve",
+    "anlam": "Kelime kelime: yoktur · tanrı · başka · O'ndan"
+   },
+   {
+    "arapca": "ٱلْعَزِيزُ ٱلْحَكِيمُ",
+    "okunus": "l-'azîzu l-hakîm",
+    "anlam": "Kelime kelime: azizdir · hakimdir"
+   }
+  ]
+ },
+ {
+  "id": "dua_k084",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Bizi Buna Eriştiren Allah'a Hamd",
+  "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى هَدَىٰنَا لِهَـٰذَا وَمَا كُنَّا لِنَهْتَدِىَ لَوْلَآ أَنْ هَدَىٰنَا ٱللَّهُ ۖ لَقَدْ جَآءَتْ رُسُلُ رَبِّنَا بِٱلْحَقِّ ۖ وَنُودُوٓا۟ أَن تِلْكُمُ ٱلْجَنَّةُ أُورِثْتُمُوهَا بِمَا كُنتُمْ تَعْمَلُونَ",
+  "okunus": "L-hamdu lillehi ellezî hedânâ lihâzâ vemâ kunnâ linehtediye levlâ en hedânâ'llâhu lekad câet rusulu rabbinâ bil-hakı venûdû en tilkumu l-cenetu ûrıstumûhâ bimâ kuntum te'melûn",
+  "anlam": "Cennette altlarından ırmaklar akarken gönüllerinden kini çıkarıp atarız. “Bizi buraya eriştiren Allah'a hamdolsun. Eğer Allah bizi doğru yola iletmeseydi, biz doğru yolu bulamazdık. And olsun ki Rabbimizin peygamberleri bize gerçeği getirmiştir” derler. Onlara, “İşlediğinize karşılık işte mirasçısı olduğunuz cennet” diye seslenilir.",
+  "kaynak": "A'râf, 7/43",
+  "aciklama": "Cennet ehli duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى هَدَىٰنَا",
+    "okunus": "l-hamdu lillehi ellezî hedânâ",
+    "anlam": "Kelime kelime: hamdolsun · Allah'a · o ki · lutfedip bizi getirdi"
+   },
+   {
+    "arapca": "لِهَـٰذَا وَمَا كُنَّا لِنَهْتَدِىَ",
+    "okunus": "lihâzâ vemâ kunnâ linehtediye",
+    "anlam": "Kelime kelime: buraya · biz · we were · (doğruyu) bulamazdık"
+   },
+   {
+    "arapca": "لَوْلَآ أَنْ هَدَىٰنَا ٱللَّهُ ۖ",
+    "okunus": "levlâ en hedânâ l-lehu",
+    "anlam": "Kelime kelime: eğer · bizi getirmeseydi · (had) guided us · Allah"
+   },
+   {
+    "arapca": "لَقَدْ جَآءَتْ رُسُلُ رَبِّنَا",
+    "okunus": "lekad câet rusulu rabbinâ",
+    "anlam": "Kelime kelime: muhakkak · getirmişler · elçileri · Rabbimizin"
+   },
+   {
+    "arapca": "بِٱلْحَقِّ ۖ وَنُودُوٓا۟ أَن تِلْكُمُ",
+    "okunus": "bil-hakı venûdû en tilkumu",
+    "anlam": "Kelime kelime: gerçeği · onlara seslenildi · işte size · This"
+   },
+   {
+    "arapca": "ٱلْجَنَّةُ أُورِثْتُمُوهَا بِمَا كُنتُمْ",
+    "okunus": "l-cenetu ûrıstumûhâ bimâ kuntum",
+    "anlam": "Kelime kelime: cennet · o size miras verildi · karşılık · yaptıklarınıza"
+   },
+   {
+    "arapca": "تَعْمَلُونَ",
+    "okunus": "te'melûn",
+    "anlam": "Kelime kelime: do"
+   }
+  ]
+ },
+ {
+  "id": "dua_k085",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Cennet Ehlinin Tesbihi",
+  "arapca": "سُبْحَـٰنَكَ ٱللَّهُمَّ وَتَحِيَّتُهُمْ فِيهَا سَلَـٰمٌۭ ۚ وَءَاخِرُ دَعْوَىٰهُمْ أَنِ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+  "okunus": "Subhâneke'llâhume vetehıyyetuhum fîhâ selâmun veâhıru de'vâhum eni l-hamdu lillehi rabbi l-'âlemîn",
+  "anlam": "Oradaki duaları: “Münezzehsin ey Allah'ım”, dirlik temennileri: “Selam size” ve dualarının sonu da: “Alemlerin Rabbi Allah'a hamd olsun”dur.",
+  "kaynak": "Yûnus, 10/10",
+  "aciklama": "Cennet ehli duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "سُبْحَـٰنَكَ ٱللَّهُمَّ وَتَحِيَّتُهُمْ فِيهَا",
+    "okunus": "subhâneke l-lehume vetehıyyetuhum fîhâ",
+    "anlam": "Kelime kelime: senin şanın pek yücedir · Ey Allah'ım · ve dilekleri (de) · aralarındaki"
+   },
+   {
+    "arapca": "سَلَـٰمٌۭ ۚ وَءَاخِرُ دَعْوَىٰهُمْ أَنِ",
+    "okunus": "selâmun veâhıru de'vâhum eni",
+    "anlam": "Kelime kelime: Selâm'dır · ve sonu (ise) · dualarının · hamdolsun'dur"
+   },
+   {
+    "arapca": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+    "okunus": "l-hamdu lillehi rabbi l-'âlemîn",
+    "anlam": "Kelime kelime: Allah'a · Rabbi · alemlerin"
+   }
+  ]
+ },
+ {
+  "id": "dua_k086",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Rabbime Tevekkül Ettim",
+  "arapca": "إِنِّى تَوَكَّلْتُ عَلَى ٱللَّهِ رَبِّى وَرَبِّكُم ۚ مَّا مِن دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ بِنَاصِيَتِهَآ ۚ إِنَّ رَبِّى عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ",
+  "okunus": "Innî tevekkeltu 'alâ'llâhi rabbî verabbikum mâ min dâbbetin illâ huve âhızun binâsıyetihâ inne rabbî 'alâ sırâtın mustekîm",
+  "anlam": "Bir kısım tanrılarımız seni çarpmıştır, demekten başka birşey demeyiz“ dediler. Hud: ”Doğrusu ben Allah'ı şahit tutuyorum; siz de şahit olun ki ben O'nu bırakıp koştuğunuz ortaklardan uzağım. Hepiniz bana tuzak kurun sonra da ertelemeyin. Ben, ancak benim de sizin de Rabbiniz olan Allah'a güvenirim. Hiçbir canlı yoktur ki Allah ona el koymamış bulunsun. Rabbim elbette doğru yoldadır. Eğer yüz çevirirseniz, şüphesiz ben size benimle gönderileni bildirdim. Rabbim sizden başka bir milleti yerinize getirebilir, O'na bir şey de yapamazsınız. Doğrusu Rabbim herşeyi koruyandır\" dedi.",
+  "kaynak": "Hûd, 11/56",
+  "aciklama": "Hz. Hûd duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "إِنِّى تَوَكَّلْتُ عَلَى ٱللَّهِ",
+    "okunus": "innî tevekkeltu 'alâ l-lehi",
+    "anlam": "Kelime kelime: şüphesiz ben · güvendim · Allah'a · Allah"
+   },
+   {
+    "arapca": "رَبِّى وَرَبِّكُم ۚ مَّا مِن",
+    "okunus": "rabbî verabbikum mâ min",
+    "anlam": "Kelime kelime: benim Rabbim · ve sizin Rabbiniz olan · yoktur · hiçbir"
+   },
+   {
+    "arapca": "دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ",
+    "okunus": "dâbbetin illâ huve âhızun",
+    "anlam": "Kelime kelime: canlı · ki · O'nun (Allah) · tutmadığı"
+   },
+   {
+    "arapca": "بِنَاصِيَتِهَآ ۚ إِنَّ رَبِّى عَلَىٰ",
+    "okunus": "binâsıyetihâ inne rabbî 'alâ",
+    "anlam": "Kelime kelime: onun perçeminden · şüphesiz · Rabbim · üzeredir"
+   },
+   {
+    "arapca": "صِرَٰطٍۢ مُّسْتَقِيمٍۢ",
+    "okunus": "sırâtın mustekîm",
+    "anlam": "Kelime kelime: yol · doğru"
+   }
+  ]
+ },
+ {
+  "id": "dua_k087",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Başarım Ancak Allah'ladır",
+  "arapca": "تَوْفِيقِىٓ إِلَّا بِٱللَّهِ ۚ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ",
+  "okunus": "Tevfîkî illâ bil-lehi 'aleyhi tevekkeltu ve-ileyhi unîb",
+  "anlam": "“Ey Milletim! Rabbimden benim bir belgem olduğu ve bana güzel bir rızık da verdiği halde, O'na karşı gelebilir miyim? Söylesenize! Size yasak ettiğim şeylerde, aykırı hareket etmek istemem; gücümün yettiği kadar ıslah etmekten başka bir dileğim yoktur. Başarım ancak Allah'tandır, O'na güvendim; O'na yöneliyorum” dedi.",
+  "kaynak": "Hûd, 11/88",
+  "aciklama": "Hz. Şuayb duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "تَوْفِيقِىٓ إِلَّا بِٱللَّهِ ۚ عَلَيْهِ",
+    "okunus": "tevfîkî illâ bil-lehi 'aleyhi",
+    "anlam": "Kelime kelime: bir başarım · başka · Allah'ın (verdiğinden) · O'na"
+   },
+   {
+    "arapca": "تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ",
+    "okunus": "tevekkeltu ve-ileyhi unîb",
+    "anlam": "Kelime kelime: güvendim · ve O'na · gönülden yönelirim"
+   }
+  ]
+ },
+ {
+  "id": "dua_k088",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Allah En İyi Koruyandır",
+  "arapca": "فَٱللَّهُ خَيْرٌ حَـٰفِظًۭا ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+  "okunus": "Fel-lehu hayrun hâfizan vehuve erhamu r-râhımîn",
+  "anlam": "“Daha önce kardeşini size emanet ettiğim gibi, şimdi onu emanet eder miyim? Ama Allah en iyi koruyandır, O merhametlilerin merhametlisidir” dedi.",
+  "kaynak": "Yûsuf, 12/64",
+  "aciklama": "Hz. Yakub duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "فَٱللَّهُ خَيْرٌ حَـٰفِظًۭا ۖ وَهُوَ",
+    "okunus": "fel-lehu hayrun hâfizan vehuve",
+    "anlam": "Kelime kelime: Allah'tır · en iyi · koruyan · ve O"
+   },
+   {
+    "arapca": "أَرْحَمُ ٱلرَّٰحِمِينَ",
+    "okunus": "erhamu r-râhımîn",
+    "anlam": "Kelime kelime: en merhametlisidir · merhametlilerin"
+   }
+  ]
+ },
+ {
+  "id": "dua_k089",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Derdimi Allah'a Arz Ederim",
+  "arapca": "إِنَّمَآ أَشْكُوا۟ بَثِّى وَحُزْنِىٓ إِلَى ٱللَّهِ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
+  "okunus": "Innemâ eşkû besî vehuznî ilâ'llâhi ve-e'lemu mine'llâhi mâ lâ te'lemûn",
+  "anlam": "Yakup: “Ben üzüntü ve tasamı yalnız Allah'a açarım. Allah katından, sizin bilmediklerinizi bilirim” dedi.",
+  "kaynak": "Yûsuf, 12/86",
+  "aciklama": "Hz. Yakub duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "إِنَّمَآ أَشْكُوا۟ بَثِّى وَحُزْنِىٓ",
+    "okunus": "innemâ eşkû besî vehuznî",
+    "anlam": "Kelime kelime: şüphesiz ben · arz ederim · üzüntümü · ve tasamı"
+   },
+   {
+    "arapca": "إِلَى ٱللَّهِ وَأَعْلَمُ مِنَ",
+    "okunus": "ilâ l-lehi ve-e'lemu mine",
+    "anlam": "Kelime kelime: yalnız · Allah'a · ve bilirim · tarafından"
+   },
+   {
+    "arapca": "ٱللَّهِ مَا لَا تَعْلَمُونَ",
+    "okunus": "l-lehi mâ lâ te'lemûn",
+    "anlam": "Kelime kelime: Allah · şeyleri · sizin bilmediğiniz · you know"
+   }
+  ]
+ },
+ {
+  "id": "dua_k090",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Nesli İçin Dua",
+  "arapca": "رَّبَّنَآ إِنِّىٓ أَسْكَنتُ مِن ذُرِّيَّتِى بِوَادٍ غَيْرِ ذِى زَرْعٍ عِندَ بَيْتِكَ ٱلْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ فَٱجْعَلْ أَفْـِٔدَةًۭ مِّنَ ٱلنَّاسِ تَهْوِىٓ إِلَيْهِمْ وَٱرْزُقْهُم مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَشْكُرُونَ",
+  "okunus": "Rabbenâ innî eskentu min zurrıyyetî bivâdin ğayrı zî zer'ın 'ınde beytike l-muharami rabbenâ liyukîmû s-salete fe-ic'al efideten mine n-nâsi tehvî ileyhim ve-urzukhum mine t-semerâti le'allehum yeşkurûn",
+  "anlam": "“Rabbimiz! Ben çocuklarımdan kimini, namaz kılabilmeleri için Senin kutsal evinin yanında, ziraata elverişsiz bir vadiye yerleştirdim. Rabbimiz! İnsanların gönüllerini onlara meylettir, şükretmeleri için onları ürünlerle rızıklandır.”",
+  "kaynak": "İbrâhîm, 14/37",
+  "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَّبَّنَآ إِنِّىٓ أَسْكَنتُ مِن",
+    "okunus": "rabbenâ innî eskentu min",
+    "anlam": "Kelime kelime: Rabbimiz · ben · yerleştirdim · (bazısını)"
+   },
+   {
+    "arapca": "ذُرِّيَّتِى بِوَادٍ غَيْرِ ذِى",
+    "okunus": "zurrıyyetî bivâdin ğayrı zî",
+    "anlam": "Kelime kelime: çocuklarımdan · bir vadiye · olmayan · sahibi"
+   },
+   {
+    "arapca": "زَرْعٍ عِندَ بَيْتِكَ ٱلْمُحَرَّمِ",
+    "okunus": "zer'ın 'ınde beytike l-muharami",
+    "anlam": "Kelime kelime: ekin · yanında · senin evinin · mukaddes"
+   },
+   {
+    "arapca": "رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ فَٱجْعَلْ",
+    "okunus": "rabbenâ liyukîmû s-salete fe-ic'al",
+    "anlam": "Kelime kelime: Rabbimiz · kılsınlar diye · namazı · artık kıl"
+   },
+   {
+    "arapca": "أَفْـِٔدَةًۭ مِّنَ ٱلنَّاسِ تَهْوِىٓ",
+    "okunus": "efideten mine n-nâsi tehvî",
+    "anlam": "Kelime kelime: gönüllerini · birtakım · insanların · meylettir"
+   },
+   {
+    "arapca": "إِلَيْهِمْ وَٱرْزُقْهُم مِّنَ ٱلثَّمَرَٰتِ",
+    "okunus": "ileyhim ve-urzukhum mine t-semerâti",
+    "anlam": "Kelime kelime: onlara · ve onları rızıklandır · (çeşitli) · meyvalarla"
+   },
+   {
+    "arapca": "لَعَلَّهُمْ يَشْكُرُونَ",
+    "okunus": "le'allehum yeşkurûn",
+    "anlam": "Kelime kelime: umulur ki · şükrederler"
+   }
+  ]
+ },
+ {
+  "id": "dua_k091",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Evlat İçin Hamd",
+  "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى وَهَبَ لِى عَلَى ٱلْكِبَرِ إِسْمَـٰعِيلَ وَإِسْحَـٰقَ ۚ إِنَّ رَبِّى لَسَمِيعُ ٱلدُّعَآءِ",
+  "okunus": "El-hamdu lillehi ellezî vehebe lî 'alâ l-kiberı ismâ'île ve-ishâka inne rabbî lesemî'u d-du'â",
+  "anlam": "“Kocamışken, bana İsmail ve İshak'ı veren Allah'a hamdolsun. Doğrusu Rabbim duaları işitendir.”",
+  "kaynak": "İbrâhîm, 14/39",
+  "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى وَهَبَ",
+    "okunus": "el-hamdu lillehi ellezî vehebe",
+    "anlam": "Kelime kelime: hamdolsun · Allah'a · lutfeden · has granted"
+   },
+   {
+    "arapca": "لِى عَلَى ٱلْكِبَرِ إِسْمَـٰعِيلَ",
+    "okunus": "lî 'alâ l-kiberı ismâ'île",
+    "anlam": "Kelime kelime: bana · ihtiyarlık çağımda · İsma'il'i"
+   },
+   {
+    "arapca": "وَإِسْحَـٰقَ ۚ إِنَّ رَبِّى لَسَمِيعُ",
+    "okunus": "ve-ishâka inne rabbî lesemî'u",
+    "anlam": "Kelime kelime: ve İshak'ı · şüphesiz · Rabbim · işitendir"
+   },
+   {
+    "arapca": "ٱلدُّعَآءِ",
+    "okunus": "d-du'â",
+    "anlam": "Kelime kelime: du'ayı"
+   }
+  ]
+ },
+ {
+  "id": "dua_k092",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Diriliş Günü Rezil Etme",
+  "arapca": "وَلَا تُخْزِنِى يَوْمَ يُبْعَثُونَ يَوْمَ لَا يَنفَعُ مَالٌۭ وَلَا بَنُونَ إِلَّا مَنْ أَتَى ٱللَّهَ بِقَلْبٍۢ سَلِيمٍۢ",
+  "okunus": "Velâ tuhzinî yevme yub'asûne yevme lâ yenfe'u mâlun velâ benûne illâ men etâ'llâhe bikalbin selîm",
+  "anlam": "Sonrakilerin beni güzel şekilde anmalarını sağla. Beni nimet cennetine varis olanlardan kıl. Babamı da bağışla, o şüphesiz sapıklardandır. İnsanların diriltileceği gün, Allah'a temiz bir kalble gelenden başka kimseye malın ve oğulların fayda vermeyeceği gün, beni rezil etme“ demişti. Sonrakilerin beni güzel şekilde anmalarını sağla. Beni nimet cennetine varis olanlardan kıl. Babamı da bağışla, o şüphesiz sapıklardandır. İnsanların diriltileceği gün, Allah'a temiz bir kalble gelenden başka kimseye malın ve oğulların fayda vermeyeceği gün, beni rezil etme” demişti. Sonrakilerin beni güzel şekilde anmalarını sağla. Beni nimet cennetine varis olanlardan kıl. Babamı da bağışla, o şüphesiz sapıklardandır. İnsanların diriltileceği gün, Allah'a temiz bir kalble gelenden başka kimseye malın ve oğulların fayda vermeyeceği gün, beni rezil etme\" demişti.",
+  "kaynak": "Şuarâ, 26/87-89",
+  "aciklama": "Hz. İbrâhîm duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "وَلَا تُخْزِنِى يَوْمَ يُبْعَثُونَ",
+    "okunus": "velâ tuhzinî yevme yub'asûne",
+    "anlam": "Kelime kelime: beni utandırma · disgrace me · gün · diriltilecekleri"
+   },
+   {
+    "arapca": "يَوْمَ لَا يَنفَعُ مَالٌۭ",
+    "okunus": "yevme lâ yenfe'u mâlun",
+    "anlam": "Kelime kelime: o gün · fayda vermez · will benefit · (ne) mal"
+   },
+   {
+    "arapca": "وَلَا بَنُونَ إِلَّا مَنْ",
+    "okunus": "velâ benûne illâ men",
+    "anlam": "Kelime kelime: ne de · oğullar · dışındakine · kimse"
+   },
+   {
+    "arapca": "أَتَى ٱللَّهَ بِقَلْبٍۢ سَلِيمٍۢ",
+    "okunus": "etâ l-lehe bikalbin selîm",
+    "anlam": "Kelime kelime: getiren · Allah'a · kalb · sağlam ve temiz"
+   }
+  ]
+ },
+ {
+  "id": "dua_k093",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Hamd ve Seçilmiş Kullara Selam",
+  "arapca": "قُلِ ٱلْحَمْدُ لِلَّهِ وَسَلَـٰمٌ عَلَىٰ عِبَادِهِ ٱلَّذِينَ ٱصْطَفَىٰٓ ۗ ءَآللَّهُ خَيْرٌ أَمَّا يُشْرِكُونَ",
+  "okunus": "Kuli l-hamdu lillehi veselâmun 'alâ 'ıbâdihi ellezîne istafâ âllehu hayrun emmâ yuşrıkûn",
+  "anlam": "De ki: “Hamd Allah'a mahsustur, seçtiği kullarına selam olsun. Allah mı daha iyidir, yoksa O'na koştukları ortaklar mı?”",
+  "kaynak": "Neml, 27/59",
+  "aciklama": "Peygamberimize öğretilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "قُلِ ٱلْحَمْدُ لِلَّهِ وَسَلَـٰمٌ",
+    "okunus": "kuli l-hamdu lillehi veselâmun",
+    "anlam": "Kelime kelime: de ki · hamd olsun · Allah'a · ve selam"
+   },
+   {
+    "arapca": "عَلَىٰ عِبَادِهِ ٱلَّذِينَ ٱصْطَفَىٰٓ ۗ",
+    "okunus": "'alâ 'ıbâdihi ellezîne istafâ",
+    "anlam": "Kelime kelime: üzerine · O'nun kulları · seçtiği · He has chosen"
+   },
+   {
+    "arapca": "ءَآللَّهُ خَيْرٌ أَمَّا يُشْرِكُونَ",
+    "okunus": "âllehu hayrun emmâ yuşrıkûn",
+    "anlam": "Kelime kelime: Allah mı? · hayırlı · yoksa · ortak koştukları mı?"
+   }
+  ]
+ },
+ {
+  "id": "dua_k094",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Salavat Ayeti",
+  "arapca": "إِنَّ ٱللَّهَ وَمَلَـٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى ٱلنَّبِىِّ ۚ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ صَلُّوا۟ عَلَيْهِ وَسَلِّمُوا۟ تَسْلِيمًا",
+  "okunus": "Inne'llâhe vemelâiketehu yusallûne 'alâ n-nebiyi yâeyyuhâ ellezîne âmenû sallû 'aleyhi vesellimû teslîmen",
+  "anlam": "Şüphesiz Allah ve melekleri Peygamberi överler: Ey inananlar! Siz de onu övün, ona salat ve selam getirin.",
+  "kaynak": "Ahzâb, 33/56",
+  "aciklama": "Müminlere emredilen duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "إِنَّ ٱللَّهَ وَمَلَـٰٓئِكَتَهُۥ يُصَلُّونَ",
+    "okunus": "inne l-lehe vemelâiketehu yusallûne",
+    "anlam": "Kelime kelime: şüphesiz · Allah · ve melekleri · salat etmektedir"
+   },
+   {
+    "arapca": "عَلَى ٱلنَّبِىِّ ۚ يَـٰٓأَيُّهَا ٱلَّذِينَ",
+    "okunus": "'alâ n-nebiyi yâeyyuhâ ellezîne",
+    "anlam": "Kelime kelime: üzerine · Peygamber · ey · kimseler"
+   },
+   {
+    "arapca": "ءَامَنُوا۟ صَلُّوا۟ عَلَيْهِ وَسَلِّمُوا۟",
+    "okunus": "âmenû sallû 'aleyhi vesellimû",
+    "anlam": "Kelime kelime: inanan(lar) · siz de salat edin · ona · ve selam edin"
+   },
+   {
+    "arapca": "تَسْلِيمًا",
+    "okunus": "teslîmen",
+    "anlam": "Kelime kelime: içtenlikle"
+   }
+  ]
+ },
+ {
+  "id": "dua_k095",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Hüznü Gideren Allah'a Hamd",
+  "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَذْهَبَ عَنَّا ٱلْحَزَنَ ۖ إِنَّ رَبَّنَا لَغَفُورٌۭ شَكُورٌ",
+  "okunus": "L-hamdu lillehi ellezî ezhebe 'annâ l-hazene inne rabbenâ leğafûrun şekûr",
+  "anlam": "Derler ki: “Bizden üzüntüyü gideren Allah'a hamdolsun. Doğrusu Rabbimiz bağışlayandır, şükrün karşılığını verendir.”",
+  "kaynak": "Fâtır, 35/34",
+  "aciklama": "Cennet ehli duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِىٓ أَذْهَبَ",
+    "okunus": "l-hamdu lillehi ellezî ezhebe",
+    "anlam": "Kelime kelime: hamdolsun · Allah'a · gideren · (has) removed"
+   },
+   {
+    "arapca": "عَنَّا ٱلْحَزَنَ ۖ إِنَّ رَبَّنَا",
+    "okunus": "'annâ l-hazene inne rabbenâ",
+    "anlam": "Kelime kelime: bizden · tasayı · doğrusu · Rabbimiz"
+   },
+   {
+    "arapca": "لَغَفُورٌۭ شَكُورٌ",
+    "okunus": "leğafûrun şekûr",
+    "anlam": "Kelime kelime: çok bağışlayandır · çok karşılık verendir"
+   }
+  ]
+ },
+ {
+  "id": "dua_k096",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Rabbini Tesbih",
+  "arapca": "سُبْحَـٰنَ رَبِّكَ رَبِّ ٱلْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَـٰمٌ عَلَى ٱلْمُرْسَلِينَ وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ",
+  "okunus": "Subhâne rabbike rabbi l-'ızeti 'ammâ yesıfûne veselâmun 'alâ l-murselîne vel-hamdu lillehi rabbi l-'âlemîn",
+  "anlam": "Senin güçlü olan Rabbin, onların vasıflandırmalarından münezzehtir. Ve selam, peygamberleredir. Hamd de Alemlerin Rabbi Allah'adır.",
+  "kaynak": "Sâffât, 37/180-182",
+  "aciklama": "Sûrenin sonu duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "سُبْحَـٰنَ رَبِّكَ رَبِّ ٱلْعِزَّةِ",
+    "okunus": "subhâne rabbike rabbi l-'ızeti",
+    "anlam": "Kelime kelime: yücedir · Rabbin · sahibi · kudret ve şeref"
+   },
+   {
+    "arapca": "عَمَّا يَصِفُونَ وَسَلَـٰمٌ عَلَى",
+    "okunus": "'ammâ yesıfûne veselâmun 'alâ",
+    "anlam": "Kelime kelime: onların nitelendirmelerinden · they attribute · ve selam olsun · üzerine"
+   },
+   {
+    "arapca": "ٱلْمُرْسَلِينَ وَٱلْحَمْدُ لِلَّهِ رَبِّ",
+    "okunus": "l-murselîne vel-hamdu lillehi rabbi",
+    "anlam": "Kelime kelime: gönderilen elçiler · ve hamd olsun · Allah'a · Rabbi"
+   },
+   {
+    "arapca": "ٱلْعَـٰلَمِينَ",
+    "okunus": "l-'âlemîn",
+    "anlam": "Kelime kelime: alemlerin"
+   }
+  ]
+ },
+ {
+  "id": "dua_k097",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Kötülüklerden Koru",
+  "arapca": "وَقِهِمُ ٱلسَّيِّـَٔاتِ ۚ وَمَن تَقِ ٱلسَّيِّـَٔاتِ يَوْمَئِذٍۢ فَقَدْ رَحِمْتَهُۥ ۚ وَذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+  "okunus": "Vekıhimu s-seyiâti vemen tekı s-seyiâti yevme-izin fekad rahımtehu vezâlike huve l-fevzu l-'azîm",
+  "anlam": "“Onları kötülüklerden koru! O gün kötülüklerden kimi korursan, ona şüphesiz rahmet etmiş olursun. Bu büyük kurtuluştur.”",
+  "kaynak": "Mü'min, 40/9",
+  "aciklama": "Arşı taşıyan melekler duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "وَقِهِمُ ٱلسَّيِّـَٔاتِ ۚ وَمَن تَقِ",
+    "okunus": "vekıhimu s-seyiâti vemen tekı",
+    "anlam": "Kelime kelime: ve onları koru · kötülüklerden · ve kimi · sen korursan"
+   },
+   {
+    "arapca": "ٱلسَّيِّـَٔاتِ يَوْمَئِذٍۢ فَقَدْ رَحِمْتَهُۥ ۚ",
+    "okunus": "s-seyiâti yevme-izin fekad rahımtehu",
+    "anlam": "Kelime kelime: kötülüklerden · o gün · elbette · ona acımışsındır"
+   },
+   {
+    "arapca": "وَذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+    "okunus": "vezâlike huve l-fevzu l-'azîm",
+    "anlam": "Kelime kelime: ve işte budur · o · başarı · büyük"
+   }
+  ]
+ },
+ {
+  "id": "dua_k098",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Evvel ve Âhir Olan Allah",
+  "arapca": "سَبَّحَ لِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ يُحْىِۦ وَيُمِيتُ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ هُوَ ٱلْأَوَّلُ وَٱلْـَٔاخِرُ وَٱلظَّـٰهِرُ وَٱلْبَاطِنُ ۖ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+  "okunus": "Sebbeha lillehi mâ fî s-semâvâti vel-erdı vehuve l-'azîzu l-hakîmu lehu mulku s-semâvâti vel-erdı yuhyî veyumîtu vehuve 'alâ kulli şeyin kadîrun huve l-evelu vel-âhıru vel-zâhiru vel-bâtınu vehuve bikulli şeyin 'alîm",
+  "anlam": "Göklerde ve yerde olanlar Allah'ı tesbih ederler. O güçlüdür, Hakim'dir. Göklerin ve yerin hükümranlığı O'nundur; diriltir, öldürür. O, her şeye Kadir'dir. O her şeyden öncedir; kendisinden sonraya hiçbir şeyin kalmayacağı son'dur; varlığı aşikardır; gerçek mahiyeti insan için gizlidir. O her şeyi bilir.",
+  "kaynak": "Hadîd, 57/1-3",
+  "aciklama": "Hadîd sûresinin başı duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "سَبَّحَ لِلَّهِ مَا فِى",
+    "okunus": "sebbeha lillehi mâ fî",
+    "anlam": "Kelime kelime: tesbih etmiştir · Allah'ı · her şey · bulunan"
+   },
+   {
+    "arapca": "ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ",
+    "okunus": "s-semâvâti vel-erdı vehuve l-'azîzu",
+    "anlam": "Kelime kelime: göklerde · ve yerde · O · azizdir"
+   },
+   {
+    "arapca": "ٱلْحَكِيمُ لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ",
+    "okunus": "l-hakîmu lehu mulku s-semâvâti",
+    "anlam": "Kelime kelime: hakimdir · O'nundur · mülkü · göklerin"
+   },
+   {
+    "arapca": "وَٱلْأَرْضِ ۖ يُحْىِۦ وَيُمِيتُ ۖ وَهُوَ",
+    "okunus": "vel-erdı yuhyî veyumîtu vehuve",
+    "anlam": "Kelime kelime: ve yerin · yaşatır · ve öldürür · ve O"
+   },
+   {
+    "arapca": "عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ",
+    "okunus": "'alâ kulli şeyin kadîrun",
+    "anlam": "Kelime kelime: üzerine · her · şey · kadirdir"
+   },
+   {
+    "arapca": "هُوَ ٱلْأَوَّلُ وَٱلْـَٔاخِرُ وَٱلظَّـٰهِرُ",
+    "okunus": "huve l-evelu vel-âhıru vel-zâhiru",
+    "anlam": "Kelime kelime: O · ilktir · ve sondur · ve zahirdir"
+   },
+   {
+    "arapca": "وَٱلْبَاطِنُ ۖ وَهُوَ بِكُلِّ شَىْءٍ",
+    "okunus": "vel-bâtınu vehuve bikulli şeyin",
+    "anlam": "Kelime kelime: ve batındır · ve O · her · şeyi"
+   },
+   {
+    "arapca": "عَلِيمٌ",
+    "okunus": "'alîm",
+    "anlam": "Kelime kelime: bilendir"
+   }
+  ]
+ },
+ {
+  "id": "dua_k099",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Esmâü'l-Hüsnâ Ayetleri",
+  "arapca": "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَـٰلِمُ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ ۖ هُوَ ٱلرَّحْمَـٰنُ ٱلرَّحِيمُ هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْمَلِكُ ٱلْقُدُّوسُ ٱلسَّلَـٰمُ ٱلْمُؤْمِنُ ٱلْمُهَيْمِنُ ٱلْعَزِيزُ ٱلْجَبَّارُ ٱلْمُتَكَبِّرُ ۚ سُبْحَـٰنَ ٱللَّهِ عَمَّا يُشْرِكُونَ هُوَ ٱللَّهُ ٱلْخَـٰلِقُ ٱلْبَارِئُ ٱلْمُصَوِّرُ ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ يُسَبِّحُ لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+  "okunus": "Huve'llâhu ellezî lâ ilâhe illâ huve 'âlimu l-ğaybi vel-şehâdeti huve r-rahmânu r-rahîmu huve'llâhu ellezî lâ ilâhe illâ huve l-meliku l-kudûsu s-selâmu l-muminu l-muheyminu l-'azîzu l-cebâru l-mutekebiru subhâne'llâhi 'ammâ yuşrıkûne huve'llâhu l-hâliku l-bârı-u l-musaviru lehu l-esmâu l-husnâ yusebbihu lehu mâ fî s-semâvâti vel-erdı vehuve l-'azîzu l-hakîm",
+  "anlam": "O, görüleni de görülmeyeni de bilen, kendisinden başka tanrı olmayan Allah'tır. O, acıyıcı olandır, acıyandır. O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır. Allah onların koştukları eşlerden (ortaklardan) münezzehtir. O, vareden, güzel yaratan, yarattıklarına şekil veren, en güzel adlar kendisinin olan Allah'tır. Göklerde ve yerde olanlar O'nu tesbih ederler. O güçlüdür, Hakim'dir.",
+  "kaynak": "Haşr, 59/22-24",
+  "aciklama": "Haşr sûresinin sonu duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "هُوَ ٱللَّهُ ٱلَّذِى لَآ",
+    "okunus": "huve l-lehu ellezî lâ",
+    "anlam": "Kelime kelime: O · Allah'tır · ki · yoktur"
+   },
+   {
+    "arapca": "إِلَـٰهَ إِلَّا هُوَ ۖ عَـٰلِمُ",
+    "okunus": "ilâhe illâ huve 'âlimu",
+    "anlam": "Kelime kelime: tanrı · başka · O'ndan · bilir"
+   },
+   {
+    "arapca": "ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ ۖ هُوَ ٱلرَّحْمَـٰنُ",
+    "okunus": "l-ğaybi vel-şehâdeti huve r-rahmânu",
+    "anlam": "Kelime kelime: görülmeyeni · ve görüleni · O · Rahmân'dır (çok esirgeyen)"
+   },
+   {
+    "arapca": "ٱلرَّحِيمُ هُوَ ٱللَّهُ ٱلَّذِى",
+    "okunus": "r-rahîmu huve l-lehu ellezî",
+    "anlam": "Kelime kelime: Rahîm'dir (çok acıyan) · O · Allah'tır · ki"
+   },
+   {
+    "arapca": "لَآ إِلَـٰهَ إِلَّا هُوَ",
+    "okunus": "lâ ilâhe illâ huve",
+    "anlam": "Kelime kelime: yoktur · tanrı · başka · O'ndan"
+   },
+   {
+    "arapca": "ٱلْمَلِكُ ٱلْقُدُّوسُ ٱلسَّلَـٰمُ ٱلْمُؤْمِنُ",
+    "okunus": "l-meliku l-kudûsu s-selâmu l-muminu",
+    "anlam": "Kelime kelime: Melik'tir (padişahtır) · Kuddûs'tür (mukaddes) · Selâm'dır (esenlik veren) · Mü'min'dir (güvenlik veren)"
+   },
+   {
+    "arapca": "ٱلْمُهَيْمِنُ ٱلْعَزِيزُ ٱلْجَبَّارُ ٱلْمُتَكَبِّرُ ۚ",
+    "okunus": "l-muheyminu l-'azîzu l-cebâru l-mutekebiru",
+    "anlam": "Kelime kelime: Müheymin'dir (kollayıp koruyan) · Azîz'dir (üstün galib) · Cebbâr'dır (istediğini zorla yaptıran) · Mütekebbir'dir (çok ulud)"
+   },
+   {
+    "arapca": "سُبْحَـٰنَ ٱللَّهِ عَمَّا يُشْرِكُونَ",
+    "okunus": "subhâne l-lehi 'ammâ yuşrıkûne",
+    "anlam": "Kelime kelime: yücedir · Allah · ortak koşmalarından"
+   },
+   {
+    "arapca": "هُوَ ٱللَّهُ ٱلْخَـٰلِقُ ٱلْبَارِئُ",
+    "okunus": "huve l-lehu l-hâliku l-bârı-u",
+    "anlam": "Kelime kelime: O · Allah · Hâlik'dir (yaratan) · Bâri'dir (var eden)"
+   },
+   {
+    "arapca": "ٱلْمُصَوِّرُ ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ",
+    "okunus": "l-musaviru lehu l-esmâu l-husnâ",
+    "anlam": "Kelime kelime: Musavvir'dir (biçim veren) · O'nundur · isimler · en güzel"
+   },
+   {
+    "arapca": "يُسَبِّحُ لَهُۥ مَا فِى",
+    "okunus": "yusebbihu lehu mâ fî",
+    "anlam": "Kelime kelime: tesbih ederler · O'nu · bulunanlar · göklerde"
+   },
+   {
+    "arapca": "ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ",
+    "okunus": "s-semâvâti vel-erdı vehuve l-'azîzu",
+    "anlam": "Kelime kelime: ve yerde · ve O · Azîz'dir (mutlak galip)"
+   },
+   {
+    "arapca": "ٱلْحَكِيمُ",
+    "okunus": "l-hakîm",
+    "anlam": "Kelime kelime: Hakîm'dir (hükümdar herşeyi hikmetle yapan)"
+   }
+  ]
+ },
+ {
+  "id": "dua_k100",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "İhlâs Sûresi",
+  "arapca": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+  "okunus": "Kul huve'llâhu ehadun el-lehu s-samedu lem yelid velem yûled velem yekun lehu kufuven ehad",
+  "anlam": "De ki: O Allah bir tektir. Allah her şeyden müstağni ve her şey O'na muhtaçtır. O doğurmamış ve doğmamıştır. Hiçbir şey O'na denk değildir.",
+  "kaynak": "İhlâs, 112/1-4",
+  "aciklama": "Tevhid sûresi duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+    "okunus": "kul huve l-lehu ehadun",
+    "anlam": "Kelime kelime: de ki · O · Allah · birdir"
+   },
+   {
+    "arapca": "ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ",
+    "okunus": "el-lehu s-samedu lem yelid",
+    "anlam": "Kelime kelime: Allah · Samed'dir · doğurmamıştır · He begets"
+   },
+   {
+    "arapca": "وَلَمْ يُولَدْ وَلَمْ يَكُن",
+    "okunus": "velem yûled velem yekun",
+    "anlam": "Kelime kelime: ve · doğurulmamıştır · ve · olmamıştır"
+   },
+   {
+    "arapca": "لَّهُۥ كُفُوًا أَحَدٌۢ",
+    "okunus": "lehu kufuven ehad",
+    "anlam": "Kelime kelime: O'nun · dengi · hiçbir şey"
+   }
+  ]
+ },
+ {
+  "id": "dua_k101",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Peygamber Gönder Duası",
+  "arapca": "رَبَّنَا وَٱبْعَثْ فِيهِمْ رَسُولًۭا مِّنْهُمْ يَتْلُوا۟ عَلَيْهِمْ ءَايَـٰتِكَ وَيُعَلِّمُهُمُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَيُزَكِّيهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+  "okunus": "Rabbenâ ve-ib'as fîhim rasûlen minhum yetlû 'aleyhim âyâtike veyu'allimuhumu l-kitâbe vel-hıkmete veyuzekkîhim inneke ente l-'azîzu l-hakîm",
+  "anlam": "“Rabbimiz! İçlerinden onlara Senin ayetlerini okuyan, Kitabı ve hikmeti öğreten, onları her kötülükten arıtan bir peygamber gönder. Doğrusu güçlü ve Hakim olan ancak Sensin”.",
+  "kaynak": "Bakara, 2/129",
+  "aciklama": "Hz. İbrâhîm ve Hz. İsmâil duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبَّنَا وَٱبْعَثْ فِيهِمْ رَسُولًۭا",
+    "okunus": "rabbenâ ve-ib'as fîhim rasûlen",
+    "anlam": "Kelime kelime: Rabbimiz · gönder · onlara · bir elçi"
+   },
+   {
+    "arapca": "مِّنْهُمْ يَتْلُوا۟ عَلَيْهِمْ ءَايَـٰتِكَ",
+    "okunus": "minhum yetlû 'aleyhim âyâtike",
+    "anlam": "Kelime kelime: kendi içlerinden · okuyacak · kendilerine · senin ayetlerini"
+   },
+   {
+    "arapca": "وَيُعَلِّمُهُمُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَيُزَكِّيهِمْ ۚ",
+    "okunus": "veyu'allimuhumu l-kitâbe vel-hıkmete veyuzekkîhim",
+    "anlam": "Kelime kelime: ve onlara öğretecek · Kitabı · ve hikmeti · ve onları temizleyecek"
+   },
+   {
+    "arapca": "إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+    "okunus": "inneke ente l-'azîzu l-hakîm",
+    "anlam": "Kelime kelime: şüphesiz sensin · yalnız sen · Aziz olan · Hakim olan"
+   }
+  ]
+ },
+ {
+  "id": "dua_k102",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Adağımı Kabul Et",
+  "arapca": "رَبِّ إِنِّى نَذَرْتُ لَكَ مَا فِى بَطْنِى مُحَرَّرًۭا فَتَقَبَّلْ مِنِّىٓ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+  "okunus": "Rabbi innî nezertu leke mâ fî betnî muharraran fetekabbel minnî inneke ente s-semî'u l-'alîm",
+  "anlam": "İmran'ın karısı: “Ya Rabbi! Karnımda olanı, sadece sana hizmet etmek üzere adadım, benden kabul buyur, doğrusu işiten ve bilen ancak Sensin” demişti.",
+  "kaynak": "Âl-i İmrân, 3/35",
+  "aciklama": "Hz. Meryem'in annesi duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ إِنِّى نَذَرْتُ لَكَ",
+    "okunus": "rabbi innî nezertu leke",
+    "anlam": "Kelime kelime: Rabbim · şüphesiz ben · adadım · sana"
+   },
+   {
+    "arapca": "مَا فِى بَطْنِى مُحَرَّرًۭا",
+    "okunus": "mâ fî betnî muharraran",
+    "anlam": "Kelime kelime: olanı · karnımda · my womb · tam hür olarak"
+   },
+   {
+    "arapca": "فَتَقَبَّلْ مِنِّىٓ ۖ إِنَّكَ أَنتَ",
+    "okunus": "fetekabbel minnî inneke ente",
+    "anlam": "Kelime kelime: kabul buyur · benden · şüphesiz · sen"
+   },
+   {
+    "arapca": "ٱلسَّمِيعُ ٱلْعَلِيمُ",
+    "okunus": "s-semî'u l-'alîm",
+    "anlam": "Kelime kelime: işitensin · bilensin"
+   }
+  ]
+ },
+ {
+  "id": "dua_k103",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Sana Dua Edip Mahrum Kalmadım",
+  "arapca": "رَبِّ إِنِّى وَهَنَ ٱلْعَظْمُ مِنِّى وَٱشْتَعَلَ ٱلرَّأْسُ شَيْبًۭا وَلَمْ أَكُنۢ بِدُعَآئِكَ رَبِّ شَقِيًّۭا وَإِنِّى خِفْتُ ٱلْمَوَٰلِىَ مِن وَرَآءِى وَكَانَتِ ٱمْرَأَتِى عَاقِرًۭا فَهَبْ لِى مِن لَّدُنكَ وَلِيًّۭا يَرِثُنِى وَيَرِثُ مِنْ ءَالِ يَعْقُوبَ ۖ وَٱجْعَلْهُ رَبِّ رَضِيًّۭا",
+  "okunus": "Rabbi innî vehene l-'azmu minnî ve-işte'ale r-rasu şeyben velem ekun bidu'âike rabbi şekıyyen ve-innî hıftu l-mevâliye min verâî vekâneti imra-etî 'âkıran feheb lî min ledunke veliyyen yerısunî veyerısu min âli ye'kûbe ve-ic'alhu rabbi radıyyen",
+  "anlam": "Şöyle demişti: “Rabbim! Gerçekten kemiklerim zayıfladı, saçlarım ağardı. Rabbim! Sana yalvarmakla şimdiye kadar bedbaht olup bir şeyden mahrum kalmadım.” Doğrusu, benden sonra yerime geçecek yakınlarımın iyi hareket etmeyeceklerinden korkuyorum. Karım da kısırdır. Katından bana bir oğul bağışla ki, bana ve Yakub oğullarına mirasçı olsun. Rabbim! Onun, rızanı kazanmasını da sağla.“ Doğrusu, benden sonra yerime geçecek yakınlarımın iyi hareket etmeyeceklerinden korkuyorum. Karım da kısırdır. Katından bana bir oğul bağışla ki, bana ve Yakub oğullarına mirasçı olsun. Rabbim! Onun, rızanı kazanmasını da sağla.”",
+  "kaynak": "Meryem, 19/4-6",
+  "aciklama": "Hz. Zekeriyyâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ إِنِّى وَهَنَ ٱلْعَظْمُ",
+    "okunus": "rabbi innî vehene l-'azmu",
+    "anlam": "Kelime kelime: Rabbim · şüphesiz ben · gevşedi · kemik(lerim)"
+   },
+   {
+    "arapca": "مِنِّى وَٱشْتَعَلَ ٱلرَّأْسُ شَيْبًۭا",
+    "okunus": "minnî ve-işte'ale r-rasu şeyben",
+    "anlam": "Kelime kelime: benim · ve tutuştu · başım · ihtiyarlık aleviyle"
+   },
+   {
+    "arapca": "وَلَمْ أَكُنۢ بِدُعَآئِكَ رَبِّ",
+    "okunus": "velem ekun bidu'âike rabbi",
+    "anlam": "Kelime kelime: ve · olmadım · sana du'a ile · Rabbim"
+   },
+   {
+    "arapca": "شَقِيًّۭا وَإِنِّى خِفْتُ ٱلْمَوَٰلِىَ",
+    "okunus": "şekıyyen ve-innî hıftu l-mevâliye",
+    "anlam": "Kelime kelime: bahtsız · doğrusu ben · korktum · yerime geçecek yakınlarımdan"
+   },
+   {
+    "arapca": "مِن وَرَآءِى وَكَانَتِ ٱمْرَأَتِى",
+    "okunus": "min verâî vekâneti imra-etî",
+    "anlam": "Kelime kelime: arkamdan · after me · ve · karım da"
+   },
+   {
+    "arapca": "عَاقِرًۭا فَهَبْ لِى مِن",
+    "okunus": "'âkıran feheb lî min",
+    "anlam": "Kelime kelime: kısırdır · (Ne olur) lutfet · bana · katından"
+   },
+   {
+    "arapca": "لَّدُنكَ وَلِيًّۭا يَرِثُنِى وَيَرِثُ",
+    "okunus": "ledunke veliyyen yerısunî veyerısu",
+    "anlam": "Kelime kelime: Yourself · bir veli(aht) · bana mirasçı olsun · ve mirasçı olsun"
+   },
+   {
+    "arapca": "مِنْ ءَالِ يَعْقُوبَ ۖ وَٱجْعَلْهُ",
+    "okunus": "min âli ye'kûbe ve-ic'alhu",
+    "anlam": "Kelime kelime: oğullarına · Ya'kub · ve onu yap"
+   },
+   {
+    "arapca": "رَبِّ رَضِيًّۭا",
+    "okunus": "rabbi radıyyen",
+    "anlam": "Kelime kelime: Rabbim · razı olduklarından"
+   }
+  ]
+ },
+ {
+  "id": "dua_k104",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Zalimlerden Kurtaran Allah'a Hamd",
+  "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى نَجَّىٰنَا مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
+  "okunus": "L-hamdu lillehi ellezî neccânâ mine l-kavmi z-zâlimîn",
+  "anlam": "Ey Nuh! Sen ve beraberindekiler gemiye yerleşince: “Bizi zalim milletten kurtaran Allah'a hamdolsun” de.",
+  "kaynak": "Mü'minûn, 23/28",
+  "aciklama": "Hz. Nûh duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى نَجَّىٰنَا",
+    "okunus": "l-hamdu lillehi ellezî neccânâ",
+    "anlam": "Kelime kelime: hamdolsun · Allah'a · bizi kurtaran · (has) saved us"
+   },
+   {
+    "arapca": "مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
+    "okunus": "mine l-kavmi z-zâlimîn",
+    "anlam": "Kelime kelime: kavimden · zalim"
+   }
+  ]
+ },
+ {
+  "id": "dua_k105",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Beni ve Müminleri Kurtar",
+  "arapca": "رَبِّ إِنَّ قَوْمِى كَذَّبُونِ فَٱفْتَحْ بَيْنِى وَبَيْنَهُمْ فَتْحًۭا وَنَجِّنِى وَمَن مَّعِىَ مِنَ ٱلْمُؤْمِنِينَ",
+  "okunus": "Rabbi inne kavmî kezebûni fe-ifteh beynî vebeynehum fethan veneccinî vemen me'ıye mine l-muminîn",
+  "anlam": "Nuh: “Rabbim! Milletim beni yalanladı. Benimle onların arasında Sen hüküm ver. Beni ve beraberimdeki inananları kurtar” dedi. Nuh: “Rabbim! Milletim beni yalanladı. Benimle onların arasında Sen hüküm ver. Beni ve beraberimdeki inananları kurtar” dedi.",
+  "kaynak": "Şuarâ, 26/117-118",
+  "aciklama": "Hz. Nûh duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ إِنَّ قَوْمِى كَذَّبُونِ",
+    "okunus": "rabbi inne kavmî kezebûni",
+    "anlam": "Kelime kelime: Rabbim · şüphesiz · kavmim · beni yalanladı"
+   },
+   {
+    "arapca": "فَٱفْتَحْ بَيْنِى وَبَيْنَهُمْ فَتْحًۭا",
+    "okunus": "fe-ifteh beynî vebeynehum fethan",
+    "anlam": "Kelime kelime: o halde aç · benimle · onların arasını · (kesin hükümle) açarak"
+   },
+   {
+    "arapca": "وَنَجِّنِى وَمَن مَّعِىَ مِنَ",
+    "okunus": "veneccinî vemen me'ıye mine",
+    "anlam": "Kelime kelime: ve beni kurtar · ve bulunanları · benimle beraber · mü'minlerden"
+   },
+   {
+    "arapca": "ٱلْمُؤْمِنِينَ",
+    "okunus": "l-muminîn",
+    "anlam": ""
+   }
+  ]
+ },
+ {
+  "id": "dua_k106",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Üstün Kılan Allah'a Hamd",
+  "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى فَضَّلَنَا عَلَىٰ كَثِيرٍۢ مِّنْ عِبَادِهِ ٱلْمُؤْمِنِينَ",
+  "okunus": "L-hamdu lillehi ellezî feddalenâ 'alâ kesîrın min 'ıbâdihi l-muminîn",
+  "anlam": "And olsun ki, Davud'a ve Süleyman'a ilim verdik. İkisi “Bizi mümin kullarının çoğundan üstün kılan Allah'a hamdolsun” dediler.",
+  "kaynak": "Neml, 27/15",
+  "aciklama": "Hz. Dâvûd ve Hz. Süleyman duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى فَضَّلَنَا",
+    "okunus": "l-hamdu lillehi ellezî feddalenâ",
+    "anlam": "Kelime kelime: hamdolsun · Allah'a · ki · bizi üstün kıldı"
+   },
+   {
+    "arapca": "عَلَىٰ كَثِيرٍۢ مِّنْ عِبَادِهِ",
+    "okunus": "'alâ kesîrın min 'ıbâdihi",
+    "anlam": "Kelime kelime: üzerine · birçoğu · kullarından · His servants"
+   },
+   {
+    "arapca": "ٱلْمُؤْمِنِينَ",
+    "okunus": "l-muminîn",
+    "anlam": "Kelime kelime: inanan"
+   }
+  ]
+ },
+ {
+  "id": "dua_k107",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Suçlulara Arka Çıkmam",
+  "arapca": "رَبِّ بِمَآ أَنْعَمْتَ عَلَىَّ فَلَنْ أَكُونَ ظَهِيرًۭا لِّلْمُجْرِمِينَ",
+  "okunus": "Rabbi bimâ en'amte 'aleyye felen ekûne zahîran lilmucrımîn",
+  "anlam": "Musa: “Rabbim! Bana verdiğin nimete and olsun ki, suçlulara asla yardımcı olmayacağım” dedi.",
+  "kaynak": "Kasas, 28/17",
+  "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "رَبِّ بِمَآ أَنْعَمْتَ عَلَىَّ",
+    "okunus": "rabbi bimâ en'amte 'aleyye",
+    "anlam": "Kelime kelime: Rabbim · hakkı için · lutfettiğin ni'metler · bana"
+   },
+   {
+    "arapca": "فَلَنْ أَكُونَ ظَهِيرًۭا لِّلْمُجْرِمِينَ",
+    "okunus": "felen ekûne zahîran lilmucrımîn",
+    "anlam": "Kelime kelime: artık bir daha · olmayacağım · arka çıkan · suçlulara"
+   }
+  ]
+ },
+ {
+  "id": "dua_k108",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Doğru Yola İletilme Ümidi",
+  "arapca": "عَسَىٰ رَبِّىٓ أَن يَهْدِيَنِى سَوَآءَ ٱلسَّبِيلِ",
+  "okunus": "'asâ rabbî en yehdiyenî sevâe s-sebîl",
+  "anlam": "Medyen'e doğru yöneldiğinde: “Rabbimin bana doğru yolu göstereceğini umarım” dedi.",
+  "kaynak": "Kasas, 28/22",
+  "aciklama": "Hz. Mûsâ duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "عَسَىٰ رَبِّىٓ أَن يَهْدِيَنِى",
+    "okunus": "'asâ rabbî en yehdiyenî",
+    "anlam": "Kelime kelime: umarım ki · Rabbim · beni iletir · will guide me"
+   },
+   {
+    "arapca": "سَوَآءَ ٱلسَّبِيلِ",
+    "okunus": "sevâe s-sebîl",
+    "anlam": "Kelime kelime: doğru · yola"
+   }
+  ]
+ },
+ {
+  "id": "dua_k109",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Sıkıntıda Rabbine Niyaz",
+  "arapca": "أَنِّى مَسَّنِىَ ٱلشَّيْطَـٰنُ بِنُصْبٍۢ وَعَذَابٍ",
+  "okunus": "Ennî messeniye s-şeytânu binusbin ve'azâb",
+  "anlam": "Kulumuz Eyyub'u da an; Rabbine: “Doğrusu şeytan bana yorgunluk ve azap verdi” diye seslenmişti.",
+  "kaynak": "Sâd, 38/41",
+  "aciklama": "Hz. Eyyûb duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "أَنِّى مَسَّنِىَ ٱلشَّيْطَـٰنُ بِنُصْبٍۢ",
+    "okunus": "ennî messeniye s-şeytânu binusbin",
+    "anlam": "Kelime kelime: bana · dokundurdu · şeytan · bir yorgunluk"
+   },
+   {
+    "arapca": "وَعَذَابٍ",
+    "okunus": "ve'azâb",
+    "anlam": "Kelime kelime: ve azab"
+   }
+  ]
+ },
+ {
+  "id": "dua_k110",
+  "koleksiyon": "kuran",
+  "sinif": "kuranAyeti",
+  "baslik": "Vaadini Yerine Getiren Allah'a Hamd",
+  "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى صَدَقَنَا وَعْدَهُۥ وَأَوْرَثَنَا ٱلْأَرْضَ نَتَبَوَّأُ مِنَ ٱلْجَنَّةِ حَيْثُ نَشَآءُ ۖ فَنِعْمَ أَجْرُ ٱلْعَـٰمِلِينَ",
+  "okunus": "L-hamdu lillehi ellezî sadekanâ ve'dehu ve-evrasenâ l-erda netebevve-u mine l-ceneti haysu neşâu feni'me ecru l-'âmilîn",
+  "anlam": "Onlar: “Bize verdiği sözde duran ve bizi bu yere varis kılan Allah'a hamdolsun. Cennette istediğimiz yerde oturabiliriz. Yararlı iş işleyenlerin ecri ne güzelmiş!” derler.",
+  "kaynak": "Zümer, 39/74",
+  "aciklama": "Cennet ehli duası. Anlam, ayetin Diyanet mealidir; okunuş otomatik harf çevirisidir, tecvid için Arapça metin esas alınmalıdır. Metin: api.quran.com (Uthmani).",
+  "parcalar": [
+   {
+    "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى صَدَقَنَا",
+    "okunus": "l-hamdu lillehi ellezî sadekanâ",
+    "anlam": "Kelime kelime: hamdolsun · Allah'a · o ki; · bize yerine getirdi"
+   },
+   {
+    "arapca": "وَعْدَهُۥ وَأَوْرَثَنَا ٱلْأَرْضَ نَتَبَوَّأُ",
+    "okunus": "ve'dehu ve-evrasenâ l-erda netebevve-u",
+    "anlam": "Kelime kelime: verdiği sözünü · ve bizi varis kıldı · yurda · oturacağımız"
+   },
+   {
+    "arapca": "مِنَ ٱلْجَنَّةِ حَيْثُ نَشَآءُ ۖ",
+    "okunus": "mine l-ceneti haysu neşâu",
+    "anlam": "Kelime kelime: (-ten) · cennet · yerinde · dilediğimiz"
+   },
+   {
+    "arapca": "فَنِعْمَ أَجْرُ ٱلْعَـٰمِلِينَ",
+    "okunus": "feni'me ecru l-'âmilîn",
+    "anlam": "Kelime kelime: ne güzeldir · ücreti · çalışanların"
+   }
+  ]
+ }
+]

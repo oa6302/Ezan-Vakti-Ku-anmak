@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import '../data/learn_models.dart';
 import '../data/learn_service.dart';
 import 'learn_detail_page.dart';
@@ -37,14 +38,15 @@ class _LearnPageState extends State<LearnPage> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Namaz Öğren',
+        title: Text(AppLocalizations.of(context).learnPrayer,
             style: TextStyle(
                 color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : _sections.isEmpty
-              ? const Center(child: Text('İçerik yüklenemedi'))
+              ? Center(
+                  child: Text(AppLocalizations.of(context).uiIcerikYuklenemedi))
               : ListView(
                   padding: const EdgeInsets.all(14),
                   children: [
@@ -81,17 +83,17 @@ class _LearnPageState extends State<LearnPage> {
             child: const Icon(Icons.menu_book_rounded, color: _gold, size: 26),
           ),
           const SizedBox(width: 14),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Namazı Öğreniyorum',
+                Text(AppLocalizations.of(context).uiNamaziOgreniyorum,
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 17,
                         fontWeight: FontWeight.w900)),
                 SizedBox(height: 4),
-                Text('Adım adım rehber, kaynaklı içerik',
+                Text(AppLocalizations.of(context).uiAdimAdimRehberKaynakli,
                     style: TextStyle(color: Colors.white70, fontSize: 12)),
               ],
             ),
@@ -146,7 +148,9 @@ class _LearnPageState extends State<LearnPage> {
                           style: const TextStyle(
                               color: Colors.black54, fontSize: 12)),
                       const SizedBox(height: 4),
-                      Text('${s.adimlar.length} adım',
+                      Text(
+                          AppLocalizations.of(context)
+                              .uiFAdim(s.adimlar.length),
                           style: const TextStyle(
                               color: _red,
                               fontSize: 11,

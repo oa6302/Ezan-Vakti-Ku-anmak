@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../app/theme.dart';
@@ -64,7 +65,7 @@ class _WeeklyProgressPageState extends State<WeeklyProgressPage> {
     return Scaffold(
       backgroundColor: kArkaPlan,
       appBar: AppBar(
-        title: const Text('Haftalık İlerleme',
+        title: Text(AppLocalizations.of(context).uiHaftalikIlerleme,
             style: TextStyle(fontWeight: FontWeight.bold)),
         backgroundColor: kKartYuzeyi,
         foregroundColor: kAnaLacivert,
@@ -93,24 +94,24 @@ class _WeeklyProgressPageState extends State<WeeklyProgressPage> {
                   const Icon(Icons.insights_rounded,
                       color: Colors.white70, size: 32),
                   const SizedBox(height: 16),
-                  const Text(
-                    'Manevi Yolculuk Özetin',
+                  Text(
+                    AppLocalizations.of(context).uiManeviYolculukOzetin,
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 22,
                         fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 8),
-                  const Text(
-                    'Küçük adımlar, düzenli bir gelişim.',
+                  Text(
+                    AppLocalizations.of(context).uiKucukAdimlarDuzenliBir3,
                     style: TextStyle(color: Colors.white70, fontSize: 14),
                   ),
                 ],
               ),
             ),
             const SizedBox(height: 24),
-            const Text(
-              'Bu Haftanın Verileri',
+            Text(
+              AppLocalizations.of(context).uiBuHaftaninVerileri,
               style: TextStyle(
                   fontSize: 18, fontWeight: FontWeight.bold, color: kAnaMetin),
             ),
@@ -158,19 +159,19 @@ class _WeeklyProgressPageState extends State<WeeklyProgressPage> {
                       borderRadius: BorderRadius.circular(20),
                       border: Border.all(color: kKenarlik),
                     ),
-                    child: const Column(
+                    child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Icon(Icons.auto_awesome_rounded,
                             color: kYardimciMetin, size: 28),
                         SizedBox(height: 12),
-                        Text('Devam Et!',
+                        Text(AppLocalizations.of(context).uiDevamEt,
                             style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 16,
                                 color: kAnaMetin)),
                         SizedBox(height: 4),
-                        Text('Harika gidiyorsun',
+                        Text(AppLocalizations.of(context).uiHarikaGidiyorsun,
                             style:
                                 TextStyle(fontSize: 12, color: kIkincilMetin)),
                       ],
@@ -187,13 +188,14 @@ class _WeeklyProgressPageState extends State<WeeklyProgressPage> {
                 color: kAnaTurkuaz.withValues(alpha: 0.1),
                 borderRadius: BorderRadius.circular(16),
               ),
-              child: const Row(
+              child: Row(
                 children: [
                   Icon(Icons.info_outline_rounded, color: kAnaTurkuaz),
                   SizedBox(width: 12),
                   Expanded(
                     child: Text(
-                      'Verileriniz diğer modüllerdeki (Hedefler, Şükür, Okuma) gerçek kayıtlarınızdan anlık olarak hesaplanmaktadır.',
+                      AppLocalizations.of(context)
+                          .uiVerilerinizDigerModullerdekiHedefler,
                       style: TextStyle(
                           fontSize: 12, color: kAnaLacivert, height: 1.4),
                     ),

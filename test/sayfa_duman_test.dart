@@ -7,10 +7,17 @@ import 'package:flutter_test/flutter_test.dart';
 import 'yardimci/fontlar.dart';
 import 'package:nur_pusulasi/app/admin_session.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
+import 'package:nur_pusulasi/data/icerik_hazinesi.dart';
+import 'package:nur_pusulasi/data/islami_kissalar.dart';
+import 'package:nur_pusulasi/features/hazine/dua_hazinesi_page.dart';
+import 'package:nur_pusulasi/features/hazine/risale_dersleri_page.dart';
+import 'package:nur_pusulasi/features/hazine/vecize_detay_page.dart';
 import 'package:nur_pusulasi/app/favorites_service.dart';
 import 'package:nur_pusulasi/app/state/app_state.dart';
 import 'package:nur_pusulasi/features/admin/admin_gate_page.dart';
 import 'package:nur_pusulasi/features/admin/content_manager_page.dart';
+import 'package:nur_pusulasi/features/admin/gunluk_yonetim_page.dart';
+import 'package:nur_pusulasi/features/admin/plan_duzenle_page.dart';
 import 'package:nur_pusulasi/features/assistant/pages/assistant_page.dart';
 import 'package:nur_pusulasi/features/combo/pages/combo_page.dart';
 import 'package:nur_pusulasi/features/family/pages/family_page.dart';
@@ -49,6 +56,15 @@ final sayfalar = <String, Widget Function()>{
   'Kutuphane (Kuran)': () => const QuranPage(),
   'Kuran Tam': () => const QuranFullPage(),
   'Kissa Kutuphanesi': () => const KissaKutuphanesiPage(),
+  'Kissa Detay': () => KissaDetayPage(kissa: islamiKissalar.first),
+  'Dua Hazinesi': () => const DuaHazinesiPage(),
+  'Dua Hazinesi Detay': () => DuaHazineDetayPage(dua: duaHazinesi.first),
+  'Risale Dersleri': () => const RisaleDersleriPage(),
+  'Risale Ders': () => RisaleDersPage(ders: risaleDersleri.first),
+  'Vecize Detay': () => VecizeDetayPage(
+      osmanlica: 'ایمان هم نوردر هم قوتدر.',
+      latin: vecizeDetaylari.keys.first,
+      detay: vecizeDetaylari.values.first),
   'Namaz Ogren': () => const LearnPage(),
   'Husu': () => const KhushuPage(),
   'Ruh Hali': () => const MoodPage(),
@@ -64,6 +80,11 @@ final sayfalar = <String, Widget Function()>{
   'Bildirim Ayarlari': () => const NotificationSettingsPage(),
   'Admin Giris': () => const AdminGatePage(),
   'Icerik Yonetimi': () => const ContentManagerPage(),
+  'Yonetim Paneli': () => const GunlukYonetimPage(),
+  'Plan Duzenle Vecize': () => PlanDuzenlePage(
+      program: ContentType.vecize, tarih: DateTime(2026, 11, 26)),
+  'Plan Duzenle Kissa': () => PlanDuzenlePage(
+      program: ContentType.kissa, tarih: DateTime(2026, 11, 27)),
 };
 
 void main() {
@@ -76,48 +97,53 @@ void main() {
     appState = AppState();
     await appState.load();
     await ContentService.instance.load();
+    await kissalariYukle();
+    await icerikHazinesiniYukle();
     await FavoritesService.instance.load();
     await AdminSession.instance.load();
   });
 
-  for (final e in sayfalar.entries) {
-    testWidgets('Sayfa aciliyor: ${e.key}', (tester) async {
-      tester.view.physicalSize = const Size(1080, 2340);
-      tester.view.devicePixelRatio = 3;
-      addTearDown(tester.view.reset);
-      // Hatanin kaynagi (dosya:satir) loga dussun
-      final onceki = FlutterError.onError;
-      FlutterError.onError = (d) {
-        final yer = d.toString().split('\n').where((s) => s.contains('lib/'));
-        debugPrint(
-            'KAYNAK ${e.key}: ${d.exceptionAsString().split('\n').first} @ ${yer.take(2).join(' ')}');
-        onceki?.call(d);
-      };
+  // Her sayfa uc dilde: ceviriler genelde Turkceden uzun, tasma yakalanir.
+  for (final dil in const ['tr', 'en', 'ar']) {
+    for (final e in sayfalar.entries) {
+      testWidgets('Sayfa aciliyor [$dil]: ${e.key}', (tester) async {
+        tester.view.physicalSize = const Size(1080, 2340);
+        tester.view.devicePixelRatio = 3;
+        addTearDown(tester.view.reset);
+        // Hatanin kaynagi (dosya:satir) loga dussun
+        final onceki = FlutterError.onError;
+        FlutterError.onError = (d) {
+          final yer = d.toString().split('\n').where((s) => s.contains('lib/'));
+          debugPrint(
+              'KAYNAK [$dil] ${e.key}: ${d.exceptionAsString().split('\n').first} @ ${yer.take(2).join(' ')}');
+          onceki?.call(d);
+        };
 
-      await tester.pumpWidget(ChangeNotifierProvider<AppState>.value(
-        value: appState,
-        child: MaterialApp(
-          theme: ThemeData(fontFamily: 'Roboto'),
-          locale: const Locale('tr'),
-          supportedLocales: const [Locale('tr'), Locale('en'), Locale('ar')],
-          localizationsDelegates: const [
-            AppLocalizations.delegate,
-            GlobalMaterialLocalizations.delegate,
-            GlobalWidgetsLocalizations.delegate,
-            GlobalCupertinoLocalizations.delegate,
-          ],
-          home: e.value(),
-        ),
-      ));
-      for (var i = 0; i < 6; i++) {
-        await tester.pump(const Duration(milliseconds: 300));
-      }
-      FlutterError.onError = onceki;
-      expect(tester.takeException(), isNull);
-      expect(find.byType(Scaffold), findsWidgets);
-      // Zamanlayici/animasyon sizmasin
-      await tester.pumpWidget(const SizedBox());
-      await tester.pump(const Duration(seconds: 2));
-    });
+        await tester.pumpWidget(ChangeNotifierProvider<AppState>.value(
+          value: appState,
+          child: MaterialApp(
+            theme: ThemeData(fontFamily: 'Roboto'),
+            locale: Locale(dil),
+            supportedLocales: const [Locale('tr'), Locale('en'), Locale('ar')],
+            localizationsDelegates: const [
+              AppLocalizations.delegate,
+              GlobalMaterialLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+            ],
+            home: e.value(),
+          ),
+        ));
+        for (var i = 0; i < 6; i++) {
+          await tester.pump(const Duration(milliseconds: 300));
+        }
+        FlutterError.onError = onceki;
+        expect(tester.takeException(), isNull);
+        expect(find.byType(Scaffold), findsWidgets);
+        // Zamanlayici/animasyon sizmasin
+        await tester.pumpWidget(const SizedBox());
+        await tester.pump(const Duration(seconds: 2));
+      });
+    }
   }
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:nur_pusulasi/app/shadows.dart';
 import 'package:nur_pusulasi/data/hybrid_content_repository.dart';
 import '../data/assistant_engine.dart';
@@ -64,7 +65,7 @@ class _AssistantPageState extends State<AssistantPage> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F6FA),
       appBar: AppBar(
-        title: const Text('Akıllı Asistan',
+        title: Text(AppLocalizations.of(context).assistantTitle,
             style: TextStyle(
                 color: _navy, fontSize: 18, fontWeight: FontWeight.w900)),
       ),
@@ -112,17 +113,17 @@ class _AssistantPageState extends State<AssistantPage> {
             child: const Icon(Icons.psychology_rounded, color: _gold, size: 28),
           ),
           const SizedBox(width: 14),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('Kaynaklı Rehber',
+                Text(AppLocalizations.of(context).uiKaynakliRehber,
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 18,
                         fontWeight: FontWeight.w900)),
                 SizedBox(height: 4),
-                Text('Sorunu içerikler arasında ara.',
+                Text(AppLocalizations.of(context).uiSorunuIceriklerArasindaAra,
                     style: TextStyle(color: Colors.white70, fontSize: 12)),
               ],
             ),
@@ -147,8 +148,8 @@ class _AssistantPageState extends State<AssistantPage> {
           Expanded(
             child: TextField(
               controller: _ctrl,
-              decoration: const InputDecoration(
-                hintText: 'Örn. sabır, şükür, abdest...',
+              decoration: InputDecoration(
+                hintText: AppLocalizations.of(context).uiOrnSabirSukurAbdest,
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.symmetric(vertical: 16),
               ),
@@ -175,7 +176,7 @@ class _AssistantPageState extends State<AssistantPage> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('Örnek Sorular',
+          Text(AppLocalizations.of(context).uiOrnekSorular,
               style: TextStyle(
                   color: _navy, fontSize: 13, fontWeight: FontWeight.w900)),
           const SizedBox(height: 10),
@@ -245,15 +246,16 @@ class _AssistantPageState extends State<AssistantPage> {
                 const Icon(Icons.search_off_rounded,
                     color: Colors.black26, size: 40),
                 const SizedBox(height: 10),
-                Text('"$_query" için sonuç bulunamadı',
+                Text(
+                    AppLocalizations.of(context).uiFIcinSonucBulunamadi(_query),
                     textAlign: TextAlign.center,
                     style: const TextStyle(
                         color: _navy,
                         fontSize: 13,
                         fontWeight: FontWeight.w700)),
                 const SizedBox(height: 6),
-                const Text(
-                  'Farklı kelimelerle dene veya mevcut içerikleri gözden geçir.',
+                Text(
+                  AppLocalizations.of(context).uiFarkliKelimelerleDeneVeya,
                   textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.black54, fontSize: 11),
                 ),
@@ -263,7 +265,8 @@ class _AssistantPageState extends State<AssistantPage> {
         else ...[
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 4),
-            child: Text('${_results.length} sonuç bulundu',
+            child: Text(
+                AppLocalizations.of(context).uiFSonucBulundu(_results.length),
                 style: const TextStyle(
                     color: _navy, fontSize: 13, fontWeight: FontWeight.w900)),
           ),
@@ -309,7 +312,9 @@ class _AssistantPageState extends State<AssistantPage> {
                   color: _green.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(6),
                 ),
-                child: Text('${(r.score * 10).toStringAsFixed(1)} puan',
+                child: Text(
+                    AppLocalizations.of(context)
+                        .uiFPuan((r.score * 10).toStringAsFixed(1)),
                     style: const TextStyle(
                         color: _green,
                         fontSize: 9,

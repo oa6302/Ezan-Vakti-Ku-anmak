@@ -693,6 +693,3684 @@ abstract class AppLocalizations {
   /// In tr, this message translates to:
   /// **'Namaz merkezli ibadet rehberi. Tüm veriler cihazınızda saklanır.'**
   String get aboutBody;
+
+  /// No description provided for @uiYoneticiGirisi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yönetici Girişi'**
+  String get uiYoneticiGirisi;
+
+  /// No description provided for @uiIcerikYonetimi.
+  ///
+  /// In tr, this message translates to:
+  /// **'İçerik Yönetimi'**
+  String get uiIcerikYonetimi;
+
+  /// No description provided for @uiYoneticiPinKodunuGirin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yönetici PIN kodunu girin. Bu PIN cihaz içi basit bir engeldir; güvenli kimlik doğrulama yerine geçmez.'**
+  String get uiYoneticiPinKodunuGirin;
+
+  /// No description provided for @uiYoneticiPin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yönetici PIN'**
+  String get uiYoneticiPin;
+
+  /// No description provided for @uiYonetimPaneliniAc.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yönetim panelini aç'**
+  String get uiYonetimPaneliniAc;
+
+  /// No description provided for @uiBaslikVeEnAz.
+  ///
+  /// In tr, this message translates to:
+  /// **'Başlık ve en az bir içerik alanı doldurulmalıdır.'**
+  String get uiBaslikVeEnAz;
+
+  /// No description provided for @uiDogrulamadanYayinla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğrulamadan yayınla?'**
+  String get uiDogrulamadanYayinla;
+
+  /// No description provided for @uiBuIcerikDogrulandiOlarak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu içerik \"doğrulandı\" olarak işaretlenmemiş. Yine de yayınlansın mı?'**
+  String get uiBuIcerikDogrulandiOlarak;
+
+  /// No description provided for @uiIptal.
+  ///
+  /// In tr, this message translates to:
+  /// **'İptal'**
+  String get uiIptal;
+
+  /// No description provided for @uiYayinla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayınla'**
+  String get uiYayinla;
+
+  /// No description provided for @uiSilinsinMi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Silinsin mi?'**
+  String get uiSilinsinMi;
+
+  /// No description provided for @uiIcerikTuru.
+  ///
+  /// In tr, this message translates to:
+  /// **'İçerik Türü'**
+  String get uiIcerikTuru;
+
+  /// No description provided for @uiYayinDurumu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayın Durumu'**
+  String get uiYayinDurumu;
+
+  /// No description provided for @uiKaynakTuru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaynak Türü'**
+  String get uiKaynakTuru;
+
+  /// No description provided for @uiDiyanetBuhariMuslimGibi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Diyanet, Buhârî, Müslim gibi güvenilir kaynaktan kontrol edildi'**
+  String get uiDiyanetBuhariMuslimGibi;
+
+  /// No description provided for @uiKaydet.
+  ///
+  /// In tr, this message translates to:
+  /// **'KAYDET'**
+  String get uiKaydet;
+
+  /// No description provided for @uiOneriler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Öneriler'**
+  String get uiOneriler;
+
+  /// No description provided for @uiEkle.
+  ///
+  /// In tr, this message translates to:
+  /// **'EKLE'**
+  String get uiEkle;
+
+  /// No description provided for @uiIcerikYonetimi2.
+  ///
+  /// In tr, this message translates to:
+  /// **'İçerik Yönetimi'**
+  String get uiIcerikYonetimi2;
+
+  /// No description provided for @uiTopluIslemler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Toplu işlemler'**
+  String get uiTopluIslemler;
+
+  /// No description provided for @uiAktifSekmedekiTumunuYayinla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Aktif sekmedeki tümünü yayınla'**
+  String get uiAktifSekmedekiTumunuYayinla;
+
+  /// No description provided for @uiFiltrelenmisleriYayinla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Filtrelenmişleri yayınla'**
+  String get uiFiltrelenmisleriYayinla;
+
+  /// No description provided for @uiFiltrelenmisleriSil.
+  ///
+  /// In tr, this message translates to:
+  /// **'Filtrelenmişleri sil'**
+  String get uiFiltrelenmisleriSil;
+
+  /// No description provided for @uiAnaSayfadaKontrolEt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ana sayfada kontrol et'**
+  String get uiAnaSayfadaKontrolEt;
+
+  /// No description provided for @uiYedekAlJson.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yedek al (JSON)'**
+  String get uiYedekAlJson;
+
+  /// No description provided for @uiYedektenYukleJson.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yedekten yükle (JSON)'**
+  String get uiYedektenYukleJson;
+
+  /// No description provided for @uiYeniEkle.
+  ///
+  /// In tr, this message translates to:
+  /// **'YENİ EKLE'**
+  String get uiYeniEkle;
+
+  /// No description provided for @uiBaslikIcerikKaynakVeya.
+  ///
+  /// In tr, this message translates to:
+  /// **'Başlık, içerik, kaynak veya kategori ara...'**
+  String get uiBaslikIcerikKaynakVeya;
+
+  /// No description provided for @uiSiralama.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sıralama'**
+  String get uiSiralama;
+
+  /// No description provided for @uiIptal2.
+  ///
+  /// In tr, this message translates to:
+  /// **'İptal'**
+  String get uiIptal2;
+
+  /// No description provided for @uiYayinla2.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayınla'**
+  String get uiYayinla2;
+
+  /// No description provided for @ui365GunlukKayitlarKorunuyor.
+  ///
+  /// In tr, this message translates to:
+  /// **'365 günlük kayıtlar korunuyor; silme işlemi engellendi.'**
+  String get ui365GunlukKayitlarKorunuyor;
+
+  /// No description provided for @uiSilinecekIcerikYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Silinecek içerik yok.'**
+  String get uiSilinecekIcerikYok;
+
+  /// No description provided for @uiFiltrelenmisleriSil2.
+  ///
+  /// In tr, this message translates to:
+  /// **'Filtrelenmişleri sil?'**
+  String get uiFiltrelenmisleriSil2;
+
+  /// No description provided for @uiYedektenYukle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yedekten yükle'**
+  String get uiYedektenYukle;
+
+  /// No description provided for @uiJsonYedeginiAsagiyaYapistirin.
+  ///
+  /// In tr, this message translates to:
+  /// **'JSON yedeğini aşağıya yapıştırın. \"Birleştir\" varsa günceller, yoksa ekler. \"Üzerine yaz\" mevcut havuzu siler.'**
+  String get uiJsonYedeginiAsagiyaYapistirin;
+
+  /// No description provided for @uiUzerineYaz.
+  ///
+  /// In tr, this message translates to:
+  /// **'Üzerine Yaz'**
+  String get uiUzerineYaz;
+
+  /// No description provided for @uiBirlestir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Birleştir'**
+  String get uiBirlestir;
+
+  /// No description provided for @uiFiltreleriTemizle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Filtreleri temizle'**
+  String get uiFiltreleriTemizle;
+
+  /// No description provided for @uiGunlukKayitlarSilinemezDuzenlemeye.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günlük kayıtlar silinemez; düzenlemeye devam edebilirsiniz.'**
+  String get uiGunlukKayitlarSilinemezDuzenlemeye;
+
+  /// No description provided for @uiSilindi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Silindi'**
+  String get uiSilindi;
+
+  /// No description provided for @uiKaynakliRehber.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaynaklı Rehber'**
+  String get uiKaynakliRehber;
+
+  /// No description provided for @uiSorunuIceriklerArasindaAra.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sorunu içerikler arasında ara.'**
+  String get uiSorunuIceriklerArasindaAra;
+
+  /// No description provided for @uiOrnSabirSukurAbdest.
+  ///
+  /// In tr, this message translates to:
+  /// **'Örn. sabır, şükür, abdest...'**
+  String get uiOrnSabirSukurAbdest;
+
+  /// No description provided for @uiOrnekSorular.
+  ///
+  /// In tr, this message translates to:
+  /// **'Örnek Sorular'**
+  String get uiOrnekSorular;
+
+  /// No description provided for @uiFarkliKelimelerleDeneVeya.
+  ///
+  /// In tr, this message translates to:
+  /// **'Farklı kelimelerle dene veya mevcut içerikleri gözden geçir.'**
+  String get uiFarkliKelimelerleDeneVeya;
+
+  /// No description provided for @uiZikirAdi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Zikir Adı'**
+  String get uiZikirAdi;
+
+  /// No description provided for @uiOrnSubhNallah.
+  ///
+  /// In tr, this message translates to:
+  /// **'Örn: Sübhânallah'**
+  String get uiOrnSubhNallah;
+
+  /// No description provided for @uiHedefSayi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hedef Sayı'**
+  String get uiHedefSayi;
+
+  /// No description provided for @uiSayaclariSifirla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sayaçları Sıfırla'**
+  String get uiSayaclariSifirla;
+
+  /// No description provided for @uiSifirla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sıfırla'**
+  String get uiSifirla;
+
+  /// No description provided for @uiZikriSil.
+  ///
+  /// In tr, this message translates to:
+  /// **'Zikri Sil'**
+  String get uiZikriSil;
+
+  /// No description provided for @uiHenuzBirZikirEklenmemis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz bir zikir eklenmemiş.'**
+  String get uiHenuzBirZikirEklenmemis;
+
+  /// No description provided for @uiZikirEkle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Zikir Ekle'**
+  String get uiZikirEkle;
+
+  /// No description provided for @uiZincirAdimi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Zincir Adımı'**
+  String get uiZincirAdimi;
+
+  /// No description provided for @uiToplamCekilen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Toplam Çekilen'**
+  String get uiToplamCekilen;
+
+  /// No description provided for @uiTamamlananZincirTuru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tamamlanan Zincir Turu'**
+  String get uiTamamlananZincirTuru;
+
+  /// No description provided for @uiHedefIlerlemesi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hedef İlerlemesi'**
+  String get uiHedefIlerlemesi;
+
+  /// No description provided for @uiDokun.
+  ///
+  /// In tr, this message translates to:
+  /// **'DOKUN'**
+  String get uiDokun;
+
+  /// No description provided for @uiZincirAdimlari.
+  ///
+  /// In tr, this message translates to:
+  /// **'Zincir Adımları'**
+  String get uiZincirAdimlari;
+
+  /// No description provided for @uiYeniEkle2.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeni Ekle'**
+  String get uiYeniEkle2;
+
+  /// No description provided for @uiDuzenle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Düzenle'**
+  String get uiDuzenle;
+
+  /// No description provided for @uiHenuzDersEklenmemis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz ders eklenmemiş.'**
+  String get uiHenuzDersEklenmemis;
+
+  /// No description provided for @uiHerTamamlananAdimBir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Her tamamlanan adım bir kutlama'**
+  String get uiHerTamamlananAdimBir;
+
+  /// No description provided for @uiCocukEkle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Çocuk Ekle'**
+  String get uiCocukEkle;
+
+  /// No description provided for @uiIsim.
+  ///
+  /// In tr, this message translates to:
+  /// **'İsim'**
+  String get uiIsim;
+
+  /// No description provided for @uiYas.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yaş'**
+  String get uiYas;
+
+  /// No description provided for @uiEkle2.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ekle'**
+  String get uiEkle2;
+
+  /// No description provided for @uiBuCocugunTumIlerleme.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu çocuğun tüm ilerleme kayıtları silinecek.'**
+  String get uiBuCocugunTumIlerleme;
+
+  /// No description provided for @uiAileModu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Aile Modu'**
+  String get uiAileModu;
+
+  /// No description provided for @uiCocuklarim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Çocuklarım'**
+  String get uiCocuklarim;
+
+  /// No description provided for @uiAileceOgrenelim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ailece Öğrenelim'**
+  String get uiAileceOgrenelim;
+
+  /// No description provided for @uiCocuklariniNamazlaTanistir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Çocuklarını namazla tanıştır.'**
+  String get uiCocuklariniNamazlaTanistir;
+
+  /// No description provided for @uiHenuzCocukEklenmedi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz çocuk eklenmedi'**
+  String get uiHenuzCocukEklenmedi;
+
+  /// No description provided for @uiCocugunuEkleAdimAdim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Çocuğunu ekle, adım adım namaz öğrenmesini takip et. 9 basit adım.'**
+  String get uiCocugunuEkleAdimAdim;
+
+  /// No description provided for @uiSabahNamaziniKil.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sabah namazını kıl'**
+  String get uiSabahNamaziniKil;
+
+  /// No description provided for @uiOgleNamaziniKil.
+  ///
+  /// In tr, this message translates to:
+  /// **'Öğle namazını kıl'**
+  String get uiOgleNamaziniKil;
+
+  /// No description provided for @uiIkindiNamaziniKil.
+  ///
+  /// In tr, this message translates to:
+  /// **'İkindi namazını kıl'**
+  String get uiIkindiNamaziniKil;
+
+  /// No description provided for @uiAksamNamaziniKil.
+  ///
+  /// In tr, this message translates to:
+  /// **'Akşam namazını kıl'**
+  String get uiAksamNamaziniKil;
+
+  /// No description provided for @uiYatsiNamaziniKil.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yatsı namazını kıl'**
+  String get uiYatsiNamaziniKil;
+
+  /// No description provided for @uiGunlukKurAnOkumasi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günlük Kur\'an okuması yap'**
+  String get uiGunlukKurAnOkumasi;
+
+  /// No description provided for @uiYeniHedefEkle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeni Hedef Ekle'**
+  String get uiYeniHedefEkle;
+
+  /// No description provided for @uiOrn10SayfaKitap.
+  ///
+  /// In tr, this message translates to:
+  /// **'Örn: 10 sayfa kitap oku'**
+  String get uiOrn10SayfaKitap;
+
+  /// No description provided for @uiBugunkuManevYolculugun.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugünkü manevî yolculuğun'**
+  String get uiBugunkuManevYolculugun;
+
+  /// No description provided for @uiBugununHedefleri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugünün Hedefleri'**
+  String get uiBugununHedefleri;
+
+  /// No description provided for @uiSukurNotunuzBasariylaKaydedildi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Şükür notunuz başarıyla kaydedildi.'**
+  String get uiSukurNotunuzBasariylaKaydedildi;
+
+  /// No description provided for @ui365GunlukSukurRehberi.
+  ///
+  /// In tr, this message translates to:
+  /// **'365 Günlük Şükür Rehberi'**
+  String get ui365GunlukSukurRehberi;
+
+  /// No description provided for @uiOneriVeyaKaynakAra.
+  ///
+  /// In tr, this message translates to:
+  /// **'Öneri veya kaynak ara...'**
+  String get uiOneriVeyaKaynakAra;
+
+  /// No description provided for @uiGununManeviOnerisi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Manevi Önerisi'**
+  String get uiGununManeviOnerisi;
+
+  /// No description provided for @uiBunuYaz.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bunu Yaz'**
+  String get uiBunuYaz;
+
+  /// No description provided for @uiBugunNeIcinSukrediyorsun.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugün ne için şükrediyorsun?'**
+  String get uiBugunNeIcinSukrediyorsun;
+
+  /// No description provided for @uiSectiginOneriyiBurayaDokebilir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Seçtiğin öneriyi buraya dökebilir veya kendi cümlelerini yazabilirsin...'**
+  String get uiSectiginOneriyiBurayaDokebilir;
+
+  /// No description provided for @uiSukruKaydet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Şükrü Kaydet'**
+  String get uiSukruKaydet;
+
+  /// No description provided for @uiGecmisSukurlerin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Geçmiş Şükürlerin'**
+  String get uiGecmisSukurlerin;
+
+  /// No description provided for @uiHenuzBirSukurNotu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz bir şükür notu yazmadın.\nİlk notunu oluşturmak için yukarıdaki alanı kullanabilirsin.'**
+  String get uiHenuzBirSukurNotu;
+
+  /// No description provided for @uiNotuSil.
+  ///
+  /// In tr, this message translates to:
+  /// **'Notu Sil'**
+  String get uiNotuSil;
+
+  /// No description provided for @uiBuSukurNotunuSilmek.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu şükür notunu silmek istediğinize emin misiniz?'**
+  String get uiBuSukurNotunuSilmek;
+
+  /// No description provided for @uiKisiselManeviPusula.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kişisel Manevi Pusula'**
+  String get uiKisiselManeviPusula;
+
+  /// No description provided for @uiBirNimetIcinSukret.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bir nimet için şükret ve kaydet'**
+  String get uiBirNimetIcinSukret;
+
+  /// No description provided for @uiOkumaPlanim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Okuma Planım'**
+  String get uiOkumaPlanim;
+
+  /// No description provided for @uiKucukAdimlarDuzenliBir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Küçük adımlar, düzenli bir gelişim'**
+  String get uiKucukAdimlarDuzenliBir;
+
+  /// No description provided for @uiHaftalikIlerleme.
+  ///
+  /// In tr, this message translates to:
+  /// **'Haftalık İlerleme'**
+  String get uiHaftalikIlerleme;
+
+  /// No description provided for @uiIlerlemeniGoruntule.
+  ///
+  /// In tr, this message translates to:
+  /// **'İlerlemeni görüntüle'**
+  String get uiIlerlemeniGoruntule;
+
+  /// No description provided for @uiYeniOkumaPlaniEkle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeni Okuma Planı Ekle'**
+  String get uiYeniOkumaPlaniEkle;
+
+  /// No description provided for @uiToplamSayfaSayisi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Toplam Sayfa Sayısı'**
+  String get uiToplamSayfaSayisi;
+
+  /// No description provided for @uiKitapTuru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kitap Türü'**
+  String get uiKitapTuru;
+
+  /// No description provided for @uiKaldiginYerOnemliBir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaldığın yer, önemli bir cümle veya çıkarım...'**
+  String get uiKaldiginYerOnemliBir;
+
+  /// No description provided for @uiHenuzBirOkumaPlanin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz bir okuma planın yok.'**
+  String get uiHenuzBirOkumaPlanin;
+
+  /// No description provided for @uiKucukAdimlarDuzenliBir2.
+  ///
+  /// In tr, this message translates to:
+  /// **'Küçük adımlar, düzenli bir gelişim getirir.'**
+  String get uiKucukAdimlarDuzenliBir2;
+
+  /// No description provided for @uiIlkKitabiniEkle.
+  ///
+  /// In tr, this message translates to:
+  /// **'İlk Kitabını Ekle'**
+  String get uiIlkKitabiniEkle;
+
+  /// No description provided for @ui5Sayfa.
+  ///
+  /// In tr, this message translates to:
+  /// **'-5 Sayfa'**
+  String get ui5Sayfa;
+
+  /// No description provided for @ui10Sayfa.
+  ///
+  /// In tr, this message translates to:
+  /// **'+10 Sayfa'**
+  String get ui10Sayfa;
+
+  /// No description provided for @uiYeniKitap.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeni Kitap'**
+  String get uiYeniKitap;
+
+  /// No description provided for @uiManeviYolculukOzetin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Manevi Yolculuk Özetin'**
+  String get uiManeviYolculukOzetin;
+
+  /// No description provided for @uiKucukAdimlarDuzenliBir3.
+  ///
+  /// In tr, this message translates to:
+  /// **'Küçük adımlar, düzenli bir gelişim.'**
+  String get uiKucukAdimlarDuzenliBir3;
+
+  /// No description provided for @uiBuHaftaninVerileri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu Haftanın Verileri'**
+  String get uiBuHaftaninVerileri;
+
+  /// No description provided for @uiDevamEt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Devam Et!'**
+  String get uiDevamEt;
+
+  /// No description provided for @uiHarikaGidiyorsun.
+  ///
+  /// In tr, this message translates to:
+  /// **'Harika gidiyorsun'**
+  String get uiHarikaGidiyorsun;
+
+  /// No description provided for @uiVerilerinizDigerModullerdekiHedefler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Verileriniz diğer modüllerdeki (Hedefler, Şükür, Okuma) gerçek kayıtlarınızdan anlık olarak hesaplanmaktadır.'**
+  String get uiVerilerinizDigerModullerdekiHedefler;
+
+  /// No description provided for @uiSesliEzberKontrolu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sesli Ezber Kontrolü'**
+  String get uiSesliEzberKontrolu;
+
+  /// No description provided for @uiEzberiniTestEt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ezberini Test Et'**
+  String get uiEzberiniTestEt;
+
+  /// No description provided for @uiSureyiSesliOkuEslesme.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sureyi sesli oku, eşleşme oranını gör.'**
+  String get uiSureyiSesliOkuEslesme;
+
+  /// No description provided for @uiKarsilastir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Karşılaştır'**
+  String get uiKarsilastir;
+
+  /// No description provided for @uiDuyulanMetin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Duyulan Metin'**
+  String get uiDuyulanMetin;
+
+  /// No description provided for @uiBuKarsilastirmaSesTanima.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu karşılaştırma ses tanıma temellidir, kesin değildir. Kaynağından tekrar okuyarak doğrula.'**
+  String get uiBuKarsilastirmaSesTanima;
+
+  /// No description provided for @uiEzberiniSaglamlastirmakIcinGunde.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ezberini sağlamlaştırmak için günde 3-5 kez, yavaş ve tane tane oku.'**
+  String get uiEzberiniSaglamlastirmakIcinGunde;
+
+  /// No description provided for @uiHicriYasamCizgisi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hicrî Yaşam Çizgisi'**
+  String get uiHicriYasamCizgisi;
+
+  /// No description provided for @uiDogumTarihiniGir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğum Tarihini Gir'**
+  String get uiDogumTarihiniGir;
+
+  /// No description provided for @uiHicriTakvimdeKacGun.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hicrî takvimde kaç gün, kaç Ramazan, kaç cuma yaşadığını göreceksin.'**
+  String get uiHicriTakvimdeKacGun;
+
+  /// No description provided for @uiTarihSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tarih Seç'**
+  String get uiTarihSec;
+
+  /// No description provided for @uiYasamCizgin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yaşam Çizgin'**
+  String get uiYasamCizgin;
+
+  /// No description provided for @uiDegistir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Değiştir'**
+  String get uiDegistir;
+
+  /// No description provided for @uiPeygamberimizinSAV.
+  ///
+  /// In tr, this message translates to:
+  /// **'PEYGAMBERİMİZİN (S.A.V.) SÜNNETİ'**
+  String get uiPeygamberimizinSAV;
+
+  /// No description provided for @uiHadisISerif.
+  ///
+  /// In tr, this message translates to:
+  /// **'HADİS-İ ŞERİF'**
+  String get uiHadisISerif;
+
+  /// No description provided for @uiNamazMumininNMiracidir.
+  ///
+  /// In tr, this message translates to:
+  /// **'\"Namaz, müminin\n   miracıdır.\"'**
+  String get uiNamazMumininNMiracidir;
+
+  /// No description provided for @uiTirmiziSalat1.
+  ///
+  /// In tr, this message translates to:
+  /// **'(Tirmizî, Salât, 1)'**
+  String get uiTirmiziSalat1;
+
+  /// No description provided for @uiKisaTefsir.
+  ///
+  /// In tr, this message translates to:
+  /// **'KISA TEFSİR'**
+  String get uiKisaTefsir;
+
+  /// No description provided for @uiIcerikHavuzu.
+  ///
+  /// In tr, this message translates to:
+  /// **'İçerik havuzu'**
+  String get uiIcerikHavuzu;
+
+  /// No description provided for @uiFavorilerim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favorilerim'**
+  String get uiFavorilerim;
+
+  /// No description provided for @uiGununKissasi.
+  ///
+  /// In tr, this message translates to:
+  /// **'GÜNÜN KISSASI'**
+  String get uiGununKissasi;
+
+  /// No description provided for @uiHerKissadaBirHikmet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Her kıssada bir hikmet'**
+  String get uiHerKissadaBirHikmet;
+
+  /// No description provided for @uiKissadanHisse.
+  ///
+  /// In tr, this message translates to:
+  /// **'KISSADAN HİSSE'**
+  String get uiKissadanHisse;
+
+  /// No description provided for @uiGecmisinHadisesindenBugununIman.
+  ///
+  /// In tr, this message translates to:
+  /// **'Geçmişin hadisesinden bugünün imanî derslerine...'**
+  String get uiGecmisinHadisesindenBugununIman;
+
+  /// No description provided for @uiNamazVakitleriYukleniyor.
+  ///
+  /// In tr, this message translates to:
+  /// **'Namaz vakitleri yükleniyor...'**
+  String get uiNamazVakitleriYukleniyor;
+
+  /// No description provided for @uiRisaleINur.
+  ///
+  /// In tr, this message translates to:
+  /// **'RİSALE-İ NUR'**
+  String get uiRisaleINur;
+
+  /// No description provided for @uiRisaleINurDan.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur’dan ilhamla'**
+  String get uiRisaleINurDan;
+
+  /// No description provided for @ui5DkOkuma.
+  ///
+  /// In tr, this message translates to:
+  /// **'5 dk okuma'**
+  String get ui5DkOkuma;
+
+  /// No description provided for @uiGununImanKufurMuv.
+  ///
+  /// In tr, this message translates to:
+  /// **'GÜNÜN İMAN-KÜFÜR MUVÂZENESİ'**
+  String get uiGununImanKufurMuv;
+
+  /// No description provided for @uiYolculukSeviyesi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yolculuk Seviyesi'**
+  String get uiYolculukSeviyesi;
+
+  /// No description provided for @uiSon30Gun.
+  ///
+  /// In tr, this message translates to:
+  /// **'Son 30 Gün'**
+  String get uiSon30Gun;
+
+  /// No description provided for @uiSonrakiHedef.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonraki Hedef'**
+  String get uiSonrakiHedef;
+
+  /// No description provided for @uiYillikIsiHaritasi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yıllık Isı Haritası'**
+  String get uiYillikIsiHaritasi;
+
+  /// No description provided for @uiHerKareBirGunu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Her kare bir günü gösterir. Koyu kare = o gün daha çok vakit kaydedildi.'**
+  String get uiHerKareBirGunu;
+
+  /// No description provided for @uiKandilOzelGunler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kandil & Özel Günler'**
+  String get uiKandilOzelGunler;
+
+  /// No description provided for @uiYaklasanGunler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yaklaşan Günler'**
+  String get uiYaklasanGunler;
+
+  /// No description provided for @uiHusuKaydiEklendi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Huşu kaydı eklendi'**
+  String get uiHusuKaydiEklendi;
+
+  /// No description provided for @uiKalpHuzuru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kalp Huzuru'**
+  String get uiKalpHuzuru;
+
+  /// No description provided for @uiNamazdaKalbinNeredeydiYargilamadan.
+  ///
+  /// In tr, this message translates to:
+  /// **'Namazda kalbin neredeydi? Yargılamadan fark et.'**
+  String get uiNamazdaKalbinNeredeydiYargilamadan;
+
+  /// No description provided for @uiBuNamazdaHusuSeviyen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu namazda huşu seviyen?'**
+  String get uiBuNamazdaHusuSeviyen;
+
+  /// No description provided for @ui1Daginik5Derin.
+  ///
+  /// In tr, this message translates to:
+  /// **'1 = dağınık, 5 = derin'**
+  String get ui1Daginik5Derin;
+
+  /// No description provided for @uiHaftalikHusu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Haftalık Huşu'**
+  String get uiHaftalikHusu;
+
+  /// No description provided for @uiSon7GundeOrtalama.
+  ///
+  /// In tr, this message translates to:
+  /// **'Son 7 günde ortalama huşu seviyen'**
+  String get uiSon7GundeOrtalama;
+
+  /// No description provided for @uiHusuDagilimi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Huşu Dağılımı'**
+  String get uiHusuDagilimi;
+
+  /// No description provided for @uiHenuzKayitYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz kayıt yok'**
+  String get uiHenuzKayitYok;
+
+  /// No description provided for @uiHusuPuaniKisiselFarkindalik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Huşu puanı kişisel farkındalık içindir. Namazın kabulü Allah\'a aittir; düşük puan utanç değil, gelişim fırsatıdır.'**
+  String get uiHusuPuaniKisiselFarkindalik;
+
+  /// No description provided for @uiKissaKutuphanesi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kıssa Kütüphanesi'**
+  String get uiKissaKutuphanesi;
+
+  /// No description provided for @uiKissaKonuVeyaKaynak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kıssa, konu veya kaynak ara...'**
+  String get uiKissaKonuVeyaKaynak;
+
+  /// No description provided for @uiAramanizlaEslesenKissaBulunamadi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Aramanızla eşleşen kıssa bulunamadı.'**
+  String get uiAramanizlaEslesenKissaBulunamadi;
+
+  /// No description provided for @uiKissaVeHikmet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kıssa ve Hikmet'**
+  String get uiKissaVeHikmet;
+
+  /// No description provided for @uiHikYeninAkisi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hikâyenin akışı'**
+  String get uiHikYeninAkisi;
+
+  /// No description provided for @uiKonular.
+  ///
+  /// In tr, this message translates to:
+  /// **'Konular'**
+  String get uiKonular;
+
+  /// No description provided for @uiZamanimizaBakanYonu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Zamanımıza Bakan Yönü'**
+  String get uiZamanimizaBakanYonu;
+
+  /// No description provided for @uiKissaninZamanimizaBakanYonu.
+  ///
+  /// In tr, this message translates to:
+  /// **'KISSANIN ZAMANIMIZA BAKAN YÖNÜ'**
+  String get uiKissaninZamanimizaBakanYonu;
+
+  /// No description provided for @uiKendimizeSoralim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kendimize soralım'**
+  String get uiKendimizeSoralim;
+
+  /// No description provided for @uiKissayiGorselOlarakPaylas.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kıssayı görsel olarak paylaş'**
+  String get uiKissayiGorselOlarakPaylas;
+
+  /// No description provided for @uiGorselleriGaleriyeKaydet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Görselleri galeriye kaydet'**
+  String get uiGorselleriGaleriyeKaydet;
+
+  /// No description provided for @uiIcerikYuklenemedi.
+  ///
+  /// In tr, this message translates to:
+  /// **'İçerik yüklenemedi'**
+  String get uiIcerikYuklenemedi;
+
+  /// No description provided for @uiNamaziOgreniyorum.
+  ///
+  /// In tr, this message translates to:
+  /// **'Namazı Öğreniyorum'**
+  String get uiNamaziOgreniyorum;
+
+  /// No description provided for @uiAdimAdimRehberKaynakli.
+  ///
+  /// In tr, this message translates to:
+  /// **'Adım adım rehber, kaynaklı içerik'**
+  String get uiAdimAdimRehberKaynakli;
+
+  /// No description provided for @uiRuhHaliIcerigiEklenmemis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ruh hâli içeriği eklenmemiş.'**
+  String get uiRuhHaliIcerigiEklenmemis;
+
+  /// No description provided for @uiSuAnNasilHissediyorsun.
+  ///
+  /// In tr, this message translates to:
+  /// **'Şu an nasıl hissediyorsun?'**
+  String get uiSuAnNasilHissediyorsun;
+
+  /// No description provided for @uiSanaUygunAyetHadis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sana uygun ayet, hadis ve dua önerelim.'**
+  String get uiSanaUygunAyetHadis;
+
+  /// No description provided for @uiRuhHalineGore.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ruh Hâline Göre'**
+  String get uiRuhHalineGore;
+
+  /// No description provided for @uiKalbinNeSoyluyorsaOna.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kalbin ne söylüyorsa, ona uygun rehberlik.'**
+  String get uiKalbinNeSoyluyorsaOna;
+
+  /// No description provided for @uiBaskaRuhHali.
+  ///
+  /// In tr, this message translates to:
+  /// **'Başka ruh hâli'**
+  String get uiBaskaRuhHali;
+
+  /// No description provided for @uiBuOnerilerKisiselRehberlik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu öneriler kişisel rehberlik amaçlıdır. Dinî hüküm gerektiren konularda ehil bir âlime danışınız.'**
+  String get uiBuOnerilerKisiselRehberlik;
+
+  /// No description provided for @uiBildirimVeHatirlatmaMerkezi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bildirim ve hatırlatma merkezi'**
+  String get uiBildirimVeHatirlatmaMerkezi;
+
+  /// No description provided for @uiUygulamaBildirimleri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Uygulama bildirimleri'**
+  String get uiUygulamaBildirimleri;
+
+  /// No description provided for @uiTamEzan.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tam ezan'**
+  String get uiTamEzan;
+
+  /// No description provided for @uiTamEzanSesDosyasi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tam ezan ses dosyası ve Android ses oynatma yapılandırması gerekir.'**
+  String get uiTamEzanSesDosyasi;
+
+  /// No description provided for @uiKisaBildirimTonu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kısa bildirim tonu'**
+  String get uiKisaBildirimTonu;
+
+  /// No description provided for @uiCihazinBildirimSesiKullanilabilir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Cihazın bildirim sesi kullanılabilir; gerçek ses davranışı Android kanalına bağlıdır.'**
+  String get uiCihazinBildirimSesiKullanilabilir;
+
+  /// No description provided for @uiBuSecimSuAnda.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu seçim şu anda kaydedilir. Tam ezanın gerçekten çalması için ses dosyası ve ayrı Android ses kanalı ayrıca bağlanmalıdır.'**
+  String get uiBuSecimSuAnda;
+
+  /// No description provided for @uiDuaVeZikir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dua ve zikir'**
+  String get uiDuaVeZikir;
+
+  /// No description provided for @uiGunlukManeviHatirlatma.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günlük manevi hatırlatma'**
+  String get uiGunlukManeviHatirlatma;
+
+  /// No description provided for @uiKurAnOkuma.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kur’an okuma'**
+  String get uiKurAnOkuma;
+
+  /// No description provided for @uiGunlukOkumaVakti.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günlük okuma vakti'**
+  String get uiGunlukOkumaVakti;
+
+  /// No description provided for @uiHatirlatmalarinCalismasiIcinUstteki.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hatırlatmaların çalışması için üstteki uygulama bildirimleri açık olmalıdır.'**
+  String get uiHatirlatmalarinCalismasiIcinUstteki;
+
+  /// No description provided for @uiTestBildirimi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Test bildirimi'**
+  String get uiTestBildirimi;
+
+  /// No description provided for @uiBildirimIzniniVeTemel.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bildirim iznini ve temel bildirimi kontrol edin.'**
+  String get uiBildirimIzniniVeTemel;
+
+  /// No description provided for @uiDene.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dene'**
+  String get uiDene;
+
+  /// No description provided for @uiBilmenizGerekenler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bilmeniz gerekenler'**
+  String get uiBilmenizGerekenler;
+
+  /// No description provided for @uiTumunuSil.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tümünü sil'**
+  String get uiTumunuSil;
+
+  /// No description provided for @uiHenuzFavoriEklenmedi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz favori eklenmedi'**
+  String get uiHenuzFavoriEklenmedi;
+
+  /// No description provided for @uiKartlardakiIkonunaDokunarakNicerikleri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kartlardaki  📌  ikonuna dokunarak\niçerikleri buraya kaydedebilirsin.'**
+  String get uiKartlardakiIkonunaDokunarakNicerikleri;
+
+  /// No description provided for @uiSonucBulunamadi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonuç bulunamadı.'**
+  String get uiSonucBulunamadi;
+
+  /// No description provided for @uiFavorilerdeAra.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favorilerde ara...'**
+  String get uiFavorilerdeAra;
+
+  /// No description provided for @uiKaydetmekIcin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydetmek için 📌'**
+  String get uiKaydetmekIcin;
+
+  /// No description provided for @uiFavoridenCikar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favoriden çıkar'**
+  String get uiFavoridenCikar;
+
+  /// No description provided for @uiFavoridenCikarildi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favoriden çıkarıldı'**
+  String get uiFavoridenCikarildi;
+
+  /// No description provided for @uiTumFavorilerSilinsinMi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tüm favoriler silinsin mi?'**
+  String get uiTumFavorilerSilinsinMi;
+
+  /// No description provided for @uiTumFavorilerSilindi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tüm favoriler silindi'**
+  String get uiTumFavorilerSilindi;
+
+  /// No description provided for @uiKiblePusulasi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kıble Pusulası'**
+  String get uiKiblePusulasi;
+
+  /// No description provided for @uiHarita.
+  ///
+  /// In tr, this message translates to:
+  /// **'Harita'**
+  String get uiHarita;
+
+  /// No description provided for @uiKBe.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kâbe'**
+  String get uiKBe;
+
+  /// No description provided for @uiKirmiziCizgiKonumunuzIle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kırmızı çizgi konumunuz ile Kâbe arasındaki yönü gösterir.'**
+  String get uiKirmiziCizgiKonumunuzIle;
+
+  /// No description provided for @uiKonumum.
+  ///
+  /// In tr, this message translates to:
+  /// **'Konumum'**
+  String get uiKonumum;
+
+  /// No description provided for @uiSehirSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Şehir seç'**
+  String get uiSehirSec;
+
+  /// No description provided for @uiPusulaSensoruBulunamadi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Pusula sensörü bulunamadı'**
+  String get uiPusulaSensoruBulunamadi;
+
+  /// No description provided for @uiYaziBoyutu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yazı boyutu'**
+  String get uiYaziBoyutu;
+
+  /// No description provided for @uiKucult.
+  ///
+  /// In tr, this message translates to:
+  /// **'Küçült'**
+  String get uiKucult;
+
+  /// No description provided for @uiBuyut.
+  ///
+  /// In tr, this message translates to:
+  /// **'Büyüt'**
+  String get uiBuyut;
+
+  /// No description provided for @uiArapca.
+  ///
+  /// In tr, this message translates to:
+  /// **'ARAPÇA'**
+  String get uiArapca;
+
+  /// No description provided for @uiOkunus.
+  ///
+  /// In tr, this message translates to:
+  /// **'OKUNUŞ'**
+  String get uiOkunus;
+
+  /// No description provided for @uiMeal.
+  ///
+  /// In tr, this message translates to:
+  /// **'MEAL'**
+  String get uiMeal;
+
+  /// No description provided for @uiTekrarDene.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tekrar Dene'**
+  String get uiTekrarDene;
+
+  /// No description provided for @uiKuraniKerim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kur\'ân-ı Kerîm'**
+  String get uiKuraniKerim;
+
+  /// No description provided for @uiKurAnKutuphanesi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kur\'an Kütüphanesi'**
+  String get uiKurAnKutuphanesi;
+
+  /// No description provided for @uiTamKurAnI.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tam Kur\'ân-ı Kerîm'**
+  String get uiTamKurAnI;
+
+  /// No description provided for @ui114SureArapcaDiyanet.
+  ///
+  /// In tr, this message translates to:
+  /// **'114 sure - Arapça + Diyanet Meali'**
+  String get ui114SureArapcaDiyanet;
+
+  /// No description provided for @uiKurAnIKerim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kur\'an-ı Kerim'**
+  String get uiKurAnIKerim;
+
+  /// No description provided for @uiKisaSurelerArapcaOkunus.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kısa sureler · Arapça · Okunuş · Meal'**
+  String get uiKisaSurelerArapcaOkunus;
+
+  /// No description provided for @uiWidgetFotografiGuncellendi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Widget fotoğrafı güncellendi.'**
+  String get uiWidgetFotografiGuncellendi;
+
+  /// No description provided for @uiVarsayilanArkaPlanaDonuldu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Varsayılan arka plana dönüldü.'**
+  String get uiVarsayilanArkaPlanaDonuldu;
+
+  /// No description provided for @uiFotografOnizlemesiAcilamadi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Fotoğraf önizlemesi açılamadı'**
+  String get uiFotografOnizlemesiAcilamadi;
+
+  /// No description provided for @uiGaleridenFotografSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Galeriden fotoğraf seç'**
+  String get uiGaleridenFotografSec;
+
+  /// No description provided for @uiVarsayilanArkaPlanaDon.
+  ///
+  /// In tr, this message translates to:
+  /// **'Varsayılan arka plana dön'**
+  String get uiVarsayilanArkaPlanaDon;
+
+  /// No description provided for @uiArapAVeOsmanl.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arapça ve Osmanlıca metinler için yazı stili'**
+  String get uiArapAVeOsmanl;
+
+  /// No description provided for @uiNZleme.
+  ///
+  /// In tr, this message translates to:
+  /// **'ÖNİZLEME'**
+  String get uiNZleme;
+
+  /// No description provided for @uiRahmNVeRah.
+  ///
+  /// In tr, this message translates to:
+  /// **'Rahmân ve Rahîm olan Allah\'ın adıyla'**
+  String get uiRahmNVeRah;
+
+  /// No description provided for @uiIndir.
+  ///
+  /// In tr, this message translates to:
+  /// **'İndir'**
+  String get uiIndir;
+
+  /// No description provided for @ui365GunlukKayitlarSilinemez.
+  ///
+  /// In tr, this message translates to:
+  /// **'365 günlük kayıtlar silinemez; yalnızca düzenlenebilir.'**
+  String get ui365GunlukKayitlarSilinemez;
+
+  /// No description provided for @uiKartGoruntusuAlinamadi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kart görüntüsü alınamadı.'**
+  String get uiKartGoruntusuAlinamadi;
+
+  /// No description provided for @uiGaleriyeKaydedildi.
+  ///
+  /// In tr, this message translates to:
+  /// **'📥 Galeriye kaydedildi'**
+  String get uiGaleriyeKaydedildi;
+
+  /// No description provided for @uiAdminModuAktif.
+  ///
+  /// In tr, this message translates to:
+  /// **'ADMİN MODU AKTİF'**
+  String get uiAdminModuAktif;
+
+  /// No description provided for @uiKartlarinSagUstundekiKalem.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kartların sağ üstündeki kalem ikonundan düzenleyebilirsiniz'**
+  String get uiKartlarinSagUstundekiKalem;
+
+  /// No description provided for @uiAdminModundanCik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Admin modundan çık?'**
+  String get uiAdminModundanCik;
+
+  /// No description provided for @uiDuzenlemeButonlariGizlenecek.
+  ///
+  /// In tr, this message translates to:
+  /// **'Düzenleme butonları gizlenecek.'**
+  String get uiDuzenlemeButonlariGizlenecek;
+
+  /// No description provided for @uiCikis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Çıkış'**
+  String get uiCikis;
+
+  /// No description provided for @uiCikis2.
+  ///
+  /// In tr, this message translates to:
+  /// **'ÇIKIŞ'**
+  String get uiCikis2;
+
+  /// No description provided for @uiKonumSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Konum Seç'**
+  String get uiKonumSec;
+
+  /// No description provided for @uiGpsIleKonumBul.
+  ///
+  /// In tr, this message translates to:
+  /// **'GPS ile Konum Bul'**
+  String get uiGpsIleKonumBul;
+
+  /// No description provided for @uiManuelSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Manuel Seç'**
+  String get uiManuelSec;
+
+  /// No description provided for @uiIlAra.
+  ///
+  /// In tr, this message translates to:
+  /// **'İl ara...'**
+  String get uiIlAra;
+
+  /// No description provided for @uiIlceAra.
+  ///
+  /// In tr, this message translates to:
+  /// **'İlçe ara...'**
+  String get uiIlceAra;
+
+  /// No description provided for @uiFKaliciOlarakSilinecek.
+  ///
+  /// In tr, this message translates to:
+  /// **'\"{a0}\" kalıcı olarak silinecek.'**
+  String uiFKaliciOlarakSilinecek(Object a0);
+
+  /// No description provided for @uiFOneri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Öneri #{a0}'**
+  String uiFOneri(Object a0);
+
+  /// No description provided for @uiFYayinlanacakIcerikYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayınlanacak içerik yok ({a0}).'**
+  String uiFYayinlanacakIcerikYok(Object a0);
+
+  /// No description provided for @uiFYayinla.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} yayınla?'**
+  String uiFYayinla(Object a0);
+
+  /// No description provided for @uiFIcerikYayinlanacakVeAna.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} içerik yayınlanacak ve ana sayfada görünecek.'**
+  String uiFIcerikYayinlanacakVeAna(Object a0);
+
+  /// No description provided for @uiFIcerikYayinlandi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} içerik yayınlandı'**
+  String uiFIcerikYayinlandi(Object a0);
+
+  /// No description provided for @uiFIcerikKaliciOlarakSilinecek.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} içerik kalıcı olarak silinecek. Geri alınamaz!'**
+  String uiFIcerikKaliciOlarakSilinecek(Object a0);
+
+  /// No description provided for @uiFIcerikSilindi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} içerik silindi'**
+  String uiFIcerikSilindi(Object a0);
+
+  /// No description provided for @uiFYedekPanoyaKopyalandiKb.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yedek panoya kopyalandı ({a0} KB).'**
+  String uiFYedekPanoyaKopyalandiKb(Object a0);
+
+  /// No description provided for @uiFHata.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hata: {a0}'**
+  String uiFHata(Object a0);
+
+  /// No description provided for @uiFOgeEdildi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} öğe {a1} edildi'**
+  String uiFOgeEdildi(Object a0, Object a1);
+
+  /// No description provided for @uiFGecersizJson.
+  ///
+  /// In tr, this message translates to:
+  /// **'Geçersiz JSON: {a0}'**
+  String uiFGecersizJson(Object a0);
+
+  /// No description provided for @uiFSilinecek.
+  ///
+  /// In tr, this message translates to:
+  /// **'\"{a0}\" silinecek.'**
+  String uiFSilinecek(Object a0);
+
+  /// No description provided for @uiFIcinSonucBulunamadi.
+  ///
+  /// In tr, this message translates to:
+  /// **'\"{a0}\" için sonuç bulunamadı'**
+  String uiFIcinSonucBulunamadi(Object a0);
+
+  /// No description provided for @uiFSonucBulundu.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} sonuç bulundu'**
+  String uiFSonucBulundu(Object a0);
+
+  /// No description provided for @uiFPuan.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} puan'**
+  String uiFPuan(Object a0);
+
+  /// No description provided for @uiFZikriniSilmekIstediginizeEmin.
+  ///
+  /// In tr, this message translates to:
+  /// **'\"{a0}\" zikrini silmek istediğinize emin misiniz?'**
+  String uiFZikriniSilmekIstediginizeEmin(Object a0);
+
+  /// No description provided for @uiFAdet.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} adet'**
+  String uiFAdet(Object a0);
+
+  /// No description provided for @uiFAdiminiTamamladi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} {a1} \"{a2}\" adımını tamamladı!'**
+  String uiFAdiminiTamamladi(Object a0, Object a1, Object a2);
+
+  /// No description provided for @uiFAdimTamamlandi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} / {a1} adım tamamlandı'**
+  String uiFAdimTamamlandi(Object a0, Object a1);
+
+  /// No description provided for @uiFSilinsinMi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} silinsin mi?'**
+  String uiFSilinsinMi(Object a0);
+
+  /// No description provided for @uiFYas.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} yaş'**
+  String uiFYas(Object a0);
+
+  /// No description provided for @uiFTamamlandi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} / {a1} Tamamlandı'**
+  String uiFTamamlandi(Object a0, Object a1);
+
+  /// No description provided for @uiFNotlar.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} - Notlar'**
+  String uiFNotlar(Object a0);
+
+  /// No description provided for @uiFSayfa.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} / {a1} Sayfa'**
+  String uiFSayfa(Object a0, Object a1);
+
+  /// No description provided for @uiFSonOkuma.
+  ///
+  /// In tr, this message translates to:
+  /// **'Son okuma: {a0}.{a1}.{a2}'**
+  String uiFSonOkuma(Object a0, Object a1, Object a2);
+
+  /// No description provided for @uiFHedefKelimeler.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} · Hedef Kelimeler'**
+  String uiFHedefKelimeler(Object a0);
+
+  /// No description provided for @uiFKelime.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} kelime'**
+  String uiFKelime(Object a0);
+
+  /// No description provided for @uiFTahminiRamazanDahaYasayabilirsin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tahminen {a0} Ramazan daha yaşayabilirsin (75 yaş varsayımı).'**
+  String uiFTahminiRamazanDahaYasayabilirsin(Object a0);
+
+  /// No description provided for @uiFVakitleriYukleniyor.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} vakitleri yükleniyor...'**
+  String uiFVakitleriYukleniyor(Object a0);
+
+  /// No description provided for @uiFNamazi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} Namazı'**
+  String uiFNamazi(Object a0);
+
+  /// No description provided for @uiFKaldi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} kaldı'**
+  String uiFKaldi(Object a0);
+
+  /// No description provided for @uiFKaynak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaynak: {a0}'**
+  String uiFKaynak(Object a0);
+
+  /// No description provided for @uiFGunes.
+  ///
+  /// In tr, this message translates to:
+  /// **'Güneş {a0}'**
+  String uiFGunes(Object a0);
+
+  /// No description provided for @uiFVakit.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} vakit'**
+  String uiFVakit(Object a0);
+
+  /// No description provided for @uiFSonrakiSeviyeye.
+  ///
+  /// In tr, this message translates to:
+  /// **'%{a0} · Sonraki seviyeye'**
+  String uiFSonrakiSeviyeye(Object a0);
+
+  /// No description provided for @uiFGun.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} gün'**
+  String uiFGun(Object a0);
+
+  /// No description provided for @uiFKissaBulundu.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} kıssa bulundu'**
+  String uiFKissaBulundu(Object a0);
+
+  /// No description provided for @uiFAdim.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} adım'**
+  String uiFAdim(Object a0);
+
+  /// No description provided for @uiFOneri2.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} öneri'**
+  String uiFOneri2(Object a0);
+
+  /// No description provided for @uiFSehir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Şehir: {a0}'**
+  String uiFSehir(Object a0);
+
+  /// No description provided for @uiFSonPlanlama.
+  ///
+  /// In tr, this message translates to:
+  /// **'Son planlama: {a0}'**
+  String uiFSonPlanlama(Object a0);
+
+  /// No description provided for @uiFFavori.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} favori'**
+  String uiFFavori(Object a0);
+
+  /// No description provided for @uiFFavoriKaliciOlarakSilinecek.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} favori kalıcı olarak silinecek.'**
+  String uiFFavoriKaliciOlarakSilinecek(Object a0);
+
+  /// No description provided for @uiFAyet.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} - {a1} ayet'**
+  String uiFAyet(Object a0, Object a1);
+
+  /// No description provided for @uiFAyet2.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} ayet - {a1}'**
+  String uiFAyet2(Object a0, Object a1);
+
+  /// No description provided for @uiFSure.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} sure'**
+  String uiFSure(Object a0);
+
+  /// No description provided for @uiFYet.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} âyet · {a1}'**
+  String uiFYet(Object a0, Object a1);
+
+  /// No description provided for @uiFFotografSecilemedi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Fotoğraf seçilemedi: {a0}'**
+  String uiFFotografSecilemedi(Object a0);
+
+  /// No description provided for @uiFIslemBasarisiz.
+  ///
+  /// In tr, this message translates to:
+  /// **'İşlem başarısız: {a0}'**
+  String uiFIslemBasarisiz(Object a0);
+
+  /// No description provided for @uiFKaliciOlarakSilinecek2.
+  ///
+  /// In tr, this message translates to:
+  /// **'\"{a0}\" kalıcı olarak silinecek.'**
+  String uiFKaliciOlarakSilinecek2(Object a0);
+
+  /// No description provided for @uiFIlceleri.
+  ///
+  /// In tr, this message translates to:
+  /// **'{a0} İlçeleri'**
+  String uiFIlceleri(Object a0);
+
+  /// No description provided for @uiHicriYolculuk.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hicrî Yolculuk'**
+  String get uiHicriYolculuk;
+
+  /// No description provided for @uiMiladiZamaniHicriBakisla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Milâdî zamanı hicrî bakışla gör.'**
+  String get uiMiladiZamaniHicriBakisla;
+
+  /// No description provided for @uiBugunHicri.
+  ///
+  /// In tr, this message translates to:
+  /// **'BUGÜN (HİCRÎ)'**
+  String get uiBugunHicri;
+
+  /// No description provided for @uiOnemliHicriGunler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önemli Hicrî Günler'**
+  String get uiOnemliHicriGunler;
+
+  /// No description provided for @uiHicriTarihlerYaklasikHesaplanir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hicrî tarihler yaklaşık hesaplanır. Resmî kandil ve bayram tarihleri için Diyanet İşleri Başkanlığı takvimini esas alınız.'**
+  String get uiHicriTarihlerYaklasikHesaplanir;
+
+  /// No description provided for @uiAz.
+  ///
+  /// In tr, this message translates to:
+  /// **'Az'**
+  String get uiAz;
+
+  /// No description provided for @uiCok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Çok'**
+  String get uiCok;
+
+  /// No description provided for @uiMubarekGunler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Mübarek Günler'**
+  String get uiMubarekGunler;
+
+  /// No description provided for @uiKandilBayramVeOzel.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kandil, bayram ve özel geceler.'**
+  String get uiKandilBayramVeOzel;
+
+  /// No description provided for @uiSiradaki.
+  ///
+  /// In tr, this message translates to:
+  /// **'SIRADAKİ'**
+  String get uiSiradaki;
+
+  /// No description provided for @uiYaklasanOzelGunBulunamadi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yaklaşan özel gün bulunamadı'**
+  String get uiYaklasanOzelGunBulunamadi;
+
+  /// No description provided for @uiTarihlerYaklasikHesaplanirKesin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tarihler yaklaşık hesaplanır. Kesin tarihler için Diyanet İşleri Başkanlığı takvimini esas alınız.'**
+  String get uiTarihlerYaklasikHesaplanirKesin;
+
+  /// No description provided for @uiMezhebeGoreFarklilikGosteren.
+  ///
+  /// In tr, this message translates to:
+  /// **'Mezhebe göre farklılık gösteren konularda kendi mezhebinizin görüşüne veya güvendiğiniz bir âlime danışınız.'**
+  String get uiMezhebeGoreFarklilikGosteren;
+
+  /// No description provided for @uiKibleAcisiKBe.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kıble açısı, Kâbe koordinatları (21.42°N, 39.83°E) ile konumunuz arasındaki büyük daire hesabıyla bulunur.'**
+  String get uiKibleAcisiKBe;
+
+  /// No description provided for @uiTefekkurHazirlaniyor.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu kıssanın daha geniş tefekkür metni hazırlanıyor. Mevcut kıssadan hisseyi burada okuyabilirsin.'**
+  String get uiTefekkurHazirlaniyor;
+
+  /// No description provided for @uiTefekkurSoru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu kıssanın ışığında bugün hangi davranışımı güzelleştirebilirim?'**
+  String get uiTefekkurSoru;
+
+  /// No description provided for @uiTefekkurNot.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu tefekkür, kıssadan çıkarılan güncel dersleri yorumlar; doğrudan ayet meali değildir.'**
+  String get uiTefekkurNot;
+
+  /// No description provided for @uiPusulaSensorYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu cihazda manyetik pusula sensörü yok veya izin verilmedi.\n\nKıble açısı hesaplandı, ancak cihaz yönü gösterilemiyor.'**
+  String get uiPusulaSensorYok;
+
+  /// No description provided for @uiBildirimNotlari.
+  ///
+  /// In tr, this message translates to:
+  /// **'• Hatırlatma saatleri cihazın yerel saatine göre ayarlanır.\n• Pil tasarrufu bazı telefonlarda bildirimleri geciktirebilir.\n• Android bildirim sesleri kanal ayarlarından etkilenir.\n• Bu ekran tek başına tam ezan sesini etkinleştirmez.'**
+  String get uiBildirimNotlari;
+
+  /// No description provided for @uiKissaHakikatleriKesfet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu kıssanın hayatımıza bakan derin hakikatlerini keşfet'**
+  String get uiKissaHakikatleriKesfet;
+
+  /// No description provided for @uiSayaclarSifirlanacak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Mevcut ilerleme, toplam sayaç ve tamamlanan zincir turları sıfırlanacak. Zikir listeniz korunacaktır.'**
+  String get uiSayaclarSifirlanacak;
+
+  /// No description provided for @uiKissaDevaminiOku.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kıssanın devamını oku'**
+  String get uiKissaDevaminiOku;
+
+  /// No description provided for @duaHazinesiTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dua Hazinesi'**
+  String get duaHazinesiTitle;
+
+  /// No description provided for @duaHazinesiDesc.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kur\'an, sünnet, münacat ve ezber'**
+  String get duaHazinesiDesc;
+
+  /// No description provided for @risaleHakikatleriTitle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur / Hakikat'**
+  String get risaleHakikatleriTitle;
+
+  /// No description provided for @risaleHakikatleriDesc.
+  ///
+  /// In tr, this message translates to:
+  /// **'İman hakikatleri, külliyat, tefekkür ve öğrenme'**
+  String get risaleHakikatleriDesc;
+
+  /// No description provided for @ypBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yönetim Paneli'**
+  String get ypBaslik;
+
+  /// No description provided for @ypBugun.
+  ///
+  /// In tr, this message translates to:
+  /// **'BUGÜN'**
+  String get ypBugun;
+
+  /// No description provided for @ypSeciliTarih.
+  ///
+  /// In tr, this message translates to:
+  /// **'SEÇİLEN TARİH'**
+  String get ypSeciliTarih;
+
+  /// No description provided for @ypGecmis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Geçmiş gün · görüntüle / düzenle'**
+  String get ypGecmis;
+
+  /// No description provided for @ypGelecek.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gelecek gün · planla / taslak'**
+  String get ypGelecek;
+
+  /// No description provided for @ypBugunEtiket.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugün · günlük yönetim'**
+  String get ypBugunEtiket;
+
+  /// No description provided for @ypBugunGit.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugüne Git'**
+  String get ypBugunGit;
+
+  /// No description provided for @ypOncekiGun.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önceki Gün'**
+  String get ypOncekiGun;
+
+  /// No description provided for @ypSonrakiGun.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonraki Gün'**
+  String get ypSonrakiGun;
+
+  /// No description provided for @ypTakvimdenSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tarihe Git'**
+  String get ypTakvimdenSec;
+
+  /// No description provided for @ypAnaSayfa.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ana Sayfa'**
+  String get ypAnaSayfa;
+
+  /// No description provided for @ypYenile.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yenile'**
+  String get ypYenile;
+
+  /// No description provided for @ypCikis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Çıkış Yap'**
+  String get ypCikis;
+
+  /// No description provided for @ypYenilendi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Veriler kaynaktan yeniden yüklendi'**
+  String get ypYenilendi;
+
+  /// No description provided for @ypToplamIcerik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Toplam içerik'**
+  String get ypToplamIcerik;
+
+  /// No description provided for @ypBugunYayinda.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugün planla yayında'**
+  String get ypBugunYayinda;
+
+  /// No description provided for @ypBugunTaslak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugün taslak'**
+  String get ypBugunTaslak;
+
+  /// No description provided for @ypPlanlanan.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gelecek için planlı'**
+  String get ypPlanlanan;
+
+  /// No description provided for @ypTaslakGunler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Taslak bekleyen gün'**
+  String get ypTaslakGunler;
+
+  /// No description provided for @ypSonGuncellenen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Son güncellenen kayıtlar'**
+  String get ypSonGuncellenen;
+
+  /// No description provided for @ypKayitYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz plan kaydı yok'**
+  String get ypKayitYok;
+
+  /// No description provided for @ypGununProgramlari.
+  ///
+  /// In tr, this message translates to:
+  /// **'Seçilen günün programları'**
+  String get ypGununProgramlari;
+
+  /// No description provided for @ypDurumOtomatik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Otomatik (arşiv)'**
+  String get ypDurumOtomatik;
+
+  /// No description provided for @ypDurumTaslak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Taslak'**
+  String get ypDurumTaslak;
+
+  /// No description provided for @ypDurumYayinda.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayımlandı'**
+  String get ypDurumYayinda;
+
+  /// No description provided for @ypDurumPlanli.
+  ///
+  /// In tr, this message translates to:
+  /// **'Planlandı'**
+  String get ypDurumPlanli;
+
+  /// No description provided for @ypDurumArsiv.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arşivlendi'**
+  String get ypDurumArsiv;
+
+  /// No description provided for @ypOtomatikAciklama.
+  ///
+  /// In tr, this message translates to:
+  /// **'Plan yok; bu gün arşiv sırasındaki içerik gösterilir.'**
+  String get ypOtomatikAciklama;
+
+  /// No description provided for @ypSonGuncelleme.
+  ///
+  /// In tr, this message translates to:
+  /// **'Son güncelleme'**
+  String get ypSonGuncelleme;
+
+  /// No description provided for @ypOnizle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önizle'**
+  String get ypOnizle;
+
+  /// No description provided for @ypDuzenle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Düzenle'**
+  String get ypDuzenle;
+
+  /// No description provided for @ypYeniIcerik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeni İçerik'**
+  String get ypYeniIcerik;
+
+  /// No description provided for @ypArsivdenSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arşivden Seç'**
+  String get ypArsivdenSec;
+
+  /// No description provided for @ypYayimla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayımla'**
+  String get ypYayimla;
+
+  /// No description provided for @ypTaslagaAl.
+  ///
+  /// In tr, this message translates to:
+  /// **'Taslağa Al'**
+  String get ypTaslagaAl;
+
+  /// No description provided for @ypArsivle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arşivle'**
+  String get ypArsivle;
+
+  /// No description provided for @ypSil.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sil'**
+  String get ypSil;
+
+  /// No description provided for @ypSilOnay.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu günün kaydı silinsin mi? Gün, otomatik arşiv sırasına döner; diğer günler etkilenmez.'**
+  String get ypSilOnay;
+
+  /// No description provided for @ypVazgec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Vazgeç'**
+  String get ypVazgec;
+
+  /// No description provided for @ypKaydedildi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydedildi'**
+  String get ypKaydedildi;
+
+  /// No description provided for @ypKayitHatasi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydedilemedi; veri değişmedi. Tekrar deneyin.'**
+  String get ypKayitHatasi;
+
+  /// No description provided for @ypDigerModuller.
+  ///
+  /// In tr, this message translates to:
+  /// **'Diğer modüller'**
+  String get ypDigerModuller;
+
+  /// No description provided for @ypModulYonetimi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Modül yönetimi: arşiv, arama, filtre, ekle/sil'**
+  String get ypModulYonetimi;
+
+  /// No description provided for @ypEzanVakitleri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ezan vakitleri konumdan otomatik hesaplanır; içerik kaydı olarak değiştirilmez.'**
+  String get ypEzanVakitleri;
+
+  /// No description provided for @ypAra.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ara'**
+  String get ypAra;
+
+  /// No description provided for @ypYayinTarihi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayın tarihi'**
+  String get ypYayinTarihi;
+
+  /// No description provided for @ypZorunlu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Zorunlu alan'**
+  String get ypZorunlu;
+
+  /// No description provided for @ypTaslakKaydet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Taslak Kaydet'**
+  String get ypTaslakKaydet;
+
+  /// No description provided for @ypMevcutVar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu tarihte bu program için zaten bir kayıt var. Mevcut kaydı düzenlemek ister misiniz?'**
+  String get ypMevcutVar;
+
+  /// No description provided for @ypMevcutuDuzenle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Mevcut Kaydı Düzenle'**
+  String get ypMevcutuDuzenle;
+
+  /// No description provided for @ypUzerineYaz.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bilerek Değiştir'**
+  String get ypUzerineYaz;
+
+  /// No description provided for @ypAyniMetin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu metin şu tarihlerde de kullanılıyor:'**
+  String get ypAyniMetin;
+
+  /// No description provided for @ypAlanBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Başlık'**
+  String get ypAlanBaslik;
+
+  /// No description provided for @ypAlanKaynak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaynak (eser, sure/ayet, hadis kitabı)'**
+  String get ypAlanKaynak;
+
+  /// No description provided for @ypAlanKategori.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kategori'**
+  String get ypAlanKategori;
+
+  /// No description provided for @ypAlanLatin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Latin harfli metin (Osmanlıcanın birebir aktarımı)'**
+  String get ypAlanLatin;
+
+  /// No description provided for @ypAlanOsmanlica.
+  ///
+  /// In tr, this message translates to:
+  /// **'Osmanlıca orijinal metin'**
+  String get ypAlanOsmanlica;
+
+  /// No description provided for @ypAlanArapca.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arapça metin'**
+  String get ypAlanArapca;
+
+  /// No description provided for @ypAlanMeal.
+  ///
+  /// In tr, this message translates to:
+  /// **'Türkçe meal'**
+  String get ypAlanMeal;
+
+  /// No description provided for @ypAlanHadisMetni.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hadis meali'**
+  String get ypAlanHadisMetni;
+
+  /// No description provided for @ypAlanNumara.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hadis numarası / bölüm'**
+  String get ypAlanNumara;
+
+  /// No description provided for @ypAlanOkunus.
+  ///
+  /// In tr, this message translates to:
+  /// **'Okunuş'**
+  String get ypAlanOkunus;
+
+  /// No description provided for @ypAlanAnlam.
+  ///
+  /// In tr, this message translates to:
+  /// **'Türkçe anlam'**
+  String get ypAlanAnlam;
+
+  /// No description provided for @ypAlanMetin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Metin'**
+  String get ypAlanMetin;
+
+  /// No description provided for @ypAlanHakikat.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikat açıklaması'**
+  String get ypAlanHakikat;
+
+  /// No description provided for @ypKissaSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kıssa seçin'**
+  String get ypKissaSec;
+
+  /// No description provided for @ypAyGeri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önceki ay'**
+  String get ypAyGeri;
+
+  /// No description provided for @ypAyIleri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonraki ay'**
+  String get ypAyIleri;
+
+  /// No description provided for @ypProgVecize.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Vecizesi'**
+  String get ypProgVecize;
+
+  /// No description provided for @ypProgAyet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Ayeti'**
+  String get ypProgAyet;
+
+  /// No description provided for @ypProgHadis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Hadisi'**
+  String get ypProgHadis;
+
+  /// No description provided for @ypProgDua.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Duası'**
+  String get ypProgDua;
+
+  /// No description provided for @ypProgKissa.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Kıssası'**
+  String get ypProgKissa;
+
+  /// No description provided for @ypProgRisale.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur / Hakikat'**
+  String get ypProgRisale;
+
+  /// No description provided for @ypGosterilen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kullanıcıya gösterilen'**
+  String get ypGosterilen;
+
+  /// No description provided for @ypIcerikYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'İçerik yok'**
+  String get ypIcerikYok;
+
+  /// No description provided for @ypKaydet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydet'**
+  String get ypKaydet;
+
+  /// No description provided for @hkBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur / Hakikat'**
+  String get hkBaslik;
+
+  /// No description provided for @hkAltBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'İman hakikatlerini öğren, tefekkür et, hayatına taşı'**
+  String get hkAltBaslik;
+
+  /// No description provided for @hkGununHakikati.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Hakikati'**
+  String get hkGununHakikati;
+
+  /// No description provided for @hkDetayliIncele.
+  ///
+  /// In tr, this message translates to:
+  /// **'Detaylı incele'**
+  String get hkDetayliIncele;
+
+  /// No description provided for @hkPaylas.
+  ///
+  /// In tr, this message translates to:
+  /// **'Paylaş'**
+  String get hkPaylas;
+
+  /// No description provided for @hkArsiv.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önceki günler'**
+  String get hkArsiv;
+
+  /// No description provided for @hkArsivBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günün Hakikati Arşivi'**
+  String get hkArsivBaslik;
+
+  /// No description provided for @hkBugun.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugün'**
+  String get hkBugun;
+
+  /// No description provided for @hkKonular.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikat Konuları'**
+  String get hkKonular;
+
+  /// No description provided for @hkKulliyat.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur Külliyatı'**
+  String get hkKulliyat;
+
+  /// No description provided for @hkKulliyatAlt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Eserler, risaleler ve doğrulanmış metinler'**
+  String get hkKulliyatAlt;
+
+  /// No description provided for @hkAra.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ara'**
+  String get hkAra;
+
+  /// No description provided for @hkAraIpucu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Başlık, içerik, kavram, konu veya eser ara'**
+  String get hkAraIpucu;
+
+  /// No description provided for @hkSonucYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonuç bulunamadı'**
+  String get hkSonucYok;
+
+  /// No description provided for @hkHakikatler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikatler'**
+  String get hkHakikatler;
+
+  /// No description provided for @hkRisaleMetinleri.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur metinleri'**
+  String get hkRisaleMetinleri;
+
+  /// No description provided for @hkTumu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tümü'**
+  String get hkTumu;
+
+  /// No description provided for @hkIlerleme.
+  ///
+  /// In tr, this message translates to:
+  /// **'{tamam}/{toplam} hakikat tamamlandı'**
+  String hkIlerleme(int tamam, int toplam);
+
+  /// No description provided for @hkDevamEt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaldığın yerden'**
+  String get hkDevamEt;
+
+  /// No description provided for @hkFavoriler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favoriler'**
+  String get hkFavoriler;
+
+  /// No description provided for @hkSonraOku.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonra oku'**
+  String get hkSonraOku;
+
+  /// No description provided for @hkTamamlananlar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tamamlananlar'**
+  String get hkTamamlananlar;
+
+  /// No description provided for @hkSikOkunan.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu cihazda sık okuduklarınız'**
+  String get hkSikOkunan;
+
+  /// No description provided for @hkBos.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz bir şey yok'**
+  String get hkBos;
+
+  /// No description provided for @hkHakikatSayisi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{n} hakikat'**
+  String hkHakikatSayisi(int n);
+
+  /// No description provided for @hkKonuBos.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu konuda henüz hakikat dersi yok. Aşağıda bu konuyla ilgili doğrulanmış Risale-i Nur metinleri var.'**
+  String get hkKonuBos;
+
+  /// No description provided for @hkIlgiliMetinler.
+  ///
+  /// In tr, this message translates to:
+  /// **'İlgili Risale-i Nur metinleri'**
+  String get hkIlgiliMetinler;
+
+  /// No description provided for @hkIcerikYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gösterilecek içerik bulunamadı'**
+  String get hkIcerikYok;
+
+  /// No description provided for @hkKonuIman.
+  ///
+  /// In tr, this message translates to:
+  /// **'İman Hakikatleri'**
+  String get hkKonuIman;
+
+  /// No description provided for @hkKonuTevhid.
+  ///
+  /// In tr, this message translates to:
+  /// **'Allah\'ın Varlığı ve Birliği'**
+  String get hkKonuTevhid;
+
+  /// No description provided for @hkKonuEsma.
+  ///
+  /// In tr, this message translates to:
+  /// **'Esmâü\'l-Hüsnâ'**
+  String get hkKonuEsma;
+
+  /// No description provided for @hkKonuKuran.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kur\'an-ı Kerîm ve Kur\'an Hakikatleri'**
+  String get hkKonuKuran;
+
+  /// No description provided for @hkKonuNubuvvet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Peygamberlik ve Hz. Muhammed (s.a.v.)'**
+  String get hkKonuNubuvvet;
+
+  /// No description provided for @hkKonuAhiret.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ahiret ve Haşir'**
+  String get hkKonuAhiret;
+
+  /// No description provided for @hkKonuKader.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kader ve İrade'**
+  String get hkKonuKader;
+
+  /// No description provided for @hkKonuRuh.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ruh, Kalp ve Nefis'**
+  String get hkKonuRuh;
+
+  /// No description provided for @hkKonuInsan.
+  ///
+  /// In tr, this message translates to:
+  /// **'İnsan ve Kâinat'**
+  String get hkKonuInsan;
+
+  /// No description provided for @hkKonuIbadet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Namaz ve İbadet'**
+  String get hkKonuIbadet;
+
+  /// No description provided for @hkKonuSukur.
+  ///
+  /// In tr, this message translates to:
+  /// **'Şükür, Sabır ve Tevekkül'**
+  String get hkKonuSukur;
+
+  /// No description provided for @hkKonuIhlas.
+  ///
+  /// In tr, this message translates to:
+  /// **'İhlas ve Uhuvvet'**
+  String get hkKonuIhlas;
+
+  /// No description provided for @hkKonuGenclik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gençlik ve Ahlak'**
+  String get hkKonuGenclik;
+
+  /// No description provided for @hkKonuMusibet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hastalık, Musibet ve Hikmet'**
+  String get hkKonuMusibet;
+
+  /// No description provided for @hkKonuTabiat.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tabiat ve Yaratılış'**
+  String get hkKonuTabiat;
+
+  /// No description provided for @hkTefekkurKapisi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tefekkür Kapısı'**
+  String get hkTefekkurKapisi;
+
+  /// No description provided for @hkAciklama.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikatin Açıklaması'**
+  String get hkAciklama;
+
+  /// No description provided for @hkPerspektif.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur Perspektifi'**
+  String get hkPerspektif;
+
+  /// No description provided for @hkPerspektifNot.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tırnak içindeki ifadeler eserden aynen alınmıştır; diğer cümleler açıklamadır.'**
+  String get hkPerspektifNot;
+
+  /// No description provided for @hkKainattan.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kâinattan Deliller'**
+  String get hkKainattan;
+
+  /// No description provided for @hkGunlukHayat.
+  ///
+  /// In tr, this message translates to:
+  /// **'Günlük Hayatla Bağlantı'**
+  String get hkGunlukHayat;
+
+  /// No description provided for @hkHikmet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hikmet Penceresi'**
+  String get hkHikmet;
+
+  /// No description provided for @hkSorgula.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kendini Sorgula'**
+  String get hkSorgula;
+
+  /// No description provided for @hkUygula.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hayata Uygula: Günlük Tefekkür Görevi'**
+  String get hkUygula;
+
+  /// No description provided for @hkGorevYaptim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugün bunu düşündüm'**
+  String get hkGorevYaptim;
+
+  /// No description provided for @hkDua.
+  ///
+  /// In tr, this message translates to:
+  /// **'İlgili Dua'**
+  String get hkDua;
+
+  /// No description provided for @hkOgrenilen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Öğrenilen Hakikat'**
+  String get hkOgrenilen;
+
+  /// No description provided for @hkSorular.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bilgi ve Tefekkür Soruları'**
+  String get hkSorular;
+
+  /// No description provided for @hkKavramlar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kavramlar'**
+  String get hkKavramlar;
+
+  /// No description provided for @hkKaynaklar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaynaklar'**
+  String get hkKaynaklar;
+
+  /// No description provided for @hkIlgiliEserler.
+  ///
+  /// In tr, this message translates to:
+  /// **'İlgili eserler'**
+  String get hkIlgiliEserler;
+
+  /// No description provided for @hkMiniTest.
+  ///
+  /// In tr, this message translates to:
+  /// **'Mini Test'**
+  String get hkMiniTest;
+
+  /// No description provided for @hkDogru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğru'**
+  String get hkDogru;
+
+  /// No description provided for @hkYanlis.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yanlış'**
+  String get hkYanlis;
+
+  /// No description provided for @hkDogruCevap.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğru cevap: {cevap}'**
+  String hkDogruCevap(String cevap);
+
+  /// No description provided for @hkGerekce.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dersin özü'**
+  String get hkGerekce;
+
+  /// No description provided for @hkTestSonuc.
+  ///
+  /// In tr, this message translates to:
+  /// **'{dogru}/{toplam} doğru'**
+  String hkTestSonuc(int dogru, int toplam);
+
+  /// No description provided for @hkBoslukDoldur.
+  ///
+  /// In tr, this message translates to:
+  /// **'Boşluk Doldurma'**
+  String get hkBoslukDoldur;
+
+  /// No description provided for @hkBoslukYonerge.
+  ///
+  /// In tr, this message translates to:
+  /// **'Cümledeki boşluğa gelecek kavramı seç'**
+  String get hkBoslukYonerge;
+
+  /// No description provided for @hkEslestir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kavram Eşleştirme'**
+  String get hkEslestir;
+
+  /// No description provided for @hkEslestirYonerge.
+  ///
+  /// In tr, this message translates to:
+  /// **'Her hakikati özüyle eşleştir'**
+  String get hkEslestirYonerge;
+
+  /// No description provided for @hkSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Seç'**
+  String get hkSec;
+
+  /// No description provided for @hkKontrolEt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kontrol et'**
+  String get hkKontrolEt;
+
+  /// No description provided for @hkYenidenDene.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeniden dene'**
+  String get hkYenidenDene;
+
+  /// No description provided for @hkTebrik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hepsi doğru!'**
+  String get hkTebrik;
+
+  /// No description provided for @hkTamamla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tamamlandı olarak işaretle'**
+  String get hkTamamla;
+
+  /// No description provided for @hkTamamlandi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tamamlandı'**
+  String get hkTamamlandi;
+
+  /// No description provided for @hkFavoriEkle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favorilere ekle'**
+  String get hkFavoriEkle;
+
+  /// No description provided for @hkFavoriCikar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favorilerden çıkar'**
+  String get hkFavoriCikar;
+
+  /// No description provided for @hkSonraOkuEkle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonra oku listesine ekle'**
+  String get hkSonraOkuEkle;
+
+  /// No description provided for @hkSonraOkuCikar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonra oku listesinden çıkar'**
+  String get hkSonraOkuCikar;
+
+  /// No description provided for @hkYaziBoyutu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yazı boyutu'**
+  String get hkYaziBoyutu;
+
+  /// No description provided for @hkEnIyiPuan.
+  ///
+  /// In tr, this message translates to:
+  /// **'En iyi sonuç: %{p}'**
+  String hkEnIyiPuan(int p);
+
+  /// No description provided for @hkOkundu.
+  ///
+  /// In tr, this message translates to:
+  /// **'%{p} okundu'**
+  String hkOkundu(int p);
+
+  /// No description provided for @hkTanitim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tanıtım'**
+  String get hkTanitim;
+
+  /// No description provided for @hkAnaKonu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ana konu'**
+  String get hkAnaKonu;
+
+  /// No description provided for @hkMeseleler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ele aldığı meseleler'**
+  String get hkMeseleler;
+
+  /// No description provided for @hkKonum.
+  ///
+  /// In tr, this message translates to:
+  /// **'Külliyattaki yeri'**
+  String get hkKonum;
+
+  /// No description provided for @hkBolumler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bölümler'**
+  String get hkBolumler;
+
+  /// No description provided for @hkMetinSayisi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{n} doğrulanmış metin'**
+  String hkMetinSayisi(int n);
+
+  /// No description provided for @hkEserler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Eserler'**
+  String get hkEserler;
+
+  /// No description provided for @hkRisaleler.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risaleler'**
+  String get hkRisaleler;
+
+  /// No description provided for @hkKaynakNotu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Metinler risale.online\'daki Osmanlıca–Latince karşılıklı metinden aynen alınmıştır; sayfa numarası verilmez.'**
+  String get hkKaynakNotu;
+
+  /// No description provided for @hkOsmanlica.
+  ///
+  /// In tr, this message translates to:
+  /// **'Osmanlıca'**
+  String get hkOsmanlica;
+
+  /// No description provided for @hkMetin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Risale-i Nur metni'**
+  String get hkMetin;
+
+  /// No description provided for @hkYonetim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikat Yönetimi'**
+  String get hkYonetim;
+
+  /// No description provided for @hkYonetimAlt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikat ekle, düzenle, yayınla; Günün Hakikati\'ni planla'**
+  String get hkYonetimAlt;
+
+  /// No description provided for @hkYeni.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeni hakikat'**
+  String get hkYeni;
+
+  /// No description provided for @hkDuzenle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Düzenle'**
+  String get hkDuzenle;
+
+  /// No description provided for @hkOnizle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önizle'**
+  String get hkOnizle;
+
+  /// No description provided for @hkYayinla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayınla'**
+  String get hkYayinla;
+
+  /// No description provided for @hkTaslakYap.
+  ///
+  /// In tr, this message translates to:
+  /// **'Taslağa al'**
+  String get hkTaslakYap;
+
+  /// No description provided for @hkArsivle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arşivle'**
+  String get hkArsivle;
+
+  /// No description provided for @hkSil.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sil'**
+  String get hkSil;
+
+  /// No description provided for @hkSilOnay.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu kayıt silinsin mi? Uygulamayla gelen kayıtlar yalnızca gizlenir.'**
+  String get hkSilOnay;
+
+  /// No description provided for @hkVazgec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Vazgeç'**
+  String get hkVazgec;
+
+  /// No description provided for @hkGeriAl.
+  ///
+  /// In tr, this message translates to:
+  /// **'Düzenlemeyi geri al'**
+  String get hkGeriAl;
+
+  /// No description provided for @hkDurumTaslak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Taslak'**
+  String get hkDurumTaslak;
+
+  /// No description provided for @hkDurumYayinda.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yayında'**
+  String get hkDurumYayinda;
+
+  /// No description provided for @hkDurumArsiv.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arşiv'**
+  String get hkDurumArsiv;
+
+  /// No description provided for @hkDuzenlendi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Düzenlendi'**
+  String get hkDuzenlendi;
+
+  /// No description provided for @hkPlanSec.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu günün hakikatini seç'**
+  String get hkPlanSec;
+
+  /// No description provided for @hkPlanOtomatik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Otomatik seçim'**
+  String get hkPlanOtomatik;
+
+  /// No description provided for @hkPlanKaldir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Planı kaldır'**
+  String get hkPlanKaldir;
+
+  /// No description provided for @hkPlanli.
+  ///
+  /// In tr, this message translates to:
+  /// **'Planlandı'**
+  String get hkPlanli;
+
+  /// No description provided for @hkKaydet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydet'**
+  String get hkKaydet;
+
+  /// No description provided for @hkKaydedildi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydedildi'**
+  String get hkKaydedildi;
+
+  /// No description provided for @hkZorunlu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu alan zorunlu'**
+  String get hkZorunlu;
+
+  /// No description provided for @hkKarakter.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gövde: {n} karakter (hedef 2.800–3.200)'**
+  String hkKarakter(int n);
+
+  /// No description provided for @hkAlanBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Başlık'**
+  String get hkAlanBaslik;
+
+  /// No description provided for @hkAlanKavram.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kavramlar (virgülle ayır)'**
+  String get hkAlanKavram;
+
+  /// No description provided for @hkAlanKaynak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaynaklar: her satıra bir (ayet, hadis, eser)'**
+  String get hkAlanKaynak;
+
+  /// No description provided for @hkAlanDuaArapca.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dua (Arapça)'**
+  String get hkAlanDuaArapca;
+
+  /// No description provided for @hkAlanDuaOkunus.
+  ///
+  /// In tr, this message translates to:
+  /// **'Okunuş'**
+  String get hkAlanDuaOkunus;
+
+  /// No description provided for @hkAlanDuaAnlam.
+  ///
+  /// In tr, this message translates to:
+  /// **'Anlam'**
+  String get hkAlanDuaAnlam;
+
+  /// No description provided for @hkAlanDuaKaynak.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dua kaynağı'**
+  String get hkAlanDuaKaynak;
+
+  /// No description provided for @hkAlanSoru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Soru {n}'**
+  String hkAlanSoru(int n);
+
+  /// No description provided for @hkAlanSecenek.
+  ///
+  /// In tr, this message translates to:
+  /// **'Seçenekler: her satıra bir'**
+  String get hkAlanSecenek;
+
+  /// No description provided for @hkAlanDogruNo.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğru seçenek (1, 2, 3...)'**
+  String get hkAlanDogruNo;
+
+  /// No description provided for @hkAlanDY.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğru/Yanlış ifadesi'**
+  String get hkAlanDY;
+
+  /// No description provided for @hkAlanDYDogru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu ifade doğru'**
+  String get hkAlanDYDogru;
+
+  /// No description provided for @hkAlanKategori.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ana kategori'**
+  String get hkAlanKategori;
+
+  /// No description provided for @hkKaynakUyari.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ayet, hadis ve Risale-i Nur alıntılarını eserden doğrulamadan yayınlamayın.'**
+  String get hkKaynakUyari;
+
+  /// No description provided for @hkDevaminiOku.
+  ///
+  /// In tr, this message translates to:
+  /// **'Devamını oku'**
+  String get hkDevaminiOku;
+
+  /// No description provided for @hkHakikatiKesfet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hakikati keşfet'**
+  String get hkHakikatiKesfet;
+
+  /// No description provided for @hkOkumaSuresi.
+  ///
+  /// In tr, this message translates to:
+  /// **'{n} dk okuma'**
+  String hkOkumaSuresi(int n);
+
+  /// No description provided for @hkAynen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Eserden aynen'**
+  String get hkAynen;
+
+  /// No description provided for @hkIlgiliHakikatler.
+  ///
+  /// In tr, this message translates to:
+  /// **'İlgili hakikatler'**
+  String get hkIlgiliHakikatler;
+
+  /// No description provided for @dkKutuphane.
+  ///
+  /// In tr, this message translates to:
+  /// **'DUA KÜTÜPHANESİ'**
+  String get dkKutuphane;
+
+  /// No description provided for @dkArapca.
+  ///
+  /// In tr, this message translates to:
+  /// **'ARAPÇA METİN'**
+  String get dkArapca;
+
+  /// No description provided for @dkArapcaNot.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arapça metin · Kaynaktaki harekeyle'**
+  String get dkArapcaNot;
+
+  /// No description provided for @dkOkunus.
+  ///
+  /// In tr, this message translates to:
+  /// **'TÜRKÇE OKUNUŞU'**
+  String get dkOkunus;
+
+  /// No description provided for @dkAnlam.
+  ///
+  /// In tr, this message translates to:
+  /// **'TÜRKÇE ANLAMI'**
+  String get dkAnlam;
+
+  /// No description provided for @dkYalnizMeal.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu duanın kaynağında yalnız meali verilmiştir.'**
+  String get dkYalnizMeal;
+
+  /// No description provided for @dkKaynak.
+  ///
+  /// In tr, this message translates to:
+  /// **'DUANIN KAYNAĞI'**
+  String get dkKaynak;
+
+  /// No description provided for @dkSinif.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sınıf'**
+  String get dkSinif;
+
+  /// No description provided for @dkNumara.
+  ///
+  /// In tr, this message translates to:
+  /// **'Numara'**
+  String get dkNumara;
+
+  /// No description provided for @dkSihhat.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sıhhat'**
+  String get dkSihhat;
+
+  /// No description provided for @dkAciklama.
+  ///
+  /// In tr, this message translates to:
+  /// **'DUANIN AÇIKLAMASI'**
+  String get dkAciklama;
+
+  /// No description provided for @dkHikmet.
+  ///
+  /// In tr, this message translates to:
+  /// **'DUANIN HİKMETİ'**
+  String get dkHikmet;
+
+  /// No description provided for @dkNeZaman.
+  ///
+  /// In tr, this message translates to:
+  /// **'NE ZAMAN OKUNUR?'**
+  String get dkNeZaman;
+
+  /// No description provided for @dkEzber.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu Duayı Ezberle'**
+  String get dkEzber;
+
+  /// No description provided for @dkEzberAlt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Parça parça öğren, tekrar et ve ezberini kontrol et.'**
+  String get dkEzberAlt;
+
+  /// No description provided for @dkEzberBasla.
+  ///
+  /// In tr, this message translates to:
+  /// **'EZBERLEMEYE BAŞLA'**
+  String get dkEzberBasla;
+
+  /// No description provided for @dkIlgili.
+  ///
+  /// In tr, this message translates to:
+  /// **'İLGİLİ DUALAR'**
+  String get dkIlgili;
+
+  /// No description provided for @dkOnceki.
+  ///
+  /// In tr, this message translates to:
+  /// **'Önceki dua'**
+  String get dkOnceki;
+
+  /// No description provided for @dkSonraki.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonraki dua'**
+  String get dkSonraki;
+
+  /// No description provided for @dkKopyala.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kopyala'**
+  String get dkKopyala;
+
+  /// No description provided for @dkKopyalandi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Dua panoya kopyalandı'**
+  String get dkKopyalandi;
+
+  /// No description provided for @dkPaylas.
+  ///
+  /// In tr, this message translates to:
+  /// **'Paylaş'**
+  String get dkPaylas;
+
+  /// No description provided for @dkGorselPaylas.
+  ///
+  /// In tr, this message translates to:
+  /// **'Görsel kart olarak paylaş'**
+  String get dkGorselPaylas;
+
+  /// No description provided for @dkMetinPaylas.
+  ///
+  /// In tr, this message translates to:
+  /// **'Metin olarak paylaş'**
+  String get dkMetinPaylas;
+
+  /// No description provided for @dkGorselHazirlaniyor.
+  ///
+  /// In tr, this message translates to:
+  /// **'Görsel hazırlanıyor…'**
+  String get dkGorselHazirlaniyor;
+
+  /// No description provided for @dkPaylasimHata.
+  ///
+  /// In tr, this message translates to:
+  /// **'Paylaşım açılamadı'**
+  String get dkPaylasimHata;
+
+  /// No description provided for @dkKaydet.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kaydet'**
+  String get dkKaydet;
+
+  /// No description provided for @dkKaydedildi.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favorilere eklendi'**
+  String get dkKaydedildi;
+
+  /// No description provided for @dkKaydiKaldir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Favorilerden çıkarıldı'**
+  String get dkKaydiKaldir;
+
+  /// No description provided for @dkOkumaAyarlari.
+  ///
+  /// In tr, this message translates to:
+  /// **'Okuma ayarları'**
+  String get dkOkumaAyarlari;
+
+  /// No description provided for @dkGeceModu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gece okuma modu'**
+  String get dkGeceModu;
+
+  /// No description provided for @dkBoyutArapca.
+  ///
+  /// In tr, this message translates to:
+  /// **'Arapça yazı boyutu'**
+  String get dkBoyutArapca;
+
+  /// No description provided for @dkBoyutOkunus.
+  ///
+  /// In tr, this message translates to:
+  /// **'Okunuş yazı boyutu'**
+  String get dkBoyutOkunus;
+
+  /// No description provided for @dkBoyutAnlam.
+  ///
+  /// In tr, this message translates to:
+  /// **'Anlam yazı boyutu'**
+  String get dkBoyutAnlam;
+
+  /// No description provided for @dkGoster.
+  ///
+  /// In tr, this message translates to:
+  /// **'Göster'**
+  String get dkGoster;
+
+  /// No description provided for @dkGizle.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gizle'**
+  String get dkGizle;
+
+  /// No description provided for @dkGizliMetin.
+  ///
+  /// In tr, this message translates to:
+  /// **'Gizlendi · Hatırlamaya çalış, sonra dokun'**
+  String get dkGizliMetin;
+
+  /// No description provided for @dkEzberBaslik.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ezber'**
+  String get dkEzberBaslik;
+
+  /// No description provided for @dkAdimOku.
+  ///
+  /// In tr, this message translates to:
+  /// **'Oku ve tekrar et'**
+  String get dkAdimOku;
+
+  /// No description provided for @dkAdimHatirla.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hafızadan hatırla'**
+  String get dkAdimHatirla;
+
+  /// No description provided for @dkAdimBosluk.
+  ///
+  /// In tr, this message translates to:
+  /// **'Boşluk doldur'**
+  String get dkAdimBosluk;
+
+  /// No description provided for @dkAdimEslestir.
+  ///
+  /// In tr, this message translates to:
+  /// **'Eşleştir'**
+  String get dkAdimEslestir;
+
+  /// No description provided for @dkTekrar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tekrar {n}/3'**
+  String dkTekrar(int n);
+
+  /// No description provided for @dkTekrarEt.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tekrar ettim'**
+  String get dkTekrarEt;
+
+  /// No description provided for @dkParca.
+  ///
+  /// In tr, this message translates to:
+  /// **'Parça {i}/{n}'**
+  String dkParca(int i, int n);
+
+  /// No description provided for @dkBiliyorum.
+  ///
+  /// In tr, this message translates to:
+  /// **'Hatırladım'**
+  String get dkBiliyorum;
+
+  /// No description provided for @dkTekrarGerek.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tekrar etmeliyim'**
+  String get dkTekrarGerek;
+
+  /// No description provided for @dkEzberledim.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ezberledim'**
+  String get dkEzberledim;
+
+  /// No description provided for @dkIlerleme.
+  ///
+  /// In tr, this message translates to:
+  /// **'{e}/{t} parça ezberlendi'**
+  String dkIlerleme(int e, int t);
+
+  /// No description provided for @dkSonrakiTekrar.
+  ///
+  /// In tr, this message translates to:
+  /// **'Sonraki tekrar: {tarih}'**
+  String dkSonrakiTekrar(String tarih);
+
+  /// No description provided for @dkTekrarZamani.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tekrar zamanı geldi'**
+  String get dkTekrarZamani;
+
+  /// No description provided for @dkEzberTamam.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ezber tamamlandı'**
+  String get dkEzberTamam;
+
+  /// No description provided for @dkBoslukYonerge.
+  ///
+  /// In tr, this message translates to:
+  /// **'Eksik kelimeyi seç'**
+  String get dkBoslukYonerge;
+
+  /// No description provided for @dkEslestirYonerge.
+  ///
+  /// In tr, this message translates to:
+  /// **'Her parçayı anlamıyla eşleştir'**
+  String get dkEslestirYonerge;
+
+  /// No description provided for @dkDogru.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğru'**
+  String get dkDogru;
+
+  /// No description provided for @dkDogrusu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Doğrusu: {cevap}'**
+  String dkDogrusu(String cevap);
+
+  /// No description provided for @dkKontrol.
+  ///
+  /// In tr, this message translates to:
+  /// **'Kontrol et'**
+  String get dkKontrol;
+
+  /// No description provided for @dkYeniden.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yeniden'**
+  String get dkYeniden;
+
+  /// No description provided for @dkTekrarBasarili.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugünkü tekrar başarılı'**
+  String get dkTekrarBasarili;
+
+  /// No description provided for @dkTekrarBasarisiz.
+  ///
+  /// In tr, this message translates to:
+  /// **'Yarın yeniden tekrar et'**
+  String get dkTekrarBasarisiz;
+
+  /// No description provided for @dkTekrarSonuc.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bugünkü tekrarı kaydet'**
+  String get dkTekrarSonuc;
+
+  /// No description provided for @dkEzberDurumu.
+  ///
+  /// In tr, this message translates to:
+  /// **'Ezber Durumum'**
+  String get dkEzberDurumu;
+
+  /// No description provided for @dkOgrenilen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Öğrenilenler'**
+  String get dkOgrenilen;
+
+  /// No description provided for @dkBekleyen.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tekrar bekleyen'**
+  String get dkBekleyen;
+
+  /// No description provided for @dkTamamlanan.
+  ///
+  /// In tr, this message translates to:
+  /// **'Tamamlanan'**
+  String get dkTamamlanan;
+
+  /// No description provided for @dkEzberBos.
+  ///
+  /// In tr, this message translates to:
+  /// **'Henüz ezberine başladığın dua yok.'**
+  String get dkEzberBos;
+
+  /// No description provided for @dkParcaYok.
+  ///
+  /// In tr, this message translates to:
+  /// **'Bu dua tek parça hâlinde ezberlenir.'**
+  String get dkParcaYok;
 }
 
 class _AppLocalizationsDelegate

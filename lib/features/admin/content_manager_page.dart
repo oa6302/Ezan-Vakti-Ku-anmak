@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 import 'package:flutter/services.dart';
 import 'package:nur_pusulasi/app/content_service.dart';
 import 'content_editor_page.dart';
@@ -101,28 +102,29 @@ class _ContentManagerPageState extends State<ContentManagerPage>
         surfaceTintColor: Colors.white,
         elevation: 0,
         scrolledUnderElevation: 1,
-        title: const Text(
-          'İçerik Yönetimi',
+        title: Text(
+          AppLocalizations.of(context).uiIcerikYonetimi2,
           style: TextStyle(
               color: _navy, fontSize: 17, fontWeight: FontWeight.w900),
         ),
         actions: [
           PopupMenuButton<String>(
-            tooltip: 'Toplu işlemler',
+            tooltip: AppLocalizations.of(context).uiTopluIslemler,
             icon: const Icon(Icons.more_vert_rounded, color: _navy),
             onSelected: (v) {
               if (v == 'publish') _publishAll();
               if (v == 'publish_filtered') _publishFiltered();
               if (v == 'delete_filtered') _deleteFiltered();
             },
-            itemBuilder: (_) => const [
+            itemBuilder: (_) => [
               PopupMenuItem(
                 value: 'publish',
                 child: ListTile(
                   dense: true,
                   contentPadding: EdgeInsets.zero,
                   leading: Icon(Icons.publish_rounded, color: _green),
-                  title: Text('Aktif sekmedeki tümünü yayınla'),
+                  title: Text(AppLocalizations.of(context)
+                      .uiAktifSekmedekiTumunuYayinla),
                 ),
               ),
               PopupMenuItem(
@@ -131,7 +133,8 @@ class _ContentManagerPageState extends State<ContentManagerPage>
                   dense: true,
                   contentPadding: EdgeInsets.zero,
                   leading: Icon(Icons.filter_alt_rounded, color: _green),
-                  title: Text('Filtrelenmişleri yayınla'),
+                  title: Text(
+                      AppLocalizations.of(context).uiFiltrelenmisleriYayinla),
                 ),
               ),
               PopupMenuItem(
@@ -140,23 +143,24 @@ class _ContentManagerPageState extends State<ContentManagerPage>
                   dense: true,
                   contentPadding: EdgeInsets.zero,
                   leading: Icon(Icons.delete_sweep_rounded, color: _red),
-                  title: Text('Filtrelenmişleri sil'),
+                  title:
+                      Text(AppLocalizations.of(context).uiFiltrelenmisleriSil),
                 ),
               ),
             ],
           ),
           IconButton(
-            tooltip: 'Ana sayfada kontrol et',
+            tooltip: AppLocalizations.of(context).uiAnaSayfadaKontrolEt,
             icon: const Icon(Icons.home_rounded, color: _navy),
             onPressed: () => Navigator.pop(context),
           ),
           IconButton(
-            tooltip: 'Yedek al (JSON)',
+            tooltip: AppLocalizations.of(context).uiYedekAlJson,
             icon: const Icon(Icons.upload_file_rounded, color: _navy),
             onPressed: _exportAll,
           ),
           IconButton(
-            tooltip: 'Yedekten yükle (JSON)',
+            tooltip: AppLocalizations.of(context).uiYedektenYukleJson,
             icon: const Icon(Icons.file_download_rounded, color: _navy),
             onPressed: _importPrompt,
           ),
@@ -189,7 +193,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
         foregroundColor: Colors.white,
         onPressed: () => _openEditor(null, _aktifTip),
         icon: const Icon(Icons.add_rounded),
-        label: const Text('YENİ EKLE',
+        label: Text(AppLocalizations.of(context).uiYeniEkle,
             style: TextStyle(fontWeight: FontWeight.w900)),
       ),
     );
@@ -209,7 +213,7 @@ class _ContentManagerPageState extends State<ContentManagerPage>
               controller: _searchCtrl,
               onChanged: (v) => setState(() => _query = v.trim().toLowerCase()),
               decoration: InputDecoration(
-                hintText: 'Başlık, içerik, kaynak veya kategori ara...',
+                hintText: AppLocalizations.of(context).uiBaslikIcerikKaynakVeya,
                 prefixIcon: const Icon(Icons.search_rounded),
                 suffixIcon: _query.isEmpty
                     ? null
@@ -270,9 +274,9 @@ class _ContentManagerPageState extends State<ContentManagerPage>
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Padding(
+            Padding(
               padding: EdgeInsets.all(16),
-              child: Text('Sıralama',
+              child: Text(AppLocalizations.of(context).uiSiralama,
                   style: TextStyle(
                       color: _navy, fontWeight: FontWeight.w900, fontSize: 15)),
             ),
@@ -474,7 +478,8 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     if (taslaklar.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('Yayınlanacak içerik yok ($etiket).'),
+          content: Text(
+              AppLocalizations.of(context).uiFYayinlanacakIcerikYok(etiket)),
           backgroundColor: _orange,
         ),
       );
@@ -483,18 +488,18 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     final ok = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
-        title: Text('$etiket yayınla?'),
-        content: Text(
-            '${taslaklar.length} içerik yayınlanacak ve ana sayfada gorunecek.'),
+        title: Text(AppLocalizations.of(context).uiFYayinla(etiket)),
+        content: Text(AppLocalizations.of(context)
+            .uiFIcerikYayinlanacakVeAna(taslaklar.length)),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('İptal'),
+            child: Text(AppLocalizations.of(context).uiIptal2),
           ),
           FilledButton(
             style: FilledButton.styleFrom(backgroundColor: _green),
             onPressed: () => Navigator.pop(context, true),
-            child: const Text('Yayınla'),
+            child: Text(AppLocalizations.of(context).uiYayinla2),
           ),
         ],
       ),
@@ -524,7 +529,8 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('${taslaklar.length} içerik yayınlandı'),
+        content: Text(
+            AppLocalizations.of(context).uiFIcerikYayinlandi(taslaklar.length)),
         backgroundColor: _green,
       ),
     );
@@ -533,9 +539,9 @@ class _ContentManagerPageState extends State<ContentManagerPage>
   Future<void> _deleteFiltered() async {
     if (_aktifTip == ContentType.gunluk) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
+        SnackBar(
             content: Text(
-                '365 günlük kayıtlar korunuyor; silme işlemi engellendi.')),
+                AppLocalizations.of(context).ui365GunlukKayitlarKorunuyor)),
       );
       return;
     }
@@ -543,8 +549,8 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     final filtered = _filtrele(pool);
     if (filtered.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Silinecek içerik yok.'),
+        SnackBar(
+          content: Text(AppLocalizations.of(context).uiSilinecekIcerikYok),
           backgroundColor: _orange,
         ),
       );
@@ -553,18 +559,18 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     final ok = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('Filtrelenmişleri sil?'),
-        content: Text(
-            '${filtered.length} içerik kalıcı olarak silinecek. Geri alınamaz!'),
+        title: Text(AppLocalizations.of(context).uiFiltrelenmisleriSil2),
+        content: Text(AppLocalizations.of(context)
+            .uiFIcerikKaliciOlarakSilinecek(filtered.length)),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('İptal'),
+            child: Text(AppLocalizations.of(context).uiIptal2),
           ),
           FilledButton(
             style: FilledButton.styleFrom(backgroundColor: _red),
             onPressed: () => Navigator.pop(context, true),
-            child: const Text('Sil'),
+            child: Text(AppLocalizations.of(context).adminDelete),
           ),
         ],
       ),
@@ -578,7 +584,8 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('${filtered.length} içerik silindi'),
+        content: Text(
+            AppLocalizations.of(context).uiFIcerikSilindi(filtered.length)),
         backgroundColor: _green,
       ),
     );
@@ -591,8 +598,8 @@ class _ContentManagerPageState extends State<ContentManagerPage>
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text(
-              'Yedek panoya kopyalandı (${(json.length / 1024).toStringAsFixed(1)} KB).'),
+          content: Text(AppLocalizations.of(context).uiFYedekPanoyaKopyalandiKb(
+              (json.length / 1024).toStringAsFixed(1))),
           backgroundColor: _green,
           duration: const Duration(seconds: 4),
         ),
@@ -600,7 +607,9 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Hata: $e'), backgroundColor: _red),
+        SnackBar(
+            content: Text(AppLocalizations.of(context).uiFHata(e)),
+            backgroundColor: _red),
       );
     }
   }
@@ -610,15 +619,15 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     final mode = await showDialog<String>(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('Yedekten yükle'),
+        title: Text(AppLocalizations.of(context).uiYedektenYukle),
         content: SizedBox(
           width: 500,
           child: Column(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text(
-                'JSON yedeğini aşağıya yapıştırın. "Birleştir" varsa günceller, yoksa ekler. "Üzerine yaz" mevcut havuzu siler.',
+              Text(
+                AppLocalizations.of(context).uiJsonYedeginiAsagiyaYapistirin,
                 style: TextStyle(fontSize: 12, color: Colors.black54),
               ),
               const SizedBox(height: 12),
@@ -636,19 +645,19 @@ class _ContentManagerPageState extends State<ContentManagerPage>
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: const Text('İptal'),
+            child: Text(AppLocalizations.of(context).uiIptal2),
           ),
           FilledButton.tonal(
             style:
                 FilledButton.styleFrom(backgroundColor: Colors.grey.shade300),
             onPressed: () => Navigator.pop(context, 'replace'),
-            child: const Text('Üzerine Yaz',
+            child: Text(AppLocalizations.of(context).uiUzerineYaz,
                 style: TextStyle(color: _navy, fontWeight: FontWeight.w800)),
           ),
           FilledButton(
             style: FilledButton.styleFrom(backgroundColor: _navy),
             onPressed: () => Navigator.pop(context, 'merge'),
-            child: const Text('Birleştir',
+            child: Text(AppLocalizations.of(context).uiBirlestir,
                 style: TextStyle(fontWeight: FontWeight.w900)),
           ),
         ],
@@ -664,14 +673,16 @@ class _ContentManagerPageState extends State<ContentManagerPage>
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('$count oge $mode edildi'),
+          content: Text(AppLocalizations.of(context).uiFOgeEdildi(count, mode)),
           backgroundColor: _green,
         ),
       );
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Gecersiz JSON: $e'), backgroundColor: _red),
+        SnackBar(
+            content: Text(AppLocalizations.of(context).uiFGecersizJson(e)),
+            backgroundColor: _red),
       );
     }
   }
@@ -720,7 +731,8 @@ class _ContentManagerPageState extends State<ContentManagerPage>
                         _kaynakFiltre = null;
                       }),
                       icon: const Icon(Icons.filter_alt_off_rounded),
-                      label: const Text('Filtreleri temizle'),
+                      label: Text(
+                          AppLocalizations.of(context).uiFiltreleriTemizle),
                     ),
                   ],
                 ],
@@ -867,26 +879,26 @@ class _ContentManagerPageState extends State<ContentManagerPage>
   Future<void> _confirmDelete(ContentItem item) async {
     if (item.type == ContentType.gunluk) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-            content: Text(
-                'Günlük kayıtlar silinemez; düzenlemeye devam edebilirsiniz.')),
+        SnackBar(
+            content: Text(AppLocalizations.of(context)
+                .uiGunlukKayitlarSilinemezDuzenlemeye)),
       );
       return;
     }
     final ok = await showDialog<bool>(
       context: context,
       builder: (_) => AlertDialog(
-        title: const Text('Silinsin mi?'),
-        content: Text('"${item.baslik}" silinecek.'),
+        title: Text(AppLocalizations.of(context).uiSilinsinMi),
+        content: Text(AppLocalizations.of(context).uiFSilinecek(item.baslik)),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('İptal'),
+            child: Text(AppLocalizations.of(context).uiIptal2),
           ),
           FilledButton(
             style: FilledButton.styleFrom(backgroundColor: _red),
             onPressed: () => Navigator.pop(context, true),
-            child: const Text('Sil'),
+            child: Text(AppLocalizations.of(context).adminDelete),
           ),
         ],
       ),
@@ -895,8 +907,8 @@ class _ContentManagerPageState extends State<ContentManagerPage>
     await ContentService.instance.remove(item.type, item.id);
     if (!mounted) return;
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text('Silindi'),
+      SnackBar(
+        content: Text(AppLocalizations.of(context).uiSilindi),
         backgroundColor: _green,
       ),
     );

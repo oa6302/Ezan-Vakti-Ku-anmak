@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:nur_pusulasi/l10n/app_localizations.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -330,8 +331,8 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
                   maxLength: 100,
                   textCapitalization: TextCapitalization.sentences,
                   decoration: InputDecoration(
-                    labelText: 'Zikir Adı',
-                    hintText: 'Örn: Sübhânallah',
+                    labelText: AppLocalizations.of(context).uiZikirAdi,
+                    hintText: AppLocalizations.of(context).uiOrnSubhNallah,
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(16),
                     ),
@@ -351,7 +352,7 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
                     FilteringTextInputFormatter.digitsOnly,
                   ],
                   decoration: InputDecoration(
-                    labelText: 'Hedef Sayı',
+                    labelText: AppLocalizations.of(context).uiHedefSayi,
                     hintText: '33',
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(16),
@@ -392,8 +393,8 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(dialogContext),
-            child: const Text(
-              'İptal',
+            child: Text(
+              AppLocalizations.of(context).uiIptal2,
               style: TextStyle(color: kIkincilMetin),
             ),
           ),
@@ -448,8 +449,8 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
               _saveProgress();
               Navigator.pop(dialogContext);
             },
-            child: const Text(
-              'Kaydet',
+            child: Text(
+              AppLocalizations.of(context).adminSave,
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
           ),
@@ -469,20 +470,19 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(24),
         ),
-        title: const Text('Sayaçları Sıfırla'),
-        content: const Text(
-          'Mevcut ilerleme, toplam sayaç ve tamamlanan zincir '
-          'turları sıfırlanacak. Zikir listeniz korunacaktır.',
+        title: Text(AppLocalizations.of(context).uiSayaclariSifirla),
+        content: Text(
+          AppLocalizations.of(context).uiSayaclarSifirlanacak,
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(dialogContext, false),
-            child: const Text('İptal'),
+            child: Text(AppLocalizations.of(context).uiIptal2),
           ),
           TextButton(
             onPressed: () => Navigator.pop(dialogContext, true),
-            child: const Text(
-              'Sıfırla',
+            child: Text(
+              AppLocalizations.of(context).uiSifirla,
               style: TextStyle(color: kZarifBordo),
             ),
           ),
@@ -502,19 +502,19 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(24),
         ),
-        title: const Text('Zikri Sil'),
+        title: Text(AppLocalizations.of(context).uiZikriSil),
         content: Text(
-          '"$name" zikrini silmek istediğinize emin misiniz?',
+          AppLocalizations.of(context).uiFZikriniSilmekIstediginizeEmin(name),
         ),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(dialogContext, false),
-            child: const Text('İptal'),
+            child: Text(AppLocalizations.of(context).uiIptal2),
           ),
           TextButton(
             onPressed: () => Navigator.pop(dialogContext, true),
-            child: const Text(
-              'Sil',
+            child: Text(
+              AppLocalizations.of(context).adminDelete,
               style: TextStyle(
                 color: kZarifBordo,
                 fontWeight: FontWeight.bold,
@@ -569,7 +569,7 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
       return Scaffold(
         backgroundColor: kArkaPlan,
         appBar: AppBar(
-          title: const Text('Tesbih'),
+          title: Text(AppLocalizations.of(context).tesbih),
           backgroundColor: kKartYuzeyi,
           foregroundColor: kAnaLacivert,
           elevation: 0,
@@ -594,8 +594,8 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
                   ),
                 ),
                 const SizedBox(height: 24),
-                const Text(
-                  'Henüz bir zikir eklenmemiş.',
+                Text(
+                  AppLocalizations.of(context).uiHenuzBirZikirEklenmemis,
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: kIkincilMetin,
@@ -607,7 +607,7 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
                 ElevatedButton.icon(
                   onPressed: () => _showDhikrDialog(),
                   icon: const Icon(Icons.add_rounded),
-                  label: const Text('Zikir Ekle'),
+                  label: Text(AppLocalizations.of(context).uiZikirEkle),
                   style: ElevatedButton.styleFrom(
                     backgroundColor: kAnaLacivert,
                     foregroundColor: Colors.white,
@@ -634,8 +634,8 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
     return Scaffold(
       backgroundColor: kArkaPlan,
       appBar: AppBar(
-        title: const Text(
-          'Tesbih',
+        title: Text(
+          AppLocalizations.of(context).tesbih,
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: kAnaLacivert,
@@ -646,7 +646,7 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
         elevation: 0,
         actions: [
           IconButton(
-            tooltip: 'Sayaçları Sıfırla',
+            tooltip: AppLocalizations.of(context).uiSayaclariSifirla,
             icon: const Icon(Icons.refresh_rounded),
             onPressed: _confirmReset,
           ),
@@ -663,7 +663,7 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
               children: [
                 Expanded(
                   child: _buildStatCard(
-                    title: 'Zincir Adımı',
+                    title: AppLocalizations.of(context).uiZincirAdimi,
                     value: '${_currentIndex + 1} / ${_dhikrList.length}',
                     valueColor: kAnaLacivert,
                     icon: Icons.account_tree_rounded,
@@ -672,7 +672,7 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
                 const SizedBox(width: 12),
                 Expanded(
                   child: _buildStatCard(
-                    title: 'Toplam Çekilen',
+                    title: AppLocalizations.of(context).uiToplamCekilen,
                     value: '$_totalCount',
                     valueColor: kZarifBordo,
                     icon: Icons.auto_awesome_rounded,
@@ -682,7 +682,7 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
             ),
             const SizedBox(height: 12),
             _buildStatCard(
-              title: 'Tamamlanan Zincir Turu',
+              title: AppLocalizations.of(context).uiTamamlananZincirTuru,
               value: '$_completedRounds',
               valueColor: kAnaTurkuaz,
               icon: Icons.check_circle_outline_rounded,
@@ -701,8 +701,8 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      const Text(
-                        'Hedef İlerlemesi',
+                      Text(
+                        AppLocalizations.of(context).uiHedefIlerlemesi,
                         style: TextStyle(
                           fontSize: 13,
                           fontWeight: FontWeight.w600,
@@ -812,8 +812,8 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
                                   ),
                                 ),
                                 const SizedBox(height: 6),
-                                const Text(
-                                  'DOKUN',
+                                Text(
+                                  AppLocalizations.of(context).uiDokun,
                                   style: TextStyle(
                                     fontSize: 11,
                                     color: Colors.white70,
@@ -855,9 +855,9 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                const Flexible(
+                Flexible(
                   child: Text(
-                    'Zincir Adımları',
+                    AppLocalizations.of(context).uiZincirAdimlari,
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,
@@ -868,8 +868,8 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
                 TextButton.icon(
                   onPressed: () => _showDhikrDialog(),
                   icon: const Icon(Icons.add_rounded, size: 20),
-                  label: const Text(
-                    'Yeni Ekle',
+                  label: Text(
+                    AppLocalizations.of(context).uiYeniEkle2,
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                   style: TextButton.styleFrom(
@@ -953,7 +953,7 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
                           crossAxisAlignment: WrapCrossAlignment.center,
                           children: [
                             IconButton(
-                              tooltip: 'Düzenle',
+                              tooltip: AppLocalizations.of(context).uiDuzenle,
                               constraints: const BoxConstraints(
                                 minWidth: 38,
                                 minHeight: 44,
@@ -969,7 +969,7 @@ class _ComboPageState extends State<ComboPage> with WidgetsBindingObserver {
                               ),
                             ),
                             IconButton(
-                              tooltip: 'Sil',
+                              tooltip: AppLocalizations.of(context).adminDelete,
                               constraints: const BoxConstraints(
                                 minWidth: 38,
                                 minHeight: 44,
