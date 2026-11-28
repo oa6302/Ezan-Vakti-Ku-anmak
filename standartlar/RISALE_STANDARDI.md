@@ -56,3 +56,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-28: ders_215-222 (kâinat bir ferde verilmiş gibi, rahmetin mührü, gözü kapalı müminin kabri, vicdanın dört unsuru, her şey zıddıyla bilinir, hasta manevi vücut, çocuk ölümüne iki bakış, bir elmayı yaratan); toplam 222.
 - 2026-11-28: ders_223-226 (mevsim nöbeti, ihtiyarlıkta gurbet yok, cüz'iyat-külliyat, tevhid zorunluluğu); toplam 226.
 - 2026-11-28: ders_227-232 (ihtiyarlık şefaati, mükâfat-mücazat, iman nuru ve ruh, intizam, hayat-ı ebediye, esma ve risalet); toplam 232.
+- 2026-11-28: ders_233-239 (esbab perdesi, başıboş değil, vahdani fiiller, arı, yüzdeki sikke, kâinat insan için, fiil-i icad); toplam 239.
