@@ -12169,5 +12169,635 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_189",
+  "kategori": "nefis",
+  "baslik": "Dimağ Bir Santral, Kalp Bir Çekirdek",
+  "giris": "Bir şehrin bütün telefon hatları tek bir santrale bağlıdır; o santral, şehrin konuşmalarının merkezidir. Bediüzzaman, Yirmi Dokuzuncu Mektub'da insanın beynini böyle bir santrale, kalbini ise kâinattaki sayısız hakikatin çekirdeğine benzetir. İnsanlığın bütün ilimleri beynin bu merkezî yerini, velilerin yazdığı sayısız kitap da kalbin bu derinliğini gösterir.",
+  "aciklama": "Kur'an-ı Kerîm, kalbin öğüt almadaki yerini şöyle bildirir: “Doğrusu bunda, kalbi olana veya hazır bulunup kulak verene ders vardır.” Kalp, yalnız kan pompalayan bir organ değil, hakikati kavrayan ve öğüt alan manevi bir merkezdir. İnsan, aklıyla kâinatı tanır, kalbiyle de onun Sahibini sever.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirmi Dokuzuncu Mektub'unun Dokuzuncu Kısım'ında şöyle der: “Evet, insanın kafasındaki dimağı, hadsiz telsiz telgraf ve telefonların santral denilen merkezi misillü, kâinâtın bir nevi‘ merkez-i ma‘nevîsi olduğunu gösteren hadsiz fünûn ve ulûm-u beşeriye olduğu gibi..” Eserdeki anlatımın özetine göre insanlığın ortaya koyduğu sayısız ilim, insan beyninin kâinatı kuşatan bir merkez gibi yaratıldığını gösterir. Aynı yerde kalp hakkında da şöyle denir: “insanın mâhiyetindeki kalbi dahi, hadsiz hakāik-i kâinâtın mazharı, medârı, çekirdeği olduğunu, had ve hesaba gelmeyen ehl-i velâyetin yazdıkları milyonlarla nûrânî kitaplar gösteriyorlar.” Yani nasıl ki ilimler aklın genişliğini gösteriyorsa, velilerin kalp hayatına dair yazdıkları da kalbin derinliğini gösterir.",
+  "kainattanDelil": "Küçük bir tohum, koca bir ağacın bütün bilgisini taşır. Bir hücrenin çekirdeği, bütün vücudun planını saklar. Bir kütüphanenin kataloğu, binlerce kitabın özetini içerir. Kâinatta küçük merkezler, büyük bütünlerin özünü taşır; insanın beyni ve kalbi de kâinatın manevi merkezleri gibidir. Bir pusulanın küçük iğnesi, koca bir gemiyi doğru yöne çevirir.",
+  "hikmet": "İnsanın beyni, kâinatın bir nevi manevi merkezi olan bir santral gibidir. Bunu insanlığın sayısız ilmi gösterir. İnsanın kalbi, kâinattaki sayısız hakikatin mazharı ve çekirdeğidir. Bunu da velilerin yazdığı milyonlarca nurani kitap gösterir. Aklını ilimle, kalbini imanla besleyen insan, kâinatı hem tanır hem sever; böylece bu iki merkezin hakkını vermiş olur.",
+  "kendimize": "Aklımı ve kalbimi bu kadar değerli birer merkez olarak görüyor muyum? Kalbimi hakikatlerin çekirdeği olarak besliyor muyum, yoksa onu boş şeylerle mi dolduruyorum? Aklımla öğrendiklerimi kalbime indirip yaşıyor muyum? Bugün aklıma ve kalbime hangi gıdaları verdim?",
+  "hayat": "Bugün bir ilim öğrendiğimizde onu bir de kalbimizle düşünüp duaya çevirmek bu dersin uygulamasıdır. Kalbimizi kirleten bir alışkanlıktan, örneğin dedikodudan veya kötü bakıştan uzak durmak, bu çekirdeği korumaktır. Bir velinin hayatını veya sözlerini okumak da kalbin derinliğini keşfetmenin güzel bir yoludur.",
+  "ders": "İnsanın dimağı kâinatın bir nevi merkez-i manevisi, kalbi ise hadsiz hakaik-i kâinatın mazharı, medarı ve çekirdeğidir.",
+  "tefekkurSorusu": "Bugün kalbimi hangi hakikatle besledim?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+   "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+   "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+   "kaynak": "Âl-i İmrân, 3/8"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "insanKainat"
+  ],
+  "kavramlar": [
+   "Dimağ",
+   "Kalp",
+   "Merkez-i Manevi",
+   "Mazhar",
+   "Velayet"
+  ],
+  "kaynaklar": [
+   "Kâf, 50/37",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Dokuzuncu Mektub, Dokuzuncu Kısım"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dokuzuncu Mektub'a göre insanın dimağı neye benzer?",
+    "secenekler": [
+     "Boş bir odaya",
+     "Telsiz telgraf ve telefonların santraline",
+     "Bir taşa",
+     "Bir aynaya"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dokuzuncu Mektub'a göre kalbin hakaik-i kâinatın çekirdeği olduğunu ne gösterir?",
+    "secenekler": [
+     "Ehl-i velayetin yazdıkları milyonlarla nurani kitap",
+     "Tıp kitapları",
+     "Tarih kitapları",
+     "Şiirler"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre kalbi olan ve kulak veren için öğüt vardır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_190",
+  "kategori": "nefis",
+  "baslik": "Nurlanmış Acz ile Yeryüzünün Halifesi",
+  "giris": "İnsanın zayıflığı, fakirliği ve korkuları onu hayvanlardan bile daha zavallı gösterebilir; aklı ise ona hüzün ve endişe taşıyan bir yük olabilir. Ama Bediüzzaman, Nur'un İlk Kapısı'nda aynı aczin, fakrın ve aklın iman nuruyla aydınlandığında insanı bütün mahlukatın üstüne çıkardığını söyler. Nurlanmış bir acz ile insan, nazlı bir sultan ve yeryüzünün halifesi olur.",
+  "aciklama": "Kur'an-ı Kerîm insanın yeryüzündeki makamını şöyle bildirir: “Rabbin meleklere Ben yeryüzünde bir halife var edeceğim demişti.” Melekler bu halifenin bozgunculuk yapabileceğini söylediğinde Allah, “Ben şüphesiz sizin bilmediklerinizi bilirim” buyurmuştur. İnsanın halifeliği, onun gücünden değil, aczini ve fakrını bilerek Rabbine yönelmesinden doğar.",
+  "risalePerspektifi": "Bediüzzaman, Nur'un İlk Kapısı'nın On Dördüncü Ders'inde şöyle der: “İnsanı bütün hayvanâtın madûnuna düşüren.. insanın hadsiz za‘f ve aczi, fakr ve ihtiyâcı.. hem insanı bütün hayvanlardan daha bedbaht hale getiren.. vâsıta-i nakl-i hüzün ve elem-i havf ve gam olan insanın aklı o nur ile nurlandığı vakit..” Eserdeki anlatımın özetine göre insanın zayıflığı ve aklı, imansız olduğunda onun için bir azap kaynağıdır; ama iman nuruyla aydınlandığında aynı özellikler onu yüceltir. Aynı yerde bu değişim şöyle anlatılır: “insan, bütün hayvanât, bütün mahlûkāt üstünde.. o nurlanmış acz ve fakr ve akıl ile ve niyâz ile nâzenîn bir sultân.. ve fizar ile nazdâr bir halîfe-i zemin olur.” Yani acizliğini bilen ve Rabbine yalvaran insan, O'nun sevgili kulu olur.",
+  "kainattanDelil": "Bir çocuk, zayıflığı ve ihtiyacı sayesinde ailesinin en sevgili ferdi olur; ağladığında herkes ona koşar. Bir kuş yavrusu, açık gagasıyla annesinin bütün şefkatini çeker. Kurak toprak, susuzluğuyla yağmurun en çok sevindirdiği yer olur. Kâinatta acizlik ve ihtiyaç, rahmetin en çok yöneldiği yerlerdir.",
+  "hikmet": "İnsanın sınırsız zayıflığı, fakirliği ve aklı, imansız olduğunda onu hayvanlardan daha bedbaht yapar. Bu özellikler iman nuruyla aydınlandığında insanı bütün mahlukatın üstüne çıkarır. Nurlanmış acz, fakr ve akıl ile insan, niyaz eden nazlı bir sultan ve yalvaran sevgili bir halife olur. İnsanın yüceliği, Rabbine olan ihtiyacını bilmesindedir.",
+  "kendimize": "Zayıflığım ve ihtiyaçlarım beni ümitsizliğe mi, yoksa Rabbime mi götürüyor? Aklım bana endişe mi, yoksa marifet mi taşıyor? Yeryüzünün halifesi olarak vazifemi biliyor muyum?",
+  "hayat": "Bugün bir ihtiyacımızı hissettiğimizde onu bir yalvarış fırsatına çevirip Rabbimize dua etmek bu dersin uygulamasıdır. Aklımıza gelen bir endişeyi tevekkül ile Rabbimize bırakmak, aklı nurlandırmaktır. Yeryüzünde halife olduğumuzu hatırlayıp çevremize, hayvanlara ve bitkilere karşı sorumlu davranmak da bu makamın gereğidir.",
+  "ders": "İnsanın acz, fakr ve aklı iman nuruyla nurlandığında, insan bütün mahlukat üstünde niyaz ile nazenin bir sultan ve fizar ile nazdar bir halife-i zemin olur.",
+  "tefekkurSorusu": "Bugün hangi acizliğimi iman nuruyla bir niyaza çevirdim?",
+  "dua": {
+   "arapca": "رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍۢ فَقِيرٌۭ",
+   "okunus": "Rabbi innî limâ enzelte ileyye min hayrın fekîr",
+   "anlam": "Musa onların davarlarını suladı. Sonra gölgeye çekildi: “Rabbim! Doğrusu bana indireceğin hayra muhtacım” dedi.",
+   "kaynak": "Kasas, 28/24"
+  },
+  "konular": [
+   "insanKainat",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Acz",
+   "Fakr",
+   "Halife-i Zemin",
+   "Niyaz",
+   "Nur-u İman"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/30",
+   "Bediüzzaman Said Nursî, Nur'un İlk Kapısı, On Dördüncü Ders"
+  ],
+  "sinav": [
+   {
+    "soru": "On Dördüncü Ders'e göre insanın aklı nurlanmadığında nedir?",
+    "secenekler": [
+     "Bir sevinç kaynağı",
+     "Vasıta-i nakl-i hüzün ve elem-i havf ve gam",
+     "Bir hazine",
+     "Bir oyuncak"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Dördüncü Ders'e göre nurlanmış acz ve fakr ile insan ne olur?",
+    "secenekler": [
+     "Nazenin bir sultan ve nazdar bir halife-i zemin",
+     "Bir köle",
+     "Bir hayvan",
+     "Bir yabancı"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah yeryüzünde bir halife var edeceğini meleklere bildirmiştir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_191",
+  "kategori": "kuran",
+  "baslik": "Bütün Semavi Kitaplar Haşri Tasdik Eder",
+  "giris": "Bir mahkemede bir dava hakkında binlerce şahit aynı şeyi söylerse, o davanın doğruluğundan şüphe kalmaz. Bediüzzaman, Dokuzuncu Şuâ'da haşir hakikatinin de böyle şahitleri olduğunu söyler: Kur'an'dan önceki bütün semavi kitaplar, kendi devirlerine uygun olarak haşri kesinlikle kabul etmiş ve Kur'an'ın bu konudaki davasını binlerce imza ile tasdik etmiştir.",
+  "aciklama": "Kur'an-ı Kerîm önceki kitapları tasdik ettiğini şöyle bildirir: “Kendisinden önceki Kitapları tasdik eden Hak Kitap'ı sana indirdi. Önceden insanlara yol gösterici olarak Tevrat ve İncil'i de indirmişti.” Bütün semavi kitaplar aynı kaynaktan gelmiştir ve temel hakikatlerde birleşir. Ahiret inancı da bu ortak hakikatlerin başında gelir.",
+  "risalePerspektifi": "Bediüzzaman, Şuâ'lar'ın Dokuzuncu Şuâ'sının İkinci Nokta'sında şöyle der: “Evet, birer zamana ve birer devre hükmeden bütün semâvî suhuflar ve mukaddes kitaplar dahi bütün istikbâle ve umûm zamanlara hükümrân olan Kur’ân’ın tafsîlâtla ve îzâhâtla ve tekrar ile beyân ve isbat ettiği hakîkat-i haşriyeyi,” kendi asırlarına göre kabul etmişlerdir. Eserdeki anlatımın özetine göre önceki kitaplar belli zamanlara ve topluluklara hitap ettiği için haşri daha kısa ve kapalı bir şekilde anlatmış; bütün zamanlara hitap eden Kur'an ise onu ayrıntılı olarak açıklamıştır. Aynı yerde bu şahitliğin gücü şöyle gösterilir: Onlar bu hakikati “asırlarına ve zamanlarına göre o hakîkati kat‘î kabûl ile beraber tafsîlâtsız ve perdeli ve muhtasar bir sûrette beyân edip.. ve fakat kuvvetli bir tarzda iddiâ ve isbatları, Kur’ân’ın da‘vâsını binlerle imza ile tasdîk ederler.”",
+  "kainattanDelil": "Bir ağacın her dalı farklı yöne uzansa da hepsi aynı kökten beslenir. Bir ışık kaynağından çıkan ışınlar farklı açılarda yayılsa da hepsi aynı kaynağı gösterir. Bir nehrin kolları farklı bölgelerden gelse de hepsi aynı denize akar. Kâinatta aynı kaynaktan gelen şeyler, farklı görünseler de aynı hakikati gösterir.",
+  "hikmet": "Bütün semavi kitaplar, haşir hakikatini kendi devirlerine göre kesinlikle kabul etmiştir. Önceki kitaplar onu kısa ve kapalı, Kur'an ise ayrıntılı ve açık bir şekilde anlatmıştır. Bu kitapların şahitliği, Kur'an'ın haşir davasını binlerce imza ile tasdik eder. Ahiret inancı, bütün peygamberlerin ortak mesajıdır.",
+  "kendimize": "Ahiret inancımın bütün peygamberlerin ortak mesajı olduğunu düşünüyor muyum? Kur'an'ın önceki kitapları tasdik ettiğini bilmek bana nasıl bir güven veriyor? Haşre olan imanımı güçlendirmek için delilleri araştırıyor muyum?",
+  "hayat": "Bugün Kur'an'da önceki peygamberlerin ahiret hakkındaki sözlerini anlatan bir ayeti, örneğin Hz. İbrahim'in veya Hz. Musa'nın duasını okumak bu dersin uygulamasıdır. Farklı dinlerden insanlarla konuşurken ahiret inancının ortak bir değer olduğunu hatırlamak, diyalogda güzel bir başlangıç olabilir. Ahiret inancımızı tazelemek için kısa bir tefekkür yapmak da güzel bir alışkanlıktır.",
+  "ders": "Bütün semavi suhuf ve mukaddes kitaplar, Kur'an'ın tafsilatla beyan ettiği hakikat-i haşriyeyi kat'i kabul ederek Kur'an'ın davasını binlerle imza ile tasdik ederler.",
+  "tefekkurSorusu": "Bugün haşre olan imanımı hangi delille güçlendirdim?",
+  "dua": {
+   "arapca": "غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ ٱلْمَصِيرُ",
+   "okunus": "Ğufrâneke rabbenâ ve-ileyke l-mesîr",
+   "anlam": "Peygamber ve inananlar, ona Rabb'inden indirilene inandı. Hepsi Allah'a, meleklerine, kitaplarına, peygamberlerine inandı. “Peygamberleri arasından hiçbirini ayırdetmeyiz, işittik, itaat ettik, Rabbimiz! Affını dileriz, dönüş Sanadır” dediler.",
+   "kaynak": "Bakara, 2/285"
+  },
+  "konular": [
+   "kuran",
+   "ahiret"
+  ],
+  "kavramlar": [
+   "Suhuf",
+   "Kütüb-ü Mukaddese",
+   "Haşir",
+   "Tasdik",
+   "Tafsilat"
+  ],
+  "kaynaklar": [
+   "Âl-i İmrân, 3/3-4",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Dokuzuncu Şuâ, İkinci Nokta"
+  ],
+  "sinav": [
+   {
+    "soru": "Dokuzuncu Şuâ'ya göre önceki semavi kitaplar haşri nasıl beyan etmiştir?",
+    "secenekler": [
+     "Hiç bahsetmemiştir",
+     "Kat'i kabul ile tafsilatsız ve muhtasar bir surette",
+     "İnkâr ederek",
+     "Şüpheyle"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Dokuzuncu Şuâ'ya göre önceki kitaplar Kur'an'ın davasını nasıl tasdik eder?",
+    "secenekler": [
+     "Binlerle imza ile",
+     "Hiç tasdik etmez",
+     "Gizlice",
+     "Yalnız bir yerde"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Kur'an kendisinden önceki kitapları tasdik eder.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_192",
+  "kategori": "risaleler",
+  "baslik": "Ehl-i Hakkın Dayanağı, Ehl-i Dünyanın İhtiyacı",
+  "giris": "Sağlam bir dayanağı olan insan, başkalarına muhtaç olmadan ayakta durur; dayanağı olmayan ise her yardım eli uzatana sıkıca sarılır. Bediüzzaman, Yirminci Lem'a'da ehl-i hak ile ehl-i dünya arasındaki bir farkı bu açıdan açıklar: Ehl-i hak, Allah'a imandan gelen tevekkül ve teslimiyetle başkalarına muhtaç olmaz; ehl-i dünya ise asıl dayanağını unuttuğu için yardımcılara şiddetle ihtiyaç duyar.",
+  "aciklama": "Kur'an-ı Kerîm, tevekkül edenlerin sözünü şöyle aktarır: “İnsanlar onlara: Düşmanınız olan insanlar size karşı bir ordu topladılar, onlardan korkun dediler. Bu, onların imanını artırdı da: Allah bize yeter. O ne güzel Vekil'dir dediler.” Allah'a güvenen insan, kalabalıklardan korkmaz ve insanlara sarılmak zorunda kalmaz. Onun gücü, Rabbine olan güveninden gelir.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın Yirminci Lem'a'sının Beşinci Sebeb'inde şöyle der: “Evet, ehl-i hak, gāyet kuvvetli bir nokta-i istinâd olan îmân-ı billâhtan gelen tevekkül ve teslîm ile, başkalara arz-ı ihtiyâç edip, muâvenet ve yardımlarını istemez. İstese de gāyet fedâkârâne yapışmaz.” Eserdeki anlatımın özetine göre bu güçlü dayanak, ehl-i hakkı insanlara muhtaç olmaktan kurtarır; ama aynı zamanda onların birbirine sıkıca sarılma ihtiyacını da azaltır ve bu yüzden aralarındaki birlik bazen zayıflar. Aynı yerde ehl-i dünyanın hali şöyle anlatılır: “Ehl-i dünyâ, dünya işlerinde hakîkî nokta-i istinâdlarından gaflet ettiklerinden, zaaf ve acze düşüp, şiddetli bir sûrette yardımcılara ihtiyâçlarını hissederler.” Bu yüzden ehl-i dünya birbirine daha sıkı yapışır. Ehl-i hakkın vazifesi ise tevekkülü korurken kardeşlerine de sahip çıkmaktır.",
+  "kainattanDelil": "Kökleri derin olan bir ağaç, fırtınada başka ağaçlara yaslanmaz; kökleri zayıf olan ağaçlar ise birbirine dayanarak ayakta durur. Kendi ışığı olan güneş başka bir ışığa muhtaç değildir; ay ise güneşin ışığına muhtaçtır. Kâinatta sağlam dayanağı olan bağımsız durur; ama birlikte hareket etmenin güzelliğini de kaybetmemelidir.",
+  "hikmet": "Ehl-i hak, Allah'a imandan gelen tevekkül ve teslimiyetle başkalarına muhtaç olmaz. Bu yüzden yardım istese de ona fedakârca sarılmaz. Ehl-i dünya ise asıl dayanağını unuttuğu için yardımcılara şiddetle ihtiyaç duyar ve birbirine sıkıca yapışır. Ehl-i hakkın vazifesi, tevekkülü korurken kardeşleriyle birliği de güçlendirmektir.",
+  "kendimize": "İşlerimde Allah'a mı, yoksa insanlara mı dayanıyorum? Tevekkülüm beni kardeşlerimden uzaklaştırıyor mu, yoksa onlarla birliğimi güçlendiriyor mu? Bir hayır işinde arkadaşlarıma ne kadar sahip çıkıyorum?",
+  "hayat": "Bugün bir işe başlarken ‘Hasbünallah ve ni'mel vekîl’ demek bu dersin uygulamasıdır. Tevekkülümüzü korurken bir hizmet arkadaşımıza destek vermek ve onunla birlikte çalışmak, ehl-i hakkın birliğini güçlendirir. Kardeşlerimizin yardımını kibirle reddetmemek ve onlara minnetle teşekkür etmek de güzel bir dengedir.",
+  "ders": "Ehl-i hak, iman-ı billahtan gelen tevekkül ve teslimle başkalara arz-ı ihtiyaç etmez; ehl-i dünya ise hakiki nokta-i istinadından gaflet ettiğinden yardımcılara şiddetle muhtaç olur.",
+  "tefekkurSorusu": "Bugün Rabbime tevekkül ederken kardeşlerime nasıl sahip çıktım?",
+  "dua": {
+   "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+   "okunus": "Hasbiye'llâhu lâ ilâhe illâ huve 'aleyhi tevekkeltu vehuve rabbu l-'arşi l-'azîm",
+   "anlam": "Eğer yüz çevirirlerse de ki: “Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.”",
+   "kaynak": "Tevbe, 9/129"
+  },
+  "konular": [
+   "ihlasUhuvvet",
+   "kader"
+  ],
+  "kavramlar": [
+   "Tevekkül",
+   "Teslim",
+   "Nokta-i İstinad",
+   "Muavenet",
+   "Ehl-i Hak"
+  ],
+  "kaynaklar": [
+   "Âl-i İmrân, 3/173",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirminci Lem'a, Beşinci Sebeb"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirminci Lem'a'ya göre ehl-i hak neden başkalara arz-ı ihtiyaç etmez?",
+    "secenekler": [
+     "Zengin olduğu için",
+     "İman-ı billahtan gelen tevekkül ve teslim ile",
+     "Kibirli olduğu için",
+     "Yalnız olduğu için"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirminci Lem'a'ya göre ehl-i dünya neden yardımcılara şiddetle muhtaçtır?",
+    "secenekler": [
+     "Hakiki nokta-i istinadından gaflet ettiği için",
+     "Çok güçlü olduğu için",
+     "Merhametli olduğu için",
+     "İlimli olduğu için"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre müminler düşman korkusu karşısında 'Allah bize yeter' demişlerdir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_193",
+  "kategori": "kainat",
+  "baslik": "Zayıflık İçinde Mutlak Bir Kuvvet",
+  "giris": "Yumuşacık bir filiz, toprağı ve hatta taşı yararak gün ışığına çıkar. İnce bir kök, kayaları çatlatabilir. Bediüzzaman, Otuz Üçüncü Mektub'da bu manzaralardan bir delil çıkarır: Kâinattaki varlıklarda mutlak bir zayıflık içinde mutlak bir kuvvetin, mutlak bir acizlik içinde de mutlak bir kudretin eserleri görünür.",
+  "aciklama": "Kur'an-ı Kerîm, ölü toprağın dirilişini şöyle anlatır: “Yeryüzünü görürsün ki kupkurudur; fakat Biz ona su indirdiğimiz zaman harekete geçer, kabarır, her güzel bitkiden çift çift yetiştirir.” Kupkuru topraktan yumuşacık bitkilerin fışkırması, bu bitkilerin kendi güçleriyle değil, onları yaratan kudretle hareket ettiğini gösterir.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Otuz Üçüncü Mektub'unun On Dördüncü Pencere'sinde şöyle der: “Evet, kâinâttaki mevcûdâta bakıyoruz ve görüyoruz ki, zaaf-ı mutlak içinde bir kuvvet-i mutlaka tezâhürâtı var. Ve acz-i mutlak içinde bir kudret-i mutlakanın âsârı görünüyor.” Eserdeki anlatımın özetine göre bir tohumun kendisi son derece zayıf ve âcizdir; ama onun gösterdiği işler, bir dağı yerinden oynatacak kadar büyük bir gücün işaretidir. Aynı yerde bunun bir misali verilir: “Meselâ, nebâtâtın tohumlarında ve köklerindeki ukde-i hayatiyelerinin intibâhları zamanında gösterdikleri hârika vaz‘iyetleri gibi.” Bu zayıflık ile bu kuvvet bir arada bulunamaz; demek ki o kuvvet tohumun değil, onu yaratan Kadîr-i Mutlak'ındır.",
+  "kainattanDelil": "Baharda toprağı yarıp çıkan bir filiz, kendisinden kat kat ağır olan toprağı kaldırır. Bir ağacın ince kökleri, kayaların arasından yol bularak onları çatlatır. Küçük bir karınca, kendi ağırlığının elli katı yükü taşır. Yumurtanın içindeki civciv, sert kabuğu kırarak dışarı çıkar. Kâinatta en zayıf varlıklar, kendi güçlerini aşan işler yapar.",
+  "hikmet": "Kâinattaki varlıklarda mutlak bir zayıflık içinde mutlak bir kuvvet görünür. Mutlak bir acizlik içinde mutlak bir kudretin eserleri vardır. Tohumların ve köklerin uyanışında gösterdikleri harika durumlar bunun açık örnekleridir. Bu kuvvet, varlıkların kendisine değil, onları yaratan Kadîr-i Mutlak'a aittir. Zayıflığında kuvvet bulan, bu kuvvetin sahibine şükreder ve kibre düşmez.",
+  "kendimize": "Kendi zayıflığımı düşündüğümde bana verilen gücün kaynağını hatırlıyor muyum? Zayıf bir filizin toprağı yardığını görünce Rabbimin kudretini düşünüyor muyum? Zor bir işte acizliğimi bilip Rabbimden güç istiyor muyum?",
+  "hayat": "Bugün bir bitkinin filizlenişini veya bir kökün toprağa tutunuşunu birkaç dakika gözlemlemek bu dersin uygulamasıdır. Zor bir işe başlarken ‘Rabbim, ben âcizim, güç Senden’ diye dua etmek, acizliği bir kuvvet kaynağına bağlamaktır. Çocuklarımıza bir tohum ekip onun büyüyüşünü birlikte izlemek de güzel bir tefekkür dersidir.",
+  "ders": "Kâinattaki mevcudatta zaaf-ı mutlak içinde bir kuvvet-i mutlaka tezahüratı ve acz-i mutlak içinde bir kudret-i mutlakanın asarı görünüyor.",
+  "tefekkurSorusu": "Bugün hangi zayıf varlıkta Rabbimin kuvvetini gördüm?",
+  "dua": {
+   "arapca": "ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ",
+   "okunus": "Allâhumme mâlike l-mulki tutî l-mulke men teşâu vetenzi'u l-mulke mimmen teşâu vetu'ızzu men teşâu vetuzillu men teşâu biyedike l-hayru inneke 'alâ kulli şeyin kadîrun tûlicu el-leyle fî n-nehârı vetûlicu n-nehâra fî el-leyli vetuhrıcu l-haye mine l-meyiti vetuhrıcu l-meyite mine l-hayi veterzuku men teşâu biğayrı hısâb",
+   "anlam": "De ki: “Mülkün sahibi olan Allah'ım! Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir. Doğrusu Sen, her şeye Kadir'sin. Geceyi gündüze, gündüzü geceye geçirirsin; ölüden diri, diriden ölü çıkarırsın; dilediğini hesapsız rızıklandırırsın”.",
+   "kaynak": "Âl-i İmrân, 3/26-27"
+  },
+  "konular": [
+   "tabiat",
+   "esma"
+  ],
+  "kavramlar": [
+   "Zaaf",
+   "Kuvvet-i Mutlaka",
+   "Acz",
+   "Kudret",
+   "Ukde-i Hayatiye"
+  ],
+  "kaynaklar": [
+   "Hac, 22/5",
+   "Bediüzzaman Said Nursî, Mektûbât, Otuz Üçüncü Mektub, On Dördüncü Pencere"
+  ],
+  "sinav": [
+   {
+    "soru": "Otuz Üçüncü Mektub'a göre zaaf-ı mutlak içinde ne tezahür eder?",
+    "secenekler": [
+     "Daha büyük bir zaaf",
+     "Kuvvet-i mutlaka",
+     "Hiçbir şey",
+     "Tesadüf"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Otuz Üçüncü Mektub'da hangi misal verilir?",
+    "secenekler": [
+     "Nebatatın tohumlarının ve köklerinin uyanışı",
+     "Dağların yüksekliği",
+     "Denizlerin derinliği",
+     "Yıldızların sayısı"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre kupkuru toprak, üzerine su indirildiğinde harekete geçer ve kabarır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_194",
+  "kategori": "nefis",
+  "baslik": "Fâniyim, Fâni Olanı İstemem",
+  "giris": "Kırık bir kaba su konmaz; zayıf bir dala yük asılmaz. Fâni bir insanın, kendisi gibi fâni şeylere kalbini bağlaması da böyledir. Bediüzzaman, On Yedinci Söz'de nefsine bir münacat öğretir: Fâniyim, fâni olanı istemem; âcizim, âciz olanı istemem. İsterim, fakat bir bâkî dost isterim. Bu sözler, kalbin gerçek arzusunun ne olduğunu gösterir.",
+  "aciklama": "Kur'an-ı Kerîm, müminin bütün hayatını Allah'a adamasını şöyle öğretir: “De ki: Namazım, ibadetlerim, hayatım ve ölümüm, alemlerin Rabbi Allah içindir.” Kalbini Allah'a bağlayan insan, fâni şeylerin kaybından sarsılmaz. Çünkü o, sevgisini kaybolmayacak bir Zat'a bağlamıştır.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in On Yedinci Söz'ünün İkinci Makam'ında şöyle der: “Ey nefsim! Kalbim gibi ağla ve bağır ve de ki: Fânîyim, fânî olanı istemem. Âcizim, âciz olanı istemem. Rûhumu Rahmân’a teslîm eyledim, gayrı istemem.” Eserdeki anlatımın özetine göre insanın kalbi, kendisi gibi fâni ve âciz olan şeylerle tatmin olmaz; onun aradığı, bâkî ve kudretli bir dosttur. Aynı yerde kalbin asıl arzusu şöyle ifade edilir: “İsterim, fakat bir yâr-i bâkî isterim. Zerreyim, fakat bir şems-i sermed isterim. Hiç ender hiçim, fakat bu mevcûdâtı umûmen isterim.” Yani zerre kadar küçük olan insan, ebedî bir güneşi ister; hiçlikte olan insan, bütün varlığı ister. Bu sonsuz arzu, ancak her şeyin sahibi olan Bâkî Zat ile tatmin olur.",
+  "kainattanDelil": "Bir ayçiçeği, gün boyunca güneşe döner; çünkü onun hayatı güneşe bağlıdır. Bir damla, okyanusa kavuştuğunda kaybolmaz, aksine büyük bir bütünün parçası olur. Bir yolcu, geçici konaklama yerlerine değil, asıl evine bağlıdır. Kâinatta küçük ve fâni olan, kalıcılığını ancak büyük ve bâkî olana bağlanarak bulur. Bir mum ne kadar parlak yansa da sonunda erir; güneş ise her sabah yeniden doğar. Akıllı yolcu, yolunu mumun değil güneşin ışığına göre belirler.",
+  "hikmet": "İnsan fânidir; fâni olana bağlanmak ona huzur vermez. İnsan âcizdir; âciz olana dayanmak onu kurtarmaz. Kalbin asıl arzusu, bâkî bir dost ve ebedî bir güneştir. Zerre kadar küçük olan insan, ancak her şeyin sahibi olan Bâkî Zat ile tatmin olur. Fâniye bağlanan her kayıpta yıkılır; Bâkî olana bağlanan ise her kayıpta teselli bulur.",
+  "kendimize": "Kalbimi hangi fâni şeylere bağladım? Âciz olan şeylere dayandığım için hayal kırıklığına uğradığım oldu mu? Ruhumu Rahmân'a teslim ettiğimi söyleyebiliyor muyum? Sevdiklerimi Rabbimin bir emaneti olarak görüp onları O’nun adına seviyor muyum?",
+  "hayat": "Bugün kalbimizi meşgul eden bir dünyevî şeyi düşünüp ‘Bu fâni, ben bâkî olanı isterim’ demek bu dersin uygulamasıdır. Bir kaybın ardından üzüntümüzü Rabbimize arz edip O'nun bâkî dostluğuna sığınmak, kalbi teselli eder. Namazdan sonra ‘Namazım, ibadetim, hayatım ve ölümüm Allah içindir’ ayetini okumak da güzel bir alışkanlıktır.",
+  "ders": "Fâniyim, fâni olanı istemem; âcizim, âciz olanı istemem; isterim, fakat bir yâr-i bâki isterim; zerreyim, fakat bir şems-i sermed isterim.",
+  "tefekkurSorusu": "Bugün kalbimi hangi fâni şeyden alıp Bâkî olana bağladım?",
+  "dua": {
+   "arapca": "رَبَّنَآ إِنَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ ٱلنَّارِ",
+   "okunus": "Rabbenâ innenâ âmennâ fe-iğfir lenâ zunûbenâ vekınâ 'azâbe n-nâr",
+   "anlam": "Onlar ki, “Rabbimiz! Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru” diyen, sabreden, doğru olan, gönülden kulluk eden, hayra sarfeden ve seher vakitlerinde bağışlanma dileyenlerdir.",
+   "kaynak": "Âl-i İmrân, 3/16"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "ahiret"
+  ],
+  "kavramlar": [
+   "Fâni",
+   "Bâki",
+   "Yâr-i Bâki",
+   "Şems-i Sermed",
+   "Teslim"
+  ],
+  "kaynaklar": [
+   "En'âm, 6/162",
+   "Bediüzzaman Said Nursî, Sözler, On Yedinci Söz, İkinci Makam"
+  ],
+  "sinav": [
+   {
+    "soru": "On Yedinci Söz'e göre fâni olan insan neyi istemez?",
+    "secenekler": [
+     "Bâki olanı",
+     "Fâni olanı",
+     "Rahmeti",
+     "Cenneti"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Yedinci Söz'e göre zerre olan insan ne ister?",
+    "secenekler": [
+     "Bir şems-i sermed",
+     "Bir taş",
+     "Bir gölge",
+     "Hiçbir şey"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre müminin namazı, ibadeti, hayatı ve ölümü Âlemlerin Rabbi Allah içindir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_195",
+  "kategori": "iman",
+  "baslik": "Bütün Dünyayla Doymayan Latife",
+  "giris": "Bir insana bütün dünyanın servetini verseniz, bir süre sonra yine bir boşluk hisseder. Bu boşluk, onun içinde dünyadan daha büyük bir şeyin bulunduğunu gösterir. Bediüzzaman, Zehre Risâlesi'nde insanın içinde öyle bir latife olduğunu söyler ki, ebedden ve ebedî Zat'tan başkasına razı olamaz. Bu latife, insanın bütün duygularının sultanıdır.",
+  "aciklama": "Kur'an-ı Kerîm, Rabbine kavuşan huzurlu nefse şöyle seslenir: “Ey huzur içinde olan can! O, senden, sen de O'ndan hoşnut olarak Rabbine dön!” İnsanın kalbi, ancak Rabbine dönüşte gerçek huzuru bulur. Dünyanın hiçbir nimeti, bu derin ihtiyacı tatmin edemez.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Zehre Risâlesi'nin Üçüncü Nota'sında şöyle der: “Sen kendi mâhiyetine bak ki, senin latîfelerin içinde öyle bir latîfe var ki, ebedden ve ebedî zâttan başkasına râzı olamaz. Ondan başkasına teveccüh edemez. Mâsivâsına tenezzül etmez.” Eserdeki anlatımın özetine göre insanın içindeki bu en derin duygu, Allah'tan başka hiçbir şeyle doymaz; bütün diğer duygular da ona tabidir. Aynı yerde bu latifenin gücü şöyle gösterilir: “Bütün dünyayı ona versen, o fıtrî ihtiyacı tatmîn edemez. O şey ise, senin duygularının ve latîfelerinin sultânıdır.” Ve insana şu tavsiye yapılır: “Fâtır-ı Hakîm’in emrine mutî‘ olan o sultânına itâat et, kurtul!”",
+  "kainattanDelil": "Bir pusula iğnesi, ne kadar çevrilirse çevrilsin yine kuzeyi gösterir. Bir su damlası, ne kadar yükseğe çıkarılsa da aşağı akmak ister. Bir göçmen kuş, nerede olursa olsun yuvasına dönme arzusu taşır. Kâinatta her şeyin bir asıl yönü vardır; insanın kalbinin asıl yönü de Rabbidir. Bir çocuk ne kadar oyuncakla oyalansa da sonunda annesini arar; çünkü onun asıl ihtiyacı şefkattir.",
+  "hikmet": "İnsanın içinde, ebedden ve ebedî Zat'tan başkasına razı olmayan bir latife vardır. Bu latife, masivaya tenezzül etmez ve bütün dünya verilse bile tatmin olmaz. O, insanın bütün duygularının sultanıdır. Yaratıcı'nın emrine itaat eden bu sultana uyan, kurtulur. Dünya nimetleri bu sultanı doyuramaz; onu ancak marifetullah, muhabbetullah ve Rabbine kulluk doyurur. Bu latifeyi dinleyen, boşluk hissinden kurtulur.",
+  "kendimize": "İçimdeki boşluğu dünyevî şeylerle doldurmaya mı çalışıyorum? Kalbimin derinliğindeki Rabbe olan özlemi hissediyor muyum? Duygularımın sultanı olan bu latifeye kulak veriyor muyum? Bu derin özlemi bastırmak için dünyevî meşguliyetlere mi sığınıyorum?",
+  "hayat": "Bugün bir dünyevî arzumuz tatmin olduktan sonra içimizde kalan boşluğu fark edip onu bir zikir veya dua ile doldurmak bu dersin uygulamasıdır. Sessiz bir yerde birkaç dakika kalbimizi dinleyip onun Rabbe olan özlemini hissetmek, bu latifeyi uyandırır. Gecenin bir vaktinde kısa bir münacat yapmak da kalbin sultanını beslemenin güzel bir yoludur.",
+  "ders": "İnsanın latifeleri içinde öyle bir latife var ki ebedden ve ebedi Zat'tan başkasına razı olamaz; bütün dünyayı ona versen o fıtri ihtiyacı tatmin edemez.",
+  "tefekkurSorusu": "Bugün kalbimin hangi derin özlemini Rabbime yönelttim?",
+  "dua": {
+   "arapca": "۞ رَبِّ قَدْ ءَاتَيْتَنِى مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۖ تَوَفَّنِى مُسْلِمًۭا وَأَلْحِقْنِى بِٱلصَّـٰلِحِينَ",
+   "okunus": "Rabbi kad âteytenî mine l-mulki ve'allemtenî min tevîli l-ehâdîsi fâtıra s-semâvâti vel-erdı ente veliyyî fî d-dunyâ vel-âhırati teveffenî muslimen ve-elhıknî bil-sâlihîn",
+   "anlam": "“Rabbim! Bana hükümranlık verdin, rüyaların yorumunu öğrettin. Ey göklerin ve yerin yaradanı! Dünya ve ahirette işlerimi yoluna koyan sensin; benim canımı müslüman olarak al ve beni iyilere kat.”",
+   "kaynak": "Yûsuf, 12/101"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "iman"
+  ],
+  "kavramlar": [
+   "Latife-i Rabbaniye",
+   "Ebed",
+   "Masiva",
+   "Sultan",
+   "Fıtrat"
+  ],
+  "kaynaklar": [
+   "Fecr, 89/27-28",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Zehre Risâlesi, Üçüncü Nota"
+  ],
+  "sinav": [
+   {
+    "soru": "Zehre Risâlesi'ne göre insanın latifeleri içindeki bir latife neye razı olamaz?",
+    "secenekler": [
+     "Ebedi Zat'a",
+     "Ebedden ve ebedi Zat'tan başkasına",
+     "Hiçbir şeye",
+     "Dünyaya"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Zehre Risâlesi'ne göre bu latife nedir?",
+    "secenekler": [
+     "Duyguların ve latifelerin sultanı",
+     "Bir köle",
+     "Bir yük",
+     "Bir hayal"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre huzur içindeki nefis Rabbine hoşnut olarak döner.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_196",
+  "kategori": "kainat",
+  "baslik": "Yeryüzünü Kuşatan Hikmet, İnayet, Rahmet ve Rızık",
+  "giris": "Bir sofraya bakan misafir, yemeklerin güzelliğinden, düzeninden ve bolluğundan ev sahibinin cömertliğini anlar. Bediüzzaman, Otuz Üçüncü Mektub'da yeryüzünü böyle bir sofraya benzetir ve dört hakikati birlikte görmeye çağırır: Her şeyi kuşatan hikmet, her şeye uzanan inayet, bütün canlılara yayılan rahmet ve hepsini besleyen rızık. Bu dördü birlikte bakıldığında, bir Sâni-i Hakîm, Kerîm, Rahîm ve Rezzak'ı gösterir.",
+  "aciklama": "Kur'an-ı Kerîm Allah'ın her şeyi bildiğini şöyle hatırlatır: “Yaratan bilmez olur mu? O, Latif'tir, haberdardır.” Her canlıya ihtiyacına göre verilen rızık ve her varlığa uygun verilen donanım, onu yaratanın her şeyi bildiğini ve her şeyi gözettiğini gösterir. Yeryüzündeki her nimet, bu ilmin ve rahmetin bir eseridir.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Otuz Üçüncü Mektub'unun On Yedinci Pencere'sinde şöyle der: “Evet, zemînin yüzünde kemâl-i hikmetle terbiye edilen ve kemâl-i inâyet ile tezyîn edilen ve kemâl-i rahmetle taltîf edilen ve kemâl-i şefkat ile iâşe edilen bütün mahlûkāt, birer bir Sâni‘-i Hakîm, Kerîm, Rahîm, Rezzâk’ın vücûbuna şehâdet ve vahdetine işâret ettikleri gibi..” Eserdeki anlatımın özetine göre yeryüzündeki her mahluk tek başına bir şahittir; ama bunların hepsini kuşatan genel hikmet, inayet ve rahmet birlikte bakıldığında, şahitlik çok daha güçlü olur. Aynı yerde bu bütünlüklü bakışa şöyle davet edilir: “ve rahmet ve hikmet ve inâyeti de tazammun eden umûm zîhayata şâmil bir sûrette ve gāyet kerîmâne bir tarzda olan rızık ve iâşe-i umûmiyeyi birden nazara al, bak.” Böyle bakan, yeryüzünün tamamında tek bir Rezzak'ın elini görür.",
+  "kainattanDelil": "Her sabah milyonlarca kuş, bir gün önce nerede yiyecek bulacağını bilmeden uyanır ve rızkını bulur. Denizin derinliklerindeki balıklar, çölün kumundaki böcekler ve dağların tepesindeki keçiler, hepsi kendilerine uygun bir rızıkla beslenir. Bir bebek doğmadan önce annesinin göğsünde onun için süt hazırlanır. Kâinatta rızkın bu genişliği ve düzeni, tek bir Rezzak'ın eseridir.",
+  "hikmet": "Yeryüzündeki bütün mahluklar hikmetle terbiye edilir, inayetle süslenir, rahmetle okşanır ve şefkatle beslenir. Her biri bir Sâni-i Hakîm, Kerîm, Rahîm ve Rezzak'ın varlığına şahitlik eder. Bu hikmet, inayet, rahmet ve rızık birlikte bakıldığında tevhid daha açık görünür. Yaratan, yarattığını elbette bilir.",
+  "kendimize": "Soframa gelen rızkı tek tek mi görüyorum, yoksa bütün yeryüzündeki rızık düzeninin bir parçası olarak mı? Rabbimin Rezzak ismini hayatımda ne kadar hissediyorum? Rızkımdan başkalarına pay vererek bu düzene katılıyor muyum?",
+  "hayat": "Bugün yemek yerken, önümüzdeki yiyeceklerin kaç farklı yerden ve kaç canlının emeğiyle geldiğini düşünmek bu dersin uygulamasıdır. Bir kuşa veya bir sokak hayvanına yiyecek vermek, Rezzak'ın rızık dağıtımında bir vasıta olmaktır. ‘Yâ Rezzâk’ diyerek rızkımızı Rabbimizden istemek ve verdiğine şükretmek de güzel bir alışkanlıktır.",
+  "ders": "Zeminin yüzünde hikmetle terbiye, inayetle tezyin, rahmetle taltif ve şefkatle iaşe edilen bütün mahlukat bir Sâni-i Hakim, Kerim, Rahim, Rezzak'ın vücubuna şehadet eder.",
+  "tefekkurSorusu": "Bugün soframda hangi rızıkta Rezzak'ın elini gördüm?",
+  "dua": {
+   "arapca": "رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّـٰلِحِينَ",
+   "okunus": "Rabbi evzi'nî en eşkura ni'meteke elletî en'amte 'aleyye ve'alâ vâlideyye ve-en e'mele sâlihan terdâhu ve-edhılnî birahmetike fî 'ıbâdike s-sâlihîn",
+   "anlam": "Süleyman, onun sözüne hafifçe güldü ve: “Rabbim! Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl. Rahmetinle, beni iyi kullarının arasına koy” dedi.",
+   "kaynak": "Neml, 27/19"
+  },
+  "konular": [
+   "tabiat",
+   "esma"
+  ],
+  "kavramlar": [
+   "Hikmet",
+   "İnayet",
+   "Rahmet",
+   "Rızık",
+   "Rezzak"
+  ],
+  "kaynaklar": [
+   "Mülk, 67/14",
+   "Bediüzzaman Said Nursî, Mektûbât, Otuz Üçüncü Mektub, On Yedinci Pencere"
+  ],
+  "sinav": [
+   {
+    "soru": "Otuz Üçüncü Mektub'a göre zeminin yüzündeki mahlukat neye şehadet eder?",
+    "secenekler": [
+     "Tesadüfe",
+     "Bir Sâni-i Hakim, Kerim, Rahim, Rezzak'ın vücubuna",
+     "Tabiata",
+     "Kendi güçlerine"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Otuz Üçüncü Mektub'a göre rızık ve iaşe-i umumiye nasıldır?",
+    "secenekler": [
+     "Gayet kerimane bir tarzda",
+     "Gelişigüzel",
+     "Eksik",
+     "Yalnız insanlara"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre yaratan, yarattığını bilir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_197",
+  "kategori": "ahiret",
+  "baslik": "Ölümü Öldürebilirsen Dinden Müstağni Olabilirsin",
+  "giris": "Bazı insanlar dine ihtiyaçları olmadığını, onsuz da yaşayabileceklerini söyler. Bediüzzaman, Nur'un İlk Kapısı'nda bu iddiaya sert ama derin bir cevap verir: Eğer ölümü öldürebilir, yok oluşu dünyadan kaldırabilir, insanın acizliğini ve fakirliğini giderebilir ve ebede giden yolu kapatabilirsen, o zaman dinden müstağni olabilirsin. Yoksa sus ve Kur'an'ın dediğini dinle.",
+  "aciklama": "Kur'an-ı Kerîm ölümün kaçınılmazlığını şöyle bildirir: “De ki: Doğrusu kendisinden kaçtığınız ölüm mutlaka karşınıza çıkacaktır; sonra; görüleni de görülmeyeni de bilen Allah'a döndürüleceksiniz, O size işlediklerinizi haber verecektir.” Hiç kimse ölümden kaçamaz. Ölüm gerçeği, her insanı hayatın anlamını ve ölümden sonrasını düşünmeye mecbur eder; bu sorulara cevap veren ise dindir.",
+  "risalePerspektifi": "Bediüzzaman, Nur'un İlk Kapısı'nda şöyle seslenir: “Ey gāfil! Eğer ölümü öldürebilirsen.. zevâli dahi dünyadan izâle edebilirsen ve acz ve fakrı beşerden kaldırabilirsen ve katıü’t-tarîklik yapmak için zîhayatın, husûsan insanın ebede giden yolunu seddedecek bir çâre bulmuşsan, dinden istiğnâ ve dinin şeâirini terketmeye insanları da‘vet edebilirsin.” Eserdeki anlatımın özetine göre insan, ölümü, yok oluşu, acizliği ve fakirliği ortadan kaldıramadıkça dine muhtaçtır; çünkü bu gerçekler karşısında teselli, ümit ve yol gösteren yalnız dindir. Aynı yerde bu gerçeği unutanlara şöyle denir: “Yoksa ey sersem! Sus, Kur’ân-ı Azîmüşşan’ın dediğini dinle.” Bu ifade, sert olduğu kadar şefkatlidir; çünkü insanı, kaçamayacağı gerçeklerle yüzleşmeye ve onlara cevap veren Kur'an'a kulak vermeye çağırır.",
+  "kainattanDelil": "Her canlı doğar, büyür, yaşlanır ve ölür; bu kanundan hiçbir canlı kaçamaz. En güçlü ağaç bile bir gün kurur. En büyük imparatorluklar bile bir gün yıkılır. Kâinatta ölüm ve yok oluş, kaçınılmaz bir kanundur. Bu kanun karşısında insanın teselli bulacağı tek kaynak, onu ebedî bir hayata bağlayan imandır.",
+  "hikmet": "İnsan ölümü öldüremez, yok oluşu dünyadan kaldıramaz, acizliğini ve fakirliğini gideremez. Bu yüzden dine ve dinin şiarlarına muhtaçtır. Ebede giden yolu kapatacak hiçbir çare yoktur. Bu gerçekler karşısında insana düşen, Kur'an'ın dediğini dinlemektir.",
+  "kendimize": "Ölüm gerçeğini düşündüğümde dine olan ihtiyacımı hissediyor muyum? Acizliğimi ve fakirliğimi bilerek Rabbime yöneliyor muyum? Kur'an'ın ölüm ve ahiret hakkındaki sözlerine ne kadar kulak veriyorum?",
+  "hayat": "Bugün ölümü ve ahireti düşünmekten kaçmak yerine, onlara dair bir ayeti okuyup tefekkür etmek bu dersin uygulamasıdır. Dinin bir şiarını, örneğin bir vakit namazı veya bir zikri, onun bize verdiği teselliyi düşünerek yerine getirmek, dine olan ihtiyacımızı hissetmektir. Dinden uzak bir arkadaşımıza bu hakikati sevgiyle hatırlatmak da güzel bir vazifedir.",
+  "ders": "Ölümü öldürebilir, zevali dünyadan izale edebilir ve acz ve fakrı beşerden kaldırabilirsen dinden istiğna edebilirsin; yoksa sus, Kur'an'ın dediğini dinle.",
+  "tefekkurSorusu": "Bugün ölüm gerçeği bana dine olan ihtiyacımı nasıl hatırlattı?",
+  "dua": {
+   "arapca": "رَّبَّنَآ إِنَّنَا سَمِعْنَا مُنَادِيًۭا يُنَادِى لِلْإِيمَـٰنِ أَنْ ءَامِنُوا۟ بِرَبِّكُمْ فَـَٔامَنَّا ۚ رَبَّنَا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ ٱلْأَبْرَارِ رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ ٱلْقِيَـٰمَةِ ۗ إِنَّكَ لَا تُخْلِفُ ٱلْمِيعَادَ",
+   "okunus": "Rabbenâ innenâ semi'nâ munâdiyen yunâdî lilîmâni en âminû birabbikum feâmennâ rabbenâ fe-iğfir lenâ zunûbenâ vekeffir 'annâ seyyiâtinâ veteveffenâ me'a l-ebrârı rabbenâ veâtinâ mâ ve'adttenâ 'alâ rusulike velâ tuhzinâ yevme l-kıyâmeti inneke lâ tuhlifu l-mî'âd",
+   "anlam": "“Rabbimiz! Doğrusu biz Rabbinize inanın diye inanmaya çağıran bir çağırıcıyı işittik de iman ettik. Rabbimiz! Günahlarımızı bize bağışla, kötülüklerimizi ört, canımızi iyilerle beraber al”. “Rabbimiz! Peygamberlerinle vadettiklerini bize ver, kıyamet günü bizi rezil etme. Sen şüphesiz sözünden caymazsın”.",
+   "kaynak": "Âl-i İmrân, 3/193-194"
+  },
+  "konular": [
+   "ahiret",
+   "kuran"
+  ],
+  "kavramlar": [
+   "İstiğna",
+   "Zeval",
+   "Acz",
+   "Fakr",
+   "Şeair"
+  ],
+  "kaynaklar": [
+   "Cuma, 62/8",
+   "Bediüzzaman Said Nursî, Nur'un İlk Kapısı"
+  ],
+  "sinav": [
+   {
+    "soru": "Nur'un İlk Kapısı'na göre insan dinden ne zaman istiğna edebilir?",
+    "secenekler": [
+     "Zengin olduğunda",
+     "Ölümü öldürebilir, zevali ve acz ve fakrı kaldırabilirse",
+     "Çok bildiğinde",
+     "Hiçbir zaman şartı yoktur"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Nur'un İlk Kapısı'na göre bunu yapamayan ne yapmalıdır?",
+    "secenekler": [
+     "Kur'an'ın dediğini dinlemelidir",
+     "Dinden uzaklaşmalıdır",
+     "Susmamalıdır",
+     "Kendi fikrine uymalıdır"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre kaçılan ölüm mutlaka karşıya çıkacaktır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_198",
+  "kategori": "iman",
+  "baslik": "Bütün Dinlerin Ortak Şahitliği: Melekler",
+  "giris": "Hiç görmediğimiz uzak bir ülkenin insanlarının varlığından şüphe etmeyiz; çünkü oradan gelenlerin ve oraya gidenlerin haberleri bize ulaşmıştır. Bediüzzaman, Onbirinci Şuâ'da meleklerin varlığının da böyle bir şahitlikle sabit olduğunu söyler: Hz. Âdem'den beri bütün semavi kitaplar ve dinler meleklerin varlığında ittifak etmiş, her asırda meleklerle konuşmalar sayısız insan tarafından nakledilmiştir.",
+  "aciklama": "Kur'an-ı Kerîm meleklere imanı müminlerin vasıfları arasında sayar: “Peygamber ve inananlar, ona Rabb'inden indirilene inandı. Hepsi Allah'a, meleklerine, kitaplarına, peygamberlerine inandı.” Meleklere iman, imanın altı rüknünden biridir. Onlar, gözle görülmeseler de varlıkları kesin olan, Allah'ın emirlerini yerine getiren nurani varlıklardır.",
+  "risalePerspektifi": "Bediüzzaman, Şuâ'lar'ın Onbirinci Şuâ'sının Onbirinci Mes'ele'sinde şöyle der: “Evet, zaman-ı Âdemden beri bütün semâvî kitapların ve dinlerin meleklerin vücûdlarında ve ubûdiyetlerinde ittifâk etmeleri.. ve bütün asırlarda, melekler ile konuşmalar ve muhâvereler, kesretli tevâtür ile insanlar içinde vukû‘ bulduğunu nakil ve rivâyet etmeleri..” Eserdeki anlatımın özetine göre bu ortak şahitlik, meleklerin varlığını en az görmediğimiz uzak ülkelerin insanlarının varlığı kadar kesin bir şekilde isbat eder. Aynı yerde bu benzetme şöyle tamamlanır: Bu şahitlik, “görmediğimiz Amerika insanlarının vücûdları gibi meleklerin vücûdlarını ve bizimle alâkadâr olduklarını kat‘î isbat eder.” Yani melekler yalnız var olmakla kalmaz, bizimle de ilgilidirler; Kur’an da onların amellerimizi yazdığını ve müminler için dua ettiğini bildirir.",
+  "kainattanDelil": "Rüzgârı göremeyiz, ama yaprakların hareketinden onun varlığını anlarız. Elektriği göremeyiz, ama yanan lambadan onun varlığını biliriz. Mıknatısın çekim gücü görünmez, ama demir parçalarının ona koşmasından onu tanırız. Kâinatta görünmeyen birçok varlık ve kuvvet, eserleriyle bilinir; melekler de böyledir.",
+  "hikmet": "Hz. Âdem'den beri bütün semavi kitaplar ve dinler meleklerin varlığında ve kulluğunda ittifak etmiştir. Her asırda meleklerle konuşmalar, sayısız insan tarafından nakledilmiştir. Bu ortak şahitlik, meleklerin varlığını görmediğimiz uzak ülkelerin insanlarının varlığı kadar kesin isbat eder. Melekler bizimle ilgilidir ve amellerimize şahittir.",
+  "kendimize": "Meleklerin varlığına imanım ne kadar canlı? Yanımda amellerimi yazan meleklerin varlığını günlük hayatımda hatırlıyor muyum? Görmediğim şeylere iman etmenin değerini biliyor muyum?",
+  "hayat": "Bugün sağ ve sol omzumuzdaki melekleri hatırlayarak sözlerimize dikkat etmek bu dersin uygulamasıdır. Bir iyilik yaparken meleklerin onu yazdığını düşünmek, ihlâsı ve sevinci artırır. Meleklerin müminler için yaptığı duayı, örneğin Mü'min Suresi'ndeki duayı okumak da onlarla bağımızı güçlendirir.",
+  "ders": "Zaman-ı Âdem'den beri bütün semavi kitapların ve dinlerin meleklerin vücudunda ittifakı, meleklerin vücudlarını ve bizimle alakadar olduklarını kat'i isbat eder.",
+  "tefekkurSorusu": "Bugün meleklerin şahitliğini hangi davranışımda hatırladım?",
+  "dua": {
+   "arapca": "رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍۢ رَّحْمَةًۭ وَعِلْمًۭا فَٱغْفِرْ لِلَّذِينَ تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ عَذَابَ ٱلْجَحِيمِ رَبَّنَا وَأَدْخِلْهُمْ جَنَّـٰتِ عَدْنٍ ٱلَّتِى وَعَدتَّهُمْ وَمَن صَلَحَ مِنْ ءَابَآئِهِمْ وَأَزْوَٰجِهِمْ وَذُرِّيَّـٰتِهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+   "okunus": "Rabbenâ vesi'te kulle şeyin rahmeten ve'ılmen fe-iğfir lillezîne tâbû ve-ittebe'û sebîleke vekıhim 'azâbe l-cehîmi rabbenâ ve-edhılhum cennâti 'adnin elletî ve'adttehum vemen saleha min âbâihim ve-ezvâcihim vezurrıyyâtihim inneke ente l-'azîzu l-hakîm",
+   "anlam": "Arşı yüklenen ve çevresinde bulunanlar, Rablerini överek tesbih ederler; O'na inanırlar. Müminler için: “Rabbimiz! İlmin ve rahmetin herşeyi içine almıştır. Tevbe edip Senin yoluna uyanları bağışla; onları cehennemin azabından koru” diye bağışlanma dilerler. “Rabbimiz! Müminleri ve babalarından, eşlerinden, soylarından iyi olanları, kendilerine söz verdiğin Adn cennetlerine koy; şüphesiz güçlü olan, Hakim olan ancak Sensin”",
+   "kaynak": "Mü'min, 40/7-8"
+  },
+  "konular": [
+   "iman",
+   "nubuvvet"
+  ],
+  "kavramlar": [
+   "Melaike",
+   "İttifak",
+   "Tevatür",
+   "Semavi Kitaplar",
+   "Şahitlik"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/285",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Onbirinci Şuâ, Onbirinci Mes'ele"
+  ],
+  "sinav": [
+   {
+    "soru": "Onbirinci Şuâ'ya göre bütün semavi kitaplar ve dinler neyde ittifak etmiştir?",
+    "secenekler": [
+     "Meleklerin vücudlarında ve ubudiyetlerinde",
+     "Dünyanın şeklinde",
+     "Tarihlerde",
+     "Hiçbir şeyde"
+    ],
+    "dogru": 0
+   },
+   {
+    "soru": "Onbirinci Şuâ'ya göre meleklerin varlığının kesinliği neye benzetilir?",
+    "secenekler": [
+     "Bir rüyaya",
+     "Görmediğimiz Amerika insanlarının vücudlarına",
+     "Bir hayale",
+     "Bir masala"
+    ],
+    "dogru": 1
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre müminler Allah'a, meleklerine, kitaplarına ve peygamberlerine inanırlar.",
+    "dogru": true
+   }
+  ]
  }
 ]
