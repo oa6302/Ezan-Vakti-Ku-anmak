@@ -64,3 +64,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-28: ders_270-276 (yıldızların şehadeti, şehitlerin hayatı, Yunus duası, Peygamberin davası, ebedi gençlik, umumi dua, iman nuru ve nakışlar); toplam 276.
 - 2026-11-28: ders_277-283 (berzahta baki sünbül, fani ömür baki ömür, ef'al-esma-sıfat, hıfz kanunu, duaya cevap, nimet ehadiyeti, her an huzur); toplam 283.
 - 2026-11-28: ders_284-292 (ma'buda layık yalnız O, fermanın turrası, fıtrattaki arzular, yalnız O'na abd ol, muhabbet reşhaları, gençlik yazı kabir kışı, zikr-i hafi ve cehri, fazl ve adl, beş muhabbet); toplam 292.
+- 2026-11-28: ders_293-300 (sinek kanadı nur, yüz yirmi bin muhbir-i sadık, sehpa süsü, Mi'rac meyvesi, marziyat-ı İlahiye, şeytanın tahribatı, mescid-i ekber, organların şahitliği); toplam 300.
