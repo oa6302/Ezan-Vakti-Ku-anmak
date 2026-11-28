@@ -71,3 +71,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-28: ders_325-332 (lütuf ve kahrın tecellisi, güneşi güneşten sormak, kazanca sevinme, nura muaraza edilmez, Allah münezzeh, bir dakika lezzet, gaflet nazarı, iman ve amel-i salih); toplam 332.
 - 2026-11-28: ders_333-340 (iman hüsn-ü münezzeh, kırık kalbin duası, insan mikyas, ibadet en latif nisbet, hürriyet-i şer'iye, nisyan ve kısa ömür, cennet-cehennem iki semere, insanın cevheri ve hakkı); toplam 340.
 - 2026-11-28: ders_341-348 (hayat kâşif, hasenatı şahsa isnad, kıyamet dünyanın eceli, hayır asıl şer tebei, müminin ruhu kıyametten evvel, Allah namına iftira, rıza ihlas ile, dünyanın ahirete bakan yüzü); toplam 348.
+- 2026-11-28: ders_349-356 (gençliğe şükür, bir dakikada günler, sabırsız düşer, kâinatın mayası muhabbet, insan hazine aynası, ihlas ve tesanüd, beslenme ve izzet-i nefs, ecram-ı semaviye); toplam 356.
