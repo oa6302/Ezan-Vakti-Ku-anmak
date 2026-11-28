@@ -43,3 +43,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-28: ders_095-108 (rububiyet-ubudiyet, acz ve fakr, Yunus duası, hizmet boşa gitmez, namaza iltica, hayretten iltica, saadet duası, ilim çarşısı, fânide bâkî yol, kalp çekirdeği, ruhi mesafe, bir saat namaz, Eyyûb münacatı, hayvana ilham); toplam 108.
 - 2026-11-28: ders_109-117 (rıza ölçüsü, umumi nimet, rızık taahhüdü, Peygamberin dirilmesi, insan kervanı, sahradaki yolcu, nübüvvet mesleği, iman bağı, enenin Hakka bakan yüzü); toplam 117.
 - 2026-11-28: ders_118-125 (cilt gibi şeriat, hayat ışığı, Medrese-i Yusufiye, seni bilen rahmet, iki cihan saadeti, teavün, bahar mektubu, her yaşta şefkat); toplam 125.
+- 2026-11-28: ders_126-132 (kabre yaklaşırken münacat, midenin hamdi, hâlis muhabbet, bekânın lezzeti, sineğin hakkı ve haşir, ölüm meleği perdedir, kelimat-ı İlahiyenin dereceleri); toplam 132.
