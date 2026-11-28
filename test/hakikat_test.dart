@@ -249,8 +249,10 @@ void main() {
       await t.pumpAndSettle();
       expect(find.text('Günün Hakikati'), findsOneWidget);
       expect(find.text('Detaylı incele'), findsOneWidget);
+      // Konu kartinda bulunur; gunun dersi ayni konuyu tasiyorsa etiket bir
+      // kez de onun uzerinde gorunur (tarihe bagli), o yuzden en az bir.
       expect(
-          find.text('Peygamberlik ve Hz. Muhammed (s.a.v.)'), findsOneWidget);
+          find.text('Peygamberlik ve Hz. Muhammed (s.a.v.)'), findsWidgets);
       expect(find.text('Risale-i Nur Külliyatı'), findsWidgets);
       expect(t.takeException(), isNull);
       await t.binding.setSurfaceSize(null);
