@@ -15887,5 +15887,384 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_248",
+  "kategori": "kainat",
+  "baslik": "Kâinatı Saran Perde Perde Rahmet",
+  "giris": "Güzel bir ziyafet salonunda önce sağlam bir bina, sonra süslü duvarlar, sonra ışıklı perdeler ve en sonunda zengin bir sofra görülür. Her katman, ev sahibinin ayrı bir sıfatını gösterir. Bediüzzaman, Yirmi İkinci Söz'ün Yedinci Lem'a'sında kâinatı böyle katman katman anlatır: hikmet perdesi, inayet perdesi, rahmet hullesi ve hepsinin üstünde kurulmuş umumi bir rızık sofrası.",
+  "aciklama": "Kur'an-ı Kerîm bu nimetlere dikkat çeker: “Allah'ın göklerde olanları da, yerde olanları da buyruğunuz altına verdiğini, nimetlerini açık ve gizli olarak size bolca ihsan ettiğini görmez misiniz?” Nimetlerin bir kısmı açıkça görünür, bir kısmı ise gizlidir. Hepsi, insanı Rabbini tanımaya ve O'na şükretmeye davet eder.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi İkinci Söz'ünün İkinci Makamı'nda, Yedinci Lem'a'da şöyle der: “Evet, kasıd ve şuûr ve irâdeyi gösteren bir perde-i hikmet, umûm kâinâtı kaplamış ve o perde-i hikmet üstünde lütuf ve tezyîn ve tahsîn ve ihsânı gösteren bir perde-i inâyet serilmiştir.” Eserdeki anlatımın özetine göre kâinattaki her şey hem bir maksatla yapılmış hem de süslenmiş, güzelleştirilmiştir; bu da ustanın hem hikmetini hem de lütfunu gösterir. Aynı yerde bu katmanlar şöyle devam eder: “Ve o müzeyyen perde-i inâyet üstünde kendini sevdirmek ve tanıttırmak ve in‘âm ve ikrâm etmek lem‘alarını gösteren bir hulle-i rahmet, kâinâtı içine almıştır.” Ve en üstte, şefkati ve terbiyeyi gösteren umumi bir rızık sofrası dizilmiştir. Bu katmanların her biri, tek bir Rahîm ve Hakîm Zat'ın sıfatlarını ilan eder.",
+  "kainattanDelil": "Bir elma ağacı önce bir düzen içinde büyür; bu hikmettir. Sonra çiçekleriyle süslenir; bu inayettir. Ardından tatlı meyveler verir; bu rahmettir. En sonunda o meyve sofralarımıza gelir; bu da rızıktır. Tek bir ağaçta bile bu dört katman bir arada görünür; bütün kâinat bu katmanlarla doludur.",
+  "hikmet": "Kâinatın tamamını, kasıt ve iradeyi gösteren bir hikmet perdesi kaplamıştır. Onun üstüne lütuf ve süslemeyi gösteren bir inayet perdesi serilmiştir. Onun üstünde kendini sevdirmeyi ve tanıtmayı gösteren bir rahmet hullesi vardır. En üstte ise şefkat ve terbiyeyi gösteren umumi bir rızık sofrası kurulmuştur.",
+  "kendimize": "Bir nimete bakarken onun arkasındaki hikmeti, inayeti ve rahmeti görebiliyor muyum? Sofraya otururken bu katman katman ikramı düşünüyor muyum? Rabbimin kendini sevdirmek ve tanıtmak istediğini fark ediyor muyum?",
+  "hayat": "Bugün sofraya otururken önümüzdeki yemeğin hikmetle yaratıldığını, güzel bir şekilde süslendiğini ve rahmetle bize ulaştırıldığını düşünüp şükretmek bu dersin uygulamasıdır. Bir meyve yerken onun renk, koku ve tadını ayrı ayrı fark etmek, inayetin inceliğini gösterir. Sofradan bir lokmayı bir ihtiyaç sahibiyle paylaşmak da rahmete aynalık etmektir.",
+  "ders": "Kâinatı kasıd ve iradeyi gösteren bir perde-i hikmet kaplamış; üstüne perde-i inayet serilmiş; onun üstünde bir hulle-i rahmet ve en üstte bir sofra-i erzak-ı umumiye dizilmiştir.",
+  "tefekkurSorusu": "Bugün hangi nimette hikmet, inayet ve rahmeti bir arada gördüm?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ مَـٰلِكِ يَوْمِ ٱلدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+   "okunus": "El-hamdu lillehi rabbi l-'âlemîne el-rahmâni r-rahîmi mâliki yevmi d-dîni iyyâke ne'budu ve-iyyâke neste'în",
+   "anlam": "Hamd, Alemlerin Rabbi Allah'a mahsustur. O Rahman ve Rahim'dir, Din Gününün sahibidir. Ancak Sana kulluk eder ve yalnız Senden yardım dileriz.",
+   "kaynak": "Fâtiha, 1/2-5"
+  },
+  "konular": [
+   "esma",
+   "sukurSabir"
+  ],
+  "kavramlar": [
+   "Perde-i Hikmet",
+   "Perde-i İnayet",
+   "Hulle-i Rahmet",
+   "Sofra-i Erzak",
+   "Tezyin"
+  ],
+  "kaynaklar": [
+   "Lokmân, 31/20",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi İkinci Söz, İkinci Makam, Yedinci Lem'a"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi İkinci Söz'e göre kasıd, şuur ve iradeyi gösteren ve umum kâinatı kaplayan nedir?",
+    "secenekler": [
+     "Perde-i gaflet",
+     "Perde-i hikmet",
+     "Perde-i tesadüf",
+     "Perde-i tabiat"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi İkinci Söz'e göre kendini sevdirmek ve tanıttırmak lem'alarını gösteren nedir?",
+    "secenekler": [
+     "Hulle-i rahmet",
+     "Kör kuvvet",
+     "Tabiat",
+     "Tesadüf"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah nimetlerini açık ve gizli olarak bolca ihsan etmiştir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_249",
+  "kategori": "kuran",
+  "baslik": "Kur'an'da Taklit Emaresi Yoktur",
+  "giris": "Bir sultanın sözünü taklit eden biri ne kadar uğraşsa da, sesinden, tavrından ve sözlerinin seçiminden sahtekârlığı anlaşılır. Bediüzzaman, Yirmi Beşinci Söz'de Kur'an'a bu açıdan bakar: Kur'an'da kâinatın Yaratıcısı ciddi, hakiki ve yüce bir şekilde konuşur ve konuşturur. Onda taklidi gösterecek hiçbir işaret yoktur. Eğer bir insan Allah'ı kendi fikriyle konuştursaydı, binlerce taklit izi görünürdü.",
+  "aciklama": "Kur'an-ı Kerîm kendisini düşünmeye davet eder: “Kuran'ı durup düşünmüyorlar mı? Eğer o Allah'tan başkasından gelseydi, onda çok aykırılıklar bulurlardı.” Bir insan sözü, uzun zaman içinde ve farklı konularda söylendiğinde mutlaka çelişkiler taşır. Kur'an ise yirmi üç yılda indiği hâlde baştan sona ahenk içindedir.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Beşinci Söz'ünün Birinci Şu'le'sinde şöyle der: “Evet, Kur’ân’da kâinât Sâni‘inin pek ciddî ve hakîkî ve ulvî ve hak olarak konuşması ve konuşturması görünüyor. Taklîdi îmâ edecek hiç bir emâre bulunmuyor. O söyler ve söylettirir.” Eserdeki anlatımın özetine göre Kur'an'ın her ifadesinde izzet ve azamet sahibi bir Zat'ın üslubu görünür; bu üslubu bir insanın taklit etmesi imkânsızdır. Bediüzzaman, Müseyleme örneğini verir: Bir insan haddini aşıp Allah'ı kendi fikriyle konuşturmaya kalksa, elbette binlerce taklit ve sahtekârlık alameti ortaya çıkar. Bunun sebebini şöyle açıklar: “Çünkü en pest bir hâlette en yüksek tavrı takınanların her hâleti taklîdciliğini gösterir.”",
+  "kainattanDelil": "Bir yapay çiçek uzaktan gerçek gibi görünür; ama yaklaşınca kokusuzluğu ve cansızlığı hemen anlaşılır. Gerçek bir çiçek ise ne kadar yakından bakılsa o kadar ince bir sanat gösterir. Taklit, yakından incelendikçe kusurlarını ele verir; hakikat ise incelendikçe daha parlak görünür. Kur'an da incelendikçe derinleşen bir hakikattir.",
+  "hikmet": "Kur'an'da kâinatın Yaratıcısı ciddi, hakiki, yüce ve hak olarak konuşur ve konuşturur. Onda taklidi gösterecek hiçbir işaret yoktur. Bir insan Allah'ı kendi fikriyle konuşturmaya kalksa, binlerce taklit alameti görünürdü. Çünkü en düşük hâlde en yüksek tavrı takınanın her hâli taklitçiliğini gösterir.",
+  "kendimize": "Kur'an'ı okurken onun ilahi üslubunu hissedebiliyor muyum? Kur'an'ı bir insan sözü gibi okuyup geçiyor muyum? Onun ciddiyetine ve yüceliğine uygun bir edeple mi okuyorum? Kur’an’ın sözlerini hayatıma ne kadar taşıyorum?",
+  "hayat": "Bugün Kur'an'dan bir sayfa okuyup onun üslubundaki azameti ve ciddiyeti düşünmek bu dersin uygulamasıdır. Bir ayetin mealini okuyup onu bir insan sözüyle karşılaştırmak, farkı açıkça gösterir. Kur'an'ı abdestli ve saygıyla okumak da onun yüceliğine uygun güzel bir edeptir.",
+  "ders": "Kur'an'da kâinat Sani'inin ciddi, hakiki ve ulvi olarak konuşması görünür; taklidi ima edecek hiçbir emare bulunmaz; en pest halde en yüksek tavrı takınanın her hali taklitçiliğini gösterir.",
+  "tefekkurSorusu": "Bugün Kur'an'ın hangi ifadesinde ilahi üslubu hissettim?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+   "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+   "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+   "kaynak": "Âl-i İmrân, 3/8"
+  },
+  "konular": [
+   "kuran",
+   "nubuvvet"
+  ],
+  "kavramlar": [
+   "Taklit",
+   "Emare",
+   "Üslub",
+   "İzzet",
+   "Ceberut"
+  ],
+  "kaynaklar": [
+   "Nisâ, 4/82",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Beşinci Söz, Birinci Şu'le"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Beşinci Söz'e göre Kur'an'da taklidi ima edecek emare var mıdır?",
+    "secenekler": [
+     "Çok vardır",
+     "Hiçbir emare bulunmuyor",
+     "Bazı yerlerde vardır",
+     "Bilinmez"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Beşinci Söz'e göre en pest halde en yüksek tavrı takınanların her hali neyi gösterir?",
+    "secenekler": [
+     "Taklitçiliğini",
+     "Doğruluğunu",
+     "Yüceliğini",
+     "Ciddiyetini"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Kur'an Allah'tan başkasından gelseydi, onda çok aykırılıklar bulunurdu.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_250",
+  "kategori": "nefis",
+  "baslik": "Karanlık Hüzün ve Nurlu Hüzün",
+  "giris": "Her insan hüzünlenir; ama her hüzün aynı değildir. Bir hüzün insanı karanlığa ve ümitsizliğe sürükler, bir başka hüzün ise onu Rabbine yaklaştırır. Bediüzzaman, Yirmi Beşinci Söz'de hüznü ikiye ayırır: Biri sahipsizlikten ve dostsuzluktan gelen karanlık bir hüzündür. Diğeri ise dostlar var olduğu hâlde onlardan ayrı kalmanın verdiği özlemli bir hüzündür ve bu hüzün Kur'an'ın verdiği hüzündür.",
+  "aciklama": "Kur'an-ı Kerîm Hz. Yakub'un evladından ayrı kaldığı zamanki sözünü aktarır: “Ben üzüntü ve tasamı yalnız Allah'a açarım. Allah katından, sizin bilmediklerinizi bilirim.” Hz. Yakub'un hüznü ümitsiz bir hüzün değildi; o, Rabbine yönelen, kavuşmayı bekleyen bir özlemdi. Mümin de hüznünü Rabbine açar ve O'ndan ümit keser.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Beşinci Söz'ünün Birinci Şu'le'sinde şöyle der: “Hüzün ise iki kısımdır. Ya fakdü’l-ahbâbdan gelir. Yani ahbâbsızlıktan, sâhibsizlikten gelen karanlıklı bir hüzündür ki, dalâlet-âlûd, tabiatperest, gafletpîşe olan medeniyetin edebiyatının verdiği hüzündür.” Eserdeki anlatımın özetine göre Allah'ı tanımayan bir bakış, kâinatı sahipsiz ve insanı yapayalnız görür; bu da çaresiz ve karanlık bir hüzün doğurur. Aynı yerde ikinci hüzün şöyle anlatılır: “İkinci hüzün, firâku’l-ahbâbdan gelir, yani ahbâb var, firâkında müştâkāne bir hüzün verir. İşte şu hüzün hidâyet-edâ, nûr-efşân Kur’ân’ın verdiği hüzündür.” Yani mümin de hüzünlenir; ama onun hüznü ümitsiz değil, kavuşmayı bekleyen bir özlemdir.",
+  "kainattanDelil": "Gece karanlığında yolunu kaybetmiş biri ile evine dönmek için sabahı bekleyen biri aynı karanlıktadır; ama birinin kalbi korku, diğerininki ümit doludur. Kış mevsimi bir ağaç için bir son değil, bahara hazırlıktır. Kâinatta aynı hâl, ona nasıl bakıldığına göre ya karanlık ya da nurlu bir manaya bürünür.",
+  "hikmet": "Hüzün iki kısımdır. Birincisi dostsuzluktan ve sahipsizlikten gelen karanlık bir hüzündür; bu, gaflet içindeki tabiatperest bir edebiyatın verdiği hüzündür. İkincisi, dostlar var olduğu hâlde onlardan ayrı kalmanın verdiği özlemli bir hüzündür; bu da hidayet veren, nur saçan Kur'an'ın verdiği hüzündür.",
+  "kendimize": "Hüzünlendiğim zaman hüznüm beni ümitsizliğe mi, yoksa Rabbime mi götürüyor? Okuduğum, izlediğim ve dinlediğim şeyler bana karanlık bir hüzün mü, yoksa nurlu bir özlem mi veriyor? Hüznümü Hz. Yakub gibi Rabbime açabiliyor muyum?",
+  "hayat": "Bugün hüzünlü bir anımızda ‘Derdimi ve hüznümü yalnız Allah'a açarım’ diyerek dua etmek bu dersin uygulamasıdır. Bizi karanlık bir hüzne sürükleyen şarkılardan, filmlerden veya okumalardan uzak durup ümit veren bir eser seçmek, kalbi korur. Vefat etmiş bir sevdiğimizi kavuşma ümidiyle hatırlayıp ona dua etmek de güzel bir alışkanlıktır.",
+  "ders": "Hüzün iki kısımdır: Fakdü'l-ahbabdan gelen karanlıklı hüzün gafletli edebiyatın, firaku'l-ahbabdan gelen müştakane hüzün ise nur-efşan Kur'an'ın verdiği hüzündür.",
+  "tefekkurSorusu": "Bugün hüznümü hangi ümitle Rabbime açtım?",
+  "dua": {
+   "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+   "okunus": "Hasbiye'llâhu lâ ilâhe illâ huve 'aleyhi tevekkeltu vehuve rabbu l-'arşi l-'azîm",
+   "anlam": "Eğer yüz çevirirlerse de ki: “Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.”",
+   "kaynak": "Tevbe, 9/129"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "musibet"
+  ],
+  "kavramlar": [
+   "Fakdü'l-Ahbab",
+   "Firaku'l-Ahbab",
+   "Hüzün",
+   "Müştakane",
+   "Gaflet"
+  ],
+  "kaynaklar": [
+   "Yûsuf, 12/86",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Beşinci Söz, Birinci Şu'le"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Beşinci Söz'e göre fakdü'l-ahbabdan gelen hüzün nasıl bir hüzündür?",
+    "secenekler": [
+     "Nurlu bir hüzün",
+     "Ahbabsızlıktan, sahipsizlikten gelen karanlıklı bir hüzün",
+     "Sevinçli bir hüzün",
+     "Hiç hüzün değildir"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Beşinci Söz'e göre Kur'an'ın verdiği hüzün hangisidir?",
+    "secenekler": [
+     "Firaku'l-ahbabdan gelen müştakane hüzün",
+     "Ümitsiz bir hüzün",
+     "Karanlık bir hüzün",
+     "Sahipsizlik hüznü"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Hz. Yakub üzüntü ve tasasını yalnız Allah'a açmıştır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_251",
+  "kategori": "ibadet",
+  "baslik": "Kanaat Kârlı Bir Şükürdür",
+  "giris": "İki insan aynı nimete sahiptir; biri onunla yetinir ve şükreder, diğeri daha fazlasını ister ve şikâyet eder. Birincisi huzur bulur, ikincisi hep eksiklik hisseder. Bediüzzaman, Yirmi Dördüncü Mektub'da kanaatsiz, israflı ve haksız yere şikâyet eden gafil insana seslenir: Kanaat kârlı bir şükürdür; hırs ise zararlı bir nankörlüktür. İktisat nimete saygı, israf ise nimeti hafife almaktır.",
+  "aciklama": "Kur'an-ı Kerîm şükrün bereketini şöyle bildirir: “Şükrederseniz and olsun ki, size karşılığını artıracağım; nankörlük ederseniz bilin ki azabım pek çetindir.” Başka bir ayette ise şöyle buyurur: “Yiyin için fakat israf etmeyin, çünkü Allah müsrifleri sevmez.” Şükür nimeti artırır, israf ise onu hafife almaktır.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirmi Dördüncü Mektub'unun Birinci Makam'ında şöyle der: “Ey kanâatsiz hırslı ve iktisâdsız israflı ve haksız şekvâlı gāfil insan! Kat‘iyen bil ki: Kanâat, ticâretli bir şükrândır. Hırs, hasâretli bir küfrândır. İktisâd, ni‘mete güzel ve menfaâtli bir ihtirâmdır. İsraf ise, ni‘mete çirkin ve zararlı bir istihfâftır.” Eserdeki anlatımın özetine göre kanaat eden kişi hem nimetin lezzetini tadar hem de şükrün sevabını kazanır; hırslı kişi ise elindekinin değerini bilmez ve kaybeder. Aynı yerde Bediüzzaman şikâyet konusunda da şöyle bir ölçü verir: “Eğer aklın varsa, kanâate alış ve rızâya çalış. Tahammül edemezsen, Yâ Sabûr de! ve sabır iste.” Ve şikâyet etmek isteyene şöyle der: “Her hâlde şekvâ etmek istersen, nefsini Cenâb-ı Hakk’a şekvâ et. Çünki kusur ondadır.”",
+  "kainattanDelil": "Bir ağaç, toprağından aldığı kadarıyla yetinir ve her yıl meyve verir. Bir arı ihtiyacı kadar bal toplar ve fazlasını kovanında saklar. Bir deve çölde az su ile uzun yol yürür. Kâinatta canlılar ihtiyaçları ölçüsünde alır ve israf etmez; bu ölçülülük, ilahi bir terbiyenin işaretidir.",
+  "hikmet": "Kanaat kârlı bir şükürdür; hırs ise zararlı bir nankörlüktür. İktisat nimete güzel ve faydalı bir saygıdır; israf ise nimeti çirkin ve zararlı bir şekilde hafife almaktır. Akıllı insan kanaate alışır ve rızaya çalışır. Tahammül edemezse Yâ Sabûr diyerek sabır ister. Şikâyet etmek isterse nefsini Allah'a şikâyet eder.",
+  "kendimize": "Elimdeki nimetlerle yetinebiliyor muyum, yoksa hep daha fazlasını mı istiyorum? Yemekte, giyimde ve harcamalarımda israf ediyor muyum? Bir sıkıntı karşısında şikâyet mi ediyorum, yoksa Yâ Sabûr diyerek sabır mı istiyorum?",
+  "hayat": "Bugün tabağımıza ihtiyacımız kadar yemek alıp hiçbir şey artırmamak bu dersin uygulamasıdır. Bir şeye canımız çektiğinde ‘Elimdekine şükür’ diyerek kanaati denemek, kalbe huzur verir. Bir sıkıntı karşısında şikâyet yerine ‘Yâ Sabûr’ demek ve kusuru önce kendi nefsimizde aramak da güzel bir alışkanlıktır.",
+  "ders": "Kanaat ticaretli bir şükrandır, hırs hasaretli bir küfrandır; iktisat nimete menfaatli bir ihtiramdır, israf zararlı bir istihfaftır; şekva edeceksen nefsini Cenab-ı Hakk'a şekva et.",
+  "tefekkurSorusu": "Bugün hangi nimetle yetinip şükrettim?",
+  "dua": {
+   "arapca": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَٰجِنَا وَذُرِّيَّـٰتِنَا قُرَّةَ أَعْيُنٍۢ وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+   "okunus": "Rabbenâ heb lenâ min ezvâcinâ vezurrıyyâtinâ kurrate e'yunin ve-ic'alnâ lilmuttekîne imâmen",
+   "anlam": "Onlar: “Rabbimiz! Bize eşlerimizden ve çocuklarımızdan gözümüzün aydınlığı olacak insanlar ihsan et ve bizi, Allah'a karşı gelmekten sakınanlara önder yap” derler.",
+   "kaynak": "Furkân, 25/74"
+  },
+  "konular": [
+   "sukurSabir",
+   "genclikAhlak"
+  ],
+  "kavramlar": [
+   "Kanaat",
+   "Hırs",
+   "İktisat",
+   "İsraf",
+   "Şekva"
+  ],
+  "kaynaklar": [
+   "İbrâhîm, 14/7",
+   "A'râf, 7/31",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Dördüncü Mektub, Birinci Makam"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dördüncü Mektub'a göre kanaat nedir?",
+    "secenekler": [
+     "Zararlı bir tembellik",
+     "Ticaretli bir şükran",
+     "Bir eksiklik",
+     "Bir zayıflık"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dördüncü Mektub'a göre israf nimete karşı nedir?",
+    "secenekler": [
+     "Çirkin ve zararlı bir istihfaf",
+     "Güzel bir ihtiram",
+     "Bir şükür",
+     "Bir cömertlik"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah müsrifleri sevmez.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_252",
+  "kategori": "iman",
+  "baslik": "Güzellik İlahi İsimlerin Nakşıdır",
+  "giris": "Bir çiçek solar, bir yüz kırışır, bir manzara mevsimle değişir ve insan sevdiği güzelliklerin kaybolduğunu sanarak üzülür. Bediüzzaman, Yirmi Dördüncü Mektub'da bu üzüntüyü dağıtan bir hakikati anlatır: Eşyadaki güzellik ve mükemmellik, ilahi isimlere aittir ve onların nakışlarıdır. İsimler bâkî olduğu için nakışlar yok olmaz, sadece tazelenir. Ve bu isimlerin sahibinin sonsuz bir şefkati ve muhabbeti vardır.",
+  "aciklama": "Kur'an-ı Kerîm Allah'ı şöyle tanıtır: “Yüce arşın sahibi, çok seven, bağışlayan O'dur.” Allah Vedûd'dur; yani çok sever ve sevilir. O'nun sevgisi, yarattıklarına verdiği güzelliklerde ve nimetlerde görünür. Bu sevgi geçici değildir; çünkü sahibi ebedîdir.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirmi Dördüncü Mektub'unun Birinci Makam'ında Allah için şöyle der: Kudsiyetine ve tenezzühüne layık bir şekilde O'nun “hadsiz bir şefkat-i mukaddesesi ve nihâyetsiz bir muhabbet-i münezzehesi vardır.” Eserdeki anlatımın özetine göre bu şefkat ve muhabbet, insanlardaki gibi bir ihtiyaçtan değil, Allah'ın zâtî kemalinden gelir; O hiçbir şeye muhtaç olmadan sever ve şefkat eder. Aynı yerde güzelliğin bekası şöyle açıklanır: “Hakîkat nokta-i nazarında eşyâdaki cemâl ve kemâl, esmâ-yı İlâhiyeye âittir ve onların nukūş ve cilveleridir. Mâdem o esmâ bâkîdirler ve cilveleri dâimîdir, elbette nakışları teceddüd eder, tazelenir, güzelleşir. Ademe ve fenâya gitmez.” Yani giden bir güzellik yok olmaz; onun hakikati ve misali bâkî kalır, sadece görünüşü değişir.",
+  "kainattanDelil": "Her bahar çiçekler yeniden açar; geçen yılın gülleri gitmiştir ama gülün güzelliği yeniden görünür. Güneş her sabah yeniden doğar ve ışığı tazelenir. Bir nehrin suyu sürekli akıp gider; ama nehir hep güzeldir. Kâinatta güzellik hiç bitmez, sadece yenilenir; çünkü onun kaynağı ebedîdir.",
+  "hikmet": "Allah'ın kudsiyetine ve yüceliğine layık, sınırsız bir şefkati ve sonsuz bir muhabbeti vardır. Eşyadaki güzellik ve mükemmellik ilahi isimlere aittir ve onların nakışlarıdır. İsimler bâkî ve tecellileri daimî olduğu için nakışlar yok olmaz; tazelenir ve güzelleşir. Sadece görünüşleri değişir, hakikatleri bâkî kalır.",
+  "kendimize": "Kaybolan bir güzelliğe üzülürken onun asıl sahibini hatırlıyor muyum? Sevdiğim güzellikleri ilahi isimlerin birer nakşı olarak görebiliyor muyum? Rabbimin bana olan şefkatini ve sevgisini hissediyor muyum? Kaybettiğim güzelliklerin ebedî âlemde tazeleneceğine inanıyor muyum?",
+  "hayat": "Bugün güzel bir şey gördüğümüzde ‘Bu, Cemîl isminin bir nakşıdır’ demek bu dersin uygulamasıdır. Solmuş bir çiçeği atarken onun güzelliğinin yok olmadığını, sahibinin ebedî olduğunu düşünmek, hüznü teselliye çevirir. ‘Yâ Vedûd’ diye dua edip Rabbimizin sevgisini hatırlamak da güzel bir zikirdir.",
+  "ders": "Eşyadaki cemal ve kemal esma-yı İlahiyeye aittir ve onların nukuş ve cilveleridir; esma baki ve cilveleri daimi olduğundan nakışları teceddüd eder, ademe ve fenaya gitmez.",
+  "tefekkurSorusu": "Bugün hangi güzellikte bâkî bir ismin nakşını gördüm?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+   "okunus": "L-hamdu lillehi ellezî lem yettehız veleden velem yekun lehu şerîkun fî l-mulki velem yekun lehu veliyyun mine d-zuli vekebbirhu tekbîr",
+   "anlam": "De ki: “Hamd, çocuk edinmemiş olan, hükümranlığında ortağı bulunmayan, düşkün olmayıp yardımcıya da ihtiyaç göstermeyen Allah'a mahsustur.” O'nu gereği gibi büyükle.",
+   "kaynak": "İsrâ, 17/111"
+  },
+  "konular": [
+   "esma",
+   "ahiret"
+  ],
+  "kavramlar": [
+   "Şefkat-i Mukaddese",
+   "Muhabbet-i Münezzehe",
+   "Cemal",
+   "Nukuş",
+   "Teceddüd"
+  ],
+  "kaynaklar": [
+   "Bürûc, 85/14-15",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Dördüncü Mektub, Birinci Makam"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dördüncü Mektub'a göre eşyadaki cemal ve kemal neye aittir?",
+    "secenekler": [
+     "Tabiata",
+     "Esma-yı İlahiyeye",
+     "Tesadüfe",
+     "Eşyanın kendisine"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dördüncü Mektub'a göre esmanın nakışları ne olur?",
+    "secenekler": [
+     "Teceddüd eder, tazelenir",
+     "Tamamen yok olur",
+     "Hiç değişmez",
+     "Çirkinleşir"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah çok seven ve bağışlayandır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_253",
+  "kategori": "kuran",
+  "baslik": "Felsefe Harfe, Kur'an Manaya Bakar",
+  "giris": "Bir kitabı eline alan iki kişiden biri yalnız harflerin şekline, mürekkebin rengine ve kâğıdın kalitesine bakar. Diğeri ise kitabın anlattığı manayı okur. Bediüzzaman, Yirmi Beşinci Söz'de felsefe ile Kur'an'ın kâinata bakışını bu misalle karşılaştırır: Felsefe dünyaya sabit bakar ve varlıkların özelliklerinden ayrıntılı bahseder; ama kâinat kitabının manasına önem vermez.",
+  "aciklama": "Kur'an-ı Kerîm kâinatı mana ile okuyanları şöyle över: “Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: ‘Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru.’” Bu insanlar kâinatı incelerken onun Yaratıcısını hatırlar. Onların tefekkürü, onları bir duaya ve kulluğa götürür.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Beşinci Söz'ünün Üçüncü Şu'le'sinde şöyle der: “Felsefe ve hikmet-i insaniye dünyaya sâbit bakar. Mevcûdâtın mâhiyetlerinden, hâsiyetlerinden tafsîlen bahseder. Sâni‘e karşı vazîfelerinden bahsetse de, icmâlen bahseder.” Eserdeki anlatımın özetine göre Kur'an ise dünyayı gelip geçen bir misafirhane ve varlıkları Yaratıcı'yı tanıtan birer mektup olarak görür; onların özelliklerinden kısaca, Yaratıcı'ya olan delaletlerinden ise ayrıntılı bahseder. Bediüzzaman felsefenin bu eksik bakışını şöyle özetler: “Âdetâ kâinât kitabının yalnız nakış ve hurûflarından bahseder, ma‘nâsına ehemmiyet vermez.” Kur'an ise kâinat kitabının harflerini değil, manasını okutur; böylece ilim, insanı Rabbine götüren bir yol olur.",
+  "kainattanDelil": "Bir yaprağın hücrelerini mikroskopla incelemek bilgi verir; ama o yaprağın kimin eseri olduğunu düşünmek hikmet verir. Bir yıldızın uzaklığını ölçmek ilimdir; o yıldızı yaratanın azametini düşünmek ise tefekkürdür. Kâinatta her varlık hem bir bilgi hem de bir mesaj taşır. Gerçek okuma, ikisini birlikte görmektir.",
+  "hikmet": "Felsefe ve beşerî hikmet dünyaya sabit bakar. Varlıkların mahiyetlerinden ve özelliklerinden ayrıntılı bahseder. Yaratıcı'ya karşı vazifelerinden bahsetse de kısaca bahseder. Âdeta kâinat kitabının yalnız nakış ve harflerinden bahseder, manasına önem vermez. Kur'an ise kâinat kitabının manasını okutur.",
+  "kendimize": "Okuduğum ilmî bilgileri yalnız harf olarak mı öğreniyorum, yoksa onların manasını da düşünüyor muyum? Bir bilimsel bilgiyi öğrendiğimde onu Rabbimi tanımanın bir vesilesi yapıyor muyum? Kâinat kitabını Kur'an'ın gözüyle okumaya çalışıyor muyum?",
+  "hayat": "Bugün öğrendiğimiz bir bilimsel bilgiyi, örneğin bir hayvanın özelliğini, Rabbimizin bir ismiyle ilişkilendirmek bu dersin uygulamasıdır. Çocuklara bir şey öğretirken onu Yaratıcısıyla birlikte anlatmak, ilmi imanla buluşturur. Gökyüzüne bakıp ‘Rabbimiz, Sen bunu boşuna yaratmadın’ duasını okumak da güzel bir alışkanlıktır.",
+  "ders": "Felsefe dünyaya sabit bakar, mevcudatın mahiyetlerinden tafsilen, Sani'e karşı vazifelerinden icmalen bahseder; kâinat kitabının yalnız nakış ve hurufundan bahseder, manasına ehemmiyet vermez.",
+  "tefekkurSorusu": "Bugün öğrendiğim bir bilgide hangi manayı okudum?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+   "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+   "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+   "kaynak": "Âl-i İmrân, 3/8"
+  },
+  "konular": [
+   "kuran",
+   "insanKainat"
+  ],
+  "kavramlar": [
+   "Felsefe",
+   "Hikmet-i İnsaniye",
+   "Mana-yı Harfi",
+   "Tafsil",
+   "İcmal"
+  ],
+  "kaynaklar": [
+   "Âl-i İmrân, 3/191",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Beşinci Söz, Üçüncü Şu'le"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Beşinci Söz'e göre felsefe dünyaya nasıl bakar?",
+    "secenekler": [
+     "Geçici bakar",
+     "Sabit bakar",
+     "Hiç bakmaz",
+     "Mana ile bakar"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Beşinci Söz'e göre felsefe kâinat kitabının nesinden bahseder?",
+    "secenekler": [
+     "Yalnız nakış ve huruflarından",
+     "Yalnız manasından",
+     "Yaratıcısından",
+     "Hiçbir şeyinden"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre düşünenler 'Rabbimiz, Sen bunu boşuna yaratmadın' derler.",
+    "dogru": true
+   }
+  ]
  }
 ]
