@@ -664,6 +664,28 @@ class ContentService extends ChangeNotifier {
     } catch (e) {
       debugPrint('gunluk_risale: $e');
     }
+    try {
+      // 365 kissa: ana sayfa karti islamiKissalar'i kullanir; burada yalniz
+      // yonetim panelinde listelenmeleri icin havuza alinir.
+      final kissalar = await oku('assets/content/kissalar_365.json');
+      if (kissalar.isNotEmpty) {
+        _pools[ContentType.kissa] = kissalar
+            .map((k) => ContentItem(
+                  id: k['id'] as String,
+                  type: ContentType.kissa,
+                  baslik: k['baslik'] as String,
+                  icerik: (k['anlatim'] as String?) ?? '',
+                  altIcerik: k['hikmet'] as String?,
+                  kaynak: (k['kaynaklar'] as List?)?.join('; '),
+                  kategori: k['kategori'] as String?,
+                  dogrulandi: true,
+                  durum: ContentStatus.yayinlandi,
+                ))
+            .toList();
+      }
+    } catch (e) {
+      debugPrint('kissalar_365: $e');
+    }
   }
 
   /// SharedPreferences'taki override'lari yukle

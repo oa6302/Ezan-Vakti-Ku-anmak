@@ -98,6 +98,8 @@ void main() {
     await ContentService.instance.load();
     expect(ContentService.instance.getPool(ContentType.ayet).length, 365);
     expect(ContentService.instance.getPool(ContentType.hadis).length, 365);
+    // Yonetim panelindeki Kissa sekmesi 365 kissayi listeler
+    expect(ContentService.instance.getPool(ContentType.kissa).length, 365);
     expect(
         ContentService.instance
             .getPool(ContentType.hadis)
