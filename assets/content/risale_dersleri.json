@@ -16266,5 +16266,510 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_254",
+  "kategori": "nefis",
+  "baslik": "İnsan Bütün Varlıklarla Alakadardır",
+  "giris": "Bir haberde uzak bir ülkede yaşanan bir felaketi duyduğumuzda içimiz sızlar; tanımadığımız bir insanın sevincine bile sevinebiliriz. Bediüzzaman, Yirmi Dördüncü Mektub'da insanın bu hâlini açıklar: İnsan, insanlığı gereği varlıkların çoğuyla ilgilidir. Onların mutluluğuyla sevinir, felaketleriyle acı çeker. Hatta şefkatli bir anne gibi kendi rahatını onların mutluluğu için feda eder.",
+  "aciklama": "Kur'an-ı Kerîm müminler arasındaki bu bağı şöyle bildirir: “Şüphesiz müminler birbiri ile kardeştirler; öyle ise dargın olan kardeşlerinizin arasını düzeltin; Allah'tan sakının ki size acısın.” Kardeşlik, birbirinin sevincine ve derdine ortak olmaktır. İnsanın kalbine konulan bu ilgi, onu bencillikten kurtarıp şefkate yöneltir.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirmi Dördüncü Mektub'unun Birinci Makam'ında şöyle der: “Ma‘lûmdur ki: insan, insaniyet cihetiyle ekser mevcûdâtla alâkadârdır. Onların saadetleriyle mütelezziz ve helâketleriyle müteellimdir.” Eserdeki anlatımın özetine göre bu ilgi en çok canlılara, özellikle insanlara ve insan içinde de sevilen kâmil insanlara yöneliktir. Aynı yerde bu hâlin derecesi şöyle anlatılır: “Hususan zîhayat ile ve bilhassa nev‘-i beşer ile ve bilhassa sevdiği ve istihsân ettiği ehl-i kemâlin âlâmıyla daha ziyâde müteellim olur. Ve saadetleriyle daha ziyâde mes‘ûd olur. Hatta şefkatli bir vâlide gibi, kendi saâdetini ve râhatını, onların saâdeti için fedâ eder.” Bu geniş alaka, ancak iman ile anlam kazanır; çünkü iman, sevilen varlıkların yok olmadığını ve ebedî bir saadete gideceklerini gösterir.",
+  "kainattanDelil": "Bir annenin yavrusu hastalandığında kendi uykusunu feda eder. Bir kuş, yavrusunu korumak için kendinden büyük bir düşmana saldırır. Bir arı, kovanını korumak için hayatını verir. Kâinatta şefkat, kendi rahatını başkasının iyiliği için feda etmeyi öğreten bir derstir; insan bu dersi en geniş şekilde alabilen varlıktır.",
+  "hikmet": "İnsan, insanlığı gereği varlıkların çoğuyla ilgilidir. Onların mutluluğuyla sevinir ve felaketleriyle acı çeker. Bu ilgi en çok canlılara, özellikle insanlara ve sevdiği kâmil insanlara yöneliktir. Hatta şefkatli bir anne gibi kendi rahatını onların mutluluğu için feda eder. Bu geniş alakanın gerçek tesellisi imandadır.",
+  "kendimize": "Başkalarının derdini kendi derdim gibi hissedebiliyor muyum? Kendi rahatımı başkasının mutluluğu için feda ettiğim oluyor mu? Sevdiğim insanların ebedî saadeti için dua ediyor muyum?",
+  "hayat": "Bugün sıkıntıda olan bir tanıdığımızı arayıp hâlini sormak bu dersin uygulamasıdır. Uzaktaki mazlumlar için dua etmek ve imkânımız ölçüsünde yardım etmek, bu alakayı amele dönüştürür. Dargın olan iki kişinin arasını bulmaya çalışmak da ayetin emrettiği güzel bir kardeşliktir.",
+  "ders": "İnsan insaniyet cihetiyle ekser mevcudatla alakadardır; onların saadetleriyle mütelezziz, helaketleriyle müteellimdir; şefkatli bir valide gibi kendi rahatını onların saadeti için feda eder.",
+  "tefekkurSorusu": "Bugün kimin derdine ortak oldum?",
+  "dua": {
+   "arapca": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَٰجِنَا وَذُرِّيَّـٰتِنَا قُرَّةَ أَعْيُنٍۢ وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+   "okunus": "Rabbenâ heb lenâ min ezvâcinâ vezurrıyyâtinâ kurrate e'yunin ve-ic'alnâ lilmuttekîne imâmen",
+   "anlam": "Onlar: “Rabbimiz! Bize eşlerimizden ve çocuklarımızdan gözümüzün aydınlığı olacak insanlar ihsan et ve bizi, Allah'a karşı gelmekten sakınanlara önder yap” derler.",
+   "kaynak": "Furkân, 25/74"
+  },
+  "konular": [
+   "ihlasUhuvvet",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Alaka",
+   "Şefkat",
+   "Uhuvvet",
+   "Ehl-i Kemal",
+   "Fedakârlık"
+  ],
+  "kaynaklar": [
+   "Hucurât, 49/10",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Dördüncü Mektub, Birinci Makam"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dördüncü Mektub'a göre insan insaniyet cihetiyle neyle alakadardır?",
+    "secenekler": [
+     "Yalnız kendisiyle",
+     "Ekser mevcudatla",
+     "Hiçbir şeyle",
+     "Yalnız malıyla"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dördüncü Mektub'a göre insan şefkatli bir valide gibi neyi feda eder?",
+    "secenekler": [
+     "Kendi saadetini ve rahatını",
+     "Başkalarının hakkını",
+     "İmanını",
+     "Hiçbir şeyi"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre müminler birbiriyle kardeştir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_255",
+  "kategori": "ahiret",
+  "baslik": "Kuşun Tüyünü Değiştiren Kanun",
+  "giris": "Bir kuş her yıl tüylerini döker ve yerine yenilerini giyer. Bu küçük değişim kimsenin dikkatini çekmez. Bediüzzaman, Yirmi Dördüncü Mektub'da bu küçük olaydan büyük bir hakikate geçer: Kuşun tüylü elbisesini hangi kanunla değiştiren Allah, aynı kanunla her yıl yeryüzünün elbisesini yeniler. Aynı kanunla her asırda dünyanın şeklini değiştirir ve kıyamet vaktinde kâinatın suretini değiştirir.",
+  "aciklama": "Kur'an-ı Kerîm kıyamet gününü şöyle anlatır: “Yerin başka bir yerle, göklerin de başka göklerle değiştirildiği, her şeye üstün gelen tek Allah'ın huzuruna çıktıkları günde...” Kıyamet, kâinatın büyük bir değişimidir. Bu değişimi yapacak olan, her gün küçük değişimleri yapan aynı Rabbimizdir.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirmi Dördüncü Mektub'unun İkinci Makam'ında şöyle der: “Evet, Hâlik-ı Rahîm, bir kuşun tüylü libâsını hangi kanun ile değiştiriyor ve tazelendiriyorsa, o Sâni‘-i Hakîm aynı kanun ile her sene küre-i arzın libâsını tecdîd eder.” Eserdeki anlatımın özetine göre küçük ile büyük aynı kanunla idare edilir; bu da kâinatın tek bir Zat'ın elinde olduğunu ve O'nun için büyüğün küçükten zor olmadığını gösterir. Aynı yerde bu kanunun en büyük tecellisi şöyle anlatılır: “Hem aynı kanun ile her asırda dünyanın şeklini tebdîl eder. Hem aynı kanun ile kıyâmet vaktinde kâinâtın sûretini tağyîr edip değiştirir.” Yani her yıl gördüğümüz küçük yenilenmeler, kıyametin ve haşrin birer küçük misalidir.",
+  "kainattanDelil": "Kuşlar her yıl tüylerini değiştirir; yılanlar derilerini yeniler. Ağaçlar sonbaharda yapraklarını döker, baharda yenilerini giyer. Yeryüzü kışın beyaz, baharda yeşil bir elbiseye bürünür. Kâinatta her şey bir kanunla yenilenir. Bu kanunun sahibi, kâinatın bütün elbisesini de bir gün değiştirecektir.",
+  "hikmet": "Rahîm Yaratıcı, bir kuşun tüylü elbisesini hangi kanunla değiştirip tazeliyorsa, aynı kanunla her yıl yeryüzünün elbisesini yeniler. Aynı kanunla her asırda dünyanın şeklini değiştirir. Aynı kanunla kıyamet vaktinde kâinatın suretini değiştirir. Küçük yenilenmeler, büyük değişimin habercisidir.",
+  "kendimize": "Bir kuşun tüyünü değiştirmesinde kıyametin bir misalini görebiliyor muyum? Kâinattaki yenilenmeleri sıradan mı, yoksa bir ders olarak mı görüyorum? Büyük değişim gününe ne kadar hazırlıklıyım? Kendi hayatımdaki değişimlerin de aynı Rabbin elinde olduğunu hatırlıyor muyum?",
+  "hayat": "Bugün bir kuşu, bir ağacı veya mevsim değişimini gözlemleyip onu kıyamet ve haşirle ilişkilendirmek bu dersin uygulamasıdır. Elbiselerimizi değiştirirken bir gün bu bedenin de değişeceğini düşünmek, ahireti hatırlatır. Kıyamet günü için bir hazırlık olarak bugün bir tövbe etmek de güzel bir alışkanlıktır.",
+  "ders": "Halık-ı Rahîm bir kuşun tüylü libasını hangi kanunla tazeliyorsa, aynı kanunla küre-i arzın libasını tecdid eder, dünyanın şeklini tebdil eder ve kıyamet vaktinde kâinatın suretini tağyir eder.",
+  "tefekkurSorusu": "Bugün hangi küçük yenilenmede büyük değişimi düşündüm?",
+  "dua": {
+   "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ",
+   "okunus": "Rabbenâ âtinâ fî d-dunyâ haseneten vefî l-âhırati haseneten vekınâ 'azâbe n-nâr",
+   "anlam": "“Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru” diyenler vardır.",
+   "kaynak": "Bakara, 2/201"
+  },
+  "konular": [
+   "ahiret",
+   "tabiat"
+  ],
+  "kavramlar": [
+   "Libas",
+   "Tecdid",
+   "Tebdil",
+   "Tağyir",
+   "Kıyamet"
+  ],
+  "kaynaklar": [
+   "İbrâhîm, 14/48",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Dördüncü Mektub, İkinci Makam"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dördüncü Mektub'a göre kuşun libasını değiştiren kanunla her sene ne tecdid edilir?",
+    "secenekler": [
+     "Yalnız denizler",
+     "Küre-i arzın libası",
+     "Hiçbir şey",
+     "Yalnız ağaçlar"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dördüncü Mektub'a göre aynı kanunla kıyamet vaktinde ne olur?",
+    "secenekler": [
+     "Kâinatın sureti tağyir edilir",
+     "Hiçbir şey değişmez",
+     "Yalnız gökler kalır",
+     "Kuşlar yok olur"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre yerin başka bir yerle, göklerin başka göklerle değiştirileceği bir gün vardır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_256",
+  "kategori": "iman",
+  "baslik": "Çekirdek Gibi Hakikatini Ağaca Çevir",
+  "giris": "Bir çekirdek toprağa düşüp filizlenirse, kocaman ve meyveli bir ağaç olur. Ama bir kutuda kalırsa, içinde sıkışıp çürür. Bediüzzaman, Yirmi Dördüncü Mektub'da insanın hakikatini böyle bir çekirdeğe benzetir: Senin fani ve küçük bir çekirdek gibi olan hakikatinin, meyveli ve bâkî bir ağaca dönüşmesini istiyorsan, hakiki imanı elde et. Yoksa o çekirdek içinde sıkışıp çürürsün.",
+  "aciklama": "Kur'an-ı Kerîm imanı ve güzel sözü bir ağaca benzetir: “Allah'ın, hoş bir sözü; kökü sağlam, dalları göğe doğru olan, Rabbinin izniyle her zaman meyve veren hoş bir ağaca benzeterek nasıl misal verdiğini görmüyor musun?” İman kalpte kök salar, dalları amellerle göğe yükselir ve her zaman meyve verir. Bu ağacın meyveleri hem dünyada hem ahirette toplanır.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirmi Dördüncü Mektub'unun İkinci Makam'ında şöyle der: “Ey insan! Senin fânî, cüz’î bir çekirdek hükmündeki kendi hakîkatini, meyvedâr bir şecere-i bâkiyeye inkılâb etmesini istersen ve beş işârette gösterilen on tabaka meyvelerini ve on nevi‘ gayelerini elde etmesini istersen, hakîkî îmânı elde et.” Eserdeki anlatımın özetine göre insanın kabiliyetleri bir çekirdekteki gizli ağaç gibidir; iman bu kabiliyetleri açar, büyütür ve onları ebedî meyvelere dönüştürür. İmansız bir hayat ise bu kabiliyetleri dar bir kabuğun içinde hapseder. Aynı yerde bu tehlike şöyle anlatılır: “Yoksa bütün onlardan mahrûm kalmakla beraber, o çekirdek içinde sıkışıp çürüyeceksin.”",
+  "kainattanDelil": "Bir ceviz çekirdeği toprağa gömülür, su ve güneşle buluşur ve yıllar içinde yüzlerce ceviz veren bir ağaç olur. Aynı çekirdek bir rafta kalırsa, kuruyup çürür. Bir buğday tanesi toprağa düşünce bir başak olur ve onlarca tane verir. Kâinatta çekirdekler, doğru yere düşünce büyür; insanın kalbi de imanla büyür.",
+  "hikmet": "İnsanın hakikati fani ve küçük bir çekirdek gibidir. Bu çekirdeğin meyveli ve bâkî bir ağaca dönüşmesi, hakiki imanla olur. İman, insana sayısız meyve ve gaye kazandırır. İmansız kalan ise bütün bu meyvelerden mahrum kalır ve kendi çekirdeği içinde sıkışıp çürür.",
+  "kendimize": "Kalbimdeki kabiliyetleri imanla mı büyütüyorum, yoksa onları dar bir kabuk içinde mi hapsediyorum? İmanımı hakiki bir iman hâline getirmek için ne yapıyorum? Hayatımın ağacında hangi meyveler yetişiyor? İmanımı bir kabuk değil, kök salan bir tohum gibi mi taşıyorum?",
+  "hayat": "Bugün imanımızı güçlendirecek bir ders okumak veya bir sohbete katılmak bu dersin uygulamasıdır. Bir kabiliyetimizi, örneğin konuşma, yazma veya yardım etme becerimizi, iman niyetiyle bir hayra kullanmak, çekirdeği ağaca çevirir. Bir saksıya tohum ekip büyümesini izlemek de bu hakikati hatırlatan güzel bir tefekkürdür.",
+  "ders": "Fani ve cüz'i bir çekirdek hükmündeki hakikatinin meyvedar bir şecere-i bakiyeye inkılab etmesini istersen hakiki imanı elde et; yoksa o çekirdek içinde sıkışıp çürüyeceksin.",
+  "tefekkurSorusu": "Bugün kalbimin çekirdeğini hangi amelle suladım?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+   "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+   "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+   "kaynak": "Âl-i İmrân, 3/8"
+  },
+  "konular": [
+   "iman",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Çekirdek",
+   "Şecere-i Bakiye",
+   "Hakiki İman",
+   "İnkılab",
+   "İstidad"
+  ],
+  "kaynaklar": [
+   "İbrâhîm, 14/24-25",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Dördüncü Mektub, İkinci Makam"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dördüncü Mektub'a göre insanın hakikati neye benzetilir?",
+    "secenekler": [
+     "Bir taşa",
+     "Fani ve cüz'i bir çekirdeğe",
+     "Bir dağa",
+     "Bir denize"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dördüncü Mektub'a göre çekirdeğin şecere-i bakiyeye inkılabı için ne gerekir?",
+    "secenekler": [
+     "Hakiki iman",
+     "Çok mal",
+     "Şöhret",
+     "Uzun ömür"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre hoş söz, kökü sağlam ve dalları göğe doğru olan bir ağaca benzetilmiştir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_257",
+  "kategori": "kuran",
+  "baslik": "Mucizeler İnsanlığa Bir Teşviktir",
+  "giris": "Bir öğretmen, öğrencisine ulaşabileceği en yüksek hedefi gösterir ve onu çalışmaya teşvik eder. Bediüzzaman, Yirmi Beşinci Söz'ün İkinci Zeyli'nde peygamberlerin mucizelerini anlatan ayetleri böyle okur: Hz. Musa'nın asası ve Hz. İsa'nın şifa veren nefesi, insanlığa ulaşabileceği hedefleri gösterir. Allah, bu ayetlerin işaretiyle insana ‘Sen de benim kanunlarıma dayanırsan, buna benzer bir şey elde edebilirsin’ der.",
+  "aciklama": "Kur'an-ı Kerîm Hz. Musa'nın mucizesini şöyle anlatır: “‘Asanla taşa vur’ dedik; ondan on iki pınar fışkırdı, herkes içeceği yeri bildi.” Hz. İsa'nın diliyle de şöyle buyrulur: “Anadan doğma körleri, alacalıları iyi edeceğim; Allah'ın izniyle, ölüleri dirilteceğim.” Bu mucizeler, Allah'ın kudretinin ve peygamberlerinin doğruluğunun delilleridir.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Beşinci Söz'ünün İkinci Zeyli'nde Hz. Musa'nın asa mucizesine işaret eden ayet için şöyle der: “Ey insan! Mâdem bana i‘timâd eden bir abdimin eline öyle bir asâ veriyorum ki, her istediği yerde âb-ı hayâtı onunla çeker. Sen de benim kavânîn-i rahmetime istinâd etsen, şöyle ona benzer veyâhûd ona yakın bir âleti elde edebilirsin. Haydi et!” Eserdeki anlatımın özetine göre bu ayet, yer altından su çıkaracak aletlere ulaşmaya bir teşviktir. Aynı yerde Hz. İsa'nın şifa mucizesine işaret eden ayet için de şöyle der: “Sen de benim eczâhâne-i hikmetimde her derdine devâ bulabilirsin. Çalış, bul. Elbette ararsan bulursun.” Yani mucizeler, insanlığın ilim ve teknikte ulaşacağı son hedefleri gösteren birer işarettir; ama bu hedeflere ancak Allah'ın kanunlarına dayanarak ulaşılır.",
+  "kainattanDelil": "Bugün insanlar derin kuyular açarak çölün ortasından su çıkarır. Doktorlar, Allah'ın bitkilere ve maddelere koyduğu özellikleri keşfederek nice hastalığa ilaç bulur. Kâinat, Allah'ın kanunlarıyla dolu büyük bir eczane ve hazinedir. İnsan bu kanunları keşfettikçe, mucizelerin gösterdiği hedeflere yaklaşır.",
+  "hikmet": "Peygamberlerin mucizelerini anlatan ayetler, insanlığa ulaşabileceği hedefleri gösterir. Hz. Musa'nın asası, her yerde su çıkaracak aletlere işaret eder. Hz. İsa'nın şifa veren nefesi, her derde deva bulmaya teşvik eder. Bu hedeflere ancak Allah'ın rahmet kanunlarına dayanarak, çalışarak ve arayarak ulaşılır.",
+  "kendimize": "Mucizeleri yalnız geçmişte kalmış olaylar olarak mı, yoksa bir teşvik olarak mı görüyorum? İlim öğrenirken Allah'ın kanunlarını keşfettiğimi düşünüyor muyum? Bir derde çare ararken ‘Elbette ararsan bulursun’ müjdesini hatırlıyor muyum?",
+  "hayat": "Bugün öğrendiğimiz bir bilimsel buluşun Allah'ın bir kanununu keşfetmek olduğunu düşünmek bu dersin uygulamasıdır. Bir sorunla karşılaştığımızda pes etmeden çare aramak, ‘Çalış, bul’ emrine uymaktır. Bir hastalık için ilaç kullanırken şifayı Allah'ın eczanesinden beklemek de güzel bir tevekküldür.",
+  "ders": "Mucize ayetleri insana der: Sen de benim kavanin-i rahmetime istinad etsen ona benzer bir alet elde edebilirsin; eczahane-i hikmetimde her derdine deva bulabilirsin; çalış, bul, ararsan bulursun.",
+  "tefekkurSorusu": "Bugün Allah'ın hangi kanununu keşfetmeye çalıştım?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+   "okunus": "L-hamdu lillehi ellezî lem yettehız veleden velem yekun lehu şerîkun fî l-mulki velem yekun lehu veliyyun mine d-zuli vekebbirhu tekbîr",
+   "anlam": "De ki: “Hamd, çocuk edinmemiş olan, hükümranlığında ortağı bulunmayan, düşkün olmayıp yardımcıya da ihtiyaç göstermeyen Allah'a mahsustur.” O'nu gereği gibi büyükle.",
+   "kaynak": "İsrâ, 17/111"
+  },
+  "konular": [
+   "kuran",
+   "nubuvvet"
+  ],
+  "kavramlar": [
+   "Mucize",
+   "Kavanin-i Rahmet",
+   "Eczahane-i Hikmet",
+   "Teşvik",
+   "Terakki"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/60",
+   "Âl-i İmrân, 3/48-49",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Beşinci Söz, İkinci Zeyl"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Beşinci Söz'e göre Hz. Musa'nın asası ile ilgili ayet insana ne der?",
+    "secenekler": [
+     "Hiçbir şey yapamazsın",
+     "Kavanin-i rahmetime istinad etsen ona benzer bir alet elde edebilirsin",
+     "Mucizeler bitti",
+     "Çalışmana gerek yok"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Beşinci Söz'e göre insan her derdine devayı nerede bulabilir?",
+    "secenekler": [
+     "Eczahane-i hikmette",
+     "Hiçbir yerde",
+     "Yalnız tesadüfle",
+     "Yalnız sihirde"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Hz. Musa asasıyla taşa vurunca on iki pınar fışkırmıştır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_258",
+  "kategori": "iman",
+  "baslik": "Kader Gururdan, İrade Mesuliyetsizlikten Kurtarır",
+  "giris": "Bazı insanlar yaptıkları iyiliklerle övünür ve ‘Ben yaptım’ der; kötülüklerinde ise ‘Kaderim böyleymiş’ diyerek sorumluluktan kaçar. Bediüzzaman, Yirmi Altıncı Söz'de bu yanlış tutumun tam tersinin doğru olduğunu anlatır: Kader inancı insanı gururdan, cüz-i ihtiyari inancı da sorumsuzluktan kurtarmak içindir. İyilikler Allah'a verilmeli, kötülüklerin sorumluluğu ise nefse yüklenmelidir.",
+  "aciklama": "Kur'an-ı Kerîm bu dengeyi şöyle kurar: “Sana ne iyilik gelirse Allah'tandır, sana ne kötülük dokunursa kendindendir.” Mümin, yaptığı iyilikleri Allah'ın bir lütfu olarak görür ve övünmez. Yaptığı kötülükleri ise kendi kusuru bilir ve tövbe eder. Bu ayet, kader ile irade arasındaki dengeyi gösterir.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Altıncı Söz'ünün Birinci Mebhas'ında şöyle der: “Evet, kader ve cüz’-i ihtiyârî, îmân ve İslâmiyet’in nihâyet merâtibinde.. kader, nefsi gururdan.. ve cüz’-i ihtiyârî, adem-i mes’ûliyetten kurtarmak içindir ki, mesâil-i îmâniyeye girmişler.” Eserdeki anlatımın özetine göre bu iki iman meselesi, insanın hâline bakan pratik ve ahlaki bir terbiye için konulmuştur; felsefi bir tartışma için değil. Aynı yerde bu meselelerin yanlış kullanımı şöyle reddedilir: “Yoksa mütemerrid nüfûs-u emmârenin işledikleri seyyiâtın mes’ûliyetlerinden kendilerini kurtarmak için kadere yapışmak.. ve onlara in‘âm olunan mehâsinle iftihâr etmek, gururlanmak, cüz’-i ihtiyârîye istinâd etmek, bütün sırr-ı kadere ve hikmet-i cüz’-i ihtiyâriyeye zıd bir harekete sebebiyet veren, ilmî mes’eleler değildir.”",
+  "kainattanDelil": "Bir çiftçi tarlasını sürer, tohumunu eker ve sular; bu onun iradesidir. Ama yağmuru yağdıran, tohumu filizlendiren ve meyveyi olgunlaştıran Allah'tır; bu da kaderdir. Çiftçi bol ürün aldığında şükreder; tarlasını ihmal ettiğinde ise kusuru kendinde bilir. Kâinatta irade ile kader böyle bir arada çalışır.",
+  "hikmet": "Kader ve cüz-i ihtiyari, iman ve İslamiyet'in en yüksek mertebelerinde yer alır. Kader inancı insanı gururdan, cüz-i ihtiyari inancı ise sorumsuzluktan kurtarmak içindir. Kötülüklerin sorumluluğundan kaçmak için kadere sığınmak ve iyiliklerle övünmek için iradeye dayanmak, bu iki meselenin hikmetine tamamen zıttır.",
+  "kendimize": "Yaptığım iyiliklerle övünüyor muyum, yoksa onları Rabbimin bir lütfu olarak mı görüyorum? Hatalarımın sorumluluğunu kadere mi yüklüyorum? Kader ile iradem arasındaki dengeyi doğru kurabiliyor muyum?",
+  "hayat": "Bugün başardığımız bir işte ‘Bu Rabbimin lütfudur’ demek, gururdan korunmaktır. Bir hata yaptığımızda ‘Kaderim böyleymiş’ demek yerine ‘Kusur bende’ diyerek tövbe etmek ve telafi etmek bu dersin uygulamasıdır. Bir işe başlarken hem çalışmak hem de sonucu Allah'tan beklemek de doğru bir dengedir.",
+  "ders": "Kader nefsi gururdan, cüz'-i ihtiyari adem-i mesuliyetten kurtarmak için mesail-i imaniyeye girmiştir; seyyiatta kadere yapışmak ve mehasinle gururlanmak sırr-ı kadere zıttır.",
+  "tefekkurSorusu": "Bugün hangi iyiliği Rabbime, hangi kusuru nefsime verdim?",
+  "dua": {
+   "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+   "okunus": "Hasbiye'llâhu lâ ilâhe illâ huve 'aleyhi tevekkeltu vehuve rabbu l-'arşi l-'azîm",
+   "anlam": "Eğer yüz çevirirlerse de ki: “Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.”",
+   "kaynak": "Tevbe, 9/129"
+  },
+  "konular": [
+   "kader",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Kader",
+   "Cüz'-i İhtiyari",
+   "Gurur",
+   "Mesuliyet",
+   "Nefs-i Emmare"
+  ],
+  "kaynaklar": [
+   "Nisâ, 4/79",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Altıncı Söz, Birinci Mebhas"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Altıncı Söz'e göre kader nefsi neden kurtarmak içindir?",
+    "secenekler": [
+     "Çalışmaktan",
+     "Gururdan",
+     "İbadetten",
+     "Sevinçten"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Altıncı Söz'e göre cüz'-i ihtiyari neden kurtarmak içindir?",
+    "secenekler": [
+     "Adem-i mesuliyetten",
+     "Şükürden",
+     "Tevekkülden",
+     "Duadan"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre insana gelen iyilik Allah'tandır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_259",
+  "kategori": "kuran",
+  "baslik": "Hiçbir Söz Kur'an'a Yetişemez",
+  "giris": "Bir sultanın kendi ağzından çıkan ferman ile halkın onun hakkında söylediği sözler bir olmaz. Bediüzzaman, Yirmi Beşinci Söz'ün Üçüncü Zeyli'nde Kur'an'ın diğer sözler üzerindeki üstünlüğünü anlatır: Kur'an'dan sonra ikinci derecede diğer mukaddes kitaplar ve semavi sahifeler gelir. Ama bütün cin ve insanların Kur'an'dan süzülmemiş bütün güzel sözleri toplansa, yine Kur'an'ın kudsi mertebesine yetişemez.",
+  "aciklama": "Kur'an-ı Kerîm kendi eşsizliğini şöyle ilan eder: “De ki: ‘İnsanlar ve cinler, birbirine yardımcı olarak bu Kuran'ın bir benzerini ortaya koymak için bir araya gelseler, and olsun ki, yine de benzerini ortaya koyamazlar.’” Bu meydan okuma, on dört asırdır cevapsız kalmıştır. Kur'an, Allah'ın kelamı olduğu için hiçbir beşer sözüyle karşılaştırılamaz.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Beşinci Söz'ünün Üçüncü Zeyli'nde şöyle der: “Kur’ân’dan sonra ikinci derecede, kütüb-ü mukaddese ve suhuf-u semâviyenin dereceleri nisbetinde tefevvukları vardır. O sırr-ı tefevvuktan hissedârdırlar.” Eserdeki anlatımın özetine göre Allah'ın kelamı, sonsuz ilminden ve kudretinden geldiği için, her türlü insan sözünün üstündedir; diğer semavi kitaplar da bu üstünlükten derecelerine göre pay alır. Aynı yerde Kur'an'ın eşsizliği şöyle anlatılır: “Eğer bütün cin ve insanın Kur’ân’dan tereşşuh etmeyen bütün güzel sözleri toplansa, yine Kur’ân’ın mertebe-i kudsiyesine yetişip tanzîr edemez.” Yani en güzel insan sözleri bile Kur'an'dan bir damla aldığı ölçüde güzelleşir; onun benzerini ise asla ortaya koyamaz.",
+  "kainattanDelil": "Güneşin ışığını yansıtan ay geceyi aydınlatır; ama güneşin yerini tutamaz. Bir aynadaki güneş görüntüsü parlak görünür; ama güneşin sıcaklığını veremez. Bir kaynaktan akan su temizdir; ama kaynağın kendisi kadar saf değildir. Kâinatta asıl ile yansıma arasında her zaman büyük bir fark vardır.",
+  "hikmet": "Kur'an'dan sonra ikinci derecede diğer mukaddes kitaplar ve semavi sahifeler, derecelerine göre üstünlüğe sahiptir. Bunlar da o üstünlük sırrından pay alır. Ama bütün cin ve insanların Kur'an'dan süzülmemiş bütün güzel sözleri toplansa, yine Kur'an'ın kudsi mertebesine yetişemez ve onun bir benzerini yapamaz.",
+  "kendimize": "Kur'an'ı diğer kitaplarla aynı seviyede mi okuyorum, yoksa onun kudsi mertebesini mi hissediyorum? Okuduğum güzel sözlerin Kur'an'dan aldığı nuru fark ediyor muyum? Kur'an'a ayırdığım vakit, diğer okumalarıma göre ne kadar?",
+  "hayat": "Bugün her şeyden önce Kur'an'dan birkaç ayet okumak bu dersin uygulamasıdır. Beğendiğimiz bir sözün Kur'an'dan bir hakikati yansıtıp yansıtmadığını düşünmek, ölçüyü doğru kurar. Kur'an'ı her gün az da olsa düzenli okumayı bir alışkanlık hâline getirmek de onun yüceliğine uygun bir edeptir.",
+  "ders": "Kur'an'dan sonra ikinci derecede kütüb-ü mukaddesenin tefevvuku vardır; bütün cin ve insanın Kur'an'dan tereşşuh etmeyen güzel sözleri toplansa, Kur'an'ın mertebe-i kudsiyesine yetişemez.",
+  "tefekkurSorusu": "Bugün Kur'an'a hangi edeple yaklaştım?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+   "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+   "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+   "kaynak": "Âl-i İmrân, 3/8"
+  },
+  "konular": [
+   "kuran",
+   "iman"
+  ],
+  "kavramlar": [
+   "Tefevvuk",
+   "Kütüb-ü Mukaddese",
+   "Suhuf-u Semaviye",
+   "Tereşşuh",
+   "Mertebe-i Kudsiye"
+  ],
+  "kaynaklar": [
+   "İsrâ, 17/88",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Beşinci Söz, Üçüncü Zeyl"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Beşinci Söz'e göre Kur'an'dan sonra ikinci derecede neler gelir?",
+    "secenekler": [
+     "Şiirler",
+     "Kütüb-ü mukaddese ve suhuf-u semaviye",
+     "Felsefe kitapları",
+     "Tarih kitapları"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Beşinci Söz'e göre bütün cin ve insanın güzel sözleri toplansa ne olur?",
+    "secenekler": [
+     "Kur'an'ın mertebe-i kudsiyesine yetişemez",
+     "Kur'an'ı geçer",
+     "Kur'an'a eşit olur",
+     "Kur'an'ın yerini tutar"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre insanlar ve cinler bir araya gelse de Kur'an'ın benzerini ortaya koyamazlar.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_260",
+  "kategori": "iman",
+  "baslik": "Çekirdekte Yazılı Hayat Tarihçesi",
+  "giris": "Bir çekirdeğe bakan, onun içinde bir ağacın bütün hayatının yazılı olduğunu düşünmez. Oysa o küçük çekirdek, ağacın ne zaman filizleneceğini, nasıl dallanacağını ve hangi meyveleri vereceğini taşır. Bediüzzaman, Yirmi Altıncı Söz'de bunu nazari kaderin bir delili olarak gösterir: Ağacın hayatındaki bütün hâller, şekiller ve hareketler çekirdekte bir hayat tarihçesi gibi yazılıdır.",
+  "aciklama": "Kur'an-ı Kerîm her şeyin önceden yazılı olduğunu bildirir: “Yeryüzüne ve sizin başınıza gelen herhangi bir musibet yoktur ki biz onu yaratmadan önce o, Kitap'da bulunmasın. Doğrusu bu Allah'a kolaydır.” Allah'ın ilmi her şeyi kuşatır ve her şey O'nun takdiriyle olur. Bu inanç, mümine bir teslimiyet ve bir huzur verir.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Altıncı Söz'ünün Üçüncü Mebhas'ında şöyle der: “Nazarî kader ise, o çekirdekte, ondan halk olunan ağacın müddet-i hayatındaki geçireceği tavırlar, vaz‘iyetler, şekiller, hareketler ve tesbîhâtlardır ki, târîhçe-i hayât nâmıyla ta‘bîr edilebilir.” Eserdeki anlatımın özetine göre ağacın zamanla değişen her hâli, dalları ve yaprakları gibi düzenli bir kader ölçüsüne bağlıdır; bu ölçü, ağaç daha var olmadan çekirdekte yazılmıştır. Aynı yerde bu misalden genel bir hükme varılır: “Mâdem en âdî, basît eşyâda böyle kaderin tecellîsi var. Elbette umûm eşyânın vücûdundan evvel yazılı olduğunu ifade eder ve az bir dikkatle anlaşılır.” Yani basit bir çekirdekte bile kaderin yazısı varsa, bütün kâinatta haydi haydi vardır.",
+  "kainattanDelil": "Bir elma çekirdeğinde, elma ağacının boyu, yapraklarının şekli ve meyvelerinin tadı yazılıdır. Bir insanın ilk hücresinde, onun göz rengi, boyu ve yüz hatları kayıtlıdır. Bir kelebek yumurtasında, tırtıldan kozaya ve kanatlı bir kelebeğe kadar bütün hayat yolculuğu planlanmıştır. Kâinatta her şey önceden yazılmış bir plana göre gelişir.",
+  "hikmet": "Nazari kader, bir çekirdekte o çekirdekten yaratılacak ağacın hayatı boyunca geçireceği hâllerin, şekillerin, hareketlerin ve tesbihlerin yazılı olmasıdır. Bu, bir hayat tarihçesi gibidir. En sıradan ve basit şeylerde bile kader böyle tecelli ediyorsa, bütün eşyanın var olmadan önce yazılı olduğu az bir dikkatle anlaşılır.",
+  "kendimize": "Bir çekirdeğe bakarken onun içindeki hayat tarihçesini düşünebiliyor muyum? Başıma gelenlerin Rabbimin ilminde yazılı olduğunu hatırlayıp teslim olabiliyor muyum? Kader inancının bana verdiği huzuru hissediyor muyum?",
+  "hayat": "Bugün bir meyve yerken çekirdeğini eline alıp içindeki ağacın hayat tarihçesini düşünmek bu dersin uygulamasıdır. Beklenmedik bir olay karşısında ‘Bu Rabbimin ilminde yazılıydı’ diyerek sakin kalmak, kader imanının meyvesidir. Gelecek için plan yaparken ‘İnşallah’ demek de bu imanın güzel bir ifadesidir.",
+  "ders": "Nazari kader, çekirdekte ondan halk olunan ağacın hayatı boyunca geçireceği tavırların ve şekillerin yazılı olmasıdır; en basit eşyada böyle ise umum eşya vücudundan evvel yazılıdır.",
+  "tefekkurSorusu": "Bugün hangi küçük şeyde kaderin yazısını okudum?",
+  "dua": {
+   "arapca": "ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ",
+   "okunus": "Allâhumme mâlike l-mulki tutî l-mulke men teşâu vetenzi'u l-mulke mimmen teşâu vetu'ızzu men teşâu vetuzillu men teşâu biyedike l-hayru inneke 'alâ kulli şeyin kadîrun tûlicu el-leyle fî n-nehârı vetûlicu n-nehâra fî el-leyli vetuhrıcu l-haye mine l-meyiti vetuhrıcu l-meyite mine l-hayi veterzuku men teşâu biğayrı hısâb",
+   "anlam": "De ki: “Mülkün sahibi olan Allah'ım! Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir. Doğrusu Sen, her şeye Kadir'sin. Geceyi gündüze, gündüzü geceye geçirirsin; ölüden diri, diriden ölü çıkarırsın; dilediğini hesapsız rızıklandırırsın”.",
+   "kaynak": "Âl-i İmrân, 3/26-27"
+  },
+  "konular": [
+   "kader",
+   "tabiat"
+  ],
+  "kavramlar": [
+   "Nazari Kader",
+   "Tarihçe-i Hayat",
+   "Kaderi Mikdar",
+   "Tecelli",
+   "Levh-i Mahfuz"
+  ],
+  "kaynaklar": [
+   "Hadîd, 57/22",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Altıncı Söz, Üçüncü Mebhas"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Altıncı Söz'e göre nazari kader neyle tabir edilebilir?",
+    "secenekler": [
+     "Tesadüf",
+     "Tarihçe-i hayat",
+     "Tabiat",
+     "Kör kuvvet"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Altıncı Söz'e göre en basit eşyada kaderin tecellisi neyi ifade eder?",
+    "secenekler": [
+     "Umum eşyanın vücudundan evvel yazılı olduğunu",
+     "Kaderin olmadığını",
+     "Eşyanın kendi kendine olduğunu",
+     "Hiçbir şeyi"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre başa gelen her musibet, yaratılmadan önce bir Kitap'ta yazılıdır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_261",
+  "kategori": "ahiret",
+  "baslik": "Hafıza Amel Defterinden Bir Senettir",
+  "giris": "İnsan geçmişini hatırlar; yıllar önce yaşadığı bir olayı, söylediği bir sözü, yaptığı bir iyiliği zihninde taşır. Bediüzzaman, Yirmi Altıncı Söz'de bu küçük hafıza kuvvetinin büyük bir anlamı olduğunu söyler: Kudret eli, kader kalemiyle insanın amel defterinden küçük bir suret çıkarıp onun beynine koymuştur. Bu suret, hesap vaktinde ona hatırlatılmak içindir.",
+  "aciklama": "Kur'an-ı Kerîm amel defterini şöyle anlatır: “Amel defteri ortaya konunca, suçluların, onda yazılı olanlardan korktuklarını görürsün, ‘Vah bize, eyvah bize! Bu defter nasıl olmuş da küçük büyük bir şey bırakmadan hepsini saymış!’ derler. İşlediklerini hazır bulurlar. Rabbin kimseye haksızlık etmez.” Hiçbir amel kaybolmaz; her şey yazılır ve korunur.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Altıncı Söz'ünün Üçüncü Mebhas'ında şöyle der: “Evet, her bir meyvede, bütün ağacın mukadderât-ı hayatı onun kalbi hükmünde olan çekirdeğinde yazılıyor.” Eserdeki anlatımın özetine göre aynı yazı insanın hafızasında da vardır: Hardal tanesi kadar küçük bu kuvvede, kudret eli kader kalemiyle insanın amel sahifesinden küçük bir senet kopyalayıp onu beyninin cebine koymuştur; tâ ki hesap vaktinde hatırlatsın. Aynı yerde bu hakikatin bir tesellisi de şöyle anlatılır: “Hem mutmain olsun ki.. bu fenâ ve zevâl herc ü mercinde bekā için çok aynalar vardır ki, Kadîr-i Hakîm zâillerin hüviyetlerini onlarda tersîm edip, ibkā ediyor. Hem bekā için pek çok levhalar vardır ki, Hafîz-i Alîm, fânîlerin ma‘nâlarını onlarda yazıyor.”",
+  "kainattanDelil": "Bir ağacın gövdesindeki halkalar, onun geçirdiği her yılı, kuraklığı ve bereketi kaydeder. Bir kayanın katmanları, binlerce yıllık tarihi saklar. Bir çekirdek, bütün ağacın hayatını içinde taşır. İnsanın küçük hafızası da yıllarca yaşadıklarını saklar. Kâinatta hiçbir şey tamamen kaybolmaz; her şey bir yerde kaydedilir.",
+  "hikmet": "Her meyvenin çekirdeğinde bütün ağacın hayat kaderi yazılıdır. İnsanın hafızasında da kudret eli, kader kalemiyle amel sahifesinden küçük bir senet kopyalamıştır; tâ ki hesap vaktinde hatırlatsın. Bu yok oluş ve değişim karmaşasında beka için pek çok ayna ve levha vardır; Hafîz-i Alîm, fanilerin manalarını onlarda yazar.",
+  "kendimize": "Hafızamda sakladığım amellerin bir gün bana hatırlatılacağını düşünüyor muyum? Bugün hafızama nasıl bir sayfa ekledim? Kaybettiğim güzelliklerin Hafîz isminin levhalarında korunduğunu bilip teselli buluyor muyum?",
+  "hayat": "Bugün akşam olunca günün amellerini hafızamızda gözden geçirip iyiliklere şükretmek, kusurlara tövbe etmek bu dersin uygulamasıdır. Hafızamıza güzel şeyler yazmak için güzel sözler dinlemek ve güzel şeyler okumak, amel defterimizi güzelleştirir. ‘Yâ Hafîz’ diye dua edip ailemizi Rabbimize emanet etmek de güzel bir alışkanlıktır.",
+  "ders": "Hardal küçüklüğündeki kuvve-i hafızada dest-i kudret kalem-i kaderiyle sahife-i amelden küçük bir senet istinsah etmiştir; Hafîz-i Alîm fanilerin manalarını beka levhalarında yazar.",
+  "tefekkurSorusu": "Bugün hafızama ve amel defterime hangi sayfayı ekledim?",
+  "dua": {
+   "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ",
+   "okunus": "Rabbenâ âtinâ fî d-dunyâ haseneten vefî l-âhırati haseneten vekınâ 'azâbe n-nâr",
+   "anlam": "“Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru” diyenler vardır.",
+   "kaynak": "Bakara, 2/201"
+  },
+  "konular": [
+   "ahiret",
+   "kader"
+  ],
+  "kavramlar": [
+   "Kuvve-i Hafıza",
+   "Sahife-i Amel",
+   "Kalem-i Kader",
+   "Hafîz",
+   "Beka"
+  ],
+  "kaynaklar": [
+   "Kehf, 18/49",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Altıncı Söz, Üçüncü Mebhas"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Altıncı Söz'e göre bütün ağacın mukadderat-ı hayatı nerede yazılıdır?",
+    "secenekler": [
+     "Yapraklarında",
+     "Kalbi hükmündeki çekirdeğinde",
+     "Kökünde",
+     "Gövdesinde"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Altıncı Söz'e göre fanilerin manalarını beka levhalarında kim yazar?",
+    "secenekler": [
+     "Hafîz-i Alîm",
+     "Tabiat",
+     "Tesadüf",
+     "İnsanın kendisi"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre amel defteri küçük büyük hiçbir şey bırakmadan saymıştır.",
+    "dogru": true
+   }
+  ]
  }
 ]
