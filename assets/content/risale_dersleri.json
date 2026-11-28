@@ -11539,5 +11539,635 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_179",
+  "kategori": "ahiret",
+  "baslik": "Bedenin Her Yedi Yılda Yenilenir",
+  "giris": "Bir insan, aynaya baktığında kendini hep aynı kişi olarak görür. Oysa bedenindeki hücreler sürekli ölür ve yerine yenileri gelir. Bediüzzaman, Mesnevî-i Nûriye'de haşri inkâr eden insana bu hakikati hatırlatır: Sen sabah ve akşam elbiseni değiştirdiğin gibi, bedenini de defalarca değiştiriyorsun. Bunu düşünebilsen, âlemde binlerce örneği görülen haşri inkâr edemezsin.",
+  "aciklama": "Kur'an-ı Kerîm diriltmenin her an gözümüzün önünde olduğunu bildirir: “O, ölüden diri çıkarır, diriden ölü çıkarır; yeryüzünü ölümünden sonra O canlandırır. Ey insanlar! İşte siz de böylece diriltileceksiniz.” Hayat ile ölümün sürekli iç içe olması, büyük dirilişin küçük örnekleridir. Bedenimizdeki yenilenme de bu örneklerin en yakınıdır.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'de şöyle seslenir: “Ey haşir ve neşri inkâr eden insan! Ömründe kaç def‘a cismini tebdîl ediyorsun, biliyor musun? Sabah ve akşam elbiseni değiştirdiğin gibi, her yedi senede bir def‘a tamamıyla cismini tebdîl ve tecdîd ediyorsun, haberin var mı?” Eserdeki anlatımın özetine göre insan, bedeninin sürekli yenilendiğini fark etmez; ama bu yenilenme, onu yaratan kudretin her an işlediğini gösterir. Aynı yerde bu hakikat şöyle devam eder: “Belki her senede, her günde cisminden bir kısım şeyler ölür, yerine emsâlleri gelir. Bunu hiç düşünemiyorsun. Eğer düşünebilsen, her vakit âlemde binlerle numûneleri vukū‘a gelen haşir ve neşirleri inkâr edemezsin.” Yani bedenini defalarca yeniden yapan kudret, onu ölümden sonra da yeniden yapmaya elbette kadirdir.",
+  "kainattanDelil": "Bir yılan derisini değiştirir, bir kuş tüylerini yeniler, bir ağaç her yıl yapraklarını döker ve yenilerini çıkarır. İnsanın saçları, tırnakları ve derisi de sürekli yenilenir. Kanımızdaki hücreler birkaç ayda bir tamamen değişir. Kâinatta yenilenme her an devam eder; bu, büyük bir dirilişin sürekli tekrar eden provası gibidir.",
+  "hikmet": "İnsan bedenini her yedi yılda bir tamamen, her gün ise kısmen yeniler. Her gün bedenin bir kısmı ölür ve yerine benzerleri gelir. Bunu düşünen, âlemde binlerce örneği görülen haşri inkâr edemez. Bedeni defalarca yeniden yapan kudret, onu ölümden sonra da yeniden yapmaya kadirdir.",
+  "kendimize": "Bedenimdeki yenilenmeyi bir haşir delili olarak düşündüm mü? Her gün ölen ve yenilenen hücrelerimde Rabbimin kudretini görüyor muyum? Ahirete imanım, kendi bedenimdeki bu mucizeyle güçleniyor mu?",
+  "hayat": "Bugün aynaya bakarken ‘Bu beden her gün yeniden yaratılıyor’ diye düşünmek bu dersin uygulamasıdır. Bir yaramızın iyileşmesini izlerken onu bir diriliş örneği olarak görmek tefekkürü derinleştirir. Bedenimize iyi bakmak, ona sağlıklı gıdalar vermek ve onu korumak da bu emanete karşı bir şükürdür.",
+  "ders": "İnsan sabah akşam elbisesini değiştirdiği gibi her yedi senede bir cismini tamamıyla tebdil ve tecdid eder; bunu düşünen haşri inkâr edemez.",
+  "tefekkurSorusu": "Bugün bedenimdeki hangi yenilenmede Rabbimin kudretini gördüm?",
+  "dua": {
+   "arapca": "رَبَّنَآ إِنَّكَ جَامِعُ ٱلنَّاسِ لِيَوْمٍۢ لَّا رَيْبَ فِيهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ",
+   "okunus": "Rabbenâ inneke câmi'u n-nâsi liyevmin lâ raybe fîhi inne'llâhe lâ yuhlifu l-mî'âd",
+   "anlam": "Rabbimiz! Doğrusu geleceği şüphe götürmeyen günde, insanları toplayacak olan Sensin. Şüphesiz ki Allah verdiği sözden caymaz.",
+   "kaynak": "Âl-i İmrân, 3/9"
+  },
+  "konular": [
+   "ahiret",
+   "insanKainat"
+  ],
+  "kavramlar": [
+   "Haşir",
+   "Tebdil",
+   "Tecdid",
+   "Neşir",
+   "Kudret"
+  ],
+  "kaynaklar": [
+   "Rûm, 30/19",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye"
+  ],
+  "sinav": [
+   {
+    "soru": "Mesnevî-i Nûriye'ye göre insan her kaç senede bir cismini tamamıyla değiştirir?",
+    "secenekler": [
+     "Hiç değiştirmez",
+     "Yedi senede bir",
+     "Yüz senede bir",
+     "Bir kere"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Mesnevî-i Nûriye'ye göre bunu düşünen neyi inkâr edemez?",
+    "secenekler": [
+     "Haşir ve neşri",
+     "Dünyayı",
+     "Zamanı",
+     "Tabiatı"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah ölüden diri çıkardığı gibi insanlar da diriltilecektir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_180",
+  "kategori": "ahiret",
+  "baslik": "Dünya Tarlasına Serpilen Tohumlar",
+  "giris": "Bir tarlaya hem buğday hem de diken tohumu serpilse, hasat zamanı ikisi ayrılır: Buğday ambara, diken ateşe gider. Bediüzzaman, İşârâtü'l-İ'câz'da dünyayı böyle bir tarlaya benzetir: Allah, sonsuz hikmetler için bu âlemi bir imtihan sahnesi yapmış, iyilik ile kötülüğü, güzellik ile çirkinliği karışık olarak cennet ve cehennemin tohumları olmak üzere bu tarlaya serpmiştir.",
+  "aciklama": "Kur'an-ı Kerîm dünyanın bir imtihan yeri olduğunu şöyle bildirir: “Her can ölümü tadacaktır. Bir imtihan olarak size iyilik ve kötülük veririz. Sonunda Bize dönersiniz.” İyilik de kötülük de bir imtihandır. Nimet şükrü, musibet sabrı gerektirir. Bu dünyada ekilen her şey, ahirette bir mahsul olarak karşımıza çıkacaktır.",
+  "risalePerspektifi": "Bediüzzaman, İşârâtü'l-İ'câz'da Bakara Sûresi'nin 25. ayetinin tefsirinde şöyle der: “Evet, vaktâki Cenâb-ı Hakk, gayr-i mütenâhî hikmetler için bu âlemi, imtihâna sahne yaptı. Ve yine sonsuz hikmetler için tagayyürâtlara, tahavvülâtlara, inkılâblara mahal olmasını irâde etti.” Eserdeki anlatımın özetine göre dünya, değişimlerin ve dönüşümlerin yeridir; çünkü imtihan, ancak değişen şartlar içinde mümkündür. Aynı yerde bu imtihanın mahiyeti şöyle gösterilir: “Ve yine sonsuz gāyeler için hayır ile şerri, nef‘ ile zararı, hüsün ile kubhu, hulâsa iyilikle fenâlığı karışık bir şekilde cennet ve cehenneme tohum olmak üzere kâinâtın şu mezraasına serpti.” Bu karışım, insanın tercihiyle ayrışır; iyiliği seçen cennet tohumunu, kötülüğü seçen cehennem tohumunu büyütür.",
+  "kainattanDelil": "Bir çiftçi tarlasını sürer ve tohum ekerken hangi tohumu seçtiğini bilir; hasatta da ektiğini biçer. Bir bahçede güzel çiçeklerin yanında yabani otlar da biter; bahçıvan onları ayırır. Bir madende değerli taşlar sıradan kayaların arasında bulunur. Kâinatta iyi ile kötü karışık halde bulunur; ayrılma zamanı ise hasattır.",
+  "hikmet": "Allah sonsuz hikmetler için bu âlemi bir imtihan sahnesi yapmıştır. Dünya, değişimlerin ve dönüşümlerin yeridir; çünkü imtihan değişen şartlar içinde olur. İyilik ile kötülük, cennet ve cehennemin tohumları olarak karışık halde serpilmiştir. Bu tohumlar, insanın tercihiyle büyür ve ahirette ayrışır. Her gün yeni bir ekim günüdür; akıllı çiftçi tohumunu dikkatle seçer.",
+  "kendimize": "Dünya tarlasına hangi tohumları ekiyorum? Karşılaştığım iyilik ve kötülükleri bir imtihan olarak mı görüyorum? Bugünkü tercihlerimin ahirette nasıl bir mahsul vereceğini düşünüyor muyum?",
+  "hayat": "Bugün bir iyilik yaparken onu ahiret tarlasına ekilen bir tohum olarak düşünmek bu dersin uygulamasıdır. Bir kötülüğe karşı ‘Bu bir cehennem tohumu, onu ekmeyeceğim’ demek, imtihanı kazanmanın bir adımıdır. Bir nimete şükretmek ve bir musibete sabretmek de iki ayrı imtihanı başarmanın yoludur.",
+  "ders": "Cenab-ı Hak bu âlemi imtihana sahne yaptı; hayır ile şerri, iyilik ile fenalığı karışık bir şekilde cennet ve cehenneme tohum olmak üzere kâinatın mezraasına serpti.",
+  "tefekkurSorusu": "Bugün ahiret tarlama hangi tohumu ektim?",
+  "dua": {
+   "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ",
+   "okunus": "Rabbenâ âtinâ fî d-dunyâ haseneten vefî l-âhırati haseneten vekınâ 'azâbe n-nâr",
+   "anlam": "“Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru” diyenler vardır.",
+   "kaynak": "Bakara, 2/201"
+  },
+  "konular": [
+   "ahiret",
+   "kader"
+  ],
+  "kavramlar": [
+   "İmtihan",
+   "Mezraa",
+   "Tohum",
+   "Hayır",
+   "Şer"
+  ],
+  "kaynaklar": [
+   "Enbiyâ, 21/35",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Bakara Sûresi'nin Tefsîri, 25. Âyet"
+  ],
+  "sinav": [
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre Cenab-ı Hak bu âlemi ne yapmıştır?",
+    "secenekler": [
+     "Bir eğlence yeri",
+     "İmtihana bir sahne",
+     "Ebedi bir yurt",
+     "Bir oyun alanı"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre iyilik ve fenalık neye tohum olmak üzere serpilmiştir?",
+    "secenekler": [
+     "Cennet ve cehenneme",
+     "Dünyaya",
+     "Tabiata",
+     "Hiçbir şeye"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah insanları iyilik ve kötülükle imtihan eder.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_181",
+  "kategori": "ibadet",
+  "baslik": "Şuursuz Varlıkların Şuurlu İbadeti",
+  "giris": "Bir taş şuursuzdur, bir ağaç düşünemez, bir yıldız ne yaptığını bilmez. Ama her biri vazifesini kusursuz bir düzenle yapar; sanki çok bilinçli bir şekilde çalışırlar. Bediüzzaman, Yirmi Dokuzuncu Mektub'da şaşkın akla seslenir: Kâinattaki bütün varlıklara bak; canlı veya cansız, hepsinin tam bir itaat ve düzen içinde bir kulluğu var. Demek ki onları ibadete sevk eden bir Ma'bûd-u bilhak vardır.",
+  "aciklama": "Kur'an-ı Kerîm bütün varlıkların secde ettiğini bildirir: “Göklerde ve yerde bulunan her canlı ve melekler, büyüklük taslamaksızın Allah'a secde ederler.” Kâinattaki her varlık, kendi lisanıyla ve kendi vazifesiyle Rabbine kulluk eder. İnsan ise bu kulluğu şuurla ve iradeyle yapabilen bir varlık olarak, bu büyük cemaatin bilinçli bir ferdi olmaya çağrılır.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirmi Dokuzuncu Mektub'unun Birinci Kısım'ında şöyle der: “De o mütehayyir akla! Bak kâinâttaki bütün mevcûdâta. Zîhayat olsun, câmid olsun, kemâl-i itâat ve intizâm ile vazîfe sûretinde ubûdiyetleri var.” Eserdeki anlatımın özetine göre güneşin doğup batması, suyun akması, bitkilerin büyümesi gibi her olay, aslında bir emre itaat ve bir kulluktur. Aynı yerde bu ibadetin şaşırtıcı yönü şöyle gösterilir: “Bir kısmı şuûrsuz, hissiz oldukları hâlde, gāyet şuûrkârâne, intizâmperverâne ve ubûdiyetkârâne vazîfe görüyorlar.” Ve sonuç şöyle bağlanır: “Demek bir Ma‘bûd-u bilhak ve bir Âmir-i Mutlak vardır ki, bunları ibâdete sevk edip istihdâm ediyor.”",
+  "kainattanDelil": "Güneş her sabah aynı vakitte doğar ve bir saniye bile gecikmez. Toprak, içine düşen tohumu her seferinde filizlendirir. Su, kendisine verilen yolda akar ve canlıları sular. Gezegenler, milyonlarca yıldır aynı yörüngelerinde döner. Kâinatta şuursuz görünen varlıkların bu mükemmel itaati, onları yöneten bir Âmir'in varlığını gösterir.",
+  "hikmet": "Kâinattaki bütün varlıkların, canlı veya cansız, tam bir itaat ve düzenle bir kulluğu vardır. Şuursuz ve hissiz varlıklar bile son derece şuurlu bir şekilde vazife görür. Bu düzenli kulluk, onları ibadete sevk eden bir Ma'bûd-u bilhak ve bir Âmir-i Mutlak'ın varlığını gösterir. İnsan, bu büyük cemaatin şuurlu bir ferdi olmaya çağrılır.",
+  "kendimize": "Etrafımdaki varlıkların kulluğunu fark ediyor muyum? Ben şuurlu bir varlık olarak bu büyük cemaate ne kadar katılıyorum? Bir taşın ve bir ağacın itaatinden ders alabiliyor muyum?",
+  "hayat": "Bugün bir ağaca, bir dereye veya güneşe bakarken onların Rabbine nasıl itaat ettiğini düşünmek bu dersin uygulamasıdır. Namazda secdeye vardığımızda bütün kâinatın da secdede olduğunu hatırlamak, ibadeti genişletir. Vazifelerimizi bir taşın ve suyun itaati gibi düzenli ve sebatla yapmaya çalışmak da güzel bir hedeftir.",
+  "ders": "Kâinattaki bütün mevcudatın kemal-i itaat ve intizamla ubudiyetleri vardır; bu, onları ibadete sevk eden bir Mabud-u bilhak ve bir Âmir-i Mutlak'ın varlığını gösterir.",
+  "tefekkurSorusu": "Bugün hangi varlığın itaatinde kendi kulluğuma bir ders buldum?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+   "okunus": "L-hamdu lillehi ellezî lem yettehız veleden velem yekun lehu şerîkun fî l-mulki velem yekun lehu veliyyun mine d-zuli vekebbirhu tekbîr",
+   "anlam": "De ki: “Hamd, çocuk edinmemiş olan, hükümranlığında ortağı bulunmayan, düşkün olmayıp yardımcıya da ihtiyaç göstermeyen Allah'a mahsustur.” O'nu gereği gibi büyükle.",
+   "kaynak": "İsrâ, 17/111"
+  },
+  "konular": [
+   "ibadet",
+   "tabiat"
+  ],
+  "kavramlar": [
+   "Ubudiyet",
+   "İtaat",
+   "İntizam",
+   "Mabud-u Bilhak",
+   "Âmir-i Mutlak"
+  ],
+  "kaynaklar": [
+   "Nahl, 16/49",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Dokuzuncu Mektub, Birinci Kısım"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dokuzuncu Mektub'a göre kâinattaki mevcudatın neyi vardır?",
+    "secenekler": [
+     "Bağımsızlıkları",
+     "Kemal-i itaat ve intizamla ubudiyetleri",
+     "Kendi iradeleri",
+     "Hiçbir vazifeleri"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dokuzuncu Mektub'a göre mevcudatı ibadete sevk eden kimdir?",
+    "secenekler": [
+     "Bir Mabud-u bilhak ve Âmir-i Mutlak",
+     "Tabiat",
+     "Tesadüf",
+     "Kendileri"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre göklerde ve yerde bulunan her canlı Allah'a secde eder.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_182",
+  "kategori": "iman",
+  "baslik": "Sebepler Neden Konuldu?",
+  "giris": "Bir hükümdar işlerini memurlarıyla görür; ama bu, onun acizliğinden değil, saltanatının ihtişamını göstermek içindir. Bediüzzaman, Nur'un İlk Kapısı'nda Allah'ın sebepleri ve vasıtaları da böyle kullandığını söyler: Sebepler, Allah'ın saltanatına ortak değildir; onlar O'nun kudretinin izzetini gösteren birer nazır ve dellaldır. Ayrıca bir hikmetleri daha vardır: Haksız şikâyetler Âdil-i Mutlak'a yöneltilmesin diye konulmuşlardır.",
+  "aciklama": "Kur'an-ı Kerîm bütün işlerin Allah'a ait olduğunu bildirir: “Göklerin ve yerin gaybı Allah'a aittir. Bütün işler O'na döndürülür. Öyleyse O'na kulluk et, O'na güven.” Sebepler görünürde işleri yapar gibi görünse de, asıl fail Allah'tır. Mümin, sebeplere uyar ama onlara güvenmez; güvenini yalnız Allah'a bağlar.",
+  "risalePerspektifi": "Bediüzzaman, Nur'un İlk Kapısı'nın On Dördüncü Ders'inin Birinci Lem'a'sında şöyle der: “Sultân-ı Ezelî’nin me’mûrları, saltanat-ı rubûbiyetinin icrâatçıları değildirler, belki dellâlları ve nâzırlarıdırlar.” Eserdeki anlatımın özetine göre melekler ve sebepler, Allah'ın işlerini O'nun yerine yapan ortaklar değil, O'nun kudretini seyreden ve ilan eden memurlardır. Aynı yerde bunun sebebi şöyle açıklanır: “Çünkü me’mûrlar ve Vesâitler, izzet-i kudretini ve haşmet-i rubûbiyetini izhâr içindirler. Yoksa sultân-ı insanî gibi acz ve ihtiyâcı için, me’mûrlarını saltanatına şerîk etmiş değildir.” Ve sebeplerin bir başka hikmeti bildirilir: “Esbâb, haksız şekvâlar Âdil-i Mutlak’a tevcîh edilmemek için vaz‘edilmiştir.” Yani insanlar hoşlarına gitmeyen bir şeyde sebeplere kızar, ama asıl hikmet sahibi olan Allah'a itiraz etmekten korunur.",
+  "kainattanDelil": "Bir yağmur damlası buluttan düşer; ama bulut onu kendi gücüyle yaratmamıştır. Bir ilaç hastayı iyileştirir gibi görünür; ama şifayı veren o değildir. Toprak bitkiyi büyütür gibi görünür; ama tohumun içindeki hayat onun eseri değildir. Kâinatta sebepler, perdeler gibidir; arkalarındaki asıl Fail'i hem gösterir hem de onun izzetini korur.",
+  "hikmet": "Sebepler, Allah'ın saltanatına ortak değil, kudretini ilan eden dellallar ve nazırlardır. Allah, insan hükümdarlar gibi acizlikten dolayı memur kullanmaz. Sebepler, Allah'ın izzetini ve haşmetini göstermek içindir. Ayrıca haksız şikâyetler Âdil-i Mutlak'a yönelmesin diye konulmuşlardır.",
+  "kendimize": "İşlerimde sebeplere uyarken güvenimi Allah'a mı, yoksa sebeplere mi bağlıyorum? Hoşuma gitmeyen bir şeyde kadere itiraz ettiğim oluyor mu? Sebeplerin arkasındaki asıl Fail'i görebiliyor muyum?",
+  "hayat": "Bugün ilaç alırken veya bir işe başlarken ‘Şifayı ve başarıyı veren Allah'tır’ demek bu dersin uygulamasıdır. Bir sıkıntıda şikâyet edeceksek, bunu Rabbimize değil, ona dua ederek yapmak edebe uygundur. Sebeplere uymayı ihmal etmeden sonucu Allah'a bırakmak da tevekkülün dengesidir.",
+  "ders": "Sultan-ı Ezeli'nin memurları rububiyetin icraatçıları değil, dellalları ve nazırlarıdır; esbab, haksız şekvalar Âdil-i Mutlak'a tevcih edilmemek için vazedilmiştir.",
+  "tefekkurSorusu": "Bugün hangi sebebin arkasında asıl Fail'i gördüm?",
+  "dua": {
+   "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+   "okunus": "Hasbiye'llâhu lâ ilâhe illâ huve 'aleyhi tevekkeltu vehuve rabbu l-'arşi l-'azîm",
+   "anlam": "Eğer yüz çevirirlerse de ki: “Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.”",
+   "kaynak": "Tevbe, 9/129"
+  },
+  "konular": [
+   "tevhid",
+   "kader"
+  ],
+  "kavramlar": [
+   "Esbab",
+   "Vesait",
+   "Dellal",
+   "İzzet",
+   "Şekva"
+  ],
+  "kaynaklar": [
+   "Hûd, 11/123",
+   "Bediüzzaman Said Nursî, Nur'un İlk Kapısı, On Dördüncü Ders, Birinci Lem'a"
+  ],
+  "sinav": [
+   {
+    "soru": "On Dördüncü Ders'e göre Sultan-ı Ezeli'nin memurları nedir?",
+    "secenekler": [
+     "Saltanatın ortakları",
+     "Dellalları ve nazırları",
+     "Bağımsız güçler",
+     "Yardımcıları"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Dördüncü Ders'e göre esbab ne için vazedilmiştir?",
+    "secenekler": [
+     "Haksız şekvalar Âdil-i Mutlak'a tevcih edilmemek için",
+     "Allah'ın acziyle",
+     "Tesadüfen",
+     "Hiçbir sebeple"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre bütün işler Allah'a döndürülür.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_183",
+  "kategori": "iman",
+  "baslik": "İntizam Tam Bir Vahdettir",
+  "giris": "Bir orkestranın kusursuz bir eser çalması için tek bir şefe ihtiyaç vardır; iki şef olsa ahenk bozulur. Bediüzzaman, Yedinci Şuâ'da kâinattaki düzenin de böyle olduğunu söyler: İntizam tam bir vahdettir ve tek bir düzenleyici ister. Kâinatın bütününden yerkürenin dönüşüne, insanın yüzündeki duygulara ve kandaki hücrelerin akışına kadar her şeydeki düzen, bir tek Kadîr ve Hakîm'i gösterir.",
+  "aciklama": "Kur'an-ı Kerîm Allah'ı şöyle tanıtır: “Göklerin ve yerin hükümranlığı kendisinin olan, çocuk edinmeyen, hükümranlıkta ortağı bulunmayan, herşeyi yaratıp bir ölçüye göre düzenleyen.” Her şeyin bir ölçüye göre düzenlenmesi, onu düzenleyenin bir ve ortaksız olduğunu gösterir. Kâinattaki her ölçü, tevhidin bir şahididir.",
+  "risalePerspektifi": "Bediüzzaman, Şuâ'lar'ın Yedinci Şuâ'sının İkinci Makam'ında şöyle der: “Evet, intizâm tam bir vahdettir, bir tek nazzâmı ister. Münâkaşaya medâr olan şirki kaldırmaz.” Eserdeki anlatımın özetine göre birden fazla idareci, birbirleriyle çekişir ve düzeni bozar; kâinattaki kusursuz düzen ise böyle bir çekişmenin olmadığını gösterir. Aynı yerde bu düzenin genişliği şöyle anlatılır: Kâinatın bütününden ve yerkürenin günlük ve yıllık dönüşünden, “tâ insanın sîmâsına ve başının duygular manzûmesine ve kandaki beyaz ve kırmızı küreyvâtın deverânına ve cereyânına kadar,” her şeyde hikmetli ve dikkatli bir intizam vardır. Ve sonuç şöyle bağlanır: Bir Kadîr-i Mutlak ve bir Hakîm-i Mutlak'tan başka hiçbir şey, yaratmak için hiçbir şeye el uzatamaz ve karışamaz; “Belki yalnız kabûl ederler. mazhar ve münfail olurlar.”",
+  "kainattanDelil": "Yerküre güneşin etrafında bir yılda, kendi etrafında bir günde döner ve bu hareket hiç şaşmaz. İnsanın yüzünde göz, kulak, burun ve ağız hep aynı düzende yer alır. Kandaki kırmızı ve beyaz hücreler, vücudun her köşesine düzenli bir şekilde ulaşır. Kâinatın en büyüğünden en küçüğüne kadar bu düzen, tek bir düzenleyicinin eseridir.",
+  "hikmet": "İntizam tam bir vahdettir ve tek bir düzenleyici ister. Kâinattaki düzen, çekişmeye sebep olan şirki kabul etmez. Kâinatın bütününden kandaki hücrelere kadar her şeyde hikmetli bir intizam vardır. Kadîr ve Hakîm-i Mutlak'tan başka hiçbir şey yaratmaya el uzatamaz; diğer her şey yalnız kabul eder ve mazhar olur.",
+  "kendimize": "Etrafımdaki ve içimdeki düzeni fark ediyor muyum? Bu düzenin tek bir düzenleyiciyi gösterdiğini düşünüyor muyum? Kendi hayatımda da bir düzen ve intizam kurmaya çalışıyor muyum?",
+  "hayat": "Bugün kalbimizin atışını veya nefesimizi birkaç dakika dinleyip onun kusursuz düzenini düşünmek bu dersin uygulamasıdır. Günlük işlerimizi bir düzen içinde yapmak, örneğin namazı vaktinde kılmak, kâinattaki intizamı kendi hayatımıza taşımaktır. Gökyüzündeki ayın veya yıldızların düzenini izlemek de güzel bir tefekkürdür.",
+  "ders": "İntizam tam bir vahdettir, bir tek nazzamı ister; münakaşaya medar olan şirki kaldırmaz.",
+  "tefekkurSorusu": "Bugün hangi düzende tek bir düzenleyicinin elini gördüm?",
+  "dua": {
+   "arapca": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+   "okunus": "Kul huve'llâhu ehadun el-lehu s-samedu lem yelid velem yûled velem yekun lehu kufuven ehad",
+   "anlam": "De ki: O Allah bir tektir. Allah her şeyden müstağni ve her şey O'na muhtaçtır. O doğurmamış ve doğmamıştır. Hiçbir şey O'na denk değildir.",
+   "kaynak": "İhlâs, 112/1-4"
+  },
+  "konular": [
+   "tevhid",
+   "insanKainat"
+  ],
+  "kavramlar": [
+   "İntizam",
+   "Vahdet",
+   "Nazzam",
+   "Şirk",
+   "Mazhar"
+  ],
+  "kaynaklar": [
+   "Furkân, 25/2",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Yedinci Şuâ, İkinci Makam"
+  ],
+  "sinav": [
+   {
+    "soru": "Yedinci Şuâ'ya göre intizam nedir?",
+    "secenekler": [
+     "Bir tesadüf",
+     "Tam bir vahdettir",
+     "Bir karışıklık",
+     "Bir hayal"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yedinci Şuâ'ya göre intizam neyi kaldırmaz?",
+    "secenekler": [
+     "Münakaşaya medar olan şirki",
+     "Vahdeti",
+     "Düzeni",
+     "Hikmeti"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah her şeyi yaratıp bir ölçüye göre düzenlemiştir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_184",
+  "kategori": "kainat",
+  "baslik": "Tabiatın Görünen ve Görünmeyen Yüzü",
+  "giris": "Bir kumaşın ön yüzünde güzel bir desen görünür; arka yüzüne bakan ise yalnız düğümler ve iplikler görür. İkisi de aynı kumaştır, ama farklı yüzlerdir. Bediüzzaman, Zeylü'z-Zeyl'de tabiatın da iki yüzü olduğunu söyler: Gafillerin hakikat sandığı zahirî bir yüz ve asıl hakikat olan, ilahi sanatın ve Rahmânî boyanın görüldüğü batınî bir yüz.",
+  "aciklama": "Kur'an-ı Kerîm, ahireti inkâr edenlerin tabiata bakışını şöyle aktarır: “Hayat, ancak bu dünyadaki hayatımızdır. Ölürüz ve yaşarız; bizi ancak zamanın geçişi yokluğa sürükler derler. Onların bu hususta bir bilgisi yoktur, sadece böyle sanırlar.” Her şeyi zamana ve tabiata veren bu bakış, bir bilgiye değil, bir zanna dayanır. İman ise tabiatın arkasındaki sanatı ve Sanatkâr'ı görür.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Zeylü'z-Zeyl kısmında şöyle der: “Evet, tabiatın iki ciheti vardır. Biri zâhirîdir, diğeri bâtınîdir. Zâhirî ciheti ehl-i gaflet ve dalâletçe hakîkat zannedilmiştir. Bâtınî ciheti ise san‘at-ı İlâhiye ve sıbga-i Rahmâniyedir.” Eserdeki anlatımın özetine göre gafiller tabiatın yalnız görünen yüzünü görür ve onu her şeyin sahibi sanır; oysa onun asıl yüzü, Allah'ın sanatı ve rahmetinin boyasıdır. Aynı yerde tabiata verilen kuvvetin de hakikati gösterilir: “Tabiata ilâveten iddiâ edilen kuvvet ise, Hâlik-ı Hakîm-i Alîm’in cilve-i kudretidir.” Ve tesadüfün de bir hakikati olmadığı bildirilir: Gafillerin tabiata kanat olarak yapıştırdıkları kör tesadüf ve ittifak, “dalâletten neş’et eden ızdırâr netîcesinde şeytanların ihtirâ‘ ettikleri hezeyanlardır.”",
+  "kainattanDelil": "Bir elmanın kırmızı rengi, kokusu ve tadı tabiatın görünen yüzüdür; ama onun bu kadar güzel ve faydalı yaratılması, arkasındaki sanatı gösterir. Bir kar tanesinin altıgen deseni, suyun donmasıyla açıklanır gibi görünür; ama her tanenin farklı ve güzel olması bir Sanatkâr'ı işaret eder. Kâinatta her görünen yüzün arkasında, onu boyayan bir Rahmânî el vardır.",
+  "hikmet": "Tabiatın iki yüzü vardır: Gafillerin hakikat sandığı zahirî yüz ve ilahi sanatın görüldüğü batınî yüz. Tabiata verilen kuvvet, aslında Allah'ın kudretinin bir tecellisidir. Kör tesadüf ve ittifak, dalaletten doğan çaresizlikle uydurulmuş hezeyanlardır. İman, tabiatın asıl yüzünü görmeyi sağlar.",
+  "kendimize": "Tabiata bakarken yalnız görünen yüzünü mü, yoksa arkasındaki sanatı da görüyor muyum? ‘Tabiat yaptı’ ve ‘tesadüfen oldu’ gibi ifadeleri kullandığım oluyor mu? Kâinattaki güzelliklerde Rahmân'ın boyasını görebiliyor muyum?",
+  "hayat": "Bugün bir çiçeğe veya meyveye bakıp onun rengini ‘sıbgatullah’, yani Allah'ın boyası olarak düşünmek bu dersin uygulamasıdır. Bir doğa belgeselini izlerken anlatılan olayların arkasındaki kudreti tefekkür etmek, tabiatın batınî yüzünü görmektir. Konuşmalarımızda ‘tabiat ana’ gibi ifadeler yerine ‘Rabbimizin yaratışı’ demek de bakışı düzeltir.",
+  "ders": "Tabiatın zahiri ciheti ehl-i gaflet nazarında hakikat sanılmış, batıni ciheti ise san'at-ı İlahiye ve sıbga-i Rahmaniyedir.",
+  "tefekkurSorusu": "Bugün tabiatın hangi görünen yüzünün arkasında Rahmân'ın boyasını gördüm?",
+  "dua": {
+   "arapca": "رَبَّنَا مَا خَلَقْتَ هَـٰذَا بَـٰطِلًۭا سُبْحَـٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ رَبَّنَآ إِنَّكَ مَن تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍۢ",
+   "okunus": "Rabbenâ mâ halekte hâzâ bâtılen subhâneke fekınâ 'azâbe n-nârı rabbenâ inneke men tudhıli n-nâra fekad ehzeytehu vemâ lilzzâlimîne min ensârın",
+   "anlam": "Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: “Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru” “Rabbimiz! Sen ateşe kimi sokarsan, onu şüphesiz rezil etmiş olursun, zulmedenlerin hiç yardımcıları yoktur”.",
+   "kaynak": "Âl-i İmrân, 3/191-192"
+  },
+  "konular": [
+   "tabiat",
+   "tevhid"
+  ],
+  "kavramlar": [
+   "Tabiat",
+   "Sıbga-i Rahmaniye",
+   "Cilve-i Kudret",
+   "Tesadüf",
+   "Gaflet"
+  ],
+  "kaynaklar": [
+   "Câsiye, 45/24",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Zeylü'z-Zeyl"
+  ],
+  "sinav": [
+   {
+    "soru": "Zeylü'z-Zeyl'e göre tabiatın batıni ciheti nedir?",
+    "secenekler": [
+     "Tesadüf",
+     "San'at-ı İlahiye ve sıbga-i Rahmaniye",
+     "Kör kuvvet",
+     "Hayal"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Zeylü'z-Zeyl'e göre tabiata iddia edilen kuvvet nedir?",
+    "secenekler": [
+     "Hâlık-ı Hakim-i Alim'in cilve-i kudreti",
+     "Tabiatın kendi gücü",
+     "Tesadüf",
+     "Hiçbir şey"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre her şeyi zamana verenlerin bu konuda bir bilgisi yoktur, sadece zannederler.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_185",
+  "kategori": "iman",
+  "baslik": "Göklerin Sakinleri: Melekler",
+  "giris": "Bir şehrin kenarında insanlarla dolu küçük bir ev gören biri, uzaktaki büyük sarayların boş olduğunu düşünebilir mi? Bediüzzaman, İşârâtü'l-İ'câz'da melekleri inkâr edenin hâlini böyle bir adama benzetir. Yeryüzü gibi küçük bir ev canlılarla dolu iken, göklerin uçsuz bucaksız sarayları elbette boş değildir; oraların da kendilerine uygun sakinleri vardır.",
+  "aciklama": "Kur'an-ı Kerîm melekleri şöyle tanıtır: “Hamd, gökleri ve yeri yaratan, melekleri ikişer, üçer, dörder kanatlı elçiler kılan Allah'a mahsustur. Yaratmada dilediğini artırır.” Meleklere iman, imanın rükünlerinden biridir. Onlar, Allah'ın emirlerini yerine getiren, gökleri ve yeri dolduran nurani varlıklardır.",
+  "risalePerspektifi": "Bediüzzaman, İşârâtü'l-İ'câz'da Bakara Sûresi'nin 30. ayetinin tefsirinde şöyle der: “Evet, o ecrâm-ı ulviyede ve o yüksek burçlarda melâikenin vücûdunu kabûl etmeyen adamın meseli, öyle bir adamın meseline benzer ki, o adam büyük bir şehre gider. Şehrin bir kenarında pek küçük bir binaya rast gelir.” Eserdeki anlatımın özetine göre o küçük bina insanlarla, canlılarla ve hayat için gerekli her şeyle doludur; uzaktaki büyük saraylarda ise o binadaki hayat şartlarını göremez. Aynı yerde bu adamın yanlış hükmü şöyle anlatılır: Küçük binadaki hayat şartları büyük binalarda bulunmadığından, “o yüksek, müzeyyen sarayları, sâkinlerden boş, hâlî olduğunu i‘tikād eder.” Oysa her sarayın kendine uygun sakinleri vardır. İşârâtü'l-İ'câz'da ayrıca şöyle denir: “Melâikenin vücûdunu tasdîk ve kabûl etmek, îmânın rükünlerinden biridir.”",
+  "kainattanDelil": "Denizlerin derinliklerinde, güneş ışığının hiç ulaşmadığı yerlerde bile canlılar yaşar. En sıcak çöllerde ve en soğuk buzullarda da kendine uygun hayatlar vardır. Bir damla suyun içinde bile sayısız canlı bulunur. Kâinatta her ortam, kendine uygun sakinlerle doldurulmuştur; göklerin de kendine uygun nurani sakinleri olması elbette gereklidir.",
+  "hikmet": "Melekleri inkâr eden, küçük bir evin dolu olduğunu görüp büyük sarayların boş olduğunu sanan bir adama benzer. Her saray, kendine uygun sakinlerle doludur. Yeryüzü gibi küçük bir yer canlılarla doluyken, gökler elbette boş değildir. Meleklere iman, imanın rükünlerinden biridir.",
+  "kendimize": "Meleklerin varlığını ne kadar düşünüyorum? Yanımda amellerimi yazan meleklerin olduğunu hatırlıyor muyum? Gökyüzüne bakarken onun da sakinleri olduğunu düşünebiliyor muyum?",
+  "hayat": "Bugün bir iyilik yaparken onu yazan melekleri hatırlamak bu dersin uygulamasıdır. Namazdan sonra sağa ve sola selam verirken meleklere de selam verdiğimizi düşünmek, onlarla bağımızı canlı tutar. Gece yıldızlara bakarken göklerin de Allah'ı tesbih eden sakinlerle dolu olduğunu tefekkür etmek de güzel bir alışkanlıktır.",
+  "ders": "Ecram-ı ulviyede melaikenin vücudunu kabul etmeyen, küçük binayı dolu görüp yüksek sarayları sakinlerden boş zanneden adama benzer.",
+  "tefekkurSorusu": "Bugün meleklerin varlığını hangi anımda hatırladım?",
+  "dua": {
+   "arapca": "رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍۢ رَّحْمَةًۭ وَعِلْمًۭا فَٱغْفِرْ لِلَّذِينَ تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ عَذَابَ ٱلْجَحِيمِ رَبَّنَا وَأَدْخِلْهُمْ جَنَّـٰتِ عَدْنٍ ٱلَّتِى وَعَدتَّهُمْ وَمَن صَلَحَ مِنْ ءَابَآئِهِمْ وَأَزْوَٰجِهِمْ وَذُرِّيَّـٰتِهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+   "okunus": "Rabbenâ vesi'te kulle şeyin rahmeten ve'ılmen fe-iğfir lillezîne tâbû ve-ittebe'û sebîleke vekıhim 'azâbe l-cehîmi rabbenâ ve-edhılhum cennâti 'adnin elletî ve'adttehum vemen saleha min âbâihim ve-ezvâcihim vezurrıyyâtihim inneke ente l-'azîzu l-hakîm",
+   "anlam": "Arşı yüklenen ve çevresinde bulunanlar, Rablerini överek tesbih ederler; O'na inanırlar. Müminler için: “Rabbimiz! İlmin ve rahmetin herşeyi içine almıştır. Tevbe edip Senin yoluna uyanları bağışla; onları cehennemin azabından koru” diye bağışlanma dilerler. “Rabbimiz! Müminleri ve babalarından, eşlerinden, soylarından iyi olanları, kendilerine söz verdiğin Adn cennetlerine koy; şüphesiz güçlü olan, Hakim olan ancak Sensin”",
+   "kaynak": "Mü'min, 40/7-8"
+  },
+  "konular": [
+   "iman",
+   "insanKainat"
+  ],
+  "kavramlar": [
+   "Melaike",
+   "Ecram-ı Ulviye",
+   "İman Rüknü",
+   "Sakin",
+   "Temsil"
+  ],
+  "kaynaklar": [
+   "Fâtır, 35/1",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Bakara Sûresi'nin Tefsîri, 30. Âyet"
+  ],
+  "sinav": [
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre melekleri kabul etmeyen kime benzer?",
+    "secenekler": [
+     "Bilgili bir adama",
+     "Küçük binayı dolu görüp sarayları boş zanneden adama",
+     "Bir yolcuya",
+     "Bir çiftçiye"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre melaikenin vücudunu tasdik etmek nedir?",
+    "secenekler": [
+     "İmanın rükünlerinden biridir",
+     "Bir hayaldir",
+     "Gereksizdir",
+     "Bir gelenektir"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah melekleri ikişer, üçer, dörder kanatlı elçiler kılmıştır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_186",
+  "kategori": "nefis",
+  "baslik": "Bir Aldatmaca Üzerine Kurulmuş Hayat",
+  "giris": "Bazı insanlar ölüm korkusunu ‘Belki ebedî saadet vardır’ diyerek, dinî sorumlulukları ise ‘Belki ahiret yoktur’ diyerek hafifletmeye çalışır. Bediüzzaman, Zeylü'z-Zeyl'de bu ikili kaçışı bir aldatmaca olarak gösterir: Bu düşünceyle insan iki elemden geçici olarak kurtulur; ama ölüm gelince düğüm çözülür ve hakikat ortaya çıkar.",
+  "aciklama": "Kur'an-ı Kerîm insana şöyle sorar: “İnsanoğlu kendisinin başıboş bırakılacağını mı sanır?” İnsan, sorumluluklarından kaçmak için kendini başıboş sanabilir; ama bu bir kuruntudur. Hakikat, insanın kendini nasıl kandırdığına bakmaz; vakti gelince bütün açıklığıyla ortaya çıkar.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Zeylü'z-Zeyl kısmında şöyle seslenir: “Ey kemâl-i gurûr ile dalâlet kürsüsünde oturan insan! Hayatına mağrûr olma. Zîrâ o hayat, bir muğālata ile kāimdir.” Eserdeki anlatımın özetine göre dalalete düşen insan, yok olma korkusu gelince ‘Belki ebedî saadet vardır’ ihtimaline kaçar; dinî vazifelerin yükü gelince de ‘Belki ahiret yoktur’ ihtimaline sığınır. Aynı yerde bu aldatmacanın sonu şöyle anlatılır: “Bu mağlata ile iki elemden kurtulur. Lâkin kısa bir zamanda ölüm gelir, düğüm açılır. Hakîkat ortaya çıkar. Ne birinci ihtimâl elemini izâle eder.. ve ne de ikinci ihtimâl yükünü tahfîf eder.” Yani bu iki çelişkili kaçış, ne ölüm korkusunu gerçekten giderir ne de sorumluluk yükünü hafifletir.",
+  "kainattanDelil": "Bir öğrenci sınavdan kaçmak için ‘Belki sınav olmaz’ der ve çalışmaz; ama sınav günü gelince bu düşünce ona hiçbir fayda sağlamaz. Bir yolcu fırtınayı görmemek için gözlerini kapatır; ama fırtına yine de gelir. Kâinatta gerçekler, onlardan kaçmak isteyenin hayallerine göre değişmez; zamanı gelince ortaya çıkar. Kumdan yapılmış bir kale, ilk dalgayla yıkılır.",
+  "hikmet": "Gurur ve dalalet içindeki insanın hayatı bir aldatmaca üzerine kuruludur. Ölüm korkusuna karşı ebedî saadet ihtimaline, sorumluluğa karşı ise ahiretin olmama ihtimaline kaçar. Bu çelişkili kaçışlar ölüm gelince çöker ve hakikat ortaya çıkar. Ne birinci ihtimal korkuyu giderir ne de ikinci ihtimal yükü hafifletir. Hakikatle yüzleşen ise ölüm geldiğinde hazırlıklı ve huzurlu olur; çünkü onun hayatı bir kuruntu değil, sağlam bir iman üzerine kurulmuştur.",
+  "kendimize": "Bir sorumluluktan kaçmak için kendimi kandırdığım bir düşünce var mı? Ölüm ve ahiret hakkında kendime dürüst davranıyor muyum? Hayatımı bir kuruntu üzerine mi, yoksa hakikat üzerine mi kuruyorum?",
+  "hayat": "Bugün ertelediğimiz bir dinî vazifeyi, ‘Sonra yaparım’ kuruntusunu bırakıp yerine getirmek bu dersin uygulamasıdır. Kendimize karşı dürüst olmak için ‘Bu davranışım ahirette karşıma çıkarsa ne derim?’ diye sormak, aldatmacaları dağıtır. Ölümü ve ahireti düşünmekten kaçmak yerine, onlara hazırlanmanın huzurunu tatmak da güzel bir değişimdir.",
+  "ders": "Gurur ile dalalet kürsüsünde oturanın hayatı bir muğalata ile kaimdir; ölüm gelince düğüm açılır, hakikat ortaya çıkar.",
+  "tefekkurSorusu": "Bugün kendime söylediğim hangi kuruntuyu bıraktım?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+   "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+   "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+   "kaynak": "Âl-i İmrân, 3/8"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "ahiret"
+  ],
+  "kavramlar": [
+   "Muğalata",
+   "Gurur",
+   "Dalalet",
+   "İhtimal",
+   "Tekalif"
+  ],
+  "kaynaklar": [
+   "Kıyâme, 75/36",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Zeylü'z-Zeyl"
+  ],
+  "sinav": [
+   {
+    "soru": "Zeylü'z-Zeyl'e göre dalalet kürsüsünde oturanın hayatı neyle kaimdir?",
+    "secenekler": [
+     "Hakikatle",
+     "Bir muğalata ile",
+     "İlimle",
+     "İmanla"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Zeylü'z-Zeyl'e göre ölüm gelince ne olur?",
+    "secenekler": [
+     "Düğüm açılır, hakikat ortaya çıkar",
+     "Her şey gizli kalır",
+     "Kuruntu devam eder",
+     "Hiçbir şey değişmez"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre insan başıboş bırakılmayacaktır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_187",
+  "kategori": "kuran",
+  "baslik": "Âdem'e Öğretilen İsimler",
+  "giris": "Kur'an, insanın yaratılış kıssasında meleklerin bile bilmediği bir şeyi Hz. Âdem'e öğretildiğini anlatır: eşyanın isimlerini. Bediüzzaman, İşârâtü'l-İ'câz'da bu kıssayı tefsir ederken meleklerin edebini ve insanın ilim kabiliyetini gösterir. İnsanın meleklerden üstün olabilmesinin bir sırrı, bu öğrenme kabiliyetidir.",
+  "aciklama": "Kur'an-ı Kerîm bu kıssayı şöyle anlatır: “Ve Adem'e bütün isimleri öğretti, sonra eşyayı meleklere gösterdi. Eğer sözünüzde samimi iseniz bunların isimlerini bana söyleyin dedi.” Meleklerin cevabı ise şöyle olmuştur: “Sen münezzehsin, öğrettiğinden başka bizim bir bilgimiz yoktur. Şüphesiz Sen hem bilensin, hem Hakim'sin.” Bu kıssa, ilmin Allah'ın bir ihsanı olduğunu ve insanın ilimle şereflendirildiğini gösterir.",
+  "risalePerspektifi": "Bediüzzaman, İşârâtü'l-İ'câz'da Bakara Sûresi'nin 31. ayetinin tefsirinde kıssayı şöyle anlatır: “Cenâb-ı Hakk, bütün eşyânın isimlerini Âdem’e öğretti. Sonra o eşyâyı melâikeye göstererek dedi ki: Eğer iddiânızda sâdıklar iseniz, bunların isimlerini bana söyleyiniz.” Eserdeki anlatımın özetine göre meleklerin cevabı, ilmin sahibini tanıyan bir edebin en güzel örneğidir: “Melâike dediler ki: Seni her nekāisten tenzîh ederiz. Ve senin bütün sıfât-ı kemâliye ile muttasıf olduğunu ikrâr ederiz. Senin bize öğrettiğin ilimden başka bir ilmimiz yoktur.” Ardından Hz. Âdem isimleri söyler ve Allah şöyle buyurur: “Size demedim mi? Semâvât ve arzın gaybını bilirim. ve sizin Âdem hakkında lisânla izhâr ettiğinizi ve kalben gizlediğinizi bilirim.” Bu kıssa, insanın ilim kabiliyetinin onun halifelik vazifesine bir hazırlık olduğunu gösterir.",
+  "kainattanDelil": "Bir bebek önce sesleri, sonra kelimeleri, sonra cümleleri öğrenir; bu öğrenme kabiliyeti ona hiçbir hayvana verilmeyen bir dünya açar. İnsan, yıldızlara isim verir, bitkileri sınıflandırır, hastalıkların ilacını bulur. Kâinatta hiçbir varlık, insan kadar geniş bir öğrenme ve isimlendirme kabiliyetine sahip değildir; bu, Âdem'e öğretilen isimlerin bir mirasıdır.",
+  "hikmet": "Allah, bütün eşyanın isimlerini Hz. Âdem'e öğretmiştir. Melekler, Allah'ın öğrettiğinden başka bir ilimleri olmadığını edeple ikrar etmiştir. İnsanın ilim kabiliyeti, onun halifelik vazifesine bir hazırlıktır. Göklerin ve yerin gaybını ve kalplerde gizleneni yalnız Allah bilir.",
+  "kendimize": "Öğrenme kabiliyetimi Rabbimin bir ihsanı olarak görüyor muyum? Bildiklerimle övünüyor muyum, yoksa meleklerin edebiyle ‘Sen öğrettin’ diyebiliyor muyum? İlmimi halifelik vazifemi yapmak için mi kullanıyorum?",
+  "hayat": "Bugün yeni bir şey öğrendiğimizde ‘Rabbim, bunu bana Sen öğrettin’ demek bu dersin uygulamasıdır. Bildiğimiz bir konuda bile ‘Allah daha iyi bilir’ diyerek tevazu göstermek, meleklerin edebini yaşamaktır. Çocuklarımıza eşyanın isimlerini öğretirken bu kabiliyetin Hz. Âdem'den gelen bir miras olduğunu anlatmak da güzel bir tefekkürdür.",
+  "ders": "Cenab-ı Hak bütün eşyanın isimlerini Âdem'e öğretti; melaike, Senin bize öğrettiğin ilimden başka bir ilmimiz yoktur diyerek ikrar etti.",
+  "tefekkurSorusu": "Bugün öğrendiğim bir şeyi Rabbime nispet edip şükrettim mi?",
+  "dua": {
+   "arapca": "رَّبِّ زِدْنِى عِلْمًۭا",
+   "okunus": "Rabbi zidnî 'ılmen",
+   "anlam": "Gerçek hükümdar olan Allah Yüce'dir. Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, “Rabbim! ilmimi artır” de.",
+   "kaynak": "Tâhâ, 20/114"
+  },
+  "konular": [
+   "kuran",
+   "insanKainat"
+  ],
+  "kavramlar": [
+   "Talim-i Esma",
+   "Hilafet",
+   "Tenzih",
+   "İlim",
+   "Edep"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/31-32",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Bakara Sûresi'nin Tefsîri, 31. Âyet"
+  ],
+  "sinav": [
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre Cenab-ı Hak Âdem'e neyi öğretmiştir?",
+    "secenekler": [
+     "Yalnız dua etmeyi",
+     "Bütün eşyanın isimlerini",
+     "Hiçbir şeyi",
+     "Yalnız yürümeyi"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Meleklerin cevabına göre onların ilmi nedir?",
+    "secenekler": [
+     "Allah'ın öğrettiğinden başka bir ilimleri yoktur",
+     "Her şeyi bilirler",
+     "İnsandan çok bilirler",
+     "Hiçbir şey bilmezler"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah Âdem'e bütün isimleri öğretmiştir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_188",
+  "kategori": "risaleler",
+  "baslik": "Ehl-i Dünya Birleşir, Ehl-i Hak Neden Dağılır?",
+  "giris": "Dünyevî bir menfaat için bir araya gelen insanlar, çoğu zaman güçlü bir birlik kurar. Ahiret için çalışanların ise daha güçlü bir birlik kurması beklenir; ama bazen tam tersi olur ve onlar dağılır. Bediüzzaman, Yirminci Lem'a'da bunun sebebini gösterir: Ehl-i hak, enaniyetten sıyrılamadığı için ifrat ve tefrit yüzünden ittifakı kaybeder, ihlâs da kırılır.",
+  "aciklama": "Kur'an-ı Kerîm, çekişmenin sonucunu şöyle bildirir: “Allah'a ve Peygamberine itaat edin; çekişmeyin, yoksa korkar başarısızlığa düşersiniz ve kuvvetiniz gider. Sabredin, doğrusu Allah sabredenlerle beraberdir.” Birlik bir kuvvettir; çekişme ise bu kuvveti dağıtır. Müminlerin birliği, ancak enaniyeti bırakıp ihlâsa sarılmakla korunur.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın Yirminci Lem'a'sının Dördüncü Sebeb'inde şöyle der: “Evet, dünyevî ve hazır lezzet ve menfaat etrafında aşağı, kalbsiz nefisperestler, samîmî ittifâk ve ittihâd ediyorlar.” Eserdeki anlatımın özetine göre ehl-i dünya, elle tutulur bir menfaat için kolayca birleşir. Ehl-i hidayet ise ahiret kazancına ve yüksek kemallere yöneldiği için çok daha güçlü bir birlik kurabilecekken, bir hastalık yüzünden dağılır: Onlar “enâniyetten tecerrüd edemedikleri için, ifrât ve tefrît yüzünden ulvî bir menba‘-ı kuvvet olan ittifâkı kaybedip, ihlâs da kırılır, vazîfe-i uhreviye de zedelenir.” Aynı yerde bunun neticesi şöyle bağlanır: “Kolayca rızâ-yı İlâhî de elde edilmez.” Yani enaniyet, en kutsal hizmeti bile zayıflatan gizli bir hastalıktır.",
+  "kainattanDelil": "Tek tek ipler zayıftır; ama birlikte örüldüklerinde güçlü bir halat olurlar. Bir arı kovanında her arı kendi başına hareket etse kovan dağılır; birlikte çalıştıkları için bal yaparlar. Bir ağacın kökleri birbirine destek olduğunda fırtınaya dayanır. Kâinatta birlik kuvvet getirir; birliği bozan ise çoğu zaman bir parçanın kendini merkez sanmasıdır.",
+  "hikmet": "Ehl-i dünya, dünyevî menfaat etrafında kolayca birleşir. Ehl-i hak ise enaniyetten sıyrılamadığında ifrat ve tefrit yüzünden ittifakı kaybeder. İttifak kaybolunca ihlâs kırılır ve uhrevî vazife zedelenir. Enaniyet, en kutsal hizmeti bile zayıflatan gizli bir hastalıktır.",
+  "kendimize": "Bir hayır işinde arkadaşlarımla birlik olmak yerine kendi fikrimi üstün tutmakta ısrar ettiğim oluyor mu? Enaniyetim bir hizmetin önünü kestiğinde bunu fark ediyor muyum? Ahiret için çalışanlarla birlik olmayı dünyevî bir menfaatten daha önemli görüyor muyum?",
+  "hayat": "Bugün bir ortak işte kendi fikrimiz yerine arkadaşımızın güzel fikrini desteklemek bu dersin uygulamasıdır. Bir anlaşmazlıkta ‘Ben haklıyım’ demek yerine ‘Birlik daha önemli’ diyerek uzlaşma aramak, enaniyeti kırar. Hayır hizmetlerinde ‘ben’ yerine ‘biz’ demeyi alışkanlık haline getirmek de ihlâsı korur.",
+  "ders": "Ehl-i dünya menfaat etrafında samimi ittifak eder; ehl-i hidayet ise enaniyetten tecerrüt edemediği için ifrat ve tefrit yüzünden ittifakı kaybeder, ihlas da kırılır.",
+  "tefekkurSorusu": "Bugün hangi işte enaniyetimi bırakıp birliği seçtim?",
+  "dua": {
+   "arapca": "رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَـٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّۭا لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ رَءُوفٌۭ رَّحِيمٌ",
+   "okunus": "Rabbenâ iğfir lenâ veli-ihvâninâ ellezîne sebekûnâ bil-îmâni velâ tec'al fî kulûbinâ ğıllen lillezîne âmenû rabbenâ inneke raûfun rahîm",
+   "anlam": "Onlardan sonra gelenler: “Rabbimiz! Bizi ve bizden önce inanmış olan kardeşlerimizi bağışla; kalbimizde müminlere karşı kin bırakma; Rabbimiz! Şüphesiz Sen şefkatlisin, merhametlisin” derler.",
+   "kaynak": "Haşr, 59/10"
+  },
+  "konular": [
+   "ihlasUhuvvet",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "İttifak",
+   "Enaniyet",
+   "İfrat",
+   "Tefrit",
+   "İhlas"
+  ],
+  "kaynaklar": [
+   "Enfâl, 8/46",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirminci Lem'a, Dördüncü Sebeb"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirminci Lem'a'ya göre ehl-i hidayet neden ittifakı kaybeder?",
+    "secenekler": [
+     "Menfaat için",
+     "Enaniyetten tecerrüt edemedikleri için",
+     "Az oldukları için",
+     "Zayıf oldukları için"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirminci Lem'a'ya göre ittifak kaybolunca ne kırılır?",
+    "secenekler": [
+     "İhlas",
+     "Servet",
+     "Şöhret",
+     "Kuvvet"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre çekişme, korkuya ve kuvvetin gitmesine sebep olur.",
+    "dogru": true
+   }
+  ]
  }
 ]
