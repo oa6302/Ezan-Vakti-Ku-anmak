@@ -16771,5 +16771,509 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_262",
+  "kategori": "nefis",
+  "baslik": "Güvendiğin Hayat Bir Dakikadır",
+  "giris": "İnsan dünya hayatını uzun ve sağlam sanır, ona güvenir ve ölümden kaçar. Oysa elimizde olan zaman sadece şu andır. Bediüzzaman, Yirmi Altıncı Söz'ün Hâtime'sinde nefsine şöyle seslenir: Ey nefis! Hayat sandığın şey, yalnız bulunduğun dakikadır. Ondan önceki zaman ölmüştür, ondan sonraki zaman ise henüz yoktur. Demek güvendiğin maddi hayat sadece bir dakikadır.",
+  "aciklama": "Kur'an-ı Kerîm dünya hayatının geçiciliğini şöyle anlatır: “Bu, yağmurun bitirdiği, ekicilerin de hoşuna giden bir bitkiye benzer; sonra kurur, sapsarı olduğu görülür, sonra çerçöp olur.” Ve şöyle uyarır: “Dünya hayatı ise sadece aldatıcı bir geçinmedir.” Dünya hayatı bir bitki gibi hızla yeşerir ve hızla kurur.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Altıncı Söz'ünün Hâtime'sinde şöyle der: “Ey nefis! Eğer şu dünya hayatına müştâk isen, mevtten kaçarsan, kat‘iyen bil ki, hayat zannettiğin hâlet, yalnız bulunduğun dakikadır.” Eserdeki anlatımın özetine göre geçmiş zaman ve içindeki her şey şu an itibarıyla ölmüş, gelecek zaman ve içindeki her şey ise henüz yoktur; insanın elinde yalnızca içinde bulunduğu an vardır. Aynı yerde bu hakikat şöyle devam eder: “Demek güvendiğin hayat-ı maddiye, yalnız bir dakikadır. Hatta bir kısım ehl-i tedkîk, Bir âşiredir, belki bir ân-ı seyyâledir demişler. İşte şu sırdandır ki.. bazı ehl-i velâyet, dünyanın dünya cihetiyle ademine hükmetmişler.” Yani dünya, kendi başına bakıldığında bir yokluk gibidir; ona değer veren, ahirete bakan yüzüdür.",
+  "kainattanDelil": "Bir nehirde aynı suya iki kez girilemez; çünkü su sürekli akıp gider. Bir mum yanarken her an biraz daha erir. Saatin akrebi dönerken geçen dakika geri gelmez. Kâinatta zaman bir nehir gibi akar ve insanın elinde yalnızca şu an kalır. Bu akış, ebedî ve değişmez bir hayatın arayışını kalbe yerleştirir. Akıllı yolcu, elindeki anı değerlendirir.",
+  "hikmet": "Hayat sanılan hâl, yalnız içinde bulunulan dakikadır. Ondan önceki zaman ve içindeki her şey ölmüştür. Ondan sonraki zaman ve içindeki her şey ise henüz yoktur. Güvenilen maddi hayat yalnız bir dakika, hatta akıp giden bir andır. Bu yüzden bazı veliler dünyanın, dünya yönüyle yokluğuna hükmetmişlerdir.",
+  "kendimize": "Geleceğe güvenip bugünü ihmal ediyor muyum? Elimdeki şu anı neyle dolduruyorum? Dünya hayatını uzun sanıp ahireti ertelediğim oluyor mu? Bugünkü dakikalarımın ahirette bana neyi kazandıracağını düşünüyor muyum?",
+  "hayat": "Bugün ertelediğimiz bir iyiliği, bir tövbeyi veya bir namazı hemen şimdi yapmak bu dersin uygulamasıdır. Her yeni dakikayı bir nimet bilip ‘Bu anı Rabbimin rızasına harcayayım’ demek, ömrü bereketlendirir. Geçmişin pişmanlığında veya geleceğin endişesinde boğulmak yerine şu anı değerlendirmek de güzel bir alışkanlıktır.",
+  "ders": "Hayat zannettiğin halet yalnız bulunduğun dakikadır; ondan evvelki zaman ölmüş, sonraki zaman ise ademdir; güvendiğin hayat-ı maddiye yalnız bir dakika, belki bir an-ı seyyaledir.",
+  "tefekkurSorusu": "Bugün elimdeki anı neyle doldurdum?",
+  "dua": {
+   "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ",
+   "okunus": "Rabbenâ âtinâ fî d-dunyâ haseneten vefî l-âhırati haseneten vekınâ 'azâbe n-nâr",
+   "anlam": "“Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru” diyenler vardır.",
+   "kaynak": "Bakara, 2/201"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "ahiret"
+  ],
+  "kavramlar": [
+   "Hayat-ı Maddiye",
+   "An-ı Seyyale",
+   "Mevt",
+   "Adem",
+   "Ehl-i Velayet"
+  ],
+  "kaynaklar": [
+   "Hadîd, 57/20",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Altıncı Söz, Hâtime"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Altıncı Söz'e göre hayat zannedilen halet nedir?",
+    "secenekler": [
+     "Bütün ömür",
+     "Yalnız bulunulan dakika",
+     "Gelecek yıllar",
+     "Geçmiş zaman"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Altıncı Söz'e göre o dakikadan sonraki zaman nedir?",
+    "secenekler": [
+     "Ademdir, hiçtir",
+     "Kesin elimizdedir",
+     "En güvenilir zamandır",
+     "Ölmüştür"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre dünya hayatı aldatıcı bir geçinmedir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_263",
+  "kategori": "ahiret",
+  "baslik": "Ruh Bedenin Libası Değil Sahibidir",
+  "giris": "Bir ev yıkılsa, içinde oturan kişi ölmez; sadece başka bir eve taşınır. Bediüzzaman, Yirmi Dokuzuncu Söz'de ruh ile beden arasındaki ilişkiyi böyle anlatır: Beden ruh ile ayakta durur; ruh ise beden ile ayakta durmaz. Ruh kendi başına kaimdir ve bedenin hâkimidir. Beden ise ruhun hanesi ve yuvasıdır, libası değildir. Bu yüzden bedenin dağılması ruhun yok olması demek değildir.",
+  "aciklama": "Kur'an-ı Kerîm ruhun mahiyeti hakkında şöyle buyurur: “Sana ruhun ne olduğunu soruyorlar, de ki: ‘Ruh, Rabbimin emrinden ibarettir. Bu hususta size pek az bilgi verilmiştir.’” Ruh, Allah'ın emrinden gelen yüce bir hakikattir. Maddi bir şey olmadığı için, maddenin dağılması onu yok edemez.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Dokuzuncu Söz'ünün İkinci Maksadı'nın Mukaddime'sinde şöyle der: “Gāyet kat‘î bir hads ile, belki müşâhede ile sâbittir ki, cesed rûh ile kāimdir. Öyle ise, rûh onun ile kāim değildir.” Ve devam eder: “Belki cesed, rûhun hânesi ve yuvasıdır, libâsı değil.” Eserdeki anlatımın özetine göre ruh, bedeni yöneten ve onu ayakta tutan bağımsız bir hakikattir; beden dağılsa da ruhun bağımsızlığına bir zarar gelmez. Aynı yerde ruhun neden yok olmayacağı da şöyle açıklanır: Ruh ya parçalanarak ya da tamamen yok edilerek fani olabilirdi. Parçalanma mümkün değildir; çünkü “vahdet yol vermez ki girsin, besâtat bırakmaz ki bozsun.” Yok edilmesine ise “Cevvâd-ı Mutlak’ın hadsiz merhameti müsâade etmez”; O, verdiği varlık nimetini, bu nimete çok müştak ve layık olan insan ruhundan geri almaz.",
+  "kainattanDelil": "Bir kuş kafesinden çıktığında ölmez; aksine özgürce uçar. Bir insan eski elbisesini çıkardığında kendisi bir şey kaybetmez. Bir lamba kırılsa da elektrik akımı yok olmaz. Kâinatta kap ile içindeki, ev ile sakini birbirinden farklıdır. Beden de ruh için bir yuva gibidir; yuvanın dağılması sakinin yok olması değildir.",
+  "hikmet": "Beden ruh ile ayakta durur; ruh ise beden ile ayakta durmaz. Ruh kendi başına kaimdir ve hâkimdir. Beden ruhun hanesi ve yuvasıdır, libası değildir. Ruh tek ve basit olduğu için parçalanamaz. Cevvâd-ı Mutlak'ın sonsuz merhameti de ona verdiği varlık nimetini geri almaya müsaade etmez.",
+  "kendimize": "Kendimi yalnız bir beden olarak mı, yoksa ebedî bir ruh olarak mı görüyorum? Bedenime gösterdiğim özeni ruhuma da gösteriyor muyum? Ölümün ruhum için bir yok oluş değil, bir taşınma olduğunu düşünüyor muyum?",
+  "hayat": "Bugün bedenimizi beslediğimiz gibi ruhumuzu da beslemek için bir namaz, bir zikir veya bir dua ile vakit ayırmak bu dersin uygulamasıdır. Vefat etmiş bir yakınımızı, ruhunun yaşadığını düşünerek dua ile anmak, kalbe huzur verir. Aynaya bakarken ‘Bu beden benim yuvam, ben ise ebedî bir ruhum’ diye tefekkür etmek de güzel bir alışkanlıktır.",
+  "ders": "Ceset ruh ile kaimdir, ruh onunla kaim değildir; ceset ruhun hanesi ve yuvasıdır, libası değil; vahdet ve besatat inhilale, Cevvad-ı Mutlak'ın merhameti i'dama müsaade etmez.",
+  "tefekkurSorusu": "Bugün ebedî ruhumu neyle besledim?",
+  "dua": {
+   "arapca": "رَبَّنَآ إِنَّكَ تَعْلَمُ مَا نُخْفِى وَمَا نُعْلِنُ ۗ وَمَا يَخْفَىٰ عَلَى ٱللَّهِ مِن شَىْءٍۢ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ",
+   "okunus": "Rabbenâ inneke te'lemu mâ nuhfî vemâ nu'linu vemâ yehfâ 'alâ'llâhi min şeyin fî l-erdı velâ fî s-semâ",
+   "anlam": "“Rabbimiz! Doğrusu Sen gizlediğimizi de, açığa vurduğumuzu da bilirsin. Yerde ve gökte hiçbir şey Allah'tan gizli kalmaz.”",
+   "kaynak": "İbrâhîm, 14/38"
+  },
+  "konular": [
+   "ahiret",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Ruh",
+   "Ceset",
+   "Vahdet",
+   "Besatat",
+   "Cevvad-ı Mutlak"
+  ],
+  "kaynaklar": [
+   "İsrâ, 17/85",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Dokuzuncu Söz, İkinci Maksat, Mukaddime"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dokuzuncu Söz'e göre ceset neyle kaimdir?",
+    "secenekler": [
+     "Kendi kendine",
+     "Ruh ile",
+     "Toprak ile",
+     "Hava ile"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dokuzuncu Söz'e göre ceset ruhun nesidir?",
+    "secenekler": [
+     "Hanesi ve yuvasıdır, libası değil",
+     "Sahibidir",
+     "Hâkimidir",
+     "Kaynağıdır"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre ruh, Rabbin emrinden ibarettir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_264",
+  "kategori": "ahiret",
+  "baslik": "Baharın Haşri Şahsi Kıyamete Delildir",
+  "giris": "Her bahar, kışın ölmüş gibi görünen bitkiler yeniden dirilir; bazıları aynen, bazıları da benzerleriyle geri gelir. Bediüzzaman, Yirmi Dokuzuncu Söz'de bu yıllık dirilişi, insanın kendi dirilişine bir delil olarak gösterir: Hikmet sahibi Yaratıcı, türlerde her bahar böyle bir kıyamet ve haşir yapıyorsa, her bir insan için de büyük kıyamet içinde şahsi bir haşir yapacaktır.",
+  "aciklama": "Kur'an-ı Kerîm baharın dirilişini haşre şöyle bağlar: “Rüzgarları gönderip de bulutları yürüten Allah'tır. Biz bulutları ölü bir yere sürüp, onunla toprağı ölümünden sonra diriltiriz. İnsanları diriltmek de böyledir.” Toprağın her baharda canlanması, ölülerin dirilişinin en açık misalidir. Bu misal her yıl gözlerimizin önünde tekrarlanır.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Dokuzuncu Söz'ünün İkinci Maksadı'nın Mukaddime'sinde şöyle der: “Bir Sâni‘-i Hakîm tarafından nev‘lerde böyle kıyâmet-i nev‘iyeyi, yani bütün nebâtât köklerini ve bir kısım hayvanları aynen baharda ihyâ etmek.. ve yaprakları ve çiçekleri ve meyveleri gibi sâir bir kısım şeyleri aynıyla değil, misliyle iâde ederek bir nevi‘ haşir ve neşir yapmak, her bir şahs-ı insanîde kıyâmet-i umûmiye içinde bir haşir, kıyâmet-i şahsiyeye delîl olabilir.” Eserdeki anlatımın özetine göre bitki ve hayvan türlerinde bir tür kıyamet her yıl yaşanır; kökler aynen, yapraklar ve çiçekler ise benzerleriyle geri döner. İnsan ise türlerin en kıymetlisidir ve her bir ferdi bir tür hükmündedir; bu yüzden onun her bir ferdi büyük kıyamette şahsen diriltilecektir.",
+  "kainattanDelil": "Kışın kuru görünen bir ağacın kökleri toprak altında yaşar ve baharda aynen filizlenir. Geçen yılın yaprakları dönmez; ama onlara benzeyen yeni yapraklar gelir. Toprak altında uyuyan böcekler baharda yeniden hareketlenir. Her bahar, milyonlarca canlının dirilişini gösteren bir haşir sahnesidir.",
+  "hikmet": "Hikmet sahibi Yaratıcı, her baharda türlerde bir kıyamet yapar. Bitki köklerini ve bazı hayvanları aynen diriltir. Yapraklar, çiçekler ve meyveler gibi şeyleri ise aynıyla değil, benzeriyle geri getirir. Bu yıllık haşir, her insanın büyük kıyamette şahsen diriltileceğine bir delildir.",
+  "kendimize": "Baharın gelişini haşrin bir provası olarak görebiliyor muyum? Her insanın, benim de, şahsen diriltileceğini düşünüyor muyum? Bu dirilişe hazırlık için bugün ne yapıyorum? Toprağa düşen her tohumda kendi ahiret yolculuğumu görebiliyor muyum?",
+  "hayat": "Bugün bir bitkinin köküne, bir tomurcuğa veya bir filize bakıp baharın haşrini tefekkür etmek bu dersin uygulamasıdır. Her baharın gelişini ‘Ölüleri dirilten Rabbim ne yücedir’ diyerek karşılamak, ahiret imanını tazeler. Bu tefekkürü çocuklara bir tohum ekerek anlatmak da güzel bir eğitimdir.",
+  "ders": "Sani-i Hakîm nevilerde baharda kökleri aynen, yaprak ve çiçekleri misliyle iade ederek bir nevi haşir yapar; bu kıyamet-i neviye, her şahs-ı insanide bir kıyamet-i şahsiyeye delildir.",
+  "tefekkurSorusu": "Bugün hangi canlanışta kendi dirilişimi düşündüm?",
+  "dua": {
+   "arapca": "ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ",
+   "okunus": "Allâhumme mâlike l-mulki tutî l-mulke men teşâu vetenzi'u l-mulke mimmen teşâu vetu'ızzu men teşâu vetuzillu men teşâu biyedike l-hayru inneke 'alâ kulli şeyin kadîrun tûlicu el-leyle fî n-nehârı vetûlicu n-nehâra fî el-leyli vetuhrıcu l-haye mine l-meyiti vetuhrıcu l-meyite mine l-hayi veterzuku men teşâu biğayrı hısâb",
+   "anlam": "De ki: “Mülkün sahibi olan Allah'ım! Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir. Doğrusu Sen, her şeye Kadir'sin. Geceyi gündüze, gündüzü geceye geçirirsin; ölüden diri, diriden ölü çıkarırsın; dilediğini hesapsız rızıklandırırsın”.",
+   "kaynak": "Âl-i İmrân, 3/26-27"
+  },
+  "konular": [
+   "ahiret",
+   "tabiat"
+  ],
+  "kavramlar": [
+   "Kıyamet-i Neviye",
+   "Kıyamet-i Şahsiye",
+   "Haşir",
+   "Neşir",
+   "İade"
+  ],
+  "kaynaklar": [
+   "Fâtır, 35/9",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Dokuzuncu Söz, İkinci Maksat, Mukaddime"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dokuzuncu Söz'e göre baharda nebatat kökleri nasıl ihya edilir?",
+    "secenekler": [
+     "Hiç ihya edilmez",
+     "Aynen",
+     "Yalnız misliyle",
+     "Rastgele"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dokuzuncu Söz'e göre kıyamet-i neviye neye delil olabilir?",
+    "secenekler": [
+     "Her şahs-ı insanide kıyamet-i şahsiyeye",
+     "Tesadüfe",
+     "Tabiatın gücüne",
+     "Hiçbir şeye"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre insanların diriltilmesi, ölü toprağın diriltilmesi gibidir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_265",
+  "kategori": "kuran",
+  "baslik": "Kur'an Semavi Bir Ağaçtır",
+  "giris": "Büyük bir ağacın gücü, toprağın derinliklerine uzanan köklerinden gelir. Bediüzzaman, On Dokuzuncu Mektub'da Kur'an'ı böyle bir ağaca benzetir: Farklı asırlarda yaşamış, farklı meşrep ve mesleklere sahip peygamberler, veliler ve tevhid ehli, Kur'an'ın temel esaslarını kitaplarında tasdik etmiştir. Onlar, Kur'an semavi ağacının kökleri gibidir.",
+  "aciklama": "Kur'an-ı Kerîm kendinden önceki kitaplarla ilişkisini şöyle bildirir: “Kuran'ı, önce gelen Kitap'ı tasdik ederek ve ona şahid olarak gerçekle sana indirdik.” Kur'an, önceki semavi kitapların özünü taşır ve onları tasdik eder. Bütün peygamberlerin getirdiği tevhid mesajı, en kapsamlı şekliyle Kur'an'da bir araya gelmiştir.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın On Dokuzuncu Mektub'unun On Sekizinci İşaret'inde şöyle der: “Evet, Kur’ân-ı Mu‘cizü’l-Beyân asırları, meşrebleri, meslekleri muhtelif olan enbiyânın, evliyânın, muvahhidînin kitaplarının sırr-ı icmâını câmi‘dir.” Eserdeki anlatımın özetine göre farklı zamanlarda ve farklı yollarda yürüyen bu büyük insanların aynı esaslarda birleşmesi, Kur'an'ın hak olduğuna güçlü bir delildir; çünkü onlar birbirlerinden habersiz olarak aynı hakikati tasdik etmişlerdir. Aynı yerde bu hakikat şöyle tamamlanır: “Yani bütün o ehl-i kalb ve akıl, Kur’ân-ı Hakîm’in mücmel ahkâmını ve esâsâtını tasdîk eder bir sûrette, o esâsâtı kitaplarında zikredip kabûl etmişler. Demek onlar, Kur’ân şecere-i semâviyesinin kökleri hükmündedirler.”",
+  "kainattanDelil": "Büyük bir çınar ağacının kökleri dört bir yana uzanır ve ağacı sağlam tutar. Bir nehir, farklı dağlardan gelen derelerin birleşmesiyle büyür. Bir binanın sütunları, farklı yerlerde dursalar da aynı çatıyı taşır. Kâinatta farklı parçaların tek bir bütünü desteklemesi, o bütünün sağlamlığını gösterir.",
+  "hikmet": "Mucize beyanlı Kur'an, farklı asırlarda yaşamış, farklı meşrep ve mesleklere sahip peygamberlerin, velilerin ve tevhid ehlinin kitaplarındaki ittifakın sırrını kendinde toplar. Bütün o kalp ve akıl ehli, Kur'an'ın temel esaslarını kitaplarında tasdik etmiştir. Onlar, Kur'an semavi ağacının kökleri hükmündedir.",
+  "kendimize": "Kur'an'ı bütün peygamberlerin ve velilerin tasdik ettiği bir hakikat olarak görüyor muyum? Onun köklerinin derinliğini düşünerek imanımı güçlendiriyor muyum? Kur'an ağacının bir dalı olmaya çalışıyor muyum? Kökleri bu kadar derin bir kitaba bağlı olmanın şükrünü eda ediyor muyum?",
+  "hayat": "Bugün bir peygamber kıssasını okuyup onun mesajının Kur'an'la nasıl buluştuğunu düşünmek bu dersin uygulamasıdır. Büyük alimlerin ve velilerin eserlerinden bir sayfa okuyup Kur'an'ın esaslarını orada da görmek, imanı derinleştirir. Kur'an'ı okurken bütün peygamberlerin bu mesajı tasdik ettiğini hatırlamak da güzel bir tefekkürdür.",
+  "ders": "Kur'an-ı Mu'cizü'l-Beyan, muhtelif enbiya, evliya ve muvahhidinin kitaplarının sırr-ı icmaını camidir; onlar Kur'an şecere-i semaviyesinin kökleri hükmündedir.",
+  "tefekkurSorusu": "Bugün Kur'an ağacının hangi kökünü tanıdım?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+   "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+   "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+   "kaynak": "Âl-i İmrân, 3/8"
+  },
+  "konular": [
+   "kuran",
+   "nubuvvet"
+  ],
+  "kavramlar": [
+   "İcma",
+   "Enbiya",
+   "Evliya",
+   "Muvahhidin",
+   "Şecere-i Semaviye"
+  ],
+  "kaynaklar": [
+   "Mâide, 5/48",
+   "Bediüzzaman Said Nursî, Mektûbât, On Dokuzuncu Mektub, On Sekizinci İşaret"
+  ],
+  "sinav": [
+   {
+    "soru": "On Dokuzuncu Mektub'a göre Kur'an neyin sırr-ı icmaını camidir?",
+    "secenekler": [
+     "Şairlerin sözlerinin",
+     "Enbiya, evliya ve muvahhidinin kitaplarının",
+     "Filozofların görüşlerinin",
+     "Tarihçilerin kitaplarının"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Dokuzuncu Mektub'a göre ehl-i kalb ve akıl Kur'an şecere-i semaviyesinin nesidir?",
+    "secenekler": [
+     "Kökleri hükmündedir",
+     "Yaprakları",
+     "Gölgesi",
+     "Hiçbiri"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Kur'an önce gelen Kitap'ı tasdik eder.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_266",
+  "kategori": "nefis",
+  "baslik": "Eneyi Yırt, Hüveyi Göster",
+  "giris": "İnsan en çok kendini sever; bu sevgi bazen onu bencilliğe ve gurura sürükler. Bediüzzaman, Yirmi Dördüncü Söz'ün Beşinci Dalı'nda bu sevginin gerçek yönünü gösterir: Senin nefsine olan şiddetli sevgin, aslında Allah'ın zatına karşı verilmiş bir sevgidir; sen onu yanlış kullanıp kendine harcıyorsun. Öyleyse nefsindeki ‘ene’yi yırt, ‘hüve’yi göster.",
+  "aciklama": "Kur'an-ı Kerîm müminlerin sevgisini şöyle anlatır: “İnsanlar arasında, Allah'ı bırakıp, O'na koştukları eşleri tanrı olarak benimseyenler ve onları, Allah'ı severcesine sevenler vardır. Müminlerin Allah'ı sevmesi ise hepsinden kuvvetlidir.” Mümin, en büyük sevgisini Allah'a verir. Diğer sevgileri de bu sevginin ışığında ve onun hesabına olur.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Dördüncü Söz'ünün Beşinci Dalı'nın İkinci Meyve'sinde şöyle der: “Zâten sana, sende senin nefsine olan şedîd muhabbetin, onun zâtına karşı muhabbet-i zâtiyedir ki, sen sû’-i isti‘mâl edip kendi zâtına sarf ediyorsun. Öyle ise nefsindeki eneyi yırt, hüveyi göster.” Eserdeki anlatımın özetine göre ‘ene’, yani benlik, kendini mülk sahibi zanneden bir perdedir; onu yırtmak, her şeyin asıl sahibinin ‘O’ olduğunu görmektir. Aynı yerde bu hakikat bütün sevgilere genişletilir: “Ve kâinâta dağılmış olan bütün muhabbetlerin, onun esmâ ve sıfâtına karşı verilmiş bir muhabbettir. Sen sû’-i isti‘mâl etmişsin, cezâsını da çekiyorsun.” Yani sevgiler kendi gayelerinde kullanılmazsa, zevâl acısıyla insanı cezalandırır.",
+  "kainattanDelil": "Bir ayna güneşe döndüğünde parlar; kendine dönse karanlık kalır. Bir ay, kendi ışığı olmadığı hâlde güneşin ışığını yansıttığı için parlar. Bir ırmak, denize doğru akarken temiz kalır; durgun bir gölete hapsolursa bulanır. Kâinatta her şey asıl kaynağına yöneldiğinde güzelleşir; insanın sevgisi de böyledir.",
+  "hikmet": "İnsanın nefsine olan şiddetli sevgisi, aslında Allah'ın zatına karşı verilmiş bir sevgidir. İnsan bunu yanlış kullanıp kendine harcar. Öyleyse nefisteki ‘ene’ yırtılmalı ve ‘hüve’ gösterilmelidir. Kâinata dağılmış bütün sevgiler, Allah'ın isim ve sıfatlarına karşı verilmiştir. Yanlış kullanılınca, insan onun cezasını çeker.",
+  "kendimize": "Kendime olan sevgimi Rabbime yöneltebiliyor muyum? ‘Ben yaptım, benim’ dediğim şeylerin asıl sahibini hatırlıyor muyum? Sevgilerimi kaybettiğimde yaşadığım acının sebebini düşünüyor muyum? Benliğimin perdesini yırtmak için bugün hangi adımı attım?",
+  "hayat": "Bugün ‘ben’ diyerek övündüğümüz bir anı fark edip onu ‘Rabbim nasip etti’ diye düzeltmek bu dersin uygulamasıdır. Sevdiğimiz insanları ve şeyleri Allah hesabına sevmeye niyet etmek, sevgiyi kalıcı kılar. Bir başarımızı anlatırken Allah'ın lütfunu öne çıkarmak da eneyi yırtmanın güzel bir yoludur.",
+  "ders": "Nefsine olan şedid muhabbetin onun zatına karşı muhabbet-i zatiyedir; nefsindeki eneyi yırt, hüveyi göster; kâinata dağılmış muhabbetler onun esma ve sıfatına karşı verilmiştir.",
+  "tefekkurSorusu": "Bugün hangi ‘ben’ dediğim şeyde ‘O’nu gösterdim?",
+  "dua": {
+   "arapca": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَٰجِنَا وَذُرِّيَّـٰتِنَا قُرَّةَ أَعْيُنٍۢ وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+   "okunus": "Rabbenâ heb lenâ min ezvâcinâ vezurrıyyâtinâ kurrate e'yunin ve-ic'alnâ lilmuttekîne imâmen",
+   "anlam": "Onlar: “Rabbimiz! Bize eşlerimizden ve çocuklarımızdan gözümüzün aydınlığı olacak insanlar ihsan et ve bizi, Allah'a karşı gelmekten sakınanlara önder yap” derler.",
+   "kaynak": "Furkân, 25/74"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "tevhid"
+  ],
+  "kavramlar": [
+   "Ene",
+   "Hüve",
+   "Muhabbet-i Zatiye",
+   "Su-i İstimal",
+   "Muhabbetullah"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/165",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Dördüncü Söz, Beşinci Dal, İkinci Meyve"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dördüncü Söz'e göre insanın nefsine olan şedid muhabbeti aslında nedir?",
+    "secenekler": [
+     "Bir zaaf",
+     "Allah'ın zatına karşı muhabbet-i zatiye",
+     "Bir hastalık",
+     "Gereksiz bir his"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dördüncü Söz'e göre insan nefsinde ne yapmalıdır?",
+    "secenekler": [
+     "Eneyi yırtıp hüveyi göstermeli",
+     "Eneyi büyütmeli",
+     "Hüveyi gizlemeli",
+     "Hiçbir şey yapmamalı"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre müminlerin Allah'ı sevmesi her şeyden kuvvetlidir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_267",
+  "kategori": "risaleler",
+  "baslik": "Zevalle Acılanan Kavuşmalar",
+  "giris": "Bir kavuşma ne kadar tatlı olursa olsun, ardından bir ayrılık geliyorsa o tatlılık acıyla karışır. Bediüzzaman, Yirmi Dördüncü Söz'ün Beşinci Dalı'nda bu hakikati anlatır: Hemen ardından zevalle acılanan buluşmalar, kedere ve özleme değmez. Çünkü lezzetin gitmesi acı olduğu gibi, gideceğini düşünmek de bir acıdır. Mecazi aşıkların bütün şiirleri, bu acıdan kopan birer feryattır.",
+  "aciklama": "Kur'an-ı Kerîm Hz. İbrahim'in bir sözünü aktarır: “Gece basınca bir yıldız gördü, ‘işte bu benim Rabbim!’ dedi; yıldız batınca, ‘batanları sevmem’ dedi.” Hz. İbrahim, batıp giden şeylerin kalbin asıl sevgilisi olamayacağını öğretir. Kalp, ancak hiç batmayan ve hiç zeval bulmayan Rabbine bağlandığında huzur bulur.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Dördüncü Söz'ünün Beşinci Dalı'nın Beşinci Meyve'sinde şöyle der: “Der‘akab zevâl ile acılanan mülâkātlar, keder ve meraka değmez. İştiyâka hiç lâyık değildir. Çünki zevâl-i lezzet, elem olduğu gibi.. zevâl-i lezzetin tasavvuru dahi bir elemdir.” Eserdeki anlatımın özetine göre fani şeylere bağlanan kalp, kavuştuğu anda bile ayrılığın gölgesini hisseder; bu yüzden onun sevinci hiçbir zaman tam olmaz. Aynı yerde bu hakikat edebiyattan bir delille gösterilir: “Bütün mecâzî âşıkların dîvânları, yani aşknâmeleri olan manzûm kitapları, şu tasavvur-u zevâlden gelen elemden birer feryâddır. Her birinin, bütün dîvân-ı eş‘ârının ruhunu eğer sıksan, elemkârâne birer feryâd damlar.” Kalbin asıl sevgilisi ise ancak zevalsiz olan Bâkî-i Zülcelâl'dir.",
+  "kainattanDelil": "Bir çiçek açar ve birkaç gün sonra solar; onu seven, açtığı anda bile solacağını düşünüp hüzünlenir. Gün batımının güzelliği, karanlığın yaklaştığını hatırlatır. Bir misafirin gelişi sevindirir; ama gideceği vakit yaklaştıkça sevinç azalır. Kâinatta her geçici güzellik, kendi içinde bir ayrılık hüznü taşır.",
+  "hikmet": "Hemen ardından zevalle acılanan kavuşmalar, kedere ve özleme değmez. Çünkü lezzetin gitmesi acı olduğu gibi, gideceğini düşünmek de bir acıdır. Mecazi aşıkların bütün şiirleri, zevali düşünmekten gelen acının feryadıdır. Kalbin asıl sevgilisi, hiç batmayan ve hiç zeval bulmayan Rabbidir.",
+  "kendimize": "Kalbimi batıp giden şeylere mi bağlıyorum? Bir sevincin bitmesinden korktuğum anlarda bu korkunun sebebini düşünüyor muyum? Hz. İbrahim gibi ‘Batanları sevmem’ diyebiliyor muyum?",
+  "hayat": "Bugün bir şeye aşırı bağlandığımızı fark ettiğimizde ‘Bu da batacak, asıl sevgilim Rabbimdir’ demek bu dersin uygulamasıdır. Dinlediğimiz şarkıların ve okuduğumuz şiirlerin bize hangi hüznü verdiğine dikkat etmek, kalbi korur. Sevdiklerimizi Allah için sevmeye niyet etmek de ayrılık acısını kavuşma ümidine çeviren güzel bir alışkanlıktır.",
+  "ders": "Derakab zeval ile acılanan mülakatlar keder ve meraka değmez; zeval-i lezzet elem olduğu gibi tasavvuru dahi elemdir; mecazi aşıkların divanları bu elemden birer feryaddır.",
+  "tefekkurSorusu": "Bugün kalbimi hangi batan şeyden koruyup Rabbime bağladım?",
+  "dua": {
+   "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+   "okunus": "Hasbiye'llâhu lâ ilâhe illâ huve 'aleyhi tevekkeltu vehuve rabbu l-'arşi l-'azîm",
+   "anlam": "Eğer yüz çevirirlerse de ki: “Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.”",
+   "kaynak": "Tevbe, 9/129"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "musibet"
+  ],
+  "kavramlar": [
+   "Zeval",
+   "Mülakat",
+   "Elem",
+   "Mecazi Aşk",
+   "İştiyak"
+  ],
+  "kaynaklar": [
+   "En'âm, 6/76",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Dördüncü Söz, Beşinci Dal, Beşinci Meyve"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dördüncü Söz'e göre zeval-i lezzetin tasavvuru nedir?",
+    "secenekler": [
+     "Bir lezzet",
+     "Bir elem",
+     "Bir sevinç",
+     "Bir ümit"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dördüncü Söz'e göre mecazi aşıkların divanları nedir?",
+    "secenekler": [
+     "Tasavvur-u zevalden gelen elemden birer feryad",
+     "Birer sevinç şarkısı",
+     "Birer bilgi kitabı",
+     "Birer dua kitabı"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Hz. İbrahim 'batanları sevmem' demiştir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_268",
+  "kategori": "iman",
+  "baslik": "Bekamın Lezzeti Bâkî'nin Bekasına İmandadır",
+  "giris": "İnsan sonsuza kadar yaşamak ister; ama bedeni ve dünyası buna izin vermez. Bu arzunun cevabını nerede bulacak? Bediüzzaman, Dördüncü Şua'da bu soruya kendi tecrübesiyle cevap verir: Bekamın lezzeti ve saadeti, aynen ve daha mükemmel bir şekilde, Bâkî-i Zülkemâl'in bekasına ve O'nun benim Rabbim ve İlahım olduğuna olan imanımdadır.",
+  "aciklama": "Kur'an-ı Kerîm her şeyin fani, Allah'ın ise bâkî olduğunu bildirir: “Yeryüzünde bulunan her şey fanidir. Ancak, yüce ve cömert olan Rabbinin varlığı bakidir.” İnsan fani olan şeylere bağlandıkça hüzünlenir. Bâkî olan Rabbine bağlandığında ise onun bekasından bir pay alır ve gerçek bir huzura kavuşur.",
+  "risalePerspektifi": "Bediüzzaman, Şuâlar'ın Dördüncü Şua'sının Birinci Mertebe'sinde şöyle der: “Bekāmın lezzet ve saâdeti, aynen ve daha mükemmel bir tarzda Bâkî-i Zülkemâl’in bekāsına ve benim Rabbim ve İlâhım olduğuna îmânımda ve iz‘ânımda ve îkānımda vardır.” Eserdeki anlatımın özetine göre insan, ebedî olan Rabbini tanıyıp O'na bağlandığında, kendi varlığı da bu bağ sayesinde değer ve devam kazanır. Aynı yerde bu hakikatin sırrı şöyle açıklanır: “Çünki onun bekāsıyla benim için lâyemût bir hakîkat tahakkuk eder. Zîrâ benim mâhiyetim hem bâkî, hem sermedî bir ismin bir gölgesi olur, daha ölmez ve şuûr-u îmânî ile takarrur eder.” Yani insanın mahiyeti, bâkî bir ismin gölgesi olduğu için iman şuuruyla sabitleşir ve ölmez.",
+  "kainattanDelil": "Bir aynadaki güneş görüntüsü, ayna değişse de güneş var oldukça yeniden görünür. Bir gölge, onu yapan cisim durdukça vardır. Bir ışık huzmesi, kaynağına bağlı kaldıkça parlar. Kâinatta her yansıma ve gölge, kaynağının devamıyla devam eder; insanın mahiyeti de bâkî bir ismin gölgesi olduğu için kalıcıdır. Kaynak bâkî oldukça gölge de yok olmaz.",
+  "hikmet": "Bekanın lezzeti ve saadeti, aynen ve daha mükemmel bir şekilde, Bâkî-i Zülkemâl'in bekasına ve O'nun Rabbim ve İlahım olduğuna olan imanda vardır. Çünkü O'nun bekasıyla insan için ölümsüz bir hakikat gerçekleşir. İnsanın mahiyeti bâkî ve sermedî bir ismin gölgesi olur, ölmez ve iman şuuruyla sabitleşir.",
+  "kendimize": "Sonsuzluk arzumu fani şeylerle mi, yoksa Bâkî olan Rabbime imanla mı karşılıyorum? ‘Rabbim var’ demenin bana verdiği huzuru hissediyor muyum? Kendimi bâkî bir ismin gölgesi olarak görüyor muyum? İmanımın bana ölümsüz bir hakikat kazandırdığını düşünerek sevinebiliyor muyum?",
+  "hayat": "Bugün ‘Yâ Bâkî, Ente'l-Bâkî’ diyerek kısa bir zikir yapmak bu dersin uygulamasıdır. Bir kayıp veya ayrılık hüznü yaşadığımızda, Bâkî olan Rabbimizin varlığını hatırlayarak teselli bulmak, imanın meyvesidir. ‘Rabbim ve İlahım Sensin’ diyerek dua etmek de bekanın lezzetini kalpte tazeleyen güzel bir alışkanlıktır.",
+  "ders": "Bekamın lezzet ve saadeti Baki-i Zülkemal'in bekasına ve Rabbim olduğuna imanımda vardır; mahiyetim baki bir ismin gölgesi olur, ölmez ve şuur-u imani ile takarrur eder.",
+  "tefekkurSorusu": "Bugün Bâkî Rabbime imanımla hangi fani hüznü teselli ettim?",
+  "dua": {
+   "arapca": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+   "okunus": "Kul huve'llâhu ehadun el-lehu s-samedu lem yelid velem yûled velem yekun lehu kufuven ehad",
+   "anlam": "De ki: O Allah bir tektir. Allah her şeyden müstağni ve her şey O'na muhtaçtır. O doğurmamış ve doğmamıştır. Hiçbir şey O'na denk değildir.",
+   "kaynak": "İhlâs, 112/1-4"
+  },
+  "konular": [
+   "iman",
+   "esma"
+  ],
+  "kavramlar": [
+   "Beka",
+   "Baki-i Zülkemal",
+   "İz'an",
+   "İkan",
+   "Şuur-u İmani"
+  ],
+  "kaynaklar": [
+   "Rahmân, 55/26-27",
+   "Bediüzzaman Said Nursî, Şuâlar, Dördüncü Şua, Birinci Mertebe"
+  ],
+  "sinav": [
+   {
+    "soru": "Dördüncü Şua'ya göre bekanın lezzet ve saadeti nerededir?",
+    "secenekler": [
+     "Dünya malında",
+     "Baki-i Zülkemal'in bekasına imanda",
+     "Uzun ömürde",
+     "Şöhrette"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Dördüncü Şua'ya göre insanın mahiyeti neyin gölgesi olur?",
+    "secenekler": [
+     "Baki ve sermedi bir ismin",
+     "Tabiatın",
+     "Tesadüfün",
+     "Maddenin"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre yeryüzündeki her şey fanidir, Rabbin zatı bakidir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_269",
+  "kategori": "kuran",
+  "baslik": "Güneş Bir Lambadır, Yakıtını Veren Kim?",
+  "giris": "Gafil bir insan Allah'tan kaçmak için sebeplerin arkasına saklanır; ama her sığınağında bir soruyla karşılaşır. Bediüzzaman, On Dokuzuncu Mektub'un Hâtime'sinde Kur'an'ın bu insanı nasıl takip ettiğini anlatır: Kur'an, kâinatın en geniş perdelerinin arkasında bile tevhid nurlarını gösterir. Gafil güneşe kaçsa, Kur'an ona şöyle der: O bir soba, bir lambadır; onun yakıtını veren kimdir?",
+  "aciklama": "Kur'an-ı Kerîm güneşi ve ayı şöyle anlatır: “Aralarında aya aydınlık vermiş ve güneşin ışık saçmasını sağlamıştır.” Güneş kendi başına bir ilah değil, Allah'ın yarattığı ve dünyayı aydınlatsın diye bir vazifeye koyduğu bir lambadır. Onun ışığı, kendi malı değil, Yaratıcısının bir ihsanıdır.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın On Dokuzuncu Mektub'unun Zülfikâr Hâtime'sinde şöyle der: “Ehl-i dalâletin boğulduğu en son ve en geniş kâinât perdelerinin arkasında envâr-ı tevhîdi gösterir. Ve kozmoğrafyacılar gibi ehl-i fennin, en son ve geniş nokta-i istinâdları ve medâr-ı gafletleri olan perdelerde de nûr-u ehadiyeti gösteriyor.” Eserdeki anlatımın özetine göre bazı insanlar kâinatın büyüklüğüne ve kanunlarına bakıp gaflete düşer; Kur'an ise tam bu büyük perdelerde Allah'ın birliğini gösterir. Aynı yerde Kur'an'ın bu takibi şöyle anlatılır: “Orada dahi düşmanlarını ta‘kîb ediyor. En uzak tahassungâhlarını bozuyor. Her yerde huzûra yol gösteriyor. Eğer güneşe kaçsa ona der: O bir soba, bir lâmbadır. Odununu, gaz yağını veren kimdir? Bil, ayıl, diye başına vurur.”",
+  "kainattanDelil": "Güneş her saniye muazzam bir enerji yayar; ama bu enerjiyi kendisi yaratmaz. Bir lamba ne kadar parlak olursa olsun, onu yakan bir el ve yakıtını koyan bir sahip vardır. Yıldızlar, gezegenler ve galaksiler ne kadar büyük olursa olsun, her biri bir kanuna bağlıdır. Kâinattaki en büyük varlıklar bile birer memur ve birer lambadır.",
+  "hikmet": "Kur'an, dalalet ehlinin boğulduğu en son ve en geniş kâinat perdelerinin arkasında tevhid nurlarını gösterir. Bilim ehlinin dayandığı ve gaflete düştüğü en geniş perdelerde bile Allah'ın birliğinin nurunu gösterir. Gafil güneşe kaçsa, Kur'an ona der: O bir soba ve bir lambadır; yakıtını veren kimdir? Bil ve uyan.",
+  "kendimize": "Kâinatın büyüklüğüne bakarken gaflete mi düşüyorum, yoksa Rabbimin azametini mi görüyorum? Güneş, yıldızlar ve galaksiler hakkında öğrendiklerimi tevhide bağlayabiliyor muyum? Sebeplerin arkasına saklanıp Rabbimi unuttuğum oluyor mu?",
+  "hayat": "Bugün güneşe bakıp ‘Bu lambayı yakan ve yakıtını veren Rabbim ne yücedir’ demek bu dersin uygulamasıdır. Uzay ve gökyüzü hakkında bir bilgi öğrendiğimizde onu Kur'an'ın bakışıyla yorumlamak, ilmi imanla buluşturur. Gece yıldızlara bakıp Allah'ın birliğini tefekkür etmek de güzel bir alışkanlıktır.",
+  "ders": "Kur'an, ehl-i dalaletin boğulduğu en geniş kâinat perdelerinin arkasında envar-ı tevhidi gösterir; gafil güneşe kaçsa ona der: O bir lambadır, gaz yağını veren kimdir? Bil, ayıl.",
+  "tefekkurSorusu": "Bugün hangi büyük varlıkta onun Sahibini gördüm?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+   "okunus": "L-hamdu lillehi ellezî lem yettehız veleden velem yekun lehu şerîkun fî l-mulki velem yekun lehu veliyyun mine d-zuli vekebbirhu tekbîr",
+   "anlam": "De ki: “Hamd, çocuk edinmemiş olan, hükümranlığında ortağı bulunmayan, düşkün olmayıp yardımcıya da ihtiyaç göstermeyen Allah'a mahsustur.” O'nu gereği gibi büyükle.",
+   "kaynak": "İsrâ, 17/111"
+  },
+  "konular": [
+   "kuran",
+   "tevhid"
+  ],
+  "kavramlar": [
+   "Envar-ı Tevhid",
+   "Nur-u Ehadiyet",
+   "Perde",
+   "Ehl-i Fen",
+   "Tahassungâh"
+  ],
+  "kaynaklar": [
+   "Nûh, 71/16",
+   "Bediüzzaman Said Nursî, Mektûbât, On Dokuzuncu Mektub, Zülfikâr Hâtimesi"
+  ],
+  "sinav": [
+   {
+    "soru": "On Dokuzuncu Mektub'a göre Kur'an en geniş kâinat perdelerinin arkasında neyi gösterir?",
+    "secenekler": [
+     "Tesadüfü",
+     "Envar-ı tevhidi",
+     "Tabiatın gücünü",
+     "Karanlığı"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Dokuzuncu Mektub'a göre gafil güneşe kaçsa Kur'an ona ne der?",
+    "secenekler": [
+     "O bir soba, bir lambadır; gaz yağını veren kimdir?",
+     "O bir ilahtır",
+     "O kendi kendine yanar",
+     "Hiçbir şey demez"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre güneşin ışık saçmasını Allah sağlamıştır.",
+    "dogru": true
+   }
+  ]
  }
 ]

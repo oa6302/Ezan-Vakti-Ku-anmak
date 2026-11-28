@@ -60,3 +60,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-28: ders_240-247 (Cemal-i Baki, hastalık sıhhat, kabir kapı, ömür sermayesi, âdetlerin harikaları, haşir bahar, hayatdar âlemler, en bahtiyar); toplam 247.
 - 2026-11-28: ders_248-253 (perde perde rahmet, Kur'an'da taklit yok, iki hüzün, kanaat-israf, esmanın nakşı, felsefe ve Kur'an bakışı); toplam 253.
 - 2026-11-28: ders_254-261 (insanın alakası, kuşun tüyü ve kıyamet, çekirdek ve iman, mucizeler teşvik, kader-cüz'i ihtiyari, Kur'an'ın tefevvuku, nazari kader, hafıza senedi); toplam 261.
+- 2026-11-28: ders_262-269 (hayat bir dakika, ruh ve ceset, kıyamet-i şahsiye, Kur'an şecere-i semaviye, ene ve hüve, zeval elemi, beka lezzeti, güneş bir lamba); toplam 269.
