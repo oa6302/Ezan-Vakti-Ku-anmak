@@ -10469,5 +10469,509 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_162",
+  "kategori": "ahiret",
+  "baslik": "İki Kabrin Arasında Yaşamak",
+  "giris": "Geçmişe bakan insan, kendinden önce yaşamış sayısız insanın şimdi toprak altında olduğunu görür; geleceğe bakınca da kendisinin ve bugün yaşayanların oraya gideceğini bilir. Bediüzzaman, Katre Risâlesi'nde bu hakikati çarpıcı bir ifadeyle anlatır: Geçmiş zaman geniş bir kabir, gelecek zaman da geniş bir mezarlıktır; bugün sen, iki kabrin arasında yaşıyorsun.",
+  "aciklama": "Kur'an-ı Kerîm ölümün vaktinin ve yerinin bilinmediğini hatırlatır: “Kimse yarın ne kazanacağını bilmez ve hiç kimse nerede öleceğini bilemez. Allah şüphesiz bilendir, her şeyden haberdardır.” Ölümün ne zaman geleceğini bilmemek, insanı her an hazırlıklı olmaya çağırır. Bu bilinç, hayatı karartmak için değil, onu daha değerli ve daha anlamlı yaşamak içindir.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Katre Risâlesi'nin İkinci Hakîkat'inde insana şöyle hitap eder: “Evet, senin bu cismin ebedî değil, demirden değil, taştan değil, ancak et ve kemikten ibârettir. Ânî olarak senin başına yıkılabilir.” Eserdeki anlatımın özetine göre insanın bedeni sağlam bir kale değil, her an yıkılabilecek nazik bir yapıdır; bu yüzden ona güvenip ahireti unutmak büyük bir aldanıştır. Aynı yerde zamanın iki yönü şöyle gösterilir: “Bak, zaman-ı mâzî senin gibi olup geçmiş olanlara geniş bir kabir olduğu gibi, istikbâl zamanı da geniş bir mezaristan olacaktır. Bugün sen, iki kabrin arasında yaşıyorsun. Artık sen bilirsin.” Bu son cümle, insanı kendi tercihine çağırır: İki kabir arasındaki bu kısa ömrü ya gafletle ya da ahirete hazırlıkla geçirecektir.",
+  "kainattanDelil": "Bir ağaç her yıl yapraklarını döker ve yenilerini çıkarır; düşen yapraklar toprağa karışır. Bir nehir sürekli akar; geçen su geri gelmez, gelecek su da henüz gelmemiştir. Her gün güneş doğar ve batar; dünün günü geçmiştir, yarının günü ise henüz gelmemiştir. Kâinatta her şey bir geçiş halindedir; insan da bu geçişin içinde, geçmiş ile gelecek arasında kısa bir an yaşar.",
+  "hikmet": "İnsanın bedeni ebedî değildir; et ve kemikten ibarettir ve her an yıkılabilir. Geçmiş zaman geniş bir kabir, gelecek zaman da geniş bir mezarlıktır. İnsan iki kabrin arasında yaşar ve bu kısa ömrü nasıl geçireceğini kendisi seçer. Ölümün vakti bilinmediği için her an hazırlıklı olmak gerekir.",
+  "kendimize": "Bedenime ve sağlığıma güvenip ahireti unuttuğum oluyor mu? İki kabir arasındaki bu kısa ömrümü neyle dolduruyorum? Bugün ölsem, yanımda götüreceğim amellerden memnun olur muydum?",
+  "hayat": "Bugün bir kabristanı ziyaret edip oradakiler için dua etmek ve kendi yolculuğumuzu hatırlamak bu dersin uygulamasıdır. Yarın yapmayı düşündüğümüz bir iyiliği bugün yapmak, vaktin bilinmezliğine karşı bir hazırlıktır. Kırgın olduğumuz biriyle barışmak da iki kabir arasındaki kısa ömrü güzelleştirmenin bir yoludur.",
+  "ders": "Zaman-ı mazi senin gibi geçmiş olanlara geniş bir kabir olduğu gibi, istikbal zamanı da geniş bir mezaristan olacaktır; bugün sen iki kabrin arasında yaşıyorsun.",
+  "tefekkurSorusu": "Bugün iki kabir arasındaki ömrümün hangi anını değerlendirdim?",
+  "dua": {
+   "arapca": "رَّبَّنَآ إِنَّنَا سَمِعْنَا مُنَادِيًۭا يُنَادِى لِلْإِيمَـٰنِ أَنْ ءَامِنُوا۟ بِرَبِّكُمْ فَـَٔامَنَّا ۚ رَبَّنَا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ ٱلْأَبْرَارِ رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ ٱلْقِيَـٰمَةِ ۗ إِنَّكَ لَا تُخْلِفُ ٱلْمِيعَادَ",
+   "okunus": "Rabbenâ innenâ semi'nâ munâdiyen yunâdî lilîmâni en âminû birabbikum feâmennâ rabbenâ fe-iğfir lenâ zunûbenâ vekeffir 'annâ seyyiâtinâ veteveffenâ me'a l-ebrârı rabbenâ veâtinâ mâ ve'adttenâ 'alâ rusulike velâ tuhzinâ yevme l-kıyâmeti inneke lâ tuhlifu l-mî'âd",
+   "anlam": "“Rabbimiz! Doğrusu biz Rabbinize inanın diye inanmaya çağıran bir çağırıcıyı işittik de iman ettik. Rabbimiz! Günahlarımızı bize bağışla, kötülüklerimizi ört, canımızi iyilerle beraber al”. “Rabbimiz! Peygamberlerinle vadettiklerini bize ver, kıyamet günü bizi rezil etme. Sen şüphesiz sözünden caymazsın”.",
+   "kaynak": "Âl-i İmrân, 3/193-194"
+  },
+  "konular": [
+   "ahiret",
+   "musibet"
+  ],
+  "kavramlar": [
+   "Mazi",
+   "İstikbal",
+   "Kabir",
+   "Ecel",
+   "Gaflet"
+  ],
+  "kaynaklar": [
+   "Lokmân, 31/34",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Katre Risâlesi, İkinci Hakîkat"
+  ],
+  "sinav": [
+   {
+    "soru": "Katre Risâlesi'ne göre insan bugün nerede yaşar?",
+    "secenekler": [
+     "Ebedî bir sarayda",
+     "İki kabrin arasında",
+     "Bir bahçede",
+     "Bir kalede"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Katre Risâlesi'ne göre insanın cismi neden ibarettir?",
+    "secenekler": [
+     "Et ve kemikten",
+     "Demirden",
+     "Taştan",
+     "Ebedî bir maddeden"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre hiç kimse nerede öleceğini bilemez.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_163",
+  "kategori": "iman",
+  "baslik": "Verilen Güzellik, Verenin Güzelliğine Delildir",
+  "giris": "Cömert birinin dağıttığı hediyeler, onun zenginliğini gösterir; güzel bir eserin güzelliği de onu yapanın ustalığını. Bediüzzaman, İşârâtü'l-İ'câz'da bu basit hakikatten Allah'ın sıfatlarına geçer: Kâinattaki bütün güzellikler ve kemaller, Yaratıcı'nın kemalinden yansıyan birer gölgedir; öyleyse O'nun güzelliği, kâinattaki bütün güzelliklerden sonsuz derece yüksektir.",
+  "aciklama": "Kur'an-ı Kerîm Allah'ın eşsizliğini şöyle bildirir: “O'nun benzeri hiçbir şey yoktur. O, işitendir, görendir.” Kâinattaki güzellikler Allah'ın güzelliğine benzemez; ama ona işaret eder. Gölge, asla aslın yerini tutmaz; ama aslın varlığını ve büyüklüğünü gösterir. Mümin, her güzellikte onun asıl kaynağını arar ve O'nu daha çok sever.",
+  "risalePerspektifi": "Bediüzzaman, İşârâtü'l-İ'câz'da Bakara Sûresi'nin 21. ayetinin tefsirinde şöyle der: “Ey arkadaş! Sâni‘-i Zülcelâl Vâhid ve Vâcibü’l-vücûd olduğu gibi, bütün sıfât-ı kemâliye ile de muttasıftır. Zîrâ âlemde ve masnûâtta bulunan kemâlât, tamamıyla Sâni‘in kemâlinden tecellî eden gölgeden muktebestir.” Eserdeki anlatımın özetine göre bir eserdeki her güzellik, onu yapanın elinden çıkmıştır; bu yüzden Yaratıcı'nın güzelliği, eserlerindeki bütün güzelliklerin toplamından sonsuz derecede yüksektir. Aynı yerde bu hakikat birkaç kaideyle açıklanır: “Zîrâ ihsân, in‘âm edenin servetinden doğar. Ve servetine delîldir. Îcâd, îcâd edenin vücûduna delâlet eder.” Ve sonuç şöyle bağlanır: “Verilen hüsün, verenin hüsnüne delîldir.”",
+  "kainattanDelil": "Bir lambanın verdiği ışık, onun içindeki enerjiyi gösterir. Bir çeşmeden akan su, onu besleyen kaynağın zenginliğini gösterir. Bir bahçedeki çiçeklerin güzelliği, bahçıvanın zevkini ve emeğini gösterir. Kâinatta her güzellik ve her ihsan, kendisinden daha büyük bir kaynağa işaret eder. Bir aynadaki güneş, ne kadar parlak görünse de güneşin kendisi ondan çok daha parlaktır.",
+  "hikmet": "Kâinattaki kemaller, Yaratıcı'nın kemalinden yansıyan gölgelerdir. Bu yüzden O'nun güzelliği, kâinattaki bütün güzelliklerden sonsuz derece yüksektir. İhsan, ihsan edenin zenginliğinden doğar ve ona delildir. Verilen güzellik, verenin güzelliğine delildir. Güzelliği gölgede bırakmayıp kaynağına ulaşan, sevgisini kaybolmayacak bir yere bağlar.",
+  "kendimize": "Bir güzellik gördüğümde onu verenin güzelliğini düşünüyor muyum? Bana verilen nimetlerde Rabbimin cömertliğini görüyor muyum? Güzelliğe olan sevgimi, güzelliğin asıl kaynağına yöneltebiliyor muyum?",
+  "hayat": "Bugün güzel bulduğumuz bir yüz, bir manzara veya bir ses karşısında ‘Bunu veren ne kadar güzeldir’ diye düşünmek bu dersin uygulamasıdır. Bir nimet aldığımızda onu verenin cömertliğine hamd etmek, ihsanı servetine delil yapmaktır. Esmâü'l-Hüsnâ'dan Cemîl ve Kerîm isimlerini anlamıyla birlikte zikretmek de güzel bir alışkanlıktır.",
+  "ders": "Alemdeki kemalat, Sâni'in kemalinden tecelli eden gölgeden muktebestir; ihsan, in'am edenin servetine, verilen hüsün de verenin hüsnüne delildir.",
+  "tefekkurSorusu": "Bugün hangi güzellik bana onu verenin güzelliğini hatırlattı?",
+  "dua": {
+   "arapca": "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَـٰلِمُ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ ۖ هُوَ ٱلرَّحْمَـٰنُ ٱلرَّحِيمُ هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْمَلِكُ ٱلْقُدُّوسُ ٱلسَّلَـٰمُ ٱلْمُؤْمِنُ ٱلْمُهَيْمِنُ ٱلْعَزِيزُ ٱلْجَبَّارُ ٱلْمُتَكَبِّرُ ۚ سُبْحَـٰنَ ٱللَّهِ عَمَّا يُشْرِكُونَ هُوَ ٱللَّهُ ٱلْخَـٰلِقُ ٱلْبَارِئُ ٱلْمُصَوِّرُ ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ يُسَبِّحُ لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+   "okunus": "Huve'llâhu ellezî lâ ilâhe illâ huve 'âlimu l-ğaybi vel-şehâdeti huve r-rahmânu r-rahîmu huve'llâhu ellezî lâ ilâhe illâ huve l-meliku l-kudûsu s-selâmu l-muminu l-muheyminu l-'azîzu l-cebâru l-mutekebiru subhâne'llâhi 'ammâ yuşrıkûne huve'llâhu l-hâliku l-bârı-u l-musaviru lehu l-esmâu l-husnâ yusebbihu lehu mâ fî s-semâvâti vel-erdı vehuve l-'azîzu l-hakîm",
+   "anlam": "O, görüleni de görülmeyeni de bilen, kendisinden başka tanrı olmayan Allah'tır. O, acıyıcı olandır, acıyandır. O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır. Allah onların koştukları eşlerden (ortaklardan) münezzehtir. O, vareden, güzel yaratan, yarattıklarına şekil veren, en güzel adlar kendisinin olan Allah'tır. Göklerde ve yerde olanlar O'nu tesbih ederler. O güçlüdür, Hakim'dir.",
+   "kaynak": "Haşr, 59/22-24"
+  },
+  "konular": [
+   "esma",
+   "tevhid"
+  ],
+  "kavramlar": [
+   "Kemal",
+   "Cemal",
+   "Tecelli",
+   "İhsan",
+   "Sıfat-ı Kemaliye"
+  ],
+  "kaynaklar": [
+   "Şûrâ, 42/11",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Bakara Sûresi'nin Tefsîri, 21. Âyet"
+  ],
+  "sinav": [
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre âlemdeki kemalat neden muktebestir?",
+    "secenekler": [
+     "Tesadüften",
+     "Sâni'in kemalinden tecelli eden gölgeden",
+     "Tabiattan",
+     "Kendinden"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre verilen hüsün neye delildir?",
+    "secenekler": [
+     "Verenin hüsnüne",
+     "Alanın hüsnüne",
+     "Tesadüfe",
+     "Hiçbir şeye"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah'ın benzeri hiçbir şey yoktur.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_164",
+  "kategori": "iman",
+  "baslik": "Mi'rac: Açık Bırakılan Büyük Yol",
+  "giris": "Bir kâşif ilk defa bir yolu açtığında, arkasından gelenler o yolu daha kolay yürür. Peygamber Efendimiz de Mi'rac gecesi iman hakikatlerinin en yükseklerini gözüyle görmüş ve bu yolu ümmetine açık bırakmıştır. Bediüzzaman, Yirmi Dördüncü Mektub'un İkinci Zeyli'nde bütün ümmetin velilerinin, dereceleri ölçüsünde, ruhani ve kalbî olarak o Mi'racın gölgesinde yürüdüğünü anlatır.",
+  "aciklama": "Kur'an-ı Kerîm Mi'racın ilk merhalesini şöyle bildirir: “Kulunu bir gece Mescidi Haram'dan, kendisine bir kısım ayetlerimizi göstermek için, çevresini mübarek kıldığımız Mescidi Aksa'ya götüren Allah'ın şanı yücedir.” Bu yolculuk, Peygamber Efendimize büyük ayetlerin gösterildiği bir yükseliştir. Namaz da müminin bir çeşit Mi'racı olarak görülür; çünkü kul onda Rabbinin huzuruna çıkar.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirmi Dördüncü Mektub'unun İkinci Zeyli'nde Peygamber Efendimizin Mi'racını şöyle anlatır: “Kāb-ı Kavseyn makamında, hakāik-i îmâniyenin en büyüğü olan îmân-ı billâh ve îmân-ı bil’âhireti aynelyakîn gözüyle müşâhede etmiş, cennete girmiş, saâdet-i ebediyeyi görmüş.” Eserdeki anlatımın özetine göre Peygamber Efendimiz, imanın iki büyük rüknü olan Allah'a ve ahirete imanı göz ile görür derecede yaşamış ve bu hakikatleri ümmetine getirmiştir. Aynı yerde bu yolculuğun ümmete etkisi şöyle gösterilir: “O mi‘râcın kapısıyla açtığı cadde-i kübrâyı açık bırakmış, bütün evliyâ-yı ümmeti seyr ü sülûk ile, derecelerine göre, rûhânî ve kalbî bir tarzda o mi‘râcın gölgesi içinde gidiyorlar.” Yani her mümin, kendi derecesine göre, imanını kuvvetlendirerek bu büyük yoldan bir pay alabilir.",
+  "kainattanDelil": "Dağın zirvesine ilk çıkan kişi, arkasından gelenlere bir patika bırakır. Bir ırmağın açtığı yatak, sonraki suların akmasını kolaylaştırır. Bir kuş sürüsünün önündeki lider, havayı yararak arkadakilerin uçuşunu kolaylaştırır. Kâinatta öncülerin açtığı yollar, arkadan gelenlerin yükselmesine vesile olur.",
+  "hikmet": "Peygamber Efendimiz Mi'racda Allah'a ve ahirete imanı göz ile görür derecede müşahede etmiştir. Cennete girmiş ve ebedî saadeti görmüştür. Mi'racın kapısıyla açtığı büyük yolu ümmetine açık bırakmıştır. Ümmetin velileri, derecelerine göre ruhani ve kalbî bir tarzda o Mi'racın gölgesinde yürürler.",
+  "kendimize": "Peygamber Efendimizin Mi'racda gördüğü hakikatlere ne kadar iman ediyorum? Namazımı bir Mi'rac gibi yaşamaya çalışıyor muyum? Kendi derecemde bu büyük yoldan pay almak için ne yapıyorum?",
+  "hayat": "Bugün namaza başlarken ‘Rabbimin huzuruna yükseliyorum’ niyetiyle tekbir almak bu dersin uygulamasıdır. Mi'rac kıssasını bir siyer kitabından okumak, o büyük yolculuğun hakikatlerini tazeler. Gece yatmadan önce kısa bir tefekkürle ahireti ve cenneti düşünmek de o yolun gölgesinde yürümenin bir şeklidir.",
+  "ders": "Resul-i Ekrem, Kab-ı Kavseyn makamında iman-ı billah ve iman-ı bil-ahireti aynelyakin müşahede etmiş; Mi'racın açtığı cadde-i kübrayı açık bırakmıştır.",
+  "tefekkurSorusu": "Bugün namazımda Mi'racın gölgesinden hangi payı aldım?",
+  "dua": {
+   "arapca": "إِنَّ ٱللَّهَ وَمَلَـٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى ٱلنَّبِىِّ ۚ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ صَلُّوا۟ عَلَيْهِ وَسَلِّمُوا۟ تَسْلِيمًا",
+   "okunus": "Inne'llâhe vemelâiketehu yusallûne 'alâ n-nebiyi yâeyyuhâ ellezîne âmenû sallû 'aleyhi vesellimû teslîmen",
+   "anlam": "Şüphesiz Allah ve melekleri Peygamberi överler: Ey inananlar! Siz de onu övün, ona salat ve selam getirin.",
+   "kaynak": "Ahzâb, 33/56"
+  },
+  "konular": [
+   "nubuvvet",
+   "iman"
+  ],
+  "kavramlar": [
+   "Mi'rac",
+   "Kab-ı Kavseyn",
+   "Aynelyakin",
+   "Seyr ü Sülûk",
+   "Velayet"
+  ],
+  "kaynaklar": [
+   "İsrâ, 17/1",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Dördüncü Mektub'un İkinci Zeyli"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dördüncü Mektub'un İkinci Zeyli'ne göre Peygamber Efendimiz Kab-ı Kavseyn'de neyi müşahede etmiştir?",
+    "secenekler": [
+     "Dünyanın haritasını",
+     "İman-ı billah ve iman-ı bil-ahireti",
+     "Yıldızların sayısını",
+     "Geçmiş milletleri"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dördüncü Mektub'un İkinci Zeyli'ne göre evliya-yı ümmet nasıl yürür?",
+    "secenekler": [
+     "Mi'racın gölgesi içinde, derecelerine göre",
+     "Kendi başlarına",
+     "Hiç yürümez",
+     "Yalnız dünya için"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah kulunu bir gece Mescid-i Haram'dan Mescid-i Aksa'ya götürmüştür.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_165",
+  "kategori": "ibadet",
+  "baslik": "İnsanın Asıl Vazifesi: Acizliğini İlan Etmek",
+  "giris": "İnsana verilen duygular, organlar ve kabiliyetler bir hayvanınkinden çok daha zengindir. Bu zenginlik neden verilmiştir? Yalnız bu kısa dünya hayatını devam ettirmek için mi? Bediüzzaman, Nur'un İlk Kapısı'nın Dokuzuncu Ders'inde bu soruya cevap verir: İnsandaki bu zenginlik, onun asıl vazifesinin kulluk, dua, şehadet, şükür ve ibret olduğunu gösterir.",
+  "aciklama": "Kur'an-ı Kerîm insanın değerinin duasına ve kulluğuna bağlı olduğunu bildirir: “De ki: İbadetiniz (duanız) olmasa Rabbim size ne diye değer versin?” İnsanın Allah katındaki kıymeti, Rabbine yönelişiyle ölçülür. Acizliğini ve ihtiyacını bilen ve bunu dua ile ilan eden kul, Rabbinin rahmetini celbeder.",
+  "risalePerspektifi": "Bediüzzaman, Nur'un İlk Kapısı'nın Dokuzuncu Ders'inde şöyle der: “İnsandaki şu tarz-ı zenginlik gösteriyor ki insanın vazîfe-i asliyesi: Aczini ve fakrını ve kusûrunu derkederek ubûdiyetle i‘lân etmek ve hâcâtının celbi için duâ etmek ve mevcûdâtın tesbîhatını görüp müşâhede ederek şehâdet etmek.. ve ni‘metleri görüp tefekkür içinde şükretmek.. ve ibret içinde bakmaktır.” Eserdeki anlatımın özetine göre insanın vazifesi beş şeydir: kulluk ile acizliğini ilan etmek, ihtiyaçları için dua etmek, varlıkların tesbihini görüp şahitlik etmek, nimetlere şükretmek ve her şeye ibretle bakmak. Aynı yerde bu cihazların hikmeti şöyle gösterilir: “En ednâ aklı olan anlar ki şu cihâzât, şu hayât-ı fâniyenin idâmesi için verilmemiştir. Belki bir hayât-ı bâkiyenin sermâyesidir.”",
+  "kainattanDelil": "Bir serçe yalnız yiyecek bulmak ve yuva yapmak için gerekli duygulara sahiptir. İnsan ise bir manzaraya bakınca hayran olur, bir sesi dinleyince duygulanır, bir iyilik görünce teşekkür eder. Hayvanın duyguları dünyaya yeterken, insanın duyguları dünyadan taşar. Bu taşkınlık, insanın ebedî bir hayat için yaratıldığını gösterir.",
+  "hikmet": "İnsanın asıl vazifesi, acizliğini ve fakirliğini kulluk ile ilan etmektir. İhtiyaçları için dua etmek, varlıkların tesbihine şahit olmak, nimetlere şükretmek ve ibretle bakmak da bu vazifenin parçalarıdır. İnsandaki zengin cihazlar fâni hayatın devamı için değil, bâkî bir hayatın sermayesidir. Duası olmayan kulun Rabbi katında değeri azdır. Bu beş vazife, insanı hem dünyada huzurlu hem de ahirette mesut eder.",
+  "kendimize": "Bana verilen duyguları ve kabiliyetleri ebedî bir hayatın sermayesi olarak mı görüyorum? Bu beş vazifeden hangisini en çok ihmal ediyorum? Acizliğimi dua ile Rabbime arz ediyor muyum?",
+  "hayat": "Bugün bu beş vazifeden her birini küçük bir adımla yaşamak bu dersin uygulamasıdır: bir namazda acizliğimizi hissetmek, bir ihtiyacımız için dua etmek, bir kuşun sesinde tesbih duymak, bir nimete şükretmek ve bir olaydan ibret almak. Akşam bu beş vazifeyi kısaca gözden geçirmek de güzel bir muhasebedir.",
+  "ders": "İnsanın vazife-i asliyesi: aczini, fakrını ve kusurunu ubudiyetle ilan etmek, dua etmek, tesbihata şahit olmak, nimetlere şükretmek ve ibretle bakmaktır.",
+  "tefekkurSorusu": "Bugün bu beş vazifeden hangisini en güzel yaptım?",
+  "dua": {
+   "arapca": "رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍۢ فَقِيرٌۭ",
+   "okunus": "Rabbi innî limâ enzelte ileyye min hayrın fekîr",
+   "anlam": "Musa onların davarlarını suladı. Sonra gölgeye çekildi: “Rabbim! Doğrusu bana indireceğin hayra muhtacım” dedi.",
+   "kaynak": "Kasas, 28/24"
+  },
+  "konular": [
+   "ibadet",
+   "insanKainat"
+  ],
+  "kavramlar": [
+   "Vazife-i Asliye",
+   "Acz",
+   "Fakr",
+   "Şehadet",
+   "İbret"
+  ],
+  "kaynaklar": [
+   "Furkân, 25/77",
+   "Bediüzzaman Said Nursî, Nur'un İlk Kapısı, Dokuzuncu Ders"
+  ],
+  "sinav": [
+   {
+    "soru": "Dokuzuncu Ders'e göre insanın vazife-i asliyesinin ilki nedir?",
+    "secenekler": [
+     "Servet toplamak",
+     "Aczini, fakrını ve kusurunu ubudiyetle ilan etmek",
+     "Şöhret kazanmak",
+     "Eğlenmek"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Dokuzuncu Ders'e göre insandaki cihazat ne için verilmiştir?",
+    "secenekler": [
+     "Bir hayat-ı bâkiyenin sermayesi olarak",
+     "Yalnız fâni hayatın idamesi için",
+     "Süs için",
+     "Hiçbir şey için"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre insanın duası olmasa Rabbi ona değer vermez.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_166",
+  "kategori": "kainat",
+  "baslik": "Her Duygunun Ayrı Bir Güzelliği Vardır",
+  "giris": "Gözün gördüğü güzellik ile kulağın duyduğu güzellik aynı değildir; aklın kavradığı güzellik ile dilin tattığı lezzet de birbirinden farklıdır. Bediüzzaman, Dördüncü Şuâ'da insanın her duygusunun ayrı bir güzelliği sevdiğini anlatır. Bu çeşitlilik, Allah'ın güzel isimlerinin de çeşit çeşit tecellileri olduğunu ve her duygunun bir ismin güzelliğini tatmak için verildiğini gösterir.",
+  "aciklama": "Kur'an-ı Kerîm Allah'ın her şeyi güzel yarattığını bildirir: “Yarattığı her şeyi güzel yaratan, insanı başlangıçta çamurdan yaratan Allah'tır.” Ayetin sonunda insana verilen duygular hatırlatılır: “Size kulaklar, gözler, kalbler verilmiştir. Öyleyken, pek az şükrediyorsunuz.” Her duygu, kâinattaki güzelliklerden bir payı almak ve ona şükretmek için verilmiş bir pencere gibidir.",
+  "risalePerspektifi": "Bediüzzaman, Şuâ'lar'ın Dördüncü Şuâ'sının Altıncı Mertebe'sinde şöyle der: “Göz ile hissedilen bir güzellik, kulak ile hissedilen bir hüsün, bir olmaz. Ve akıl ile fehmedilen bir hüsn-ü aklî de ağız ile zevk edilen bir hüsn-ü taâm, bir olmadığı gibi..” Eserdeki anlatımın özetine göre her duygu, kendine has bir güzelliği sever ve ondan lezzet alır; göz renkten, kulak sesten, akıl hakikatten, dil tattan hoşlanır. Aynı yerde bu çeşitlilik bütün iç ve dış duygulara genişletilir: “kalb ve rûh ve sâir zâhirî ve bâtınî duyguların istihsân ettikleri ve güzel hissettikleri güzellikler, onların ihtilâfı gibi muhteliftir.” Bu farklı güzellikler, tek bir Cemîl-i Zülcelâl'in farklı isimlerinin tecellileridir; her biri, o sonsuz güzelliğin bir başka yüzünü gösterir.",
+  "kainattanDelil": "Bir bahar bahçesinde göz çiçeklerin renklerine, kulak kuşların ötüşüne, burun çiçeklerin kokusuna, el yaprakların yumuşaklığına hayran olur. Bir meyve hem göze güzel görünür, hem dile tatlı gelir, hem de bedene şifa verir. Kâinatta tek bir varlık bile birçok duyguya birden hitap eder. Bu zenginlik, her duyguyu ayrı ayrı sevindirmek isteyen bir rahmetin eseridir.",
+  "hikmet": "Gözün, kulağın, aklın ve dilin hissettiği güzellikler birbirinden farklıdır. Kalp, ruh ve diğer iç ve dış duyguların sevdiği güzellikler de onların farklılığı kadar çeşitlidir. Bu çeşitlilik, Allah'ın farklı isimlerinin farklı tecellileridir. Her duygu, bir güzellikten pay almak ve ona şükretmek için verilmiştir.",
+  "kendimize": "Duygularımın her birine verilen güzellik payını fark ediyor muyum? Gözümle, kulağımla ve dilimle aldığım güzelliklere ayrı ayrı şükrediyor muyum? Kalbimin ve aklımın sevdiği güzellikleri ne kadar besliyorum?",
+  "hayat": "Bugün beş duyumuzdan her biriyle bir güzelliği fark edip ona kısaca şükretmek bu dersin uygulamasıdır: güzel bir manzara, güzel bir ses, güzel bir koku, güzel bir tat ve güzel bir dokunuş. Aklımızı bir hakikatle, kalbimizi bir zikirle beslemek de iç duyguların güzelliğini tattırır. Duygularımızı haramdan korumak ise onlara verilen nimetin hakkını vermektir.",
+  "ders": "Göz ile hissedilen güzellik, kulak ile hissedilen hüsün bir olmaz; kalb ve ruh ve sair duyguların güzel hissettikleri güzellikler, onların ihtilafı gibi muhteliftir.",
+  "tefekkurSorusu": "Bugün hangi duyguma verilen güzelliğe şükrettim?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ مَـٰلِكِ يَوْمِ ٱلدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+   "okunus": "El-hamdu lillehi rabbi l-'âlemîne el-rahmâni r-rahîmi mâliki yevmi d-dîni iyyâke ne'budu ve-iyyâke neste'în",
+   "anlam": "Hamd, Alemlerin Rabbi Allah'a mahsustur. O Rahman ve Rahim'dir, Din Gününün sahibidir. Ancak Sana kulluk eder ve yalnız Senden yardım dileriz.",
+   "kaynak": "Fâtiha, 1/2-5"
+  },
+  "konular": [
+   "esma",
+   "tabiat"
+  ],
+  "kavramlar": [
+   "Hüsün",
+   "Cemal",
+   "Duygular",
+   "İstihsan",
+   "Tecelli"
+  ],
+  "kaynaklar": [
+   "Secde, 32/7-9",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Dördüncü Şuâ, Altıncı Mertebe"
+  ],
+  "sinav": [
+   {
+    "soru": "Dördüncü Şuâ'ya göre göz ile hissedilen güzellik ile kulak ile hissedilen hüsün nasıldır?",
+    "secenekler": [
+     "Aynıdır",
+     "Bir olmaz, farklıdır",
+     "Hiç yoktur",
+     "Yalnız biri vardır"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Dördüncü Şuâ'ya göre duyguların güzel hissettikleri güzellikler nasıldır?",
+    "secenekler": [
+     "Onların ihtilafı gibi muhteliftir",
+     "Hepsi aynıdır",
+     "Hiçbiri yoktur",
+     "Yalnız gözle görülür"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah yarattığı her şeyi güzel yaratmıştır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_167",
+  "kategori": "iman",
+  "baslik": "Peygamber Bir Kaynak Değil, Bir Aynadır",
+  "giris": "Bir ayna güneşin ışığını parlak bir şekilde yansıttığında, ışığın kaynağı ayna değil güneştir. Bediüzzaman, Habâb Risâlesi'nde Peygamber Efendimizi böyle anlatır: O, ilahi tecellilerin mazharı ve aynasıdır; kaynağı ve menbaı değildir. Çünkü o, yalnız bir kuldur ve ibadette herkesten ileridir; gösterdiği bütün kemaller, Rahmân ve Rahîm tarafından verilen tecellilerdir.",
+  "aciklama": "Kur'an-ı Kerîm Peygamber Efendimize şöyle söylemesini emreder: “De ki: Ben de ancak sizin gibi bir insanım; ancak bana tanrınızın tek bir Tanrı olduğu vahyolunuyor.” Peygamber Efendimizin büyüklüğü, onun bir kul olmasında ve vahye mazhar olmasındadır. Bu ölçü, ümmeti hem ona olan sevgide aşırılıktan hem de onu küçümsemekten korur.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Habâb Risâlesi'nde şöyle der: “Evet, Nebiyy-i Zîşân Aleyhissalâtü Vesselâm tecelliyât-ı İlâhiyeye mazhar ve ma‘kestir. Masdar ve menba‘ değildir. Çünki o Zât, yalnız abddir. Ve ibâdetçe herkesten ileridir.” Eserdeki anlatımın özetine göre Peygamber Efendimizin en yüksek makamı ‘abd’ olmasıdır; o, kulluğun en mükemmel örneğidir ve bu kulluğu sayesinde ilahi tecellilerin en parlak aynası olmuştur. Aynı yerde bu hakikat şöyle bağlanır: “Demek bu kadar görünen terakkıyât-ı kemâlât, onun zâtî malı değildir. Ancak Rahmân-ı Rahîm tarafından verilen tecellîlerdir.” Bu bakış, Peygamber Efendimize olan sevgiyi tevhid ile birleştirir: Onu severiz, çünkü o Allah'ın en sevgili kuludur ve Allah'ın rahmetini en güzel şekilde göstermiştir.",
+  "kainattanDelil": "Ay gece karanlığında parlar; ama ışığı kendinden değil, güneştendir. Temiz bir su birikintisi göğü yansıtır; ama gök onun içinde değildir. Parlak bir elmas ışığı renk renk dağıtır; ama ışığın kaynağı elmas değildir. Kâinatta en parlak aynalar, kaynaklarını en iyi gösterenlerdir.",
+  "hikmet": "Peygamber Efendimiz ilahi tecellilerin mazharı ve aynasıdır, kaynağı değildir. Onun en yüksek makamı kul olmasıdır ve ibadette herkesten ileridir. Görünen bütün kemalleri, Rahmân ve Rahîm tarafından verilmiş tecellilerdir. Ona olan sevgi, tevhid ile birleştiğinde en doğru şeklini bulur.",
+  "kendimize": "Peygamber Efendimizi severken onun Allah'ın kulu ve elçisi olduğunu hatırlıyor muyum? Onun kulluğunu örnek alarak kendi ibadetimi güzelleştirmeye çalışıyor muyum? Bana verilen güzellikleri kendi malım mı, yoksa Rabbimin ihsanı mı olarak görüyorum?",
+  "hayat": "Bugün salavat getirirken Peygamber Efendimizin kulluğunu ve tevazuunu düşünmek bu dersin uygulamasıdır. Onun bir ibadet alışkanlığını, örneğin gece namazını veya istiğfarını, küçük de olsa hayatımıza katmak onun aynasından nur almaktır. Bir başarımızı Allah'ın ihsanı olarak görüp ‘Bu benim değil, Rabbimin’ demek de bu dersin bir pratiğidir.",
+  "ders": "Nebiyy-i Zişan, tecelliyat-ı İlahiyeye mazhar ve ma'kestir, masdar ve menba değildir; çünkü o yalnız abddir ve ibadetçe herkesten ileridir.",
+  "tefekkurSorusu": "Bugün Peygamber Efendimizin kulluğundan hangi dersi aldım?",
+  "dua": {
+   "arapca": "إِنَّ ٱللَّهَ وَمَلَـٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى ٱلنَّبِىِّ ۚ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ صَلُّوا۟ عَلَيْهِ وَسَلِّمُوا۟ تَسْلِيمًا",
+   "okunus": "Inne'llâhe vemelâiketehu yusallûne 'alâ n-nebiyi yâeyyuhâ ellezîne âmenû sallû 'aleyhi vesellimû teslîmen",
+   "anlam": "Şüphesiz Allah ve melekleri Peygamberi överler: Ey inananlar! Siz de onu övün, ona salat ve selam getirin.",
+   "kaynak": "Ahzâb, 33/56"
+  },
+  "konular": [
+   "nubuvvet",
+   "tevhid"
+  ],
+  "kavramlar": [
+   "Mazhar",
+   "Ma'kes",
+   "Abd",
+   "Tecelli",
+   "Kemalat"
+  ],
+  "kaynaklar": [
+   "Kehf, 18/110",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Habâb Risâlesi"
+  ],
+  "sinav": [
+   {
+    "soru": "Habâb Risâlesi'ne göre Peygamber Efendimiz tecelliyat-ı İlahiyeye nedir?",
+    "secenekler": [
+     "Masdar ve menba",
+     "Mazhar ve ma'kes",
+     "Yabancı",
+     "Engel"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Habâb Risâlesi'ne göre Peygamber Efendimizin görünen kemalatı nedir?",
+    "secenekler": [
+     "Rahmân-ı Rahîm tarafından verilen tecelliler",
+     "Zatî malı",
+     "Tesadüf",
+     "Kendi icadı"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Peygamber Efendimiz kendisinin de bir insan olduğunu söylemekle emrolunmuştur.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_168",
+  "kategori": "ibadet",
+  "baslik": "İnsan İbadete Kabiliyetli Yaratılmıştır",
+  "giris": "Bir tohumda ağaç olma kabiliyeti, bir yavru kuşta uçma kabiliyeti vardır; bu kabiliyetler onların ne için yaratıldığını gösterir. Bediüzzaman, İşârâtü'l-İ'câz'da insanda da ibadete ve takvaya bir kabiliyet olduğunu söyler. Bu kabiliyet, insanın yaratılış gayesinin ibadet ve onun en mükemmel hali olan takva olduğunu gösterir.",
+  "aciklama": "Kur'an-ı Kerîm bütün insanlara şöyle seslenir: “Ey insanlar! Sizi ve sizden öncekileri yaratan Rabbinize kulluk ediniz ki, O'na karşı gelmekten korunmuş olabilesiniz.” Bu ayette ibadetin gayesi takva olarak gösterilir. İbadet, insanı Allah'a karşı gelmekten koruyan bir kalkan ve onu kemale ulaştıran bir merdivendir.",
+  "risalePerspektifi": "Bediüzzaman, İşârâtü'l-İ'câz'da Bakara Sûresi'nin 21. ayetinin tefsirinde şöyle der: “İbâdetin hilkat-i beşere terettübü iki şeyden ileri gelir. Ya insanlar ilk yaratılışında ibâdete isti‘dâdlı ve takvâya kābiliyetli olarak yaratılmışlardır.” Eserdeki anlatımın özetine göre insanın fıtratına konulan bu kabiliyetler, onun ibadet edeceğine dair güçlü bir ümit verir; tıpkı bir tohumun ağaç olacağının umulması gibi. Aynı yerde ikinci sebep de şöyle gösterilir: “Veyâhûd insanların hilkatinden ve me’mûr oldukları vazîfeden ve teveccüh ettikleri kemâlden maksad, ibâdetin kemâli olan takvâdır.” Yani insanın yaratılışının, vazifesinin ve yöneldiği kemalin hedefi, ibadetin en olgun meyvesi olan takvadır.",
+  "kainattanDelil": "Bir tohumun içinde kök salma ve filizlenme kabiliyeti vardır; toprak ve su bulunca bu kabiliyet ortaya çıkar. Bir kuş yavrusunun kanatları, onun uçmak için yaratıldığını gösterir. Bir balığın solungaçları, onun suda yaşamak için yaratıldığını gösterir. Kâinatta her varlığın kabiliyeti, onun yaratılış gayesini anlatır; insanın ibadet kabiliyeti de onun gayesini gösterir. Bir arı çiçeği görünce ona yönelir; çünkü bal yapma kabiliyeti onu oraya çeker.",
+  "hikmet": "İnsan, ibadete istidatlı ve takvaya kabiliyetli olarak yaratılmıştır. Bu kabiliyetler, onun ibadet edeceğine dair güçlü bir ümit verir. İnsanın yaratılışının, vazifesinin ve yöneldiği kemalin gayesi takvadır. İbadet, insanı Allah'a karşı gelmekten koruyan bir kalkandır. Fıtratını dinleyen insan, ibadeti bir yük değil, kendi özüne dönüş olarak yaşar.",
+  "kendimize": "İçimdeki ibadet kabiliyetini ne kadar geliştiriyorum? İbadetlerim beni takvaya, yani Allah'a karşı gelmekten sakınmaya götürüyor mu? Kendi fıtratımın beni ibadete çağırdığını hissediyor muyum?",
+  "hayat": "Bugün bir ibadeti, örneğin bir vakit namazı, onun takva meyvesini düşünerek kılmak bu dersin uygulamasıdır. Bir günaha karşı ‘Ben ibadet için yaratıldım’ diyerek direnmek, takvayı hayata taşır. Çocuklarımızın fıtratındaki iyiliğe ve ibadete olan meyli fark edip onu sevgiyle beslemek de güzel bir vazifedir.",
+  "ders": "İnsanlar ilk yaratılışlarında ibadete istidatlı ve takvaya kabiliyetli yaratılmışlardır; hilkatlerinin maksadı ibadetin kemali olan takvadır.",
+  "tefekkurSorusu": "Bugün hangi ibadetim beni takvaya yaklaştırdı?",
+  "dua": {
+   "arapca": "رَبَّنَا وَٱجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةًۭ مُّسْلِمَةًۭ لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+   "okunus": "Rabbenâ ve-ic'alnâ muslimeyni leke vemin zurrıyyetinâ ummeten muslimeten leke ve-erınâ menâsikenâ vetub 'aleynâ inneke ente t-tevâbu r-rahîm",
+   "anlam": "“Rabbimiz! İkimizi Sana teslim olanlardan kıl, soyumuzdan da Sana teslim olanlardan bir ümmet yetiştir. Bize ibadet yollarımızı göster, tevbemizi kabul buyur, çünkü tevbeleri daima kabul eden, merhametli olan ancak Sensin”.",
+   "kaynak": "Bakara, 2/128"
+  },
+  "konular": [
+   "ibadet",
+   "insanKainat"
+  ],
+  "kavramlar": [
+   "İstidat",
+   "Takva",
+   "Hilkat",
+   "Kemal",
+   "Fıtrat"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/21",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Bakara Sûresi'nin Tefsîri, 21. Âyet"
+  ],
+  "sinav": [
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre insanlar ilk yaratılışlarında neye kabiliyetli yaratılmışlardır?",
+    "secenekler": [
+     "Yalnız çalışmaya",
+     "İbadete ve takvaya",
+     "Eğlenceye",
+     "Kavgaya"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre ibadetin kemali nedir?",
+    "secenekler": [
+     "Takva",
+     "Servet",
+     "Şöhret",
+     "Kuvvet"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Rabbe kulluk edilmesi, O'na karşı gelmekten korunmak içindir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_169",
+  "kategori": "risaleler",
+  "baslik": "Rahmetten Ümit Kesilmez",
+  "giris": "Uzun bir kış ve sert fırtınalar yaşayan bir bahçıvan, baharın geleceğinden ümidini kesmez. Bediüzzaman, Yirmi Altıncı Mektub'da İslâm âleminin ve özellikle bin yıldır Kur'an'a hizmet eden milletin geçici sıkıntılar yüzünden ümitsizliğe düşmemesi gerektiğini söyler. Çünkü Allah, Kur'an'ın hizmetinde kullandığı bu cemaati geçici arızalarla perişan etmez.",
+  "aciklama": "Kur'an-ı Kerîm, Hz. Yakup'un oğullarına söylediği sözü şöyle aktarır: “Allah'ın rahmetinden ümidinizi kesmeyin; doğrusu kafirlerden başkası Allah'ın rahmetinden ümidini kesmez.” Hz. Yakup, yıllarca kayıp oğlunu beklediği halde ümidini kaybetmemiştir. Mümin, ne kadar karanlık bir dönem yaşarsa yaşasın, Allah'ın rahmetine güvenir ve çalışmaya devam eder.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirmi Altıncı Mektub'unun Üçüncü Mebhas'ında şöyle der: “Rahmet-i İlâhiyeden ümîd kesilmez. Çünkü Cenâb-ı Hakk, bin seneden beri Kur’ân’ın hizmetinde istihdâm ettiği ve ona bayrakdâr ta‘yîn ettiği bu vatandaşların muhteşem ordusunu ve muazzam cemâatini, muvakkat ârızalarla inşâallâh perişan etmez.” Eserdeki anlatımın özetine göre yüzyıllar boyunca Kur'an'ı koruyan ve onun sancağını taşıyan bir cemaatin geçici zorluklar yüzünden tamamen kaybolması, ilahi rahmetin ve hikmetin tarzına uymaz. Aynı yerde ümit şöyle tamamlanır: “Yine o nûru ışıklandırır. Ve vazîfesini idâme ettirir.” Bu söz, zor zamanlarda bile Kur'an hizmetinden ayrılmamanın ve rahmetten ümit kesmemenin bir teşvikidir.",
+  "kainattanDelil": "Kış ne kadar sert geçerse geçsin, ağaçların kökleri toprağın altında hayatını sürdürür ve baharda yeniden yeşerir. Bir fırtına deniz yüzeyini altüst etse de, derinlerdeki hayat devam eder. Bir yangından sonra toprak bir süre kararır; ama birkaç yıl içinde yeniden yeşillenir. Kâinatta geçici arızalar, hayatın kökünü kurutamaz. Kurumuş görünen bir dal, bahar yağmuruyla yeniden tomurcuklanır.",
+  "hikmet": "Allah'ın rahmetinden ümit kesilmez. Allah, uzun zaman Kur'an'a hizmet ettirdiği bir cemaati geçici arızalarla perişan etmez. Kur'an'ın nuru yeniden ışıklanır ve vazifesine devam eder. Ümitsizlik, kâfirlerin hâlidir; mümin her zaman rahmete güvenir. Rahmete güvenen kişi, sıkıntının ortasında bile çalışmaya ve dua etmeye devam eder; çünkü bilir ki her gecenin bir sabahı vardır.",
+  "kendimize": "Toplumun veya kendi hayatımın zor dönemlerinde ümitsizliğe düşüyor muyum? Geçici sıkıntıları kalıcı sanıp gayretimi kaybettiğim oluyor mu? Kur'an hizmetinde ne kadar sebat ediyorum?",
+  "hayat": "Bugün ümitsizlik dolu bir habere karşı ‘Rahmetten ümit kesilmez’ diyerek dua etmek bu dersin uygulamasıdır. Zor bir dönemde Kur'an okumayı ve öğretmeyi bırakmamak, nurun devamına katkıda bulunmaktır. Çevremizdeki ümitsiz birine ümit verici bir söz söylemek de rahmete güvenin bir göstergesidir.",
+  "ders": "Rahmet-i İlahiyeden ümit kesilmez; Cenab-ı Hak, Kur'an'ın hizmetinde istihdam ettiği muhteşem cemaati muvakkat arızalarla perişan etmez.",
+  "tefekkurSorusu": "Bugün hangi karanlık durumda rahmetten ümidimi tazeledim?",
+  "dua": {
+   "arapca": "رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِىٓ أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
+   "okunus": "Rabbenâ iğfir lenâ zunûbenâ ve-isrâfenâ fî emrınâ vesebbit ekdâmenâ ve-unsurnâ 'alâ l-kavmi l-kâfirîn",
+   "anlam": "Dedikleri ancak şu idi: “Rabbimiz! Günahlarımızı, işimizdeki aşırılıklarımızı bize bağışla, sebatımızı arttır, inkarcı topluluğa karşı bize yardım et”.",
+   "kaynak": "Âl-i İmrân, 3/147"
+  },
+  "konular": [
+   "sukurSabir",
+   "kuran"
+  ],
+  "kavramlar": [
+   "Ümit",
+   "Rahmet",
+   "Hizmet-i Kur'aniye",
+   "Sebat",
+   "Muvakkat Arıza"
+  ],
+  "kaynaklar": [
+   "Yûsuf, 12/87",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Altıncı Mektub, Üçüncü Mebhas"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Altıncı Mektub'a göre ne kesilmez?",
+    "secenekler": [
+     "Rızık",
+     "Rahmet-i İlahiyeden ümit",
+     "Zaman",
+     "Yol"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Ayete göre Allah'ın rahmetinden kimler ümit keser?",
+    "secenekler": [
+     "Kâfirler",
+     "Müminler",
+     "Peygamberler",
+     "Melekler"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Yirmi Altıncı Mektub'a göre Allah, Kur'an'ın nurunu yeniden ışıklandırır ve vazifesini idame ettirir.",
+    "dogru": true
+   }
+  ]
  }
 ]
