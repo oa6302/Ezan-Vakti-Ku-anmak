@@ -9903,5 +9903,571 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_153",
+  "kategori": "kainat",
+  "baslik": "Yeryüzünün Her Değişimi Bir Şahittir",
+  "giris": "Ağaçlar her yıl elbiselerini değiştirir: Kışın çıplak, baharda yeşil, yazın meyveli, sonbaharda sarı. Hayvanlar her mevsim yeni bir hal alır. Bediüzzaman, Üçüncü Şuâ'daki münacatında Rabbine şöyle hitap eder: Yeryüzünde küçük veya büyük hiçbir değişim yoktur ki, düzeniyle Senin varlığına ve birliğine işaret etmesin. Bu münacat, mevsimleri bir tevhid dersine çevirir.",
+  "aciklama": "Kur'an-ı Kerîm inananları yeryüzüne ve kendi nefislerine bakmaya çağırır: “Kesin olarak inananlara, yeryüzünde ve kendi içinizde Allah'ın varlığına nice deliller vardır; görmez misiniz?” Bu ayet, delillerin uzakta değil, yanı başımızda ve kendi içimizde olduğunu hatırlatır. Mevsimlerin dönüşü, canlıların rızıklanması ve bedenimizdeki düzen, bakmasını bilen göz için birer delildir.",
+  "risalePerspektifi": "Bediüzzaman, Şuâ'lar'ın Üçüncü Şuâ'sındaki münacatta şöyle der: “Evet, zeminde hiç bir tahavvül olmaz ki, ağaçlarında ve hayvanlarında her senede urbalarını değiştirmek gibi, hem cüz’î olsun, küllî olsun hiç bir tebeddül yoktur ki, intizâmâtıyla senin vücûduna ve vahdetine işâret etmesin.” Eserdeki anlatımın özetine göre mevsimlerin değişmesi gelişigüzel değil, son derece düzenli bir şekilde olur; bu düzen, onu idare eden tek bir Zat'ı gösterir. Aynı münacatta canlıların rızkı da bir şahit olarak zikredilir: “Hem hiç bir hayvan yoktur ki, za‘fiyet ve ihtiyâcının derecesine göre verilen rahîmâne rızkıyla ve yaşamasına lüzûmu bulunan cihâzâtının hakîmâne verilmesiyle senin varlığına ve birliğine şehâdeti olmasın.” Yani her hayvanın rızkı, onun zayıflığına göre şefkatle; her cihazı da ihtiyacına göre hikmetle verilmiştir.",
+  "kainattanDelil": "Kış yaklaşınca bazı hayvanların tüyleri kalınlaşır, bazıları kış uykusuna yatar, bazıları da sıcak ülkelere göç eder. Zayıf bir kuş yavrusunun rızkı annesinin gagasıyla ağzına kadar getirilir; güçlü bir aslan ise avını kendisi bulur. Her canlıya ihtiyacı kadar ve zayıflığına göre bir rızık yolu açılmıştır. Bu şefkatli ve hikmetli dağıtım, tek bir Rezzak'ın işidir.",
+  "hikmet": "Yeryüzündeki küçük veya büyük her değişim, düzeniyle Allah'ın varlığına ve birliğine işaret eder. Her hayvana zayıflığına göre şefkatle rızık ve ihtiyacına göre hikmetle cihazlar verilmiştir. Deliller uzakta değil, yeryüzünde ve kendi içimizdedir. Mevsimlerin dönüşü, bir tevhid dersidir.",
+  "kendimize": "Mevsimler değişirken bunun arkasındaki düzeni düşünüyor muyum? Kendi bedenimdeki cihazların hikmetini ne kadar tefekkür ediyorum? Zayıf canlılara verilen rızıkta Rabbimin şefkatini görebiliyor muyum?",
+  "hayat": "Bugün pencereden bir ağaca bakıp onun bu mevsimdeki halini ve gelecek mevsime hazırlığını düşünmek bu dersin uygulamasıdır. Bir kuşa veya kediye yiyecek verirken onun rızkını asıl verenin Rabbi olduğunu hatırlamak tefekkürü derinleştirir. Bedenimizdeki bir organın, örneğin gözün veya elin, ne kadar hikmetli yaratıldığını düşünüp şükretmek de güzel bir alışkanlıktır.",
+  "ders": "Zeminde ağaç ve hayvanların urbalarını değiştirmesi gibi hiçbir tebeddül yoktur ki intizamatıyla Allah'ın vücuduna ve vahdetine işaret etmesin.",
+  "tefekkurSorusu": "Bugün hangi değişimde Rabbimin birliğine bir işaret gördüm?",
+  "dua": {
+   "arapca": "ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ",
+   "okunus": "Allâhumme mâlike l-mulki tutî l-mulke men teşâu vetenzi'u l-mulke mimmen teşâu vetu'ızzu men teşâu vetuzillu men teşâu biyedike l-hayru inneke 'alâ kulli şeyin kadîrun tûlicu el-leyle fî n-nehârı vetûlicu n-nehâra fî el-leyli vetuhrıcu l-haye mine l-meyiti vetuhrıcu l-meyite mine l-hayi veterzuku men teşâu biğayrı hısâb",
+   "anlam": "De ki: “Mülkün sahibi olan Allah'ım! Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir. Doğrusu Sen, her şeye Kadir'sin. Geceyi gündüze, gündüzü geceye geçirirsin; ölüden diri, diriden ölü çıkarırsın; dilediğini hesapsız rızıklandırırsın”.",
+   "kaynak": "Âl-i İmrân, 3/26-27"
+  },
+  "konular": [
+   "tabiat",
+   "tevhid"
+  ],
+  "kavramlar": [
+   "Tahavvül",
+   "Tebeddül",
+   "İntizam",
+   "Rızık",
+   "Vahdet"
+  ],
+  "kaynaklar": [
+   "Zâriyât, 51/20-21",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Üçüncü Şuâ"
+  ],
+  "sinav": [
+   {
+    "soru": "Üçüncü Şuâ'ya göre zemindeki her tebeddül neye işaret eder?",
+    "secenekler": [
+     "Tesadüfe",
+     "Allah'ın vücuduna ve vahdetine",
+     "Tabiatın gücüne",
+     "Hiçbir şeye"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Üçüncü Şuâ'ya göre hayvanlara rızık neye göre verilir?",
+    "secenekler": [
+     "Za'fiyet ve ihtiyaçlarının derecesine göre",
+     "Güçlerine göre",
+     "Rastgele",
+     "Büyüklüklerine göre"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre yeryüzünde ve insanın kendi içinde Allah'ın varlığına nice deliller vardır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_154",
+  "kategori": "ibadet",
+  "baslik": "Bir Saat Tefekkür, Bir Sene İbadet",
+  "giris": "Bazen bir saatlik derin bir düşünce, insanın bütün bakışını değiştirir; yıllarca fark etmediği bir hakikati bir anda görür. Bediüzzaman, Asâ-yı Mûsâ'daki bir mektubunda bazen bir saat tefekkürün bir sene ibadetten daha hayırlı olabileceğini söyler. Bu tefekkür, iman hakikatlerini düşünmek ve bir insanın imanına vesile olmaktır.",
+  "aciklama": "Peygamber Efendimiz, bir insanın hidayetine vesile olmanın değerini şöyle bildirmiştir: “Allah'a yemin ederim, Allah'ın senin vasıtan ile bir tek adama hidayet vermesi, senin için kırmızı develere sahip olmaktan daha hayırlıdır.” Kırmızı develer, o devrin en değerli malıydı. Bir insanın imanına vesile olmak, dünyanın en değerli servetinden daha kıymetlidir; bu da iman hakikatlerini düşünmek ve anlatmakla olur.",
+  "risalePerspektifi": "Bediüzzaman, Asâ-yı Mûsâ'nın Hulâsatü'l-Hulâsa kısmında yer alan bir mektubunda şöyle der: “Hadîs-i Şerîfte vardır ki, Bir adamın senin ile îmâna gelmesi, sana sahrâ dolusu kırmızı koyunlardan daha hayırlıdır. Bazen bir sâat tefekkür, bir sene ibâdetten daha hayırlı olur.” Eserdeki anlatımın özetine göre iman hakikatleri üzerine yapılan derin bir tefekkür, hem insanın kendi imanını tahkiki hale getirir hem de başkalarının imanına vesile olur; bu yüzden değeri çok büyüktür. Aynı yerde bu tefekkürün önemi bir örnekle gösterilir: “Hatta Nakşîlerin hafî zikre verdiği büyük ehemmiyet, bu nevi‘ tefekküre yetişmek içindir.” Yani kalpten yapılan gizli zikir, insanı bu tür derin bir tefekküre hazırlamak için önemsenmiştir.",
+  "kainattanDelil": "Bir tohum yıllarca toprakta beklese de, bir yağmur damlası onu bir anda uyandırabilir. Bir anahtar küçücüktür, ama koca bir hazinenin kapısını açar. Bir ışık huzmesi, karanlık bir odayı bir saniyede aydınlatır. Kâinatta bazen küçük bir an, uzun bir zamanın yapamadığını yapar; tefekkür de böyle bir anahtardır.",
+  "hikmet": "Bir insanın imana gelmesine vesile olmak, dünyanın en değerli servetinden daha hayırlıdır. Bazen bir saat tefekkür, bir sene ibadetten daha hayırlı olur. Derin tefekkür, imanı tahkiki hale getirir ve başkalarına da ulaşır. Kalpten yapılan gizli zikir, bu tefekküre ulaştıran bir yoldur.",
+  "kendimize": "Gün içinde iman hakikatlerini düşünmeye ne kadar vakit ayırıyorum? Bir insanın imanına vesile olmayı en değerli kazanç olarak görüyor muyum? Zikrim yalnız dilimde mi, yoksa kalbimde de mi?",
+  "hayat": "Bugün on beş dakikayı sessizce bir iman hakikatini, örneğin ölümden sonraki hayatı veya Allah'ın bir ismini düşünmeye ayırmak bu dersin uygulamasıdır. Bir arkadaşımızla güzel bir iman sohbeti yapmak, hidayete vesile olma ümidini taşır. Gün içinde dilimizle değil kalbimizle ‘Allah’ diyerek kısa bir gizli zikir yapmak da güzel bir alışkanlıktır.",
+  "ders": "Bir adamın senin ile imana gelmesi sana sahra dolusu kırmızı koyunlardan daha hayırlıdır; bazen bir saat tefekkür, bir sene ibadetten daha hayırlı olur.",
+  "tefekkurSorusu": "Bugün hangi hakikati bir saat düşünmeye değer buldum?",
+  "dua": {
+   "arapca": "رَّبِّ زِدْنِى عِلْمًۭا",
+   "okunus": "Rabbi zidnî 'ılmen",
+   "anlam": "Gerçek hükümdar olan Allah Yüce'dir. Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, “Rabbim! ilmimi artır” de.",
+   "kaynak": "Tâhâ, 20/114"
+  },
+  "konular": [
+   "ibadet",
+   "iman"
+  ],
+  "kavramlar": [
+   "Tefekkür",
+   "Hidayet",
+   "Hafi Zikir",
+   "Tahkik",
+   "İbadet"
+  ],
+  "kaynaklar": [
+   "Buhârî, Fezâilü Ashâbi'n-Nebî, 3701",
+   "Bediüzzaman Said Nursî, Asâ-yı Mûsâ, Hulâsatü'l-Hulâsa"
+  ],
+  "sinav": [
+   {
+    "soru": "Hulâsatü'l-Hulâsa'daki mektuba göre bazen bir saat tefekkür neden daha hayırlıdır?",
+    "secenekler": [
+     "Bir günden",
+     "Bir sene ibadetten",
+     "Bir dakikadan",
+     "Hiçbir şeyden"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Hadise göre bir kişinin hidayetine vesile olmak neyden daha hayırlıdır?",
+    "secenekler": [
+     "Kırmızı develere sahip olmaktan",
+     "Bir evden",
+     "Bir bahçeden",
+     "Bir kitaptan"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Mektuba göre Nakşilerin hafi zikre verdiği önem, bu nevi tefekküre yetişmek içindir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_155",
+  "kategori": "kuran",
+  "baslik": "Tercüme Kur'an'ın Güzelliğini Gösteremez",
+  "giris": "Bir şiiri başka bir dile çevirdiğinizde anlamı aktarılabilir; ama kelimelerin ahengi, ses güzelliği ve ince manaları çoğu zaman kaybolur. Kur'an için bu durum çok daha büyüktür. Bediüzzaman, Muhâkemât'ta ayet ve hadislerin tefsir veya tercümesinin, onlardaki güzelliği ve belagati gösteremeyeceğini söyler. Bu yüzden Kur'an'ı anlamak için meal yeterli değildir; onun kendi diline ve inceliklerine saygı gerekir.",
+  "aciklama": "Kur'an-ı Kerîm kendi dilini şöyle bildirir: “Biz onu, anlayasınız diye, Arapça bir Kuran olarak indirdik.” Kur'an'ın lafzı da manası gibi ilahidir. Meal, Kur'an'ı anlamak için bir yardımcıdır; ama Kur'an'ın yerini tutmaz. Bu yüzden Müslümanlar namazda Kur'an'ı kendi lafzıyla okur, anlamını ise meal ve tefsirlerle öğrenir.",
+  "risalePerspektifi": "Bediüzzaman, Muhâkemât'ın Yedinci Belâ bahsinde şöyle der: “Âyet ve hadîsin tefsîr veya tercümesi, onlardaki hüsün ve belâgati gösteremez.” Eserdeki anlatımın özetine göre bazı kimseler ayetlerdeki mecazları yalnız aklın imkânsız gördüğü yerlerde kabul eder; oysa bir sözün mecaz olduğunu gösteren işaretler yalnız akli değil, his, adet, makam ve başka birçok şeyle de olabilir. Aynı yerde bu konudaki yanlış bakış şöyle eleştirilir: “Güya onlarca karîne-i mecâz, aklen hakîkatin imtinâıdır. Halbuki karîne-i mânia, aklî olduğu gibi, hissî ve âdî ve makamî, daha başka çok şeyler ile de olabilir.” Ve okuyucu belagat ilminin büyük imamına yönlendirilir: Delâilü'l-İ'câz'a bakan, “Göreceksin, o koca Abdülkāhir, gayet hiddetli olarak böyle müteassifleri yanına çekmiş, tevbîh ve tekdîr ediyor.”",
+  "kainattanDelil": "Bir gülün fotoğrafı onun şeklini gösterir; ama kokusunu, dokusunu ve canlılığını aktaramaz. Bir kuşun sesini anlatmak mümkündür; ama onu dinlemekle anlatmak aynı değildir. Bir manzaranın resmi ne kadar güzel olsa da, oraya gidip bakmanın yerini tutmaz. Kâinatta asıl ile onun tarifi arasında her zaman bir fark vardır.",
+  "hikmet": "Ayet ve hadislerin tefsir ve tercümesi, onlardaki güzelliği ve belagati tam gösteremez. Bir sözün mecaz olduğunu gösteren işaretler yalnız akli değil, hissi, adî ve makamî de olabilir. Kur'an'ın lafzı da ilahidir ve meal onun yerini tutmaz. Kur'an'ı anlamak için onun inceliklerine saygı gerekir.",
+  "kendimize": "Kur'an'ı yalnız meal okuyarak tamamen anladığımı mı sanıyorum? Kur'an'ı aslından okumayı öğrenmek için çaba gösteriyor muyum? Bir ayeti anlamadığımda ilim ehline başvuruyor muyum?",
+  "hayat": "Bugün kısa bir sureyi önce Arapça aslından, sonra mealinden okumak bu dersin uygulamasıdır. Kur'an'dan bir kelimenin anlamını öğrenip onu namazda okurken hatırlamak, lafız ile mana arasında bir köprü kurar. Bir tefsirden tek bir ayetin açıklamasını okumak da Kur'an'ın derinliğini fark etmenin güzel bir yoludur.",
+  "ders": "Ayet ve hadisin tefsir veya tercümesi, onlardaki hüsün ve belagati gösteremez; karine-i mania akli olduğu gibi hissi, adi ve makami de olabilir.",
+  "tefekkurSorusu": "Bugün Kur'an'ın aslından hangi kelimeyi öğrendim?",
+  "dua": {
+   "arapca": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى وَٱحْلُلْ عُقْدَةًۭ مِّن لِّسَانِى يَفْقَهُوا۟ قَوْلِى",
+   "okunus": "Rabbi işrah lî sadrî veyessir lî emrî ve-uhlul 'ukdeten min lisânî yefkahû kavlî",
+   "anlam": "Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi.",
+   "kaynak": "Tâhâ, 20/25-28"
+  },
+  "konular": [
+   "kuran"
+  ],
+  "kavramlar": [
+   "Tercüme",
+   "Belagat",
+   "Mecaz",
+   "Karine",
+   "Tefsir"
+  ],
+  "kaynaklar": [
+   "Yûsuf, 12/2",
+   "Bediüzzaman Said Nursî, Muhâkemât, Yedinci Belâ"
+  ],
+  "sinav": [
+   {
+    "soru": "Muhâkemât'a göre ayet ve hadisin tercümesi neyi gösteremez?",
+    "secenekler": [
+     "Kelimeleri",
+     "Onlardaki hüsün ve belagati",
+     "Harfleri",
+     "Sayıları"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Muhâkemât'a göre karine-i mania hangi şeylerle olabilir?",
+    "secenekler": [
+     "Akli, hissi, adi ve makami şeylerle",
+     "Yalnız akli şeylerle",
+     "Hiçbir şeyle",
+     "Yalnız tesadüfle"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Kur'an, anlaşılsın diye Arapça olarak indirilmiştir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_156",
+  "kategori": "nefis",
+  "baslik": "Her Şeyin İki Yüzü ve Niyetin Gücü",
+  "giris": "Bir nimete iki türlü bakılabilir: Ya ‘Ne güzel bir şey’ deyip onda kalırsınız, ya da ‘Bunu bana kim verdi?’ diye onu verene geçersiniz. Bediüzzaman, Katre Risâlesi'nin başında her şeyin iki yüzü olduğunu söyler: Biri Hakka, diğeri halka bakar. Ve niyetin, eşyanın mahiyetini değiştirecek kadar güçlü olduğunu, günahı sevaba, sevabı da günaha çevirebileceğini anlatır.",
+  "aciklama": "Peygamber Efendimiz niyetin önemini şöyle bildirmiştir: “Ameller ancak niyetlere göredir ve her kişi için ancak niyet ettiği şey vardır.” Aynı iş, niyete göre bir ibadet ya da sıradan bir hareket olabilir. Yemek yemek, çalışmak, uyumak bile Allah rızası niyetiyle yapıldığında ibadete dönüşür.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Katre Risâlesi'nin Mukaddime'sinde şöyle der: “Evet, her şeyin iki ciheti var. Bir ciheti hakka bakar. Diğer ciheti halka bakar.” Eserdeki anlatımın özetine göre halka bakan yüz, Hakka bakan yüzü gösteren şeffaf bir cam gibi olmalıdır; insan nimete bakınca Mün'im'i, sanata bakınca Sâni'i, sebeplere bakınca asıl Müessir'i düşünmelidir. Aynı yerde niyetin gücü şöyle gösterilir: “Ve kezâ, nazar ile niyet, mâhiyet-i eşyâyı tağyîr eder. Günâhı sevâba, sevâbı günaha kalb eder. Evet, niyet, âdî bir hareketi ibâdete çevirir.” Ve bakışın önemi şöyle bağlanır: “Maddiyâta esbâb hesabıyla bakılırsa cehâlettir. Allâh hesabıyla olursa maârif-i İlâhiyedir.”",
+  "kainattanDelil": "Bir cam, temiz olduğunda arkasındaki manzarayı gösterir; kirli olduğunda kendisini gösterir ve manzarayı örter. Bir ayna, önündekini yansıttığında değerlidir; kendine bakıldığında sıradan bir camdır. Güneş ışığı bir prizmadan geçince renklere ayrılır; ama asıl kaynak yine güneştir. Kâinatta her şey ya kendini ya da kaynağını gösterir; bunu belirleyen, bakanın niyetidir. Aynı su, bir ağaçta meyveye, bir dikende ise dikene dönüşür; fark, suyu alanın mahiyetindedir.",
+  "hikmet": "Her şeyin iki yüzü vardır: Biri Hakka, biri halka bakar. Halka bakan yüz, Hakka bakan yüzü gösteren şeffaf bir perde olmalıdır. Niyet, eşyanın mahiyetini değiştirir; adi bir hareketi ibadete, günahı sevaba çevirebilir. Maddiyata sebepler hesabıyla bakmak cehalet, Allah hesabıyla bakmak ilahi marifettir. Niyetini tazeleyen, ömrünün her dakikasını bir ibadet hazinesine çevirebilir.",
+  "kendimize": "Gün içindeki sıradan işlerime bir niyet ekliyor muyum? Nimetlere bakınca onları vereni düşünüyor muyum? Hangi işlerimi niyetimle ibadete çevirebilirim? Bir işe başlamadan önce niyetimi kontrol etmeyi alışkanlık hâline getirdim mi?",
+  "hayat": "Bugün işe giderken ‘Helal rızık kazanmak ve aileme bakmak için’ diye niyet etmek, sıradan bir yolculuğu ibadete çevirir. Yemekten önce ‘Allah'ın verdiği güçle O'na kulluk etmek için’ niyetini tazelemek bu dersin uygulamasıdır. Bir kitabı okurken ‘Rabbimi daha iyi tanımak için’ demek de bakışı Allah hesabına çevirir.",
+  "ders": "Her şeyin bir ciheti Hakka, diğer ciheti halka bakar; nazar ile niyet, mahiyet-i eşyayı tağyir eder ve adi bir hareketi ibadete çevirir.",
+  "tefekkurSorusu": "Bugün hangi sıradan işimi niyetimle ibadete çevirdim?",
+  "dua": {
+   "arapca": "رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+   "okunus": "Rabbenâ tekabbel minnâ inneke ente s-semî'u l-'alîm",
+   "anlam": "İbrahim ve İsmail, Kabenin temellerini yükseltiyordu: “Rabbimiz! Yaptığımızı kabul buyur. Şüphesiz ki, Sen hem işitir hem bilirsin”",
+   "kaynak": "Bakara, 2/127"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "ihlasUhuvvet"
+  ],
+  "kavramlar": [
+   "Niyet",
+   "Nazar",
+   "Mana-yı Harfî",
+   "Mün'im",
+   "Marifet"
+  ],
+  "kaynaklar": [
+   "Nevevî, Kırk Hadis, 1 (Buhârî, Müslim)",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Katre Risâlesi, Mukaddime"
+  ],
+  "sinav": [
+   {
+    "soru": "Katre Risâlesi'ne göre niyet neyi değiştirir?",
+    "secenekler": [
+     "Hiçbir şeyi",
+     "Mahiyet-i eşyayı",
+     "Yalnız şekli",
+     "Yalnız ismi"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Katre Risâlesi'ne göre maddiyata Allah hesabıyla bakmak nedir?",
+    "secenekler": [
+     "Maarif-i İlahiyedir",
+     "Cehalettir",
+     "Gaflettir",
+     "Hatadır"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Hadise göre ameller ancak niyetlere göredir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_157",
+  "kategori": "risaleler",
+  "baslik": "Hasta Bir Ruha Nasihat Tarzı",
+  "giris": "Bir hekim, hastasına önce durumunu anlatır, sonra iyileşmek istediğini hatırlatır ve tedaviyi önerir; hastanın inadı devam ederse daha ciddi tedbirler alır. Bediüzzaman, İşârâtü'l-İ'câz'da Bakara Sûresi'nin 9. ayetini tefsir ederken Kur'an'ın nasihat üslubunu böyle bir sırayla açıklar. Bu üslup, birini kötülükten vazgeçirmek isteyen herkese bir rehberdir.",
+  "aciklama": "Kur'an-ı Kerîm davetin yolunu şöyle gösterir: “Rabbinin yoluna, hikmetle, güzel öğütle çağır; onlarla en güzel şekilde tartış.” Nasihat, kırmak için değil, düzeltmek için yapılır. Hikmet, karşıdakinin haline uygun konuşmaktır; güzel öğüt, kalbe dokunan bir dille konuşmaktır; en güzel şekilde tartışmak ise inatlaşmadan hakkı göstermektir.",
+  "risalePerspektifi": "Bediüzzaman, İşârâtü'l-İ'câz'da Bakara Sûresi'nin 9. ayetinin tefsirinde nasihatin tarzını şöyle anlatır: “Bir şahıs bir şahsı, nasihatle fenâ bir şeyden men‘ etmek üzere şöyle tevcîh-i kelâmda bulunur: Ey kişi! Aklın varsa, şu yapmak istediğin şey muhâldir. Hem nefsine zarardır.” Eserdeki anlatımın özetine göre nasihat eden kişi, önce karşısındakinin aklına, sonra vicdanına hitap eder; ona yaptığı işin zararını gösterir ve bunun bir hastalıktan kaynaklandığını, onun da aslında iyileşmek istediğini hatırlatır. Aynı yerde bu yaklaşım şöyle devam eder: “Anlaşılan, hakîkati hurâfe, tatlıyı acı gösteren seciyende bir hastalık vardır. Şübhesiz o hastalıktan kurtulup şifâyâb olmak istiyorsun.” Ve kötü halinde ısrar ederse, fesadın başkalarına geçmemesi için onun teşhir edilmesi gerektiği bildirilir.",
+  "kainattanDelil": "Bir bahçıvan hasta bir dalı hemen kesmez; önce onu tedavi etmeye, sular ve ilaçlar vererek iyileştirmeye çalışır. İyileşmezse, diğer dallara bulaşmaması için onu ayırır. Bir doktor da önce yumuşak ilaçlarla başlar, gerekirse daha güçlü tedavilere geçer. Kâinatta düzeltme, şefkatle başlar ve hikmetle devam eder.",
+  "hikmet": "Nasihat, önce akla ve vicdana hitap eder ve yapılan işin zararını gösterir. Kötülük, hakikati hurafe, tatlıyı acı gösteren bir ruh hastalığıdır. Nasihat eden, karşısındakinin aslında iyileşmek istediğini hatırlatır. Israr eden kötülüğün başkalarına geçmemesi için tedbir alınır.",
+  "kendimize": "Birine nasihat ederken önce onun aklına ve vicdanına mı hitap ediyorum, yoksa onu suçluyor muyum? Karşımdakinin iyileşmek istediğine inanıyor muyum? Bana yapılan nasihati bir şifa olarak kabul edebiliyor muyum?",
+  "hayat": "Bugün bir yakınımıza bir hatasını söylememiz gerekirse, bunu yalnızken, yumuşak bir dille ve onun iyiliğini istediğimizi belirterek yapmak bu dersin uygulamasıdır. Nasihat ederken onun güzel yönlerini de hatırlatmak kalbini açar. Bize yapılan bir nasihate teşekkür edip onu düşünmek de güzel bir edeptir.",
+  "ders": "Nasihat eden, kişiye yaptığı şeyin muhal ve nefsine zararlı olduğunu, seciyesinde bir hastalık bulunduğunu ve ondan kurtulmak istediğini hatırlatır.",
+  "tefekkurSorusu": "Bugün kime hikmetle ve güzel bir dille nasihat ettim?",
+  "dua": {
+   "arapca": "رَبِّ ٱشْرَحْ لِى صَدْرِى وَيَسِّرْ لِىٓ أَمْرِى وَٱحْلُلْ عُقْدَةًۭ مِّن لِّسَانِى يَفْقَهُوا۟ قَوْلِى",
+   "okunus": "Rabbi işrah lî sadrî veyessir lî emrî ve-uhlul 'ukdeten min lisânî yefkahû kavlî",
+   "anlam": "Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi. Musa: “Rabbim! Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar. Ailemden kardeşim Harun'u bana vezir yap, beni onunla destekle, onu görevimde ortak kıl ki Seni daha çok tesbih edelim ve çokça analım. Şüphesiz Sen bizi görmektesin” dedi.",
+   "kaynak": "Tâhâ, 20/25-28"
+  },
+  "konular": [
+   "genclikAhlak",
+   "ihlasUhuvvet"
+  ],
+  "kavramlar": [
+   "Nasihat",
+   "Hikmet",
+   "Mev'ize-i Hasene",
+   "Şifa",
+   "Seciye"
+  ],
+  "kaynaklar": [
+   "Nahl, 16/125",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Bakara Sûresi'nin Tefsîri, 9. Âyet"
+  ],
+  "sinav": [
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre nasihat eden kişi önce neye hitap eder?",
+    "secenekler": [
+     "Korkuya",
+     "Akla",
+     "Hırsa",
+     "Öfkeye"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre hakikati hurafe, tatlıyı acı gösteren nedir?",
+    "secenekler": [
+     "Seciyedeki bir hastalık",
+     "İlim",
+     "Akıl",
+     "Vicdan"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Rabbin yoluna hikmetle ve güzel öğütle çağırmak gerekir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_158",
+  "kategori": "nefis",
+  "baslik": "Yağ Bozulursa Zehir Olur: İnsanın Bozulması",
+  "giris": "Süt bozulsa yoğurt olur, yine yenir; ama yağ bozulursa yenmez, bazen zehir gibi olur. Bediüzzaman, Lem'alar'ın On Üçüncü Lem'a'sında bu misalden şu dersi çıkarır: Yüksek bir şey bozulduğunda, aşağı bir şeyin bozulmasından daha çok bozulur. Mahlukatın en şereflisi olan insan da bozulursa, bozuk bir hayvandan daha kötü bir hale düşer.",
+  "aciklama": "Kur'an-ı Kerîm, hakikate kalbini, gözünü ve kulağını kapatanları şöyle tarif eder: “Onların kalbleri vardır ama anlamazlar; gözleri vardır ama görmezler; kulakları vardır ama işitmezler. İşte bunlar hayvanlar gibi hatta daha sapıktırlar. İşte bunlar gafillerdir.” İnsana verilen yüksek kabiliyetler, doğru kullanılmazsa onu hayvandan da aşağıya düşürebilir. Bu, insanın değerinin ne kadar büyük, sorumluluğunun ne kadar ağır olduğunu gösterir.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın On Üçüncü Lem'a'sının Onuncu İşaret'inde şöyle der: “Ma‘lûmdur ki, a‘lâ bir şey bozulsa, ednâ bir şeyin bozulmasından daha ziyâde bozuk olur. Meselâ, nasıl ki süt ve yoğurt bozulsalar, yine yenilebilirler. Fakat yağ bozulsa, yenilmez, bazen zehir gibi olur.” Eserdeki anlatımın özetine göre insanın kabiliyetleri ne kadar yüksekse, onları kötüye kullandığında düşeceği yer de o kadar aşağıdır. Aynı yerde bu hakikat insana uygulanır: “Öyle de, mahlûkātın en mükerremi, belki en a‘lâsı olan insan eğer bozulsa, bozuk hayvandan daha ziyâde bozuk olur.” Ve böyle bir insanın hali şöyle tasvir edilir: Kokuşmuş şeylerden lezzet alan haşerat ve ısırmaktan zevk alan yılanlar gibi, “dalâlet bataklığındaki şerlerle ve habîs ahlâklarla telezzüz ve iftihâr eder.”",
+  "kainattanDelil": "Temiz bir pınar suyu en tatlı içecektir; ama kirlenirse en tehlikeli hastalıkları taşır. Güçlü bir nehir tarlaları sular; ama yatağından çıkarsa her şeyi yıkar. Keskin bir bıçak ekmek keser; ama yanlış elde bir silaha dönüşür. Kâinatta güç ve değer ne kadar büyükse, onun bozulması da o kadar büyük zarar getirir.",
+  "hikmet": "Yüksek bir şey bozulursa, aşağı bir şeyin bozulmasından daha çok bozulur. Mahlukatın en şereflisi olan insan bozulursa, bozuk bir hayvandan daha kötü olur. Bozulan insan, şerlerden ve kötü ahlaktan lezzet alır ve onlarla övünür. İnsanın yüksek kabiliyetleri, büyük bir sorumluluk demektir.",
+  "kendimize": "Bana verilen yüksek kabiliyetleri, aklımı, kalbimi ve dilimi neye kullanıyorum? Kötü bir alışkanlıktan lezzet aldığımı fark ettiğim oluyor mu? Kendi değerimin farkında olarak kendimi koruyor muyum?",
+  "hayat": "Bugün dilimizi bir kötülükte değil, bir iyilikte kullanmaya dikkat etmek bu dersin uygulamasıdır. Bizi aşağı çeken bir alışkanlığı fark edip ondan uzak durmaya karar vermek, insanlık değerimizi korumaktır. Kendimize ‘Ben mahlukatın en şereflisi olarak yaratıldım’ diye hatırlatmak da kötülükten kaçınmaya bir güç verir.",
+  "ders": "A'lâ bir şey bozulsa edna bir şeyden daha ziyade bozuk olur; mahlukatın en mükerremi olan insan bozulursa bozuk hayvandan daha ziyade bozuk olur.",
+  "tefekkurSorusu": "Bugün insanlık şerefimi hangi davranışımla korudum?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+   "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+   "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+   "kaynak": "Âl-i İmrân, 3/8"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "genclikAhlak"
+  ],
+  "kavramlar": [
+   "Mükerrem",
+   "Bozulma",
+   "Dalalet",
+   "Habis Ahlak",
+   "Sorumluluk"
+  ],
+  "kaynaklar": [
+   "A'râf, 7/179",
+   "Bediüzzaman Said Nursî, Lem'alar, On Üçüncü Lem'a, Onuncu İşaret"
+  ],
+  "sinav": [
+   {
+    "soru": "On Üçüncü Lem'a'ya göre a'lâ bir şey bozulursa ne olur?",
+    "secenekler": [
+     "Daha az bozulur",
+     "Edna bir şeyden daha ziyade bozuk olur",
+     "Hiç bozulmaz",
+     "Değişmez"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Üçüncü Lem'a'da hangi misal verilir?",
+    "secenekler": [
+     "Süt ve yoğurt bozulsa yenir, yağ bozulsa zehir gibi olur",
+     "Taş bozulmaz",
+     "Su donar",
+     "Ateş yanar"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre kalbiyle anlamayan, gözüyle görmeyen ve kulağıyla işitmeyenler hayvanlar gibi hatta daha sapıktırlar.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_159",
+  "kategori": "ibadet",
+  "baslik": "Güneş Tutulması Bir Namaz Vaktidir",
+  "giris": "Akşam güneşi battığında akşam namazını kılarız; ama namazı güneşi geri getirmek için kılmayız. Bediüzzaman, Nur'un İlk Kapısı'nda bu basit hakikatten derin bir ders çıkarır: Güneş ve ay tutulmaları, yağmursuzluk ve belalar da birer ibadet vaktidir. Bu ibadetler o şeyleri değiştirmek için değil, o vakitlerde Rabbe yönelmek için yapılır.",
+  "aciklama": "Kur'an-ı Kerîm güneş ve ay hakkında şöyle der: “Gece ile gündüz, güneş ile ay Allah'ın varlığının belgelerindendir. Güneşe ve aya secde etmeyin; eğer Allah'a kulluk etmek istiyorsanız, bunları yaratana secde edin.” Güneş ve ay büyük ayetlerdir; onların tutulması da bize onları yaratanın kudretini hatırlatır. Mümin, bu büyük işaretler karşısında onları değil, Yaratıcılarını tanır ve O'na secde eder.",
+  "risalePerspektifi": "Bediüzzaman, Nur'un İlk Kapısı'nın Sekizinci Ders'inde şöyle der: “Evet, nasılki gurûb, mağrib namazının vaktidir. Ay ve Güneş’in tutulmaları da, salâtü’l-küsûf vel-husûf denilen iki ibadât-ı mahsûsanın vaktidir. Yoksa gâye değil ki, namaz kılınmakla, tâ Güneş ve Kamer açılsınlar.” Eserdeki anlatımın özetine göre güneşin ve ayın açılma zamanı zaten bellidir; Yaratıcı, bu iki büyük ayetin perdelendiği zamanlarda kullarını ibadete davet eder. Aynı yerde bu hakikat yağmur duasına da uygulanır: “Onun gibi, yağmursuzluk da yağmur namazının vaktidir. Yağmurun gelmesinin gâyesi değil.” Yağmursuzluk devam ettikçe bu ibadet de devam eder; yağmur geldiğinde ise vakti geçmiş olur. Böylece ibadet, bir menfaat elde etme aracı olmaktan çıkar ve saf bir kulluk olur.",
+  "kainattanDelil": "Güneş tutulduğunda bütün dünya bir an karanlığa bürünür ve insanlar göğe bakar. Kuraklık uzadığında tarlalar susuz kalır ve herkes gözünü göğe çevirir. Bir fırtına koptuğunda insan kendi acizliğini hisseder. Kâinattaki bu büyük olaylar, insanı kendi sınırını tanımaya ve Rabbine yönelmeye çağıran birer davettir.",
+  "hikmet": "Güneş ve ay tutulmaları, yağmursuzluk ve belalar birer ibadet vaktidir. Bu ibadetlerin gayesi o şeyleri değiştirmek değil, o vakitte Rabbe yönelmektir. Namaz kılınınca güneşin açılması amaç değildir; açılma zamanı zaten bellidir. Böylece ibadet, saf bir kulluk ve teslimiyet olur.",
+  "kendimize": "Dua ve ibadetlerimi yalnız bir menfaat elde etmek için mi yapıyorum? Bir sıkıntı devam ettiğinde duamdan vazgeçiyor muyum? Kâinattaki büyük olayları Rabbimi hatırlamak için bir vesile olarak görüyor muyum?",
+  "hayat": "Bugün bir sıkıntımız için dua ederken onu bir ibadet vakti olarak görmek ve sonucunu Rabbimize bırakmak bu dersin uygulamasıdır. Duamız hemen kabul edilmese de ‘Bu sıkıntı devam ettikçe benim vazifem dua etmektir’ diyerek devam etmek, ibadeti saf hale getirir. Bir doğa olayını izlerken onu yaratanı tesbih etmek de güzel bir alışkanlıktır.",
+  "ders": "Gurub mağrib namazının, kusuf ve husuf da salatü'l-küsuf ve'l-husufun vaktidir; gaye değil ki namaz kılınmakla güneş ve kamer açılsın.",
+  "tefekkurSorusu": "Bugün hangi sıkıntımı bir ibadet vakti olarak karşıladım?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
+   "okunus": "Rabbenâ lâ tuâhıznâ in nesînâ ev ehtanâ rabbenâ velâ tehmil 'aleynâ isran kemâ hameltehu 'alâ ellezîne min kablinâ rabbenâ velâ tuhammilnâ mâ lâ tâkate lenâ bihi ve-u'fu 'annâ ve-iğfir lenâ ve-irhamnâ ente mevlânâ fe-unsurnâ 'alâ l-kavmi l-kâfirîn",
+   "anlam": "Allah kişiye ancak gücünün yeteceği kadar yükler; kazandığı iyilik lehine, ettiği kötülük de aleyhinedir. Rabbimiz! Eğer unutacak veya yanılacak olursak bizi sorumlu tutma. Rabbimiz bizden öncekilere yüklediğin gibi, bize de ağır yük yükleme. Rabbimiz! Bize gücümüzün yetmeyeceği şeyi taşıtma, bizi affet, bizi bağışla, bize acı. Sen Mevlamızsın, kafirlere karşı bize yardım et.",
+   "kaynak": "Bakara, 2/286"
+  },
+  "konular": [
+   "ibadet",
+   "musibet"
+  ],
+  "kavramlar": [
+   "Küsuf",
+   "Husuf",
+   "İstiska",
+   "Vakit",
+   "İhlas"
+  ],
+  "kaynaklar": [
+   "Fussilet, 41/37",
+   "Bediüzzaman Said Nursî, Nur'un İlk Kapısı, Sekizinci Ders"
+  ],
+  "sinav": [
+   {
+    "soru": "Sekizinci Ders'e göre ay ve güneş tutulmaları nedir?",
+    "secenekler": [
+     "Bir uğursuzluk",
+     "Salatü'l-küsuf ve'l-husuf denilen ibadetlerin vakti",
+     "Tesadüf",
+     "Bir ceza"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Sekizinci Ders'e göre yağmur namazının gayesi nedir?",
+    "secenekler": [
+     "Yağmurun gelmesi gaye değildir; yağmursuzluk onun vaktidir",
+     "Yalnız yağmuru getirmek",
+     "Gösteriş",
+     "Hiçbir şey"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre güneşe ve aya değil, onları yaratana secde edilmelidir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_160",
+  "kategori": "iman",
+  "baslik": "Kalplerin, İlhamların ve Akılların Şehadeti",
+  "giris": "Kalbe gelen güzel bir ilham, aniden açılan bir hakikat ya da sağlam bir iman, insanın içinden gelen sessiz şahitlerdir. Bediüzzaman, Üçüncü Şuâ'daki münacatında bu iç şahitleri sayar: Kalplerdeki gaybî hatıralar, sadık ilhamlar, kesin inançlar, peygamberlerin ve velilerin nurani kalpleri ve sıddıkların aydın akılları; bunların hepsi Allah'ın birliğine ve güzel isimlerine şahitlik eder.",
+  "aciklama": "Kur'an-ı Kerîm Allah'ın kullarına yakınlığını şöyle bildirir: “Kullarım sana Beni sorarlarsa, bilsinler ki Ben, şüphesiz onlara yakınım. Benden isteyenin, dua ettiğinde duasını kabul ederim.” Allah, kulun kalbine de yakındır; ona ilham verir, onun duasını işitir. İnsanın iç dünyasında yaşadığı her hakikat tecrübesi, bu yakınlığın bir işaretidir.",
+  "risalePerspektifi": "Bediüzzaman, Şuâ'lar'ın Üçüncü Şuâ'sındaki münacatta şöyle der: “Evet, kalblerde, perde-i gaybda ihtâr edici bir zâta bakan hiç bir hâtırât-ı gaybiye.. ve ilhâm edici bir zâta baktıran hiç bir ilhâmât-ı sâdıka.. ve hakkalyakîn sûretinde sıfât-ı kudsiyeni ve esmâ-yı hüsnâ’nı keşfeden hiç bir i‘tikādât-ı yakîniye..” Eserdeki anlatımın özetine göre kalbe gelen her doğru ilham, onu ilham eden birine; her gaybî hatıra, onu hatırlatan birine işaret eder. Aynı münacatta peygamberlerin ve sıddıkların şahitliği de sayılır ve hepsinin ortak noktası şöyle bağlanır: Bunlardan hiçbiri yoktur ki, “senin vahdetine ve ehadiyetine ve esmâ-yı hüsnâ’na şehâdet etmesin, delâleti bulunmasın ve işârâtı olmasın.” Böylece dış dünyadaki deliller gibi, iç dünyadaki tecrübeler de tevhidin şahitleri olur.",
+  "kainattanDelil": "Bir pusula iğnesi hep kuzeyi gösterir; çünkü onu çeken bir kuvvet vardır. Bir çiçek hep güneşe döner; çünkü onu çeken bir ışık vardır. Bir göçmen kuş kışın sıcak ülkelere yönelir; çünkü ona yolu gösteren bir ilham vardır. Kalbin de bir yönelişi vardır; onu çeken ve ona ilham veren bir Zat'a işaret eder.",
+  "hikmet": "Kalplerdeki gaybî hatıralar ve sadık ilhamlar, onları ilham eden bir Zat'a işaret eder. Kesin inançlar, Allah'ın kutsal sıfatlarını ve güzel isimlerini keşfeder. Peygamberlerin nurani kalpleri ve sıddıkların aydın akılları tevhidi müşahede ve tasdik eder. İç dünyadaki tecrübeler de dış dünyadaki deliller gibi tevhidin şahitleridir.",
+  "kendimize": "Kalbime gelen güzel ilhamları fark edip onlara uyuyor muyum? İç dünyamdaki iman tecrübelerini Rabbimin yakınlığına bir işaret olarak görüyor muyum? Peygamberlerin ve velilerin şahitliğini imanımı güçlendirmek için düşünüyor muyum?",
+  "hayat": "Bugün kalbimize gelen hayırlı bir düşünceyi, örneğin birini aramak veya bir iyilik yapmak gibi, ertelemeden uygulamak bu dersin uygulamasıdır. Gün sonunda kalbimizde iman ile ilgili hissettiğimiz bir anı hatırlayıp şükretmek, iç şahitleri fark etmektir. Bir velinin veya âlimin hayatını okumak da onların kalbindeki nurdan istifade etmenin bir yoludur.",
+  "ders": "Kalplerdeki hatırat-ı gaybiye, ilhamat-ı sadıka ve itikadat-ı yakiniyenin hiçbiri yoktur ki Allah'ın vahdetine, ehadiyetine ve esma-yı hüsnasına şehadet etmesin.",
+  "tefekkurSorusu": "Bugün kalbime gelen hangi ilham beni Rabbime yaklaştırdı?",
+  "dua": {
+   "arapca": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّا هُوَ وَٱلْمَلَـٰٓئِكَةُ وَأُو۟لُوا۟ ٱلْعِلْمِ قَآئِمًۢا بِٱلْقِسْطِ ۚ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+   "okunus": "Şehide'llâhu ennehu lâ ilâhe illâ huve vel-melâiketu ve-ulû l-'ılmi kâimen bil-kıstı lâ ilâhe illâ huve l-'azîzu l-hakîm",
+   "anlam": "Allah, melekler ve adaleti yerine getiren ilim sahibleri, O'ndan başka tanrı olmadığına şahidlik etmişlerdir. O'ndan başka tanrı yoktur, O güçlüdür, Hakim'dir.",
+   "kaynak": "Âl-i İmrân, 3/18"
+  },
+  "konular": [
+   "tevhid",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "İlham",
+   "Hatırat-ı Gaybiye",
+   "Yakin",
+   "Şehadet",
+   "Ehadiyet"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/186",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Üçüncü Şuâ"
+  ],
+  "sinav": [
+   {
+    "soru": "Üçüncü Şuâ'ya göre kalplerdeki ilhamat-ı sadıka neye baktırır?",
+    "secenekler": [
+     "Tesadüfe",
+     "İlham edici bir Zat'a",
+     "Tabiata",
+     "Kendine"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Ayete göre Allah kullarına nasıldır?",
+    "secenekler": [
+     "Yakındır ve duayı kabul eder",
+     "Uzaktır",
+     "Habersizdir",
+     "Kayıtsızdır"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Üçüncü Şuâ'ya göre kesin inançlar Allah'ın kutsal sıfatlarını ve güzel isimlerini keşfeder.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_161",
+  "kategori": "nefis",
+  "baslik": "Yapmakta Sinekten Zayıf, Yıkmakta Dağdan Büyük",
+  "giris": "İnsan bir şey yapmak istediğinde ancak gücünün yettiği kadarını yapabilir; ama bir şeyi yıkmak istediğinde küçük bir hareketle büyük bir tahribat yapabilir. Bediüzzaman, Yirmi Üçüncü Söz'de insandaki bu iki yönü anlatır: İnsan, iyilik ve var etme yönünden arıdan ve serçeden aşağı, sinekten ve örümcekten zayıftır; ama kötülük ve yıkma yönünden dağlardan, yerden ve göklerden daha büyük bir yük taşır.",
+  "aciklama": "Kur'an-ı Kerîm bu dengeyi şöyle bildirir: “Sana ne iyilik gelirse Allah'tandır, sana ne kötülük dokunursa kendindendir.” İyiliği yaratan Allah'tır; insan ancak onu ister ve ona vesile olur. Kötülük ise insanın kendi tercihinden doğar ve onun yıkıcı etkisi çok geniş olabilir. Bu bilinç, insanı hem iyilikte tevazuya hem de kötülükten şiddetle sakınmaya çağırır.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Yirmi Üçüncü Söz'ünün İkinci Mebhas'ında şöyle der: “Evet, ey insan! Sende iki cihet var:. Birisi, îcâd ve vücûd ve hayır ve müsbet ve fiil cihetidir. Diğeri, tahrîb, adem, şer, nefiy, infiâl cihetidir.” Eserdeki anlatımın özetine göre birinci yönden insan çok zayıftır ve ancak elinin uzandığı, gücünün yettiği kadar iyilik yapabilir. Aynı yerde bu fark şöyle gösterilir: “Birinci cihet i‘tibâriyle arıdan, serçeden aşağı.. sinekten örümcekten daha zayıfsın. İkinci cihet i‘tibâriyle dağ, yer, göklerden geçersin.” Çünkü insan bir kötülük veya tahribat yaptığında, onun etkisi yayılır ve çoğalır; küçük bir kötülük, sayısız zarara sebep olabilir. Bu yüzden insan, iyiliklerinde övünmemeli ve kötülüklerinden şiddetle sakınmalıdır.",
+  "kainattanDelil": "Bir duvarı örmek için günlerce çalışmak gerekir; ama yıkmak için bir darbe yeter. Bir ormanın yetişmesi yüzyıllar sürer; ama bir kıvılcım onu bir günde yok edebilir. Bir dostluk yıllar içinde kurulur; ama tek bir kırıcı söz onu bitirebilir. Kâinatta yapmak çok sebebe, yıkmak tek bir sebebe bağlıdır.",
+  "hikmet": "İnsanda iki yön vardır: Var etme ve iyilik yönü ile yıkma ve kötülük yönü. Var etme yönünden insan bir sinekten bile zayıftır. Yıkma yönünden ise dağlardan, yerden ve göklerden daha büyük bir yük altına girer. Bu bilinç, insanı iyilikte tevazuya, kötülükte ise şiddetli bir sakınmaya çağırır. İyiliği Rabbine, kusuru nefsine veren, hem gururdan hem de umursamazlıktan korunur.",
+  "kendimize": "Bir iyilik yaptığımda onu kendime mi, Rabbime mi veriyorum? Küçük bir kötülüğün yayılabilecek zararlarını düşünüyor muyum? Sözlerimle ve davranışlarımla yıkmaktan çok yapmayı mı seçiyorum?",
+  "hayat": "Bugün kırıcı bir söz söylemek üzereyken susmak ve onun yerine yapıcı bir söz bulmak bu dersin uygulamasıdır. Bir iyilik yaptığımızda ‘Allah nasip etti’ demek, iyiliği sahibine vermektir. Küçük de olsa bir zarar verdiysek, onu hemen telafi etmeye çalışmak da kötülüğün yayılmasını önler.",
+  "ders": "İnsanda iki cihet var: İcad ve hayır ciheti itibarıyla sinekten zayıf, tahrip ve şer ciheti itibarıyla dağ, yer ve göklerden geçer.",
+  "tefekkurSorusu": "Bugün hangi küçük yıkımı önleyip yerine bir iyilik koydum?",
+  "dua": {
+   "arapca": "رَبَّنَا ظَلَمْنَآ أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ ٱلْخَـٰسِرِينَ",
+   "okunus": "Rabbenâ zalemnâ enfusenâ ve-in lem teğfir lenâ veterhamnâ lenekûnenne mine l-hâsirîn",
+   "anlam": "Her ikisi, “Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz” dediler.",
+   "kaynak": "A'râf, 7/23"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "kader"
+  ],
+  "kavramlar": [
+   "İcad",
+   "Tahrip",
+   "Hayır",
+   "Şer",
+   "Tevazu"
+  ],
+  "kaynaklar": [
+   "Nisâ, 4/79",
+   "Bediüzzaman Said Nursî, Sözler, Yirmi Üçüncü Söz, İkinci Mebhas"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Üçüncü Söz'e göre insan icad ve hayır ciheti itibarıyla nasıldır?",
+    "secenekler": [
+     "Dağlardan büyüktür",
+     "Arıdan, serçeden aşağı, sinekten daha zayıftır",
+     "Her şeyi yapar",
+     "Hiçbir şey yapamaz"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Üçüncü Söz'e göre insan tahrip ve şer ciheti itibarıyla neyi geçer?",
+    "secenekler": [
+     "Dağı, yeri ve gökleri",
+     "Bir sineği",
+     "Bir arıyı",
+     "Hiçbir şeyi"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre insana gelen iyilik Allah'tandır.",
+    "dogru": true
+   }
+  ]
  }
 ]

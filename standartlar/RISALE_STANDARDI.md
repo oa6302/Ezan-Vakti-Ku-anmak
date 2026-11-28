@@ -46,3 +46,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-28: ders_126-132 (kabre yaklaşırken münacat, midenin hamdi, hâlis muhabbet, bekânın lezzeti, sineğin hakkı ve haşir, ölüm meleği perdedir, kelimat-ı İlahiyenin dereceleri); toplam 132.
 - 2026-11-28: ders_133-142 (yerküre çekirdek, vahdet sırrı, hayvan ruhlarının bekası, mecaz ve hurafe, arı fihrist, şeriatlerin füruatı, güzellik şirki reddeder, birlik biri gösterir, ezeli Allah ve ahiret, kusur mirsad); toplam 142.
 - 2026-11-28: ders_143-152 (iman anahtarı, beş kârlı ticaret, kabahati başkasına atmak, has muhatap, sünnetteki hikmet, tevekkül noktası, birlik perdeleri, şükür meyvesi, dar dünya, kâinat kitabı); toplam 152.
+- 2026-11-28: ders_153-161 (yeryüzünün değişimi, bir saat tefekkür, tercüme ve belagat, niyetin gücü, nasihat tarzı, insanın bozulması, küsuf namazı, kalplerin şehadeti, yapmakta zayıf yıkmakta büyük); toplam 161.
