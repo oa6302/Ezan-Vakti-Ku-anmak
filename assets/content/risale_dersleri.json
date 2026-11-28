@@ -12799,5 +12799,446 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_199",
+  "kategori": "iman",
+  "baslik": "İsbat Eden Bir, İnkâr Eden Bin Olsa",
+  "giris": "Bir şeyin var olduğunu söylemek için onu bir kere göstermek yeter; ama yok olduğunu söylemek için bütün dünyayı arayıp hiçbir yerde olmadığını kanıtlamak gerekir. Bediüzzaman, Zehre Risâlesi'nde bu hakikatten bir iman dersi çıkarır: İnkâr edenler ne kadar çok olsa da birbirlerine güç veremezler; isbat edenler ise az da olsalar birbirlerini güçlendirir.",
+  "aciklama": "Kur'an-ı Kerîm tevhide şahitlik edenleri şöyle sayar: “Allah, melekler ve adaleti yerine getiren ilim sahipleri, O'ndan başka tanrı olmadığına şahidlik etmişlerdir.” Bu şahitlik, sayıca az görünse de en güçlü şahitliktir. Çünkü hakikati gören bir göz, onu görmeyen binlerce gözden daha değerlidir.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Zehre Risâlesi'nin Yedinci Nota'sında şöyle der: “Evet, bir şeyi dünyada var desen, yalnız o şeyi göstermek kâfîdir. Eğer yok deyip nefyetsen, bütün dünyayı eleyip göstermek lâzım gelir ki, tâ o nefiy isbat edilsin.” Eserdeki anlatımın özetine göre inkâr edenlerin her biri yalnız kendi gördüğünü söyler; birinin görmemesi diğerinin görmemesine bir kuvvet katmaz, tıpkı dar bir delikten geçmekte veya bir hendekten atlamakta bin kişinin bir kişiden farkı olmaması gibi. Aynı yerde isbat edenlerin durumu şöyle gösterilir: “Fakat isbat edenler, nefsül’emirde hakîkat-i hâle baktıkları için, müddeâları ittihâd ediyor. Kuvvetleri birbirine yardım ediyor.” Ve bir benzetme ile tamamlanır: “Bu hâl büyük bir taşın kaldırılmasına benzer ki, ne kadar eller yapışsa, daha ziyâde kaldırılması kolay olur. Birbirinden kuvvet alır.”",
+  "kainattanDelil": "Bir yıldızın var olduğunu göstermek için ona bir teleskopla bakmak yeter; ama olmadığını iddia etmek için bütün göğü taramak gerekir. Bir kişinin bir çiçeği görmesi, onun varlığını kanıtlar; binlerce kişinin görmemesi ise onun yokluğunu kanıtlamaz. Bir taşı kaldırmak için ne kadar çok el birleşirse iş o kadar kolaylaşır. Kâinatta isbat birleştirir, inkâr ise dağınıktır.",
+  "hikmet": "Bir şeyin varlığını isbat etmek için onu göstermek yeter; yokluğunu isbat etmek için ise bütün dünyayı taramak gerekir. İnkâr edenlerin çokluğu birbirine güç vermez. İsbat edenler ise hakikate baktıkları için birleşir ve birbirini güçlendirir. Bu yüzden imanın şahitleri az olsa da en güçlü şahitlerdir.",
+  "kendimize": "İnkâr edenlerin sayısı imanımı sarsıyor mu? Kendi imanımı güçlendirmek için isbat edenlerin şahitliğine kulak veriyor muyum? Bir iman meselesinde ‘görmüyorum, öyleyse yok’ dediğim oluyor mu?",
+  "hayat": "Bugün imanımızı güçlendiren bir delili, örneğin bir âlimin veya velinin şahitliğini düşünmek bu dersin uygulamasıdır. İnkâr edici bir söz duyduğumuzda onun bir şeyi isbat etmediğini, yalnız görmediğini söylediğini hatırlamak, kalbi sağlamlaştırır. Bir iman sohbetinde arkadaşlarımızla birlikte hakikati konuşmak da isbat edenlerin birbirine kuvvet vermesidir.",
+  "ders": "Bir şeyi var demek için onu göstermek kâfidir, yok demek için bütün dünyayı eleyip göstermek lazımdır; isbat edenlerin kuvvetleri birbirine yardım eder.",
+  "tefekkurSorusu": "Bugün imanımı hangi isbat edici şahitlikle güçlendirdim?",
+  "dua": {
+   "arapca": "شَهِدَ ٱللَّهُ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّا هُوَ وَٱلْمَلَـٰٓئِكَةُ وَأُو۟لُوا۟ ٱلْعِلْمِ قَآئِمًۢا بِٱلْقِسْطِ ۚ لَآ إِلَـٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+   "okunus": "Şehide'llâhu ennehu lâ ilâhe illâ huve vel-melâiketu ve-ulû l-'ılmi kâimen bil-kıstı lâ ilâhe illâ huve l-'azîzu l-hakîm",
+   "anlam": "Allah, melekler ve adaleti yerine getiren ilim sahibleri, O'ndan başka tanrı olmadığına şahidlik etmişlerdir. O'ndan başka tanrı yoktur, O güçlüdür, Hakim'dir.",
+   "kaynak": "Âl-i İmrân, 3/18"
+  },
+  "konular": [
+   "iman",
+   "tevhid"
+  ],
+  "kavramlar": [
+   "İsbat",
+   "Nefy",
+   "Nefsü'l-Emir",
+   "İttihad",
+   "Şahitlik"
+  ],
+  "kaynaklar": [
+   "Âl-i İmrân, 3/18",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Zehre Risâlesi, Yedinci Nota"
+  ],
+  "sinav": [
+   {
+    "soru": "Zehre Risâlesi'ne göre bir şeyi var demek için ne kâfidir?",
+    "secenekler": [
+     "Bütün dünyayı elemek",
+     "Yalnız o şeyi göstermek",
+     "Çok kişinin söylemesi",
+     "Hiçbir şey"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Zehre Risâlesi'ne göre isbat edenlerin hâli neye benzer?",
+    "secenekler": [
+     "Büyük bir taşın birlikte kaldırılmasına",
+     "Dar bir delikten geçmeye",
+     "Bir hendekten atlamaya",
+     "Bir meseleyi tek başına halletmeye"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah, melekler ve ilim sahipleri O'ndan başka ilah olmadığına şahitlik etmişlerdir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_200",
+  "kategori": "ahiret",
+  "baslik": "İstidatların Şahadet Parmakları",
+  "giris": "Bir tohumun içinde ağaç olma kabiliyeti varsa, o tohumun ekileceği bir toprak da vardır. Bediüzzaman, İşârâtü'l-İ'câz'da insanın ruhundaki sayısız kabiliyetin, meyillerin ve düşüncelerin, ebedî saadete işaret eden şahadet parmakları gibi olduğunu söyler. Bu kabiliyetler bu kısa dünyada tam olarak açılamaz; onların açılacağı yer ebedî saadet yurdudur.",
+  "aciklama": "Kur'an-ı Kerîm insanın şerefini şöyle bildirir: “And olsun ki, biz insanoğullarını şerefli kıldık, onların karada ve denizde gezmesini sağladık, temiz şeylerle onları rızıklandırdık, yaratıklarımızın pek çoğundan üstün kıldık.” İnsanın bu şerefi, ona verilen kabiliyetlerin büyüklüğündendir. Bu kabiliyetler, insanın yalnız bu dünya için değil, ebedî bir hayat için yaratıldığını gösterir.",
+  "risalePerspektifi": "Bediüzzaman, İşârâtü'l-İ'câz'da Bakara Sûresi'nin 4. ayetinin tefsirinde şöyle der: “Evet, Cenâb-ı Hakk tarafından mükerrem kılınan insanın cevher-i rûhunda ekilen ve rakamlara sığmayan isti‘dâdlar var. Bu isti‘dâdların altında, hesaba gelmeyen kābiliyetler var.” Eserdeki anlatımın özetine göre bu istidatlardan sayısız meyiller, meyillerden de sonsuz düşünce ve tasavvurlar doğar; bunların hiçbiri bu kısa dünya hayatında tam olarak tatmin olmaz. Aynı yerde bunların gösterdiği hakikat şöyle ifade edilir: “İşte bunların her birisi, haşr-i cismânînin arkasındaki saâdet-i ebediyeye şehâdet parmaklarını uzatarak gösteriyorlar.” Yani insanın içindeki her büyük kabiliyet, ‘Ben bu dünya için değil, ebedî bir yurt için yaratıldım’ diye şahitlik eder.",
+  "kainattanDelil": "Bir kuş yavrusunun kanatları, onun uçacağı bir gökyüzünün varlığını gösterir. Bir bebeğin gözleri, onun göreceği bir dünyanın varlığını haber verir. Bir tohumun içindeki ağaç planı, onun yetişeceği bir toprağı gerektirir. Kâinatta her kabiliyet, kendisini karşılayacak bir yerin varlığına işaret eder; insanın sonsuz kabiliyetleri de sonsuz bir yurda işaret eder.",
+  "hikmet": "İnsanın ruhunda sayısız istidat, kabiliyet, meyil ve düşünce vardır. Bunlar bu kısa dünyada tam olarak açılamaz ve tatmin olamaz. Her biri, cismani haşrin arkasındaki ebedî saadete şahadet parmağını uzatır. İnsanın şerefi, bu ebedî hayata hazırlanan kabiliyetlerinin büyüklüğündendir.",
+  "kendimize": "İçimdeki büyük kabiliyetlerin ve sonsuz arzuların neye işaret ettiğini düşünüyor muyum? Bu kabiliyetleri yalnız dünya için mi kullanıyorum? Bana verilen şerefin sorumluluğunu taşıyor muyum?",
+  "hayat": "Bugün bir kabiliyetimizi, örneğin öğrenme, sevme veya yardım etme gücümüzü, ahirete hazırlık niyetiyle kullanmak bu dersin uygulamasıdır. Bir hayalimizi veya büyük bir arzumuzu ‘Bunun tam karşılığı cennette’ diyerek Rabbimize havale etmek, kalbi rahatlatır. Çocuklarımızın kabiliyetlerini keşfedip onları hayra yöneltmek de bu şerefin gereğidir.",
+  "ders": "Mükerrem kılınan insanın ruhundaki istidatlar, kabiliyetler, meyiller ve tasavvurlar, haşr-i cismaninin arkasındaki saadet-i ebediyeye şehadet parmaklarını uzatarak gösterir.",
+  "tefekkurSorusu": "Bugün içimdeki hangi kabiliyet bana ebedî bir hayatı hatırlattı?",
+  "dua": {
+   "arapca": "رَّبَّنَآ إِنَّنَا سَمِعْنَا مُنَادِيًۭا يُنَادِى لِلْإِيمَـٰنِ أَنْ ءَامِنُوا۟ بِرَبِّكُمْ فَـَٔامَنَّا ۚ رَبَّنَا فَٱغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ ٱلْأَبْرَارِ رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ ٱلْقِيَـٰمَةِ ۗ إِنَّكَ لَا تُخْلِفُ ٱلْمِيعَادَ",
+   "okunus": "Rabbenâ innenâ semi'nâ munâdiyen yunâdî lilîmâni en âminû birabbikum feâmennâ rabbenâ fe-iğfir lenâ zunûbenâ vekeffir 'annâ seyyiâtinâ veteveffenâ me'a l-ebrârı rabbenâ veâtinâ mâ ve'adttenâ 'alâ rusulike velâ tuhzinâ yevme l-kıyâmeti inneke lâ tuhlifu l-mî'âd",
+   "anlam": "“Rabbimiz! Doğrusu biz Rabbinize inanın diye inanmaya çağıran bir çağırıcıyı işittik de iman ettik. Rabbimiz! Günahlarımızı bize bağışla, kötülüklerimizi ört, canımızi iyilerle beraber al”. “Rabbimiz! Peygamberlerinle vadettiklerini bize ver, kıyamet günü bizi rezil etme. Sen şüphesiz sözünden caymazsın”.",
+   "kaynak": "Âl-i İmrân, 3/193-194"
+  },
+  "konular": [
+   "ahiret",
+   "insanKainat"
+  ],
+  "kavramlar": [
+   "İstidat",
+   "Kabiliyet",
+   "Meyil",
+   "Saadet-i Ebediye",
+   "Mükerrem"
+  ],
+  "kaynaklar": [
+   "İsrâ, 17/70",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Bakara Sûresi'nin Tefsîri, 4. Âyet"
+  ],
+  "sinav": [
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre insanın istidatları neye şehadet parmaklarını uzatır?",
+    "secenekler": [
+     "Dünya hayatına",
+     "Haşr-i cismaninin arkasındaki saadet-i ebediyeye",
+     "Servete",
+     "Şöhrete"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Ayete göre Allah insanoğullarını nasıl kılmıştır?",
+    "secenekler": [
+     "Şerefli",
+     "Değersiz",
+     "Zayıf",
+     "Unutulmuş"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "İşârâtü'l-İ'câz'a göre insanın ruhunda rakamlara sığmayan istidatlar vardır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_201",
+  "kategori": "kainat",
+  "baslik": "Görünmeyen Âlem Görünenden Daha Yüksektir",
+  "giris": "İnsan evini güzel döşer, gömleğini özenle seçer, kitabını süsler; ama midesinin, derisinin ve hafızasının evinden, gömleğinden ve kitabından çok daha harika olduğunu düşünmez. Bediüzzaman, Zerre Risâlesi'nde bu kıyastan büyük bir sonuca varır: Nasıl ki bedenin içi dışından daha harikaysa, görünmeyen melekût âlemi de görünen âlemden daha yüce ve daha yüksektir.",
+  "aciklama": "Kur'an-ı Kerîm her şeyin melekûtunun Allah'ın elinde olduğunu bildirir: “Her şeyin hükümranlığı elinde olan ve sizin de kendisine döneceğiniz Allah münezzehtir.” Melekût, varlıkların görünmeyen, Allah'a bakan iç yüzüdür. Görünen dünya, bu iç yüzün bir perdesi gibidir; asıl hakikat ve güzellik, perdenin arkasındadır.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Zerre Risâlesi'nde şöyle der: “Evet, karnın, yani miden senin evinden, cildin senin gömleğinden ve kuvve-i hâfızan senin kitabından nakış ve intizâmca daha yüksek ve daha garîbdir.” Eserdeki anlatımın özetine göre insanın kendi yaptığı şeyler, Allah'ın onun içinde yarattığı şeylerin yanında çok basit kalır. Aynı yerde bu kıyastan şu sonuç çıkarılır: “Binâenaleyh, âlem-i melekût âlem-i şehâdetten, âlem-i gayb âlem-i dünyâ ve âhiretten daha âlî, daha yüksektir.” Ve insanın bu hakikati neden göremediği şöyle açıklanır: “Maalesef nefs-i emmâre hevâ-i nefis ile baktığı için, zâhirî hayatlı, ünsiyetli bir perde gibi meyyit ve zulmetli ve vahşetli zannettiği bâtını üstüne serilmiş olduğunu görüyor.” Yani nefis, görünen perdeye takılıp onun arkasındaki canlı ve nurlu hakikati ölü ve karanlık sanır.",
+  "kainattanDelil": "İnsanın gözü, en gelişmiş fotoğraf makinesinden daha harikadır. Midenin yaptığı işler, en büyük kimya fabrikalarını geride bırakır. Hafızanın sakladığı bilgiler, en büyük kütüphanelere sığmaz. Bir yaprağın içinde olan işler, dışarıdan görünen yeşil renginden çok daha harikadır. Kâinatta görünmeyen iç yüzler, görünen dış yüzlerden daha yüksek bir sanat taşır.",
+  "hikmet": "İnsanın midesi evinden, derisi gömleğinden, hafızası kitabından daha harika ve daha düzenlidir. Bundan anlaşılır ki melekût âlemi şehadet âleminden, gayb âlemi de görünen âlemden daha yüksektir. Nefis, görünen perdeye takılıp arkasındaki hakikati ölü ve karanlık sanır. Asıl güzellik ve hayat, perdenin arkasındadır.",
+  "kendimize": "Kendi yaptığım şeylere mi, yoksa Rabbimin bende yarattıklarına mı daha çok hayranım? Görünen dünyanın arkasındaki melekût âlemini düşünüyor muyum? Nefsimin bakışıyla hakikati karanlık gördüğüm oluyor mu?",
+  "hayat": "Bugün evimizi veya kıyafetimizi düzenlerken, bedenimizin içindeki çok daha harika düzeni düşünüp şükretmek bu dersin uygulamasıdır. Bir bilgiyi hatırladığımızda hafızamızın ne büyük bir nimet olduğunu fark etmek tefekkürü derinleştirir. Görünmeyen âleme, meleklere ve ahirete imanımızı tazelemek de perdenin arkasını görmeye çalışmaktır.",
+  "ders": "Miden evinden, cildin gömleğinden ve hafızan kitabından daha yüksek ve gariptir; âlem-i melekût âlem-i şehadetten daha âli ve daha yüksektir.",
+  "tefekkurSorusu": "Bugün bedenimdeki hangi gizli sanat bana melekût âlemini hatırlattı?",
+  "dua": {
+   "arapca": "رَبَّنَا مَا خَلَقْتَ هَـٰذَا بَـٰطِلًۭا سُبْحَـٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ رَبَّنَآ إِنَّكَ مَن تُدْخِلِ ٱلنَّارَ فَقَدْ أَخْزَيْتَهُۥ ۖ وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍۢ",
+   "okunus": "Rabbenâ mâ halekte hâzâ bâtılen subhâneke fekınâ 'azâbe n-nârı rabbenâ inneke men tudhıli n-nâra fekad ehzeytehu vemâ lilzzâlimîne min ensârın",
+   "anlam": "Onlar ayakta iken, otururken, yan yatarken Allah'ı anarlar; göklerin ve yerin yaratılışını düşünürler: “Rabbimiz! Sen bunu boşuna yaratmadın, Sen münezzehsin. Bizi ateşin azabından koru” “Rabbimiz! Sen ateşe kimi sokarsan, onu şüphesiz rezil etmiş olursun, zulmedenlerin hiç yardımcıları yoktur”.",
+   "kaynak": "Âl-i İmrân, 3/191-192"
+  },
+  "konular": [
+   "insanKainat",
+   "iman"
+  ],
+  "kavramlar": [
+   "Melekût",
+   "Şehadet Âlemi",
+   "Gayb",
+   "Nefs-i Emmare",
+   "Perde"
+  ],
+  "kaynaklar": [
+   "Yâsîn, 36/83",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Zerre Risâlesi"
+  ],
+  "sinav": [
+   {
+    "soru": "Zerre Risâlesi'ne göre insanın midesi neyden daha yüksek ve gariptir?",
+    "secenekler": [
+     "Hiçbir şeyden",
+     "Evinden",
+     "Bir dağdan",
+     "Bir denizden"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Zerre Risâlesi'ne göre âlem-i melekût nasıldır?",
+    "secenekler": [
+     "Âlem-i şehadetten daha âli ve yüksektir",
+     "Daha aşağıdır",
+     "Aynıdır",
+     "Yoktur"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre her şeyin hükümranlığı Allah'ın elindedir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_202",
+  "kategori": "risaleler",
+  "baslik": "Kur'an'ın Büyük Caddesinden Ayrılmamak",
+  "giris": "Uzun bir yolculukta ana yoldan ayrılan yolcu, kestirme sandığı patikada kaybolabilir. Bediüzzaman, Yirmi Birinci Lem'a'da talebelerine böyle bir uyarı yapar: Kur'an'ın büyük caddesi olan bu meslekten ayrılanlar, farkında olmadan dinsizlik akımına yardım etme tehlikesiyle karşılaşabilir. Kur'an'ın kutsal dairesine girenler ise nura, ihlâsa ve imana kuvvet verirler.",
+  "aciklama": "Kur'an-ı Kerîm doğru yolun tek olduğunu şöyle bildirir: “Bu, dosdoğru olan yoluma uyun. Sizi Allah yolundan ayrı düşürecek yollara uymayın. Allah size bunları sakınasınız diye buyurmaktadır.” Doğru yol bir ana cadde gibidir; ondan ayrılan yan yollar ise insanı hedefinden uzaklaştırabilir. Müminin vazifesi, bu ana caddede sebat etmektir.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın Yirmi Birinci Lem'a'sının Râbıta-i Mevt bahsinde şöyle der: “Evet, yol iki görünüyor. Cadde-i kübrâ-yı Kur’âniye olan şu mesleğimizden şimdi ayrılanlar, bize düşman olan dinsizlik kuvvetine bilmeyerek yardım etmek ihtimâli var.” Eserdeki anlatımın özetine göre iman hizmetinden ayrılmak, sadece bir kişinin kaybı değil, imana karşı çalışan güçlerin işini kolaylaştıran bir boşluktur. Aynı yerde bu yolda sebat edenlere şu müjde verilir: “İnşâallâh Risâle-i Nûr yoluyla Kur’ân-ı Mu‘cizü’l-Beyân’ın dâire-i kudsiyesine girenler, dâimâ nûra, ihlâsa, îmâna kuvvet verecekler ve öyle çukurlara sukūt etmeyeceklerdir.” Bu ifade, Kur'an'a hizmet yolunda sebatın hem kişiyi hem de iman cephesini koruduğunu gösterir.",
+  "kainattanDelil": "Bir nehir yatağından ayrılan su, bataklıklarda kaybolur; yatağında kalan su ise denize ulaşır. Bir sürüden ayrılan kuzu, kurtlara yem olabilir. Bir ağacın gövdesinden kopan dal kurur; gövdeye bağlı kalan ise yeşerir. Kâinatta ana kaynağa bağlı kalan yaşar ve büyür; ondan kopan ise kaybolma tehlikesiyle karşılaşır.",
+  "hikmet": "Kur'an'ın büyük caddesinden ayrılan, farkında olmadan imana karşı çalışanlara yardım etme tehlikesiyle karşılaşır. Kur'an'ın kutsal dairesine girenler ise nura, ihlâsa ve imana kuvvet verir. Bu yolda sebat edenler, dalalet çukurlarına düşmekten korunur. Doğru yol tektir; ondan ayıran yollara uymamak gerekir.",
+  "kendimize": "Kur'an'a hizmet yolunda sebat ediyor muyum, yoksa kolay görünen yan yollara mı sapıyorum? Bir hizmetten ayrıldığımda bunun imana karşı çalışanlara bir boşluk bıraktığını düşünüyor muyum? Kur'an'ın dairesinde kalmak için neler yapıyorum?",
+  "hayat": "Bugün Kur'an'a hizmet eden bir sohbete, bir derse veya bir hayır işine katılmak bu dersin uygulamasıdır. Zor bir dönemde iman hizmetinden ayrılmayı düşündüğümüzde, bunun bırakacağı boşluğu düşünmek sebatı güçlendirir. Kur'an'ı her gün az da olsa okumak, onun dairesinde kalmanın en güzel yoludur.",
+  "ders": "Cadde-i kübra-yı Kur'aniyeden ayrılanlar dinsizlik kuvvetine bilmeyerek yardım edebilir; Kur'an'ın daire-i kudsiyesine girenler ise daima nura, ihlasa ve imana kuvvet verir.",
+  "tefekkurSorusu": "Bugün Kur'an'ın caddesinde hangi adımı attım?",
+  "dua": {
+   "arapca": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+   "okunus": "Ihdinâ s-sırâta l-mustekîme sırâta ellezîne en'amte 'aleyhim ğayrı l-meğdûbi 'aleyhim velâ d-dâlîn",
+   "anlam": "Bizi doğru yola eriştir. Nimete erdirdiğin kimselerin yoluna; gazaba uğrayanların, ya da sapıtanların yoluna değil.",
+   "kaynak": "Fâtiha, 1/6-7"
+  },
+  "konular": [
+   "kuran",
+   "ihlasUhuvvet"
+  ],
+  "kavramlar": [
+   "Cadde-i Kübra",
+   "Sebat",
+   "İhlas",
+   "Daire-i Kudsiye",
+   "Hizmet"
+  ],
+  "kaynaklar": [
+   "En'âm, 6/153",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirmi Birinci Lem'a"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Birinci Lem'a'ya göre cadde-i kübra-yı Kur'aniyeden ayrılanlar hangi tehlikeyle karşılaşır?",
+    "secenekler": [
+     "Hiçbir tehlikeyle",
+     "Dinsizlik kuvvetine bilmeyerek yardım etme ihtimaliyle",
+     "Zengin olmakla",
+     "Meşhur olmakla"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Birinci Lem'a'ya göre Kur'an'ın daire-i kudsiyesine girenler neye kuvvet verir?",
+    "secenekler": [
+     "Nura, ihlasa ve imana",
+     "Dünyaya",
+     "Şöhrete",
+     "Servete"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah yolundan ayrı düşürecek yollara uyulmamalıdır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_203",
+  "kategori": "iman",
+  "baslik": "Yetmiş Yılın Tecrübesi: Hakiki Lezzet İmandadır",
+  "giris": "Uzun bir ömür yaşamış bir insanın tecrübesi, gençler için değerli bir hazinedir. Bediüzzaman, yetmiş yaşındayken Afyon hapsinde yazdığı bir mektubunda zevk ve lezzet peşinde koşanlara seslenir: Binlerce tecrübe, delil ve olayla gözümle görür gibi bildim ki, hakiki zevk, elemsiz lezzet, kedersiz sevinç ve hayattaki saadet yalnız imandadır.",
+  "aciklama": "Kur'an-ı Kerîm imanla birlikte salih amel işleyenlere güzel bir hayat vaat eder: “Kadın, erkek, inanmış olarak kim iyi iş işlerse, ona hoş bir hayat yaşatacağız. Ecirlerini yaptıklarından daha güzeli ile ödeyeceğiz.” Bu güzel hayat, yalnız ahirette değil, dünyada da başlar. İman, insanın kalbine öyle bir huzur verir ki, dünyanın hiçbir lezzeti onun yerini tutamaz.",
+  "risalePerspektifi": "Bediüzzaman, Şuâ'lar'ın Ondördüncü Şuâ'sında yer alan Afyon Hapsi Mektupları'nda şöyle der: “Ey zevk ve lezzete mübtelâ olan! Ben yetmiş yaşımdayım. Binler tecrübelerle ve hüccetlerle ve hâdiselerle aynelyakîn bildim ki: hakîkî zevk ve elemsiz lezzet ve kedersiz sevinç ve hayâttaki saâdet, yalnız îmândadır.” Eserdeki anlatımın özetine göre dünyevî lezzetler, imandan uzak olunca beraberinde çok elemler getirir; geçici bir zevk, kalıcı bir pişmanlık bırakır. Aynı yerde bu hakikat bir benzetme ile anlatılır: “Yoksa dünyevî bir lezzette çok elemler var. Bir üzüm tanesi yedirir, on tokat vurur. hayâtın lezzetini kaçırır.” Bu söz, ömrünün büyük kısmını zorluklar içinde geçirmiş birinin kendi tecrübesiyle verdiği bir şahitliktir.",
+  "kainattanDelil": "Bir bal arısı çiçekten çiçeğe konar ama yalnız tatlı özü alır ve zehirli olanlardan uzak durur. Tatlı görünen bazı meyveler, yenince mideyi bozar; acı görünen bazı ilaçlar ise şifa verir. Güneşin ışığı hayat verir; ama ona çıplak gözle uzun süre bakan gözünü kaybeder. Kâinatta her lezzet, doğru yerde ve ölçüde alınınca fayda, aksi halde zarar verir.",
+  "hikmet": "Hakiki zevk, elemsiz lezzet, kedersiz sevinç ve hayattaki saadet yalnız imandadır. Dünyevî lezzetler imandan uzak olunca çok elemler getirir. Bir üzüm tanesi yedirip on tokat vuran lezzetler, hayatın tadını kaçırır. Bu, uzun bir ömrün tecrübesiyle verilmiş bir şahitliktir.",
+  "kendimize": "Hayatımda aradığım lezzetler bana kalıcı bir huzur mu, yoksa geçici bir zevk ve ardından pişmanlık mı veriyor? İmanın verdiği huzuru dünyevî zevklerle kıyasladığımda hangisini tercih ediyorum? Büyüklerimin tecrübelerinden ders alıyor muyum?",
+  "hayat": "Bugün bizi geçici bir zevke çağıran ama sonunda pişmanlık bırakacak bir şeyden vazgeçmek bu dersin uygulamasıdır. İmanın verdiği huzuru tatmak için kısa bir zikir veya Kur'an okuma vakti ayırmak, hakiki lezzeti aramaktır. Yaşlı bir büyüğümüzün hayat tecrübesini dinlemek ve ondan ders almak da güzel bir alışkanlıktır.",
+  "ders": "Hakiki zevk ve elemsiz lezzet ve kedersiz sevinç ve hayattaki saadet yalnız imandadır; dünyevi bir lezzet bir üzüm tanesi yedirir, on tokat vurur.",
+  "tefekkurSorusu": "Bugün hangi lezzeti imanın huzuruyla tattım?",
+  "dua": {
+   "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ",
+   "okunus": "Rabbenâ âtinâ fî d-dunyâ haseneten vefî l-âhırati haseneten vekınâ 'azâbe n-nâr",
+   "anlam": "“Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru” diyenler vardır.",
+   "kaynak": "Bakara, 2/201"
+  },
+  "konular": [
+   "iman",
+   "genclikAhlak"
+  ],
+  "kavramlar": [
+   "Hakiki Zevk",
+   "Lezzet",
+   "Saadet",
+   "Aynelyakin",
+   "Tecrübe"
+  ],
+  "kaynaklar": [
+   "Nahl, 16/97",
+   "Bediüzzaman Said Nursî, Şuâ'lar, Ondördüncü Şuâ, Afyon Hapsi Mektupları"
+  ],
+  "sinav": [
+   {
+    "soru": "Ondördüncü Şuâ'ya göre hakiki zevk ve elemsiz lezzet nerededir?",
+    "secenekler": [
+     "Servette",
+     "Yalnız imanda",
+     "Şöhrette",
+     "Eğlencede"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Ondördüncü Şuâ'ya göre dünyevi bir lezzet ne yapar?",
+    "secenekler": [
+     "Bir üzüm tanesi yedirir, on tokat vurur",
+     "Kalıcı huzur verir",
+     "Hiçbir zarar vermez",
+     "Ebedi mutluluk getirir"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre iman edip iyi iş yapana hoş bir hayat yaşatılacaktır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_204",
+  "kategori": "kainat",
+  "baslik": "Güzelliği Yaratan, Onun Âşıklarını da Yaratır",
+  "giris": "Bir gül açtığında onu seyredecek bir bülbül, bir çiçek açtığında ona konacak bir arı da vardır. Güzellik, onu takdir edecek gözler olmadan eksik kalır. Bediüzzaman, Zerre Risâlesi'nde bu hakikati şöyle anlatır: Güzellerin yüzünde güzelliği yaratan, elbette o güzelliğe hayran olacak âşıkları da yaratır. İnsan, Yaratıcı'nın sanatını hayret ve tefekkürle seyredip takdir etmek için yaratılmıştır.",
+  "aciklama": "Kur'an-ı Kerîm, insanları göklerin ve yerin melekûtuna bakmaya çağırır: “Göklerin ve yerin hükümranlığını, Allah'ın yarattığı her şeyi ve ecellerinin yaklaşmış olması ihtimalini düşünmüyorlar mı?” Bu bakış, yalnız bilgi edinmek için değil, sanatın sahibini tanımak ve onu takdir etmek içindir. İnsan, bu takdirle Yaratıcı'nın güzelliğine bir ayna olur.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Zerre Risâlesi'nde şöyle der: “Evet, ma‘şûkun hüsnü, âşıkın nazarını istilzâm ettiği gibi, Nakkāş-ı Ezelî’nin rubûbiyeti de insanın nazarını iktizâ eder ki, hayret ve tefekkür ile takdîr ve tahsînlerde bulunsun.” Eserdeki anlatımın özetine göre güzellik, onu görecek bir göz ister; ilahi sanat da onu seyredip takdir edecek bir insanı gerektirir. Aynı yerde bu hakikat şöyle sorularla gösterilir: “Evet, gül ve çiçeklerin yüzlerini güzelleştiren zât, nasıl o güzel yüzlere arılardan, bülbüllerden istihsân edici âşıkları îcâd etmesin?” Ve sonuç şöyle bağlanır: “Ve güzellerin güzel yüzlerinde güzelliği yaratan, elbette o güzelliğe müştâkları da yaratır.” Yani insanın güzelliğe olan hayranlığı, onun bu takdir vazifesi için yaratıldığını gösterir.",
+  "kainattanDelil": "Bahar geldiğinde çiçekler açar ve aynı anda arılar ve kelebekler uyanır. Gül açtığında bülbül ötmeye başlar. Gökyüzündeki yıldızlar parlarken, onları seyredecek gözler de yeryüzünde vardır. Kâinatta güzellik ile onu takdir edecek varlıklar, birbirine uygun olarak birlikte yaratılmıştır.",
+  "hikmet": "Güzellik, âşıkın bakışını gerektirdiği gibi, ilahi rububiyet de insanın hayret ve tefekkürle bakışını gerektirir. Gül ve çiçeklerin yüzlerini güzelleştiren, onlara arılar ve bülbüller gibi hayranlar da yaratmıştır. Güzelliği yaratan, o güzelliğe müştakları da yaratır. İnsanın güzelliğe hayranlığı, onun takdir vazifesini gösterir.",
+  "kendimize": "Etrafımdaki güzellikleri hayret ve tefekkürle seyrediyor muyum? Gördüğüm güzellikleri takdir edip onları yaratana teşekkür ediyor muyum? Güzelliğe olan sevgimi Yaratıcı'nın güzelliğine bağlayabiliyor muyum?",
+  "hayat": "Bugün bir çiçeğe, bir ağaca veya bir gökyüzü manzarasına birkaç dakika hayranlıkla bakıp ‘Mâşâallah, ne güzel yaratmış’ demek bu dersin uygulamasıdır. Bir güzelliği başkalarıyla paylaşırken onu yaratanı da anmak, takdir vazifesini yerine getirmektir. Güzel bir sesle Kur'an dinlemek veya güzel bir hat sanatına bakmak da güzelliğin âşıkı olmanın bir yoludur.",
+  "ders": "Ma'şukun hüsnü âşıkın nazarını istilzam ettiği gibi, Nakkaş-ı Ezeli'nin rububiyeti de insanın hayret ve tefekkürle takdir ve tahsin etmesini iktiza eder.",
+  "tefekkurSorusu": "Bugün hangi güzelliğe hayret ve takdirle baktım?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ مَـٰلِكِ يَوْمِ ٱلدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+   "okunus": "El-hamdu lillehi rabbi l-'âlemîne el-rahmâni r-rahîmi mâliki yevmi d-dîni iyyâke ne'budu ve-iyyâke neste'în",
+   "anlam": "Hamd, Alemlerin Rabbi Allah'a mahsustur. O Rahman ve Rahim'dir, Din Gününün sahibidir. Ancak Sana kulluk eder ve yalnız Senden yardım dileriz.",
+   "kaynak": "Fâtiha, 1/2-5"
+  },
+  "konular": [
+   "esma",
+   "tabiat"
+  ],
+  "kavramlar": [
+   "Hüsün",
+   "Takdir",
+   "Tahsin",
+   "Müştak",
+   "Nakkaş-ı Ezeli"
+  ],
+  "kaynaklar": [
+   "A'râf, 7/185",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Zerre Risâlesi"
+  ],
+  "sinav": [
+   {
+    "soru": "Zerre Risâlesi'ne göre Nakkaş-ı Ezeli'nin rububiyeti insandan ne ister?",
+    "secenekler": [
+     "Gaflet",
+     "Hayret ve tefekkür ile takdir ve tahsin",
+     "Kayıtsızlık",
+     "Unutkanlık"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Zerre Risâlesi'ne göre güzelliği yaratan neyi de yaratır?",
+    "secenekler": [
+     "O güzelliğe müştakları",
+     "Çirkinliği",
+     "Hiçbir şeyi",
+     "Gölgeleri"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre insanlar göklerin ve yerin melekûtunu düşünmeye çağrılır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_205",
+  "kategori": "iman",
+  "baslik": "Hakikati Hayalden Ayıran Basiret",
+  "giris": "Bir insan, kendisi inanmadığı bir şeyi başkalarına anlatırken bir gün mutlaka açığa çıkar; yalanın ayağı kısadır. Peygamber Efendimiz ise yirmi üç yıl boyunca en zor şartlarda aynı hakikati anlatmış ve hiçbir çelişkiye düşmemiştir. Bediüzzaman, İşârâtü'l-İ'câz'da yemin ederek der ki: O Beşîr ve Nezîr'in gözü ve basireti, hakikati hayalden ayıramamaktan münezzehtir; mesleği de insanları kandırmaktan temizdir.",
+  "aciklama": "Kur'an-ı Kerîm Peygamber Efendimizin doğruluğuna şöyle şahitlik eder: “Arkadaşınız sapmamış ve azmamıştır. O, kendiliğinden konuşmamaktadır. Onun konuşması ancak, bildirilen bir vahy iledir.” Peygamber Efendimiz, peygamberlikten önce de ‘el-Emîn’ yani güvenilir olarak tanınırdı. Onun sözleri, kendi hevesinden değil, Allah'ın vahyinden gelir.",
+  "risalePerspektifi": "Bediüzzaman, İşârâtü'l-İ'câz'da Bakara Sûresi'nin 23. ayetinin tefsirinde şöyle der: “Evet, Kur’ân-ı Mu‘cizü’l-Beyân’ı ta‘lîm eden Cenâb-ı Hakk’a kasem ederim ki, o Beşîr ve Nezîr’in basar ve basîreti, hakîkati hayâlden tefrîk edememekten münezzehtir, âlîdir, celîldir, celîdir.” Eserdeki anlatımın özetine göre Peygamber Efendimiz ne kendisi aldanmıştır ne de başkalarını aldatmıştır; çünkü onun hem gözü hem de kalp gözü, hakikati hayalden ayırmakta kusursuzdur. Aynı yerde onun mesleğinin temizliği şöyle ifade edilir: “Hem insanları kandırarak mağlatalara düşürtmekten, meslek-i âlîleri ganîdir, âlîdir, temizdir, tâhirdir.” Bu yemin, Peygamber Efendimizin doğruluğuna olan kesin bir imanın ifadesidir.",
+  "kainattanDelil": "Bir pusula, ne kadar fırtına olursa olsun hep kuzeyi gösterir; çünkü onu yönlendiren kuvvet sabittir. Güneş her gün aynı doğrultuda doğar; çünkü onun yolu değişmez bir kanuna bağlıdır. Bir kaynak suyu yıllarca aynı berraklıkta akar; çünkü kaynağı temizdir. Kâinatta sabit ve temiz kaynaklardan gelen şeyler, değişmez bir doğruluk gösterir.",
+  "hikmet": "Peygamber Efendimizin gözü ve basireti, hakikati hayalden ayırmakta kusursuzdur. Onun yüce mesleği, insanları kandırmaktan ve aldatmaktan temizdir. O, kendi hevesinden değil, vahiyle konuşur. Onun doğruluğu, Kur'an'ın doğruluğunun da bir şahididir. Onun yirmi üç yıllık hayatındaki tutarlılık, en büyük şahitlerden biridir.",
+  "kendimize": "Peygamber Efendimizin doğruluğuna olan imanım ne kadar güçlü? Onun sözlerini hayatımda rehber ediniyor muyum? Kendi sözlerimde ve işlerimde doğruluğa ne kadar dikkat ediyorum?",
+  "hayat": "Bugün Peygamber Efendimizin ‘el-Emîn’ sıfatını hatırlayarak bütün sözlerimizde doğruluğa özen göstermek bu dersin uygulamasıdır. Onun bir hadisini okuyup hayatımıza taşımak, onun basiretinden istifade etmektir. Salavat getirerek ona olan sevgimizi ve bağlılığımızı tazelemek de güzel bir alışkanlıktır.",
+  "ders": "O Beşir ve Nezir'in basar ve basireti hakikati hayalden tefrik edememekten münezzehtir; meslek-i âlisi insanları kandırarak mağlatalara düşürmekten temizdir.",
+  "tefekkurSorusu": "Bugün Peygamber Efendimizin doğruluğundan hangi dersi aldım?",
+  "dua": {
+   "arapca": "إِنَّ ٱللَّهَ وَمَلَـٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى ٱلنَّبِىِّ ۚ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ صَلُّوا۟ عَلَيْهِ وَسَلِّمُوا۟ تَسْلِيمًا",
+   "okunus": "Inne'llâhe vemelâiketehu yusallûne 'alâ n-nebiyi yâeyyuhâ ellezîne âmenû sallû 'aleyhi vesellimû teslîmen",
+   "anlam": "Şüphesiz Allah ve melekleri Peygamberi överler: Ey inananlar! Siz de onu övün, ona salat ve selam getirin.",
+   "kaynak": "Ahzâb, 33/56"
+  },
+  "konular": [
+   "nubuvvet",
+   "kuran"
+  ],
+  "kavramlar": [
+   "Basiret",
+   "Beşir",
+   "Nezir",
+   "Sıdk",
+   "Vahiy"
+  ],
+  "kaynaklar": [
+   "Necm, 53/2-4",
+   "Bediüzzaman Said Nursî, İşârâtü'l-İ'câz, Bakara Sûresi'nin Tefsîri, 23. Âyet"
+  ],
+  "sinav": [
+   {
+    "soru": "İşârâtü'l-İ'câz'a göre Peygamber Efendimizin basar ve basireti neden münezzehtir?",
+    "secenekler": [
+     "Görmekten",
+     "Hakikati hayalden tefrik edememekten",
+     "Düşünmekten",
+     "Konuşmaktan"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Ayete göre Peygamber Efendimizin konuşması neyle olur?",
+    "secenekler": [
+     "Bildirilen bir vahiy ile",
+     "Kendi hevesiyle",
+     "Tahminle",
+     "Rüyayla"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Peygamber Efendimiz sapmamış ve azmamıştır.",
+    "dogru": true
+   }
+  ]
  }
 ]
