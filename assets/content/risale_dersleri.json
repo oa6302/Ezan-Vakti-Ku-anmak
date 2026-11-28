@@ -15383,5 +15383,509 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_240",
+  "kategori": "iman",
+  "baslik": "İnsan Bâkî Bir Güzelliğe Âşıktır",
+  "giris": "İnsan sevdiği her güzel şeyin bir gün kaybolacağını bilir ve bu yüzden kalbinin derinlerinde bir hüzün taşır. Bediüzzaman, Otuzuncu Lem'a'da bu hüznün sırrını açar: İnsan, yaratılışı gereği bâkî bir güzelliği arayan ve seven bir varlıktır. Bâkî bir güzellik ise geçici bir âşığa razı olmaz. Kâinat insan için, insan da Allah'ı tanımak ve sevmek için yaratılmıştır.",
+  "aciklama": "Kur'an-ı Kerîm insanın yaratılış gayesini şöyle bildirir: “Cinleri ve insanları ancak Bana kulluk etmeleri için yaratmışımdır.” Kulluğun özü, Allah'ı tanımak ve sevmektir. İnsanın kalbindeki sonsuzluk arzusu, ancak sonsuz olan Rabbini tanımakla ve O'na kulluk etmekle tatmin olur.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın Otuzuncu Lem'a'sının Altıncı Nükte'sinde şöyle der: “Evet, mâdem insan fıtraten bir Cemâl-i Bâkî’ye müştâk ve muhib bir sûrette halkedilmiştir. ve mâdem bâkî bir cemâl, zâil bir müştâka râzı olamaz.” Eserdeki anlatımın özetine göre bu iki hakikat, insanın da bâkî olması ve ebedî bir hayata gitmesi gerektiğini gösterir; çünkü ebedî güzellik, onu seven ve özleyen ebedî bir aynayı ister. Bediüzzaman ayrıca insanın bir psikolojik hâline dikkat çeker: İnsan, ulaşamadığı bir maksuddan gelen acıyı hafifletmek için ondan kusur bulmaya ve hatta gizlice ona düşmanlık etmeye yönelir. Bu yüzden ahireti inkâr eden, Cemâl-i Bâkî'ye karşı gizli bir küskünlük taşır. Pasaj şu hakikatle tamamlanır: “ve mâdem bu kâinât, insan için halkedilmiş. ve insan ise ma‘rifet ve muhabbet-i İlâhiye için yaratılmış.”",
+  "kainattanDelil": "İnsan güzel bir manzarayı görünce onu fotoğrafla saklamak ister; sevdiği birini kaybetmemek için ona sıkı sıkı sarılır. Bir çocuk bile oyununun bitmesini istemez. Bütün bu hâller, insanın kalbinde sonsuzluğa karşı derin bir arzu olduğunu gösterir. Bu arzu boşuna verilmemiştir; ona karşılık olacak ebedî bir güzellik vardır.",
+  "hikmet": "İnsan, yaratılışı gereği bâkî bir güzelliği arayan ve seven bir varlıktır. Bâkî bir güzellik, geçici bir âşığa razı olmaz; bu yüzden insan da ebedî bir hayata gidecektir. Kâinat insan için yaratılmıştır; insan ise Allah'ı tanımak ve sevmek için yaratılmıştır. Ahireti inkâr eden, bu güzelliğe karşı gizli bir küskünlük taşır.",
+  "kendimize": "Kalbimdeki sonsuzluk arzusunu geçici şeylerle mi doyurmaya çalışıyorum? Rabbimi tanımak ve sevmek için ne kadar vakit ayırıyorum? Kaybettiğim güzelliklerin hüznünü ebedî güzelliği düşünerek teselliye çevirebiliyor muyum?",
+  "hayat": "Bugün güzel bir şeye bakarken ‘Bu güzelliğin asıl sahibi ebedîdir’ diye düşünmek bu dersin uygulamasıdır. Rabbimizin bir ismini öğrenip gün boyu onu tefekkür etmek, marifetullahı artırır. Bir kayıp hüznü yaşadığımızda ebedî buluşmayı hatırlayıp dua etmek de muhabbetullahı canlı tutan güzel bir alışkanlıktır.",
+  "ders": "İnsan fıtraten bir Cemal-i Baki'ye müştak ve muhib halkedilmiştir; baki bir cemal zail bir müştaka razı olmaz; kâinat insan için, insan ise marifet ve muhabbet-i İlahiye için yaratılmıştır.",
+  "tefekkurSorusu": "Bugün kalbimdeki sonsuzluk arzusunu kime yönelttim?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ مَـٰلِكِ يَوْمِ ٱلدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+   "okunus": "El-hamdu lillehi rabbi l-'âlemîne el-rahmâni r-rahîmi mâliki yevmi d-dîni iyyâke ne'budu ve-iyyâke neste'în",
+   "anlam": "Hamd, Alemlerin Rabbi Allah'a mahsustur. O Rahman ve Rahim'dir, Din Gününün sahibidir. Ancak Sana kulluk eder ve yalnız Senden yardım dileriz.",
+   "kaynak": "Fâtiha, 1/2-5"
+  },
+  "konular": [
+   "ahiret",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Cemal-i Baki",
+   "Müştak",
+   "Muhib",
+   "Marifetullah",
+   "Muhabbetullah"
+  ],
+  "kaynaklar": [
+   "Zâriyât, 51/56",
+   "Bediüzzaman Said Nursî, Lem'alar, Otuzuncu Lem'a, Altıncı Nükte"
+  ],
+  "sinav": [
+   {
+    "soru": "Otuzuncu Lem'a'ya göre insan fıtraten neye müştak yaratılmıştır?",
+    "secenekler": [
+     "Dünya malına",
+     "Cemal-i Baki'ye",
+     "Şöhrete",
+     "Rahata"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Otuzuncu Lem'a'ya göre insan ne için yaratılmıştır?",
+    "secenekler": [
+     "Marifet ve muhabbet-i İlahiye için",
+     "Yalnız yemek için",
+     "Eğlence için",
+     "Hiçbir şey için"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre cinler ve insanlar Allah'a kulluk etmeleri için yaratılmıştır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_241",
+  "kategori": "risaleler",
+  "baslik": "Hastalık Bir Sıhhattir",
+  "giris": "Sağlıklı insan çoğu zaman ölümü ve kabri unutur, günlerini gaflet içinde geçirir. Hasta ise ister istemez hayatın geçiciliğini düşünür. Bediüzzaman, Yirmi Beşinci Lem'a olan Hastalar Risalesi'nde bir hastaya şöyle teselli verir: Hastalık vazifesini bitirince Rahîm Yaratıcı inşallah şifa verir. Ama bil ki senin için hastalık bir sıhhattir; bazılarının sıhhati ise bir hastalıktır.",
+  "aciklama": "Kur'an-ı Kerîm Hz. İbrahim'in diliyle şifanın kaynağını şöyle bildirir: “Hasta olduğumda bana O şifa verir.” Hastalık da şifa da Allah'tandır. Mümin hastalığında sabreder, sebeplere başvurur ve şifayı Rabbinden bekler. Hastalığın içindeki hikmeti gören, onu bir lütuf olarak karşılar.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın Yirmi Beşinci Lem'a'sının Altıncı Devâ'sında şöyle der: “Hastalık vazîfesini bitirdikten sonra, Hâlik-ı Rahîm inşâallâh sana şifâ verir.” Eserdeki anlatımın özetine göre hastalığın bir vazifesi vardır; o, insanı gafletten uyandırır, ona ahireti hatırlatır ve amel defterini sevaplarla doldurur. Aynı yerde Bediüzzaman sağlığın gaflete sebep olabileceğini anlatır: Bazı insanlar sağlık belası ile gaflete düşüp namazı terk eder, kabri düşünmez ve bir saatlik dünya keyfi için ebedî hayatını sarsar. Hasta ise durumunu şöyle görür: “Sen hastalık gözüyle, her hâlde gideceğin bir menzilin olan kabrini ve daha arkasındaki menzilleri görürsün. ve onlara göre davranırsın. Demek senin için hastalık, bir sıhhattir. Bir kısım emsâlindeki sıhhat, bir hastalıktır.”",
+  "kainattanDelil": "Kış soğuğu ağaçları dinlendirir ve baharda daha güçlü açmalarını sağlar. Ateş, demiri sertleştirip çelik yapar. Bir aşı, vücuda küçük bir zayıflık vererek onu büyük hastalıklara karşı korur. Kâinatta görünüşte zor olan pek çok şey, aslında daha büyük bir sağlamlığın ve iyiliğin hazırlığıdır.",
+  "hikmet": "Hastalığın bir vazifesi vardır; vazifesini bitirince Rahîm Yaratıcı inşallah şifa verir. Bazıları sağlık belası ile gaflete düşüp namazı terk eder ve ebedî hayatını zedeler. Hasta ise hastalık gözüyle kabrini ve ötesindeki menzilleri görür ve onlara göre davranır. Bu yüzden onun için hastalık bir sıhhat, gafilin sağlığı ise bir hastalıktır.",
+  "kendimize": "Hastalandığımda yalnız acıya mı bakıyorum, yoksa onun getirdiği uyanıklığı da görüyor muyum? Sağlıklıyken gaflete düşüp ahireti unutuyor muyum? Hasta bir yakınıma bu teselliyi hatırlatabiliyor muyum?",
+  "hayat": "Bugün hasta bir yakınımızı ziyaret edip ona dua etmek ve teselli vermek bu dersin uygulamasıdır. Hastalığımızda ilacımızı alırken şifayı Allah'tan istemek, sebeplerle tevekkülü birleştirir. Sağlıklı olduğumuz günlerde de hastalık zamanındaki uyanıklığı korumak ve namazı vaktinde kılmak güzel bir şükürdür.",
+  "ders": "Hastalık vazifesini bitirince Halık-ı Rahîm inşallah şifa verir; hastalık gözüyle kabrini ve arkasındaki menzilleri görene hastalık bir sıhhat, gafilin sıhhati ise bir hastalıktır.",
+  "tefekkurSorusu": "Bugün sağlığımı gaflete mi, yoksa şükre mi harcadım?",
+  "dua": {
+   "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+   "okunus": "Hasbiye'llâhu lâ ilâhe illâ huve 'aleyhi tevekkeltu vehuve rabbu l-'arşi l-'azîm",
+   "anlam": "Eğer yüz çevirirlerse de ki: “Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.”",
+   "kaynak": "Tevbe, 9/129"
+  },
+  "konular": [
+   "musibet",
+   "sukurSabir"
+  ],
+  "kavramlar": [
+   "Hastalık",
+   "Sıhhat",
+   "Gaflet",
+   "Menzil",
+   "Şifa"
+  ],
+  "kaynaklar": [
+   "Şuarâ, 26/80",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirmi Beşinci Lem'a, Altıncı Devâ"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Beşinci Lem'a'ya göre hastalık vazifesini bitirince ne olur?",
+    "secenekler": [
+     "Daha da artar",
+     "Halık-ı Rahîm inşallah şifa verir",
+     "Hiç geçmez",
+     "Unutulur"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Beşinci Lem'a'ya göre hastalık gözüyle kabrini gören biri için hastalık nedir?",
+    "secenekler": [
+     "Bir sıhhat",
+     "Bir ceza",
+     "Bir felaket",
+     "Boş bir acı"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Hz. İbrahim, hasta olduğunda kendisine Allah'ın şifa verdiğini söylemiştir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_242",
+  "kategori": "ahiret",
+  "baslik": "Kabir Rahmet Bahçesine Açılan Bir Kapıdır",
+  "giris": "İnsanın en büyük korkularından biri ölüm ve kabirdir. Gaflet gözüyle bakan, ölümü bütün sevdiklerinden ebedî bir ayrılık ve kabri karanlık bir çukur olarak görür. Bediüzzaman, Otuz İkinci Söz'ün Üçüncü Mevkıfı'nda Kur'an'ın bu yarayı nasıl tedavi ettiğini anlatır: Ölüm bir ayrılık değil, aslında bir kavuşmadır. Kabir de ejderha ağzı değil, rahmet bahçesine açılan bir kapıdır.",
+  "aciklama": "Kur'an-ı Kerîm ölümün de hayatın da bir imtihan için yaratıldığını bildirir: “Hanginizin daha iyi iş işlediğini belirtmek için, ölümü ve dirimi (hayatı) yaratan O'dur. O, güçlüdür, bağışlayandır.” Ölüm de bir yaratılıştır ve bir hikmete hizmet eder. O, imtihanın bittiği ve karşılığın başladığı bir kapıdır.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Otuz İkinci Söz'ünün Üçüncü Mevkıfı'nda şöyle der: “Ehl-i dalâletin nazarında bütün ahbâbından bir firâk-ı ebedî telakkî ettiği ölüm yaralarını böylece tedâvi eder. Ve o firâk, ayn-ı likā olduğunu isbat eder.” Eserdeki anlatımın özetine göre Kur'an, ölümü sevdiklerimizden ebedî bir ayrılık olarak değil, öteki âleme gitmiş dostlarla bir buluşma olarak gösterir. Aynı yerde kabir hakkındaki bu müjde şöyle devam eder: Kur'an, kabrin rahmet âlemine ve saadet yurduna açılan bir kapı olduğunu ispat ederek insanın en korkunç korkusunu giderir ve berzah yolculuğunu en lezzetli ve ferahlı bir seyahat olarak gösterir. Ve şöyle özetler: “Kabir ile ejderha ağzını kapatır, güzel bir bahçeye kapı açar. Yani kabir ejderha ağzı olmadığını, belki bâğıstân-ı rahmete açılan bir kapı olduğunu gösterir.”",
+  "kainattanDelil": "Bir tohum toprağın karanlığına girer; dışarıdan bakan onun kaybolduğunu sanır. Ama bir süre sonra filiz verir ve güneşe doğru yükselir. Bir tırtıl kozasına kapanır; bir süre sonra renkli bir kelebek olarak çıkar. Kâinatta karanlık görünen kapılar, çoğu zaman daha güzel bir hayata açılır.",
+  "hikmet": "Gaflet gözüyle ölüm, bütün sevdiklerden ebedî bir ayrılıktır. Kur'an ise bu yarayı tedavi eder ve ayrılığın aslında bir kavuşma olduğunu ispat eder. Kabir, rahmet âlemine, saadet yurduna ve cennet bahçelerine açılan bir kapıdır. Berzah yolculuğu da korkulu bir yol değil, ünsiyetli ve ferahlı bir seyahattir.",
+  "kendimize": "Ölümü düşündüğümde korku mu, yoksa bir kavuşma ümidi mi hissediyorum? Kabrimi rahmet bahçesine açılan bir kapı yapmak için hangi amelleri hazırlıyorum? Kaybettiğim sevdiklerimle ahirette buluşacağımı hatırlıyor muyum?",
+  "hayat": "Bugün vefat etmiş bir yakınımız için Fatiha okuyup dua etmek bu dersin uygulamasıdır. Bir mezarlığı ziyaret edip kabirlerin rahmet bahçesine açılan kapılar olduğunu düşünmek, ölüm korkusunu ümide çevirir. Kabre götürülecek güzel ameller için bugün küçük bir iyilik yapmak da güzel bir hazırlıktır.",
+  "ders": "Kur'an, ehl-i dalaletin firak-ı ebedi sandığı ölümün ayn-ı lika olduğunu ispat eder; kabrin ejderha ağzı değil, bağıstan-ı rahmete açılan bir kapı olduğunu gösterir.",
+  "tefekkurSorusu": "Bugün kabrimi rahmet bahçesine açılan bir kapı yapmak için ne hazırladım?",
+  "dua": {
+   "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ",
+   "okunus": "Rabbenâ âtinâ fî d-dunyâ haseneten vefî l-âhırati haseneten vekınâ 'azâbe n-nâr",
+   "anlam": "“Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru” diyenler vardır.",
+   "kaynak": "Bakara, 2/201"
+  },
+  "konular": [
+   "ahiret",
+   "musibet"
+  ],
+  "kavramlar": [
+   "Firak",
+   "Ayn-ı Lika",
+   "Berzah",
+   "Bağıstan-ı Rahmet",
+   "Kabir"
+  ],
+  "kaynaklar": [
+   "Mülk, 67/2",
+   "Bediüzzaman Said Nursî, Sözler, Otuz İkinci Söz, Üçüncü Mevkıf"
+  ],
+  "sinav": [
+   {
+    "soru": "Otuz İkinci Söz'e göre Kur'an, ehl-i dalaletin firak-ı ebedi sandığı ölümün ne olduğunu ispat eder?",
+    "secenekler": [
+     "Bir son",
+     "Ayn-ı lika",
+     "Bir felaket",
+     "Bir yokluk"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Otuz İkinci Söz'e göre kabir neye açılan bir kapıdır?",
+    "secenekler": [
+     "Bağıstan-ı rahmete",
+     "Karanlık bir çukura",
+     "Ejderha ağzına",
+     "Yokluğa"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah ölümü ve hayatı, kimin daha iyi iş yapacağını belirtmek için yaratmıştır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_243",
+  "kategori": "nefis",
+  "baslik": "Ömür Sermayesini Hayvan Gibi Harcama",
+  "giris": "Bir tüccara büyük bir sermaye verilse ve o bu sermayeyi bir günlük eğlenceye harcasa, herkes onun akılsızlığına şaşar. Bediüzzaman, On Birinci Söz'de insanın elindeki en büyük sermayenin ömür ve kabiliyetler olduğunu hatırlatır. Kendi nefsine ve arkadaşlarına şöyle seslenir: Bu sermayeyi hayvan gibi, hatta hayvandan aşağı bir şekilde geçici hayata ve maddi lezzetlere harcamayınız.",
+  "aciklama": "Kur'an-ı Kerîm akıl ve duygularını gerçek gayesinde kullanmayanları şöyle anlatır: “Onların kalbleri vardır ama anlamazlar; gözleri vardır ama görmezler; kulakları vardır ama işitmezler. İşte bunlar hayvanlar gibi hatta daha sapıktırlar. İşte bunlar gafillerdir.” İnsana verilen kalp, göz ve kulak, hakikati görmek ve işitmek içindir. Onları yalnız dünyevi lezzetlere harcayan, kendini alçaltmış olur.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in On Birinci Söz'ünde şöyle der: “Ey nefsim ve ey arkadaşım! Aklınızı başınıza toplayınız. Sermâye-i ömrünüzü ve isti‘dâd-ı hayatınızı hayvan gibi, belki hayvandan çok aşağı bir derecede şu hayat-ı fâniyeye ve lezzet-i maddiyeye sarf etmeyiniz.” Eserdeki anlatımın özetine göre insana verilen akıl, kalp ve sayısız duygu, bir hayvanın sahip olduğundan çok daha zengin bir sermayedir; fakat lezzet bakımından insan, kaygıları ve hüzünleri yüzünden hayvandan daha az pay alır. Bu yüzden bu büyük sermayeyi yalnız dünya lezzetine harcamak, insanı kendi değerinin çok altına düşürür. Aynı yerde bu tehlike şöyle anlatılır: “Yoksa sermayece en a’lâ hayvandan elli derece yüksek olduğunuz hâlde, en ednâsından elli derece aşağı düşersiniz.”",
+  "kainattanDelil": "Bir serçe birkaç gün içinde uçmayı öğrenir ve hayatının bütün ihtiyaçlarını kısa sürede karşılar. Bir buzağı doğduktan kısa süre sonra ayağa kalkar. İnsan ise yıllarca öğrenir; çünkü ona akıl, dil ve vicdan gibi çok daha geniş kabiliyetler verilmiştir. Bu geniş kabiliyetler, yalnız yemek ve içmek için değil, daha yüksek bir gaye için verilmiştir.",
+  "hikmet": "İnsanın ömrü ve kabiliyetleri en büyük sermayesidir. Bu sermayeyi hayvan gibi, hatta hayvandan aşağı bir şekilde geçici hayata ve maddi lezzetlere harcamak akılsızlıktır. İnsan sermaye bakımından en yüksek hayvandan elli derece yüksektir. Ama bu sermayeyi boşa harcarsa, en aşağı hayvandan elli derece aşağı düşer.",
+  "kendimize": "Ömrümün sermayesini çoğunlukla neye harcıyorum? Aklımı, kalbimi ve duygularımı gerçek gayelerinde kullanıyor muyum? Bir günümü geride bırakırken ebedî hayatıma ne kattığımı düşünüyor muyum?",
+  "hayat": "Bugün ekran başında veya boş işlerde geçirdiğimiz vakti fark edip bir kısmını bir iyiliğe, bir derse veya bir zikre ayırmak bu dersin uygulamasıdır. Bir yemekten sonra yalnız doymakla kalmayıp şükretmek, lezzeti ibadete çevirir. Akşam günün hesabını kısaca yapmak da ömür sermayesini koruyan güzel bir alışkanlıktır.",
+  "ders": "Sermaye-i ömrü ve istidad-ı hayatı hayvan gibi hayat-ı faniyeye ve lezzet-i maddiyeye sarf etmeyiniz; yoksa en âlâ hayvandan elli derece yüksekken en ednasından elli derece aşağı düşersiniz.",
+  "tefekkurSorusu": "Bugün ömür sermayemin ne kadarını ebedî hayatıma yatırdım?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+   "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+   "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+   "kaynak": "Âl-i İmrân, 3/8"
+  },
+  "konular": [
+   "ruhKalpNefis",
+   "genclikAhlak"
+  ],
+  "kavramlar": [
+   "Sermaye-i Ömür",
+   "İstidad",
+   "Lezzet-i Maddiye",
+   "Hayat-ı Faniye",
+   "Gaflet"
+  ],
+  "kaynaklar": [
+   "A'râf, 7/179",
+   "Bediüzzaman Said Nursî, Sözler, On Birinci Söz"
+  ],
+  "sinav": [
+   {
+    "soru": "On Birinci Söz'e göre sermaye-i ömür neye sarf edilmemelidir?",
+    "secenekler": [
+     "İbadete",
+     "Hayvan gibi hayat-ı faniyeye ve lezzet-i maddiyeye",
+     "İlme",
+     "Hayra"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Birinci Söz'e göre bu sermayeyi boşa harcayan ne olur?",
+    "secenekler": [
+     "En ednâ hayvandan elli derece aşağı düşer",
+     "Daha mutlu olur",
+     "Hiçbir şey değişmez",
+     "Yükselir"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre kalbi olup anlamayan, gözü olup görmeyenler gafillerdir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_244",
+  "kategori": "kuran",
+  "baslik": "Âdetlerin Harikaları Gafleti Dağıtır",
+  "giris": "Her gün güneş doğar, her bahar çiçekler açar ve insan bunlara alıştıkça onları sıradan görmeye başlar. Ama bazen hiç beklenmedik bir şey olur: bir çiçek kışın açar, bir yağmur vaktinden önce gelir. Bediüzzaman, On Altıncı Söz'ün Zeyli'nde Kur'an'ın bu hakikati nasıl öğrettiğini anlatır: Allah, kanunlarıyla hikmetini, kanunların istisnalarıyla da her şeyde serbestçe dileyen bir Fail olduğunu gösterir.",
+  "aciklama": "Kur'an-ı Kerîm Allah'ın her an kâinatta tasarruf ettiğini şöyle bildirir: “Göklerde ve yerde olan kimseler her şeyi O'ndan isterler; O her an kainata tasarruf etmektedir.” Kâinattaki kanunlar, Allah'ın değişmez âdetleridir; ama O, bu âdetlere mahkûm değildir. Her an yeni bir işte olan Rabbimiz, her şeyi dilediği gibi idare eder.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in On Altıncı Söz'ündeki Küçük Bir Zeyl'de şöyle der: “Kadîr-i Alîm ve Sâni‘-i Hakîm, kanuniyet şeklindeki âdâtının gösterdiği nizâm ve intizâmla, kudretini ve hikmetini ve hiç bir tesâdüf işine karışmadığını izhâr ettiği gibi, şüzûzât-ı kanuniye ile ve âdâtının hârikaları ile ve tagayyürât-ı sûriye ile ve teşahhusâtın ihtilâfâtıyla, zuhûr ve nüzûl zamanının tebeddülüyle, meşîet ve irâdetinde fâil-i muhtâr olduğunu ve ihtiyâr sâhibi olduğunu ve hiç bir kayıt altında olmadığını izhâr edip yeknesak perdesini yırtarak..” Eserdeki anlatımın özetine göre düzen, tesadüfün işe karışmadığını; istisnalar ve farklılıklar ise Allah'ın hiçbir kayıt altında olmadığını gösterir. Böylece her şeyin her an O'na muhtaç olduğu ilan edilir ve insanların bakışı “esbâbdan Müsebbibü’l-Esbâb’a” çevrilir.",
+  "kainattanDelil": "Yağmur genellikle belli mevsimlerde yağar; ama ne zaman ve nereye düşeceği tam olarak bilinemez. Her insan aynı temel plana göre yaratılır; ama hiçbir yüz bir diğerinin aynısı değildir. Bazen kurak bir yılın ardından bereketli bir yıl gelir. Bu düzen ile farklılık bir arada, hem hikmeti hem de serbest iradeyi gösterir.",
+  "hikmet": "Allah, kanun şeklindeki âdetlerinin gösterdiği düzenle kudretini, hikmetini ve tesadüfün işe karışmadığını gösterir. Kanunların istisnaları, âdetlerin harikaları ve şekillerin farklılığıyla da her şeyi serbestçe dileyen ve hiçbir kayıt altında olmayan bir Fail olduğunu gösterir. Böylece yeknesaklık perdesi yırtılır ve gaflet dağılır.",
+  "kendimize": "Her gün tekrarlanan nimetleri sıradan görmeye mi başladım? Beklenmedik bir olay olduğunda onu Rabbimin serbest iradesinin bir işareti olarak görüyor muyum? Bakışımı sebeplerden Müsebbibü'l-Esbab'a çevirebiliyor muyum?",
+  "hayat": "Bugün her gün gördüğümüz bir nimete, örneğin güneşin doğuşuna veya suya, ilk kez görüyormuş gibi bakmak bu dersin uygulamasıdır. Beklenmedik bir güzellikle karşılaştığımızda ‘Bu Rabbimin bir ikramıdır’ demek, gafleti dağıtır. Kur'an'da kâinattan bahseden bir ayeti okuyup üzerinde düşünmek de güzel bir alışkanlıktır.",
+  "ders": "Kadir-i Alîm âdâtının nizamıyla kudretini ve hikmetini, şüzuzat-ı kanuniye ve âdâtın harikalarıyla fail-i muhtar olduğunu gösterir; yeknesak perdesini yırtarak nazarları esbabdan Müsebbibü'l-Esbab'a çevirir.",
+  "tefekkurSorusu": "Bugün hangi alışılmış nimeti yeniden fark ettim?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+   "okunus": "L-hamdu lillehi ellezî lem yettehız veleden velem yekun lehu şerîkun fî l-mulki velem yekun lehu veliyyun mine d-zuli vekebbirhu tekbîr",
+   "anlam": "De ki: “Hamd, çocuk edinmemiş olan, hükümranlığında ortağı bulunmayan, düşkün olmayıp yardımcıya da ihtiyaç göstermeyen Allah'a mahsustur.” O'nu gereği gibi büyükle.",
+   "kaynak": "İsrâ, 17/111"
+  },
+  "konular": [
+   "kuran",
+   "kader"
+  ],
+  "kavramlar": [
+   "Âdetullah",
+   "Şüzuzat",
+   "Fail-i Muhtar",
+   "Yeknesak",
+   "Müsebbibü'l-Esbab"
+  ],
+  "kaynaklar": [
+   "Rahmân, 55/29",
+   "Bediüzzaman Said Nursî, Sözler, On Altıncı Söz, Küçük Bir Zeyl"
+  ],
+  "sinav": [
+   {
+    "soru": "On Altıncı Söz Zeyli'ne göre Allah âdâtının nizamıyla neyi izhar eder?",
+    "secenekler": [
+     "Tesadüfün gücünü",
+     "Kudretini, hikmetini ve tesadüfün karışmadığını",
+     "Tabiatın bağımsızlığını",
+     "Hiçbir şeyi"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Altıncı Söz Zeyli'ne göre şüzuzat-ı kanuniye neyi gösterir?",
+    "secenekler": [
+     "Allah'ın fail-i muhtar olduğunu",
+     "Kanunların bozulduğunu",
+     "Tesadüfü",
+     "Düzensizliği"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah her an kâinata tasarruf etmektedir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_245",
+  "kategori": "ahiret",
+  "baslik": "Haşir Bir Bahar Kadar Kolaydır",
+  "giris": "Bir ustanın bir ağacı yeşertmesi ile bütün bahçeyi yeşertmesi arasında güç bakımından büyük fark vardır. Ama sınırsız bir kudret için büyük ile küçük arasında fark yoktur. Bediüzzaman, Yirminci Mektub'un Onuncu Kelime'sinde bu hakikati şöyle anlatır: Allah'ın ezelî kudretine göre bütün kâinatın idaresi bir bahar, hatta bir ağaç kadar kolaydır. Haşir de bir baharda ölü ağaçları diriltmek kadar kolaydır.",
+  "aciklama": "Kur'an-ı Kerîm bütün insanların diriltilmesinin Allah için ne kadar kolay olduğunu şöyle bildirir: “Ey insanlar! Sizin yaratılmanız ve tekrar dirilmeniz tek bir nefsin yaratılması ve tekrar diriltilmesi gibidir. Şüphesiz Allah işitendir, görendir.” Sonsuz bir kudret için bir kişiyi diriltmek ile bütün insanlığı diriltmek arasında fark yoktur.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirminci Mektub'unun Onuncu Kelime'sinde Allah için şöyle der: “Misli, misâli, mesîli yoktur. Elbette o Zât-ı Zülcelâl’in o kudret-i ezeliyesine nisbeten bütün kâinâtın idaresi ve terbiyesi bir bahar, belki bir ağaç kadar kolaydır.” Eserdeki anlatımın özetine göre Allah'ın kudreti zâtidir ve O'nun için zorluk ve kolaylık dereceleri yoktur; bu yüzden büyük işler de küçük işler kadar kolaydır. Aynı yerde bu hakikat ahirete şöyle uygulanır: “Haşr-i a‘zamın ve dâr-ı âhiretin, cennet ve cehennemin îcâdları, bir güz mevsiminde ölmüş ağaçların bir baharda yeniden ihyâları kadar kolaydır.” Her bahar, büyük haşrin küçük bir provası gibidir; onu görüp de haşri uzak görmek, akla uygun değildir.",
+  "kainattanDelil": "Sonbaharda yaprakları dökülmüş, kurumuş gibi görünen ağaçlar bahar gelince birkaç hafta içinde yeniden yeşerir. Toprağın altındaki sayısız tohum aynı anda filizlenir. Kurumuş bir otlak, ilk yağmurdan sonra yemyeşil olur. Her bahar, milyonlarca ölü varlığın diriltilişini gözlerimizin önüne serer.",
+  "hikmet": "Allah'ın benzeri ve eşi yoktur. O'nun ezelî kudretine göre bütün kâinatın idaresi ve terbiyesi bir bahar, hatta bir ağaç kadar kolaydır. Büyük haşir, ahiret yurdu, cennet ve cehennemin yaratılması, bir sonbaharda ölmüş ağaçların baharda yeniden diriltilmesi kadar kolaydır. Her bahar, haşrin bir işaretidir.",
+  "kendimize": "Baharın gelişini sıradan bir mevsim değişikliği olarak mı, yoksa haşrin bir işareti olarak mı görüyorum? Ahireti uzak ve zor görmeye mi meylediyorum? Rabbimin kudretinin sınırsızlığını düşünerek imanımı güçlendirebiliyor muyum?",
+  "hayat": "Bugün bir ağaca veya bir bitkiye bakıp onun her bahar yeniden canlanışını haşre benzeterek tefekkür etmek bu dersin uygulamasıdır. Bir saksıya tohum ekip filizlenmesini izlemek, haşir imanını somutlaştırır. Ahireti hatırlatan bu tefekkürü bir yakınımızla paylaşmak da güzel bir sohbettir.",
+  "ders": "Zat-ı Zülcelal'in kudret-i ezeliyesine nisbeten bütün kâinatın idaresi bir bahar kadar kolaydır; haşr-i azamın ve cennet ve cehennemin icadı, ölmüş ağaçların baharda ihyası kadar kolaydır.",
+  "tefekkurSorusu": "Bugün hangi canlanışta haşrin bir işaretini gördüm?",
+  "dua": {
+   "arapca": "ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ",
+   "okunus": "Allâhumme mâlike l-mulki tutî l-mulke men teşâu vetenzi'u l-mulke mimmen teşâu vetu'ızzu men teşâu vetuzillu men teşâu biyedike l-hayru inneke 'alâ kulli şeyin kadîrun tûlicu el-leyle fî n-nehârı vetûlicu n-nehâra fî el-leyli vetuhrıcu l-haye mine l-meyiti vetuhrıcu l-meyite mine l-hayi veterzuku men teşâu biğayrı hısâb",
+   "anlam": "De ki: “Mülkün sahibi olan Allah'ım! Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir. Doğrusu Sen, her şeye Kadir'sin. Geceyi gündüze, gündüzü geceye geçirirsin; ölüden diri, diriden ölü çıkarırsın; dilediğini hesapsız rızıklandırırsın”.",
+   "kaynak": "Âl-i İmrân, 3/26-27"
+  },
+  "konular": [
+   "ahiret",
+   "tabiat"
+  ],
+  "kavramlar": [
+   "Kudret-i Ezeliye",
+   "Haşr-i Azam",
+   "İhya",
+   "Dâr-ı Ahiret",
+   "Bahar"
+  ],
+  "kaynaklar": [
+   "Lokmân, 31/28",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirminci Mektub, Onuncu Kelime"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirminci Mektub'a göre kudret-i ezeliyeye nisbeten bütün kâinatın idaresi nasıldır?",
+    "secenekler": [
+     "Çok zordur",
+     "Bir bahar, belki bir ağaç kadar kolaydır",
+     "İmkânsızdır",
+     "Yavaş yavaş olur"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirminci Mektub'a göre haşr-i azamın icadı ne kadar kolaydır?",
+    "secenekler": [
+     "Ölmüş ağaçların baharda ihyası kadar",
+     "Bir dağı taşımak kadar",
+     "Hiç kolay değildir",
+     "Bir denizi kurutmak kadar"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre insanların yaratılması ve diriltilmesi tek bir nefsinki gibidir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_246",
+  "kategori": "kainat",
+  "baslik": "Bütün Âlemler Hayatla Işıklıdır",
+  "giris": "Güneşin ışığı yalnız bir odayı değil, dünyanın her yerini aydınlatır; her yer kendi kabiliyetine göre bu ışıktan pay alır. Bediüzzaman, Onuncu Söz'ün Zeyli'nde hayatı böyle bir ışığa benzetir: Hayat, ezelî hayat güneşinin bir ışığıdır. Bu ışık yalnız gördüğümüz bu âleme ve bu zamana sınırlı değildir; her âlem kabiliyetine göre ondan pay alır ve kâinat bütün âlemleriyle hayatla ışıklıdır.",
+  "aciklama": "Kur'an-ı Kerîm Allah'ı şöyle tanıtır: “Allah, O'ndan başka tanrı olmayan, kendisini uyuklama ve uyku tutmayan, diri, her an yaratıklarını gözetip durandır.” Allah Hayy'dır; hayatın kaynağı O'dur. Kâinatta görünen her hayat, O'nun Hayy isminin bir tecellisidir ve O'nun kayyumiyeti sayesinde ayakta durur.",
+  "risalePerspektifi": "Bediüzzaman, Sözler'in Onuncu Söz'ündeki Zeylin Üçüncü Parçası'nda şöyle der: “Evet, hayat-ı ezeliye güneşinin ziyâsı olan bu gibi cilve-i hayat, elbette yalnız bu âlem-i şehâdete ve bu zaman-ı hâzıra ve bu vücûd-u hâricîye münhasır olamaz. Belki her bir âlem, kābiliyetine göre o ziyânın cilvesine mazhardır.” Eserdeki anlatımın özetine göre hayat bu kadar kıymetli ve yaygın olduğuna göre, görmediğimiz âlemler de boş ve ölü değildir; melekler, ruhlar ve ahiret âlemi hayatla doludur. Aynı yerde bu hakikatin zıddı şöyle gösterilir: “Ve kâinât bütün âlemleriyle o cilve ile hayâtdâr ve ziyâdârdır. Yoksa nazar-ı dalâletin gördüğü gibi, muvakkat ve zâhirî bir hayat altında her bir âlem, büyük ve müdhiş birer cenaze ve karanlıklı birer vîrâne âlem olacaktı.”",
+  "kainattanDelil": "Bir damla suda bile mikroskobik canlılar yaşar. Okyanusların derinliklerinde, güneş ışığının ulaşmadığı yerlerde bile hayat vardır. Toprağın bir avucunda milyonlarca canlı bulunur. Kâinatın gördüğümüz her köşesi hayatla doludur; bu da görmediğimiz âlemlerin de hayattan boş olmadığına bir işarettir.",
+  "hikmet": "Hayat, ezelî hayat güneşinin bir ışığıdır. Bu ışık yalnız bu görünen âleme, bu zamana ve bu dış varlığa sınırlı değildir. Her âlem, kabiliyetine göre bu ışıktan pay alır ve kâinat bütün âlemleriyle hayatla ışıklıdır. Aksi hâlde her âlem büyük bir cenaze ve karanlık bir virane olurdu.",
+  "kendimize": "Kâinata ölü ve karanlık bir yer olarak mı, yoksa hayatla dolu bir saray olarak mı bakıyorum? Gözümle görmediğim âlemlerin de hayatla dolu olduğuna iman ediyor muyum? Kendi hayatımı Hayy isminin bir tecellisi olarak görüyor muyum? Hayatımın bir an bile Rabbimin kayyumiyeti olmadan devam edemeyeceğini düşünüyor muyum?",
+  "hayat": "Bugün ‘Yâ Hayy, yâ Kayyûm’ diyerek kısa bir zikir yapmak bu dersin uygulamasıdır. Ayetü'l-Kürsî'yi okuyup Hayy ve Kayyûm isimleri üzerinde düşünmek, imanı derinleştirir. Bir canlının hayatına dikkat edip onu Rabbimizin hayat ışığının bir parıltısı olarak görmek de güzel bir tefekkürdür.",
+  "ders": "Hayat-ı ezeliye güneşinin ziyası olan cilve-i hayat yalnız bu âlem-i şehadete münhasır olamaz; her âlem kabiliyetine göre ona mazhardır ve kâinat bütün âlemleriyle hayatdar ve ziyadardır.",
+  "tefekkurSorusu": "Bugün hangi hayatta Hayy isminin ışığını gördüm?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+   "okunus": "L-hamdu lillehi ellezî lem yettehız veleden velem yekun lehu şerîkun fî l-mulki velem yekun lehu veliyyun mine d-zuli vekebbirhu tekbîr",
+   "anlam": "De ki: “Hamd, çocuk edinmemiş olan, hükümranlığında ortağı bulunmayan, düşkün olmayıp yardımcıya da ihtiyaç göstermeyen Allah'a mahsustur.” O'nu gereği gibi büyükle.",
+   "kaynak": "İsrâ, 17/111"
+  },
+  "konular": [
+   "esma",
+   "insanKainat"
+  ],
+  "kavramlar": [
+   "Hayat-ı Ezeliye",
+   "Cilve-i Hayat",
+   "Âlem-i Şehadet",
+   "Hayy",
+   "Kayyum"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/255",
+   "Bediüzzaman Said Nursî, Sözler, Onuncu Söz, Zeylin Üçüncü Parçası"
+  ],
+  "sinav": [
+   {
+    "soru": "Onuncu Söz Zeyli'ne göre cilve-i hayat neyin ziyasıdır?",
+    "secenekler": [
+     "Tabiatın",
+     "Hayat-ı ezeliye güneşinin",
+     "Tesadüfün",
+     "Maddenin"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Onuncu Söz Zeyli'ne göre nazar-ı dalaletin gördüğü gibi olsaydı her âlem ne olurdu?",
+    "secenekler": [
+     "Büyük ve müdhiş birer cenaze",
+     "Daha güzel bir saray",
+     "Daha aydınlık",
+     "Hiçbir şey değişmezdi"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah'ı uyuklama ve uyku tutmaz.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_247",
+  "kategori": "ibadet",
+  "baslik": "En Bahtiyar İnsan Kimdir?",
+  "giris": "Bir misafir, ağırlandığı evde ev sahibinin kurallarına uyar; eve kendi malıymış gibi sahip çıkmaz ve bir gün ayrılacağını bilir. Bediüzzaman, On Altıncı Mektub'un sonunda en bahtiyar insanı tarif eder: O, dünya için ahiretini unutmayan, ahiretini dünyaya feda etmeyen ve ebedî hayatını dünya hayatı için bozmayan kimsedir. Kendini bir misafir bilir ve misafirhane sahibinin emirlerine göre hareket eder.",
+  "aciklama": "Kur'an-ı Kerîm insanların tercihini şöyle uyarır: “Ama sizler dünya hayatını tercih ediyorsunuz. Oysa ahiret daha iyi ve daha bakidir.” Dünya geçicidir, ahiret ise kalıcıdır. Akıllı insan, geçici olanı kalıcı olana tercih etmez; dünyayı ahiretin bir tarlası olarak kullanır.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın On Altıncı Mektub'unun sonunda şöyle der: “Elbette en bahtiyar odur ki, dünya için âhiretini unutmasın, âhiretini dünyaya fedâ etmesin. Hayât-ı ebediyesini hayât-ı dünyeviye için bozmasın. Mâlâya‘nî şeylerle ömrünü telef etmesin.” Eserdeki anlatımın özetine göre dünya bir misafirhanedir ve insan burada kısa bir süre kalacak bir yolcudur; asıl yurdu ise ahirettir. Bu yüzden akıllı yolcu, misafirhanenin süsüne aldanmaz, ev sahibinin rızasını gözetir ve yolculuğunu güvenle tamamlamaya çalışır. Aynı yerde bu hakikat şöyle tamamlanır: “Kendini bir misâfir telakkî edip misâfirhâne sâhibinin emirlerine göre hareket etsin. Selâmetle kabir kapısını açsın, saâdet-i ebediyeye girsin.”",
+  "kainattanDelil": "Göçmen kuşlar her yıl binlerce kilometre yol yapar; bir yerde kısa süre kalır, sonra asıl yurtlarına dönerler. Bir nehir denize doğru akar ve yolda karşılaştığı hiçbir şeyde durup kalmaz. Bir tohum, toprakta kısa süre kalır ve bir ağaca dönüşür. Kâinatta her şey bir yolculuk içindedir ve bir hedefe doğru ilerler. İnsan da bu yolculuğun bir yolcusudur.",
+  "hikmet": "En bahtiyar insan, dünya için ahiretini unutmayan ve ahiretini dünyaya feda etmeyen kimsedir. O, ebedî hayatını dünya hayatı için bozmaz ve ömrünü boş şeylerle harcamaz. Kendini bir misafir bilir ve misafirhane sahibinin emirlerine göre hareket eder. Böylece kabir kapısını selametle açar ve ebedî saadete girer.",
+  "kendimize": "Kendimi dünyada bir misafir olarak mı, yoksa kalıcı bir sahip olarak mı görüyorum? Dünya işleri için ahiretimi ihmal ettiğim oluyor mu? Ömrümün ne kadarını boş şeylerle harcıyorum? Yolculuğumun sonunda kabir kapısını selametle açmak için bugün neyi hazırladım?",
+  "hayat": "Bugün bir dünya işine başlarken onu ahiret niyetiyle yapmaya çalışmak bu dersin uygulamasıdır. Gün içinde boş işlere ayırdığımız vakti fark edip bir kısmını namaza, Kur'an'a veya bir iyiliğe ayırmak, misafirliğin edebidir. Akşam yatarken ‘Bugün ev sahibinin emirlerine ne kadar uydum’ diye düşünmek de güzel bir alışkanlıktır.",
+  "ders": "En bahtiyar odur ki dünya için ahiretini unutmasın, hayat-ı ebediyesini hayat-ı dünyeviye için bozmasın; kendini misafir telakki edip misafirhane sahibinin emirlerine göre hareket etsin.",
+  "tefekkurSorusu": "Bugün misafirhane sahibinin hangi emrine uydum?",
+  "dua": {
+   "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ",
+   "okunus": "Rabbenâ âtinâ fî d-dunyâ haseneten vefî l-âhırati haseneten vekınâ 'azâbe n-nâr",
+   "anlam": "“Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru” diyenler vardır.",
+   "kaynak": "Bakara, 2/201"
+  },
+  "konular": [
+   "ahiret",
+   "ibadet"
+  ],
+  "kavramlar": [
+   "Bahtiyar",
+   "Misafir",
+   "Misafirhane",
+   "Malayani",
+   "Saadet-i Ebediye"
+  ],
+  "kaynaklar": [
+   "A'lâ, 87/16-17",
+   "Bediüzzaman Said Nursî, Mektûbât, On Altıncı Mektub"
+  ],
+  "sinav": [
+   {
+    "soru": "On Altıncı Mektub'a göre en bahtiyar kimdir?",
+    "secenekler": [
+     "Dünyası için ahiretini feda eden",
+     "Dünya için ahiretini unutmayan",
+     "En zengin olan",
+     "En meşhur olan"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Altıncı Mektub'a göre insan kendini nasıl telakki etmelidir?",
+    "secenekler": [
+     "Bir misafir",
+     "Ev sahibi",
+     "Ebedî bir sakin",
+     "Dünyanın maliki"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre ahiret daha iyi ve daha bakidir.",
+    "dogru": true
+   }
+  ]
  }
 ]

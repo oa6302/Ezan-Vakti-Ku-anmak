@@ -57,3 +57,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-28: ders_223-226 (mevsim nöbeti, ihtiyarlıkta gurbet yok, cüz'iyat-külliyat, tevhid zorunluluğu); toplam 226.
 - 2026-11-28: ders_227-232 (ihtiyarlık şefaati, mükâfat-mücazat, iman nuru ve ruh, intizam, hayat-ı ebediye, esma ve risalet); toplam 232.
 - 2026-11-28: ders_233-239 (esbab perdesi, başıboş değil, vahdani fiiller, arı, yüzdeki sikke, kâinat insan için, fiil-i icad); toplam 239.
+- 2026-11-28: ders_240-247 (Cemal-i Baki, hastalık sıhhat, kabir kapı, ömür sermayesi, âdetlerin harikaları, haşir bahar, hayatdar âlemler, en bahtiyar); toplam 247.
