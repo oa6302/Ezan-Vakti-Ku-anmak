@@ -53,3 +53,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-28: ders_189-198 (dimağ santral kalp çekirdek, nurlanmış acz, kitapların haşir şahitliği, ehl-i hakkın dayanağı, zaafta kuvvet, fâni olanı istemem, latife sultan, hikmet-inayet-rahmet-rızık, ölümü öldürebilirsen, meleklere ittifak); toplam 198.
 - 2026-11-28: ders_199-205 (isbat ve nefy, istidatların şehadeti, melekut âlemi, Kur'an caddesi, hakiki lezzet imanda, güzelliğin âşıkları, Peygamberin basireti); toplam 205.
 - 2026-11-28: ders_206-214 (iki büyük cereyan, dağlar direk, medeniyetin iyiliği ve günahı, memur gibi çalışmak, ilim güneş gibi, ahiret bedenleri, tertemiz eşler, ana rahminde rızık, imansızlığın tesellisizliği); toplam 214.
+- 2026-11-28: ders_215-222 (kâinat bir ferde verilmiş gibi, rahmetin mührü, gözü kapalı müminin kabri, vicdanın dört unsuru, her şey zıddıyla bilinir, hasta manevi vücut, çocuk ölümüne iki bakış, bir elmayı yaratan); toplam 222.
