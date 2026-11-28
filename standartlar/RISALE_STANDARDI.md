@@ -69,3 +69,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-28: ders_309-316 (insan acib saray, sünnetle ibadet, merakın ızdırabı ve tevhid, kuvve-i zaika, acz içindeki kudret, insan binler nev', kâinat susmaz, göz hekimi Kur'an); toplam 316.
 - 2026-11-28: ders_317-324 (yeni hayatlar, imanlı ihtiyarlık, tabiat kudret defteri, kâinatın cemali, rahmet ve adalet haşri ister, güneş sinek yapamaz, tanıttırmaya iman, neme lazım deme); toplam 324.
 - 2026-11-28: ders_325-332 (lütuf ve kahrın tecellisi, güneşi güneşten sormak, kazanca sevinme, nura muaraza edilmez, Allah münezzeh, bir dakika lezzet, gaflet nazarı, iman ve amel-i salih); toplam 332.
+- 2026-11-28: ders_333-340 (iman hüsn-ü münezzeh, kırık kalbin duası, insan mikyas, ibadet en latif nisbet, hürriyet-i şer'iye, nisyan ve kısa ömür, cennet-cehennem iki semere, insanın cevheri ve hakkı); toplam 340.
