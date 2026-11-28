@@ -66,3 +66,4 @@ Birebir alıntı yalnızca eserle karşılaştırılmışsa ve tırnakla. Özet 
 - 2026-11-28: ders_284-292 (ma'buda layık yalnız O, fermanın turrası, fıtrattaki arzular, yalnız O'na abd ol, muhabbet reşhaları, gençlik yazı kabir kışı, zikr-i hafi ve cehri, fazl ve adl, beş muhabbet); toplam 292.
 - 2026-11-28: ders_293-300 (sinek kanadı nur, yüz yirmi bin muhbir-i sadık, sehpa süsü, Mi'rac meyvesi, marziyat-ı İlahiye, şeytanın tahribatı, mescid-i ekber, organların şahitliği); toplam 300.
 - 2026-11-28: ders_301-308 (rahmet huzura çıkarır, bahar bir çiçek kadar kolay, Ramazan ve ubudiyet, isbat edenlerin ittifakı, zikirle ünsiyet, evradda ihlas, mizan-ı şeriat, naz değil niyaz); toplam 308.
+- 2026-11-28: ders_309-316 (insan acib saray, sünnetle ibadet, merakın ızdırabı ve tevhid, kuvve-i zaika, acz içindeki kudret, insan binler nev', kâinat susmaz, göz hekimi Kur'an); toplam 316.

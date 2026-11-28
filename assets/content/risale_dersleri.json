@@ -19734,5 +19734,509 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_309",
+  "kategori": "iman",
+  "baslik": "İnsan Acayip Bir Saraydır",
+  "giris": "Bir sarayın taşları farklı ülkelerden, süsleri farklı hazinelerden getirilmişse, onu yapan ustanın bütün o ülkelere ve hazinelere hükmetmesi gerekir. Bediüzzaman, On Yedinci Lem'a'da insanı böyle bir saraya benzetir: İnsanın cevherlerinin bir kısmı ruhlar âleminden, bir kısmı misal âleminden, bir kısmı da hava, nur ve unsurlar âleminden gelmiştir. Böyle bir sarayı yapan, ancak dünya ve ahirete hükmeden Zat olabilir.",
+  "aciklama": "Kur'an-ı Kerîm insanın yaratılış aşamalarını anlattıktan sonra şöyle buyurur: “Sonra onu başka bir yaratık yaptık: Biçim verenlerin en güzeli olan Allah ne uludur!” İnsanın yaratılışı, bedenin aşamalarından ruhun üflenmesine kadar hayret verici bir sanattır. Bu sanat, onu yapan Allah'ın yüceliğini ilan eder.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın On Yedinci Lem'a'sının On Dördüncü Nota'sında şöyle der: “İşte her bir hayvan, öyle bir kasr-ı İlâhîdir. Hususan insan, o kasırların en güzeli ve o sarayların en acîbidir.” Eserdeki anlatımın özetine göre insanın ihtiyaçları ebede uzanır, emelleri göklerin ve yerin her yanına yayılır ve bağları dünya ile ahiretin bütün devirlerine dağılmıştır. Aynı yerde bu hakikatin neticesi şöyle anlatılır: “İşte ey kendini insan zanneden insan! Mâdem mâhiyetin böyledir. Seni yapan, ancak o Zât-ı Zülcelâl olabilir ki, dünya ve âhiret birer menzil, arz ve semâ birer sahîfe, ezel ve ebed dün ve yarın hükmünde olarak tasarruf eden bir zât olabilir.” Ve şöyle tamamlanır: “Öyle ise, insanın ma‘bûdu ve melcei ve halâskârı o zât olabilir ki, arz ve semâya hükmeder. dünya ve ukbânın dizginlerine mâliktir.”",
+  "kainattanDelil": "İnsanın bedenindeki demir yıldızlarda, kalsiyum kayalarda, su okyanuslarda bulunan maddelerle aynıdır. Nefes aldığı hava atmosferden, gördüğü ışık güneşten gelir. Ruhu ise maddi âlemin ötesinden üflenmiştir. İnsan, kâinatın dört bir yanından toplanmış parçaların ve maddenin ötesindeki bir ruhun birleşimidir.",
+  "hikmet": "Her canlı ilahi bir köşktür; insan ise bu köşklerin en güzeli ve sarayların en acayibidir. Cevherleri ruhlar, misal, hava, nur ve unsurlar âleminden gelmiştir. İhtiyaçları ebede uzanır ve emelleri gökler ile yerin her yanına yayılır. Böyle bir sarayı yapan, dünya ve ahiretin dizginlerini elinde tutan Zat'tır. İnsanın ma'budu da sığınağı da kurtarıcısı da O'dur.",
+  "kendimize": "Kendimi sıradan bir varlık olarak mı, yoksa acayip bir ilahi saray olarak mı görüyorum? İhtiyaçlarımın ebede uzandığını düşünüyor muyum? Bu ihtiyaçları karşılayacak tek sığınağın Rabbim olduğunu biliyor muyum? Sarayımın sahibine layık bir hayat yaşıyor muyum?",
+  "hayat": "Bugün bedenimizin bir organına, örneğin gözümüze veya kalbimize dikkat edip onun ne kadar acayip bir sanat olduğunu düşünmek bu dersin uygulamasıdır. Bir sıkıntıda ‘Melceim ve halaskârım Sensin’ diyerek Rabbimize sığınmak, bu hakikati yaşamaktır. Kendimize ve başkalarına ilahi bir saray gözüyle bakıp saygı göstermek de güzel bir alışkanlıktır.",
+  "ders": "İnsan kasırların en güzeli ve sarayların en acibidir; onu yapan ancak dünya ve ahireti birer menzil, ezel ve ebedi dün ve yarın hükmünde tasarruf eden Zat-ı Zülcelal olabilir.",
+  "tefekkurSorusu": "Bugün kendi sarayımda hangi ilahi sanatı fark ettim?",
+  "dua": {
+   "arapca": "رَبَّنَآ إِنَّكَ تَعْلَمُ مَا نُخْفِى وَمَا نُعْلِنُ ۗ وَمَا يَخْفَىٰ عَلَى ٱللَّهِ مِن شَىْءٍۢ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ",
+   "okunus": "Rabbenâ inneke te'lemu mâ nuhfî vemâ nu'linu vemâ yehfâ 'alâ'llâhi min şeyin fî l-erdı velâ fî s-semâ",
+   "anlam": "“Rabbimiz! Doğrusu Sen gizlediğimizi de, açığa vurduğumuzu da bilirsin. Yerde ve gökte hiçbir şey Allah'tan gizli kalmaz.”",
+   "kaynak": "İbrâhîm, 14/38"
+  },
+  "konular": [
+   "insanKainat",
+   "tevhid"
+  ],
+  "kavramlar": [
+   "Kasr-ı İlahi",
+   "Alem-i Ervah",
+   "Alem-i Misal",
+   "Melce",
+   "Halaskâr"
+  ],
+  "kaynaklar": [
+   "Mü'minûn, 23/14",
+   "Bediüzzaman Said Nursî, Lem'alar, On Yedinci Lem'a, On Dördüncü Nota"
+  ],
+  "sinav": [
+   {
+    "soru": "On Yedinci Lem'a'ya göre insan nasıl bir saraydır?",
+    "secenekler": [
+     "Sıradan bir yapı",
+     "Kasırların en güzeli ve sarayların en acibi",
+     "Basit bir ev",
+     "Geçici bir çadır"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Yedinci Lem'a'ya göre insanın ma'budu ve melcei kim olabilir?",
+    "secenekler": [
+     "Arz ve semaya hükmeden, dünya ve ukbanın dizginlerine malik Zat",
+     "Tabiat",
+     "Sebepler",
+     "Yıldızlar"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah biçim verenlerin en güzelidir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_310",
+  "kategori": "ibadet",
+  "baslik": "Sünnete Uyan Ömrünü İbadete Çevirir",
+  "giris": "Yemek yemek, uyumak, konuşmak ve yürümek sıradan işlerdir. Ama bu işler Peygamber Efendimiz'in yoluna uyularak yapıldığında, her biri bir ibadete dönüşür. Bediüzzaman, Yirmi Dokuzuncu Mektub'un Dokuzuncu Kısım'ında bu sırrı anlatır: Sünnete uymak sayesinde sıradan hâller ve fıtri hareketler ibadet şekline girer ve ömrün dakikaları huzur içinde bir ibadet hükmüne geçebilir.",
+  "aciklama": "Kur'an-ı Kerîm Peygamber Efendimiz'i en güzel örnek olarak gösterir: “Ey inananlar! And olsun ki, sizin için, Allah'a ve ahiret gününe kavuşmayı umanlar ve Allah'ı çok anan kimseler için Resulullah en güzel örnektir.” Onun hayatı, bir müminin her işinde takip edebileceği bir yol haritasıdır. Ona uyan, her adımında Allah'ı hatırlar.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirmi Dokuzuncu Mektub'unun Dokuzuncu Kısım'ında şöyle der: “İşte bu ittibâ‘ ve iktidâ vâsıtasıyla âdî ahvâli ve örfî muâmeleleri ve fıtrî hareketleri ibâdet şekline girmekle beraber, her bir ameli, sünneti ve şer‘î o ittibâ‘ noktasında düşündürmekle, bir tahattur-u hükm-ü şer‘î veriyor.” Eserdeki anlatımın özetine göre sünnete uyan insan, en sıradan bir işinde bile ‘Peygamberim bunu nasıl yapardı’ diye düşünür; bu düşünce onu bir zincir hâlinde Rabbine götürür. Aynı yerde bu zincir şöyle anlatılır: “O tahattur ise sâhib-i şerîatı düşündürüyor. O düşünmek ise, Cenâb-ı Hakk’ı hâtıra getiriyor. O hâtıra bir nevi‘ huzûr veriyor. O hâlde mütemâdiyen ömür dakîkaları huzûr içinde bir ibâdet hükmüne getirilebilir.”",
+  "kainattanDelil": "Bir öğrenci, öğretmeninin yazısını taklit ederek güzel yazmayı öğrenir. Bir çırak, ustasının hareketlerini izleyerek sanatını geliştirir. Bir yolcu, önündeki rehberin izlerini takip ederek yolunu kaybetmez. Kâinatta en iyi öğrenme yolu, en mükemmel örneği takip etmektir. Peygamber Efendimiz de insanlık için en mükemmel örnektir.",
+  "hikmet": "Sünnete uymak ve Peygamber Efendimiz'i örnek almak sayesinde sıradan hâller, örfi davranışlar ve fıtri hareketler ibadet şekline girer. Her amelde sünnet hatırlanır; bu hatırlama Peygamberimizi düşündürür; bu düşünce Allah'ı hatıra getirir; bu da bir huzur verir. Böylece ömrün her dakikası huzur içinde bir ibadet olabilir.",
+  "kendimize": "Günlük işlerimi yaparken Peygamber Efendimiz'in yolunu hatırlıyor muyum? Yemek yerken, uyurken veya konuşurken bir sünneti uygulamaya çalışıyor muyum? Sıradan anlarımı ibadete çevirme fırsatlarını değerlendiriyor muyum? Sünneti hatırlamanın beni Rabbime götürdüğünü fark ediyor muyum?",
+  "hayat": "Bugün yemeğe besmeleyle ve sağ elle başlamak, yatarken sağ tarafa yatıp dua okumak gibi küçük bir sünneti bilinçli olarak uygulamak bu dersin uygulamasıdır. Bir işi yaparken ‘Peygamberim bunu nasıl yapardı’ diye düşünmek, ömrü bereketlendirir. Her gün bir sünnet öğrenip hayatımıza katmak da güzel bir alışkanlıktır.",
+  "ders": "İttiba ve iktida vasıtasıyla adi ahval ve fıtri hareketler ibadet şekline girer; sünneti hatırlamak sahib-i şeriatı, o da Cenab-ı Hakk'ı hatıra getirir ve ömür dakikaları huzur içinde ibadet olur.",
+  "tefekkurSorusu": "Bugün hangi sıradan işimi bir sünnetle ibadete çevirdim?",
+  "dua": {
+   "arapca": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَٰجِنَا وَذُرِّيَّـٰتِنَا قُرَّةَ أَعْيُنٍۢ وَٱجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+   "okunus": "Rabbenâ heb lenâ min ezvâcinâ vezurrıyyâtinâ kurrate e'yunin ve-ic'alnâ lilmuttekîne imâmen",
+   "anlam": "Onlar: “Rabbimiz! Bize eşlerimizden ve çocuklarımızdan gözümüzün aydınlığı olacak insanlar ihsan et ve bizi, Allah'a karşı gelmekten sakınanlara önder yap” derler.",
+   "kaynak": "Furkân, 25/74"
+  },
+  "konular": [
+   "ibadet",
+   "nubuvvet"
+  ],
+  "kavramlar": [
+   "İttiba",
+   "İktida",
+   "Sünnet",
+   "Tahattur",
+   "Huzur"
+  ],
+  "kaynaklar": [
+   "Ahzâb, 33/21",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirmi Dokuzuncu Mektub, Dokuzuncu Kısım"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Dokuzuncu Mektub'a göre ittiba ve iktida vasıtasıyla adi ahval ne olur?",
+    "secenekler": [
+     "Değersizleşir",
+     "İbadet şekline girer",
+     "Unutulur",
+     "Zorlaşır"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Dokuzuncu Mektub'a göre ömür dakikaları nasıl bir hükme getirilebilir?",
+    "secenekler": [
+     "Huzur içinde bir ibadet hükmüne",
+     "Boş bir vakte",
+     "Gaflet hâline",
+     "Eğlenceye"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Resulullah en güzel örnektir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_311",
+  "kategori": "iman",
+  "baslik": "Merakın Izdırabından Tevhid Kurtarır",
+  "giris": "İnsan meraklı bir varlıktır; her şeyin nereden geldiğini, nereye gittiğini ve ne anlama geldiğini bilmek ister. Bu merak cevapsız kalırsa insanı büyük bir sıkıntıya sokar. Bediüzzaman, Otuz Üçüncü Mektub'un On İkinci Pencere'sinde bu sıkıntının ilacını gösterir: İnsanın merakından ve hakikati aramasından gelen sonsuz ızdıraptan kurtaracak olan, yalnız Yaratıcı'nın birliğini kabul etmek ve Allah'ı tanımaktır.",
+  "aciklama": "Kur'an-ı Kerîm şirk ile tevhid arasındaki farkı şöyle anlatır: “Allah, geçimsiz efendileri olan bir adamla, yalnız bir kişiye bağlı olan bir adamı misal olarak verir. Bu ikisi eşit midir? Övülmek Allah içindir, fakat çoğu bilmezler.” Birçok efendiye bağlı olan perişan olur; tek bir efendiye bağlı olan ise huzur bulur. Tevhid, kalbe bu huzuru verir.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Otuz Üçüncü Mektub'unun On İkinci Pencere'sinde şöyle der: “İşte mâhiyet-i insaniyedeki merâk ve taleb-i hakîkat cihetinden gelen nihâyetsiz ızdırabdan kurtaracak, yalnız tevhîd-i Hâlık ve ma‘rifet-i İlâhiyedir.” Eserdeki anlatımın özetine göre kâinattaki varlıkları tesadüfe veya sayısız sebebe vermek, akla sonsuz zorluklar yükler ve insanı cevapsız sorularla baş başa bırakır. Aynı yerde bu iki yolun farkı şöyle gösterilir: “Mâdem küfürde ve şirkte nihâyetsiz müşkilât ve ızdırâbât var. Elbette o yol muhâldir. Hakîkati yoktur. Mâdem tevhîdde, mevcûdâtın yaratılışındaki suhûlete ve kesrete ve hüsn-ü san‘ata muvâfık olarak nihâyetsiz suhûlet ve kolaylık var. Elbette o yol vâcibdir, hakîkattir.”",
+  "kainattanDelil": "Kâinatta varlıklar hem çok kolay, hem çok bol, hem de çok güzel yaratılır. Bir baharda milyonlarca çiçek aynı anda ve kusursuz bir şekilde açar. Bu kolaylık, bolluk ve güzellik bir aradadır. Bunu tek bir Yaratıcı'ya vermek, gördüğümüz kolaylığa uygundur; sayısız sebebe vermek ise bu kolaylığı imkânsız kılar.",
+  "hikmet": "İnsanın merakından ve hakikati aramasından gelen sonsuz ızdıraptan kurtaracak olan, yalnız Yaratıcı'nın birliğini kabul etmek ve Allah'ı tanımaktır. Küfür ve şirkte sonsuz zorluk ve ızdırap vardır; bu yüzden o yol imkânsızdır. Tevhidde ise yaratılıştaki kolaylığa, bolluğa ve güzelliğe uygun sonsuz bir kolaylık vardır; bu yüzden o yol zorunlu ve hakikattir.",
+  "kendimize": "Merakımın beni huzursuz ettiği sorulara tevhid ile cevap arıyor muyum? Kâinattaki kolaylığı ve bolluğu görüp onun tek bir Yaratıcı'yı gösterdiğini fark ediyor muyum? Kalbimi birçok efendiye mi, yoksa tek bir Rabbe mi bağlıyorum? Allah'ı tanımanın bana verdiği huzuru hissediyor muyum?",
+  "hayat": "Bugün aklımızı meşgul eden bir soruyu ‘Bunu yaratan ve bilen Rabbimdir’ diyerek tevhid ışığında düşünmek bu dersin uygulamasıdır. Bir çiçek tarlasına veya bir kuş sürüsüne bakıp onların kolaylıkla ve bollukla yaratılışını tefekkür etmek, tevhidi güçlendirir. Allah'ın bir ismini öğrenip onu gün içinde hatırlamak da marifetullahı artıran güzel bir alışkanlıktır.",
+  "ders": "Mahiyet-i insaniyedeki merak ve taleb-i hakikatten gelen nihayetsiz ızdıraptan kurtaracak yalnız tevhid-i Halık ve marifet-i İlahiyedir; şirkte nihayetsiz müşkilat, tevhidde nihayetsiz suhulet vardır.",
+  "tefekkurSorusu": "Bugün hangi merakımı tevhid ile huzura çevirdim?",
+  "dua": {
+   "arapca": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+   "okunus": "Kul huve'llâhu ehadun el-lehu s-samedu lem yelid velem yûled velem yekun lehu kufuven ehad",
+   "anlam": "De ki: O Allah bir tektir. Allah her şeyden müstağni ve her şey O'na muhtaçtır. O doğurmamış ve doğmamıştır. Hiçbir şey O'na denk değildir.",
+   "kaynak": "İhlâs, 112/1-4"
+  },
+  "konular": [
+   "tevhid",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Merak",
+   "Taleb-i Hakikat",
+   "Tevhid-i Halık",
+   "Suhulet",
+   "Müşkilat"
+  ],
+  "kaynaklar": [
+   "Zümer, 39/29",
+   "Bediüzzaman Said Nursî, Mektûbât, Otuz Üçüncü Mektub, On İkinci Pencere"
+  ],
+  "sinav": [
+   {
+    "soru": "Otuz Üçüncü Mektub'a göre merak ve taleb-i hakikatten gelen ızdıraptan ne kurtarır?",
+    "secenekler": [
+     "Eğlence",
+     "Tevhid-i Halık ve marifet-i İlahiye",
+     "Uyku",
+     "Para"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Otuz Üçüncü Mektub'a göre tevhidde nasıl bir kolaylık vardır?",
+    "secenekler": [
+     "Nihayetsiz suhulet",
+     "Hiç kolaylık yoktur",
+     "Az bir kolaylık",
+     "Sonsuz zorluk"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre geçimsiz efendileri olan adam ile tek kişiye bağlı adam eşit değildir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_312",
+  "kategori": "ibadet",
+  "baslik": "Tat Alma Duyusu Şükür İçindir",
+  "giris": "Dilimiz binlerce farklı tadı ayırt eder: tatlı, ekşi, tuzlu, acı ve sayısız karışımları. Bu kabiliyet sadece midemizi doyurmak için mi verilmiştir? Bediüzzaman, On Dokuzuncu Lem'a'da bu soruya cevap verir: Tat alma duyusu yalnız maddi bedene değil, kalbe, ruha ve akla da bakar. Bu yüzden onun makamı midenin üstündedir ve asıl vazifesi, ilahi nimetleri tanıyıp şükretmektir.",
+  "aciklama": "Kur'an-ı Kerîm nimetlerin temizinden yemeyi ve şükretmeyi emreder: “Ey İnananlar! Sizi rızıklandırdığımızın temizlerinden yiyin; yalnız Allah'a kulluk ediyorsanız, O'na şükredin.” Yemek, bir ibadet vesilesidir. Temiz ve helal olanı yiyip şükretmek, nimeti asıl sahibine bağlar.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın On Dokuzuncu Lem'a'sı olan İktisat Risalesi'nin Üçüncü Nükte'sinde şöyle der: “İşte bu sûrette kuvve-i zâika, yalnız maddî cesede bakmıyor. Belki kalbe ve rûha ve akla dahi baktığı cihetle, midenin fevkınde hükmü var, makamı var.” Eserdeki anlatımın özetine göre dil, nimetlerin çeşitlerini tanıyan bir müfettiş gibidir ve tadılan her lezzet Rezzâk ve Rahîm isimlerini tanıtan bir mektup gibidir. Aynı yerde lezzetin hangi şartlarla takip edilebileceği şöyle açıklanır: “İsraf etmemek şartıyla ve sırf vazîfe-i şükrâniyeyi yerine getirmek.. ve envâ‘-ı niam-ı İlâhiyeyi hissedip tanımak kaydıyla.. ve meşrû‘ olmak ve zillet ve dilenciliğe vesîle olmamak şartıyla, lezzetini ta‘kîb edebilir. Ve o kuvve-i zâikayı taşıyan lisânı şükürde isti‘mâl etmek için lezîz taâmları tercîh edebilir.”",
+  "kainattanDelil": "Bir elma, bir portakal, bir hurma ve bir üzüm, aynı topraktan ve aynı sudan beslenir; ama her birinin tadı başkadır. Dilimizde binlerce tat alma noktası vardır ve her biri ayrı bir lezzeti tanır. Bu kadar çeşitli tat ve onları tanıyan bu kadar hassas bir dil, bir şükür sofrasının hazırlandığını gösterir.",
+  "hikmet": "Tat alma duyusu yalnız maddi bedene değil, kalbe, ruha ve akla da bakar; bu yüzden makamı midenin üstündedir. İsraf etmemek, şükür vazifesini yerine getirmek, ilahi nimetlerin çeşitlerini tanımak, meşru olmak ve zillete sebep olmamak şartıyla lezzet takip edilebilir. Dili şükürde kullanmak için lezzetli yemekler tercih edilebilir.",
+  "kendimize": "Yemek yerken sadece midemi mi, yoksa kalbimi ve ruhumu da doyuruyor muyum? Her lokmanın tadında Rabbimin bir ismini tanıyor muyum? Lezzet peşinde koşarken israf ve haram sınırlarına dikkat ediyor muyum? Dilimi bir şükür aleti olarak kullanıyor muyum?",
+  "hayat": "Bugün yediğimiz her farklı tadı fark edip her biri için içimizden ‘Elhamdülillah’ demek bu dersin uygulamasıdır. Sofrada israf etmemeye ve tabakta yemek bırakmamaya dikkat etmek, nimete saygıdır. Helal ve temiz yiyecekleri tercih etmek ve yemekten sonra dua etmek de güzel bir alışkanlıktır.",
+  "ders": "Kuvve-i zaika yalnız maddi cesede bakmaz, kalbe, ruha ve akla da bakar; israf etmemek, şükür vazifesini yapmak ve meşru olmak şartıyla lezzetini takip edebilir.",
+  "tefekkurSorusu": "Bugün hangi lezzetin tadında Rabbimin ismini tanıdım?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ مَـٰلِكِ يَوْمِ ٱلدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+   "okunus": "El-hamdu lillehi rabbi l-'âlemîne el-rahmâni r-rahîmi mâliki yevmi d-dîni iyyâke ne'budu ve-iyyâke neste'în",
+   "anlam": "Hamd, Alemlerin Rabbi Allah'a mahsustur. O Rahman ve Rahim'dir, Din Gününün sahibidir. Ancak Sana kulluk eder ve yalnız Senden yardım dileriz.",
+   "kaynak": "Fâtiha, 1/2-5"
+  },
+  "konular": [
+   "sukurSabir",
+   "ibadet"
+  ],
+  "kavramlar": [
+   "Kuvve-i Zaika",
+   "Şükür",
+   "İsraf",
+   "Meşru",
+   "Nimet"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/172",
+   "Bediüzzaman Said Nursî, Lem'alar, On Dokuzuncu Lem'a, Üçüncü Nükte"
+  ],
+  "sinav": [
+   {
+    "soru": "On Dokuzuncu Lem'a'ya göre kuvve-i zaika neye bakar?",
+    "secenekler": [
+     "Yalnız mideye",
+     "Kalbe, ruha ve akla da",
+     "Hiçbir şeye",
+     "Yalnız bedene"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "On Dokuzuncu Lem'a'ya göre lezzet takip edilirken hangi şart vardır?",
+    "secenekler": [
+     "İsraf etmemek",
+     "Çok yemek",
+     "Haramı tercih etmek",
+     "Şükrü terk etmek"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre müminler rızıklarının temizlerinden yemeli ve Allah'a şükretmelidir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_313",
+  "kategori": "kainat",
+  "baslik": "Acz İçindeki Kudret Kadîr-i Mutlak'ı Gösterir",
+  "giris": "Küçük ve zayıf bir tohum, sert toprağı yarıp çıkar; aciz bir yavru, doğduğu gün hayatta kalmayı bilir; cansız bir topraktan rengârenk çiçekler fışkırır. Bediüzzaman, Otuz Üçüncü Mektub'un On Altıncı Pencere'sinde bu hayrete dikkat çeker: Acizlik içindeki kudret, zayıflık içindeki kuvvet, fakirlik içindeki zenginlik ve cansızlık içindeki hayat, apaçık bir Kadîr-i Mutlak'ı gösterir.",
+  "aciklama": "Kur'an-ı Kerîm ölüden dirinin çıkarılmasına dikkat çeker: “O, ölüden diri çıkarır, diriden ölü çıkarır; yeryüzünü ölümünden sonra O canlandırır. Ey insanlar! İşte siz de böylece diriltileceksiniz.” Cansız topraktan hayatın, aciz tohumdan güçlü ağacın çıkması, Allah'ın kudretinin en açık delilleridir.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Otuz Üçüncü Mektub'unun On Altıncı Pencere'sinde şöyle der: “İşte bu acz içindeki kudret ve zaaf içindeki kuvvet ve fakr içindeki servet ve gınâ.. ve cümûd ve cehil içindeki hayat ve şuûr, bilbedâhe ve bizzarûre bir Kadîr-i Mutlak ve Kaviyy-i Mutlak ve Ganiyy-i Mutlak ve Alîm-i Mutlak ve Hayy-ı Kayyûm bir zâtın vücûb-u vücûduna ve vahdetine karşı her taraftan pencereler açar.” Eserdeki anlatımın özetine göre bir varlık ne kadar zayıf ve aciz görünürse, ona verilen güç ve kabiliyet o kadar açık bir şekilde kendisinden değil, Yaratıcısından geldiğini gösterir. Aynı yerde bu pencerelerin bütününün neyi gösterdiği şöyle anlatılır: “Hey’et-i mecmûasıyla büyük bir mikyâsta bir cadde-i nûrâniyeyi gösterir.” Yani her aciz varlıktaki güç, bir pencere gibi, Kadîr-i Mutlak'a açılır.",
+  "kainattanDelil": "İncecik bir filiz, üzerindeki ağır toprağı ve hatta asfaltı yarıp güneşe çıkar. Yeni doğmuş bir kuzu, birkaç saat içinde ayağa kalkar ve annesini bulur. Cansız bir yumurtadan canlı bir kuş çıkar. Hiçbir bilgisi olmayan bir arı, mükemmel petekler örer. Kâinatta acizlik içindeki güç, her yerde açıkça görünür.",
+  "hikmet": "Acizlik içindeki kudret, zayıflık içindeki kuvvet, fakirlik içindeki zenginlik ve cansızlık ile cehalet içindeki hayat ve şuur, apaçık ve zorunlu olarak Kadîr-i Mutlak, Kaviyy-i Mutlak, Ganiyy-i Mutlak, Alîm-i Mutlak ve Hayy-ı Kayyûm olan bir Zat'ın varlığına ve birliğine her taraftan pencereler açar. Bu pencerelerin hepsi nurlu bir caddeyi gösterir.",
+  "kendimize": "Etrafımdaki zayıf varlıklardaki gücü görüp onun kaynağını düşünüyor muyum? Kendi acizliğime rağmen bana verilen kabiliyetlerin Rabbimden geldiğini biliyor muyum? Zayıf olduğum anlarda Kaviyy-i Mutlak'a dayanıyor muyum? Bir filizin toprağı yarışında Rabbimin kudretini görebiliyor muyum?",
+  "hayat": "Bugün bir filize, bir böceğe veya bir yavru hayvana bakıp onun acizliği içindeki gücü tefekkür etmek bu dersin uygulamasıdır. Kendimizi zayıf hissettiğimiz bir anda ‘Yâ Kaviyy’ diyerek Rabbimize dayanmak, güç kazandırır. Bir bebeğin ilk adımlarını izleyip ona bu gücü verenin Rabbimiz olduğunu düşünmek de güzel bir alışkanlıktır.",
+  "ders": "Acz içindeki kudret, zaaf içindeki kuvvet, fakr içindeki servet ve cümud içindeki hayat, bilbedahe bir Kadir-i Mutlak ve Hayy-ı Kayyum'un vücuduna ve vahdetine her taraftan pencereler açar.",
+  "tefekkurSorusu": "Bugün hangi acizlikte Kadîr-i Mutlak'ın kudretini gördüm?",
+  "dua": {
+   "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+   "okunus": "Hasbiye'llâhu lâ ilâhe illâ huve 'aleyhi tevekkeltu vehuve rabbu l-'arşi l-'azîm",
+   "anlam": "Eğer yüz çevirirlerse de ki: “Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.”",
+   "kaynak": "Tevbe, 9/129"
+  },
+  "konular": [
+   "tabiat",
+   "esma"
+  ],
+  "kavramlar": [
+   "Acz",
+   "Zaaf",
+   "Kadir-i Mutlak",
+   "Kaviyy-i Mutlak",
+   "Cümud"
+  ],
+  "kaynaklar": [
+   "Rûm, 30/19",
+   "Bediüzzaman Said Nursî, Mektûbât, Otuz Üçüncü Mektub, On Altıncı Pencere"
+  ],
+  "sinav": [
+   {
+    "soru": "Otuz Üçüncü Mektub'a göre acz içindeki kudret neyi gösterir?",
+    "secenekler": [
+     "Tesadüfü",
+     "Bir Kadir-i Mutlak'ın vücudunu ve vahdetini",
+     "Tabiatın gücünü",
+     "Varlığın kendi gücünü"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Otuz Üçüncü Mektub'a göre bu pencerelerin heyet-i mecmuası neyi gösterir?",
+    "secenekler": [
+     "Bir cadde-i nuraniyeyi",
+     "Karanlık bir yolu",
+     "Hiçbir şeyi",
+     "Bir çıkmazı"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah ölüden diri çıkarır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_314",
+  "kategori": "nefis",
+  "baslik": "İnsan Bir Tür İken Binlerce Tür Gibidir",
+  "giris": "Bir arı her zaman arı gibi, bir karınca her zaman karınca gibi yaşar; onların kabiliyetlerinin bir sınırı vardır. Ama insan öyle değildir; o hem en yüksek makamlara çıkabilir hem de en aşağılara düşebilir. Bediüzzaman, Yirmi İkinci Lem'a'da bu sırrı anlatır: Allah insanın duygularına ve kabiliyetlerine sınır koymamış ve onu serbest bırakmıştır. Bu yüzden insan bir tür iken binlerce tür hükmüne geçmiştir.",
+  "aciklama": "Kur'an-ı Kerîm insanın yeryüzündeki makamını şöyle bildirir: “Rabbin meleklere ‘Ben yeryüzünde bir halife var edeceğim’ demişti.” İnsan, yeryüzünün halifesi olarak yaratılmıştır. Bu büyük makam, ona verilen sınırsız kabiliyetlerin bir neticesidir; ama bu kabiliyetler doğru kullanılmazsa büyük bir tehlikeye de dönüşebilir.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın Yirmi İkinci Lem'a'sının İkinci İşaret'inde şöyle der: “İşte bu sırr-ı azîmdendir ki, Cenâb-ı Hak, insan nev‘ini, binler nev‘leri sünbül verecek.. ve hayvanâtın sâir binler nev‘leri kadar tabakāt gösterecek bir fıtratta yaratmıştır.” Eserdeki anlatımın özetine göre insan, iradesiyle iyiliği veya kötülüğü seçebildiği için, insanlar arasında peygamberlerden en aşağı insanlara kadar sayısız derece vardır. Aynı yerde bu hakikatin neticesi şöyle anlatılır: “Sâir hayvanât gibi, insan nev‘inin kuvâlarına, latîfelerine ve duygularına had konulmamış, serbest bırakılmış. ve hadsiz makamâtta gezecek isti‘dâd verdiğinden, bir nev‘ iken, binler nev‘ hükmüne geçtiği içindir ki, insan nev‘i, arzın halîfesi ve kâinâtın netîcesi ve zîhayatın sultânı hükmüne geçmiştir.”",
+  "kainattanDelil": "Bütün aslanlar aşağı yukarı aynı şekilde avlanır; bütün kuşlar türlerine göre aynı şekilde yuva yapar. Ama insanlar arasında bir peygamber ile bir zalim, bir alim ile bir cahil arasında dağlar kadar fark vardır. Kâinatta hiçbir canlı türü, insan kadar farklı derecelere ayrılmaz. Bu fark, insana verilen sınırsız kabiliyetin işaretidir.",
+  "hikmet": "Allah insanı binlerce tür kadar derece gösterecek bir fıtratta yaratmıştır. Diğer hayvanlar gibi insanın güçlerine, latifelerine ve duygularına sınır konmamış, serbest bırakılmıştır. Sınırsız makamlarda gezecek bir istidat verildiği için insan, bir tür iken binlerce tür hükmüne geçmiş ve yeryüzünün halifesi, kâinatın neticesi ve canlıların sultanı olmuştur.",
+  "kendimize": "Bana verilen sınırsız kabiliyetleri hangi yönde kullanıyorum? Yükselmek için mi, yoksa alçalmak için mi çabalıyorum? Halifelik makamının bana yüklediği sorumluluğu düşünüyor muyum? Duygularımı ve güçlerimi Rabbimin rızası doğrultusunda terbiye ediyor muyum?",
+  "hayat": "Bugün bir kabiliyetimizi, örneğin konuşma, yazma veya yardım etme becerimizi, bir hayır için kullanmak bu dersin uygulamasıdır. Bir kötü alışkanlığımızı fark edip onu terbiye etmeye niyet etmek, aşağı derecelerden yükselmektir. Peygamberlerin ve velilerin hayatlarını okuyup onların yükseldiği makamlardan ilham almak da güzel bir alışkanlıktır.",
+  "ders": "İnsan nev'inin kuvalarına ve duygularına had konulmamış, serbest bırakılmış; hadsiz makamatta gezecek istidat verildiğinden bir nev' iken binler nev' hükmüne geçmiş ve arzın halifesi olmuştur.",
+  "tefekkurSorusu": "Bugün sınırsız kabiliyetimi hangi yönde kullandım?",
+  "dua": {
+   "arapca": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+   "okunus": "Rabbenâ lâ tuziğ kulûbenâ be'de iz hedeytenâ veheb lenâ min ledunke rahmeten inneke ente l-vehâb",
+   "anlam": "Rabbimiz! Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+   "kaynak": "Âl-i İmrân, 3/8"
+  },
+  "konular": [
+   "insanKainat",
+   "ruhKalpNefis"
+  ],
+  "kavramlar": [
+   "Nev'",
+   "İstidad",
+   "Hilafet",
+   "Kuva",
+   "Latife"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/30",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirmi İkinci Lem'a, İkinci İşaret"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi İkinci Lem'a'ya göre insanın kuvalarına ve duygularına ne yapılmıştır?",
+    "secenekler": [
+     "Kesin sınır konmuştur",
+     "Had konulmamış, serbest bırakılmıştır",
+     "Tamamen kaldırılmıştır",
+     "Hayvanlarla aynı tutulmuştur"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi İkinci Lem'a'ya göre insan nev'i ne hükmüne geçmiştir?",
+    "secenekler": [
+     "Arzın halifesi ve kâinatın neticesi",
+     "Önemsiz bir varlık",
+     "Sıradan bir hayvan",
+     "Bir tesadüf ürünü"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah yeryüzünde bir halife var edeceğini bildirmiştir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_315",
+  "kategori": "kainat",
+  "baslik": "Kulağını Kapasan da Kâinat Susmaz",
+  "giris": "Bir insan sevmediği bir sesi duymamak için kulaklarını kapatabilir; ama bu, sesin kesildiği anlamına gelmez. Bediüzzaman, Otuz Üçüncü Mektub'un On Dokuzuncu Pencere'sinde gaflet içindeki insana şöyle seslenir: Sayısız dille kendini sana tanıtan ve sevdiren Kerîm-i Zülcemâl'i tanımak istemiyorsan, bu dilleri susturmalısın. Madem susturamazsın, o hâlde dinlemelisin. Kulağını kapamakla kâinat susmaz.",
+  "aciklama": "Kur'an-ı Kerîm kâinattaki tesbihi şöyle bildirir: “Yedi gök, yer ve bunlarda bulunanlar O'nu tesbih eder; O'nu hamd ile tesbih etmeyen hiçbir şey yoktur; fakat siz onların tesbihlerini anlamazsınız.” Kâinattaki her şey kendi diliyle Rabbini anar ve O'nu tanıtır. Bu tesbih hiç kesilmez; insanın anlamaması onu susturmaz.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Otuz Üçüncü Mektub'unun On Dokuzuncu Pencere'sinde şöyle der: “İşte ey nankörlük içinde kendini başıboş zanneden bedbaht gāfil! Bu derece hadsiz lisânlarla kendini sana tanıttıran ve bildiren ve sevdiren bir Kerîm-i Zülcemâl, tanımak istenilmezse, bu lisânları susturmalı. Mademki susturulmaz, dinlemeli.” Eserdeki anlatımın özetine göre her çiçek, her yaprak ve her canlı, Yaratıcısını tanıtan bir dil gibidir; bu dillerin hiçbiri susturulamaz. Aynı yerde gafletin bu konuda işe yaramayacağı şöyle anlatılır: “Gafletle kulağını kapasan, kurtulamazsın. Çünki sen kulağını kapamakla kâinât sükût etmez, mevcûdât susmaz, vahdâniyet şâhidleri seslerini kesmezler. Elbette seni mahkûm ederler.” Yani hakikatten kaçmanın yolu yoktur; yapılacak tek şey onu dinlemektir.",
+  "kainattanDelil": "Sabah kuşları öter, gündüz arılar vızıldar, akşam rüzgâr yaprakları hışırdatır, gece yıldızlar sessizce parlar. Her biri ayrı bir dille konuşur. Bir insan uyusa da, gözlerini kapatsa da, bu konuşma devam eder. Kâinatta Yaratıcıyı tanıtan sesler hiçbir zaman susmaz; sadece onları dinleyenler ve dinlemeyenler vardır.",
+  "hikmet": "Sayısız dille kendini tanıtan, bildiren ve sevdiren Kerîm-i Zülcemâl tanınmak istenmezse, bu dilleri susturmak gerekir. Madem susturulamaz, o hâlde dinlenmelidir. Gafletle kulağını kapatan kurtulamaz; çünkü kulağını kapamakla kâinat susmaz, varlıklar sesini kesmez ve tevhidin şahitleri onu mahkûm eder.",
+  "kendimize": "Kâinatın bana Rabbimi tanıtan seslerine kulak veriyor muyum? Gafletle kulağımı kapadığım anlar oluyor mu? Bir çiçeğin, bir kuşun veya bir yıldızın dilini anlamaya çalışıyor muyum? Bu sesleri dinlediğimde kalbimde bir şükür uyanıyor mu?",
+  "hayat": "Bugün birkaç dakika sessizce oturup etrafımızdaki sesleri, kuşları, rüzgârı ve suyu dinlemek ve onların tesbihini düşünmek bu dersin uygulamasıdır. Ekranlardan uzaklaşıp doğanın sesine kulak vermek, gafletin perdesini aralar. Her duyduğumuz güzel seste ‘Sübhânallah’ demek de güzel bir alışkanlıktır.",
+  "ders": "Hadsiz lisanlarla kendini tanıttıran Kerîm-i Zülcemal tanınmak istenmezse bu lisanlar susturulmalı; madem susturulmaz, dinlenmeli; kulağını kapamakla kâinat sükût etmez.",
+  "tefekkurSorusu": "Bugün kâinatın hangi diline kulak verdim?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+   "okunus": "L-hamdu lillehi ellezî lem yettehız veleden velem yekun lehu şerîkun fî l-mulki velem yekun lehu veliyyun mine d-zuli vekebbirhu tekbîr",
+   "anlam": "De ki: “Hamd, çocuk edinmemiş olan, hükümranlığında ortağı bulunmayan, düşkün olmayıp yardımcıya da ihtiyaç göstermeyen Allah'a mahsustur.” O'nu gereği gibi büyükle.",
+   "kaynak": "İsrâ, 17/111"
+  },
+  "konular": [
+   "tabiat",
+   "esma"
+  ],
+  "kavramlar": [
+   "Lisan",
+   "Gaflet",
+   "Kerim-i Zülcemal",
+   "Sükût",
+   "Vahdaniyet"
+  ],
+  "kaynaklar": [
+   "İsrâ, 17/44",
+   "Bediüzzaman Said Nursî, Mektûbât, Otuz Üçüncü Mektub, On Dokuzuncu Pencere"
+  ],
+  "sinav": [
+   {
+    "soru": "Otuz Üçüncü Mektub'a göre lisanlar susturulamıyorsa ne yapılmalıdır?",
+    "secenekler": [
+     "Kaçılmalı",
+     "Dinlenmeli",
+     "Unutulmalı",
+     "İnkâr edilmeli"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Otuz Üçüncü Mektub'a göre gafletle kulağını kapayan ne olur?",
+    "secenekler": [
+     "Kurtulamaz, kâinat sükût etmez",
+     "Kurtulur",
+     "Huzur bulur",
+     "Kâinat susar"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre yedi gök, yer ve bunlarda bulunanlar Allah'ı tesbih eder.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_316",
+  "kategori": "risaleler",
+  "baslik": "Göz Hekimi Kur'an'dır",
+  "giris": "Gözünü kaybeden bir insan, dünyanın renklerini ve güzelliklerini göremez hâle gelir ve büyük bir üzüntü yaşar. Bediüzzaman, Yirmi Beşinci Lem'a olan Hastalar Risalesi'nde gözü görmeyen bir hastaya teselli verir: Gözündeki perde altında, şükür ve sabırla, toprak altında iken bile göklerin üstündeki cenneti görecek nurlu bir göz bulabilirsin. O perdeyi kaldıracak göz hekimi ise Kur'an-ı Hakîm'dir.",
+  "aciklama": "Kur'an-ı Kerîm asıl körlüğün ne olduğunu şöyle bildirir: “Yeryüzünde dolaşmıyorlar mı ki, orada olanları akledecek kalbleri, işitecek kulakları olsun. Ama yalnız gözler kör olmaz, fakat göğüslerde olan kalbler de körleşir.” Asıl körlük, kalbin hakikati görememesidir. Gözü görmese de kalbi iman nuruyla aydınlanan, en derin hakikatleri görür.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın Yirmi Beşinci Lem'a'sının On Beşinci Devâ'sında şöyle der: “İşte böyle gāyet nûrlu ve toprak altında iken, göklerin üstündeki cenneti görecek ve seyredecek bir gözü, bu gözündeki perde altında şükür ile, sabır ile bulabilirsin.” Eserdeki anlatımın özetine göre gözünü kaybeden mümin, bu musibete sabrederse, kalp gözü açılır ve dünyanın geçici manzaraları yerine ebedî âlemin güzelliklerini görmeye başlar; bu da kaybettiğinden çok daha büyük bir kazançtır. Aynı yerde bu kalp gözünü açacak olan şöyle gösterilir: “İşte o perdeyi senin gözünden kaldıracak ve o gözle seni baktıracak göz hekimi, Kur’ân-ı Hakîm’dir.” Yani Kur'an, kalbin gözünü açan ve ona hakikatleri gösteren bir şifa kaynağıdır.",
+  "kainattanDelil": "Gece karanlığında gözümüz göremez; ama bir lamba yakıldığında her şey görünür hâle gelir. Gözü görmeyen bir insan, dokunarak, işiterek ve koklayarak dünyayı tanır. Bazı canlılar göz olmadan, sesle veya titreşimle yollarını bulur. Kâinatta görmenin tek yolu göz değildir; asıl görme, ışığa ve anlamaya bağlıdır.",
+  "hikmet": "Gözünü kaybeden mümin, gözündeki perde altında şükür ve sabırla, toprak altında iken bile göklerin üstündeki cenneti görecek ve seyredecek nurlu bir göz bulabilir. O perdeyi kaldıracak ve o gözle baktıracak göz hekimi, Kur'an-ı Hakîm'dir. Asıl körlük kalbin körlüğüdür; Kur'an kalbin gözünü açar.",
+  "kendimize": "Kalbimin gözü açık mı, yoksa gafletle perdelenmiş mi? Bir musibet karşısında şükür ve sabırla kalp gözümü açmaya çalışıyor muyum? Kur'an'ı kalbimin göz hekimi olarak görüyor muyum? Gözlerimin nimetine şükrediyor muyum?",
+  "hayat": "Bugün Kur'an'dan bir sayfa okuyup onun kalbimizin gözünü açması için dua etmek bu dersin uygulamasıdır. Görme engelli bir insanı ziyaret etmek veya ona yardımcı olmak, hem şefkat hem de şükür dersidir. Gözlerimizi bir an kapatıp açarak görme nimetine şükretmek de güzel bir alışkanlıktır.",
+  "ders": "Gözündeki perde altında şükür ve sabır ile toprak altında iken göklerin üstündeki cenneti görecek nurlu bir göz bulabilirsin; o perdeyi kaldıracak göz hekimi Kur'an-ı Hakîm'dir.",
+  "tefekkurSorusu": "Bugün Kur'an'ın hangi ayetiyle kalbimin gözü açıldı?",
+  "dua": {
+   "arapca": "رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْـَٔاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ",
+   "okunus": "Rabbenâ âtinâ fî d-dunyâ haseneten vefî l-âhırati haseneten vekınâ 'azâbe n-nâr",
+   "anlam": "“Rabbimiz! Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru” diyenler vardır.",
+   "kaynak": "Bakara, 2/201"
+  },
+  "konular": [
+   "musibet",
+   "kuran"
+  ],
+  "kavramlar": [
+   "Göz Hekimi",
+   "Perde",
+   "Şükür",
+   "Sabır",
+   "Kalp Gözü"
+  ],
+  "kaynaklar": [
+   "Hac, 22/46",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirmi Beşinci Lem'a, On Beşinci Deva"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Beşinci Lem'a'ya göre gözündeki perde altında nurlu bir göz neyle bulunabilir?",
+    "secenekler": [
+     "Şikâyetle",
+     "Şükür ve sabır ile",
+     "Öfkeyle",
+     "Unutmakla"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Beşinci Lem'a'ya göre perdeyi kaldıracak göz hekimi kimdir?",
+    "secenekler": [
+     "Kur'an-ı Hakîm",
+     "Tabiat",
+     "Zaman",
+     "Tesadüf"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre asıl körlük, göğüslerdeki kalplerin körleşmesidir.",
+    "dogru": true
+   }
+  ]
  }
 ]
