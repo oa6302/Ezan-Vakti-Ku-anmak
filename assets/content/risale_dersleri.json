@@ -14311,5 +14311,257 @@
     "dogru": true
    }
   ]
+ },
+ {
+  "id": "ders_223",
+  "kategori": "kainat",
+  "baslik": "Gece ile Gündüzün Nöbet Değişimi",
+  "giris": "Bir sarayda nöbetçiler belli vakitlerde değişir; gidenin yerine gelen hemen vazifeye başlar. Bu düzenli değişim, sarayın sahibinin hep orada olduğunu gösterir. Bediüzzaman, Mesnevî-i Nûriye'nin Lem'alar Risâlesi'nde gece ile gündüzün, mevsimlerin ve unsurların bu düzenli değişimini, ebedî ve her an tecelli eden bir Sâhib-i Cemâl'in varlığına ve birliğine kesin bir delil olarak gösterir.",
+  "aciklama": "Kur'an-ı Kerîm gece ile gündüzün dönüşümüne dikkat çeker: “Allah geceyi gündüze, gündüzü geceye çevirir. Doğrusu, görebilenler için bunda ibretler vardır.” Gece ve gündüz, mevsimler ve yıllar değişir; ama onları değiştiren Zat hiç değişmez. Bu değişim, kalıcı olanı tanımak için bir derstir.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Lem'alar Risâlesi'nde şöyle der: “Evet, leyl ü nehârın ihtilâfı, fusûl-ü erbaanın tahavvülü ve unsurların tebeddülü hengâmlarında meydana çıkan şu güzel mevcûdâtta ve bu latîf masnûâtta devamla cereyân eden mübâdele ve devir ve teslîm muâmelesi kat‘î bir şehâdetle, sermedî, âlî, dâimü’t-tecellî bir Sâhib-i Cemâl’in vücûb-u vücûduna ve bekāsına ve vahdetine şehâdet eden kat‘î bir burhândır.” Eserdeki anlatımın özetine göre her mevsim, bir öncekinden aldığı vazifeyi bir sonrakine teslim eder; gece gündüze, kış bahara yerini bırakır. Bu sürekli değişim içinde güzellik hiç eksilmez; çünkü güzelliği veren Sâhib-i Cemâl, her an tecelli etmektedir. Gelip geçen güzel varlıklar, onun ebedî güzelliğinin değişen aynalarıdır.",
+  "kainattanDelil": "Sabah güneşi doğar, akşam batar; ardından ay ve yıldızlar gökyüzünü süsler. Kış karları erir, bahar çiçekleri açar, yaz meyveleri olgunlaşır, sonbahar yaprakları döker. Her biri vazifesini bitirince yerini bir sonrakine teslim eder. Bu nöbet değişimi hiç aksamaz; çünkü onu idare eden Zat hiç değişmez ve hiç yorulmaz.",
+  "hikmet": "Gece ile gündüzün değişmesi, mevsimlerin dönüşmesi ve unsurların yenilenmesi sürekli bir alışveriş ve teslimdir. Bu düzenli değişim, ebedî ve her an tecelli eden bir Sâhib-i Cemâl'in varlığına, bekasına ve birliğine kesin bir delildir. Gelip geçen güzellikler, O'nun ebedî güzelliğinin değişen aynalarıdır. Değişimi gören, değişmeyeni tanır.",
+  "kendimize": "Gece ile gündüzün değişimini sıradan bir şey olarak mı, yoksa bir delil olarak mı görüyorum? Hayatımdaki değişimlerin arkasında değişmeyen Rabbimi görebiliyor muyum? Her mevsimin bana öğrettiği dersi fark ediyor muyum?",
+  "hayat": "Bugün güneşin doğuşunu veya batışını izleyip ‘Geceyi gündüze çeviren Rabbim ne yücedir’ demek bu dersin uygulamasıdır. Mevsim değişirken çevremizdeki değişiklikleri fark edip bunları bir deftere yazmak, tefekkürü canlı tutar. Namaz vakitlerinin güneşin hareketine bağlı olduğunu düşünüp her vakitte bu düzeni hatırlamak da güzel bir alışkanlıktır.",
+  "ders": "Leyl ü neharın ihtilafı ve fusul-ü erbaanın tahavvülünde cereyan eden mübadele ve devir, sermedi ve daimü't-tecelli bir Sahib-i Cemal'in vücuduna, bekasına ve vahdetine kat'i bir burhandır.",
+  "tefekkurSorusu": "Bugün hangi değişimde değişmeyen Rabbimi gördüm?",
+  "dua": {
+   "arapca": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّۭ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+   "okunus": "L-hamdu lillehi ellezî lem yettehız veleden velem yekun lehu şerîkun fî l-mulki velem yekun lehu veliyyun mine d-zuli vekebbirhu tekbîr",
+   "anlam": "De ki: “Hamd, çocuk edinmemiş olan, hükümranlığında ortağı bulunmayan, düşkün olmayıp yardımcıya da ihtiyaç göstermeyen Allah'a mahsustur.” O'nu gereği gibi büyükle.",
+   "kaynak": "İsrâ, 17/111"
+  },
+  "konular": [
+   "tabiat",
+   "esma"
+  ],
+  "kavramlar": [
+   "Mübadele",
+   "Devir",
+   "Teslim",
+   "Sahib-i Cemal",
+   "Beka"
+  ],
+  "kaynaklar": [
+   "Nûr, 24/44",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Lem'alar Risâlesi"
+  ],
+  "sinav": [
+   {
+    "soru": "Lem'alar Risâlesi'ne göre gece ile gündüzün değişimi neye şehadet eder?",
+    "secenekler": [
+     "Tesadüfe",
+     "Sermedi bir Sahib-i Cemal'in vücuduna, bekasına ve vahdetine",
+     "Tabiatın gücüne",
+     "Hiçbir şeye"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Lem'alar Risâlesi'ne göre mevcudatta devamla cereyan eden muamele nedir?",
+    "secenekler": [
+     "Mübadele, devir ve teslim",
+     "Kavga",
+     "Karışıklık",
+     "Durgunluk"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah geceyi gündüze, gündüzü geceye çevirir.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_224",
+  "kategori": "risaleler",
+  "baslik": "Rahîm Bir Yaratıcımız Varsa Gurbet Yoktur",
+  "giris": "Yaşlandıkça insan bazen kendini yalnız ve yabancı hisseder; arkadaşları birer birer gider, dünya ona boş görünür. Bediüzzaman, Yirmi Altıncı Lem'a'da ihtiyarlara şöyle seslenir: Madem Rahîm bir Yaratıcımız var, bizim için gurbet olamaz. Madem O var, bizim için her şey var. Dağlar ve sahralar boş değildir; taş ve ağaç bile O'nun nuruyla birer dost olur.",
+  "aciklama": "Kur'an-ı Kerîm Allah'ın her yerde olduğunu şöyle bildirir: “Doğu da batı da Allah'ındır, nereye dönerseniz Allah'ın yönü orasıdır. Doğrusu Allah her yeri kaplar ve her şeyi bilir.” Allah'ı tanıyan insan, nereye giderse gitsin Rabbi ile beraberdir. Bu beraberlik, ona en ıssız yerde bile bir dostluk ve emniyet verir.",
+  "risalePerspektifi": "Bediüzzaman, Lem'alar'ın Yirmi Altıncı Lem'a'sının Yedinci Recâ'sında şöyle der: “Evet, ey ihtiyârlar ve ihtiyâreler! Mâdem Rahîm bir Hâlikımız var, bizim için gurbet olamaz. Mâdem o var, bizim için her şey var. Mâdem o var, melâikeleri de var. Öyle ise bu dünya boş değil.” Eserdeki anlatımın özetine göre ihtiyarlıkta insanı en çok sarsan yalnızlık duygusu, Allah'ı tanımakla dağılır; çünkü O her yerde hazırdır ve O'nun melekleri her yeri doldurur. Aynı yerde bu dostluğun genişliği şöyle anlatılır: “Hâlî dağlar, boş sahrâlar Cenâb-ı Hakk’ın ibâdıyla doludur. Zîşuûr ibâdından başka, onun nûruyla, onun hesabıyla taşı da, ağacı da birer mûnis arkadaş hükmüne geçerler. Lisân-ı hâlleriyle bizim ile konuşabilirler. Ve bizleri eğlendirirler.”",
+  "kainattanDelil": "Issız bir dağ yamacında bile kuşlar öter, böcekler dolaşır, rüzgâr yaprakları hışırdatır. Bir çölün ortasında bile gece yıldızlar parlar ve yolcuya eşlik eder. Bir ağacın gölgesi, yorgun bir yolcuya dost gibi kucak açar. Kâinatta hiçbir yer gerçekten boş değildir; her köşede bir canlı, bir ses ve bir işaret vardır. Gece karanlığında bile bir çocuk annesinin sesini duyunca sakinleşir; mümin de Rabbini hatırlayınca her yerde huzur bulur.",
+  "hikmet": "Rahîm bir Yaratıcımız varsa, bizim için gurbet olamaz. O varsa, her şey vardır; O'nun melekleri de vardır ve dünya boş değildir. Issız dağlar ve sahralar Allah'ın kullarıyla doludur. O'nun nuruyla bakıldığında taş ve ağaç bile birer dost olur ve hal diliyle konuşur.",
+  "kendimize": "Yalnız hissettiğim anlarda Rabbimin benimle olduğunu hatırlıyor muyum? Etrafımdaki varlıklara bir dost gözüyle bakabiliyor muyum? Yaşlandıkça gurbet duygusuna mı, yoksa Rabbimin dostluğuna mı teslim oluyorum?",
+  "hayat": "Bugün yalnız kaldığımız bir anda ‘Rabbim benimle’ diyerek kısa bir zikir yapmak bu dersin uygulamasıdır. Yaşlı bir yakınımızı ziyaret edip ona bu teselliyi hatırlatmak, ihtiyarlığın gurbetini dostluğa çevirir. Bir ağaca, bir kuşa veya bir manzaraya Rabbimizin bir eseri ve bir dost gözüyle bakmak da güzel bir alışkanlıktır.",
+  "ders": "Madem Rahîm bir Halıkımız var, bizim için gurbet olamaz; madem O var, bizim için her şey var; O'nun nuruyla taş ve ağaç bile birer munis arkadaş olur.",
+  "tefekkurSorusu": "Bugün hangi yalnızlığımda Rabbimin dostluğunu hissettim?",
+  "dua": {
+   "arapca": "حَسْبِىَ ٱللَّهُ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+   "okunus": "Hasbiye'llâhu lâ ilâhe illâ huve 'aleyhi tevekkeltu vehuve rabbu l-'arşi l-'azîm",
+   "anlam": "Eğer yüz çevirirlerse de ki: “Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.”",
+   "kaynak": "Tevbe, 9/129"
+  },
+  "konular": [
+   "sukurSabir",
+   "esma"
+  ],
+  "kavramlar": [
+   "Gurbet",
+   "Ünsiyet",
+   "Rahîm",
+   "Melaike",
+   "Lisan-ı Hal"
+  ],
+  "kaynaklar": [
+   "Bakara, 2/115",
+   "Bediüzzaman Said Nursî, Lem'alar, Yirmi Altıncı Lem'a, Yedinci Recâ"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirmi Altıncı Lem'a'ya göre Rahîm bir Halıkımız varsa ne olamaz?",
+    "secenekler": [
+     "Sevinç",
+     "Gurbet",
+     "Dostluk",
+     "Huzur"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirmi Altıncı Lem'a'ya göre O'nun nuruyla taş ve ağaç ne olur?",
+    "secenekler": [
+     "Birer munis arkadaş",
+     "Birer düşman",
+     "Birer yük",
+     "Birer engel"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre doğu da batı da Allah'ındır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_225",
+  "kategori": "kainat",
+  "baslik": "Küçük Şeyler Büyük Şeylerden Geri Değildir",
+  "giris": "İnsan genellikle büyük şeylere hayran olur: göklere, dağlara, okyanuslara. Ama Bediüzzaman, Yirminci Mektub'da küçük şeylerin de büyüklerden daha az harika olmadığını söyler: Çiçekler yıldızlardan aşağı değildir, çekirdekler ağaçlardan geri değildir. Hatta bir çekirdekteki kader nakşı olan manevi ağaç, bahçedeki gerçek ağaçtan daha harikadır.",
+  "aciklama": "Kur'an-ı Kerîm her şeyin bir ölçüyle yaratıldığını bildirir: “Şüphesiz Biz her şeyi bir ölçüye göre yaratmışızdır.” Büyük ya da küçük, her şey ilahi bir ölçü ve kaderle yaratılmıştır. Küçük bir çekirdeğe sığdırılan bir ağaç planı, bu ölçünün ne kadar ince ve harika olduğunu gösterir.",
+  "risalePerspektifi": "Bediüzzaman, Mektûbât'ın Yirminci Mektub'unun İkinci Makam'ında şöyle der: “Evet, acâib-i san‘at ve garâib-i hilkat noktasında cüz’iyât külliyâttan geri değildir.. çiçekler yıldızlardan aşağı değildir.. çekirdekler ağaçların mâdûnunda değildirler.” Eserdeki anlatımın özetine göre küçük bir şeye büyük bir şeyin bütün planını sığdırmak, onu büyük olarak yapmaktan daha harika bir sanattır. Aynı yerde bu hakikat şöyle devam eder: “Belki çekirdekteki nakş-ı kader olan ma‘nevî ağaç, bağdaki nesc-i kudret olan mücessem ağaçtan daha acîbdir. Ve hilkat-i insaniye, hilkat-i âlemden daha a‘cebdir.” Ve bir benzetme ile tamamlanır: Bir zerrenin üstüne ince parçacıklarla bir hikmet Kur'an'ı yazılsa, gök yüzüne yıldızlarla yazılan bir Kur'an'dan daha değerli olabilir; “Öyle de çok küçük cüz’iyâtlar var, mu‘cizât-ı san‘atça külliyâttan üstündür.”",
+  "kainattanDelil": "Bir karıncanın küçük bedeninde kalp, beyin ve sindirim sistemi gibi bütün hayati organlar vardır. Bir kar tanesi, gözle zor görülür ama mükemmel bir desen taşır. Bir arının beyni bir toplu iğne başı kadardır; ama binlerce çiçeği tanır ve kovanının yolunu bulur. Kâinatta küçüklük, sanatın büyüklüğünü daha da açık gösterir.",
+  "hikmet": "Sanatın harikalığı bakımından küçük şeyler büyüklerden geri değildir. Çiçekler yıldızlardan, çekirdekler ağaçlardan aşağı değildir. Çekirdekteki manevi ağaç, bahçedeki gerçek ağaçtan daha harikadır. İnsanın yaratılışı, bütün âlemin yaratılışından daha şaşırtıcıdır.",
+  "kendimize": "Yalnız büyük şeylere mi hayran oluyorum, yoksa küçük şeylerdeki sanatı da görüyor muyum? Kendi küçüklüğümü değersizlik olarak mı görüyorum? Bir çekirdeğe bakarken içindeki ağacı düşünebiliyor muyum?",
+  "hayat": "Bugün küçük bir şeye, örneğin bir karıncaya, bir tohuma veya bir yaprağa birkaç dakika dikkatle bakmak bu dersin uygulamasıdır. Bir meyvenin çekirdeğini çıkarırken onun içindeki ağaç planını düşünmek, tefekkürü derinleştirir. Kendimizi küçük gördüğümüz anlarda, Rabbimizin bizim küçük bedenimize büyük bir sanat koyduğunu hatırlamak da güzel bir tesellidir.",
+  "ders": "Acaib-i san'at noktasında cüz'iyat külliyattan geri değildir; çiçekler yıldızlardan aşağı, çekirdekler ağaçlardan madun değildir; hilkat-i insaniye hilkat-i âlemden daha acebdir.",
+  "tefekkurSorusu": "Bugün hangi küçük şeyde büyük bir sanat gördüm?",
+  "dua": {
+   "arapca": "ٱللَّهُمَّ مَـٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍۢ",
+   "okunus": "Allâhumme mâlike l-mulki tutî l-mulke men teşâu vetenzi'u l-mulke mimmen teşâu vetu'ızzu men teşâu vetuzillu men teşâu biyedike l-hayru inneke 'alâ kulli şeyin kadîrun tûlicu el-leyle fî n-nehârı vetûlicu n-nehâra fî el-leyli vetuhrıcu l-haye mine l-meyiti vetuhrıcu l-meyite mine l-hayi veterzuku men teşâu biğayrı hısâb",
+   "anlam": "De ki: “Mülkün sahibi olan Allah'ım! Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir. Doğrusu Sen, her şeye Kadir'sin. Geceyi gündüze, gündüzü geceye geçirirsin; ölüden diri, diriden ölü çıkarırsın; dilediğini hesapsız rızıklandırırsın”.",
+   "kaynak": "Âl-i İmrân, 3/26-27"
+  },
+  "konular": [
+   "tabiat",
+   "insanKainat"
+  ],
+  "kavramlar": [
+   "Cüz'iyat",
+   "Külliyat",
+   "Nakş-ı Kader",
+   "Nesc-i Kudret",
+   "Acaib-i San'at"
+  ],
+  "kaynaklar": [
+   "Kamer, 54/49",
+   "Bediüzzaman Said Nursî, Mektûbât, Yirminci Mektub, İkinci Makam"
+  ],
+  "sinav": [
+   {
+    "soru": "Yirminci Mektub'a göre çiçekler yıldızlardan nasıldır?",
+    "secenekler": [
+     "Çok aşağıdır",
+     "Aşağı değildir",
+     "Önemsizdir",
+     "Hiç karşılaştırılmaz"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Yirminci Mektub'a göre çekirdekteki manevi ağaç neden daha acibdir?",
+    "secenekler": [
+     "Bağdaki mücessem ağaçtan",
+     "Taştan",
+     "Topraktan",
+     "Sudan"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah her şeyi bir ölçüye göre yaratmıştır.",
+    "dogru": true
+   }
+  ]
+ },
+ {
+  "id": "ders_226",
+  "kategori": "iman",
+  "baslik": "Tek Bir Yaratıcı Kabul Edilmezse",
+  "giris": "Bir binanın tek bir mimarı olduğunu kabul etmeyen biri, her tuğlanın kendi mimarı olduğunu söylemek zorunda kalır. Bediüzzaman, Lâsiyyemâlar'da bu mantığı kâinata uygular: Tek bir Yaratıcı kabul edilmezse, kâinatın her zerresi ve her birleşimi kadar sonsuz ilahları kabul etmek gerekir. Üstelik her birinin bütün kâinatı yaratabilecek güçte olması gerekir.",
+  "aciklama": "Kur'an-ı Kerîm birden fazla ilahın imkânsızlığını şöyle bildirir: “Allah çocuk edinmemiştir; O'nun yanında hiçbir tanrı yoktur, olsaydı, her tanrı kendi yarattığı ile beraber gider ve birbirinden üstün olmağa çalışırlardı.” Birden fazla ilah olsaydı, kâinatta bir çekişme ve karışıklık görülürdü. Oysa kâinat baştan sona bir uyum içindedir; bu uyum, tek bir Yaratıcı'nın eseridir.",
+  "risalePerspektifi": "Bediüzzaman, Mesnevî-i Nûriye'nin Lâsiyyemâlar kısmında şöyle der: “Evet, Hâlik-ı Vâhid kabûl edilmediği takdîrde, kâinâtın zerrâtı ve mürekkebâtı adedince sonsuz ilâhların kabûlüne mecbûriyet hâsıl olur.” Eserdeki anlatımın özetine göre kâinattaki her parça, bütünle sıkı bir bağ içindedir; bu yüzden bir parçayı yaratan, bütünü de yaratabilmelidir. Aynı yerde bu hakikat şöyle açıklanır: “Ve aynı zamanda, her bir ilâhın şu kâinâtı halketmeye kādir olması lâzımdır. Çünki zîhayatın her bir cüz’îsi, zevi’l-hayatın küllüne, yani umûmuna bir fihristtir. Cüz’îyi halk eden, küllîyi de halketmeye kādir olmalıdır.” Yani tevhidi inkâr eden, sayısız ve her biri her şeye kadir ilahları kabul etmek gibi akla sığmayan bir yüke girer.",
+  "kainattanDelil": "Bir insanın tek bir hücresi, bütün bedenin planını taşır; onu yaratan, bütün bedeni de yaratabilmelidir. Bir yaprak, bütün ağacın özelliklerini gösterir. Bir damla su, bütün denizlerin kimyasını taşır. Kâinatta her parça bütünün bir fihristi gibidir; bu yüzden parçanın yaratıcısı, bütünün de yaratıcısı olmalıdır.",
+  "hikmet": "Tek bir Yaratıcı kabul edilmezse, kâinatın zerreleri sayısınca sonsuz ilah kabul etmek gerekir. Her birinin bütün kâinatı yaratacak güçte olması da gerekir. Çünkü her canlı parçası, bütün canlıların bir fihristidir. Tevhid, aklın en kolay ve en sağlam yoludur; şirk ise akla sığmayan bir yüktür.",
+  "kendimize": "Kâinattaki uyuma bakarken tek bir Yaratıcı'yı görebiliyor muyum? Tevhidin aklın en kolay yolu olduğunu düşünüyor muyum? Hayatımda Allah'tan başka şeylere ilahlık verdiğim gizli bir bağlılık var mı?",
+  "hayat": "Bugün ‘Lâ ilâhe illallah’ zikrini, anlamını düşünerek birkaç kez tekrar etmek bu dersin uygulamasıdır. Bir şeye aşırı güvendiğimizi veya bağlandığımızı fark ettiğimizde onu Rabbimizin bir vasıtası olarak görmek, gizli şirkten korunmaktır. Bir bitkinin veya bir hücrenin bütünle olan bağını düşünmek de tevhidi derinleştiren güzel bir tefekkürdür.",
+  "ders": "Halık-ı Vahid kabul edilmezse, kâinatın zerratı adedince sonsuz ilahların kabulüne mecburiyet hasıl olur; cüz'iyi halk eden, külliyi de halketmeye kadir olmalıdır.",
+  "tefekkurSorusu": "Bugün hangi parçada bütünün Yaratıcısını gördüm?",
+  "dua": {
+   "arapca": "قُلْ هُوَ ٱللَّهُ أَحَدٌ ٱللَّهُ ٱلصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+   "okunus": "Kul huve'llâhu ehadun el-lehu s-samedu lem yelid velem yûled velem yekun lehu kufuven ehad",
+   "anlam": "De ki: O Allah bir tektir. Allah her şeyden müstağni ve her şey O'na muhtaçtır. O doğurmamış ve doğmamıştır. Hiçbir şey O'na denk değildir.",
+   "kaynak": "İhlâs, 112/1-4"
+  },
+  "konular": [
+   "tevhid",
+   "tabiat"
+  ],
+  "kavramlar": [
+   "Hâlık-ı Vâhid",
+   "Şirk",
+   "Cüz'i",
+   "Külli",
+   "Fihrist"
+  ],
+  "kaynaklar": [
+   "Mü'minûn, 23/91",
+   "Bediüzzaman Said Nursî, Mesnevî-i Nûriye, Lâsiyyemâlar"
+  ],
+  "sinav": [
+   {
+    "soru": "Lâsiyyemâlar'a göre Hâlık-ı Vâhid kabul edilmezse ne olur?",
+    "secenekler": [
+     "Hiçbir şey değişmez",
+     "Zerrat adedince sonsuz ilahların kabulüne mecburiyet hasıl olur",
+     "Kâinat daha düzenli olur",
+     "Tesadüf yeterli olur"
+    ],
+    "dogru": 1
+   },
+   {
+    "soru": "Lâsiyyemâlar'a göre zîhayatın her bir cüz'isi nedir?",
+    "secenekler": [
+     "Zevi'l-hayatın küllüne bir fihrist",
+     "Bağımsız bir varlık",
+     "Önemsiz bir parça",
+     "Bir tesadüf"
+    ],
+    "dogru": 0
+   }
+  ],
+  "dogruYanlis": [
+   {
+    "ifade": "Ayete göre Allah'ın yanında başka bir ilah olsaydı, her biri kendi yarattığıyla giderdi.",
+    "dogru": true
+   }
+  ]
  }
 ]
